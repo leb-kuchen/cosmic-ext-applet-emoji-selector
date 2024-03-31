@@ -37,6 +37,7 @@ pub enum Message {
     Search(String),
     SearchDo,
     Frame(std::time::Instant),
+    Ignore,
 }
 
 #[derive(Clone, Debug)]
@@ -140,7 +141,17 @@ impl cosmic::Application for Window {
                 }
             }
             Message::Emoji(emoji) => {
-                println!("{emoji}");
+                use wl_clipboard_rs::copy::{MimeType, Options, Source};
+                return Command::perform(
+                    async move {
+                        let opts = Options::new();
+                        _ = opts.copy(
+                            Source::Bytes(emoji.into_bytes().into()),
+                            MimeType::Autodetect,
+                        );
+                    },
+                    |_| cosmic::app::message::app(Message::Ignore),
+                );
             }
             Message::Search(search) => {
                 self.search = search;
@@ -151,6 +162,7 @@ impl cosmic::Application for Window {
             Message::Group(group) => {
                 self.selected_group = group;
             }
+            Message::Ignore => {}
         }
         Command::none()
     }
