@@ -32,7 +32,7 @@ pub enum Message {
     Config(Config),
     TogglePopup,
     PopupClosed(Id),
-    Group(emojis::Group),
+    Group(Option<emojis::Group>),
     Emoji(String),
     Search(String),
     SearchDo,
@@ -149,7 +149,7 @@ impl cosmic::Application for Window {
                 dbg!("to search");
             }
             Message::Group(group) => {
-                self.selected_group = Some(group);
+                self.selected_group = group;
             }
         }
         Command::none()
@@ -184,15 +184,16 @@ impl cosmic::Application for Window {
 
         let mut groups = widget::row::with_capacity(9).width(Length::Fill);
         for group in emojis::Group::iter() {
+            let is_selected = self.selected_group.is_some_and(|sel| sel == group);
             let group_btn = widget::icon::from_name(group_icon(group))
                 .symbolic(true)
                 .size(space_m)
                 .apply(widget::button)
                 // honestly there isnt a good style
                 .style(cosmic::theme::Button::Icon)
-                .selected(self.selected_group.is_some_and(|sel| sel == group))
+                .selected(is_selected)
                 .padding(space_xs)
-                .on_press(Message::Group(group))
+                .on_press(Message::Group((!is_selected).then_some(group)))
                 .apply(widget::container)
                 .width(Length::Fill)
                 .center_x()
