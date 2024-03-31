@@ -1,9 +1,7 @@
-[cargo generate](https://cargo-generate.github.io/cargo-generate/)
-# Example
+# Install 
 ```sh
-cargo generate  "leb-kuchen/libcosmic-applet-template" -d config=true -d translate=true -d example=true  -d animation=true -d id="com.example.applet" -d icon="display-symbolic" --name="cosmic-applet-example"
-cd cosmic-applet-example
-# to install icons to system: cp icons... data/icons/scalable/apps/
+git clone https://github.com/leb-kuchen/cosmic-applet-emoji-selector
+cd cosmic-applet-emoji-selector
 cargo b -r
 sudo just install
 ```
