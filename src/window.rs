@@ -3,6 +3,7 @@ use crate::config::{Config, CONFIG_VERSION};
 use crate::fl;
 use cosmic::app::Core;
 use cosmic::cosmic_config;
+use cosmic::iced;
 use cosmic::iced::wayland::popup::{destroy_popup, get_popup};
 use cosmic::iced::window::Id;
 #[allow(unused_imports)]
@@ -14,6 +15,7 @@ use cosmic::iced_style::application;
 use cosmic::widget::{self};
 use cosmic::{Apply, Element, Theme};
 use cosmic_time::Timeline;
+const EMOJI_FONT_FAMILY: cosmic::iced::Font = iced::Font::with_name("Noto Color Emoji");
 pub const ID: &str = "dev.dominiccgeh.CosmicAppletEmojiSelector";
 const ICON: &str = ID;
 pub struct Window {
@@ -76,7 +78,10 @@ impl cosmic::Application for Window {
             search: String::new(),
             timeline: Timeline::new(),
         };
-        (window, Command::none())
+        let font_load =
+            iced::font::load(include_bytes!("../data/NotoColorEmoji-Regular.ttf").as_slice())
+                .map(|_| cosmic::app::message::app(Message::Ignore));
+        (window, font_load)
     }
 
     fn on_close_requested(&self, id: window::Id) -> Option<Message> {
@@ -240,6 +245,8 @@ impl cosmic::Application for Window {
                     .size(25)
                     .width(35)
                     .height(35)
+                    .font(EMOJI_FONT_FAMILY)
+                    .shaping(cosmic::iced_core::text::Shaping::Advanced)
                     .horizontal_alignment(alignment::Horizontal::Center);
                 // .vertical_alignment(alignment::Vertical::Center);
                 let emoji_btn = widget::button(emoji_txt)
