@@ -1,3 +1,5 @@
+use std::collections::HashMap;
+
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
@@ -12,6 +14,7 @@ use cosmic::iced::{Command, Limits};
 use cosmic::iced_futures::Subscription;
 use cosmic::iced_runtime::core::window;
 use cosmic::iced_style::application;
+use cosmic::iced_widget::scrollable;
 use cosmic::widget::{self};
 use cosmic::{Apply, Element, Theme};
 use cosmic_time::Timeline;
@@ -25,9 +28,10 @@ pub struct Window {
     #[allow(dead_code)]
     config_handler: Option<cosmic_config::Config>,
     timeline: Timeline,
-    emojis: Vec<String>,
     selected_group: Option<emojis::Group>,
     search: String,
+    scrollable_id: widget::Id,
+    scroll_views: HashMap<Option<emojis::Group>, scrollable::Viewport>,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -39,6 +43,7 @@ pub enum Message {
     Search(String),
     SearchDo,
     Frame(std::time::Instant),
+    Scroll(scrollable::Viewport),
     Ignore,
 }
 
@@ -66,17 +71,17 @@ impl cosmic::Application for Window {
         core: Core,
         flags: Self::Flags,
     ) -> (Self, Command<cosmic::app::Message<Self::Message>>) {
-        let emojis: Vec<_> = emojis::iter().map(|e| e.as_str().to_string()).collect();
         let selected_group = None;
         let window = Window {
+            scrollable_id: widget::Id::unique(),
             selected_group,
             core,
-            emojis,
             config: flags.config,
             config_handler: flags.config_handler,
             popup: None,
             search: String::new(),
             timeline: Timeline::new(),
+            scroll_views: HashMap::new(),
         };
         let font_load =
             iced::font::load(include_bytes!("../data/NotoColorEmoji-Regular.ttf").as_slice())
@@ -148,6 +153,7 @@ impl cosmic::Application for Window {
             Message::Emoji(emoji) => {
                 use wl_clipboard_rs::copy::{MimeType, Options, Source};
                 return Command::perform(
+                    // todo how long does this block?
                     async move {
                         let opts = Options::new();
                         _ = opts.copy(
@@ -166,8 +172,18 @@ impl cosmic::Application for Window {
             }
             Message::Group(group) => {
                 self.selected_group = group;
+                return scrollable::scroll_to(
+                    self.scrollable_id.clone(),
+                    match self.scroll_views.get(&group) {
+                        Some(viewport) => viewport.absolute_offset(),
+                        None => scrollable::AbsoluteOffset::default(),
+                    },
+                );
             }
             Message::Ignore => {}
+            Message::Scroll(viewport) => {
+                self.scroll_views.insert(self.selected_group, viewport);
+            }
         }
         Command::none()
     }
@@ -207,6 +223,7 @@ impl cosmic::Application for Window {
                 .size(space_m)
                 .apply(widget::button)
                 // honestly there isnt a good style
+                // needs containers
                 .style(cosmic::theme::Button::Icon)
                 .selected(is_selected)
                 .padding(space_xs)
@@ -227,8 +244,7 @@ impl cosmic::Application for Window {
             .width(Length::Fill);
         content = content.push(search);
 
-        let mut grid =
-            widget::column::with_capacity(((self.emojis.len() as f64) / 10.0).ceil() as _);
+        let mut grid = widget::column();
 
         // array_chunks isn't stable
         const GRID_SIZE: usize = 10;
@@ -267,6 +283,7 @@ impl cosmic::Application for Window {
             Some(group) => Box::from(group.emojis()),
             None => Box::from(emojis::iter()),
         };
+        // switch back to grid?
         for emoji in emoji_iter {
             if !self.search.is_empty() && !emoji.name().contains(&self.search) {
                 continue;
@@ -287,11 +304,13 @@ impl cosmic::Application for Window {
         // just hardcode the width for now,
         // as grid won't work if there are no search results
         // and there a currently no grid templates
+
+        // todo figure out positioning after I have configured sccache and mold linker
         let grid = grid
             .apply(widget::container)
-            .width(Length::Fill)
-            .center_x()
             .apply(widget::scrollable)
+            .id(self.scrollable_id.clone())
+            .on_scroll(Message::Scroll)
             .height(Length::Fill)
             .width(Length::Fill)
             .apply(widget::container)
