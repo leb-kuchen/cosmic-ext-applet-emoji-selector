@@ -24,3 +24,4 @@ once_cell = "1.19.0"
 emojis = "0.6.1"
 rayon = "1.10.0"
 wl-clipboard-rs = { version = "0.8.1", features = ["dlopen", "native_lib"] }
+regex = "1.10.4"

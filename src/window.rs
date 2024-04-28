@@ -18,6 +18,7 @@ use cosmic::iced_widget::scrollable;
 use cosmic::widget::{self};
 use cosmic::{Apply, Element, Theme};
 use cosmic_time::Timeline;
+use regex::RegexBuilder;
 const EMOJI_FONT_FAMILY: cosmic::iced::Font = iced::Font::with_name("Noto Color Emoji");
 pub const ID: &str = "dev.dominiccgeh.CosmicAppletEmojiSelector";
 const ICON: &str = ID;
@@ -149,13 +150,12 @@ impl cosmic::Application for Window {
             Message::Emoji(emoji) => {
                 let mut last_used = self.config.last_used.clone();
                 if let Some(idx) = last_used.iter().position(|e| e == &emoji) {
-                  last_used.swap(0, idx);
+                    last_used.swap(0, idx);
                 } else {
-                  last_used.insert(0, emoji.clone());
+                    last_used.insert(0, emoji.clone());
                 }
-              last_used.truncate(self.config.last_used_limit);
+                last_used.truncate(self.config.last_used_limit);
                 config_set!(last_used, last_used);
-                config_set!(last_used_limit, 30);
                 use wl_clipboard_rs::copy::{MimeType, Options, Source};
                 return Command::perform(
                     // todo how long does this block?
@@ -209,8 +209,8 @@ impl cosmic::Application for Window {
             space_xxl,  // 64
             space_xxxl, // 128
         } = self.core.system_theme().cosmic().spacing;
-        let mut content = widget::column::with_capacity(3)
-            .padding([space_xxs, space_none])
+        let mut content = widget::column::with_capacity(6)
+            .padding([space_xxs, space_xxxs])
             .spacing(space_m);
         // .width(200);
 
@@ -277,11 +277,35 @@ impl cosmic::Application for Window {
             row
         };
 
-        for emojis in chunks(self.config.last_used.iter().filter_map(|e| emojis::get(&e))) {
-            grid = grid.push(emoji_row(emojis));
-        }
+        let search_regex = RegexBuilder::new(&self.search)
+            .case_insensitive(true)
+            .build()
+            .ok();
 
-        grid = grid.push(widget::vertical_space(space_s));
+        let search_filter = |emoji: &&emojis::Emoji, search_regex: Option<&regex::Regex>| {
+            if self.search.is_empty() {
+                return true;
+            }
+            match search_regex {
+                Some(re) => re.is_match(emoji.name()),
+                None => emoji.name().contains(&self.search),
+            }
+        };
+
+        if self.selected_group.is_none() {
+            for emojis in chunks(
+                self.config
+                    .last_used
+                    .iter()
+                    .filter_map(|e| emojis::get(&e))
+                    .filter(|emoji| search_filter(emoji, search_regex.as_ref())),
+            ) {
+                grid = grid.push(emoji_row(emojis));
+            }
+            grid = grid.push(widget::vertical_space(space_xs));
+            grid = grid.push(widget::divider::horizontal::default());
+            grid = grid.push(widget::vertical_space(space_xs));
+        }
 
         let emoji_iter: Box<dyn Iterator<Item = &'static emojis::Emoji>> = match self.selected_group
         {
@@ -289,10 +313,8 @@ impl cosmic::Application for Window {
             None => Box::from(emojis::iter()),
         };
         // switch back to grid?
-        for emojis in chunks(
-            emoji_iter
-                .filter(|emoji| self.search.is_empty() || !emoji.name().contains(&self.search)),
-        ) {
+        for emojis in chunks(emoji_iter.filter(|emoji| search_filter(emoji, search_regex.as_ref())))
+        {
             grid = grid.push(emoji_row(emojis));
         }
         // just hardcode the width for now,
