@@ -171,13 +171,13 @@ impl cosmic::Application for Window {
                 dbg!("to search");
             }
             Message::Group(group) => {
+                if self.selected_group == group {
+                    return Command::none();
+                }
                 self.selected_group = group;
                 return scrollable::scroll_to(
                     self.scrollable_id.clone(),
-                    match self.scroll_views.get(&group) {
-                        Some(viewport) => viewport.absolute_offset(),
-                        None => scrollable::AbsoluteOffset::default(),
-                    },
+                    scrollable::AbsoluteOffset::default(),
                 );
             }
             Message::Ignore => {}
