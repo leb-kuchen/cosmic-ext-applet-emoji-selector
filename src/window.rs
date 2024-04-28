@@ -40,7 +40,6 @@ pub enum Message {
     Group(Option<emojis::Group>),
     Emoji(String),
     Search(String),
-    SearchDo,
     Frame(std::time::Instant),
     Ignore,
 }
@@ -173,9 +172,6 @@ impl cosmic::Application for Window {
             Message::Search(search) => {
                 self.search = search;
             }
-            Message::SearchDo => {
-                dbg!("to search");
-            }
             Message::Group(group) => {
                 if self.selected_group == group {
                     return Command::none();
@@ -242,7 +238,6 @@ impl cosmic::Application for Window {
         let search = widget::search_input("Search for emojis", &self.search)
             .on_input(Message::Search)
             .on_paste(Message::Search)
-            .on_submit(Message::SearchDo)
             .on_clear(Message::Search(String::new()))
             .width(Length::Fill);
         content = content.push(search);
