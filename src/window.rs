@@ -1,3 +1,5 @@
+use std::iter;
+
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
@@ -146,6 +148,15 @@ impl cosmic::Application for Window {
                 }
             }
             Message::Emoji(emoji) => {
+                let mut last_used = self.config.last_used.clone();
+                if let Some(idx) = last_used.iter().position(|e| e == &emoji) {
+                  last_used.swap(0, idx);
+                } else {
+                  last_used.insert(0, emoji.clone());
+                }
+              last_used.truncate(self.config.last_used_limit);
+                config_set!(last_used, last_used);
+                config_set!(last_used_limit, 30);
                 use wl_clipboard_rs::copy::{MimeType, Options, Source};
                 return Command::perform(
                     // todo how long does this block?
@@ -236,13 +247,9 @@ impl cosmic::Application for Window {
             .width(Length::Fill);
         content = content.push(search);
 
-        let mut grid = widget::column();
-
-        // array_chunks isn't stable
         const GRID_SIZE: usize = 10;
-        const EMOJI_NONE: Option<&emojis::Emoji> = None;
-        let mut emojis: [Option<&emojis::Emoji>; 10] = [EMOJI_NONE; GRID_SIZE];
-        let mut emoji_idx = 0;
+
+        let mut grid = widget::column();
 
         let emoji_row = |emojis: [Option<&emojis::Emoji>; 10]| {
             let mut row = widget::row::with_capacity(GRID_SIZE);
@@ -274,27 +281,23 @@ impl cosmic::Application for Window {
             }
             row
         };
+
+        for emojis in chunks(self.config.last_used.iter().filter_map(|e| emojis::get(&e))) {
+            grid = grid.push(emoji_row(emojis));
+        }
+
+        grid = grid.push(widget::vertical_space(space_s));
+
         let emoji_iter: Box<dyn Iterator<Item = &'static emojis::Emoji>> = match self.selected_group
         {
             Some(group) => Box::from(group.emojis()),
             None => Box::from(emojis::iter()),
         };
         // switch back to grid?
-        for emoji in emoji_iter {
-            if !self.search.is_empty() && !emoji.name().contains(&self.search) {
-                continue;
-            }
-            emojis[emoji_idx] = Some(emoji);
-            emoji_idx += 1;
-            if emoji_idx == GRID_SIZE {
-                emoji_idx = 0;
-                grid = grid.push(emoji_row(emojis));
-            }
-        }
-        if emoji_idx != 0 {
-            for i in emoji_idx..GRID_SIZE {
-                emojis[i] = None
-            }
+        for emojis in chunks(
+            emoji_iter
+                .filter(|emoji| self.search.is_empty() || !emoji.name().contains(&self.search)),
+        ) {
             grid = grid.push(emoji_row(emojis));
         }
         // just hardcode the width for now,
@@ -362,4 +365,24 @@ fn group_icon(group: emojis::Group) -> &'static str {
         emojis::Group::Flags => icon!("black-flag-icon"),
     };
     icon
+}
+// todo switch to array chunks once stable
+fn chunks<T, const N: usize>(
+    mut iter: impl Iterator<Item = T>,
+) -> impl Iterator<Item = [Option<T>; N]> {
+    let mut is_break = false;
+    iter::from_fn(move || {
+        if is_break {
+            return None;
+        }
+        let array = [(); N].map(|_| {
+            let next = iter.next();
+            is_break = is_break || next.is_none();
+            next
+        });
+        if array[0].is_none() {
+            return None;
+        }
+        Some(array)
+    })
 }
