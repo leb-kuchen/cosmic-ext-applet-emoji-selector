@@ -4,10 +4,14 @@ use serde::{Deserialize, Serialize};
 pub const CONFIG_VERSION: u64 = 1;
 
 #[derive(Clone, CosmicConfigEntry, Debug, Deserialize, Eq, PartialEq, Serialize)]
-pub struct Config {}
+pub struct Config {
+    show_tooltip: bool,
+}
 
 impl Default for Config {
     fn default() -> Self {
-        Self {}
+        Self {
+            show_tooltip: false,
+        }
     }
 }

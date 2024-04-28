@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
@@ -31,7 +29,6 @@ pub struct Window {
     selected_group: Option<emojis::Group>,
     search: String,
     scrollable_id: widget::Id,
-    scroll_views: HashMap<Option<emojis::Group>, scrollable::Viewport>,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -43,7 +40,6 @@ pub enum Message {
     Search(String),
     SearchDo,
     Frame(std::time::Instant),
-    Scroll(scrollable::Viewport),
     Ignore,
 }
 
@@ -81,7 +77,6 @@ impl cosmic::Application for Window {
             popup: None,
             search: String::new(),
             timeline: Timeline::new(),
-            scroll_views: HashMap::new(),
         };
         let font_load =
             iced::font::load(include_bytes!("../data/NotoColorEmoji-Regular.ttf").as_slice())
@@ -181,9 +176,6 @@ impl cosmic::Application for Window {
                 );
             }
             Message::Ignore => {}
-            Message::Scroll(viewport) => {
-                self.scroll_views.insert(self.selected_group, viewport);
-            }
         }
         Command::none()
     }
@@ -310,7 +302,6 @@ impl cosmic::Application for Window {
             .apply(widget::container)
             .apply(widget::scrollable)
             .id(self.scrollable_id.clone())
-            .on_scroll(Message::Scroll)
             .height(Length::Fill)
             .width(Length::Fill)
             .apply(widget::container)
