@@ -257,16 +257,20 @@ impl cosmic::Application for Window {
                     .shaping(cosmic::iced_core::text::Shaping::Advanced)
                     .horizontal_alignment(alignment::Horizontal::Center);
                 // .vertical_alignment(alignment::Vertical::Center);
-                let emoji_btn = widget::button(emoji_txt)
+                let mut emoji_btn = widget::button(emoji_txt)
                     .on_press(Message::Emoji(emoji.to_string()))
-                    .style(cosmic::theme::Button::Icon);
-                let emoji_tooltip = widget::tooltip(
-                    emoji_btn,
-                    emoji.name().to_string(),
-                    widget::tooltip::Position::Top,
-                );
+                    .style(cosmic::theme::Button::Icon)
+                    .apply(Element::from);
 
-                row = row.push(emoji_tooltip);
+                if self.config.show_tooltip {
+                    let emoji_tooltip = widget::tooltip(
+                        emoji_btn,
+                        emoji.name().to_string(),
+                        widget::tooltip::Position::Top,
+                    );
+                    emoji_btn = emoji_tooltip.into()
+                }
+                row = row.push(emoji_btn)
             }
             row
         };
