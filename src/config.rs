@@ -1,4 +1,3 @@
-
 use cosmic::cosmic_config::{self, cosmic_config_derive::CosmicConfigEntry, CosmicConfigEntry};
 
 use serde::{Deserialize, Serialize};

@@ -276,8 +276,9 @@ impl cosmic::Application for Window {
             }
             row
         };
-
-        let search_regex = RegexBuilder::new(&self.search)
+        // use regex to apply simple unicode case folding
+       let regex_pattern = regex::escape(&self.search);
+        let search_regex = RegexBuilder::new(&regex_pattern)
             .case_insensitive(true)
             .build()
             .ok();
