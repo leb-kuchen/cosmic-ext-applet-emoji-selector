@@ -1,4 +1,4 @@
-use std::collections::HashMap;
+use std::iter;
 
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
@@ -18,6 +18,7 @@ use cosmic::iced_widget::scrollable;
 use cosmic::widget::{self};
 use cosmic::{Apply, Element, Theme};
 use cosmic_time::Timeline;
+use regex::RegexBuilder;
 const EMOJI_FONT_FAMILY: cosmic::iced::Font = iced::Font::with_name("Noto Color Emoji");
 pub const ID: &str = "dev.dominiccgeh.CosmicAppletEmojiSelector";
 const ICON: &str = ID;
@@ -31,7 +32,6 @@ pub struct Window {
     selected_group: Option<emojis::Group>,
     search: String,
     scrollable_id: widget::Id,
-    scroll_views: HashMap<Option<emojis::Group>, scrollable::Viewport>,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -41,9 +41,7 @@ pub enum Message {
     Group(Option<emojis::Group>),
     Emoji(String),
     Search(String),
-    SearchDo,
     Frame(std::time::Instant),
-    Scroll(scrollable::Viewport),
     Ignore,
 }
 
@@ -81,7 +79,6 @@ impl cosmic::Application for Window {
             popup: None,
             search: String::new(),
             timeline: Timeline::new(),
-            scroll_views: HashMap::new(),
         };
         let font_load =
             iced::font::load(include_bytes!("../data/NotoColorEmoji-Regular.ttf").as_slice())
@@ -151,6 +148,14 @@ impl cosmic::Application for Window {
                 }
             }
             Message::Emoji(emoji) => {
+                let mut last_used = self.config.last_used.clone();
+                if let Some(idx) = last_used.iter().position(|e| e == &emoji) {
+                    last_used.swap(0, idx);
+                } else {
+                    last_used.insert(0, emoji.clone());
+                }
+                last_used.truncate(self.config.last_used_limit);
+                config_set!(last_used, last_used);
                 use wl_clipboard_rs::copy::{MimeType, Options, Source};
                 return Command::perform(
                     // todo how long does this block?
@@ -167,23 +172,17 @@ impl cosmic::Application for Window {
             Message::Search(search) => {
                 self.search = search;
             }
-            Message::SearchDo => {
-                dbg!("to search");
-            }
             Message::Group(group) => {
+                if self.selected_group == group {
+                    return Command::none();
+                }
                 self.selected_group = group;
                 return scrollable::scroll_to(
                     self.scrollable_id.clone(),
-                    match self.scroll_views.get(&group) {
-                        Some(viewport) => viewport.absolute_offset(),
-                        None => scrollable::AbsoluteOffset::default(),
-                    },
+                    scrollable::AbsoluteOffset::default(),
                 );
             }
             Message::Ignore => {}
-            Message::Scroll(viewport) => {
-                self.scroll_views.insert(self.selected_group, viewport);
-            }
         }
         Command::none()
     }
@@ -210,8 +209,8 @@ impl cosmic::Application for Window {
             space_xxl,  // 64
             space_xxxl, // 128
         } = self.core.system_theme().cosmic().spacing;
-        let mut content = widget::column::with_capacity(3)
-            .padding([space_xxs, space_none])
+        let mut content = widget::column::with_capacity(6)
+            .padding([space_xxs, space_xxxs])
             .spacing(space_m);
         // .width(200);
 
@@ -239,18 +238,13 @@ impl cosmic::Application for Window {
         let search = widget::search_input("Search for emojis", &self.search)
             .on_input(Message::Search)
             .on_paste(Message::Search)
-            .on_submit(Message::SearchDo)
             .on_clear(Message::Search(String::new()))
             .width(Length::Fill);
         content = content.push(search);
 
-        let mut grid = widget::column();
-
-        // array_chunks isn't stable
         const GRID_SIZE: usize = 10;
-        const EMOJI_NONE: Option<&emojis::Emoji> = None;
-        let mut emojis: [Option<&emojis::Emoji>; 10] = [EMOJI_NONE; GRID_SIZE];
-        let mut emoji_idx = 0;
+
+        let mut grid = widget::column();
 
         let emoji_row = |emojis: [Option<&emojis::Emoji>; 10]| {
             let mut row = widget::row::with_capacity(GRID_SIZE);
@@ -265,40 +259,63 @@ impl cosmic::Application for Window {
                     .shaping(cosmic::iced_core::text::Shaping::Advanced)
                     .horizontal_alignment(alignment::Horizontal::Center);
                 // .vertical_alignment(alignment::Vertical::Center);
-                let emoji_btn = widget::button(emoji_txt)
+                let mut emoji_btn = widget::button(emoji_txt)
                     .on_press(Message::Emoji(emoji.to_string()))
-                    .style(cosmic::theme::Button::Icon);
-                let emoji_tooltip = widget::tooltip(
-                    emoji_btn,
-                    emoji.name().to_string(),
-                    widget::tooltip::Position::Top,
-                );
+                    .style(cosmic::theme::Button::Icon)
+                    .apply(Element::from);
 
-                row = row.push(emoji_tooltip);
+                if self.config.show_tooltip {
+                    let emoji_tooltip = widget::tooltip(
+                        emoji_btn,
+                        emoji.name().to_string(),
+                        widget::tooltip::Position::Top,
+                    );
+                    emoji_btn = emoji_tooltip.into()
+                }
+                row = row.push(emoji_btn)
             }
             row
         };
+        // use regex to apply simple unicode case folding
+       let regex_pattern = regex::escape(&self.search);
+        let search_regex = RegexBuilder::new(&regex_pattern)
+            .case_insensitive(true)
+            .build()
+            .ok();
+
+        let search_filter = |emoji: &&emojis::Emoji, search_regex: Option<&regex::Regex>| {
+            if self.search.is_empty() {
+                return true;
+            }
+            match search_regex {
+                Some(re) => re.is_match(emoji.name()),
+                None => emoji.name().contains(&self.search),
+            }
+        };
+
+        if self.selected_group.is_none() {
+            for emojis in chunks(
+                self.config
+                    .last_used
+                    .iter()
+                    .filter_map(|e| emojis::get(&e))
+                    .filter(|emoji| search_filter(emoji, search_regex.as_ref())),
+            ) {
+                grid = grid.push(emoji_row(emojis));
+            }
+            grid = grid.push(widget::vertical_space(space_xs));
+            grid = grid.push(widget::divider::horizontal::default());
+            grid = grid.push(widget::vertical_space(space_xs));
+        }
+
         let emoji_iter: Box<dyn Iterator<Item = &'static emojis::Emoji>> = match self.selected_group
         {
             Some(group) => Box::from(group.emojis()),
             None => Box::from(emojis::iter()),
         };
         // switch back to grid?
-        for emoji in emoji_iter {
-            if !self.search.is_empty() && !emoji.name().contains(&self.search) {
-                continue;
-            }
-            emojis[emoji_idx] = Some(emoji);
-            emoji_idx += 1;
-            if emoji_idx == GRID_SIZE {
-                emoji_idx = 0;
-                grid = grid.push(emoji_row(emojis));
-            }
-        }
-        if emoji_idx != 0 {
-            for i in emoji_idx..GRID_SIZE {
-                emojis[i] = None
-            }
+        for emojis in chunks(emoji_iter.filter(|emoji| search_filter(emoji, search_regex.as_ref())))
+        {
             grid = grid.push(emoji_row(emojis));
         }
         // just hardcode the width for now,
@@ -310,7 +327,6 @@ impl cosmic::Application for Window {
             .apply(widget::container)
             .apply(widget::scrollable)
             .id(self.scrollable_id.clone())
-            .on_scroll(Message::Scroll)
             .height(Length::Fill)
             .width(Length::Fill)
             .apply(widget::container)
@@ -367,4 +383,24 @@ fn group_icon(group: emojis::Group) -> &'static str {
         emojis::Group::Flags => icon!("black-flag-icon"),
     };
     icon
+}
+// todo switch to array chunks once stable
+fn chunks<T, const N: usize>(
+    mut iter: impl Iterator<Item = T>,
+) -> impl Iterator<Item = [Option<T>; N]> {
+    let mut is_break = false;
+    iter::from_fn(move || {
+        if is_break {
+            return None;
+        }
+        let array = [(); N].map(|_| {
+            let next = iter.next();
+            is_break = is_break || next.is_none();
+            next
+        });
+        if array[0].is_none() {
+            return None;
+        }
+        Some(array)
+    })
 }

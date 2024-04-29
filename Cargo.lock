@@ -842,7 +842,7 @@ dependencies = [
 
 [[package]]
 name = "cosmic-applet-emoji-selector"
-version = "0.1.1"
+version = "0.1.2"
 dependencies = [
  "cosmic-time",
  "emojis",
@@ -852,6 +852,7 @@ dependencies = [
  "once_cell",
  "paste",
  "rayon",
+ "regex",
  "rust-embed",
  "serde",
  "wl-clipboard-rs",
