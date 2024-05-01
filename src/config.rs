@@ -11,6 +11,8 @@ pub struct Config {
     pub last_used_limit: usize,
     #[serde(default)]
     pub last_used: Vec<String>,
+    #[serde(default)]
+    pub font_family: String,
 }
 
 impl Default for Config {
@@ -19,6 +21,7 @@ impl Default for Config {
             show_tooltip: false,
             last_used: Vec::new(),
             last_used_limit: 20,
+            font_family: "Noto Color Emoji".into(),
         }
     }
 }

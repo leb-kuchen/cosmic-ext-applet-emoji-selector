@@ -7,3 +7,8 @@ cd cosmic-applet-emoji-selector
 cargo b -r
 sudo just install
 ```
+
+# Emoji font
+`Noto Color Emoji` is the default emoji font and is required by default. 
+The default can be changed in `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/font_family`.
+A font which supports Unicode 15.1 is generally recommended.

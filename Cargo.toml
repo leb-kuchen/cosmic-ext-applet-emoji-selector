@@ -1,6 +1,6 @@
 [package]
 name = "cosmic-applet-emoji-selector"
-version = "0.1.2"
+version = "0.1.3"
 edition = "2021"
 
 [dependencies]
@@ -25,3 +25,5 @@ emojis = "0.6.1"
 rayon = "1.10.0"
 wl-clipboard-rs = { version = "0.8.1", features = ["dlopen", "native_lib"] }
 regex = "1.10.4"
+
+
