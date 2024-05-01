@@ -19,7 +19,6 @@ use cosmic::widget::{self};
 use cosmic::{Apply, Element, Theme};
 use cosmic_time::Timeline;
 use regex::RegexBuilder;
-const EMOJI_FONT_FAMILY: cosmic::iced::Font = iced::Font::with_name("Noto Color Emoji");
 pub const ID: &str = "dev.dominiccgeh.CosmicAppletEmojiSelector";
 const ICON: &str = ID;
 pub struct Window {
@@ -32,6 +31,7 @@ pub struct Window {
     selected_group: Option<emojis::Group>,
     search: String,
     scrollable_id: widget::Id,
+    font_family: cosmic::iced::font::Font,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -70,20 +70,22 @@ impl cosmic::Application for Window {
         flags: Self::Flags,
     ) -> (Self, Command<cosmic::app::Message<Self::Message>>) {
         let selected_group = None;
+        let config = flags.config;
+        let font_family =
+            iced::Font::with_name(Box::leak(config.font_family.clone().into_boxed_str()));
         let window = Window {
+            font_family,
             scrollable_id: widget::Id::unique(),
             selected_group,
             core,
-            config: flags.config,
+            config,
             config_handler: flags.config_handler,
             popup: None,
             search: String::new(),
             timeline: Timeline::new(),
         };
-        let font_load =
-            iced::font::load(include_bytes!("../data/NotoColorEmoji-Regular.ttf").as_slice())
-                .map(|_| cosmic::app::message::app(Message::Ignore));
-        (window, font_load)
+
+        (window, Command::none())
     }
 
     fn on_close_requested(&self, id: window::Id) -> Option<Message> {
@@ -118,10 +120,14 @@ impl cosmic::Application for Window {
         match message {
             Message::Config(config) => {
                 if config != self.config {
+                    if config.font_family != self.config.font_family {
+                        self.font_family = iced::Font::with_name(Box::leak(
+                            config.font_family.clone().into_boxed_str(),
+                        ));
+                    }
                     self.config = config
                 }
             }
-
             Message::Frame(now) => self.timeline.now(now),
 
             Message::TogglePopup => {
@@ -255,7 +261,7 @@ impl cosmic::Application for Window {
                     .size(25)
                     .width(35)
                     .height(35)
-                    .font(EMOJI_FONT_FAMILY)
+                    .font(self.font_family)
                     .shaping(cosmic::iced_core::text::Shaping::Advanced)
                     .horizontal_alignment(alignment::Horizontal::Center);
                 // .vertical_alignment(alignment::Vertical::Center);
@@ -277,7 +283,7 @@ impl cosmic::Application for Window {
             row
         };
         // use regex to apply simple unicode case folding
-       let regex_pattern = regex::escape(&self.search);
+        let regex_pattern = regex::escape(&self.search);
         let search_regex = RegexBuilder::new(&regex_pattern)
             .case_insensitive(true)
             .build()
