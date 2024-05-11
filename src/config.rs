@@ -13,6 +13,8 @@ pub struct Config {
     pub last_used: Vec<String>,
     #[serde(default)]
     pub font_family: String,
+    #[serde(default)]
+    pub show_unicode: bool,
 }
 
 impl Default for Config {
@@ -22,6 +24,7 @@ impl Default for Config {
             last_used: Vec::new(),
             last_used_limit: 20,
             font_family: "Noto Color Emoji".into(),
+            show_unicode: false,
         }
     }
 }
