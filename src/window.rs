@@ -271,11 +271,22 @@ impl cosmic::Application for Window {
                     .apply(Element::from);
 
                 if self.config.show_tooltip {
-                    let emoji_tooltip = widget::tooltip(
-                        emoji_btn,
-                        emoji.name().to_string(),
-                        widget::tooltip::Position::Top,
-                    );
+                    let tooltip = if !self.config.show_unicode {
+                        emoji.name().to_string()
+                    } else {
+                        format!(
+                            "{} - {}",
+                            emoji.name(),
+                            emoji
+                                .as_str()
+                                .chars()
+                                .map(|c| format!("U+{:X}", c as u32))
+                                .collect::<Vec<_>>()
+                                .join(" ")
+                        )
+                    };
+                    let emoji_tooltip =
+                        widget::tooltip(emoji_btn, tooltip, widget::tooltip::Position::Top);
                     emoji_btn = emoji_tooltip.into()
                 }
                 row = row.push(emoji_btn)
@@ -319,7 +330,7 @@ impl cosmic::Application for Window {
             Some(group) => Box::from(group.emojis()),
             None => Box::from(emojis::iter()),
         };
-        // switch back to grid?
+        // switch back to grid or just flex?
         for emojis in chunks(emoji_iter.filter(|emoji| search_filter(emoji, search_regex.as_ref())))
         {
             grid = grid.push(emoji_row(emojis));
