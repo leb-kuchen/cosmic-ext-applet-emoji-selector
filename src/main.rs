@@ -8,6 +8,7 @@ mod moure_area_copy;
 use window::Flags;
 
 mod localize;
+mod widget_copy;
 mod window;
 
 fn main() -> cosmic::iced::Result {
