@@ -20,4 +20,4 @@ In case this does not meet your security requirements, you can enter the unicode
 To do so, enable `show_tooltip` and `show_unicode` in `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/show_tooltip` and
 `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/show_unicode` respectivly.
 Now press `Shift` + `Ctrl` + `U`, then enter the first code, e.g. `1F1E9`, finally press `Shift` + `Ctrl` to enter the code point. 
-After that repeat this step for the remaining code points, in this example `1F1EA` and it will output 🇩🇪. 
+After that repeat this step for the remaining code points ( up to 8), in this example `1F1EA` and it will output 🇩🇪. 
