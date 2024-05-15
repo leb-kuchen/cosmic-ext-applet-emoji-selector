@@ -653,7 +653,7 @@ pub fn update<Message>(
     shell: &mut Shell<'_, Message>,
     direction: Direction,
     on_scroll: &Option<Box<dyn Fn(Viewport) -> Message + '_>>,
-    update_content: impl FnOnce(
+    mut update_content: impl FnMut(
         Event,
         Layout<'_>,
         mouse::Cursor,
@@ -757,6 +757,34 @@ pub fn update<Message>(
             state.scroll(delta, direction, bounds, content_bounds);
 
             notify_on_scroll(state, on_scroll, bounds, content_bounds, shell);
+
+            // https://github.com/iced-rs/iced/pull/2439/files
+            // We've changed the viewport but the child widget still thinks that the mouse is in the same relative place.
+            if let (Some(cursor_position), Some(cursor_position_abs)) =
+                (cursor_over_scrollable, cursor.position())
+            {
+                if !(mouse_over_x_scrollbar || mouse_over_y_scrollbar) {
+                    let cursor = mouse::Cursor::Available(
+                        cursor_position + state.translation(direction, bounds, content_bounds),
+                    );
+
+                    let translation = state.translation(direction, bounds, content_bounds);
+                    _ = update_content(
+                        Event::Mouse(mouse::Event::CursorMoved {
+                            position: cursor_position_abs,
+                        }),
+                        content,
+                        cursor,
+                        clipboard,
+                        shell,
+                        &Rectangle {
+                            y: bounds.y + translation.y,
+                            x: bounds.x + translation.x,
+                            ..bounds
+                        },
+                    );
+                }
+            };
 
             return event::Status::Captured;
         }
@@ -916,7 +944,6 @@ pub fn update<Message>(
 
     event::Status::Ignored
 }
-
 /// Computes the current [`mouse::Interaction`] of a [`Scrollable`].
 pub fn mouse_interaction(
     state: &State,
