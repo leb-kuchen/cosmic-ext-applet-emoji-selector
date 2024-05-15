@@ -1,36 +1,37 @@
 //! Navigate an endless amount of content with a scrollbar.
-use dnd::DndEvent;
-use iced_runtime::core::widget::Id;
-use iced_style::core::clipboard::DndDestinationRectangles;
+use cosmic::iced::clipboard::dnd;
+// use cosmic::iced::dnd::DndEvent;
+use cosmic::iced_runtime::core::widget::Id;
+use cosmic::iced_style::core::clipboard::DndDestinationRectangles;
 #[cfg(feature = "a11y")]
 use std::borrow::Cow;
 
-use crate::core::event::{self, Event};
-use crate::core::keyboard;
-use crate::core::layout;
-use crate::core::mouse;
-use crate::core::overlay;
-use crate::core::renderer;
-use crate::core::touch;
-use crate::core::widget::operation::{self, Operation};
-use crate::core::widget::tree::{self, Tree};
-use crate::core::{
+use cosmic::iced_core::event::{self, Event};
+use cosmic::iced_core::keyboard;
+use cosmic::iced_core::layout;
+use cosmic::iced_core::mouse;
+use cosmic::iced_core::overlay;
+use cosmic::iced_core::renderer;
+use cosmic::iced_core::touch;
+use cosmic::iced_core::widget::operation::{self, Operation};
+use cosmic::iced_core::widget::tree::{self, Tree};
+use cosmic::iced_core::{
     id::Internal, Background, Clipboard, Color, Element, Layout, Length, Pixels, Point, Rectangle,
     Shell, Size, Vector, Widget,
 };
-use crate::runtime::Command;
+use cosmic::iced_runtime::Command;
 
-pub use crate::style::scrollable::{Scrollbar, Scroller, StyleSheet};
-use iced_renderer::core::widget::OperationOutputWrapper;
+use cosmic::iced_renderer::core::widget::OperationOutputWrapper;
+pub use cosmic::iced_style::scrollable::{Scrollbar, Scroller, StyleSheet};
 pub use operation::scrollable::{AbsoluteOffset, RelativeOffset};
 
 /// A widget that can vertically display an infinite amount of content with a
 /// scrollbar.
 #[allow(missing_debug_implementations)]
-pub struct Scrollable<'a, Message, Theme = crate::Theme, Renderer = crate::Renderer>
+pub struct Scrollable<'a, Message, Theme = cosmic::Theme, Renderer = cosmic::Renderer>
 where
     Theme: StyleSheet,
-    Renderer: crate::core::Renderer,
+    Renderer: cosmic::iced_core::Renderer,
 {
     id: Id,
     scrollbar_id: Id,
@@ -51,7 +52,7 @@ where
 impl<'a, Message, Theme, Renderer> Scrollable<'a, Message, Theme, Renderer>
 where
     Theme: StyleSheet,
-    Renderer: crate::core::Renderer,
+    Renderer: cosmic::iced_core::Renderer,
 {
     /// Creates a new [`Scrollable`].
     pub fn new(content: impl Into<Element<'a, Message, Theme, Renderer>>) -> Self {
@@ -248,7 +249,7 @@ impl<'a, Message, Theme, Renderer> Widget<Message, Theme, Renderer>
     for Scrollable<'a, Message, Theme, Renderer>
 where
     Theme: StyleSheet,
-    Renderer: crate::core::Renderer,
+    Renderer: cosmic::iced_core::Renderer,
 {
     fn tag(&self) -> tree::Tag {
         tree::Tag::of::<State>()
@@ -563,7 +564,7 @@ where
         &self,
         tree: &Tree,
         layout: Layout<'_>,
-        dnd_rectangles: &mut iced_style::core::clipboard::DndDestinationRectangles,
+        dnd_rectangles: &mut cosmic::iced_style::core::clipboard::DndDestinationRectangles,
     ) {
         let my_state = tree.state.downcast_ref::<State>();
         if let Some((c_layout, c_state)) = layout.children().zip(tree.children.iter()).next() {
@@ -590,7 +591,7 @@ impl<'a, Message, Theme, Renderer> From<Scrollable<'a, Message, Theme, Renderer>
 where
     Message: 'a,
     Theme: StyleSheet + 'a,
-    Renderer: 'a + crate::core::Renderer,
+    Renderer: 'a + cosmic::iced_core::Renderer,
 {
     fn from(
         text_input: Scrollable<'a, Message, Theme, Renderer>,
@@ -683,7 +684,7 @@ pub fn update<Message>(
 
         let translation = state.translation(direction, bounds, content_bounds);
 
-        if let Event::Dnd(DndEvent::Offer(_, e)) = &mut event {
+        if let Event::Dnd(dnd::DndEvent::Offer(_, e)) = &mut event {
             match e {
                 dnd::OfferEvent::Enter { x, y, .. } => {
                     *x += f64::from(translation.x);
@@ -970,7 +971,7 @@ pub fn draw<Theme, Renderer>(
     draw_content: impl FnOnce(&mut Renderer, Layout<'_>, mouse::Cursor, &Rectangle),
 ) where
     Theme: StyleSheet,
-    Renderer: crate::core::Renderer,
+    Renderer: cosmic::iced_core::Renderer,
 {
     let bounds = layout.bounds();
     let content_layout = layout.children().next().unwrap();
@@ -1567,7 +1568,7 @@ impl Scrollbars {
 }
 
 pub(super) mod internals {
-    use crate::core::{Point, Rectangle};
+    use cosmic::iced_core::{Point, Rectangle};
 
     use super::Alignment;
 
