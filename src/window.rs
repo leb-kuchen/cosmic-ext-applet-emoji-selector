@@ -3,6 +3,7 @@ use std::iter;
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
+use crate::{moure_area_copy, widget_copy};
 use cosmic::app::Core;
 use cosmic::cosmic_config;
 use cosmic::iced;
@@ -32,6 +33,7 @@ pub struct Window {
     search: String,
     scrollable_id: widget::Id,
     font_family: cosmic::iced::font::Font,
+    emoji_hovered: String,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -42,6 +44,7 @@ pub enum Message {
     Emoji(String),
     Search(String),
     Frame(std::time::Instant),
+    EmojiHovered(String),
     Ignore,
 }
 
@@ -83,6 +86,7 @@ impl cosmic::Application for Window {
             popup: None,
             search: String::new(),
             timeline: Timeline::new(),
+            emoji_hovered: String::new(),
         };
 
         (window, Command::none())
@@ -189,6 +193,7 @@ impl cosmic::Application for Window {
                 );
             }
             Message::Ignore => {}
+            Message::EmojiHovered(emoji) => self.emoji_hovered = emoji,
         }
         Command::none()
     }
@@ -235,8 +240,8 @@ impl cosmic::Application for Window {
                 .on_press(Message::Group((!is_selected).then_some(group)))
                 .apply(widget::container)
                 .width(Length::Fill)
-                .center_x()
-                .apply(Element::from);
+                .center_x();
+
             groups = groups.push(group_btn);
         }
         content = content.push(groups);
@@ -247,6 +252,8 @@ impl cosmic::Application for Window {
             .on_clear(Message::Search(String::new()))
             .width(Length::Fill);
         content = content.push(search);
+
+        content = content.push(widget::text(&self.emoji_hovered));
 
         const GRID_SIZE: usize = 10;
 
@@ -268,6 +275,9 @@ impl cosmic::Application for Window {
                 let mut emoji_btn = widget::button(emoji_txt)
                     .on_press(Message::Emoji(emoji.to_string()))
                     .style(cosmic::theme::Button::Icon)
+                    // how have i managed to spell this wrong
+                    .apply(moure_area_copy::MouseArea::new)
+                    .on_enter(Message::EmojiHovered(emoji.name().to_string()))
                     .apply(Element::from);
 
                 if self.config.show_tooltip {
@@ -342,7 +352,7 @@ impl cosmic::Application for Window {
         // todo figure out positioning after I have configured sccache and mold linker
         let grid = grid
             .apply(widget::container)
-            .apply(widget::scrollable)
+            .apply(widget_copy::scrollable::Scrollable::new)
             .id(self.scrollable_id.clone())
             .height(Length::Fill)
             .width(Length::Fill)
