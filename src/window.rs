@@ -247,17 +247,17 @@ impl cosmic::Application for Window {
         }
         content = content.push(groups);
 
-        let search = widget::search_input("Search for emojis", &self.search)
+        let search = widget::search_input(fl!("search-for-emojis"), &self.search)
             .on_input(Message::Search)
             .on_clear(Message::Search(String::new()))
             .width(Length::Fill);
         content = content.push(search);
 
-        let mut preview = widget::row::with_capacity(2)
-            .spacing(space_xxs)
-            .align_items(Alignment::Center);
-
-        if let Some(emoji_hovered) = self.emoji_hovered {
+        // not ideal currently because  of layout shifts
+        let preview = if let Some(emoji_hovered) = self.emoji_hovered {
+            let mut preview = widget::row::with_capacity(2)
+                .spacing(space_xxs)
+                .align_items(Alignment::Center);
             // todo size and width is arbitary; user config?
 
             let preview_emoji = widget::text(emoji_hovered.as_str())
@@ -292,10 +292,25 @@ impl cosmic::Application for Window {
             if let Some(shortcode) = emoji_hovered.shortcode() {
                 right_preview = right_preview.push(widget::text::body(shortcode))
             }
+            if show_unicode {
+                let unicode_chars = emoji_hovered
+                    .as_str()
+                    .chars()
+                    .map(|c| format!("U+{:X}", c as u32))
+                    .collect::<Vec<_>>()
+                    .join(" ");
+                right_preview = right_preview.push(widget::text::caption(unicode_chars));
+            }
 
             preview = preview.push(right_preview);
-        }
-        content = content.push(preview);
+            preview.apply(Element::from)
+        } else if let Some(group) = self.selected_group {
+            widget::text::title1(group_string(group)).into()
+        } else {
+            widget::text::title1(fl!("emojis-and-favorites")).into()
+        };
+        let preview_container = widget::container(preview).center_y().height(75);
+        content = content.push(preview_container);
 
         const GRID_SIZE: usize = 10;
 
@@ -459,6 +474,20 @@ fn chunks<T, const N: usize>(
         }
         Some(array)
     })
+}
+
+fn group_string(group: emojis::Group) -> String {
+    match group {
+        emojis::Group::SmileysAndEmotion => fl!("smileys-and-emotion"),
+        emojis::Group::PeopleAndBody => fl!("people-and-body"),
+        emojis::Group::AnimalsAndNature => fl!("animals-and-nature"),
+        emojis::Group::FoodAndDrink => fl!("food-and-drink"),
+        emojis::Group::TravelAndPlaces => fl!("travel-and-places"),
+        emojis::Group::Activities => fl!("activities"),
+        emojis::Group::Objects => fl!("objects"),
+        emojis::Group::Symbols => fl!("symbols"),
+        emojis::Group::Flags => fl!("flags"),
+    }
 }
 
 fn format_emoji(emoji: &emojis::Emoji, show_unicode: bool) -> String {
