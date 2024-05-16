@@ -186,6 +186,7 @@ impl cosmic::Application for Window {
                 if self.selected_group == group {
                     return Command::none();
                 }
+                self.emoji_hovered = None;
                 self.selected_group = group;
                 return scrollable::scroll_to(
                     self.scrollable_id.clone(),
@@ -252,11 +253,49 @@ impl cosmic::Application for Window {
             .width(Length::Fill);
         content = content.push(search);
 
-        content = content.push(widget::text(
-            self.emoji_hovered.map_or(String::new(), |emoji| {
-                format_emoji(emoji, self.config.show_unicode)
-            }),
-        ));
+        let mut preview = widget::row::with_capacity(2)
+            .spacing(space_xxs)
+            .align_items(Alignment::Center);
+
+        if let Some(emoji_hovered) = self.emoji_hovered {
+            // todo size and width is arbitary; user config?
+
+            let preview_emoji = widget::text(emoji_hovered.as_str())
+                .font(self.font_family)
+                .shaping(cosmic::iced_core::text::Shaping::Advanced)
+                .size(35)
+                .height(50)
+                .width(50)
+                .horizontal_alignment(alignment::Horizontal::Center)
+                .vertical_alignment(alignment::Vertical::Center);
+            preview = preview.push(preview_emoji);
+            let show_unicode = self.config.show_unicode;
+            let mut right_preview = widget::column::with_capacity(2 + show_unicode as usize);
+
+            // this all for south georgia and south sandwich islands
+            // replace if iced gets proper text wrapping
+            let mut emoji_name = emoji_hovered.name();
+            let emoji_name_len = emoji_name.len();
+            let cut_off_idx = emoji_name
+                .char_indices()
+                .nth(40)
+                .map_or(emoji_name_len, |(i, _)| i);
+            emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
+            let emoji_name = if emoji_name_len == emoji_name.len() {
+                emoji_name.to_owned()
+            } else {
+                emoji_name.to_owned() + "..."
+            };
+            let preview_name = widget::text::title4(emoji_name);
+            right_preview = right_preview.push(preview_name);
+
+            if let Some(shortcode) = emoji_hovered.shortcode() {
+                right_preview = right_preview.push(widget::text::body(shortcode))
+            }
+
+            preview = preview.push(right_preview);
+        }
+        content = content.push(preview);
 
         const GRID_SIZE: usize = 10;
 
@@ -273,8 +312,8 @@ impl cosmic::Application for Window {
                     .height(35)
                     .font(self.font_family)
                     .shaping(cosmic::iced_core::text::Shaping::Advanced)
-                    .horizontal_alignment(alignment::Horizontal::Center);
-                // .vertical_alignment(alignment::Vertical::Center);
+                    .horizontal_alignment(alignment::Horizontal::Center)
+                    .vertical_alignment(alignment::Vertical::Center);
                 let mut emoji_btn = widget::button(emoji_txt)
                     .on_press(Message::EmojiCopy(emoji.to_string()))
                     .style(cosmic::theme::Button::Icon)
