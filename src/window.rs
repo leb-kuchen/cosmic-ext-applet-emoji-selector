@@ -3,7 +3,7 @@ use std::iter;
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
-use crate::{moure_area_copy, widget_copy};
+use crate::widget_copy;
 use cosmic::app::Core;
 use cosmic::cosmic_config;
 use cosmic::iced;
@@ -33,7 +33,7 @@ pub struct Window {
     search: String,
     scrollable_id: widget::Id,
     font_family: cosmic::iced::font::Font,
-    emoji_hovered: String,
+    emoji_hovered: Option<&'static emojis::Emoji>,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -44,7 +44,7 @@ pub enum Message {
     Emoji(String),
     Search(String),
     Frame(std::time::Instant),
-    EmojiHovered(String),
+    EmojiHovered(&'static emojis::Emoji),
     Ignore,
 }
 
@@ -86,7 +86,7 @@ impl cosmic::Application for Window {
             popup: None,
             search: String::new(),
             timeline: Timeline::new(),
-            emoji_hovered: String::new(),
+            emoji_hovered: None,
         };
 
         (window, Command::none())
@@ -193,7 +193,7 @@ impl cosmic::Application for Window {
                 );
             }
             Message::Ignore => {}
-            Message::EmojiHovered(emoji) => self.emoji_hovered = emoji,
+            Message::EmojiHovered(emoji) => self.emoji_hovered = Some(emoji),
         }
         Command::none()
     }
@@ -248,18 +248,21 @@ impl cosmic::Application for Window {
 
         let search = widget::search_input("Search for emojis", &self.search)
             .on_input(Message::Search)
-            .on_paste(Message::Search)
             .on_clear(Message::Search(String::new()))
             .width(Length::Fill);
         content = content.push(search);
 
-        content = content.push(widget::text(&self.emoji_hovered));
+        content = content.push(widget::text(
+            self.emoji_hovered.map_or(String::new(), |emoji| {
+                format_emoji(emoji, self.config.show_unicode)
+            }),
+        ));
 
         const GRID_SIZE: usize = 10;
 
         let mut grid = widget::column();
 
-        let emoji_row = |emojis: [Option<&emojis::Emoji>; 10]| {
+        let emoji_row = |emojis: [Option<&'static emojis::Emoji>; 10]| {
             let mut row = widget::row::with_capacity(GRID_SIZE);
             for emoji in emojis.iter().filter_map(|e| *e) {
                 // question: do you need to align emojis?
@@ -276,25 +279,12 @@ impl cosmic::Application for Window {
                     .on_press(Message::Emoji(emoji.to_string()))
                     .style(cosmic::theme::Button::Icon)
                     // how have i managed to spell this wrong
-                    .apply(moure_area_copy::MouseArea::new)
-                    .on_enter(Message::EmojiHovered(emoji.name().to_string()))
+                    .apply(widget_copy::MouseArea::new)
+                    .on_enter(Message::EmojiHovered(emoji))
                     .apply(Element::from);
 
                 if self.config.show_tooltip {
-                    let tooltip = if !self.config.show_unicode {
-                        emoji.name().to_string()
-                    } else {
-                        format!(
-                            "{} - {}",
-                            emoji.name(),
-                            emoji
-                                .as_str()
-                                .chars()
-                                .map(|c| format!("U+{:X}", c as u32))
-                                .collect::<Vec<_>>()
-                                .join(" ")
-                        )
-                    };
+                    let tooltip = format_emoji(&emoji, self.config.show_unicode);
                     let emoji_tooltip =
                         widget::tooltip(emoji_btn, tooltip, widget::tooltip::Position::Top);
                     emoji_btn = emoji_tooltip.into()
@@ -352,7 +342,7 @@ impl cosmic::Application for Window {
         // todo figure out positioning after I have configured sccache and mold linker
         let grid = grid
             .apply(widget::container)
-            .apply(widget_copy::scrollable::Scrollable::new)
+            .apply(widget_copy::Scrollable::new)
             .id(self.scrollable_id.clone())
             .height(Length::Fill)
             .width(Length::Fill)
@@ -430,4 +420,21 @@ fn chunks<T, const N: usize>(
         }
         Some(array)
     })
+}
+
+fn format_emoji(emoji: &emojis::Emoji, show_unicode: bool) -> String {
+    return if !show_unicode {
+        emoji.name().to_string()
+    } else {
+        format!(
+            "{} - {}",
+            emoji.name(),
+            emoji
+                .as_str()
+                .chars()
+                .map(|c| format!("U+{:X}", c as u32))
+                .collect::<Vec<_>>()
+                .join(" ")
+        )
+    };
 }
