@@ -22,6 +22,7 @@ use cosmic::iced_core::{
 use cosmic::iced_runtime::Command;
 
 use cosmic::iced_renderer::core::widget::OperationOutputWrapper;
+#[allow(unused_imports)]
 pub use cosmic::iced_style::scrollable::{Scrollbar, Scroller, StyleSheet};
 pub use operation::scrollable::{AbsoluteOffset, RelativeOffset};
 
@@ -599,13 +600,13 @@ where
         Element::new(text_input)
     }
 }
-
+#[allow(dead_code)]
 /// Produces a [`Command`] that snaps the [`Scrollable`] with the given [`Id`]
 /// to the provided `percentage` along the x & y axis.
 pub fn snap_to<Message: 'static>(id: Id, offset: RelativeOffset) -> Command<Message> {
     Command::widget(operation::scrollable::snap_to(id, offset))
 }
-
+#[allow(dead_code)]
 /// Produces a [`Command`] that scrolls the [`Scrollable`] with the given [`Id`]
 /// to the provided [`AbsoluteOffset`] along the x & y axis.
 pub fn scroll_to<Message: 'static>(id: Id, offset: AbsoluteOffset) -> Command<Message> {

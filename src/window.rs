@@ -41,7 +41,7 @@ pub enum Message {
     TogglePopup,
     PopupClosed(Id),
     Group(Option<emojis::Group>),
-    Emoji(String),
+    EmojiCopy(String),
     Search(String),
     Frame(std::time::Instant),
     EmojiHovered(&'static emojis::Emoji),
@@ -157,7 +157,7 @@ impl cosmic::Application for Window {
                     self.popup = None;
                 }
             }
-            Message::Emoji(emoji) => {
+            Message::EmojiCopy(emoji) => {
                 let mut last_used = self.config.last_used.clone();
                 if let Some(idx) = last_used.iter().position(|e| e == &emoji) {
                     last_used.swap(0, idx);
@@ -276,7 +276,7 @@ impl cosmic::Application for Window {
                     .horizontal_alignment(alignment::Horizontal::Center);
                 // .vertical_alignment(alignment::Vertical::Center);
                 let mut emoji_btn = widget::button(emoji_txt)
-                    .on_press(Message::Emoji(emoji.to_string()))
+                    .on_press(Message::EmojiCopy(emoji.to_string()))
                     .style(cosmic::theme::Button::Icon)
                     // how have i managed to spell this wrong
                     .apply(widget_copy::MouseArea::new)
