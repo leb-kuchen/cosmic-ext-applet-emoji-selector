@@ -4,10 +4,10 @@ use config::{Config, CONFIG_VERSION};
 use cosmic::cosmic_config;
 use cosmic::cosmic_config::CosmicConfigEntry;
 mod config;
-mod moure_area_copy;
 use window::Flags;
 
 mod localize;
+mod widget_copy;
 mod window;
 
 fn main() -> cosmic::iced::Result {

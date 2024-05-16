@@ -3,6 +3,7 @@ use std::iter;
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
+use crate::widget_copy;
 use cosmic::app::Core;
 use cosmic::cosmic_config;
 use cosmic::iced;
@@ -32,6 +33,7 @@ pub struct Window {
     search: String,
     scrollable_id: widget::Id,
     font_family: cosmic::iced::font::Font,
+    emoji_hovered: Option<&'static emojis::Emoji>,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -39,9 +41,10 @@ pub enum Message {
     TogglePopup,
     PopupClosed(Id),
     Group(Option<emojis::Group>),
-    Emoji(String),
+    EmojiCopy(String),
     Search(String),
     Frame(std::time::Instant),
+    EmojiHovered(&'static emojis::Emoji),
     Ignore,
 }
 
@@ -83,6 +86,7 @@ impl cosmic::Application for Window {
             popup: None,
             search: String::new(),
             timeline: Timeline::new(),
+            emoji_hovered: None,
         };
 
         (window, Command::none())
@@ -153,7 +157,7 @@ impl cosmic::Application for Window {
                     self.popup = None;
                 }
             }
-            Message::Emoji(emoji) => {
+            Message::EmojiCopy(emoji) => {
                 let mut last_used = self.config.last_used.clone();
                 if let Some(idx) = last_used.iter().position(|e| e == &emoji) {
                     last_used.swap(0, idx);
@@ -182,6 +186,7 @@ impl cosmic::Application for Window {
                 if self.selected_group == group {
                     return Command::none();
                 }
+                self.emoji_hovered = None;
                 self.selected_group = group;
                 return scrollable::scroll_to(
                     self.scrollable_id.clone(),
@@ -189,6 +194,7 @@ impl cosmic::Application for Window {
                 );
             }
             Message::Ignore => {}
+            Message::EmojiHovered(emoji) => self.emoji_hovered = Some(emoji),
         }
         Command::none()
     }
@@ -235,24 +241,67 @@ impl cosmic::Application for Window {
                 .on_press(Message::Group((!is_selected).then_some(group)))
                 .apply(widget::container)
                 .width(Length::Fill)
-                .center_x()
-                .apply(Element::from);
+                .center_x();
+
             groups = groups.push(group_btn);
         }
         content = content.push(groups);
 
         let search = widget::search_input("Search for emojis", &self.search)
             .on_input(Message::Search)
-            .on_paste(Message::Search)
             .on_clear(Message::Search(String::new()))
             .width(Length::Fill);
         content = content.push(search);
+
+        let mut preview = widget::row::with_capacity(2)
+            .spacing(space_xxs)
+            .align_items(Alignment::Center);
+
+        if let Some(emoji_hovered) = self.emoji_hovered {
+            // todo size and width is arbitary; user config?
+
+            let preview_emoji = widget::text(emoji_hovered.as_str())
+                .font(self.font_family)
+                .shaping(cosmic::iced_core::text::Shaping::Advanced)
+                .size(35)
+                .height(50)
+                .width(50)
+                .horizontal_alignment(alignment::Horizontal::Center)
+                .vertical_alignment(alignment::Vertical::Center);
+            preview = preview.push(preview_emoji);
+            let show_unicode = self.config.show_unicode;
+            let mut right_preview = widget::column::with_capacity(2 + show_unicode as usize);
+
+            // this all for south georgia and south sandwich islands
+            // replace if iced gets proper text wrapping
+            let mut emoji_name = emoji_hovered.name();
+            let emoji_name_len = emoji_name.len();
+            let cut_off_idx = emoji_name
+                .char_indices()
+                .nth(40)
+                .map_or(emoji_name_len, |(i, _)| i);
+            emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
+            let emoji_name = if emoji_name_len == emoji_name.len() {
+                emoji_name.to_owned()
+            } else {
+                emoji_name.to_owned() + "..."
+            };
+            let preview_name = widget::text::title4(emoji_name);
+            right_preview = right_preview.push(preview_name);
+
+            if let Some(shortcode) = emoji_hovered.shortcode() {
+                right_preview = right_preview.push(widget::text::body(shortcode))
+            }
+
+            preview = preview.push(right_preview);
+        }
+        content = content.push(preview);
 
         const GRID_SIZE: usize = 10;
 
         let mut grid = widget::column();
 
-        let emoji_row = |emojis: [Option<&emojis::Emoji>; 10]| {
+        let emoji_row = |emojis: [Option<&'static emojis::Emoji>; 10]| {
             let mut row = widget::row::with_capacity(GRID_SIZE);
             for emoji in emojis.iter().filter_map(|e| *e) {
                 // question: do you need to align emojis?
@@ -263,28 +312,18 @@ impl cosmic::Application for Window {
                     .height(35)
                     .font(self.font_family)
                     .shaping(cosmic::iced_core::text::Shaping::Advanced)
-                    .horizontal_alignment(alignment::Horizontal::Center);
-                // .vertical_alignment(alignment::Vertical::Center);
+                    .horizontal_alignment(alignment::Horizontal::Center)
+                    .vertical_alignment(alignment::Vertical::Center);
                 let mut emoji_btn = widget::button(emoji_txt)
-                    .on_press(Message::Emoji(emoji.to_string()))
+                    .on_press(Message::EmojiCopy(emoji.to_string()))
                     .style(cosmic::theme::Button::Icon)
+                    // how have i managed to spell this wrong
+                    .apply(widget_copy::MouseArea::new)
+                    .on_enter(Message::EmojiHovered(emoji))
                     .apply(Element::from);
 
                 if self.config.show_tooltip {
-                    let tooltip = if !self.config.show_unicode {
-                        emoji.name().to_string()
-                    } else {
-                        format!(
-                            "{} - {}",
-                            emoji.name(),
-                            emoji
-                                .as_str()
-                                .chars()
-                                .map(|c| format!("U+{:X}", c as u32))
-                                .collect::<Vec<_>>()
-                                .join(" ")
-                        )
-                    };
+                    let tooltip = format_emoji(&emoji, self.config.show_unicode);
                     let emoji_tooltip =
                         widget::tooltip(emoji_btn, tooltip, widget::tooltip::Position::Top);
                     emoji_btn = emoji_tooltip.into()
@@ -342,7 +381,7 @@ impl cosmic::Application for Window {
         // todo figure out positioning after I have configured sccache and mold linker
         let grid = grid
             .apply(widget::container)
-            .apply(widget::scrollable)
+            .apply(widget_copy::Scrollable::new)
             .id(self.scrollable_id.clone())
             .height(Length::Fill)
             .width(Length::Fill)
@@ -420,4 +459,21 @@ fn chunks<T, const N: usize>(
         }
         Some(array)
     })
+}
+
+fn format_emoji(emoji: &emojis::Emoji, show_unicode: bool) -> String {
+    return if !show_unicode {
+        emoji.name().to_string()
+    } else {
+        format!(
+            "{} - {}",
+            emoji.name(),
+            emoji
+                .as_str()
+                .chars()
+                .map(|c| format!("U+{:X}", c as u32))
+                .collect::<Vec<_>>()
+                .join(" ")
+        )
+    };
 }
