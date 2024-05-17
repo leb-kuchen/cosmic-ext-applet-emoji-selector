@@ -46,6 +46,7 @@ pub enum Message {
     Search(String),
     Frame(std::time::Instant),
     EmojiHovered(&'static emojis::Emoji),
+    Exit,
 }
 
 #[derive(Clone, Debug)]
@@ -195,6 +196,11 @@ impl cosmic::Application for Window {
                 );
             }
             Message::EmojiHovered(emoji) => self.emoji_hovered = Some(emoji),
+            Message::Exit => {
+                if let Some(p) = self.popup.take() {
+                    return destroy_popup(p);
+                }
+            }
         }
         Command::none()
     }
@@ -428,7 +434,7 @@ impl cosmic::Application for Window {
             .as_subscription()
             .map(|(_, now)| Message::Frame(now));
 
-        Subscription::batch(vec![config, timeline])
+        Subscription::batch(vec![config, timeline, navigation_subscription()])
     }
 
     fn style(&self) -> Option<<Theme as application::StyleSheet>::Style> {
@@ -534,4 +540,28 @@ fn format_emoji(emoji: &emojis::Emoji, show_unicode: bool) -> String {
                 .join(" ")
         )
     };
+}
+
+fn navigation_subscription() -> Subscription<Message> {
+    use cosmic::iced::event;
+    cosmic::iced_futures::event::listen_with(|event, status| {
+        if status == event::Status::Captured {
+            return None;
+        }
+        let event::Event::Keyboard(key_event) = event else {
+            return None;
+        };
+
+        let cosmic::iced_runtime::keyboard::Event::KeyReleased { key, .. } = key_event else {
+            return None;
+        };
+        match key {
+            cosmic::iced_runtime::keyboard::Key::Named(key_named) => match key_named {
+                cosmic::iced::keyboard::key::Named::Escape => return Some(Message::Exit),
+                _ => {}
+            },
+            _ => {}
+        }
+        return None;
+    })
 }
