@@ -47,6 +47,7 @@ pub enum Message {
     Frame(std::time::Instant),
     EmojiHovered(&'static emojis::Emoji),
     Exit,
+    Enter,
 }
 
 #[derive(Clone, Debug)]
@@ -179,6 +180,11 @@ impl cosmic::Application for Window {
                             .spawn();
                     }
                 }
+                if self.config.close_on_copy {
+                    if let Some(p) = self.popup.take() {
+                        return destroy_popup(p);
+                    }
+                }
             }
             Message::Search(search) => {
                 self.search = search;
@@ -201,6 +207,7 @@ impl cosmic::Application for Window {
                     return destroy_popup(p);
                 }
             }
+            Message::Enter => {}
         }
         Command::none()
     }
@@ -212,9 +219,10 @@ impl cosmic::Application for Window {
             .on_press(Message::TogglePopup)
             .into()
     }
-
+    // todo extract more code into functions
     fn view_window(&self, _id: Id) -> Element<Self::Message> {
         // use regex to apply simple unicode case folding
+
         let regex_pattern = regex::escape(&self.search);
         let search_regex = RegexBuilder::new(&regex_pattern)
             .case_insensitive(true)
@@ -273,74 +281,15 @@ impl cosmic::Application for Window {
         let search = widget::search_input(fl!("search-for-emojis"), &self.search)
             .on_input(Message::Search)
             .on_clear(Message::Search(String::new()))
+            .on_submit(Message::Enter)
             .width(Length::Fill);
         content = content.push(search);
 
-        let favorites_first = || self.config_emoji_iter(search_filter, &search_regex).next();
-        let emojis_first = || {
-            (!self.search.is_empty()).then_some(())?;
-            self.emoji_iter(search_filter, &search_regex).next()
-        };
-
-        let preview = if let Some(emoji_hovered) = self
-            .emoji_hovered
-            .or_else(favorites_first)
-            .or_else(emojis_first)
-        {
-            let mut preview = widget::row::with_capacity(2)
-                .spacing(space_xxs)
-                .align_items(Alignment::Center);
-            // todo size and width is arbitary; user config?
-
-            let preview_emoji = widget::text(emoji_hovered.as_str())
-                .font(self.font_family)
-                .shaping(cosmic::iced_core::text::Shaping::Advanced)
-                .size(35)
-                .height(50)
-                .width(50)
-                .horizontal_alignment(alignment::Horizontal::Center)
-                .vertical_alignment(alignment::Vertical::Center);
-            preview = preview.push(preview_emoji);
-            let show_unicode = self.config.show_unicode;
-            let mut right_preview = widget::column::with_capacity(2 + show_unicode as usize);
-
-            // this all for south georgia and south sandwich islands
-            // replace if iced gets proper text wrapping
-            let mut emoji_name = emoji_hovered.name();
-            let emoji_name_len = emoji_name.len();
-            let cut_off_idx = emoji_name
-                .char_indices()
-                .nth(40)
-                .map_or(emoji_name_len, |(i, _)| i);
-            emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
-            let emoji_name = if emoji_name_len == emoji_name.len() {
-                Cow::from(emoji_name)
-            } else {
-                Cow::from(emoji_name.to_owned() + "...")
-            };
-            let preview_name = widget::text::title4(emoji_name);
-            right_preview = right_preview.push(preview_name);
-
-            if let Some(shortcode) = emoji_hovered.shortcode() {
-                right_preview = right_preview.push(widget::text::body(shortcode))
-            }
-            if show_unicode {
-                let unicode_chars = emoji_hovered
-                    .as_str()
-                    .chars()
-                    .map(|c| format!("U+{:X}", c as u32))
-                    .collect::<Vec<_>>()
-                    .join(" ");
-                right_preview = right_preview.push(widget::text::caption(unicode_chars));
-            }
-
-            preview = preview.push(right_preview);
-            preview.apply(Element::from)
-        } else if let Some(group) = self.selected_group {
-            widget::text::title1(group_string(group)).into()
-        } else {
-            widget::text::title1(fl!("emojis-and-favorites")).into()
-        };
+        let preview = self.preview(
+            search_filter,
+            &search_regex,
+            &self.core.system_theme().cosmic().spacing,
+        );
         let preview_container = widget::container(preview).center_y().height(65);
         content = content.push(preview_container);
 
@@ -468,6 +417,78 @@ impl Window {
             None => Box::from(emojis::iter()),
         };
         emoji_iter.filter(move |emoji| search_filter(emoji, search_regex.as_ref()))
+    }
+    fn preview(
+        &self,
+        search_filter: impl Fn(&'static emojis::Emoji, Option<&regex::Regex>) -> bool,
+        search_regex: &Option<regex::Regex>,
+        spacing: &cosmic::cosmic_theme::Spacing,
+    ) -> Element<Message> {
+        let favorites_first = || self.config_emoji_iter(&search_filter, &search_regex).next();
+        let emojis_first = || {
+            (!self.search.is_empty()).then_some(())?;
+            self.emoji_iter(&search_filter, &search_regex).next()
+        };
+        let preview = if let Some(emoji_hovered) = self
+            .emoji_hovered
+            .or_else(favorites_first)
+            .or_else(emojis_first)
+        {
+            let mut preview = widget::row::with_capacity(2)
+                .spacing(spacing.space_xxs)
+                .align_items(Alignment::Center);
+            // todo size and width is arbitary; user config?
+
+            let preview_emoji = widget::text(emoji_hovered.as_str())
+                .font(self.font_family)
+                .shaping(cosmic::iced_core::text::Shaping::Advanced)
+                .size(35)
+                .height(50)
+                .width(50)
+                .horizontal_alignment(alignment::Horizontal::Center)
+                .vertical_alignment(alignment::Vertical::Center);
+            preview = preview.push(preview_emoji);
+            let show_unicode = self.config.show_unicode;
+            let mut right_preview = widget::column::with_capacity(2 + show_unicode as usize);
+
+            // this all for south georgia and south sandwich islands
+            // replace if iced gets proper text wrapping
+            let mut emoji_name = emoji_hovered.name();
+            let emoji_name_len = emoji_name.len();
+            let cut_off_idx = emoji_name
+                .char_indices()
+                .nth(40)
+                .map_or(emoji_name_len, |(i, _)| i);
+            emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
+            let emoji_name = if emoji_name_len == emoji_name.len() {
+                Cow::from(emoji_name)
+            } else {
+                Cow::from(emoji_name.to_owned() + "...")
+            };
+            let preview_name = widget::text::title4(emoji_name);
+            right_preview = right_preview.push(preview_name);
+
+            if let Some(shortcode) = emoji_hovered.shortcode() {
+                right_preview = right_preview.push(widget::text::body(shortcode))
+            }
+            if show_unicode {
+                let unicode_chars = emoji_hovered
+                    .as_str()
+                    .chars()
+                    .map(|c| format!("U+{:X}", c as u32))
+                    .collect::<Vec<_>>()
+                    .join(" ");
+                right_preview = right_preview.push(widget::text::caption(unicode_chars));
+            }
+
+            preview = preview.push(right_preview);
+            preview.apply(Element::from)
+        } else if let Some(group) = self.selected_group {
+            widget::text::title1(group_string(group)).into()
+        } else {
+            widget::text::title1(fl!("emojis-and-favorites")).into()
+        };
+        return preview;
     }
 }
 macro_rules! icon {
