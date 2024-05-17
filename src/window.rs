@@ -35,6 +35,7 @@ pub struct Window {
     scrollable_id: widget::Id,
     font_family: cosmic::iced::font::Font,
     emoji_hovered: Option<&'static emojis::Emoji>,
+    text_input_id: widget::Id,
 }
 #[derive(Clone, Debug)]
 pub enum Message {
@@ -47,6 +48,7 @@ pub enum Message {
     Frame(std::time::Instant),
     EmojiHovered(&'static emojis::Emoji),
     Exit,
+    FocusTextInput,
     Enter,
 }
 
@@ -89,6 +91,7 @@ impl cosmic::Application for Window {
             search: String::new(),
             timeline: Timeline::new(),
             emoji_hovered: None,
+            text_input_id: widget::Id::unique(),
         };
 
         (window, Command::none())
@@ -208,6 +211,9 @@ impl cosmic::Application for Window {
                 }
             }
             Message::Enter => {}
+            Message::FocusTextInput => {
+                return widget::text_input::focus(widget::Id::unique());
+            }
         }
         Command::none()
     }
@@ -281,6 +287,7 @@ impl cosmic::Application for Window {
         let search = widget::search_input(fl!("search-for-emojis"), &self.search)
             .on_input(Message::Search)
             .on_clear(Message::Search(String::new()))
+            .id(self.text_input_id.clone())
             .on_submit(Message::Enter)
             .width(Length::Fill);
         content = content.push(search);
@@ -342,15 +349,9 @@ impl cosmic::Application for Window {
         }
 
         let emoji_iter = self.emoji_iter(search_filter, &search_regex);
-        // switch back to grid or just flex?
         for emojis in chunks(emoji_iter) {
             grid = grid.push(emoji_row(emojis));
         }
-        // just hardcode the width for now,
-        // as grid won't work if there are no search results
-        // and there a currently no grid templates
-
-        // todo figure out positioning after I have configured sccache and mold linker
         let grid = grid
             .apply(widget::container)
             .apply(widget_copy::Scrollable::new)
@@ -583,6 +584,11 @@ fn navigation_subscription() -> Subscription<Message> {
                 cosmic::iced::keyboard::key::Named::Escape => return Some(Message::Exit),
                 _ => {}
             },
+            cosmic::iced_runtime::keyboard::Key::Character(key_character) => {
+                if key_character == "/" {
+                    return Some(Message::FocusTextInput);
+                }
+            }
             _ => {}
         }
         return None;
