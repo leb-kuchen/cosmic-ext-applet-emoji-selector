@@ -243,6 +243,7 @@ impl cosmic::Application for Window {
             .spacing(space_m);
 
         let mut groups = widget::row::with_capacity(9).width(Length::Fill);
+
         for group in emojis::Group::iter() {
             let is_selected = self.selected_group.is_some_and(|sel| sel == group);
             let group_btn = widget::icon::from_name(group_icon(group))
