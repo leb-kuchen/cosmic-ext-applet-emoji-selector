@@ -212,7 +212,7 @@ impl cosmic::Application for Window {
             }
             Message::Enter => {}
             Message::FocusTextInput => {
-                return widget::text_input::focus(self.scrollable_id.clone());
+                return widget::text_input::focus(self.text_input_id.clone());
             }
         }
         Command::none()
