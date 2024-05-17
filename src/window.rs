@@ -270,7 +270,10 @@ impl cosmic::Application for Window {
         content = content.push(search);
 
         let favorites_first = || self.config_emoji_iter(search_filter, &search_regex).next();
-        let emojis_first = || self.emoji_iter(search_filter, &search_regex).next();
+        let emojis_first = || {
+            (!self.search.is_empty()).then_some(())?;
+            self.emoji_iter(search_filter, &search_regex).next()
+        };
 
         let preview = if let Some(emoji_hovered) = self
             .emoji_hovered
