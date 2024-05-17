@@ -15,6 +15,8 @@ pub struct Config {
     pub font_family: String,
     #[serde(default)]
     pub show_unicode: bool,
+    #[serde(default)]
+    pub use_wl_copy: bool,
 }
 
 impl Default for Config {
@@ -25,6 +27,7 @@ impl Default for Config {
             last_used_limit: 20,
             font_family: "Noto Color Emoji".into(),
             show_unicode: false,
+            use_wl_copy: false,
         }
     }
 }

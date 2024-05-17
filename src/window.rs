@@ -172,9 +172,11 @@ impl cosmic::Application for Window {
                     Source::Bytes(emoji.to_string().into_bytes().into()),
                     MimeType::Autodetect,
                 ) {
-                    _ = std::process::Command::new("wl-copy")
-                        .arg(emoji.as_str())
-                        .spawn();
+                    if self.config.use_wl_copy {
+                        _ = std::process::Command::new("wl-copy")
+                            .arg(emoji.as_str())
+                            .spawn();
+                    }
                 }
             }
             Message::Search(search) => {
