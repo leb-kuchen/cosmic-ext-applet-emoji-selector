@@ -19,6 +19,8 @@ pub struct Config {
     pub use_wl_copy: bool,
     #[serde(default)]
     pub close_on_copy: bool,
+    #[serde(default)]
+    pub show_preview: bool,
 }
 
 impl Default for Config {
@@ -31,6 +33,7 @@ impl Default for Config {
             show_unicode: false,
             use_wl_copy: false,
             close_on_copy: true,
+            show_preview: true,
         }
     }
 }

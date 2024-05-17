@@ -285,13 +285,15 @@ impl cosmic::Application for Window {
             .width(Length::Fill);
         content = content.push(search);
 
-        let preview = self.preview(
-            search_filter,
-            &search_regex,
-            &self.core.system_theme().cosmic().spacing,
-        );
-        let preview_container = widget::container(preview).center_y().height(65);
-        content = content.push(preview_container);
+        if self.config.show_preview {
+            let preview = self.preview(
+                search_filter,
+                &search_regex,
+                &self.core.system_theme().cosmic().spacing,
+            );
+            let preview_container = widget::container(preview).center_y().height(65);
+            content = content.push(preview_container);
+        }
 
         const GRID_SIZE: usize = 10;
 
