@@ -1,3 +1,4 @@
+use std::borrow::Cow;
 use std::iter;
 
 use crate::config::{Config, CONFIG_VERSION};
@@ -41,11 +42,10 @@ pub enum Message {
     TogglePopup,
     PopupClosed(Id),
     Group(Option<emojis::Group>),
-    EmojiCopy(String),
+    EmojiCopy(&'static emojis::Emoji),
     Search(String),
     Frame(std::time::Instant),
     EmojiHovered(&'static emojis::Emoji),
-    Ignore,
 }
 
 #[derive(Clone, Debug)]
@@ -159,28 +159,27 @@ impl cosmic::Application for Window {
             }
             Message::EmojiCopy(emoji) => {
                 let mut last_used = self.config.last_used.clone();
-                if let Some(idx) = last_used.iter().position(|e| e == &emoji) {
+                if let Some(idx) = last_used.iter().position(|e| e == emoji.as_str()) {
                     last_used.swap(0, idx);
                 } else {
-                    last_used.insert(0, emoji.clone());
+                    last_used.insert(0, emoji.to_string());
                 }
                 last_used.truncate(self.config.last_used_limit);
                 config_set!(last_used, last_used);
                 use wl_clipboard_rs::copy::{MimeType, Options, Source};
-                return Command::perform(
-                    // todo how long does this block?
-                    async move {
-                        let opts = Options::new();
-                        _ = opts.copy(
-                            Source::Bytes(emoji.into_bytes().into()),
-                            MimeType::Autodetect,
-                        );
-                    },
-                    |_| cosmic::app::message::app(Message::Ignore),
-                );
+                let opts = Options::new();
+                if let Err(_) = opts.copy(
+                    Source::Bytes(emoji.to_string().into_bytes().into()),
+                    MimeType::Autodetect,
+                ) {
+                    _ = std::process::Command::new("wl-copy")
+                        .arg(emoji.as_str())
+                        .spawn();
+                }
             }
             Message::Search(search) => {
                 self.search = search;
+                self.emoji_hovered = None;
             }
             Message::Group(group) => {
                 if self.selected_group == group {
@@ -193,7 +192,6 @@ impl cosmic::Application for Window {
                     scrollable::AbsoluteOffset::default(),
                 );
             }
-            Message::Ignore => {}
             Message::EmojiHovered(emoji) => self.emoji_hovered = Some(emoji),
         }
         Command::none()
@@ -208,6 +206,23 @@ impl cosmic::Application for Window {
     }
 
     fn view_window(&self, _id: Id) -> Element<Self::Message> {
+        // use regex to apply simple unicode case folding
+        let regex_pattern = regex::escape(&self.search);
+        let search_regex = RegexBuilder::new(&regex_pattern)
+            .case_insensitive(true)
+            .build()
+            .ok();
+
+        let search_filter = |emoji: &emojis::Emoji, search_regex: Option<&regex::Regex>| {
+            if self.search.is_empty() {
+                return true;
+            }
+            match search_regex {
+                Some(re) => re.is_match(emoji.name()),
+                None => emoji.name().contains(&self.search),
+            }
+        };
+
         #[allow(unused_variables)]
         let cosmic::cosmic_theme::Spacing {
             space_none, // 0
@@ -224,7 +239,6 @@ impl cosmic::Application for Window {
         let mut content = widget::column::with_capacity(6)
             .padding([space_xxs, space_xxxs])
             .spacing(space_m);
-        // .width(200);
 
         let mut groups = widget::row::with_capacity(9).width(Length::Fill);
         for group in emojis::Group::iter() {
@@ -253,8 +267,14 @@ impl cosmic::Application for Window {
             .width(Length::Fill);
         content = content.push(search);
 
-        // not ideal currently because  of layout shifts
-        let preview = if let Some(emoji_hovered) = self.emoji_hovered {
+        let favorites_first = || self.config_emoji_iter(search_filter, &search_regex).next();
+        let emojis_first = || self.emoji_iter(search_filter, &search_regex).next();
+
+        let preview = if let Some(emoji_hovered) = self
+            .emoji_hovered
+            .or_else(favorites_first)
+            .or_else(emojis_first)
+        {
             let mut preview = widget::row::with_capacity(2)
                 .spacing(space_xxs)
                 .align_items(Alignment::Center);
@@ -282,9 +302,9 @@ impl cosmic::Application for Window {
                 .map_or(emoji_name_len, |(i, _)| i);
             emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
             let emoji_name = if emoji_name_len == emoji_name.len() {
-                emoji_name.to_owned()
+                Cow::from(emoji_name)
             } else {
-                emoji_name.to_owned() + "..."
+                Cow::from(emoji_name.to_owned() + "...")
             };
             let preview_name = widget::text::title4(emoji_name);
             right_preview = right_preview.push(preview_name);
@@ -309,7 +329,7 @@ impl cosmic::Application for Window {
         } else {
             widget::text::title1(fl!("emojis-and-favorites")).into()
         };
-        let preview_container = widget::container(preview).center_y().height(75);
+        let preview_container = widget::container(preview).center_y().height(65);
         content = content.push(preview_container);
 
         const GRID_SIZE: usize = 10;
@@ -319,7 +339,6 @@ impl cosmic::Application for Window {
         let emoji_row = |emojis: [Option<&'static emojis::Emoji>; 10]| {
             let mut row = widget::row::with_capacity(GRID_SIZE);
             for emoji in emojis.iter().filter_map(|e| *e) {
-                // question: do you need to align emojis?
                 // todo figure out button and text style
                 let emoji_txt = widget::text(emoji.to_string())
                     .size(25)
@@ -330,9 +349,8 @@ impl cosmic::Application for Window {
                     .horizontal_alignment(alignment::Horizontal::Center)
                     .vertical_alignment(alignment::Vertical::Center);
                 let mut emoji_btn = widget::button(emoji_txt)
-                    .on_press(Message::EmojiCopy(emoji.to_string()))
+                    .on_press(Message::EmojiCopy(emoji))
                     .style(cosmic::theme::Button::Icon)
-                    // how have i managed to spell this wrong
                     .apply(widget_copy::MouseArea::new)
                     .on_enter(Message::EmojiHovered(emoji))
                     .apply(Element::from);
@@ -347,46 +365,22 @@ impl cosmic::Application for Window {
             }
             row
         };
-        // use regex to apply simple unicode case folding
-        let regex_pattern = regex::escape(&self.search);
-        let search_regex = RegexBuilder::new(&regex_pattern)
-            .case_insensitive(true)
-            .build()
-            .ok();
 
-        let search_filter = |emoji: &&emojis::Emoji, search_regex: Option<&regex::Regex>| {
-            if self.search.is_empty() {
-                return true;
-            }
-            match search_regex {
-                Some(re) => re.is_match(emoji.name()),
-                None => emoji.name().contains(&self.search),
-            }
-        };
-
-        if self.selected_group.is_none() {
-            for emojis in chunks(
-                self.config
-                    .last_used
-                    .iter()
-                    .filter_map(|e| emojis::get(&e))
-                    .filter(|emoji| search_filter(emoji, search_regex.as_ref())),
-            ) {
-                grid = grid.push(emoji_row(emojis));
-            }
+        let search_iter = self.config_emoji_iter(search_filter, &search_regex);
+        let mut has_favorite = false;
+        for emojis in chunks(search_iter) {
+            has_favorite = true;
+            grid = grid.push(emoji_row(emojis));
+        }
+        if has_favorite {
             grid = grid.push(widget::vertical_space(space_xs));
             grid = grid.push(widget::divider::horizontal::default());
             grid = grid.push(widget::vertical_space(space_xs));
         }
 
-        let emoji_iter: Box<dyn Iterator<Item = &'static emojis::Emoji>> = match self.selected_group
-        {
-            Some(group) => Box::from(group.emojis()),
-            None => Box::from(emojis::iter()),
-        };
+        let emoji_iter = self.emoji_iter(search_filter, &search_regex);
         // switch back to grid or just flex?
-        for emojis in chunks(emoji_iter.filter(|emoji| search_filter(emoji, search_regex.as_ref())))
-        {
+        for emojis in chunks(emoji_iter) {
             grid = grid.push(emoji_row(emojis));
         }
         // just hardcode the width for now,
@@ -433,6 +427,35 @@ impl cosmic::Application for Window {
 
     fn style(&self) -> Option<<Theme as application::StyleSheet>::Style> {
         Some(cosmic::applet::style())
+    }
+}
+
+impl Window {
+    fn config_emoji_iter<'a>(
+        &'a self,
+        search_filter: impl Fn(&'static emojis::Emoji, Option<&regex::Regex>) -> bool + 'a,
+        search_regex: &'a Option<regex::Regex>,
+    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'a {
+        let search_iter = self
+            .config
+            .last_used
+            .iter()
+            .filter_map(|e| emojis::get(e))
+            .filter(|e| self.selected_group.is_none() || Some(e.group()) == self.selected_group)
+            .filter(move |emoji| search_filter(emoji, search_regex.as_ref()));
+        search_iter
+    }
+    fn emoji_iter<'a>(
+        &'a self,
+        search_filter: impl Fn(&'static emojis::Emoji, Option<&regex::Regex>) -> bool + 'a,
+        search_regex: &'a Option<regex::Regex>,
+    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'a {
+        let emoji_iter: Box<dyn Iterator<Item = &'static emojis::Emoji>> = match self.selected_group
+        {
+            Some(group) => Box::from(group.emojis()),
+            None => Box::from(emojis::iter()),
+        };
+        emoji_iter.filter(move |emoji| search_filter(emoji, search_regex.as_ref()))
     }
 }
 macro_rules! icon {
