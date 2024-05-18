@@ -194,9 +194,6 @@ impl cosmic::Application for Window {
                 self.emoji_hovered = None;
             }
             Message::Group(group) => {
-                if self.selected_group == group {
-                    return Command::none();
-                }
                 self.emoji_hovered = None;
                 self.selected_group = group;
                 return scrollable::scroll_to(
@@ -535,6 +532,22 @@ fn chunks<T, const N: usize>(
     })
 }
 
+fn group_from_key(key: u8) -> Option<emojis::Group> {
+    use emojis::Group::*;
+    let group = match key {
+        b'1' => SmileysAndEmotion,
+        b'2' => PeopleAndBody,
+        b'3' => AnimalsAndNature,
+        b'4' => FoodAndDrink,
+        b'5' => Activities,
+        b'6' => Objects,
+        b'7' => Symbols,
+        b'8' => Flags,
+        _ => return None,
+    };
+    return Some(group);
+}
+
 fn group_string(group: emojis::Group) -> String {
     match group {
         emojis::Group::SmileysAndEmotion => fl!("smileys-and-emotion"),
@@ -587,6 +600,9 @@ fn navigation_subscription() -> Subscription<Message> {
             cosmic::iced_runtime::keyboard::Key::Character(key_character) => {
                 if key_character == "/" {
                     return Some(Message::FocusTextInput);
+                }
+                if key_character.len() == 1 && key_character.as_bytes()[0].is_ascii_digit() {
+                    return Some(Message::Group(group_from_key(key_character.as_bytes()[0])));
                 }
             }
             _ => {}
