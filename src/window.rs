@@ -52,6 +52,7 @@ pub enum Message {
     Enter,
     ArrowRight,
     ArrowLeft,
+    ScrollToPercent(u8),
 }
 
 #[derive(Clone, Debug)]
@@ -216,6 +217,14 @@ impl cosmic::Application for Window {
                 let mut key = key_from_group(self.selected_group);
                 key = if key <= b'0' { b'9' } else { key - 1 };
                 return self.update_group(group_from_key(key));
+            }
+            Message::ScrollToPercent(percent) => {
+                let offset = if percent == 0 {
+                    scrollable::RelativeOffset::START
+                } else {
+                    scrollable::RelativeOffset::END
+                };
+                return scrollable::snap_to(self.scrollable_id.clone(), offset);
             }
         }
         Command::none()
@@ -632,6 +641,12 @@ fn navigation_subscription() -> Subscription<Message> {
                 cosmic::iced::keyboard::key::Named::Escape => return Some(Message::Exit),
                 cosmic::iced::keyboard::key::Named::ArrowRight => return Some(Message::ArrowRight),
                 cosmic::iced::keyboard::key::Named::ArrowLeft => return Some(Message::ArrowLeft),
+                cosmic::iced::keyboard::key::Named::End => {
+                    return Some(Message::ScrollToPercent(1))
+                }
+                cosmic::iced::keyboard::key::Named::Home => {
+                    return Some(Message::ScrollToPercent(0))
+                }
 
                 _ => {}
             },
