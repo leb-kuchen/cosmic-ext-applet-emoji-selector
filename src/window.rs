@@ -50,6 +50,8 @@ pub enum Message {
     Exit,
     FocusTextInput,
     Enter,
+    ArrowRight,
+    ArrowLeft,
 }
 
 #[derive(Clone, Debug)]
@@ -193,14 +195,8 @@ impl cosmic::Application for Window {
                 self.search = search;
                 self.emoji_hovered = None;
             }
-            Message::Group(group) => {
-                self.emoji_hovered = None;
-                self.selected_group = group;
-                return scrollable::scroll_to(
-                    self.scrollable_id.clone(),
-                    scrollable::AbsoluteOffset::default(),
-                );
-            }
+            Message::Group(group) => return self.update_group(group),
+
             Message::EmojiHovered(emoji) => self.emoji_hovered = Some(emoji),
             Message::Exit => {
                 if let Some(p) = self.popup.take() {
@@ -210,6 +206,16 @@ impl cosmic::Application for Window {
             Message::Enter => {}
             Message::FocusTextInput => {
                 return widget::text_input::focus(self.text_input_id.clone());
+            }
+            Message::ArrowRight => {
+                let mut key = key_from_group(self.selected_group);
+                key = if key >= b'9' { b'0' } else { key + 1 };
+                return self.update_group(group_from_key(key));
+            }
+            Message::ArrowLeft => {
+                let mut key = key_from_group(self.selected_group);
+                key = if key <= b'0' { b'9' } else { key - 1 };
+                return self.update_group(group_from_key(key));
             }
         }
         Command::none()
@@ -490,6 +496,18 @@ impl Window {
         };
         return preview;
     }
+
+    fn update_group(
+        &mut self,
+        group: Option<emojis::Group>,
+    ) -> Command<cosmic::app::Message<Message>> {
+        self.emoji_hovered = None;
+        self.selected_group = group;
+        return scrollable::scroll_to(
+            self.scrollable_id.clone(),
+            scrollable::AbsoluteOffset::default(),
+        );
+    }
 }
 macro_rules! icon {
     ($name:expr) => {{
@@ -539,13 +557,30 @@ fn group_from_key(key: u8) -> Option<emojis::Group> {
         b'2' => PeopleAndBody,
         b'3' => AnimalsAndNature,
         b'4' => FoodAndDrink,
-        b'5' => Activities,
-        b'6' => Objects,
-        b'7' => Symbols,
-        b'8' => Flags,
+        b'5' => TravelAndPlaces,
+        b'6' => Activities,
+        b'7' => Objects,
+        b'8' => Symbols,
+        b'9' => Flags,
         _ => return None,
     };
     return Some(group);
+}
+fn key_from_group(group: Option<emojis::Group>) -> u8 {
+    use emojis::Group::*;
+    let group = match group {
+        Some(SmileysAndEmotion) => b'1',
+        Some(PeopleAndBody) => b'2',
+        Some(AnimalsAndNature) => b'3',
+        Some(FoodAndDrink) => b'4',
+        Some(TravelAndPlaces) => b'5',
+        Some(Activities) => b'6',
+        Some(Objects) => b'7',
+        Some(Symbols) => b'8',
+        Some(Flags) => b'9',
+        None => b'0',
+    };
+    return group;
 }
 
 fn group_string(group: emojis::Group) -> String {
@@ -595,6 +630,9 @@ fn navigation_subscription() -> Subscription<Message> {
         match key {
             cosmic::iced_runtime::keyboard::Key::Named(key_named) => match key_named {
                 cosmic::iced::keyboard::key::Named::Escape => return Some(Message::Exit),
+                cosmic::iced::keyboard::key::Named::ArrowRight => return Some(Message::ArrowRight),
+                cosmic::iced::keyboard::key::Named::ArrowLeft => return Some(Message::ArrowLeft),
+
                 _ => {}
             },
             cosmic::iced_runtime::keyboard::Key::Character(key_character) => {
