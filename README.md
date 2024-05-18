@@ -25,3 +25,22 @@ To do so, enable `show_tooltip` and `show_unicode` in `~/.config/cosmic/dev.domi
 `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/show_unicode` respectivly.
 Now press `Shift` + `Ctrl` + `U`, then enter the first code, e.g. `1F1E9`, finally press `Shift` + `Ctrl` to enter the code point. 
 After that repeat this step for the remaining code points ( up to 8), in this example `1F1EA` and it will output 🇩🇪. 
+
+# Dependencies
+(all may not be required)
+```
+Build-Depends:
+  debhelper (>= 11),
+  debhelper-compat (= 11),
+  rustc ,
+  cargo,
+  libdbus-1-dev,
+  libegl-dev,
+  libpulse-dev,
+  libudev-dev,
+  libxkbcommon-dev,
+  libwayland-dev,
+  libinput-dev,
+  just,
+  pkg-config,
+```
