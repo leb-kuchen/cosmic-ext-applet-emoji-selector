@@ -27,7 +27,7 @@ Now press `Shift` + `Ctrl` + `U`, then enter the first code, e.g. `1F1E9`, final
 After that repeat this step for the remaining code points ( up to 8), in this example `1F1EA` and it will output 🇩🇪. 
 
 # Dependencies
-(all may not be required)
+(some may not be required)
 ```
 Build-Depends:
   debhelper (>= 11),
