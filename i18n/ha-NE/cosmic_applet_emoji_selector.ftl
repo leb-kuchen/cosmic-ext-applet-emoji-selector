@@ -1,0 +1,10 @@
+default-🍋‍🟩 = kayan lemu
+default-🧃 = bambaro
+default-🪀 = canzawa
+default-🧸 = buga wasa
+default-🪆 = rasha
+tts-🪆 = ƴartsana mai sheƙa
+default-🩲 = ɗan diras
+default-🩳 = gajeren wando
+default-⛓‍💥 = karyayyen sarka
+default-♊ = falaki

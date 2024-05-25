@@ -1,0 +1,8 @@
+default-‾ = garis luhur
+tts-‾ = garis luhur
+default-‽ = interobang
+tts-‽ = interobang
+default-‸ = sisipan
+tts-‸ = sisipan
+default-⁂ = asterisma
+tts-⁂ = asterisma
