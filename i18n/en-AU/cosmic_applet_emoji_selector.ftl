@@ -1,6 +1,3 @@
-default-≤ = inequality
-default-≥ = greater-than
-default-⋭ = does not contain as normal subgroup
 default-🤭 = face with hand over mouth
 default-🤫 = quiet
 tts-🤫 = shooshing face
@@ -324,5 +321,3 @@ tts-🔡 = input Latin lowercase
 default-🔤 = input Latin letters
 tts-🔤 = input Latin letters
 default-🅿 = car park
-default-$ = AUD
-default-₹ = currency

@@ -1,10 +1,3 @@
-default-〈 = angle bracket
-default-〉 = angle bracket
-default-↢ = leftwards arrow with tail
-default-↴ = rightwards arrow with downwards corner
-tts-↴ = rightwards arrow with downwards corner
-default-↵ = downwards arrow with leftwards corner
-tts-↵ = downwards arrow with leftwards corner
 default-😷 = cold
 default-🧑‍🌾 = farmer
 default-👨‍🌾 = farmer
