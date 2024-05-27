@@ -4,6 +4,7 @@ use std::iter;
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
+use crate::localize::LANGUAGE_LOADER;
 use crate::widget_copy;
 use cosmic::app::Core;
 use cosmic::cosmic_config;
@@ -16,11 +17,15 @@ use cosmic::iced::{Command, Limits};
 use cosmic::iced_futures::Subscription;
 use cosmic::iced_runtime::core::window;
 use cosmic::iced_style::application;
+
 use cosmic::iced_widget::scrollable;
 use cosmic::widget::{self};
 use cosmic::{Apply, Element, Theme};
+
 use cosmic_time::Timeline;
+
 use regex::RegexBuilder;
+
 pub const ID: &str = "dev.dominiccgeh.CosmicAppletEmojiSelector";
 const ICON: &str = ID;
 pub struct Window {
@@ -237,6 +242,7 @@ impl cosmic::Application for Window {
             .on_press(Message::TogglePopup)
             .into()
     }
+
     // todo extract more code into functions
     fn view_window(&self, _id: Id) -> Element<Self::Message> {
         // use regex to apply simple unicode case folding
@@ -313,7 +319,6 @@ impl cosmic::Application for Window {
             let preview_container = widget::container(preview).center_y().height(65);
             content = content.push(preview_container);
         }
-
         const GRID_SIZE: usize = 10;
 
         let mut grid = widget::column();
@@ -322,7 +327,7 @@ impl cosmic::Application for Window {
             let mut row = widget::row::with_capacity(GRID_SIZE);
             for emoji in emojis.iter().filter_map(|e| *e) {
                 // todo figure out button and text style
-                let emoji_txt = widget::text(emoji.to_string())
+                let emoji_txt = widget::text(emoji.as_str())
                     .size(25)
                     .width(35)
                     .height(35)
@@ -454,6 +459,30 @@ impl Window {
                 .align_items(Alignment::Center);
             // todo size and width is arbitary; user config?
 
+            let display_characters = &['\u{fe0f}', '\u{fe0e}'];
+            let mut emoji_hovered_no_display_characters = Cow::from(
+                emoji_hovered
+                    .as_str()
+                    .strip_suffix(display_characters)
+                    .unwrap_or(emoji_hovered.as_str()),
+            );
+            if emoji_hovered_no_display_characters.contains(display_characters) {
+                emoji_hovered_no_display_characters = emoji_hovered_no_display_characters
+                    .replace(display_characters, "")
+                    .into()
+            }
+
+            let preview_name = std::iter::once(String::from("tts"))
+                .chain(
+                    emoji_hovered_no_display_characters
+                        .chars()
+                        .map(|c| format!("{:x}", c as u32)),
+                )
+                .collect::<Vec<_>>()
+                .join("-");
+            let preview_name = LANGUAGE_LOADER.get(&preview_name);
+            println!("{preview_name}, {}", format_emoji(emoji_hovered, true));
+
             let preview_emoji = widget::text(emoji_hovered.as_str())
                 .font(self.font_family)
                 .shaping(cosmic::iced_core::text::Shaping::Advanced)
@@ -468,7 +497,7 @@ impl Window {
 
             // this all for south georgia and south sandwich islands
             // replace if iced gets proper text wrapping
-            let mut emoji_name = emoji_hovered.name();
+            let mut emoji_name = preview_name.as_str();
             let emoji_name_len = emoji_name.len();
             let cut_off_idx = emoji_name
                 .char_indices()
@@ -476,9 +505,9 @@ impl Window {
                 .map_or(emoji_name_len, |(i, _)| i);
             emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
             let emoji_name = if emoji_name_len == emoji_name.len() {
-                Cow::from(emoji_name)
+                emoji_name.to_owned()
             } else {
-                Cow::from(emoji_name.to_owned() + "...")
+                emoji_name.to_owned() + "..."
             };
             let preview_name = widget::text::title4(emoji_name);
             right_preview = right_preview.push(preview_name);
