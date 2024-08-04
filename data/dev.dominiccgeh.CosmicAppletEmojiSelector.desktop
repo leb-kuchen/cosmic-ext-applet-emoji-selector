@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Emoji Selector
 Type=Application
-Exec=cosmic-applet-emoji-selector
+Exec=cosmic-ext-applet-emoji-selector
 Terminal=false
 Categories=Cosmic;Iced;
 Keywords=Cosmic;Iced;
@@ -11,3 +11,4 @@ StartupNotify=true
 NoDisplay=true
 X-CosmicApplet=true
 X-CosmicHoverPopup=true
+
