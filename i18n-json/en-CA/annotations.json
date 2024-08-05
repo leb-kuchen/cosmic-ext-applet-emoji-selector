@@ -1,0 +1,2313 @@
+{
+  "🔠": {
+    "default": [
+      "ABCD",
+      "input",
+      "Latin",
+      "letters",
+      "uppercase"
+    ],
+    "tts": [
+      "input Latin uppercase"
+    ]
+  },
+  "🚃": {
+    "default": [
+      "car",
+      "electric",
+      "railway",
+      "train",
+      "tram",
+      "trolley bus",
+      "trolleybus"
+    ],
+    "tts": []
+  },
+  "😤": {
+    "default": [
+      "angry",
+      "face",
+      "face with steam from nose",
+      "frustration",
+      "triumph",
+      "won"
+    ],
+    "tts": []
+  },
+  "🤹‍♀": {
+    "default": [
+      "juggling",
+      "multi-task",
+      "multitask",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🌌": {
+    "default": [
+      "Milky",
+      "space",
+      "Way"
+    ],
+    "tts": [
+      "Milky Way"
+    ]
+  },
+  "🎃": {
+    "default": [
+      "celebration",
+      "Halloween",
+      "jack",
+      "jack-o-lantern",
+      "jack-o’-lantern",
+      "lantern"
+    ],
+    "tts": []
+  },
+  "🗽": {
+    "default": [
+      "Liberty",
+      "Statue",
+      "Statue of Liberty"
+    ],
+    "tts": []
+  },
+  "🛺": {
+    "default": [
+      "auto rickshaw",
+      "tuk tuk",
+      "tuk-tuk",
+      "tuktuk"
+    ],
+    "tts": []
+  },
+  "🪤": {
+    "default": [
+      "bait",
+      "mouse",
+      "mousetrap",
+      "snare",
+      "trap"
+    ],
+    "tts": [
+      "mousetrap"
+    ]
+  },
+  "🧑‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "health worker",
+      "healthcare",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🕧": {
+    "default": [
+      "12",
+      "12:30",
+      "clock",
+      "half past twelve",
+      "thirty",
+      "twelve",
+      "twelve-thirty"
+    ],
+    "tts": [
+      "twelve thirty"
+    ]
+  },
+  "🙏": {
+    "default": [
+      "ask",
+      "folded hands",
+      "hand",
+      "high five",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🕞": {
+    "default": [
+      "3",
+      "3:30",
+      "clock",
+      "half past three",
+      "thirty",
+      "three",
+      "three-thirty"
+    ],
+    "tts": [
+      "three thirty"
+    ]
+  },
+  "🧢": {
+    "default": [],
+    "tts": [
+      "baseball cap"
+    ]
+  },
+  "🥐": {
+    "default": [
+      "bread",
+      "breakfast",
+      "crescent",
+      "croissant",
+      "food",
+      "French",
+      "roll"
+    ],
+    "tts": []
+  },
+  "🤥": {
+    "default": [
+      "face",
+      "lie",
+      "lying face",
+      "Pinocchio"
+    ],
+    "tts": []
+  },
+  "🎠": {
+    "default": [
+      "carousel",
+      "horse",
+      "merry-go-round"
+    ],
+    "tts": []
+  },
+  "🏛": {
+    "default": [
+      "classical",
+      "classical building",
+      "column"
+    ],
+    "tts": []
+  },
+  "🤠": {
+    "default": [
+      "cowboy",
+      "cowgirl",
+      "face",
+      "face with cowboy hat",
+      "hat"
+    ],
+    "tts": [
+      "face with cowboy hat"
+    ]
+  },
+  "🇺🇲": {
+    "default": [
+      "flag",
+      "flag: US Outlying Islands"
+    ],
+    "tts": [
+      "flag: US Outlying Islands"
+    ]
+  },
+  "☑": {
+    "default": [
+      "✓",
+      "box",
+      "check",
+      "check box with check",
+      "tick",
+      "tick box with tick"
+    ],
+    "tts": []
+  },
+  "🥌": {
+    "default": [
+      "curling rock",
+      "curling stone",
+      "game",
+      "rock"
+    ],
+    "tts": [
+      "curling rock"
+    ]
+  },
+  "🇵🇲": {
+    "default": [
+      "flag",
+      "flag: Saint-Pierre-et-Miquelon"
+    ],
+    "tts": [
+      "flag: Saint-Pierre-et-Miquelon"
+    ]
+  },
+  "🫲": {
+    "default": [
+      "hand",
+      "left",
+      "leftward",
+      "leftwards"
+    ],
+    "tts": [
+      "leftward hand"
+    ]
+  },
+  "🐞": {
+    "default": [],
+    "tts": [
+      "ladybug"
+    ]
+  },
+  "⛩": {
+    "default": [
+      "religion",
+      "Shinto",
+      "shrine"
+    ],
+    "tts": [
+      "Shinto shrine"
+    ]
+  },
+  "🙃": {
+    "default": [
+      "face",
+      "upside down",
+      "upside-down face"
+    ],
+    "tts": []
+  },
+  "🥏": {
+    "default": [
+      "flying disc",
+      "Frisbee",
+      "ultimate"
+    ],
+    "tts": []
+  },
+  "🤘": {
+    "default": [
+      "finger",
+      "hand",
+      "horns",
+      "rock on",
+      "sign of the horns"
+    ],
+    "tts": []
+  },
+  "🪒": {
+    "default": [
+      "cut-throat",
+      "razor",
+      "sharp",
+      "shave"
+    ],
+    "tts": []
+  },
+  "🍬": {
+    "default": [
+      "candy",
+      "dessert",
+      "sweet",
+      "sweets"
+    ],
+    "tts": []
+  },
+  "🫥": {
+    "default": [
+      "depressed",
+      "disappear",
+      "dotted line face",
+      "dotted-line face",
+      "hide",
+      "introvert",
+      "invisible"
+    ],
+    "tts": [
+      "dotted-line face"
+    ]
+  },
+  "🏈": {
+    "default": [],
+    "tts": [
+      "football"
+    ]
+  },
+  "🚛": {
+    "default": [],
+    "tts": [
+      "semi"
+    ]
+  },
+  "🤹": {
+    "default": [
+      "balance",
+      "juggle",
+      "multi-task",
+      "multitask",
+      "person juggling",
+      "skill"
+    ],
+    "tts": []
+  },
+  "👩‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "firewoman",
+      "truck",
+      "woman"
+    ],
+    "tts": []
+  },
+  "😋": {
+    "default": [
+      "delicious",
+      "face",
+      "face savouring food",
+      "savoring",
+      "savouring",
+      "smile",
+      "yum"
+    ],
+    "tts": [
+      "face savouring food"
+    ]
+  },
+  "🕠": {
+    "default": [
+      "5",
+      "5:30",
+      "clock",
+      "five",
+      "five-thirty",
+      "half past five",
+      "thirty"
+    ],
+    "tts": [
+      "five thirty"
+    ]
+  },
+  "🤟": {
+    "default": [
+      "hand",
+      "ILY",
+      "love you gesture",
+      "love-you gesture"
+    ],
+    "tts": []
+  },
+  "🥖": {
+    "default": [
+      "baguette",
+      "bread",
+      "food",
+      "French"
+    ],
+    "tts": []
+  },
+  "🛣": {
+    "default": [],
+    "tts": [
+      "highway"
+    ]
+  },
+  "🚎": {
+    "default": [
+      "bus",
+      "streetcar",
+      "tram",
+      "trolley",
+      "trolleybus"
+    ],
+    "tts": [
+      "trolley bus"
+    ]
+  },
+  "📐": {
+    "default": [
+      "ruler",
+      "set",
+      "set square",
+      "triangle",
+      "triangular ruler"
+    ],
+    "tts": []
+  },
+  "🕝": {
+    "default": [
+      "2",
+      "2:30",
+      "clock",
+      "half past two",
+      "thirty",
+      "two",
+      "two-thirty"
+    ],
+    "tts": [
+      "two thirty"
+    ]
+  },
+  "🧑‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "truck"
+    ],
+    "tts": []
+  },
+  "🍶": {
+    "default": [
+      "bar",
+      "beverage",
+      "bottle",
+      "cup",
+      "drink",
+      "sake",
+      "saké"
+    ],
+    "tts": []
+  },
+  "🫴": {
+    "default": [
+      "beckon",
+      "catch",
+      "come",
+      "offer",
+      "palm up hand",
+      "palm-up hand"
+    ],
+    "tts": [
+      "palm-up hand"
+    ]
+  },
+  "👕": {
+    "default": [
+      "clothing",
+      "shirt",
+      "T-shirt",
+      "tee-shirt",
+      "tshirt"
+    ],
+    "tts": [
+      "T-shirt"
+    ]
+  },
+  "🇻🇨": {
+    "default": [
+      "flag",
+      "flag: Saint Vincent and the Grenadines"
+    ],
+    "tts": [
+      "flag: Saint Vincent and the Grenadines"
+    ]
+  },
+  "😷": {
+    "default": [
+      "cold",
+      "doctor",
+      "face",
+      "face with medical mask",
+      "ill",
+      "mask",
+      "sick"
+    ],
+    "tts": []
+  },
+  "🍟": {
+    "default": [
+      "French",
+      "fries"
+    ],
+    "tts": [
+      "French fries"
+    ]
+  },
+  "☪": {
+    "default": [
+      "Islam",
+      "Muslim",
+      "religion",
+      "star and crescent"
+    ],
+    "tts": []
+  },
+  "🏉": {
+    "default": [],
+    "tts": [
+      "rugby"
+    ]
+  },
+  "🛋": {
+    "default": [
+      "couch",
+      "couch and lamp",
+      "hotel",
+      "lamp",
+      "sofa",
+      "sofa and lamp"
+    ],
+    "tts": []
+  },
+  "🦣": {
+    "default": [
+      "extinct",
+      "extinction",
+      "large",
+      "mammoth",
+      "tusk",
+      "woolly"
+    ],
+    "tts": []
+  },
+  "🤴": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "prince"
+    ],
+    "tts": []
+  },
+  "🤧": {
+    "default": [
+      "bless you",
+      "face",
+      "gesundheit",
+      "sneeze",
+      "sneezing face"
+    ],
+    "tts": []
+  },
+  "🧿": {
+    "default": [
+      "bead",
+      "charm",
+      "evil eye",
+      "nazar",
+      "nazar amulet",
+      "talisman"
+    ],
+    "tts": []
+  },
+  "🇭🇲": {
+    "default": [
+      "flag",
+      "flag: Heard and McDonald Islands"
+    ],
+    "tts": [
+      "flag: Heard and McDonald Islands"
+    ]
+  },
+  "🔤": {
+    "default": [
+      "abc",
+      "alphabet",
+      "input",
+      "Latin",
+      "letters"
+    ],
+    "tts": [
+      "input Latin letters"
+    ]
+  },
+  "🕤": {
+    "default": [
+      "9",
+      "9:30",
+      "clock",
+      "half past nine",
+      "nine",
+      "nine-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "nine thirty"
+    ]
+  },
+  "🧋": {
+    "default": [
+      "boba",
+      "bubble",
+      "milk",
+      "pearl",
+      "tea"
+    ],
+    "tts": []
+  },
+  "™": {
+    "default": [],
+    "tts": [
+      "trademark"
+    ]
+  },
+  "💎": {
+    "default": [
+      "diamond",
+      "gem",
+      "gem stone",
+      "gemstone",
+      "jewel"
+    ],
+    "tts": [
+      "gemstone"
+    ]
+  },
+  "⛽": {
+    "default": [],
+    "tts": [
+      "gas pump"
+    ]
+  },
+  "📮": {
+    "default": [
+      "mail",
+      "mailbox",
+      "post",
+      "post box",
+      "postbox"
+    ],
+    "tts": [
+      "mailbox"
+    ]
+  },
+  "🇸🇭": {
+    "default": [
+      "flag",
+      "flag: Saint Helena"
+    ],
+    "tts": [
+      "flag: Saint Helena"
+    ]
+  },
+  "🔼": {
+    "default": [
+      "arrow",
+      "button",
+      "red",
+      "upward button",
+      "upwards button"
+    ],
+    "tts": [
+      "upward button"
+    ]
+  },
+  "🕢": {
+    "default": [
+      "7",
+      "7:30",
+      "clock",
+      "half past seven",
+      "seven",
+      "seven-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "seven thirty"
+    ]
+  },
+  "🎯": {
+    "default": [
+      "bull’s-eye",
+      "bullseye",
+      "dart",
+      "direct hit",
+      "game",
+      "hit",
+      "target"
+    ],
+    "tts": []
+  },
+  "🙇‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "sorry",
+      "woman"
+    ],
+    "tts": []
+  },
+  "💷": {
+    "default": [
+      "banknote",
+      "bill",
+      "currency",
+      "money",
+      "note",
+      "pound",
+      "sterling"
+    ],
+    "tts": []
+  },
+  "🌝": {
+    "default": [
+      "bright",
+      "face",
+      "full",
+      "full-moon face",
+      "moon"
+    ],
+    "tts": [
+      "full-moon face"
+    ]
+  },
+  "✝": {
+    "default": [
+      "Christian",
+      "cross",
+      "Latin cross",
+      "religion"
+    ],
+    "tts": [
+      "Latin cross"
+    ]
+  },
+  "🧑‍🎄": {
+    "default": [
+      "Christmas",
+      "Claus",
+      "Mx. Claus"
+    ],
+    "tts": [
+      "Mx. Claus"
+    ]
+  },
+  "🔒": {
+    "default": [
+      "closed",
+      "locked",
+      "padlock"
+    ],
+    "tts": []
+  },
+  "👨‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "fireman",
+      "man"
+    ],
+    "tts": []
+  },
+  "🫷": {
+    "default": [
+      "high five",
+      "leftward",
+      "leftward-pushing hand",
+      "leftwards pushing hand",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "leftward-pushing hand"
+    ]
+  },
+  "🇼🇫": {
+    "default": [
+      "flag",
+      "flag: Wallis and Futuna"
+    ],
+    "tts": [
+      "flag: Wallis and Futuna"
+    ]
+  },
+  "🩻": {
+    "default": [
+      "bones",
+      "doctor",
+      "medical",
+      "skeleton",
+      "X-ray"
+    ],
+    "tts": [
+      "X-ray"
+    ]
+  },
+  "🍴": {
+    "default": [
+      "cooking",
+      "cutlery",
+      "fork",
+      "fork and knife",
+      "knife",
+      "knife and fork"
+    ],
+    "tts": []
+  },
+  "🚅": {
+    "default": [
+      "bullet",
+      "railway",
+      "Shinkansen",
+      "speed",
+      "train"
+    ],
+    "tts": []
+  },
+  "🇹🇨": {
+    "default": [
+      "flag",
+      "flag: Turks and Caicos Islands"
+    ],
+    "tts": [
+      "flag: Turks and Caicos Islands"
+    ]
+  },
+  "🧅": {
+    "default": [
+      "flavoring",
+      "flavouring",
+      "onion"
+    ],
+    "tts": []
+  },
+  "🚋": {
+    "default": [
+      "car",
+      "streetcar",
+      "tram",
+      "tramcar",
+      "trolley",
+      "trolley bus",
+      "trolleybus"
+    ],
+    "tts": [
+      "streetcar"
+    ]
+  },
+  "🇪🇦": {
+    "default": [
+      "flag",
+      "flag: Ceuta and Melilla"
+    ],
+    "tts": [
+      "flag: Ceuta and Melilla"
+    ]
+  },
+  "🫚": {
+    "default": [
+      "beer",
+      "ginger",
+      "root",
+      "spice"
+    ],
+    "tts": [
+      "ginger"
+    ]
+  },
+  "🇵🇸": {
+    "default": [
+      "flag",
+      "flag: Palestinian territories"
+    ],
+    "tts": [
+      "flag: Palestinian territories"
+    ]
+  },
+  "🤛": {
+    "default": [
+      "fist",
+      "left-facing fist",
+      "leftward"
+    ],
+    "tts": []
+  },
+  "👩‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "tts": []
+  },
+  "👭": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "two women holding hands",
+      "women",
+      "women holding hands"
+    ],
+    "tts": []
+  },
+  "🎣": {
+    "default": [
+      "fish",
+      "fishing pole",
+      "fishing rod",
+      "pole"
+    ],
+    "tts": []
+  },
+  "🚽": {
+    "default": [
+      "lavatory",
+      "toilet"
+    ],
+    "tts": []
+  },
+  "🚻": {
+    "default": [
+      "bathroom",
+      "lavatory",
+      "restroom",
+      "washroom",
+      "WC"
+    ],
+    "tts": [
+      "washroom"
+    ]
+  },
+  "🎡": {
+    "default": [
+      "amusement park",
+      "Ferris",
+      "theme park",
+      "wheel"
+    ],
+    "tts": [
+      "Ferris wheel"
+    ]
+  },
+  "🤞": {
+    "default": [
+      "cross",
+      "crossed fingers",
+      "finger",
+      "good luck",
+      "hand",
+      "luck"
+    ],
+    "tts": []
+  },
+  "🔡": {
+    "default": [
+      "abcd",
+      "input",
+      "Latin",
+      "letters",
+      "lowercase"
+    ],
+    "tts": [
+      "input Latin lowercase"
+    ]
+  },
+  "💇": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "parlor",
+      "parlour",
+      "person getting haircut",
+      "salon"
+    ],
+    "tts": []
+  },
+  "🇦🇬": {
+    "default": [
+      "flag",
+      "flag: Antigua and Barbuda"
+    ],
+    "tts": [
+      "flag: Antigua and Barbuda"
+    ]
+  },
+  "🧏": {
+    "default": [
+      "accessibility",
+      "deaf",
+      "deaf person",
+      "ear",
+      "hard of hearing",
+      "hear",
+      "hearing impaired"
+    ],
+    "tts": []
+  },
+  "🗼": {
+    "default": [
+      "Tokyo",
+      "Tower"
+    ],
+    "tts": [
+      "Tokyo Tower"
+    ]
+  },
+  "🕋": {
+    "default": [
+      "Islam",
+      "Kaaba",
+      "Muslim",
+      "religion"
+    ],
+    "tts": [
+      "Kaaba"
+    ]
+  },
+  "🛸": {
+    "default": [
+      "flying saucer",
+      "spaceship",
+      "UFO"
+    ],
+    "tts": []
+  },
+  "🫱": {
+    "default": [
+      "hand",
+      "right",
+      "rightward",
+      "rightwards"
+    ],
+    "tts": [
+      "rightward hand"
+    ]
+  },
+  "✡": {
+    "default": [
+      "David",
+      "Jewish",
+      "Judaism",
+      "religion",
+      "star",
+      "Star of David"
+    ],
+    "tts": [
+      "Star of David"
+    ]
+  },
+  "🇧🇱": {
+    "default": [
+      "flag",
+      "flag: Saint-Barthélemy"
+    ],
+    "tts": [
+      "flag: Saint-Barthélemy"
+    ]
+  },
+  "🕵": {
+    "default": [
+      "detective",
+      "private eye",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🥋": {
+    "default": [
+      "judo",
+      "karate",
+      "martial arts",
+      "martial arts uniform",
+      "MMA",
+      "taekwondo",
+      "uniform"
+    ],
+    "tts": []
+  },
+  "🕥": {
+    "default": [
+      "10",
+      "10:30",
+      "clock",
+      "half past ten",
+      "ten",
+      "ten-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "ten thirty"
+    ]
+  },
+  "🇹🇹": {
+    "default": [
+      "flag",
+      "flag: Trinidad and Tobago"
+    ],
+    "tts": [
+      "flag: Trinidad and Tobago"
+    ]
+  },
+  "💬": {
+    "default": [
+      "balloon",
+      "bubble",
+      "comic",
+      "dialog",
+      "dialogue",
+      "speech"
+    ],
+    "tts": []
+  },
+  "🎑": {
+    "default": [
+      "celebration",
+      "ceremony",
+      "moon",
+      "moon viewing ceremony",
+      "moon-viewing ceremony"
+    ],
+    "tts": [
+      "moon-viewing ceremony"
+    ]
+  },
+  "🇰🇳": {
+    "default": [
+      "flag",
+      "flag: Saint Kitts and Nevis"
+    ],
+    "tts": [
+      "flag: Saint Kitts and Nevis"
+    ]
+  },
+  "🌯": {
+    "default": [
+      "burrito",
+      "Mexican",
+      "wrap"
+    ],
+    "tts": []
+  },
+  "🇲🇫": {
+    "default": [
+      "flag",
+      "flag: Saint Martin"
+    ],
+    "tts": [
+      "flag: Saint Martin"
+    ]
+  },
+  "📺": {
+    "default": [
+      "television",
+      "TV",
+      "video"
+    ],
+    "tts": []
+  },
+  "☦": {
+    "default": [
+      "Christian",
+      "cross",
+      "Orthodox cross",
+      "religion"
+    ],
+    "tts": [
+      "Orthodox cross"
+    ]
+  },
+  "🇧🇦": {
+    "default": [
+      "flag",
+      "flag: Bosnia and Herzegovina"
+    ],
+    "tts": [
+      "flag: Bosnia and Herzegovina"
+    ]
+  },
+  "🫳": {
+    "default": [
+      "dismiss",
+      "drop",
+      "palm down hand",
+      "palm-down hand",
+      "shoo"
+    ],
+    "tts": [
+      "palm-down hand"
+    ]
+  },
+  "🚒": {
+    "default": [],
+    "tts": [
+      "fire truck"
+    ]
+  },
+  "🌆": {
+    "default": [
+      "city",
+      "cityscape at dusk",
+      "dusk",
+      "evening",
+      "landscape",
+      "skyline at dusk",
+      "sunset"
+    ],
+    "tts": []
+  },
+  "🚏": {
+    "default": [
+      "bus",
+      "busstop",
+      "stop"
+    ],
+    "tts": []
+  },
+  "🕌": {
+    "default": [
+      "Islam",
+      "mosque",
+      "Muslim",
+      "religion"
+    ],
+    "tts": []
+  },
+  "📯": {
+    "default": [],
+    "tts": [
+      "post horn"
+    ]
+  },
+  "🍾": {
+    "default": [
+      "bar",
+      "bottle",
+      "bottle with popping cork",
+      "bubbly",
+      "cork",
+      "drink",
+      "popping"
+    ],
+    "tts": []
+  },
+  "😍": {
+    "default": [
+      "eye",
+      "face",
+      "love",
+      "smile",
+      "smiling face with heart eyes",
+      "smiling face with heart-eyes"
+    ],
+    "tts": [
+      "smiling face with heart eyes"
+    ]
+  },
+  "🫔": {
+    "default": [
+      "Mexican",
+      "tamale",
+      "wrapped"
+    ],
+    "tts": []
+  },
+  "🚙": {
+    "default": [
+      "recreational",
+      "sport utility",
+      "sport utility vehicle",
+      "SUV"
+    ],
+    "tts": []
+  },
+  "🐫": {
+    "default": [
+      "Bactrian",
+      "camel",
+      "hump",
+      "two-hump camel"
+    ],
+    "tts": []
+  },
+  "🙇‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "man",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "📳": {
+    "default": [
+      "cell",
+      "mobile",
+      "mode",
+      "phone",
+      "telephone",
+      "vibrate",
+      "vibration"
+    ],
+    "tts": []
+  },
+  "🧆": {
+    "default": [
+      "chick pea",
+      "chickpea",
+      "falafel",
+      "meatball"
+    ],
+    "tts": []
+  },
+  "📼": {
+    "default": [
+      "tape",
+      "VHS",
+      "video",
+      "videocassette",
+      "videotape"
+    ],
+    "tts": []
+  },
+  "🗻": {
+    "default": [
+      "Fuji",
+      "Mount Fuji",
+      "mountain"
+    ],
+    "tts": [
+      "Mount Fuji"
+    ]
+  },
+  "🥩": {
+    "default": [
+      "chop",
+      "cut of meat",
+      "lamb chop",
+      "pork chop",
+      "steak"
+    ],
+    "tts": []
+  },
+  "☯": {
+    "default": [
+      "religion",
+      "Tao",
+      "Taoist",
+      "yang",
+      "yin"
+    ],
+    "tts": []
+  },
+  "🗨": {
+    "default": [
+      "balloon",
+      "bubble",
+      "dialog",
+      "dialogue",
+      "left speech bubble",
+      "speech"
+    ],
+    "tts": []
+  },
+  "🛥": {
+    "default": [],
+    "tts": [
+      "motorboat"
+    ]
+  },
+  "⚰": {
+    "default": [
+      "casket",
+      "coffin",
+      "death"
+    ],
+    "tts": []
+  },
+  "🇻🇮": {
+    "default": [
+      "flag",
+      "flag: US Virgin Islands"
+    ],
+    "tts": [
+      "flag: US Virgin Islands"
+    ]
+  },
+  "🏁": {
+    "default": [
+      "checkered",
+      "checkered flag",
+      "chequered",
+      "chequered flag",
+      "racing"
+    ],
+    "tts": [
+      "checkered flag"
+    ]
+  },
+  "🍀": {
+    "default": [],
+    "tts": [
+      "four-leaf clover"
+    ]
+  },
+  "🕦": {
+    "default": [
+      "11",
+      "11:30",
+      "clock",
+      "eleven",
+      "eleven-thirty",
+      "half past eleven",
+      "thirty"
+    ],
+    "tts": [
+      "eleven thirty"
+    ]
+  },
+  "🥃": {
+    "default": [
+      "glass",
+      "liquor",
+      "shot",
+      "tumbler",
+      "whiskey",
+      "whisky"
+    ],
+    "tts": []
+  },
+  "🇱🇨": {
+    "default": [
+      "flag",
+      "flag: Saint Lucia"
+    ],
+    "tts": [
+      "flag: Saint Lucia"
+    ]
+  },
+  "🍻": {
+    "default": [
+      "bar",
+      "beer",
+      "cheers",
+      "clink",
+      "clinking beer mugs",
+      "drink",
+      "mug"
+    ],
+    "tts": []
+  },
+  "🥂": {
+    "default": [
+      "celebrate",
+      "cheers",
+      "clink",
+      "clinking glasses",
+      "drink",
+      "glass"
+    ],
+    "tts": []
+  },
+  "🚺": {
+    "default": [
+      "bathroom",
+      "ladies’ room",
+      "lavatory",
+      "restroom",
+      "toilet",
+      "WC",
+      "woman",
+      "women’s room"
+    ],
+    "tts": [
+      "ladies’ room"
+    ]
+  },
+  "⁉": {
+    "default": [
+      "!",
+      "!?",
+      "?",
+      "exclamation",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "tts": []
+  },
+  "®": {
+    "default": [
+      "r",
+      "registered",
+      "trademark"
+    ],
+    "tts": []
+  },
+  "😻": {
+    "default": [
+      "cat",
+      "eye",
+      "face",
+      "heart",
+      "love",
+      "smile",
+      "smiling cat face with heart eyes",
+      "smiling cat with heart-eyes"
+    ],
+    "tts": [
+      "smiling cat face with heart eyes"
+    ]
+  },
+  "🏪": {
+    "default": [
+      "convenience",
+      "dépanneur",
+      "store"
+    ],
+    "tts": []
+  },
+  "🦻": {
+    "default": [
+      "accessibility",
+      "ear with hearing aid",
+      "hard of hearing",
+      "hearing impaired"
+    ],
+    "tts": []
+  },
+  "🛩": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "small airplane",
+      "small plane"
+    ],
+    "tts": []
+  },
+  "🏒": {
+    "default": [],
+    "tts": [
+      "hockey"
+    ]
+  },
+  "🤭": {
+    "default": [
+      "face with hand over mouth",
+      "oops",
+      "whoops"
+    ],
+    "tts": []
+  },
+  "🌮": {
+    "default": [
+      "Mexican",
+      "taco"
+    ],
+    "tts": []
+  },
+  "👌": {
+    "default": [
+      "hand",
+      "OK",
+      "perfect"
+    ],
+    "tts": []
+  },
+  "👨‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "man",
+      "man health worker",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🍦": {
+    "default": [
+      "cream",
+      "dessert",
+      "ice",
+      "icecream",
+      "soft",
+      "soft-serve ice cream",
+      "sweet"
+    ],
+    "tts": [
+      "soft-serve ice cream"
+    ]
+  },
+  "🎱": {
+    "default": [
+      "8",
+      "ball",
+      "billiard",
+      "eight",
+      "game",
+      "magic 8 ball",
+      "pool 8 ball"
+    ],
+    "tts": []
+  },
+  "🪆": {
+    "default": [
+      "doll",
+      "nesting",
+      "nesting dolls",
+      "Russia"
+    ],
+    "tts": []
+  },
+  "🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "guide cane",
+      "white cane"
+    ],
+    "tts": []
+  },
+  "🫸": {
+    "default": [
+      "high five",
+      "push",
+      "refuse",
+      "rightward",
+      "rightward-pushing hand",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "rightward-pushing hand"
+    ]
+  },
+  "🏏": {
+    "default": [
+      "ball",
+      "bat",
+      "cricket",
+      "cricket match",
+      "game"
+    ],
+    "tts": []
+  },
+  "🛒": {
+    "default": [
+      "basket",
+      "cart",
+      "shopping",
+      "trolley"
+    ],
+    "tts": []
+  },
+  "👾": {
+    "default": [
+      "alien",
+      "creature",
+      "ET",
+      "extraterrestrial",
+      "face",
+      "monster",
+      "UFO"
+    ],
+    "tts": []
+  },
+  "🩱": {
+    "default": [
+      "bathing suit",
+      "one-piece swimsuit",
+      "swimming costume"
+    ],
+    "tts": []
+  },
+  "🤜": {
+    "default": [
+      "fist",
+      "right-facing fist",
+      "rightward"
+    ],
+    "tts": []
+  },
+  "🏓": {
+    "default": [
+      "ball",
+      "bat",
+      "game",
+      "paddle",
+      "ping pong",
+      "ping-pong",
+      "table tennis"
+    ],
+    "tts": []
+  },
+  "✈": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "flight"
+    ],
+    "tts": []
+  },
+  "🚮": {
+    "default": [
+      "garbage",
+      "litter",
+      "litter bin",
+      "litter in bin sign",
+      "trash"
+    ],
+    "tts": []
+  },
+  "✅": {
+    "default": [
+      "✓",
+      "button",
+      "check",
+      "mark",
+      "tick"
+    ],
+    "tts": []
+  },
+  "🤙": {
+    "default": [
+      "call",
+      "call me hand",
+      "call-me hand",
+      "hand",
+      "hang loose",
+      "Shaka"
+    ],
+    "tts": [
+      "call-me hand"
+    ]
+  },
+  "🫅": {
+    "default": [
+      "king",
+      "monarch",
+      "noble",
+      "person with crown",
+      "queen",
+      "regal",
+      "royalty"
+    ],
+    "tts": []
+  },
+  "🕣": {
+    "default": [
+      "8",
+      "8:30",
+      "clock",
+      "eight",
+      "eight-thirty",
+      "half past eight",
+      "thirty"
+    ],
+    "tts": [
+      "eight thirty"
+    ]
+  },
+  "🌭": {
+    "default": [
+      "frank",
+      "frankfurter",
+      "hot dog",
+      "hotdog",
+      "sausage"
+    ],
+    "tts": []
+  },
+  "🚊": {
+    "default": [
+      "car",
+      "streetcar",
+      "tram",
+      "tramcar",
+      "trolley",
+      "trolley bus",
+      "trolleybus"
+    ],
+    "tts": []
+  },
+  "💯": {
+    "default": [
+      "100",
+      "full",
+      "hundred",
+      "hundred percent",
+      "hundred points",
+      "one hundred",
+      "score"
+    ],
+    "tts": []
+  },
+  "🔽": {
+    "default": [
+      "arrow",
+      "button",
+      "down",
+      "downward button",
+      "downwards button",
+      "red"
+    ],
+    "tts": [
+      "downward button"
+    ]
+  },
+  "🕍": {
+    "default": [
+      "Jew",
+      "Jewish",
+      "religion",
+      "shul",
+      "synagogue",
+      "temple"
+    ],
+    "tts": []
+  },
+  "🍥": {
+    "default": [
+      "cake",
+      "fish",
+      "fish cake with swirl",
+      "narutomaki",
+      "pastry",
+      "swirl"
+    ],
+    "tts": []
+  },
+  "✉": {
+    "default": [
+      "e-mail",
+      "email",
+      "envelope",
+      "letter"
+    ],
+    "tts": []
+  },
+  "🔓": {
+    "default": [
+      "lock",
+      "open",
+      "padlock",
+      "unlock",
+      "unlocked"
+    ],
+    "tts": []
+  },
+  "🕟": {
+    "default": [
+      "4",
+      "4:30",
+      "clock",
+      "four",
+      "four-thirty",
+      "half past four",
+      "thirty"
+    ],
+    "tts": [
+      "four thirty"
+    ]
+  },
+  "👧": {
+    "default": [
+      "girl",
+      "young"
+    ],
+    "tts": []
+  },
+  "🌃": {
+    "default": [
+      "night",
+      "night with stars",
+      "star",
+      "starry night"
+    ],
+    "tts": []
+  },
+  "🥞": {
+    "default": [
+      "breakfast",
+      "crepe",
+      "crêpe",
+      "food",
+      "hotcake",
+      "pancake",
+      "pancakes"
+    ],
+    "tts": []
+  },
+  "🕜": {
+    "default": [
+      "1",
+      "1:30",
+      "clock",
+      "half past one",
+      "one",
+      "one-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "one thirty"
+    ]
+  },
+  "🖖": {
+    "default": [
+      "finger",
+      "hand",
+      "Spock",
+      "Vulcan",
+      "Vulcan salute"
+    ],
+    "tts": [
+      "Vulcan salute"
+    ]
+  },
+  "💪": {
+    "default": [
+      "biceps",
+      "comic",
+      "flex",
+      "flexed bicep",
+      "muscle"
+    ],
+    "tts": [
+      "flexed bicep"
+    ]
+  },
+  "🚩": {
+    "default": [
+      "post",
+      "red flag",
+      "triangular flag"
+    ],
+    "tts": []
+  },
+  "🏋": {
+    "default": [
+      "lifter",
+      "person lifting weights",
+      "weight",
+      "weightlifter"
+    ],
+    "tts": []
+  },
+  "🎋": {
+    "default": [
+      "banner",
+      "celebration",
+      "Japanese",
+      "Tanabata tree",
+      "tree"
+    ],
+    "tts": [
+      "Tanabata tree"
+    ]
+  },
+  "👽": {
+    "default": [
+      "alien",
+      "creature",
+      "ET",
+      "extraterrestrial",
+      "face",
+      "fantasy",
+      "UFO"
+    ],
+    "tts": []
+  },
+  "🛫": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "check-in",
+      "departure",
+      "departures",
+      "flight departure",
+      "plane departure"
+    ],
+    "tts": []
+  },
+  "🤶": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Mother",
+      "Mrs."
+    ],
+    "tts": []
+  },
+  "🏙": {
+    "default": [
+      "city",
+      "cityscape",
+      "skyline"
+    ],
+    "tts": []
+  },
+  "🩴": {
+    "default": [
+      "beach sandal",
+      "flip-flop",
+      "sandal",
+      "thong",
+      "zōri"
+    ],
+    "tts": [
+      "flip-flop"
+    ]
+  },
+  "🌾": {
+    "default": [
+      "ear",
+      "grain",
+      "rice",
+      "sheaf",
+      "sheaf of rice"
+    ],
+    "tts": []
+  },
+  "🚇": {
+    "default": [
+      "metro",
+      "subway",
+      "tube",
+      "underground"
+    ],
+    "tts": [
+      "subway"
+    ]
+  },
+  "👬": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "♏": {
+    "default": [
+      "Scorpio",
+      "scorpion",
+      "Scorpius",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🩹": {
+    "default": [
+      "adhesive bandage",
+      "injury",
+      "plaster",
+      "sticking plaster"
+    ],
+    "tts": []
+  },
+  "💻": {
+    "default": [
+      "computer",
+      "laptop",
+      "PC",
+      "personal"
+    ],
+    "tts": []
+  },
+  "🇸🇹": {
+    "default": [
+      "flag",
+      "flag: São Tomé and Príncipe"
+    ],
+    "tts": [
+      "flag: São Tomé and Príncipe"
+    ]
+  },
+  "🪪": {
+    "default": [
+      "credentials",
+      "ID",
+      "identification card",
+      "licence",
+      "security"
+    ],
+    "tts": []
+  },
+  "🧄": {
+    "default": [
+      "flavoring",
+      "flavouring",
+      "garlic"
+    ],
+    "tts": []
+  },
+  "🧬": {
+    "default": [
+      "biologist",
+      "DNA",
+      "evolution",
+      "gene",
+      "genetics",
+      "life"
+    ],
+    "tts": [
+      "DNA"
+    ]
+  },
+  "🀄": {
+    "default": [
+      "game",
+      "Mahjong",
+      "Mahjong red dragon",
+      "red"
+    ],
+    "tts": [
+      "Mahjong red dragon"
+    ]
+  },
+  "🤹‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "multi-task",
+      "multitask"
+    ],
+    "tts": []
+  },
+  "🛕": {
+    "default": [
+      "Hindu",
+      "temple"
+    ],
+    "tts": [
+      "Hindu temple"
+    ]
+  },
+  "🇸🇯": {
+    "default": [
+      "flag",
+      "flag: Svalbard and Jan Mayen"
+    ],
+    "tts": [
+      "flag: Svalbard and Jan Mayen"
+    ]
+  },
+  "🙎": {
+    "default": [
+      "facial expression",
+      "gesture",
+      "person pouting",
+      "pouting"
+    ],
+    "tts": []
+  },
+  "🕡": {
+    "default": [
+      "6",
+      "6:30",
+      "clock",
+      "half past six",
+      "six",
+      "six-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "six thirty"
+    ]
+  },
+  "🚄": {
+    "default": [
+      "high-speed train",
+      "railway",
+      "Shinkansen",
+      "speed",
+      "train"
+    ],
+    "tts": []
+  },
+  "💾": {
+    "default": [
+      "computer",
+      "disk",
+      "diskette",
+      "floppy"
+    ],
+    "tts": []
+  },
+  "🤕": {
+    "default": [
+      "bandage",
+      "face",
+      "face with head bandage",
+      "face with head-bandage",
+      "hurt",
+      "injury"
+    ],
+    "tts": []
+  },
+  "🤿": {
+    "default": [
+      "diving",
+      "diving mask",
+      "scuba",
+      "snorkelling"
+    ],
+    "tts": []
+  },
+  "🇬🇸": {
+    "default": [
+      "flag",
+      "flag: South Georgia and South Sandwich Islands"
+    ],
+    "tts": [
+      "flag: South Georgia and South Sandwich Islands"
+    ]
+  },
+  "🌰": {
+    "default": [
+      "chestnut",
+      "nut",
+      "plant"
+    ],
+    "tts": []
+  },
+  "🏳": {
+    "default": [
+      "surrender",
+      "waving",
+      "white flag"
+    ],
+    "tts": []
+  },
+  "🎅": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Father",
+      "Santa"
+    ],
+    "tts": []
+  },
+  "🚹": {
+    "default": [
+      "bathroom",
+      "lavatory",
+      "men’s",
+      "men’s room",
+      "restroom",
+      "washroom",
+      "wc"
+    ],
+    "tts": []
+  },
+  "🧇": {
+    "default": [
+      "breakfast",
+      "iron",
+      "unclear",
+      "vague",
+      "waffle"
+    ],
+    "tts": []
+  }
+}

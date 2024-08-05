@@ -1,0 +1,1345 @@
+{
+  "🕦": {
+    "default": [
+      "11:30",
+      "11.30",
+      "clock",
+      "eleven-thirty",
+      "half past eleven"
+    ],
+    "tts": []
+  },
+  "🙌": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "raising hands",
+      "woo hoo",
+      "yay"
+    ],
+    "tts": []
+  },
+  "🤵": {
+    "default": [
+      "groom",
+      "person",
+      "person in tux",
+      "person in tuxedo",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "🇺🇲": {
+    "default": [
+      "flag",
+      "flag: US Outlying Islands"
+    ],
+    "tts": [
+      "flag: US Outlying Islands"
+    ]
+  },
+  "🗻": {
+    "default": [
+      "Fuji",
+      "Mount Fuji",
+      "mountain"
+    ],
+    "tts": [
+      "Mount Fuji"
+    ]
+  },
+  "👩‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane facing right"
+    ],
+    "tts": [
+      "woman with guide cane facing right"
+    ]
+  },
+  "😷": {
+    "default": [
+      "cold",
+      "doctor",
+      "face with medical mask",
+      "ill",
+      "mask",
+      "medicine",
+      "poorly",
+      "sick"
+    ],
+    "tts": []
+  },
+  "👨‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane"
+    ],
+    "tts": [
+      "man with guide cane"
+    ]
+  },
+  "🪂": {
+    "default": [
+      "hang-glide",
+      "parachute",
+      "parasail",
+      "parascend",
+      "skydive"
+    ],
+    "tts": []
+  },
+  "✖": {
+    "default": [
+      "×",
+      "cancel",
+      "heavy multiplication sign",
+      "multiplication",
+      "multiply",
+      "sign",
+      "x"
+    ],
+    "tts": []
+  },
+  "🪤": {
+    "default": [],
+    "tts": [
+      "mousetrap"
+    ]
+  },
+  "➕": {
+    "default": [
+      "+",
+      "math",
+      "maths",
+      "plus",
+      "sign"
+    ],
+    "tts": []
+  },
+  "🥩": {
+    "default": [
+      "chop",
+      "cut of meat",
+      "lamb chop",
+      "pork chop",
+      "steak"
+    ],
+    "tts": []
+  },
+  "👩‍🚒": {
+    "default": [
+      "fire",
+      "fire truck",
+      "firefighter",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🧑‍⚖": {
+    "default": [
+      "judge",
+      "law"
+    ],
+    "tts": []
+  },
+  "🧑‍🦼": {
+    "default": [
+      "accessibility",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair"
+    ]
+  },
+  "🩳": {
+    "default": [
+      "bathing suit",
+      "boardshorts",
+      "shorts",
+      "swim shorts",
+      "underwear"
+    ],
+    "tts": []
+  },
+  "🥿": {
+    "default": [
+      "ballet flat",
+      "flat shoe",
+      "pump",
+      "slip-on",
+      "slipper"
+    ],
+    "tts": []
+  },
+  "👬": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🦺": {
+    "default": [
+      "emergency",
+      "hi-vis",
+      "high-vis",
+      "jacket",
+      "life jacket",
+      "safety",
+      "vest"
+    ],
+    "tts": []
+  },
+  "💉": {
+    "default": [
+      "ill",
+      "injection",
+      "medicine",
+      "needle",
+      "syringe"
+    ],
+    "tts": []
+  },
+  "✅": {
+    "default": [
+      "✓",
+      "button",
+      "mark",
+      "tick"
+    ],
+    "tts": [
+      "tick button"
+    ]
+  },
+  "🫑": {
+    "default": [
+      "bell pepper",
+      "capsicum",
+      "pepper",
+      "sweet pepper",
+      "vegetable"
+    ],
+    "tts": [
+      "pepper"
+    ]
+  },
+  "📪": {
+    "default": [
+      "closed postbox with lowered flag",
+      "letterbox",
+      "lowered",
+      "mail",
+      "mailbox",
+      "post box",
+      "postbox"
+    ],
+    "tts": []
+  },
+  "📬": {
+    "default": [
+      "mail",
+      "mailbox",
+      "open postbox with raised flag",
+      "post",
+      "post box",
+      "postbox"
+    ],
+    "tts": []
+  },
+  "🕣": {
+    "default": [
+      "8:30",
+      "8.30",
+      "clock",
+      "eight-thirty",
+      "half past eight"
+    ],
+    "tts": []
+  },
+  "👨‍🚒": {
+    "default": [
+      "fire",
+      "fire truck",
+      "firefighter",
+      "man"
+    ],
+    "tts": []
+  },
+  "👨‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane facing right"
+    ],
+    "tts": [
+      "man with guide cane facing right"
+    ]
+  },
+  "🪴": {
+    "default": [
+      "grow",
+      "house",
+      "nurturing",
+      "plant",
+      "potted plant"
+    ],
+    "tts": []
+  },
+  "🗨": {
+    "default": [
+      "balloon",
+      "bubble",
+      "dialogue",
+      "left speech bubble",
+      "speech"
+    ],
+    "tts": []
+  },
+  "🫀": {
+    "default": [
+      "anatomical heart",
+      "cardiology",
+      "heart",
+      "organ",
+      "pulse"
+    ],
+    "tts": []
+  },
+  "👩‍🦼": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair"
+    ],
+    "tts": [
+      "woman in powered wheelchair"
+    ]
+  },
+  "😋": {
+    "default": [
+      "delicious",
+      "face",
+      "face savoring food",
+      "face savouring food",
+      "savouring",
+      "smile",
+      "yum"
+    ],
+    "tts": [
+      "face savouring food"
+    ]
+  },
+  "🕢": {
+    "default": [
+      "7:30",
+      "7.30",
+      "clock",
+      "half past seven",
+      "seven-thirty"
+    ],
+    "tts": []
+  },
+  "🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "guide cane"
+    ],
+    "tts": [
+      "guide cane"
+    ]
+  },
+  "💇": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "parlour",
+      "person getting haircut"
+    ],
+    "tts": []
+  },
+  "🕧": {
+    "default": [
+      "12:30",
+      "12.30",
+      "clock",
+      "half past twelve",
+      "twelve-thirty"
+    ],
+    "tts": []
+  },
+  "🧻": {
+    "default": [
+      "paper towels",
+      "roll of paper",
+      "toilet paper",
+      "toilet roll"
+    ],
+    "tts": []
+  },
+  "🤐": {
+    "default": [
+      "face",
+      "mouth",
+      "zip",
+      "zip-mouth face"
+    ],
+    "tts": [
+      "zip-mouth face"
+    ]
+  },
+  "®": {
+    "default": [
+      "r",
+      "registered",
+      "trademark"
+    ],
+    "tts": []
+  },
+  "🇻🇮": {
+    "default": [
+      "flag",
+      "flag: US Virgin Islands"
+    ],
+    "tts": [
+      "flag: US Virgin Islands"
+    ]
+  },
+  "🛟": {
+    "default": [
+      "float",
+      "life preserver",
+      "life saver",
+      "lifebuoy",
+      "rescue",
+      "ring buoy",
+      "safety"
+    ],
+    "tts": [
+      "lifebuoy"
+    ]
+  },
+  "🕝": {
+    "default": [
+      "2:30",
+      "2.30",
+      "clock",
+      "half past two",
+      "two-thirty"
+    ],
+    "tts": []
+  },
+  "🩴": {
+    "default": [
+      "beach sandals",
+      "flip-flop",
+      "flipflop",
+      "sandals",
+      "thong sandals",
+      "thongs",
+      "zori"
+    ],
+    "tts": [
+      "flip-flop"
+    ]
+  },
+  "🛫": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "check-in",
+      "departure",
+      "take-off"
+    ],
+    "tts": []
+  },
+  "🕟": {
+    "default": [
+      "4:30",
+      "4.30",
+      "clock",
+      "four-thirty",
+      "half past four"
+    ],
+    "tts": []
+  },
+  "☑": {
+    "default": [
+      "✓",
+      "box",
+      "tick",
+      "tick box with tick"
+    ],
+    "tts": [
+      "tick box with tick"
+    ]
+  },
+  "🛞": {
+    "default": [
+      "circle",
+      "turn",
+      "tyre",
+      "wheel"
+    ],
+    "tts": []
+  },
+  "🏺": {
+    "default": [
+      "amphora",
+      "Aquarius",
+      "drink",
+      "jar",
+      "jug",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🕌": {
+    "default": [
+      "Islam",
+      "mosque",
+      "Muslim",
+      "religion"
+    ],
+    "tts": []
+  },
+  "🙇‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "man",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "🧉": {
+    "default": [
+      "drink",
+      "maté"
+    ],
+    "tts": [
+      "maté"
+    ]
+  },
+  "🔄": {
+    "default": [
+      "anticlockwise",
+      "anticlockwise arrows button",
+      "arrow",
+      "counterclockwise",
+      "counterclockwise arrows button",
+      "withershins"
+    ],
+    "tts": []
+  },
+  "🧷": {
+    "default": [
+      "nappy",
+      "punk rock",
+      "safety pin"
+    ],
+    "tts": []
+  },
+  "🔒": {
+    "default": [
+      "closed",
+      "locked",
+      "padlock"
+    ],
+    "tts": []
+  },
+  "🛗": {
+    "default": [],
+    "tts": [
+      "lift"
+    ]
+  },
+  "🤵‍♀": {
+    "default": [
+      "tuxedo",
+      "woman",
+      "woman in tux",
+      "woman in tuxedo"
+    ],
+    "tts": []
+  },
+  "🛺": {
+    "default": [
+      "auto rickshaw",
+      "tuk tuk",
+      "tuk-tuk"
+    ],
+    "tts": []
+  },
+  "🏳": {
+    "default": [
+      "surrender",
+      "waving",
+      "white flag"
+    ],
+    "tts": []
+  },
+  "💷": {
+    "default": [
+      "banknote",
+      "bill",
+      "currency",
+      "money",
+      "note",
+      "pound",
+      "sterling"
+    ],
+    "tts": []
+  },
+  "🇲🇫": {
+    "default": [
+      "flag",
+      "flag: St Martin"
+    ],
+    "tts": [
+      "flag: St Martin"
+    ]
+  },
+  "🧑‍🚒": {
+    "default": [
+      "fire engine",
+      "fire truck",
+      "firefighter"
+    ],
+    "tts": []
+  },
+  "☦": {
+    "default": [
+      "Christian",
+      "cross",
+      "Orthodox cross",
+      "religion"
+    ],
+    "tts": [
+      "Orthodox cross"
+    ]
+  },
+  "🤭": {
+    "default": [
+      "embarrassed",
+      "face with hand over mouth",
+      "oops",
+      "whoops"
+    ],
+    "tts": []
+  },
+  "🕡": {
+    "default": [
+      "6:30",
+      "6.30",
+      "clock",
+      "half past six",
+      "six-thirty"
+    ],
+    "tts": []
+  },
+  "👨‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "man"
+    ],
+    "tts": []
+  },
+  "🕋": {
+    "default": [
+      "Islam",
+      "Kaaba",
+      "Muslim",
+      "religion"
+    ],
+    "tts": [
+      "Kaaba"
+    ]
+  },
+  "🕥": {
+    "default": [
+      "10:30",
+      "10.30",
+      "clock",
+      "half past ten",
+      "ten-thirty"
+    ],
+    "tts": []
+  },
+  "🪪": {
+    "default": [
+      "credentials",
+      "driving",
+      "ID",
+      "identification card",
+      "licence",
+      "security"
+    ],
+    "tts": []
+  },
+  "🤨": {
+    "default": [
+      "distrust",
+      "face with raised eyebrow",
+      "sceptic"
+    ],
+    "tts": []
+  },
+  "🧴": {
+    "default": [
+      "lotion",
+      "lotion bottle",
+      "moisturiser",
+      "shampoo",
+      "sunscreen"
+    ],
+    "tts": []
+  },
+  "😤": {
+    "default": [
+      "angry",
+      "face",
+      "face with steam from nose",
+      "frustration",
+      "triumph",
+      "won"
+    ],
+    "tts": []
+  },
+  "⁉": {
+    "default": [
+      "!",
+      "!?",
+      "?",
+      "exclamation question mark",
+      "interrobang",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "tts": []
+  },
+  "🛁": {
+    "default": [],
+    "tts": [
+      "bath"
+    ]
+  },
+  "➖": {
+    "default": [
+      "-",
+      "−",
+      "heavy minus sign",
+      "math",
+      "maths",
+      "minus",
+      "sign"
+    ],
+    "tts": []
+  },
+  "👨‍🦼": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair"
+    ]
+  },
+  "🕠": {
+    "default": [
+      "5:30",
+      "5.30",
+      "clock",
+      "five-thirty",
+      "half past five"
+    ],
+    "tts": []
+  },
+  "🪘": {
+    "default": [],
+    "tts": [
+      "conga drum"
+    ]
+  },
+  "🔓": {
+    "default": [
+      "lock",
+      "open",
+      "padlock",
+      "unlock",
+      "unlocked"
+    ],
+    "tts": []
+  },
+  "👩‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair facing right"
+    ],
+    "tts": [
+      "woman in powered wheelchair facing right"
+    ]
+  },
+  "🏛": {
+    "default": [
+      "classical",
+      "classical building",
+      "column"
+    ],
+    "tts": []
+  },
+  "🧑‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with guide cane facing right",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane facing right"
+    ]
+  },
+  "🚾": {
+    "default": [
+      "closet",
+      "lavatory",
+      "restroom",
+      "toilet",
+      "water",
+      "wc"
+    ],
+    "tts": []
+  },
+  "👔": {
+    "default": [],
+    "tts": [
+      "tie"
+    ]
+  },
+  "🪆": {
+    "default": [
+      "babushka",
+      "doll",
+      "matryoshka",
+      "nesting dolls",
+      "russia",
+      "Russian dolls"
+    ],
+    "tts": [
+      "Russian dolls"
+    ]
+  },
+  "🪒": {
+    "default": [
+      "cut-throat",
+      "razor",
+      "sharp",
+      "shave"
+    ],
+    "tts": []
+  },
+  "🩶": {
+    "default": [
+      "grey",
+      "heart",
+      "silver",
+      "slate"
+    ],
+    "tts": []
+  },
+  "🧇": {
+    "default": [
+      "breakfast",
+      "iron",
+      "unclear",
+      "vague",
+      "waffle"
+    ],
+    "tts": []
+  },
+  "🏳‍⚧": {
+    "default": [
+      "flag",
+      "light blue",
+      "pink",
+      "trans",
+      "transgender",
+      "white"
+    ],
+    "tts": []
+  },
+  "🍥": {
+    "default": [
+      "cake",
+      "fish",
+      "fish cake with swirl",
+      "narutomaki",
+      "pastry",
+      "swirl"
+    ],
+    "tts": []
+  },
+  "🙏": {
+    "default": [
+      "ask",
+      "hand",
+      "high 5",
+      "high five",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🇧🇱": {
+    "default": [
+      "flag",
+      "flag: St Barthélemy"
+    ],
+    "tts": [
+      "flag: St Barthélemy"
+    ]
+  },
+  "✡": {
+    "default": [
+      "David",
+      "Jewish",
+      "Judaism",
+      "religion",
+      "star",
+      "Star of David"
+    ],
+    "tts": [
+      "Star of David"
+    ]
+  },
+  "📯": {
+    "default": [],
+    "tts": [
+      "post horn"
+    ]
+  },
+  "🩱": {
+    "default": [
+      "bathing suit",
+      "one-piece swimsuit",
+      "swimming costume"
+    ],
+    "tts": []
+  },
+  "🚃": {
+    "default": [
+      "car",
+      "electric",
+      "railway",
+      "railway carriage",
+      "train",
+      "tram",
+      "trolleybus"
+    ],
+    "tts": []
+  },
+  "👩‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🧄": {
+    "default": [
+      "flavouring",
+      "garlic"
+    ],
+    "tts": []
+  },
+  "🍶": {
+    "default": [
+      "bar",
+      "beverage",
+      "bottle",
+      "cup",
+      "drink",
+      "sake",
+      "saké"
+    ],
+    "tts": []
+  },
+  "🙇‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "sorry",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🥡": {
+    "default": [
+      "oyster pail",
+      "takeaway box",
+      "takeout box"
+    ],
+    "tts": []
+  },
+  "🇰🇳": {
+    "default": [
+      "flag",
+      "flag: St Kitts & Nevis"
+    ],
+    "tts": [
+      "flag: St Kitts & Nevis"
+    ]
+  },
+  "👨‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair facing right"
+    ]
+  },
+  "🧑‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair facing right"
+    ]
+  },
+  "☪": {
+    "default": [
+      "Islam",
+      "Muslim",
+      "religion",
+      "star and crescent"
+    ],
+    "tts": []
+  },
+  "✔": {
+    "default": [
+      "✓",
+      "mark",
+      "tick"
+    ],
+    "tts": [
+      "tick"
+    ]
+  },
+  "🕞": {
+    "default": [
+      "3:30",
+      "3.30",
+      "clock",
+      "half past three",
+      "three-thirty"
+    ],
+    "tts": []
+  },
+  "🫤": {
+    "default": [
+      "disappointed",
+      "face with diagonal mouth",
+      "meh",
+      "sceptical",
+      "unsure"
+    ],
+    "tts": []
+  },
+  "🕤": {
+    "default": [
+      "9:30",
+      "9.30",
+      "clock",
+      "half past nine",
+      "nine-thirty"
+    ],
+    "tts": []
+  },
+  "🇱🇨": {
+    "default": [
+      "flag",
+      "flag: St Lucia"
+    ],
+    "tts": [
+      "flag: St Lucia"
+    ]
+  },
+  "📫": {
+    "default": [
+      "closed postbox with raised flag",
+      "letterbox",
+      "mail",
+      "mailbox",
+      "post",
+      "post box",
+      "postbox"
+    ],
+    "tts": []
+  },
+  "🚩": {
+    "default": [
+      "post",
+      "red flag",
+      "triangular flag"
+    ],
+    "tts": []
+  },
+  "🇵🇲": {
+    "default": [
+      "flag",
+      "flag: St Pierre & Miquelon"
+    ],
+    "tts": [
+      "flag: St Pierre & Miquelon"
+    ]
+  },
+  "🎏": {
+    "default": [
+      "carp",
+      "carp wind sock",
+      "celebration",
+      "Japanese wind socks",
+      "koinobori",
+      "streamer"
+    ],
+    "tts": []
+  },
+  "🤵‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "😶‍🌫": {
+    "default": [
+      "absent-minded",
+      "face in clouds",
+      "face in the fog",
+      "head in clouds"
+    ],
+    "tts": []
+  },
+  "🚙": {
+    "default": [
+      "4x4",
+      "off-road vehicle",
+      "sport utility",
+      "sport utility vehicle"
+    ],
+    "tts": []
+  },
+  "🥬": {
+    "default": [
+      "bok choy",
+      "cabbage",
+      "kale",
+      "leafy green",
+      "lettuce",
+      "pak choi"
+    ],
+    "tts": []
+  },
+  "🇸🇭": {
+    "default": [
+      "flag",
+      "flag: St Helena"
+    ],
+    "tts": [
+      "flag: St Helena"
+    ]
+  },
+  "✝": {
+    "default": [
+      "Christian",
+      "cross",
+      "Latin cross",
+      "religion"
+    ],
+    "tts": [
+      "Latin cross"
+    ]
+  },
+  "🧑‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane"
+    ]
+  },
+  "🇻🇨": {
+    "default": [
+      "flag",
+      "flag: St Vincent & the Grenadines"
+    ],
+    "tts": [
+      "flag: St Vincent & the Grenadines"
+    ]
+  },
+  "💬": {
+    "default": [
+      "balloon",
+      "bubble",
+      "comic",
+      "dialogue",
+      "speech"
+    ],
+    "tts": []
+  },
+  "🦼": {
+    "default": [
+      "accessibility",
+      "powered wheelchair"
+    ],
+    "tts": [
+      "powered wheelchair"
+    ]
+  },
+  "👩‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane"
+    ],
+    "tts": [
+      "woman with guide cane"
+    ]
+  },
+  "🕜": {
+    "default": [
+      "1:30",
+      "1.30",
+      "clock",
+      "half past one",
+      "one-thirty"
+    ],
+    "tts": []
+  },
+  "😵‍💫": {
+    "default": [
+      "dizzy",
+      "face with spiral eyes",
+      "hypnotised",
+      "spiral",
+      "trouble",
+      "whoa"
+    ],
+    "tts": []
+  },
+  "🛕": {
+    "default": [
+      "Hindu",
+      "temple"
+    ],
+    "tts": [
+      "Hindu temple"
+    ]
+  },
+  "🩲": {
+    "default": [
+      "bathing suit",
+      "briefs",
+      "one-piece",
+      "pants",
+      "swimsuit",
+      "underwear"
+    ],
+    "tts": []
+  },
+  "⚧": {
+    "default": [
+      "trans",
+      "transgender",
+      "transgender symbol"
+    ],
+    "tts": []
+  },
+  "📭": {
+    "default": [
+      "lowered",
+      "mail",
+      "mailbox",
+      "open postbox with lowered flag",
+      "post",
+      "post box",
+      "postbox"
+    ],
+    "tts": []
+  },
+  "🩹": {
+    "default": [
+      "injury",
+      "plaster",
+      "sticking plaster"
+    ],
+    "tts": [
+      "plaster"
+    ]
+  },
+  "🧅": {
+    "default": [
+      "flavouring",
+      "onion"
+    ],
+    "tts": []
+  },
+  "🟰": {
+    "default": [
+      "equality",
+      "heavy equals sign",
+      "math",
+      "maths"
+    ],
+    "tts": []
+  }
+}

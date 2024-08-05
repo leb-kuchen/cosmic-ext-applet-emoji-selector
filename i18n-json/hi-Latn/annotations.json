@@ -1,0 +1,5822 @@
+{
+  "🥲": {
+    "default": [
+      "aansoo wala smiling face",
+      "grateful",
+      "proud",
+      "relieved",
+      "smiling",
+      "tear",
+      "touched"
+    ],
+    "tts": [
+      "aansoo wala smiling face"
+    ]
+  },
+  "🧏‍♀": {
+    "default": [
+      "deaf",
+      "hearing-impaired",
+      "sun na paane wali mahila",
+      "woman"
+    ],
+    "tts": [
+      "sun na paane wali mahila"
+    ]
+  },
+  "🤸": {
+    "default": [
+      "cartwheel",
+      "cartwheeling karta vyakti",
+      "gymnastics"
+    ],
+    "tts": [
+      "cartwheeling karta vyakti"
+    ]
+  },
+  "🙍‍♀": {
+    "default": [
+      "frown karti mahila",
+      "frowning",
+      "gesture",
+      "woman"
+    ],
+    "tts": [
+      "frown karti mahila"
+    ]
+  },
+  "🚣‍♀": {
+    "default": [
+      "boat",
+      "boat rowing karti karti mahila",
+      "boat rowing karti mahila",
+      "rowboat",
+      "woman"
+    ],
+    "tts": [
+      "boat rowing karti karti mahila"
+    ]
+  },
+  "🦻": {
+    "default": [
+      "accessibility",
+      "hearing aid laga kaan",
+      "sunne mein problem"
+    ],
+    "tts": [
+      "hearing aid laga kaan"
+    ]
+  },
+  "💰": {
+    "default": [
+      "bag",
+      "dollar",
+      "money",
+      "paise wala bag"
+    ],
+    "tts": [
+      "paise wala bag"
+    ]
+  },
+  "🎏": {
+    "default": [
+      "carp",
+      "celebration",
+      "streamer"
+    ],
+    "tts": []
+  },
+  "🗞": {
+    "default": [
+      "news",
+      "newspaper",
+      "paper",
+      "roll kiya hua newspaper",
+      "rolled"
+    ],
+    "tts": [
+      "roll kiya hua newspaper"
+    ]
+  },
+  "🕴": {
+    "default": [
+      "business",
+      "hawa mein udta suit wala vyakti",
+      "person",
+      "person in suit levitating",
+      "suit"
+    ],
+    "tts": [
+      "hawa mein udta suit wala vyakti"
+    ]
+  },
+  "😧": {
+    "default": [
+      "dukhi",
+      "face"
+    ],
+    "tts": [
+      "dukhi face"
+    ]
+  },
+  "🌂": {
+    "default": [
+      "band umbrella",
+      "clothing",
+      "rain",
+      "umbrella"
+    ],
+    "tts": [
+      "band umbrella"
+    ]
+  },
+  "🪐": {
+    "default": [
+      "ring wala planet",
+      "saturn",
+      "saturnine"
+    ],
+    "tts": [
+      "ring wala planet"
+    ]
+  },
+  "🥙": {
+    "default": [
+      "falafel",
+      "food",
+      "gyro",
+      "kebab",
+      "paraantha",
+      "stuffed"
+    ],
+    "tts": [
+      "stuffed paraantha"
+    ]
+  },
+  "🙅‍♀": {
+    "default": [
+      "forbidden",
+      "gesture",
+      "hand",
+      "NO kaa gesture deti mahila",
+      "prohibited",
+      "woman"
+    ],
+    "tts": [
+      "NO kaa gesture deti mahila"
+    ]
+  },
+  "👨‍✈": {
+    "default": [
+      "male pilot",
+      "man",
+      "pilot",
+      "plane"
+    ],
+    "tts": [
+      "male pilot"
+    ]
+  },
+  "🛐": {
+    "default": [
+      "pooja karne ki jagah",
+      "religion",
+      "worship"
+    ],
+    "tts": [
+      "pooja karne ki jagah"
+    ]
+  },
+  "⛹‍♂": {
+    "default": [
+      "ball",
+      "ball se khelta aadmi",
+      "man"
+    ],
+    "tts": [
+      "ball se khelta aadmi"
+    ]
+  },
+  "🕟": {
+    "default": [
+      "4",
+      "4:30",
+      "clock",
+      "four",
+      "four-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "📫": {
+    "default": [
+      "closed",
+      "lahraate flag wala band mailbox",
+      "mail",
+      "mailbox",
+      "postbox"
+    ],
+    "tts": [
+      "lahraate flag wala band mailbox"
+    ]
+  },
+  "👳": {
+    "default": [
+      "turban",
+      "turban wala vyakti"
+    ],
+    "tts": [
+      "turban wala vyakti"
+    ]
+  },
+  "👩‍🚀": {
+    "default": [
+      "astronaut",
+      "female astronaut",
+      "rocket",
+      "woman"
+    ],
+    "tts": [
+      "female astronaut"
+    ]
+  },
+  "👨‍🦼": {
+    "default": [
+      "accessibility",
+      "man",
+      "motor wheelchair par baitha aadmi",
+      "wheelchair"
+    ],
+    "tts": [
+      "motor wheelchair par baitha aadmi"
+    ]
+  },
+  "🌟": {
+    "default": [
+      "chamakta star",
+      "glittery",
+      "glow",
+      "shining",
+      "sparkle",
+      "star"
+    ],
+    "tts": [
+      "chamakta star"
+    ]
+  },
+  "💆": {
+    "default": [
+      "face",
+      "massage",
+      "massage karwaata vyakti",
+      "salon"
+    ],
+    "tts": [
+      "massage karwaata vyakti"
+    ]
+  },
+  "🪴": {
+    "default": [
+      "boring",
+      "grow",
+      "house",
+      "nurture karna",
+      "plant",
+      "pot mein laga plant",
+      "useless"
+    ],
+    "tts": [
+      "pot mein laga plant"
+    ]
+  },
+  "🚣": {
+    "default": [
+      "boat",
+      "boat rowing karta vyakti",
+      "rowboat"
+    ],
+    "tts": [
+      "boat rowing karta vyakti"
+    ]
+  },
+  "👨‍🦽‍➡": {
+    "default": [
+      "accessibility",
+      "man",
+      "manual wheelchair par baitha aadmi",
+      "manual wheelchair par baitha aadmi facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "manual wheelchair par baitha aadmi facing right"
+    ]
+  },
+  "🏊": {
+    "default": [
+      "swim",
+      "swimming karta vyakti"
+    ],
+    "tts": [
+      "swimming karta vyakti"
+    ]
+  },
+  "🧑‍🦼": {
+    "default": [
+      "accessibility",
+      "motor wheelchair par baitha vyakti",
+      "wheelchair"
+    ],
+    "tts": [
+      "motor wheelchair par baitha vyakti"
+    ]
+  },
+  "🕢": {
+    "default": [
+      "7",
+      "7:30",
+      "clock",
+      "seven",
+      "seven-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "🏹": {
+    "default": [
+      "archer",
+      "arrow",
+      "bow",
+      "Sagittarius",
+      "teer aur kamaan",
+      "zodiac"
+    ],
+    "tts": [
+      "teer aur kamaan"
+    ]
+  },
+  "👩‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "white cane pakde hui mahila",
+      "white cane pakde hui mahila facing right",
+      "woman"
+    ],
+    "tts": [
+      "white cane pakde hui mahila facing right"
+    ]
+  },
+  "🚴‍♀": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cycle chalaati mahila",
+      "cyclist",
+      "woman"
+    ],
+    "tts": [
+      "cycle chalaati mahila"
+    ]
+  },
+  "😵‍💫": {
+    "default": [
+      "dizzy",
+      "hypnotized",
+      "spiral",
+      "spiral eyes wala face",
+      "trouble",
+      "whoa"
+    ],
+    "tts": [
+      "spiral eyes wala face"
+    ]
+  },
+  "🥡": {
+    "default": [
+      "oyster pail",
+      "takeout box"
+    ],
+    "tts": []
+  },
+  "🧘‍♂": {
+    "default": [
+      "meditation",
+      "padmaasan mein baitha aadmi",
+      "yoga"
+    ],
+    "tts": [
+      "padmaasan mein baitha aadmi"
+    ]
+  },
+  "🥤": {
+    "default": [
+      "cup ke saath straw",
+      "juice",
+      "soda"
+    ],
+    "tts": [
+      "cup ke saath straw"
+    ]
+  },
+  "🧂": {
+    "default": [
+      "masaala",
+      "namak",
+      "shaker"
+    ],
+    "tts": [
+      "namak"
+    ]
+  },
+  "🧘": {
+    "default": [
+      "meditation",
+      "padmaasan mein baitha vyakti",
+      "yoga"
+    ],
+    "tts": [
+      "padmaasan mein baitha vyakti"
+    ]
+  },
+  "🚶‍♀‍➡": {
+    "default": [
+      "hike",
+      "walk",
+      "walk karti mahila",
+      "walk karti mahila facing right",
+      "woman"
+    ],
+    "tts": [
+      "walk karti mahila facing right"
+    ]
+  },
+  "🛕": {
+    "default": [
+      "hindu",
+      "temple"
+    ],
+    "tts": [
+      "hindu temple"
+    ]
+  },
+  "👨‍🍼": {
+    "default": [
+      "baby",
+      "baby ko feed karta aadmi",
+      "feeding",
+      "man",
+      "nursing"
+    ],
+    "tts": [
+      "baby ko feed karta aadmi"
+    ]
+  },
+  "🧑‍🦽": {
+    "default": [
+      "accessibility",
+      "manual wheelchair par baitha vyakti",
+      "wheelchair"
+    ],
+    "tts": [
+      "manual wheelchair par baitha vyakti"
+    ]
+  },
+  "🥽": {
+    "default": [
+      "eyes ki protection",
+      "goggles",
+      "swimming",
+      "welding"
+    ],
+    "tts": []
+  },
+  "🪘": {
+    "default": [],
+    "tts": [
+      "long drum"
+    ]
+  },
+  "😦": {
+    "default": [
+      "face",
+      "frown",
+      "mouth",
+      "open",
+      "open mouth wala frowning face"
+    ],
+    "tts": [
+      "open mouth wala frowning face"
+    ]
+  },
+  "🌍": {
+    "default": [
+      "Africa",
+      "earth",
+      "Europe",
+      "Europe-Africa dikhaata globe",
+      "globe",
+      "world"
+    ],
+    "tts": [
+      "Europe-Africa dikhaata globe"
+    ]
+  },
+  "🤸‍♂": {
+    "default": [
+      "cartwheel",
+      "cartwheeling karta aadmi",
+      "gymnastics",
+      "man"
+    ],
+    "tts": [
+      "cartwheeling karta aadmi"
+    ]
+  },
+  "🕜": {
+    "default": [
+      "1",
+      "1:30",
+      "clock",
+      "one",
+      "one-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "👩‍🎨": {
+    "default": [
+      "artist",
+      "female artist",
+      "palette",
+      "woman"
+    ],
+    "tts": [
+      "female artist"
+    ]
+  },
+  "😮": {
+    "default": [
+      "face",
+      "mouth",
+      "open",
+      "open mouth wala face",
+      "sympathy"
+    ],
+    "tts": [
+      "open mouth wala face"
+    ]
+  },
+  "🪅": {
+    "default": [
+      "celebration",
+      "party",
+      "pinata"
+    ],
+    "tts": [
+      "pinata"
+    ]
+  },
+  "🛠": {
+    "default": [
+      "hammer",
+      "hathouda aur wrench",
+      "spanner",
+      "tool",
+      "wrench"
+    ],
+    "tts": [
+      "hathouda aur wrench"
+    ]
+  },
+  "🍀": {
+    "default": [
+      "4",
+      "4 leaves wali grass",
+      "clover",
+      "four",
+      "leaf"
+    ],
+    "tts": [
+      "4 leaves wali grass"
+    ]
+  },
+  "📔": {
+    "default": [
+      "book",
+      "cover",
+      "decorated",
+      "decorative cover wali notebook",
+      "notebook"
+    ],
+    "tts": [
+      "decorative cover wali notebook"
+    ]
+  },
+  "📯": {
+    "default": [],
+    "tts": [
+      "postal horn"
+    ]
+  },
+  "🦼": {
+    "default": [
+      "accessibility",
+      "motorized wheelchair"
+    ],
+    "tts": [
+      "motorized wheelchair"
+    ]
+  },
+  "🏮": {
+    "default": [
+      "bar",
+      "lantern",
+      "light",
+      "red",
+      "red paper wala lantern"
+    ],
+    "tts": [
+      "red paper wala lantern"
+    ]
+  },
+  "🧧": {
+    "default": [
+      "gift",
+      "good luck",
+      "hongbao",
+      "lai see",
+      "money",
+      "red envelope"
+    ],
+    "tts": []
+  },
+  "🤌": {
+    "default": [
+      "fingers",
+      "haath kaa gesture",
+      "pinched",
+      "pooch-taachh",
+      "sarcastic"
+    ],
+    "tts": []
+  },
+  "🥩": {
+    "default": [
+      "chop",
+      "lambchop",
+      "meat kaa piece",
+      "porkchop",
+      "steak"
+    ],
+    "tts": [
+      "meat kaa piece"
+    ]
+  },
+  "🧇": {
+    "default": [
+      "breakfast",
+      "indecisive",
+      "iron",
+      "waffle"
+    ],
+    "tts": []
+  },
+  "🏋‍♀": {
+    "default": [
+      "weight lifter",
+      "weightlifting karti mahila",
+      "woman"
+    ],
+    "tts": [
+      "weightlifting karti mahila"
+    ]
+  },
+  "✖": {
+    "default": [
+      "×",
+      "cancel",
+      "multiplication",
+      "multiply",
+      "sign",
+      "x"
+    ],
+    "tts": []
+  },
+  "🫣": {
+    "default": [
+      "captivated",
+      "fingers ke beech se jhaankta face",
+      "jhaankna",
+      "stare"
+    ],
+    "tts": [
+      "fingers ke beech se jhaankta face"
+    ]
+  },
+  "👰‍♂": {
+    "default": [
+      "aadmi",
+      "ghoonghat",
+      "Ghoonghat mein aadmi",
+      "parde mein aadmi"
+    ],
+    "tts": [
+      "Ghoonghat mein aadmi"
+    ]
+  },
+  "👩‍🦽‍➡": {
+    "default": [
+      "accessibility",
+      "manual wheelchair par baithi mahila",
+      "manual wheelchair par baithi mahila facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "manual wheelchair par baithi mahila facing right"
+    ]
+  },
+  "🏛": {
+    "default": [
+      "classical",
+      "classical building"
+    ],
+    "tts": []
+  },
+  "🤷‍♀": {
+    "default": [
+      "doubt",
+      "ignorance",
+      "indifference",
+      "shrug",
+      "shrug karti mahila",
+      "woman"
+    ],
+    "tts": [
+      "shrug karti mahila"
+    ]
+  },
+  "🕥": {
+    "default": [
+      "10",
+      "10:30",
+      "clock",
+      "ten",
+      "ten-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "🏃‍♂": {
+    "default": [
+      "man",
+      "marathon",
+      "racing",
+      "run karta aadmi",
+      "running"
+    ],
+    "tts": [
+      "run karta aadmi"
+    ]
+  },
+  "👰": {
+    "default": [
+      "bride",
+      "Ghoonghat mein bride",
+      "person",
+      "person with veil",
+      "veil",
+      "wedding"
+    ],
+    "tts": [
+      "Ghoonghat mein bride"
+    ]
+  },
+  "🥮": {
+    "default": [
+      "autumn",
+      "festival",
+      "moon cake",
+      "yuebing"
+    ],
+    "tts": []
+  },
+  "👥": {
+    "default": [
+      "body ke upper part ki image",
+      "body ke upper part ki images",
+      "bust",
+      "silhouette"
+    ],
+    "tts": [
+      "body ke upper part ki images"
+    ]
+  },
+  "🫀": {
+    "default": [
+      "anatomical",
+      "cardiology",
+      "heart",
+      "organ",
+      "pulse"
+    ],
+    "tts": []
+  },
+  "🏌‍♀": {
+    "default": [
+      "golf",
+      "golf khelti mahila",
+      "woman"
+    ],
+    "tts": [
+      "golf khelti mahila"
+    ]
+  },
+  "💁‍♂": {
+    "default": [
+      "information desk kaa aadmi",
+      "man",
+      "sassy",
+      "tipping hand"
+    ],
+    "tts": [
+      "information desk kaa aadmi"
+    ]
+  },
+  "💉": {
+    "default": [
+      "medicine",
+      "needle",
+      "shot",
+      "sick",
+      "syringe"
+    ],
+    "tts": []
+  },
+  "🧔‍♀": {
+    "default": [
+      "aurat",
+      "daadhi",
+      "female: beard"
+    ],
+    "tts": [
+      "female: beard"
+    ]
+  },
+  "⛹‍♀": {
+    "default": [
+      "ball",
+      "ball se khelti mahila",
+      "woman"
+    ],
+    "tts": [
+      "ball se khelti mahila"
+    ]
+  },
+  "👩‍🎤": {
+    "default": [
+      "actor",
+      "entertainer",
+      "female singer",
+      "rock",
+      "singer",
+      "star",
+      "woman"
+    ],
+    "tts": [
+      "female singer"
+    ]
+  },
+  "🛀": {
+    "default": [
+      "bath",
+      "bath leta vyakti",
+      "bathtub",
+      "person taking bath"
+    ],
+    "tts": [
+      "bath leta vyakti"
+    ]
+  },
+  "🧎‍♀‍➡": {
+    "default": [
+      "knees par baithi mahila",
+      "knees par baithi mahila facing right",
+      "knees par baithna",
+      "mahila"
+    ],
+    "tts": [
+      "knees par baithi mahila facing right"
+    ]
+  },
+  "😈": {
+    "default": [
+      "face",
+      "fairy tale",
+      "fantasy",
+      "horns",
+      "horns wala smiling face",
+      "smile"
+    ],
+    "tts": [
+      "horns wala smiling face"
+    ]
+  },
+  "😂": {
+    "default": [
+      "face",
+      "joy",
+      "khushi ke aansoo wala face",
+      "laugh",
+      "tear"
+    ],
+    "tts": [
+      "face"
+    ]
+  },
+  "🔫": {
+    "default": [
+      "gun",
+      "handgun",
+      "paani ki pistol",
+      "pistol",
+      "revolver",
+      "tool",
+      "weapon"
+    ],
+    "tts": [
+      "paani ki pistol"
+    ]
+  },
+  "🛞": {
+    "default": [
+      "circle",
+      "tire",
+      "turn",
+      "wheel"
+    ],
+    "tts": []
+  },
+  "🔼": {
+    "default": [
+      "arrow",
+      "button",
+      "red",
+      "upwards button"
+    ],
+    "tts": []
+  },
+  "☝": {
+    "default": [
+      "finger",
+      "hand",
+      "index",
+      "oopar point karti index finger",
+      "point",
+      "up"
+    ],
+    "tts": [
+      "oopar point karti index finger"
+    ]
+  },
+  "🚴‍♂": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cycle chalaata aadmi",
+      "cyclist",
+      "man"
+    ],
+    "tts": [
+      "cycle chalaata aadmi"
+    ]
+  },
+  "🪆": {
+    "default": [
+      "doll",
+      "nesting",
+      "nesting dolls",
+      "russia"
+    ],
+    "tts": [
+      "nesting dolls"
+    ]
+  },
+  "🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "white cane"
+    ],
+    "tts": [
+      "white cane"
+    ]
+  },
+  "🧐": {
+    "default": [
+      "face",
+      "face with monocle",
+      "monocle",
+      "monocle pahne face",
+      "stuffy"
+    ],
+    "tts": []
+  },
+  "😤": {
+    "default": [
+      "face",
+      "nose se steam nikalti dikhaane wala face",
+      "triumph",
+      "won"
+    ],
+    "tts": [
+      "nose se steam nikalti dikhaane wala face"
+    ]
+  },
+  "🔇": {
+    "default": [
+      "mute",
+      "mute kiya speaker",
+      "quiet",
+      "silent",
+      "speaker"
+    ],
+    "tts": [
+      "mute kiya speaker"
+    ]
+  },
+  "🛗": {
+    "default": [],
+    "tts": [
+      "elevator"
+    ]
+  },
+  "📲": {
+    "default": [
+      "arrow",
+      "arrow ke saath mobile phone",
+      "cell",
+      "mobile",
+      "phone",
+      "receive"
+    ],
+    "tts": [
+      "arrow ke saath mobile phone"
+    ]
+  },
+  "👨‍🚀": {
+    "default": [
+      "astronaut",
+      "male astronaut",
+      "man",
+      "rocket"
+    ],
+    "tts": [
+      "male astronaut"
+    ]
+  },
+  "🇵🇲": {
+    "default": [
+      "flag",
+      "flag: St. Pierre & Miquelon"
+    ],
+    "tts": [
+      "flag: St. Pierre & Miquelon"
+    ]
+  },
+  "🪬": {
+    "default": [
+      "Fatima",
+      "hamsa",
+      "hand",
+      "Mary",
+      "Miriam",
+      "protection",
+      "tabeez"
+    ],
+    "tts": []
+  },
+  "🤾": {
+    "default": [
+      "ball",
+      "handball",
+      "handball khelta vyakti"
+    ],
+    "tts": [
+      "handball khelta vyakti"
+    ]
+  },
+  "🥰": {
+    "default": [
+      "adore",
+      "crush",
+      "hearts",
+      "hearts wala smiling face",
+      "in love",
+      "smiling face with hearts"
+    ],
+    "tts": [
+      "hearts wala smiling face"
+    ]
+  },
+  "🙈": {
+    "default": [
+      "Bura na dekhne wala monkey",
+      "evil",
+      "face",
+      "forbidden",
+      "monkey",
+      "see"
+    ],
+    "tts": [
+      "Bura na dekhne wala monkey"
+    ]
+  },
+  "🏃‍➡": {
+    "default": [
+      "marathon",
+      "run karta vyakti",
+      "run karta vyakti facing right",
+      "running"
+    ],
+    "tts": [
+      "run karta vyakti facing right"
+    ]
+  },
+  "😘": {
+    "default": [
+      "face",
+      "face blowing a kiss",
+      "kiss",
+      "kiss deta face"
+    ],
+    "tts": [
+      "kiss deta face"
+    ]
+  },
+  "🧗‍♀": {
+    "default": [
+      "climb karti mahila",
+      "climber"
+    ],
+    "tts": [
+      "climb karti mahila"
+    ]
+  },
+  "🧑‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "white cane pakda hua vyakti"
+    ],
+    "tts": [
+      "white cane pakda hua vyakti"
+    ]
+  },
+  "😹": {
+    "default": [
+      "cat",
+      "face",
+      "joy",
+      "khushi ke aansoo bahaati cat kaa face",
+      "tear"
+    ],
+    "tts": [
+      "khushi ke aansoo bahaati cat kaa face"
+    ]
+  },
+  "☸": {
+    "default": [
+      "Buddhist",
+      "dharma",
+      "dharma chakra",
+      "religion",
+      "wheel"
+    ],
+    "tts": [
+      "dharma chakra"
+    ]
+  },
+  "🕵‍♀": {
+    "default": [
+      "detective",
+      "female detective",
+      "sleuth",
+      "spy",
+      "woman"
+    ],
+    "tts": [
+      "female detective"
+    ]
+  },
+  "🏄‍♀": {
+    "default": [
+      "surfing",
+      "surfing karti mahila",
+      "woman"
+    ],
+    "tts": [
+      "surfing karti mahila"
+    ]
+  },
+  "👱‍♂": {
+    "default": [
+      "blond",
+      "blond-hair wala aadmi",
+      "hair",
+      "male: blond hair",
+      "man"
+    ],
+    "tts": [
+      "male: blond hair"
+    ]
+  },
+  "😛": {
+    "default": [
+      "face",
+      "tongue",
+      "tongue dikhaata face"
+    ],
+    "tts": [
+      "tongue dikhaata face"
+    ]
+  },
+  "👯": {
+    "default": [
+      "dancer",
+      "khargosh ke kaan",
+      "khargosh ke kaan wale log",
+      "party karna"
+    ],
+    "tts": [
+      "khargosh ke kaan wale log"
+    ]
+  },
+  "✍": {
+    "default": [
+      "haath",
+      "likhna",
+      "likhta hua haath"
+    ],
+    "tts": [
+      "likhta hua haath"
+    ]
+  },
+  "👁‍🗨": {
+    "default": [
+      "balloon",
+      "bubble",
+      "eye",
+      "speech",
+      "speech bubble mein eye",
+      "witness"
+    ],
+    "tts": [
+      "speech bubble mein eye"
+    ]
+  },
+  "✋": {
+    "default": [
+      "haath",
+      "high 5",
+      "high five",
+      "utha hua haath"
+    ],
+    "tts": [
+      "utha hua haath"
+    ]
+  },
+  "🧍‍♀": {
+    "default": [
+      "khadi aurat",
+      "standing"
+    ],
+    "tts": [
+      "khadi aurat"
+    ]
+  },
+  "🙎": {
+    "default": [
+      "gesture",
+      "pout banaata vyakti",
+      "pouting"
+    ],
+    "tts": [
+      "pout banaata vyakti"
+    ]
+  },
+  "😻": {
+    "default": [
+      "cat",
+      "eye",
+      "face",
+      "heart",
+      "heart-eyes wali smiling cat",
+      "love",
+      "smile"
+    ],
+    "tts": [
+      "heart-eyes wali smiling cat"
+    ]
+  },
+  "💟": {
+    "default": [
+      "heart",
+      "heart ki decoration"
+    ],
+    "tts": [
+      "heart ki decoration"
+    ]
+  },
+  "🔻": {
+    "default": [
+      "down",
+      "geometric",
+      "Neeche point karta red triangle",
+      "red"
+    ],
+    "tts": [
+      "Neeche point karta red triangle"
+    ]
+  },
+  "🤗": {
+    "default": [
+      "face",
+      "hug",
+      "hug karta smiling face",
+      "hugging",
+      "open hands",
+      "smiling face"
+    ],
+    "tts": [
+      "hug karta smiling face"
+    ]
+  },
+  "👩‍💻": {
+    "default": [
+      "coder",
+      "developer",
+      "female technologist",
+      "inventor",
+      "software",
+      "technologist",
+      "woman"
+    ],
+    "tts": [
+      "female technologist"
+    ]
+  },
+  "✳": {
+    "default": [
+      "*",
+      "8 spoke wala asterisk",
+      "asterisk"
+    ],
+    "tts": [
+      "8 spoke wala asterisk"
+    ]
+  },
+  "🍂": {
+    "default": [
+      "falling",
+      "giri hui leaf",
+      "leaf"
+    ],
+    "tts": [
+      "giri hui leaf"
+    ]
+  },
+  "🙍‍♂": {
+    "default": [
+      "frown karta aadmi",
+      "frowning",
+      "gesture",
+      "man"
+    ],
+    "tts": [
+      "frown karta aadmi"
+    ]
+  },
+  "🙆‍♀": {
+    "default": [
+      "gesture",
+      "hand",
+      "OK",
+      "OK kaa gesture deti mahila",
+      "woman"
+    ],
+    "tts": [
+      "OK kaa gesture deti mahila"
+    ]
+  },
+  "🐪": {
+    "default": [
+      "camel",
+      "ek hump kaa camel",
+      "hump"
+    ],
+    "tts": []
+  },
+  "😼": {
+    "default": [
+      "cat",
+      "cat with wry smile",
+      "cat-face",
+      "Dissapointment ke saath smile karti cat",
+      "ironic",
+      "smile"
+    ],
+    "tts": [
+      "Dissapointment ke saath smile karti cat"
+    ]
+  },
+  "🔞": {
+    "default": [
+      "18",
+      "age restriction",
+      "eighteen",
+      "prohibited",
+      "under 18 ko permission nahi",
+      "underage"
+    ],
+    "tts": [
+      "under 18 ko permission nahi"
+    ]
+  },
+  "🩳": {
+    "default": [
+      "bathing suit",
+      "pants",
+      "shorts",
+      "underwear"
+    ],
+    "tts": []
+  },
+  "🕧": {
+    "default": [
+      "12",
+      "12:30",
+      "clock",
+      "thirty",
+      "twelve",
+      "twelve-thirty"
+    ],
+    "tts": []
+  },
+  "📪": {
+    "default": [
+      "closed",
+      "jhuke flag wala band mailbox",
+      "lowered",
+      "mail",
+      "mailbox",
+      "postbox"
+    ],
+    "tts": [
+      "jhuke flag wala band mailbox"
+    ]
+  },
+  "💦": {
+    "default": [
+      "comic",
+      "splashing",
+      "sweat",
+      "sweating ke droplets"
+    ],
+    "tts": [
+      "sweating ke droplets"
+    ]
+  },
+  "🪤": {
+    "default": [],
+    "tts": [
+      "mouse trap"
+    ]
+  },
+  "👨‍💻": {
+    "default": [
+      "coder",
+      "developer",
+      "inventor",
+      "male technologist",
+      "man",
+      "software",
+      "technologist"
+    ],
+    "tts": [
+      "male technologist"
+    ]
+  },
+  "🍲": {
+    "default": [
+      "food pot",
+      "pot",
+      "stew"
+    ],
+    "tts": [
+      "food pot"
+    ]
+  },
+  "💠": {
+    "default": [
+      "comic",
+      "diamond",
+      "dot wala diamond",
+      "geometric",
+      "inside"
+    ],
+    "tts": [
+      "dot wala diamond"
+    ]
+  },
+  "🌉": {
+    "default": [
+      "bridge",
+      "night",
+      "night mein bridge kaa view"
+    ],
+    "tts": [
+      "night mein bridge kaa view"
+    ]
+  },
+  "🩱": {
+    "default": [
+      "bathing suit",
+      "one-piece swimsuit"
+    ],
+    "tts": []
+  },
+  "😓": {
+    "default": [
+      "cold",
+      "face",
+      "sweat",
+      "sweating wala udaas face"
+    ],
+    "tts": [
+      "sweating wala udaas face"
+    ]
+  },
+  "✡": {
+    "default": [
+      "David",
+      "Jew",
+      "Jewish",
+      "religion",
+      "star",
+      "star of David"
+    ],
+    "tts": [
+      "star of David"
+    ]
+  },
+  "🔎": {
+    "default": [
+      "glass",
+      "magnifying",
+      "right ki taraf tilted magnifying glass",
+      "search",
+      "tool"
+    ],
+    "tts": [
+      "right ki taraf tilted magnifying glass"
+    ]
+  },
+  "🚾": {
+    "default": [
+      "bathroom",
+      "closet",
+      "lavatory",
+      "restroom",
+      "toilet",
+      "water",
+      "WC"
+    ],
+    "tts": []
+  },
+  "📵": {
+    "default": [
+      "cell",
+      "forbidden",
+      "mobile",
+      "mobile phones ki permission nahi",
+      "mobile phones use karne ki permission nahi",
+      "no",
+      "phone"
+    ],
+    "tts": [
+      "mobile phones ki permission nahi"
+    ]
+  },
+  "🌾": {
+    "default": [
+      "chaawal ki baali",
+      "ear",
+      "grain",
+      "rice"
+    ],
+    "tts": [
+      "chaawal ki baali"
+    ]
+  },
+  "🐣": {
+    "default": [
+      "anda phootna",
+      "ande se baahar aata chick",
+      "baby",
+      "bird",
+      "chick"
+    ],
+    "tts": [
+      "ande se baahar aata chick"
+    ]
+  },
+  "🗝": {
+    "default": [
+      "clue",
+      "key",
+      "lock",
+      "old",
+      "puraani key"
+    ],
+    "tts": [
+      "puraani key"
+    ]
+  },
+  "🧖‍♂": {
+    "default": [
+      "sauna",
+      "steam room",
+      "steamy room mein aadmi"
+    ],
+    "tts": [
+      "steamy room mein aadmi"
+    ]
+  },
+  "👩‍🍼": {
+    "default": [
+      "baby",
+      "baby ko feed karti mahila",
+      "feeding",
+      "nursing",
+      "woman"
+    ],
+    "tts": [
+      "baby ko feed karti mahila"
+    ]
+  },
+  "😃": {
+    "default": [
+      "badi aankhon wala grinning face",
+      "face",
+      "mouth",
+      "open",
+      "smile"
+    ],
+    "tts": [
+      "badi aankhon wala grinning face"
+    ]
+  },
+  "👩‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "motor wheelchair par baithi aurat",
+      "motor wheelchair par baithi aurat facing right",
+      "wheelchair",
+      "woman"
+    ],
+    "tts": [
+      "motor wheelchair par baithi aurat facing right"
+    ]
+  },
+  "🙆‍♂": {
+    "default": [
+      "gesture",
+      "hand",
+      "man",
+      "OK",
+      "OK kaa gesture deta aadmi"
+    ],
+    "tts": [
+      "OK kaa gesture deta aadmi"
+    ]
+  },
+  "😊": {
+    "default": [
+      "blush",
+      "eye",
+      "face",
+      "smile",
+      "smiling eyes wala smiling face"
+    ],
+    "tts": [
+      "smiling eyes wala smiling face"
+    ]
+  },
+  "🚩": {
+    "default": [
+      "post",
+      "triangular flag"
+    ],
+    "tts": []
+  },
+  "☔": {
+    "default": [
+      "clothing",
+      "drop",
+      "rain",
+      "rain drops wala umbrella",
+      "umbrella"
+    ],
+    "tts": [
+      "rain drops wala umbrella"
+    ]
+  },
+  "🌐": {
+    "default": [
+      "earth",
+      "globe",
+      "meridians",
+      "meridians dikhaata globe",
+      "world"
+    ],
+    "tts": [
+      "meridians dikhaata globe"
+    ]
+  },
+  "👰‍♀": {
+    "default": [
+      "parde mein dulhan",
+      "veil",
+      "woman"
+    ],
+    "tts": [
+      "parde mein dulhan"
+    ]
+  },
+  "🥟": {
+    "default": [
+      "dumpling",
+      "empanada",
+      "gyoza",
+      "jiaozi",
+      "pierogi",
+      "potsticker"
+    ],
+    "tts": []
+  },
+  "🔊": {
+    "default": [
+      "loud",
+      "speaker kaa high volume"
+    ],
+    "tts": [
+      "speaker kaa high volume"
+    ]
+  },
+  "🏖": {
+    "default": [
+      "beach",
+      "beach par umbrella",
+      "umbrella"
+    ],
+    "tts": [
+      "beach par umbrella"
+    ]
+  },
+  "🕌": {
+    "default": [
+      "islam",
+      "mosque",
+      "Muslim",
+      "religion"
+    ],
+    "tts": []
+  },
+  "🕺": {
+    "default": [
+      "dance",
+      "dance karta aadmi",
+      "dancing",
+      "man"
+    ],
+    "tts": [
+      "dance karta aadmi"
+    ]
+  },
+  "🏋": {
+    "default": [
+      "lifter",
+      "weight",
+      "weightlifting karta vyakti"
+    ],
+    "tts": [
+      "weightlifting karta vyakti"
+    ]
+  },
+  "🌩": {
+    "default": [
+      "cloud",
+      "lightning",
+      "lightning wale baadal"
+    ],
+    "tts": [
+      "lightning wale baadal"
+    ]
+  },
+  "💸": {
+    "default": [
+      "banknote",
+      "bill",
+      "fly",
+      "money",
+      "paise kharch karna",
+      "wings"
+    ],
+    "tts": [
+      "paise kharch karna"
+    ]
+  },
+  "⛱": {
+    "default": [
+      "rain",
+      "sun",
+      "umbrella",
+      "zameen par umbrella"
+    ],
+    "tts": [
+      "zameen par umbrella"
+    ]
+  },
+  "↪": {
+    "default": [
+      "arrow",
+      "right side muda hua left arrow"
+    ],
+    "tts": [
+      "right side muda hua left arrow"
+    ]
+  },
+  "🇹🇷": {
+    "default": [
+      "flag",
+      "flag: Turkiye"
+    ],
+    "tts": [
+      "flag: Turkiye"
+    ]
+  },
+  "🙋‍♀": {
+    "default": [
+      "gesture",
+      "haath uthaati mahila",
+      "raising hand",
+      "woman"
+    ],
+    "tts": [
+      "haath uthaati mahila"
+    ]
+  },
+  "🌥": {
+    "default": [
+      "bade baadlon ke peeche chhupa sun",
+      "cloud",
+      "sun"
+    ],
+    "tts": [
+      "bade baadlon ke peeche chhupa sun"
+    ]
+  },
+  "🍖": {
+    "default": [
+      "bone",
+      "bone wala meat",
+      "meat"
+    ],
+    "tts": [
+      "bone wala meat"
+    ]
+  },
+  "❤‍🩹": {
+    "default": [
+      "healthier",
+      "improving",
+      "improving heart",
+      "mending",
+      "recovering",
+      "recovering heart",
+      "well"
+    ],
+    "tts": [
+      "recovering heart"
+    ]
+  },
+  "🔍": {
+    "default": [
+      "glass",
+      "left ki taraf tilted magnifying glass",
+      "magnifying",
+      "search",
+      "tool"
+    ],
+    "tts": [
+      "left ki taraf tilted magnifying glass"
+    ]
+  },
+  "🥹": {
+    "default": [
+      "Aansoo rokta face",
+      "angry",
+      "cry",
+      "proud",
+      "resist",
+      "sad"
+    ],
+    "tts": [
+      "Aansoo rokta face"
+    ]
+  },
+  "🏊‍♀": {
+    "default": [
+      "swim",
+      "swimming karti mahila",
+      "woman"
+    ],
+    "tts": [
+      "swimming karti mahila"
+    ]
+  },
+  "👯‍♀": {
+    "default": [
+      "bunny ear",
+      "dancer",
+      "khargosh ke kaan wali mahilaayein",
+      "partying",
+      "women"
+    ],
+    "tts": [
+      "khargosh ke kaan wali mahilaayein"
+    ]
+  },
+  "📬": {
+    "default": [
+      "lahraate flag wala khula mailbox",
+      "mail",
+      "mailbox",
+      "open",
+      "postbox"
+    ],
+    "tts": [
+      "lahraate flag wala khula mailbox"
+    ]
+  },
+  "🗳": {
+    "default": [
+      "ballot",
+      "ballot ke saath ballot box",
+      "box"
+    ],
+    "tts": [
+      "ballot ke saath ballot box"
+    ]
+  },
+  "🕡": {
+    "default": [
+      "6",
+      "6:30",
+      "clock",
+      "six",
+      "six-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "🤽": {
+    "default": [
+      "polo",
+      "water",
+      "water polo khelta vyakti",
+      "water polo kheltaperson"
+    ],
+    "tts": [
+      "water polo khelta vyakti"
+    ]
+  },
+  "🙉": {
+    "default": [
+      "bura na sunne wala monkey",
+      "evil",
+      "face",
+      "forbidden",
+      "monkey"
+    ],
+    "tts": [
+      "bura na sunne wala monkey"
+    ]
+  },
+  "🚔": {
+    "default": [
+      "aati hui police car",
+      "car",
+      "police"
+    ],
+    "tts": [
+      "aati hui police car"
+    ]
+  },
+  "👩‍❤‍👩": {
+    "default": [
+      "couple",
+      "heart symbol ke saath couple",
+      "heart symbol ke saath couple: woman, woman",
+      "love",
+      "woman"
+    ],
+    "tts": [
+      "heart symbol ke saath couple: woman, woman"
+    ]
+  },
+  "🧉": {
+    "default": [
+      "drink",
+      "mate"
+    ],
+    "tts": [
+      "mate"
+    ]
+  },
+  "🤷": {
+    "default": [
+      "doubt",
+      "ignorance",
+      "indifference",
+      "shrug",
+      "shrug karta vyakti"
+    ],
+    "tts": [
+      "shrug karta vyakti"
+    ]
+  },
+  "🧖": {
+    "default": [
+      "sauna",
+      "steam room",
+      "steamy room mein vyakti"
+    ],
+    "tts": [
+      "steamy room mein vyakti"
+    ]
+  },
+  "🤕": {
+    "default": [
+      "bandage",
+      "face",
+      "head-bandage wala face",
+      "hurt",
+      "injury"
+    ],
+    "tts": [
+      "head-bandage wala face"
+    ]
+  },
+  "😥": {
+    "default": [
+      "disappointed",
+      "face",
+      "relieved",
+      "sad lekin relieved face",
+      "whew"
+    ],
+    "tts": [
+      "sad lekin relieved face"
+    ]
+  },
+  "😮‍💨": {
+    "default": [
+      "breathe out fast",
+      "exhale karta face",
+      "groan",
+      "relief",
+      "whisper",
+      "whistle"
+    ],
+    "tts": [
+      "exhale karta face"
+    ]
+  },
+  "⛏": {
+    "default": [
+      "kudaali",
+      "mining",
+      "tool"
+    ],
+    "tts": [
+      "kudaali"
+    ]
+  },
+  "💑": {
+    "default": [
+      "couple",
+      "heart symbol ke saath couple",
+      "love"
+    ],
+    "tts": [
+      "heart symbol ke saath couple"
+    ]
+  },
+  "🇰🇳": {
+    "default": [
+      "flag",
+      "flag: St. Kitts & Nevis"
+    ],
+    "tts": [
+      "flag: St. Kitts & Nevis"
+    ]
+  },
+  "🛌": {
+    "default": [
+      "bed par sota vyakti",
+      "good night",
+      "hotel",
+      "sleep"
+    ],
+    "tts": [
+      "bed par sota vyakti"
+    ]
+  },
+  "🪄": {
+    "default": [
+      "jaadoo ki chhadi",
+      "magic",
+      "witch",
+      "wizard"
+    ],
+    "tts": [
+      "jaadoo ki chhadi"
+    ]
+  },
+  "👔": {
+    "default": [],
+    "tts": [
+      "necktie"
+    ]
+  },
+  "🍽": {
+    "default": [
+      "cooking",
+      "fork",
+      "knife",
+      "plate",
+      "plate ke saath knife aur fork"
+    ],
+    "tts": [
+      "plate ke saath knife aur fork"
+    ]
+  },
+  "🏁": {
+    "default": [
+      "checkered",
+      "chequered",
+      "chess board wala flag",
+      "racing"
+    ],
+    "tts": [
+      "chess board wala flag"
+    ]
+  },
+  "🧎‍♀": {
+    "default": [
+      "knees par baithi mahila",
+      "knees par baithna",
+      "mahila"
+    ],
+    "tts": [
+      "knees par baithi mahila"
+    ]
+  },
+  "🤬": {
+    "default": [
+      "mouth par symbols wala face",
+      "shapath"
+    ],
+    "tts": [
+      "mouth par symbols wala face"
+    ]
+  },
+  "🥥": {
+    "default": [
+      "coconut",
+      "palm",
+      "pina colada"
+    ],
+    "tts": []
+  },
+  "🪹": {
+    "default": [
+      "Khaali nest",
+      "nesting"
+    ],
+    "tts": [
+      "Khaali nest"
+    ]
+  },
+  "🧖‍♀": {
+    "default": [
+      "sauna",
+      "steam room",
+      "steamy room mein mahila"
+    ],
+    "tts": [
+      "steamy room mein mahila"
+    ]
+  },
+  "🙌": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "khush hokar dono haath uthaana",
+      "raised"
+    ],
+    "tts": [
+      "khush hokar dono haath uthaana"
+    ]
+  },
+  "😸": {
+    "default": [
+      "cat",
+      "eye",
+      "face",
+      "grin",
+      "smile",
+      "smiling eyes wali grinning cat"
+    ],
+    "tts": [
+      "smiling eyes wali grinning cat"
+    ]
+  },
+  "👆": {
+    "default": [
+      "backhand",
+      "finger",
+      "hand",
+      "oopar ishaara karti index finger",
+      "oopar point karti index finger dikhaate haath ki back side",
+      "point",
+      "up"
+    ],
+    "tts": [
+      "oopar ishaara karti index finger"
+    ]
+  },
+  "🔕": {
+    "default": [
+      "bell",
+      "forbidden",
+      "mute",
+      "quiet",
+      "silent",
+      "slash ke saath bell"
+    ],
+    "tts": [
+      "slash ke saath bell"
+    ]
+  },
+  "🙂‍↕": {
+    "default": [
+      "haan",
+      "nod",
+      "oopar-neeche sir hilaana",
+      "yes"
+    ],
+    "tts": [
+      "oopar-neeche sir hilaana"
+    ]
+  },
+  "🕣": {
+    "default": [
+      "8",
+      "8:30",
+      "clock",
+      "eight",
+      "eight-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "🌨": {
+    "default": [
+      "barf ke saath baadal",
+      "cloud",
+      "cold",
+      "snow"
+    ],
+    "tts": [
+      "barf ke saath baadal"
+    ]
+  },
+  "🍋‍🟩": {
+    "default": [
+      "citrus",
+      "fruit",
+      "khatta",
+      "lime",
+      "neebu",
+      "tropical"
+    ],
+    "tts": [
+      "neebu"
+    ]
+  },
+  "👩‍🏭": {
+    "default": [
+      "assembly",
+      "factory",
+      "female",
+      "industry worker",
+      "woman",
+      "worker"
+    ],
+    "tts": [
+      "female factory worker"
+    ]
+  },
+  "⤵": {
+    "default": [
+      "arrow",
+      "down",
+      "neeche ki taraf muda hua right arrow"
+    ],
+    "tts": [
+      "neeche ki taraf muda hua right arrow"
+    ]
+  },
+  "⤴": {
+    "default": [
+      "arrow",
+      "oopar ki taraf muda hua right arrow"
+    ],
+    "tts": [
+      "oopar ki taraf muda hua right arrow"
+    ]
+  },
+  "🇷🇪": {
+    "default": [
+      "flag",
+      "flag: Reunion"
+    ],
+    "tts": [
+      "flag: Reunion"
+    ]
+  },
+  "🇺🇲": {
+    "default": [
+      "flag",
+      "flag: U.S. Outlying Islands"
+    ],
+    "tts": [
+      "flag: U.S. Outlying Islands"
+    ]
+  },
+  "📭": {
+    "default": [
+      "jhuke flag wala khula mailbox",
+      "lowered",
+      "mail",
+      "mailbox",
+      "open",
+      "postbox"
+    ],
+    "tts": [
+      "jhuke flag wala khula mailbox"
+    ]
+  },
+  "👲": {
+    "default": [
+      "cap",
+      "gua pi mao",
+      "hat",
+      "person",
+      "skullcap",
+      "skullcap wala aadmi",
+      "skullcap wala vyakti"
+    ],
+    "tts": [
+      "skullcap wala aadmi"
+    ]
+  },
+  "💇‍♂": {
+    "default": [
+      "haircut",
+      "haircut leta aadmi",
+      "man"
+    ],
+    "tts": [
+      "haircut leta aadmi"
+    ]
+  },
+  "😍": {
+    "default": [
+      "eye",
+      "face",
+      "heart-eyes wala smiling face",
+      "love",
+      "smile"
+    ],
+    "tts": [
+      "heart-eyes wala smiling face"
+    ]
+  },
+  "🤵‍♂": {
+    "default": [
+      "man",
+      "suit boot mein aadmi",
+      "tuxedo"
+    ],
+    "tts": [
+      "suit boot mein aadmi"
+    ]
+  },
+  "👱‍♀": {
+    "default": [
+      "blond-hair wali mahila",
+      "blonde",
+      "female: blond hair",
+      "hair",
+      "woman"
+    ],
+    "tts": [
+      "female: blond hair"
+    ]
+  },
+  "🔏": {
+    "default": [
+      "ink",
+      "lock",
+      "nib",
+      "pen",
+      "pen ke saath lock",
+      "privacy"
+    ],
+    "tts": [
+      "pen ke saath lock"
+    ]
+  },
+  "⛳": {
+    "default": [
+      "golf",
+      "hole",
+      "hole mein flag"
+    ],
+    "tts": [
+      "hole mein flag"
+    ]
+  },
+  "🥣": {
+    "default": [
+      "bowl ke saath spoon",
+      "breakfast",
+      "cereal",
+      "congee"
+    ],
+    "tts": [
+      "bowl ke saath spoon"
+    ]
+  },
+  "🕠": {
+    "default": [
+      "5",
+      "5:30",
+      "clock",
+      "five",
+      "five-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "🫤": {
+    "default": [
+      "diagonal mouth wala face",
+      "disappointed",
+      "meh",
+      "skeptical",
+      "unsure"
+    ],
+    "tts": [
+      "diagonal mouth wala face"
+    ]
+  },
+  "®": {
+    "default": [
+      "R",
+      "registered"
+    ],
+    "tts": []
+  },
+  "🚴": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cycle chalaata vyakti",
+      "cyclist"
+    ],
+    "tts": [
+      "cycle chalaata vyakti"
+    ]
+  },
+  "🕞": {
+    "default": [
+      "3",
+      "3:30",
+      "clock",
+      "thirty",
+      "three",
+      "three-thirty"
+    ],
+    "tts": []
+  },
+  "☑": {
+    "default": [
+      "✓",
+      "box",
+      "check",
+      "check mark wala check box"
+    ],
+    "tts": [
+      "check mark wala check box"
+    ]
+  },
+  "➕": {
+    "default": [
+      "+",
+      "math",
+      "plus",
+      "sign"
+    ],
+    "tts": []
+  },
+  "🇲🇫": {
+    "default": [
+      "flag",
+      "flag: St. Martin"
+    ],
+    "tts": [
+      "flag: St. Martin"
+    ]
+  },
+  "🤼‍♂": {
+    "default": [
+      "men",
+      "wrestle",
+      "wrestling karte aadmi"
+    ],
+    "tts": [
+      "wrestling karte aadmi"
+    ]
+  },
+  "👨‍🦽": {
+    "default": [
+      "accessibility",
+      "man",
+      "manual wheelchair par baitha aadmi",
+      "wheelchair"
+    ],
+    "tts": [
+      "manual wheelchair par baitha aadmi"
+    ]
+  },
+  "🔉": {
+    "default": [
+      "medium",
+      "speaker kaa medium volume"
+    ],
+    "tts": [
+      "speaker kaa medium volume"
+    ]
+  },
+  "👨‍❤‍👨": {
+    "default": [
+      "couple",
+      "heart symbol ke saath couple",
+      "heart symbol ke saath couple: man, man",
+      "love",
+      "man"
+    ],
+    "tts": [
+      "heart symbol ke saath couple: man, man"
+    ]
+  },
+  "🌝": {
+    "default": [
+      "bright",
+      "face",
+      "full",
+      "full moon wala face",
+      "moon"
+    ],
+    "tts": [
+      "full moon wala face"
+    ]
+  },
+  "💷": {
+    "default": [
+      "banknote",
+      "bill",
+      "currency",
+      "money",
+      "note",
+      "pound"
+    ],
+    "tts": []
+  },
+  "🔺": {
+    "default": [
+      "geometric",
+      "Oopar point karta red triangle",
+      "red"
+    ],
+    "tts": [
+      "Oopar point karta red triangle"
+    ]
+  },
+  "🇨🇼": {
+    "default": [
+      "flag",
+      "flag: Curacao"
+    ],
+    "tts": [
+      "flag: Curacao"
+    ]
+  },
+  "💁‍♀": {
+    "default": [
+      "information desk ki mahila",
+      "sassy",
+      "tipping hand",
+      "woman"
+    ],
+    "tts": [
+      "information desk ki mahila"
+    ]
+  },
+  "😎": {
+    "default": [
+      "bright",
+      "cool",
+      "face",
+      "sun",
+      "sunglasses",
+      "sunglasses wala face"
+    ],
+    "tts": [
+      "sunglasses wala face"
+    ]
+  },
+  "👳‍♀": {
+    "default": [
+      "turban",
+      "turban wali mahila",
+      "woman"
+    ],
+    "tts": [
+      "turban wali mahila"
+    ]
+  },
+  "➖": {
+    "default": [
+      "-",
+      "−",
+      "math",
+      "minus",
+      "sign"
+    ],
+    "tts": []
+  },
+  "👩‍🦼": {
+    "default": [
+      "accessibility",
+      "motor wheelchair par baithi aurat",
+      "wheelchair",
+      "woman"
+    ],
+    "tts": [
+      "motor wheelchair par baithi aurat"
+    ]
+  },
+  "🤏": {
+    "default": [
+      "pinch dikhaata haath",
+      "thoda amount"
+    ],
+    "tts": [
+      "pinch dikhaata haath"
+    ]
+  },
+  "⁉": {
+    "default": [
+      "!",
+      "!?",
+      "?",
+      "exclamation",
+      "exclamation question mark",
+      "interrobang",
+      "question mark"
+    ],
+    "tts": []
+  },
+  "🤽‍♂": {
+    "default": [
+      "man",
+      "water polo",
+      "water polo khelta aadmi"
+    ],
+    "tts": [
+      "water polo khelta aadmi"
+    ]
+  },
+  "🐦‍🔥": {
+    "default": [
+      "fantasy",
+      "firebird",
+      "phoenix",
+      "punarjanm",
+      "rebirth"
+    ],
+    "tts": []
+  },
+  "🩴": {
+    "default": [
+      "beach sandals",
+      "sandals",
+      "thong sandal",
+      "thong sandals",
+      "thongs",
+      "zori"
+    ],
+    "tts": [
+      "thong sandal"
+    ]
+  },
+  "🍃": {
+    "default": [
+      "blow",
+      "flutter",
+      "hawa mein lahraati leaf",
+      "leaf",
+      "wind"
+    ],
+    "tts": [
+      "hawa mein lahraati leaf"
+    ]
+  },
+  "🤾‍♂": {
+    "default": [
+      "handball",
+      "handball khelta aadmi",
+      "man"
+    ],
+    "tts": [
+      "handball khelta aadmi"
+    ]
+  },
+  "👨‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "white cane pakda hua aadmi"
+    ],
+    "tts": [
+      "white cane pakda hua aadmi"
+    ]
+  },
+  "👢": {
+    "default": [
+      "boot",
+      "clothing",
+      "mahilaaon kaa boot",
+      "shoe",
+      "woman"
+    ],
+    "tts": [
+      "mahilaaon kaa boot"
+    ]
+  },
+  "💘": {
+    "default": [
+      "arrow",
+      "arrow wala heart",
+      "cupid"
+    ],
+    "tts": [
+      "arrow wala heart"
+    ]
+  },
+  "👮‍♀": {
+    "default": [
+      "cop",
+      "female police officer",
+      "officer",
+      "police",
+      "woman"
+    ],
+    "tts": [
+      "female police officer"
+    ]
+  },
+  "❤‍🔥": {
+    "default": [
+      "burn",
+      "burning heart",
+      "heart",
+      "love",
+      "lust",
+      "sacred heart"
+    ],
+    "tts": [
+      "burning heart"
+    ]
+  },
+  "🙄": {
+    "default": [
+      "eyeroll",
+      "eyes",
+      "face",
+      "rolling",
+      "rolling eyes wala face"
+    ],
+    "tts": [
+      "rolling eyes wala face"
+    ]
+  },
+  "👨‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "white cane pakda hua aadmi",
+      "white cane pakda hua aadmi facing right"
+    ],
+    "tts": [
+      "white cane pakda hua aadmi facing right"
+    ]
+  },
+  "🐳": {
+    "default": [
+      "face",
+      "spout karna",
+      "spout karti whale",
+      "whale"
+    ],
+    "tts": [
+      "spout karti whale"
+    ]
+  },
+  "⛑": {
+    "default": [
+      "aid",
+      "cross",
+      "face",
+      "hat",
+      "helmet",
+      "rescue worker kaa helmet"
+    ],
+    "tts": [
+      "rescue worker kaa helmet"
+    ]
+  },
+  "🙋‍♂": {
+    "default": [
+      "gesture",
+      "haath uthaata aadmi",
+      "man",
+      "raising hand"
+    ],
+    "tts": [
+      "haath uthaata aadmi"
+    ]
+  },
+  "👈": {
+    "default": [
+      "backhand",
+      "finger",
+      "hand",
+      "index",
+      "left mein point karti index finger",
+      "point"
+    ],
+    "tts": [
+      "left mein point karti index finger"
+    ]
+  },
+  "🔒": {
+    "default": [
+      "closed",
+      "locked"
+    ],
+    "tts": []
+  },
+  "🧑‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "white cane pakda hua vyakti",
+      "white cane pakda hua vyakti facing right"
+    ],
+    "tts": [
+      "white cane pakda hua vyakti facing right"
+    ]
+  },
+  "🇻🇨": {
+    "default": [
+      "flag",
+      "flag: St. Vincent & Grenadines"
+    ],
+    "tts": [
+      "flag: St. Vincent & Grenadines"
+    ]
+  },
+  "✝": {
+    "default": [
+      "Christian",
+      "cross",
+      "latin cross",
+      "religion"
+    ],
+    "tts": [
+      "latin cross"
+    ]
+  },
+  "🧗": {
+    "default": [
+      "climb karta vyakti",
+      "climber"
+    ],
+    "tts": [
+      "climb karta vyakti"
+    ]
+  },
+  "🚨": {
+    "default": [
+      "beacon",
+      "car",
+      "light",
+      "police",
+      "police car ki light",
+      "revolve karti light"
+    ],
+    "tts": [
+      "police car ki light"
+    ]
+  },
+  "⛈": {
+    "default": [
+      "cloud",
+      "lightning aur baarish waale baadal",
+      "rain",
+      "thunder"
+    ],
+    "tts": [
+      "lightning aur baarish waale baadal"
+    ]
+  },
+  "👿": {
+    "default": [
+      "demon",
+      "devil",
+      "face",
+      "fantasy",
+      "horns wala angry face",
+      "imp"
+    ],
+    "tts": [
+      "horns wala angry face"
+    ]
+  },
+  "👇": {
+    "default": [
+      "backhand",
+      "down",
+      "finger",
+      "hand",
+      "neeche ishaara karti index finger",
+      "neeche point karti index finger dikhaate haath ki back side",
+      "point"
+    ],
+    "tts": [
+      "neeche ishaara karti index finger"
+    ]
+  },
+  "🪺": {
+    "default": [
+      "eggs wala nest",
+      "nesting"
+    ],
+    "tts": [
+      "eggs wala nest"
+    ]
+  },
+  "🤵": {
+    "default": [
+      "groom",
+      "person",
+      "suit boot mein vyakti",
+      "tuxedo"
+    ],
+    "tts": [
+      "suit boot mein vyakti"
+    ]
+  },
+  "🧑‍🚒": {
+    "default": [
+      "firefighter",
+      "firetruck"
+    ],
+    "tts": []
+  },
+  "💁": {
+    "default": [
+      "hand",
+      "help",
+      "information",
+      "information desk kaa vyakti",
+      "sassy",
+      "tipping"
+    ],
+    "tts": [
+      "information desk kaa vyakti"
+    ]
+  },
+  "👨‍🔬": {
+    "default": [
+      "biologist",
+      "chemist",
+      "engineer",
+      "male scientist",
+      "man",
+      "physicist",
+      "scientist"
+    ],
+    "tts": [
+      "male scientist"
+    ]
+  },
+  "👩‍🦽": {
+    "default": [
+      "accessibility",
+      "manual wheelchair par baithi mahila",
+      "wheelchair"
+    ],
+    "tts": [
+      "manual wheelchair par baithi mahila"
+    ]
+  },
+  "😱": {
+    "default": [
+      "dar se scream karta face",
+      "face",
+      "fear",
+      "munch",
+      "scared",
+      "scream"
+    ],
+    "tts": [
+      "dar se scream karta face"
+    ]
+  },
+  "🪃": {
+    "default": [
+      "boomerang",
+      "effect",
+      "rebound",
+      "repercussion"
+    ],
+    "tts": []
+  },
+  "😚": {
+    "default": [
+      "closed",
+      "closed eyes wala kissing face",
+      "eye",
+      "face",
+      "kiss"
+    ],
+    "tts": [
+      "closed eyes wala kissing face"
+    ]
+  },
+  "😵": {
+    "default": [
+      "crossed-out eyes",
+      "crossed-out eyes wala face",
+      "dead",
+      "face",
+      "knocked out"
+    ],
+    "tts": [
+      "crossed-out eyes wala face"
+    ]
+  },
+  "🙅": {
+    "default": [
+      "forbidden",
+      "gesture",
+      "hand",
+      "NO kaa gesture deta vyakti",
+      "prohibited"
+    ],
+    "tts": [
+      "NO kaa gesture deta vyakti"
+    ]
+  },
+  "🏌": {
+    "default": [
+      "ball",
+      "golf",
+      "golf khelta vyakti"
+    ],
+    "tts": [
+      "golf khelta vyakti"
+    ]
+  },
+  "🟰": {
+    "default": [
+      "baraabri",
+      "heavy equals sign",
+      "math"
+    ],
+    "tts": []
+  },
+  "🦙": {
+    "default": [
+      "alpaca",
+      "guanaco",
+      "llama",
+      "vicuna",
+      "wool"
+    ],
+    "tts": []
+  },
+  "🚖": {
+    "default": [
+      "aati hui taxi",
+      "taxi"
+    ],
+    "tts": [
+      "aati hui taxi"
+    ]
+  },
+  "🥂": {
+    "default": [
+      "celebrate",
+      "cheers karte glasses",
+      "clink",
+      "drink",
+      "glass"
+    ],
+    "tts": [
+      "cheers karte glasses"
+    ]
+  },
+  "⚜": {
+    "default": [
+      "lily flower"
+    ],
+    "tts": [
+      "lily flower"
+    ]
+  },
+  "😋": {
+    "default": [
+      "delicious",
+      "face",
+      "food enjoy karta face",
+      "savouring",
+      "smile",
+      "yum"
+    ],
+    "tts": [
+      "food enjoy karta face"
+    ]
+  },
+  "🛺": {
+    "default": [
+      "auto rickshaw",
+      "tuk tuk"
+    ],
+    "tts": []
+  },
+  "😭": {
+    "default": [
+      "cry",
+      "face",
+      "loudly rone wala face",
+      "sad",
+      "sob",
+      "tear"
+    ],
+    "tts": [
+      "loudly rone wala face"
+    ]
+  },
+  "🥘": {
+    "default": [
+      "casserole",
+      "food",
+      "food ke liye kam deep pan",
+      "paella",
+      "pan",
+      "shallow"
+    ],
+    "tts": [
+      "food ke liye kam deep pan"
+    ]
+  },
+  "🕦": {
+    "default": [
+      "11",
+      "11:30",
+      "clock",
+      "eleven",
+      "eleven-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "🫢": {
+    "default": [
+      "amazement",
+      "awe",
+      "disbelief",
+      "embarrass",
+      "khuli aankhein aur munh par haath",
+      "scared",
+      "surprise"
+    ],
+    "tts": [
+      "khuli aankhein aur munh par haath"
+    ]
+  },
+  "🧴": {
+    "default": [
+      "lotion",
+      "lotion bottle",
+      "moisturizer",
+      "shampoo",
+      "sunscreen"
+    ],
+    "tts": []
+  },
+  "🚍": {
+    "default": [
+      "aati hui bus",
+      "bus"
+    ],
+    "tts": [
+      "aati hui bus"
+    ]
+  },
+  "🤹‍♀": {
+    "default": [
+      "juggling",
+      "juggling karti mahila",
+      "multitask",
+      "woman"
+    ],
+    "tts": [
+      "juggling karti mahila"
+    ]
+  },
+  "⛄": {
+    "default": [
+      "bina barf wala snowman",
+      "cold",
+      "snow",
+      "snowman"
+    ],
+    "tts": [
+      "bina barf wala snowman"
+    ]
+  },
+  "🙎‍♂": {
+    "default": [
+      "gesture",
+      "man",
+      "pout banaata aadmi",
+      "pouting"
+    ],
+    "tts": [
+      "pout banaata aadmi"
+    ]
+  },
+  "🧎‍♂‍➡": {
+    "default": [
+      "aadmi",
+      "knees par baitha aadmi",
+      "knees par baitha aadmi facing right",
+      "knees par baithna"
+    ],
+    "tts": [
+      "knees par baitha aadmi facing right"
+    ]
+  },
+  "🧘‍♀": {
+    "default": [
+      "meditation",
+      "padmaasan mein baithi mahila",
+      "yoga"
+    ],
+    "tts": [
+      "padmaasan mein baithi mahila"
+    ]
+  },
+  "🤾‍♀": {
+    "default": [
+      "handball",
+      "handball khelti mahila",
+      "woman"
+    ],
+    "tts": [
+      "handball khelti mahila"
+    ]
+  },
+  "🐫": {
+    "default": [
+      "bactrian",
+      "camel",
+      "do hump wala camel",
+      "hump"
+    ],
+    "tts": [
+      "do hump wala camel"
+    ]
+  },
+  "🪚": {
+    "default": [
+      "carpenter",
+      "carpenter ki aari",
+      "lumber",
+      "saw",
+      "tool"
+    ],
+    "tts": [
+      "carpenter ki aari"
+    ]
+  },
+  "👳‍♂": {
+    "default": [
+      "man",
+      "turban",
+      "turban wala aadmi"
+    ],
+    "tts": [
+      "turban wala aadmi"
+    ]
+  },
+  "Ⓜ": {
+    "default": [
+      "circle",
+      "Circle kiya hua M",
+      "circle mein M",
+      "M"
+    ],
+    "tts": [
+      "Circle kiya hua M"
+    ]
+  },
+  "🏡": {
+    "default": [
+      "garden",
+      "garden wala house",
+      "home",
+      "house"
+    ],
+    "tts": [
+      "garden wala house"
+    ]
+  },
+  "👭": {
+    "default": [
+      "couple",
+      "haath pakde do mahilaayein",
+      "haath pakdna",
+      "hand",
+      "women"
+    ],
+    "tts": [
+      "haath pakde do mahilaayein"
+    ]
+  },
+  "👩‍❤‍👨": {
+    "default": [
+      "couple",
+      "heart symbol ke saath couple",
+      "heart symbol ke saath couple: woman, man",
+      "love",
+      "man",
+      "woman"
+    ],
+    "tts": [
+      "heart symbol ke saath couple: woman, man"
+    ]
+  },
+  "💆‍♀": {
+    "default": [
+      "face",
+      "massage",
+      "massage karwaati mahila",
+      "woman"
+    ],
+    "tts": [
+      "massage karwaati mahila"
+    ]
+  },
+  "💹": {
+    "default": [
+      "chart",
+      "graph",
+      "growth",
+      "money",
+      "yen",
+      "yen ki badhat dikhaane wala chart"
+    ],
+    "tts": [
+      "yen ki badhat dikhaane wala chart"
+    ]
+  },
+  "👩‍🚒": {
+    "default": [
+      "female firefighter",
+      "firefighter",
+      "firetruck",
+      "woman"
+    ],
+    "tts": [
+      "female firefighter"
+    ]
+  },
+  "↙": {
+    "default": [
+      "arrow",
+      "intercardinal",
+      "left-down arrow",
+      "left-down direction",
+      "southwest"
+    ],
+    "tts": [
+      "left-down arrow"
+    ]
+  },
+  "🐥": {
+    "default": [
+      "baby",
+      "bird",
+      "chick",
+      "front face karta baby chick"
+    ],
+    "tts": [
+      "front face karta baby chick"
+    ]
+  },
+  "💃": {
+    "default": [
+      "dance",
+      "dance karti mahila",
+      "dancing",
+      "woman"
+    ],
+    "tts": [
+      "dance karti mahila"
+    ]
+  },
+  "🫂": {
+    "default": [
+      "goodbye",
+      "hello",
+      "hug",
+      "hug karte huye log",
+      "thanks"
+    ],
+    "tts": [
+      "hug karte huye log"
+    ]
+  },
+  "❣": {
+    "default": [
+      "exclamation",
+      "exclamation sign wala heart",
+      "mark",
+      "punctuation"
+    ],
+    "tts": [
+      "exclamation sign wala heart"
+    ]
+  },
+  "🏄": {
+    "default": [
+      "surfing",
+      "surfing karta vyakti"
+    ],
+    "tts": [
+      "surfing karta vyakti"
+    ]
+  },
+  "👫": {
+    "default": [
+      "aadmi",
+      "aurat",
+      "couple",
+      "haath mein haath liye aurat-aadmi",
+      "haath pakadna",
+      "hand",
+      "hold"
+    ],
+    "tts": [
+      "haath mein haath liye aurat-aadmi"
+    ]
+  },
+  "🚘": {
+    "default": [
+      "aati hui car",
+      "automobile",
+      "car"
+    ],
+    "tts": [
+      "aati hui car"
+    ]
+  },
+  "🏃": {
+    "default": [
+      "marathon",
+      "run karta vyakti",
+      "running"
+    ],
+    "tts": [
+      "run karta vyakti"
+    ]
+  },
+  "👱": {
+    "default": [
+      "blond",
+      "blond-hair wala vyakti",
+      "hair",
+      "person: blond hair"
+    ],
+    "tts": []
+  },
+  "🚵": {
+    "default": [
+      "bicycle",
+      "bicyclist",
+      "bike",
+      "cyclist",
+      "mountain",
+      "mountain biking karta vyakti",
+      "person mountain biking"
+    ],
+    "tts": [
+      "mountain biking karta vyakti"
+    ]
+  },
+  "🍾": {
+    "default": [
+      "bar",
+      "bottle",
+      "cork",
+      "cork khulti hui bottle",
+      "drink",
+      "popping"
+    ],
+    "tts": [
+      "cork khulti hui bottle"
+    ]
+  },
+  "🌎": {
+    "default": [
+      "Americas",
+      "Americas dikhaata globe",
+      "earth",
+      "globe",
+      "world"
+    ],
+    "tts": [
+      "Americas dikhaata globe"
+    ]
+  },
+  "🏃‍♀‍➡": {
+    "default": [
+      "marathon",
+      "racing",
+      "run karti mahila",
+      "run karti mahila facing right",
+      "running",
+      "woman"
+    ],
+    "tts": [
+      "run karti mahila facing right"
+    ]
+  },
+  "🔯": {
+    "default": [
+      "6 point wala dotted star",
+      "fortune",
+      "star"
+    ],
+    "tts": [
+      "6 point wala dotted star"
+    ]
+  },
+  "✔": {
+    "default": [
+      "✓",
+      "check",
+      "mark"
+    ],
+    "tts": [
+      "check mark"
+    ]
+  },
+  "👷‍♀": {
+    "default": [
+      "construction",
+      "female construction worker",
+      "woman",
+      "worker"
+    ],
+    "tts": [
+      "female construction worker"
+    ]
+  },
+  "🚶‍♂": {
+    "default": [
+      "hike",
+      "man",
+      "walk",
+      "walk karta aadmi"
+    ],
+    "tts": [
+      "walk karta aadmi"
+    ]
+  },
+  "📿": {
+    "default": [
+      "beads",
+      "clothing",
+      "necklace",
+      "pooja ki maala ke manke",
+      "prayer",
+      "religion"
+    ],
+    "tts": [
+      "pooja ki maala ke manke"
+    ]
+  },
+  "🌃": {
+    "default": [
+      "night",
+      "star",
+      "stars wali night"
+    ],
+    "tts": [
+      "stars wali night"
+    ]
+  },
+  "🚶‍♀": {
+    "default": [
+      "hike",
+      "walk",
+      "walk karti mahila",
+      "woman"
+    ],
+    "tts": [
+      "walk karti mahila"
+    ]
+  },
+  "⚧": {
+    "default": [
+      "transgender",
+      "transgender symbol"
+    ],
+    "tts": []
+  },
+  "🍵": {
+    "default": [
+      "beverage",
+      "bina handle wala teacup",
+      "cup",
+      "drink",
+      "tea",
+      "teacup"
+    ],
+    "tts": [
+      "bina handle wala teacup"
+    ]
+  },
+  "👨‍🎨": {
+    "default": [
+      "artist",
+      "male artist",
+      "man",
+      "palette"
+    ],
+    "tts": [
+      "male artist"
+    ]
+  },
+  "🪓": {
+    "default": [
+      "axe",
+      "chop",
+      "kulhaadi",
+      "split",
+      "wood"
+    ],
+    "tts": [
+      "kulhaadi"
+    ]
+  },
+  "🤙": {
+    "default": [
+      "call",
+      "call me kaa ishaara karne wala haath",
+      "hand",
+      "hang loose",
+      "Shaka"
+    ],
+    "tts": [
+      "call me kaa ishaara karne wala haath"
+    ]
+  },
+  "📈": {
+    "default": [
+      "Badhat dikhaata chart",
+      "chart",
+      "graph",
+      "growth",
+      "trend",
+      "upward"
+    ],
+    "tts": [
+      "Badhat dikhaata chart"
+    ]
+  },
+  "👨‍🎤": {
+    "default": [
+      "actor",
+      "entertainer",
+      "male singer",
+      "man",
+      "rock",
+      "singer",
+      "star"
+    ],
+    "tts": [
+      "male singer"
+    ]
+  },
+  "🦺": {
+    "default": [
+      "emergency",
+      "safety",
+      "vest"
+    ],
+    "tts": []
+  },
+  "🕛": {
+    "default": [
+      "00",
+      "12",
+      "12:00",
+      "clock",
+      "o’clock",
+      "twelve",
+      "twelve o’ clock"
+    ],
+    "tts": [
+      "twelve o’ clock"
+    ]
+  },
+  "👌": {
+    "default": [
+      "haath",
+      "OK",
+      "OK kaa symbol"
+    ],
+    "tts": [
+      "OK kaa symbol"
+    ]
+  },
+  "🔨": {
+    "default": [
+      "hathouda",
+      "tool"
+    ],
+    "tts": [
+      "hathouda"
+    ]
+  },
+  "⭕": {
+    "default": [
+      "circle",
+      "hole wala big red circle",
+      "large",
+      "o",
+      "red"
+    ],
+    "tts": [
+      "hole wala big red circle"
+    ]
+  },
+  "🤽‍♀": {
+    "default": [
+      "water polo",
+      "water polo khelti mahila",
+      "woman"
+    ],
+    "tts": [
+      "water polo khelti mahila"
+    ]
+  },
+  "🫵": {
+    "default": [
+      "aap",
+      "viewer ki taraf pont karti index finger"
+    ],
+    "tts": [
+      "viewer ki taraf pont karti index finger"
+    ]
+  },
+  "🪪": {
+    "default": [
+      "credentials",
+      "ID",
+      "identification card",
+      "license",
+      "security"
+    ],
+    "tts": []
+  },
+  "🤢": {
+    "default": [
+      "face",
+      "nauseated face",
+      "vomit"
+    ],
+    "tts": []
+  },
+  "⚒": {
+    "default": [
+      "hammer",
+      "hathouda aur kudaali",
+      "pick",
+      "tool"
+    ],
+    "tts": [
+      "hathouda aur kudaali"
+    ]
+  },
+  "🧄": {
+    "default": [
+      "flavoring",
+      "garlic"
+    ],
+    "tts": []
+  },
+  "🌞": {
+    "default": [
+      "bright",
+      "face",
+      "face wala sun",
+      "sun"
+    ],
+    "tts": [
+      "face wala sun"
+    ]
+  },
+  "😶‍🌫": {
+    "default": [
+      "absentminded",
+      "baadlon mein face",
+      "baadlon mein head",
+      "fog mein face"
+    ],
+    "tts": [
+      "baadlon mein face"
+    ]
+  },
+  "🤚": {
+    "default": [
+      "backhand",
+      "raised",
+      "uthe huye haath ki back side"
+    ],
+    "tts": [
+      "uthe huye haath ki back side"
+    ]
+  },
+  "💆‍♂": {
+    "default": [
+      "face",
+      "man",
+      "massage",
+      "massage karwaata aadmi"
+    ],
+    "tts": [
+      "massage karwaata aadmi"
+    ]
+  },
+  "🛋": {
+    "default": [
+      "couch",
+      "hotel",
+      "lamp",
+      "sofa aur lamp"
+    ],
+    "tts": [
+      "sofa aur lamp"
+    ]
+  },
+  "🙊": {
+    "default": [
+      "bura na bolne wala monkey",
+      "evil",
+      "face",
+      "forbidden",
+      "monkey",
+      "speak"
+    ],
+    "tts": [
+      "bura na bolne wala monkey"
+    ]
+  },
+  "🔩": {
+    "default": [
+      "bolt",
+      "nut",
+      "nut aur bolt",
+      "tool"
+    ],
+    "tts": [
+      "nut aur bolt"
+    ]
+  },
+  "🤹‍♂": {
+    "default": [
+      "juggling",
+      "juggling karta aadmi",
+      "man",
+      "multitask"
+    ],
+    "tts": [
+      "juggling karta aadmi"
+    ]
+  },
+  "🔄": {
+    "default": [
+      "anticlockwise",
+      "anticlockwise arrows button",
+      "arrow",
+      "counterclockwise",
+      "withershins"
+    ],
+    "tts": [
+      "anticlockwise arrows button"
+    ]
+  },
+  "🧎‍➡": {
+    "default": [
+      "kneel",
+      "kneeling",
+      "knees par baitha vyakti",
+      "knees par baitha vyakti facing right"
+    ],
+    "tts": [
+      "knees par baitha vyakti facing right"
+    ]
+  },
+  "🌆": {
+    "default": [
+      "city",
+      "evening",
+      "landscape",
+      "shaam",
+      "shaam ke time kaa cityscape",
+      "sunset"
+    ],
+    "tts": [
+      "shaam ke time kaa cityscape"
+    ]
+  },
+  "👠": {
+    "default": [
+      "clothing",
+      "heel",
+      "high-heel kaa shoe",
+      "shoe",
+      "woman"
+    ],
+    "tts": [
+      "high-heel kaa shoe"
+    ]
+  },
+  "💂‍♀": {
+    "default": [
+      "female guard",
+      "guard",
+      "woman"
+    ],
+    "tts": [
+      "female guard"
+    ]
+  },
+  "🩸": {
+    "default": [
+      "bleed",
+      "blood donation",
+      "blood ki drop",
+      "injury",
+      "medicine",
+      "menstruation"
+    ],
+    "tts": [
+      "blood ki drop"
+    ]
+  },
+  "🏊‍♂": {
+    "default": [
+      "man",
+      "swim",
+      "swimming karta aadmi"
+    ],
+    "tts": [
+      "swimming karta aadmi"
+    ]
+  },
+  "😶": {
+    "default": [
+      "bina mouth wala face",
+      "face",
+      "mouth",
+      "quiet",
+      "silent"
+    ],
+    "tts": [
+      "bina mouth wala face"
+    ]
+  },
+  "🫙": {
+    "default": [
+      "container",
+      "jar",
+      "khaali",
+      "masaala",
+      "sauce",
+      "store"
+    ],
+    "tts": []
+  },
+  "🏋‍♂": {
+    "default": [
+      "man",
+      "weight lifter",
+      "weightlifting karta aadmi"
+    ],
+    "tts": [
+      "weightlifting karta aadmi"
+    ]
+  },
+  "🧕": {
+    "default": [
+      "headscarf",
+      "headscarf pahne mahila",
+      "hijab",
+      "mantilla",
+      "tichel"
+    ],
+    "tts": [
+      "headscarf pahne mahila"
+    ]
+  },
+  "👋": {
+    "default": [
+      "hand",
+      "wave",
+      "wave karta haath",
+      "waving"
+    ],
+    "tts": [
+      "wave karta haath"
+    ]
+  },
+  "🔐": {
+    "default": [
+      "closed",
+      "key",
+      "key se lock kiya gaya",
+      "lock",
+      "secure"
+    ],
+    "tts": [
+      "key se lock kiya gaya"
+    ]
+  },
+  "🤺": {
+    "default": [
+      "fencer",
+      "fencing",
+      "fencing karta vyakti",
+      "sword"
+    ],
+    "tts": [
+      "fencing karta vyakti"
+    ]
+  },
+  "🐕‍🦺": {
+    "default": [
+      "accessibility",
+      "assistance",
+      "dog",
+      "help",
+      "service",
+      "seva"
+    ],
+    "tts": []
+  },
+  "🗾": {
+    "default": [
+      "Japan",
+      "Japan kaa map",
+      "map"
+    ],
+    "tts": [
+      "Japan kaa map"
+    ]
+  },
+  "🔰": {
+    "default": [
+      "beginner",
+      "beginner ke liye Japanese symbol",
+      "chevron",
+      "Japanese",
+      "leaf"
+    ],
+    "tts": [
+      "beginner ke liye Japanese symbol"
+    ]
+  },
+  "👨‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "man",
+      "motor wheelchair par baitha aadmi",
+      "motor wheelchair par baitha aadmi facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "motor wheelchair par baitha aadmi facing right"
+    ]
+  },
+  "🚱": {
+    "default": [
+      "non-drinking",
+      "peene laayak paani nahi",
+      "water"
+    ],
+    "tts": [
+      "peene laayak paani nahi"
+    ]
+  },
+  "🏌‍♂": {
+    "default": [
+      "golf",
+      "golf khelta aadmi",
+      "man"
+    ],
+    "tts": [
+      "golf khelta aadmi"
+    ]
+  },
+  "⚖": {
+    "default": [
+      "justice",
+      "Libra",
+      "scale",
+      "taraazu",
+      "zodiac"
+    ],
+    "tts": [
+      "taraazu"
+    ]
+  },
+  "😰": {
+    "default": [
+      "blue",
+      "cold",
+      "face",
+      "rushed",
+      "sweat",
+      "sweating wala anxious face"
+    ],
+    "tts": [
+      "sweating wala anxious face"
+    ]
+  },
+  "🌧": {
+    "default": [
+      "baarish ke saath baadal",
+      "cloud",
+      "cloud with rain",
+      "rain"
+    ],
+    "tts": [
+      "baarish ke saath baadal"
+    ]
+  },
+  "👨‍🏭": {
+    "default": [
+      "assembly",
+      "factory",
+      "industry worker",
+      "male",
+      "man",
+      "worker"
+    ],
+    "tts": [
+      "male factory worker"
+    ]
+  },
+  "🍶": {
+    "default": [
+      "bar",
+      "beverage",
+      "bottle",
+      "cup",
+      "drink",
+      "sake"
+    ],
+    "tts": []
+  },
+  "🧑‍🤝‍🧑": {
+    "default": [
+      "couple",
+      "haath pakde huye",
+      "haath pakde huye log",
+      "hand",
+      "hold",
+      "person"
+    ],
+    "tts": [
+      "haath pakde huye log"
+    ]
+  },
+  "🗻": {
+    "default": [
+      "fuji",
+      "mount fuji",
+      "mountain"
+    ],
+    "tts": [
+      "mount fuji"
+    ]
+  },
+  "✌": {
+    "default": [
+      "haath",
+      "jeet",
+      "victory",
+      "victory dikhaata haath"
+    ],
+    "tts": [
+      "victory dikhaata haath"
+    ]
+  },
+  "🇻🇮": {
+    "default": [
+      "flag",
+      "flag: U.S. Virgin Islands"
+    ],
+    "tts": [
+      "flag: U.S. Virgin Islands"
+    ]
+  },
+  "🤲": {
+    "default": [
+      "palms ko eksaath oopar karna",
+      "prayer"
+    ],
+    "tts": [
+      "palms ko eksaath oopar karna"
+    ]
+  },
+  "🇨🇮": {
+    "default": [
+      "flag",
+      "flag: Cote d’Ivoire"
+    ],
+    "tts": [
+      "flag: Cote d’Ivoire"
+    ]
+  },
+  "🤵‍♀": {
+    "default": [
+      "suit boot mein mahila",
+      "tuxedo",
+      "woman"
+    ],
+    "tts": [
+      "suit boot mein mahila"
+    ]
+  },
+  "🪷": {
+    "default": [
+      "Buddhism",
+      "flower",
+      "Hinduism",
+      "kamal",
+      "lotus",
+      "purity"
+    ],
+    "tts": []
+  },
+  "🧍": {
+    "default": [
+      "khada hua vyakti",
+      "stand",
+      "standing"
+    ],
+    "tts": [
+      "khada hua vyakti"
+    ]
+  },
+  "🧑‍🏫": {
+    "default": [
+      "instructor",
+      "professor",
+      "teacher"
+    ],
+    "tts": []
+  },
+  "🧷": {
+    "default": [
+      "diaper",
+      "punk rock",
+      "safety pin"
+    ],
+    "tts": []
+  },
+  "🔓": {
+    "default": [
+      "lock",
+      "open",
+      "unlock",
+      "unlocked"
+    ],
+    "tts": []
+  },
+  "🤨": {
+    "default": [
+      "distrust",
+      "raised eyebrow wala face",
+      "skeptic"
+    ],
+    "tts": [
+      "raised eyebrow wala face"
+    ]
+  },
+  "🌤": {
+    "default": [
+      "chhote baadlon ke peeche chhupa sun",
+      "cloud",
+      "sun"
+    ],
+    "tts": [
+      "chhote baadlon ke peeche chhupa sun"
+    ]
+  },
+  "👡": {
+    "default": [
+      "clothing",
+      "mahilaaon ki sandal",
+      "sandal",
+      "shoe",
+      "woman"
+    ],
+    "tts": [
+      "mahilaaon ki sandal"
+    ]
+  },
+  "🙂‍↔": {
+    "default": [
+      "left right head shaking",
+      "left-right sir hilaana",
+      "nahi",
+      "no",
+      "shake"
+    ],
+    "tts": [
+      "left right head shaking"
+    ]
+  },
+  "📉": {
+    "default": [
+      "chart",
+      "down",
+      "graph",
+      "Kami dikhaata chart",
+      "trend"
+    ],
+    "tts": [
+      "Kami dikhaata chart"
+    ]
+  },
+  "🌏": {
+    "default": [
+      "Asia",
+      "Asia-Australia dikhaata globe",
+      "Australia",
+      "earth",
+      "globe",
+      "world"
+    ],
+    "tts": [
+      "Asia-Australia dikhaata globe"
+    ]
+  },
+  "🖇": {
+    "default": [
+      "link",
+      "link kiye gaye paperclips",
+      "paperclip"
+    ],
+    "tts": [
+      "link kiye gaye paperclips"
+    ]
+  },
+  "🖐": {
+    "default": [
+      "faili fingers wala haath",
+      "finger",
+      "hand",
+      "splayed"
+    ],
+    "tts": [
+      "faili fingers wala haath"
+    ]
+  },
+  "🛫": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "check-in",
+      "departure",
+      "departures"
+    ],
+    "tts": []
+  },
+  "🧑‍🍼": {
+    "default": [
+      "baby",
+      "baby ko feed karta vyakti",
+      "feeding",
+      "nursing",
+      "person"
+    ],
+    "tts": [
+      "baby ko feed karta vyakti"
+    ]
+  },
+  "🏳": {
+    "default": [
+      "waving",
+      "white flag"
+    ],
+    "tts": []
+  },
+  "👯‍♂": {
+    "default": [
+      "bunny ear",
+      "dancer",
+      "khargosh ke kaan wale aadmi",
+      "men",
+      "partying"
+    ],
+    "tts": [
+      "khargosh ke kaan wale aadmi"
+    ]
+  },
+  "🚸": {
+    "default": [
+      "bachche cross kar rahe hain",
+      "child",
+      "crossing",
+      "pedestrian",
+      "traffic"
+    ],
+    "tts": [
+      "bachche cross kar rahe hain"
+    ]
+  },
+  "🗡": {
+    "default": [
+      "kataar",
+      "knife",
+      "weapon"
+    ],
+    "tts": [
+      "kataar"
+    ]
+  },
+  "🥬": {
+    "default": [
+      "bok choy",
+      "cabbage",
+      "kale",
+      "leafy green",
+      "lettuce"
+    ],
+    "tts": []
+  },
+  "🧑‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "motor wheelchair par baitha vyakti",
+      "motor wheelchair par baitha vyakti facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "motor wheelchair par baitha vyakti facing right"
+    ]
+  },
+  "🥿": {
+    "default": [
+      "ballet flat",
+      "flat shoe",
+      "slip-on",
+      "slipper"
+    ],
+    "tts": []
+  },
+  "🥞": {
+    "default": [
+      "breakfast",
+      "crepe",
+      "food",
+      "hotcake",
+      "pancake",
+      "pancakes"
+    ],
+    "tts": []
+  },
+  "🕵‍♂": {
+    "default": [
+      "detective",
+      "male detective",
+      "man",
+      "sleuth",
+      "spy"
+    ],
+    "tts": [
+      "male detective"
+    ]
+  },
+  "🙅‍♂": {
+    "default": [
+      "forbidden",
+      "gesture",
+      "hand",
+      "man",
+      "NO kaa gesture deta aadmi",
+      "prohibited"
+    ],
+    "tts": [
+      "NO kaa gesture deta aadmi"
+    ]
+  },
+  "🛁": {
+    "default": [],
+    "tts": [
+      "bathtub"
+    ]
+  },
+  "🪂": {
+    "default": [
+      "hang-glide",
+      "parachute",
+      "parasail",
+      "skydive"
+    ],
+    "tts": []
+  },
+  "📃": {
+    "default": [
+      "curl",
+      "document",
+      "muda hua page",
+      "page"
+    ],
+    "tts": [
+      "muda hua page"
+    ]
+  },
+  "🤸‍♀": {
+    "default": [
+      "cartwheel",
+      "cartwheeling karti mahila",
+      "gymnastics",
+      "woman"
+    ],
+    "tts": [
+      "cartwheeling karti mahila"
+    ]
+  },
+  "👮‍♂": {
+    "default": [
+      "cop",
+      "male police officer",
+      "man",
+      "officer",
+      "police"
+    ],
+    "tts": [
+      "male police officer"
+    ]
+  },
+  "🧅": {
+    "default": [
+      "flavoring",
+      "onion"
+    ],
+    "tts": []
+  },
+  "🕋": {
+    "default": [
+      "islam",
+      "kaaba",
+      "Muslim",
+      "religion"
+    ],
+    "tts": [
+      "kaaba"
+    ]
+  },
+  "💇": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "haircut leta vyakti",
+      "parlor"
+    ],
+    "tts": [
+      "haircut leta vyakti"
+    ]
+  },
+  "😄": {
+    "default": [
+      "eye",
+      "face",
+      "mouth",
+      "open",
+      "smile",
+      "smile karti aankhon wala grinning face"
+    ],
+    "tts": [
+      "smile karti aankhon wala grinning face"
+    ]
+  },
+  "🤒": {
+    "default": [
+      "face",
+      "ill",
+      "sick",
+      "thermometer",
+      "thermometer wala face"
+    ],
+    "tts": [
+      "thermometer wala face"
+    ]
+  },
+  "🇧🇱": {
+    "default": [
+      "flag",
+      "flag: St. Barthelemy"
+    ],
+    "tts": [
+      "flag: St. Barthelemy"
+    ]
+  },
+  "🩹": {
+    "default": [
+      "bandage",
+      "chipkaane wali bandage"
+    ],
+    "tts": [
+      "chipkaane wali bandage"
+    ]
+  },
+  "🤦": {
+    "default": [
+      "disbelief",
+      "exasperation",
+      "face",
+      "face par palm rakhe hua vyakti",
+      "palm"
+    ],
+    "tts": [
+      "face par palm rakhe hua vyakti"
+    ]
+  },
+  "🙇‍♀": {
+    "default": [
+      "apology",
+      "bow karti mahila",
+      "bowing",
+      "favor",
+      "gesture",
+      "sorry",
+      "woman"
+    ],
+    "tts": [
+      "bow karti mahila"
+    ]
+  },
+  "🎑": {
+    "default": [
+      "celebration",
+      "ceremony",
+      "moon",
+      "moon dekhne ki ceremony"
+    ],
+    "tts": [
+      "moon dekhne ki ceremony"
+    ]
+  },
+  "👨‍🚒": {
+    "default": [
+      "firefighter",
+      "firetruck",
+      "male firefighter",
+      "man"
+    ],
+    "tts": [
+      "male firefighter"
+    ]
+  },
+  "🧿": {
+    "default": [
+      "bead",
+      "charm",
+      "evil-eye",
+      "nazar",
+      "nazar ki taabeez",
+      "talisman"
+    ],
+    "tts": [
+      "nazar ki taabeez"
+    ]
+  },
+  "🖼": {
+    "default": [
+      "art",
+      "frame",
+      "frame ki gai picture",
+      "museum",
+      "painting",
+      "picture"
+    ],
+    "tts": [
+      "frame ki gai picture"
+    ]
+  },
+  "🧎": {
+    "default": [
+      "kneel",
+      "kneeling",
+      "knees par baitha vyakti"
+    ],
+    "tts": [
+      "knees par baitha vyakti"
+    ]
+  },
+  "🚙": {
+    "default": [
+      "recreational",
+      "sport utility",
+      "sport utility vehicle"
+    ],
+    "tts": []
+  },
+  "↩": {
+    "default": [
+      "arrow",
+      "left side muda hua right arrow"
+    ],
+    "tts": [
+      "left side muda hua right arrow"
+    ]
+  },
+  "🫅": {
+    "default": [
+      "crown wala vyakti",
+      "monarch",
+      "noble",
+      "person with crown",
+      "regal",
+      "royalty"
+    ],
+    "tts": [
+      "crown wala vyakti"
+    ]
+  },
+  "🧑‍🦽‍➡": {
+    "default": [
+      "accessibility",
+      "manual wheelchair par baitha vyakti",
+      "manual wheelchair par baitha vyakti facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "manual wheelchair par baitha vyakti facing right"
+    ]
+  },
+  "🚣‍♂": {
+    "default": [
+      "boat",
+      "boat rowing karta aadmi",
+      "man",
+      "rowboat"
+    ],
+    "tts": [
+      "boat rowing karta aadmi"
+    ]
+  },
+  "🗣": {
+    "default": [
+      "bolta face",
+      "face",
+      "face kaa shape",
+      "head",
+      "speak"
+    ],
+    "tts": [
+      "bolta face"
+    ]
+  },
+  "🍻": {
+    "default": [
+      "bar",
+      "beer",
+      "cheers karte beer mugs",
+      "clink",
+      "drink",
+      "mug"
+    ],
+    "tts": [
+      "cheers karte beer mugs"
+    ]
+  },
+  "⛅": {
+    "default": [
+      "baadlon ke peeche sun",
+      "cloud",
+      "sun"
+    ],
+    "tts": [
+      "baadlon ke peeche sun"
+    ]
+  },
+  "🪒": {
+    "default": [
+      "razor",
+      "sharp",
+      "shave"
+    ],
+    "tts": []
+  },
+  "🥀": {
+    "default": [
+      "flower",
+      "murjhaaya hua phool"
+    ],
+    "tts": [
+      "murjhaaya hua phool"
+    ]
+  },
+  "🤷‍♂": {
+    "default": [
+      "doubt",
+      "ignorance",
+      "indifference",
+      "man",
+      "shrug",
+      "shrug karta aadmi"
+    ],
+    "tts": [
+      "shrug karta aadmi"
+    ]
+  },
+  "😙": {
+    "default": [
+      "eye",
+      "face",
+      "kiss",
+      "smile",
+      "smiling eyes wala kissing face"
+    ],
+    "tts": [
+      "smiling eyes wala kissing face"
+    ]
+  },
+  "🚷": {
+    "default": [
+      "forbidden",
+      "no",
+      "not",
+      "paidal chalne ki permission nahi",
+      "pedestrian",
+      "prohibited"
+    ],
+    "tts": [
+      "paidal chalne ki permission nahi"
+    ]
+  },
+  "🧻": {
+    "default": [
+      "paper kaa roll",
+      "paper towels",
+      "toilet paper"
+    ],
+    "tts": [
+      "paper kaa roll"
+    ]
+  },
+  "🧔‍♂": {
+    "default": [
+      "aadmi",
+      "daadhi",
+      "male: beard"
+    ],
+    "tts": [
+      "male: beard"
+    ]
+  },
+  "🤘": {
+    "default": [
+      "finger",
+      "hand",
+      "horns",
+      "horns kaa sign",
+      "rock-on"
+    ],
+    "tts": [
+      "horns kaa sign"
+    ]
+  },
+  "🌦": {
+    "default": [
+      "baarish wale baadlon ke peeche chhupa sun",
+      "cloud",
+      "rain",
+      "sun"
+    ],
+    "tts": [
+      "baarish wale baadlon ke peeche chhupa sun"
+    ]
+  },
+  "⛹": {
+    "default": [
+      "ball",
+      "ball se khelta vyakti"
+    ],
+    "tts": [
+      "ball se khelta vyakti"
+    ]
+  },
+  "🧗‍♂": {
+    "default": [
+      "climb karta aadmi",
+      "climber"
+    ],
+    "tts": [
+      "climb karta aadmi"
+    ]
+  },
+  "🧍‍♂": {
+    "default": [
+      "khada aadmi",
+      "man"
+    ],
+    "tts": [
+      "khada aadmi"
+    ]
+  },
+  "💝": {
+    "default": [
+      "ribbon",
+      "ribbon wala heart",
+      "valentine"
+    ],
+    "tts": [
+      "ribbon wala heart"
+    ]
+  },
+  "👷‍♂": {
+    "default": [
+      "construction",
+      "male construction worker",
+      "man",
+      "worker"
+    ],
+    "tts": [
+      "male construction worker"
+    ]
+  },
+  "🤹": {
+    "default": [
+      "balance",
+      "juggle",
+      "juggling karta vyakti",
+      "multitask",
+      "skill"
+    ],
+    "tts": [
+      "juggling karta vyakti"
+    ]
+  },
+  "🍗": {
+    "default": [],
+    "tts": [
+      "chicken leg"
+    ]
+  },
+  "🚶‍♂‍➡": {
+    "default": [
+      "hike",
+      "man",
+      "walk",
+      "walk karta aadmi",
+      "walk karta aadmi facing right"
+    ],
+    "tts": [
+      "walk karta aadmi facing right"
+    ]
+  },
+  "⛓‍💥": {
+    "default": [
+      "aazaadi",
+      "break",
+      "chain",
+      "cuffs",
+      "freedom",
+      "tooti hui zanjeer",
+      "tootna",
+      "zanjeer"
+    ],
+    "tts": [
+      "tooti hui zanjeer"
+    ]
+  },
+  "🧩": {
+    "default": [
+      "clue",
+      "interlocking",
+      "jigsaw",
+      "piece",
+      "puzzle",
+      "puzzle game"
+    ],
+    "tts": [
+      "puzzle game"
+    ]
+  },
+  "🕝": {
+    "default": [
+      "2",
+      "2:30",
+      "clock",
+      "thirty",
+      "two",
+      "two-thirty"
+    ],
+    "tts": []
+  },
+  "🙇": {
+    "default": [
+      "apology",
+      "bow",
+      "bow karta vyakti",
+      "gesture",
+      "sorry"
+    ],
+    "tts": [
+      "bow karta vyakti"
+    ]
+  },
+  "🧎‍♂": {
+    "default": [
+      "aadmi",
+      "knees par baitha aadmi",
+      "knees par baithna"
+    ],
+    "tts": [
+      "knees par baitha aadmi"
+    ]
+  },
+  "🙏": {
+    "default": [
+      "ask",
+      "high 5",
+      "high five",
+      "namaste karna",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": [
+      "namaste karna"
+    ]
+  },
+  "🙆": {
+    "default": [
+      "gesture",
+      "hand",
+      "OK",
+      "OK kaa gesture deta vyakti"
+    ],
+    "tts": [
+      "OK kaa gesture deta vyakti"
+    ]
+  },
+  "🍥": {
+    "default": [
+      "cake",
+      "fish",
+      "pastry",
+      "swirl",
+      "swirls wala fish cake"
+    ],
+    "tts": [
+      "swirls wala fish cake"
+    ]
+  },
+  "💕": {
+    "default": [
+      "do hearts",
+      "love"
+    ],
+    "tts": [
+      "do hearts"
+    ]
+  },
+  "🍴": {
+    "default": [
+      "cooking",
+      "cutlery",
+      "fork",
+      "fork aur knife",
+      "knife"
+    ],
+    "tts": [
+      "fork aur knife"
+    ]
+  },
+  "✅": {
+    "default": [
+      "✓",
+      "button",
+      "check",
+      "mark"
+    ],
+    "tts": [
+      "check mark button"
+    ]
+  },
+  "☦": {
+    "default": [
+      "Christian",
+      "cross",
+      "orthodox cross",
+      "religion"
+    ],
+    "tts": [
+      "orthodox cross"
+    ]
+  },
+  "☠": {
+    "default": [
+      "crossbones",
+      "death",
+      "face",
+      "monster",
+      "skull",
+      "skull aur crossbones"
+    ],
+    "tts": [
+      "skull aur crossbones"
+    ]
+  },
+  "💗": {
+    "default": [
+      "excited",
+      "grow karta hua heart",
+      "growing",
+      "nervous",
+      "pulse"
+    ],
+    "tts": [
+      "grow karta hua heart"
+    ]
+  },
+  "👉": {
+    "default": [
+      "backhand",
+      "finger",
+      "hand",
+      "index",
+      "point",
+      "right mein point karti index finger",
+      "right mein point karti index finger dikhaate haath ki back side"
+    ],
+    "tts": [
+      "right mein point karti index finger"
+    ]
+  },
+  "🚶‍➡": {
+    "default": [
+      "hike",
+      "walk",
+      "walk karta vyakti",
+      "walk karta vyakti facing right",
+      "walking"
+    ],
+    "tts": [
+      "walk karta vyakti facing right"
+    ]
+  },
+  "🚵‍♂": {
+    "default": [
+      "bicycle",
+      "bike",
+      "cyclist",
+      "man",
+      "mountain",
+      "mountain biking karta aadmi"
+    ],
+    "tts": [
+      "mountain biking karta aadmi"
+    ]
+  },
+  "💂‍♂": {
+    "default": [
+      "guard",
+      "male guard",
+      "man"
+    ],
+    "tts": [
+      "male guard"
+    ]
+  },
+  "👬": {
+    "default": [
+      "couple",
+      "Gemini",
+      "haath pakadna",
+      "haath pakde do aadmi",
+      "men",
+      "twins",
+      "zodiac"
+    ],
+    "tts": [
+      "haath pakde do aadmi"
+    ]
+  },
+  "🤼": {
+    "default": [
+      "wrestle",
+      "wrestler",
+      "wrestling karte log"
+    ],
+    "tts": [
+      "wrestling karte log"
+    ]
+  },
+  "😜": {
+    "default": [
+      "eye",
+      "face",
+      "joke",
+      "tongue",
+      "tongue dikhaata winking face",
+      "wink"
+    ],
+    "tts": [
+      "tongue dikhaata winking face"
+    ]
+  },
+  "🚵‍♀": {
+    "default": [
+      "bicycle",
+      "bike",
+      "biking",
+      "cyclist",
+      "mountain",
+      "mountain biking karti mahila",
+      "woman"
+    ],
+    "tts": [
+      "mountain biking karti mahila"
+    ]
+  },
+  "🫶": {
+    "default": [
+      "haathon se bana heart",
+      "heart hands",
+      "love"
+    ],
+    "tts": [
+      "haathon se bana heart"
+    ]
+  },
+  "🇱🇨": {
+    "default": [
+      "flag",
+      "flag: St. Lucia"
+    ],
+    "tts": [
+      "flag: St. Lucia"
+    ]
+  },
+  "🕤": {
+    "default": [
+      "9",
+      "9:30",
+      "clock",
+      "nine",
+      "nine-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "🇸🇭": {
+    "default": [
+      "flag",
+      "flag: St. Helena"
+    ],
+    "tts": [
+      "flag: St. Helena"
+    ]
+  },
+  "😝": {
+    "default": [
+      "eye",
+      "face",
+      "horrible",
+      "taste",
+      "tongue",
+      "tongue nikaalta squinting face"
+    ],
+    "tts": [
+      "tongue nikaalta squinting face"
+    ]
+  },
+  "🙇‍♂": {
+    "default": [
+      "apology",
+      "bow karta aadmi",
+      "bowing",
+      "favor",
+      "gesture",
+      "man",
+      "sorry"
+    ],
+    "tts": [
+      "bow karta aadmi"
+    ]
+  },
+  "🙋": {
+    "default": [
+      "gesture",
+      "haath uthaata vyakti",
+      "hand",
+      "happy",
+      "raised"
+    ],
+    "tts": [
+      "haath uthaata vyakti"
+    ]
+  },
+  "🤼‍♀": {
+    "default": [
+      "women",
+      "wrestle",
+      "wrestling karti mahilaayein"
+    ],
+    "tts": [
+      "wrestling karti mahilaayein"
+    ]
+  },
+  "🚶": {
+    "default": [
+      "hike",
+      "walk",
+      "walk karta vyakti",
+      "walking"
+    ],
+    "tts": [
+      "walk karta vyakti"
+    ]
+  },
+  "👩‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "white cane pakde hui mahila",
+      "woman"
+    ],
+    "tts": [
+      "white cane pakde hui mahila"
+    ]
+  },
+  "🤦‍♀": {
+    "default": [
+      "disbelief",
+      "exasperation",
+      "face par palm rakhe huye mahila",
+      "facepalm",
+      "woman"
+    ],
+    "tts": [
+      "face par palm rakhe huye mahila"
+    ]
+  },
+  "🙎‍♀": {
+    "default": [
+      "gesture",
+      "pout banaati mahila",
+      "pouting",
+      "woman"
+    ],
+    "tts": [
+      "pout banaati mahila"
+    ]
+  },
+  "👩‍✈": {
+    "default": [
+      "female pilot",
+      "pilot",
+      "plane",
+      "woman"
+    ],
+    "tts": [
+      "female pilot"
+    ]
+  },
+  "😁": {
+    "default": [
+      "eye",
+      "face",
+      "grin",
+      "smile",
+      "smile karti aankhon wala beaming face"
+    ],
+    "tts": [
+      "smile karti aankhon wala beaming face"
+    ]
+  },
+  "🥛": {
+    "default": [
+      "doodh kaa glass",
+      "drink",
+      "glass",
+      "milk"
+    ],
+    "tts": [
+      "doodh kaa glass"
+    ]
+  },
+  "🚃": {
+    "default": [
+      "car",
+      "electric",
+      "railway",
+      "train",
+      "tram",
+      "trolleybus"
+    ],
+    "tts": []
+  },
+  "👒": {
+    "default": [
+      "clothing",
+      "hat",
+      "mahilaaon ki hat",
+      "woman"
+    ],
+    "tts": [
+      "mahilaaon ki hat"
+    ]
+  },
+  "🧏‍♂": {
+    "default": [
+      "deaf",
+      "hearing-impaired",
+      "man",
+      "sun na paane wala",
+      "sun na paane wala aadmi"
+    ],
+    "tts": [
+      "sun na paane wala aadmi"
+    ]
+  },
+  "🙍": {
+    "default": [
+      "frown",
+      "frown karta person",
+      "gesture"
+    ],
+    "tts": [
+      "frown karta person"
+    ]
+  },
+  "📸": {
+    "default": [
+      "camera",
+      "flash",
+      "flash wala camera",
+      "video"
+    ],
+    "tts": [
+      "flash wala camera"
+    ]
+  },
+  "🏃‍♀": {
+    "default": [
+      "marathon",
+      "racing",
+      "run karti mahila",
+      "running",
+      "woman"
+    ],
+    "tts": [
+      "run karti mahila"
+    ]
+  },
+  "🚰": {
+    "default": [
+      "drinking",
+      "peene kaa paani",
+      "potable",
+      "water"
+    ],
+    "tts": [
+      "peene kaa paani"
+    ]
+  },
+  "🏃‍♂‍➡": {
+    "default": [
+      "man",
+      "marathon",
+      "racing",
+      "run karta aadmi",
+      "run karta aadmi facing right",
+      "running"
+    ],
+    "tts": [
+      "run karta aadmi facing right"
+    ]
+  },
+  "🔈": {
+    "default": [
+      "soft",
+      "speaker kaa low volume"
+    ],
+    "tts": [
+      "speaker kaa low volume"
+    ]
+  },
+  "⏯": {
+    "default": [
+      "arrow",
+      "pause",
+      "play",
+      "play aur pause button",
+      "right",
+      "triangle"
+    ],
+    "tts": [
+      "play aur pause button"
+    ]
+  },
+  "🇸🇹": {
+    "default": [
+      "flag",
+      "flag: Sao Tome & Principe"
+    ],
+    "tts": [
+      "flag: Sao Tome & Principe"
+    ]
+  },
+  "🏺": {
+    "default": [
+      "amphora",
+      "Aquarius",
+      "cooking",
+      "drink",
+      "jug",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "✴": {
+    "default": [
+      "*",
+      "8 point wala star",
+      "star"
+    ],
+    "tts": [
+      "8 point wala star"
+    ]
+  },
+  "🐾": {
+    "default": [
+      "feet",
+      "panje ke prints",
+      "paw",
+      "print"
+    ],
+    "tts": [
+      "panje ke prints"
+    ]
+  },
+  "🇦🇽": {
+    "default": [
+      "flag",
+      "flag: Aland Islands"
+    ],
+    "tts": [
+      "flag: Aland Islands"
+    ]
+  },
+  "😅": {
+    "default": [
+      "cold",
+      "face",
+      "open",
+      "smile",
+      "sweat",
+      "sweating wala grinning face"
+    ],
+    "tts": [
+      "sweating wala grinning face"
+    ]
+  },
+  "😷": {
+    "default": [
+      "cold",
+      "doctor",
+      "face",
+      "mask",
+      "medical mask wala face",
+      "sick"
+    ],
+    "tts": [
+      "medical mask wala face"
+    ]
+  },
+  "🛅": {
+    "default": [
+      "baggage",
+      "chhuta hua luggage",
+      "locker",
+      "luggage"
+    ],
+    "tts": [
+      "chhuta hua luggage"
+    ]
+  },
+  "📩": {
+    "default": [
+      "arrow",
+      "arrow wala envelope",
+      "e-mail",
+      "email",
+      "envelope",
+      "envelope with arrow",
+      "outgoing"
+    ],
+    "tts": [
+      "arrow wala envelope"
+    ]
+  },
+  "🧑‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "scales"
+    ],
+    "tts": []
+  },
+  "🤦‍♂": {
+    "default": [
+      "disbelief",
+      "exasperation",
+      "face par palm rakhe hua aadmi",
+      "facepalm",
+      "man"
+    ],
+    "tts": [
+      "face par palm rakhe hua aadmi"
+    ]
+  },
+  "🏄‍♂": {
+    "default": [
+      "man",
+      "surfing",
+      "surfing karta aadmi"
+    ],
+    "tts": [
+      "surfing karta aadmi"
+    ]
+  },
+  "🚮": {
+    "default": [
+      "bin mein garbage daalne kaa sign",
+      "litter",
+      "litter bin",
+      "litter in bin sign"
+    ],
+    "tts": [
+      "bin mein garbage daalne kaa sign"
+    ]
+  },
+  "💇‍♀": {
+    "default": [
+      "haircut",
+      "haircut leti mahila",
+      "woman"
+    ],
+    "tts": [
+      "haircut leti mahila"
+    ]
+  },
+  "😖": {
+    "default": [
+      "confounded",
+      "face",
+      "Hairaan face"
+    ],
+    "tts": [
+      "Hairaan face"
+    ]
+  },
+  "🤭": {
+    "default": [
+      "mouth par haath wala face",
+      "whoops"
+    ],
+    "tts": [
+      "mouth par haath wala face"
+    ]
+  },
+  "👤": {
+    "default": [
+      "body kaa upper part",
+      "body ke upper part ki image",
+      "silhouette"
+    ],
+    "tts": [
+      "body ke upper part ki image"
+    ]
+  },
+  "🏳‍⚧": {
+    "default": [
+      "flag",
+      "light blue",
+      "pink",
+      "transgender",
+      "white"
+    ],
+    "tts": []
+  },
+  "☪": {
+    "default": [
+      "islam",
+      "Muslim",
+      "religion",
+      "star aur crescent"
+    ],
+    "tts": [
+      "star aur crescent"
+    ]
+  },
+  "🩲": {
+    "default": [
+      "bathing suit",
+      "briefs",
+      "one-piece",
+      "swimsuit",
+      "underwear"
+    ],
+    "tts": []
+  }
+}

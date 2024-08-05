@@ -1,0 +1,5114 @@
+{
+  "🈵": {
+    "default": [
+      "„nema mjesta“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „nema mjesta“",
+      "満"
+    ],
+    "tts": [
+      "japansko dugme „nema mjesta“"
+    ]
+  },
+  "💇‍♀": {
+    "default": [
+      "frizura",
+      "žena",
+      "žensko šišanje"
+    ],
+    "tts": []
+  },
+  "🤥": {
+    "default": [
+      "laž",
+      "lažljivac",
+      "lice",
+      "pinokio"
+    ],
+    "tts": []
+  },
+  "👘": {
+    "default": [
+      "kimono",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "👨‍⚕": {
+    "default": [
+      "doktor",
+      "ljekar",
+      "muškarac",
+      "muškarac zdravstveni radnik",
+      "zdravstveni radnik",
+      "zdravstvo"
+    ],
+    "tts": []
+  },
+  "🌗": {
+    "default": [
+      "četvrt",
+      "mjesec",
+      "mjesec u posljednjoj četvrti"
+    ],
+    "tts": [
+      "mjesec u posljednjoj četvrti"
+    ]
+  },
+  "🕎": {
+    "default": [
+      "menora",
+      "religija",
+      "svijeća",
+      "svijećnjak"
+    ],
+    "tts": []
+  },
+  "🇳🇫": {
+    "default": [
+      "zastava",
+      "zastava: ostrvo Norfok"
+    ],
+    "tts": [
+      "zastava: ostrvo Norfok"
+    ]
+  },
+  "◻": {
+    "default": [
+      "bijeli kvadrat srednje veličine",
+      "geometrija",
+      "kvadrat"
+    ],
+    "tts": [
+      "bijeli kvadrat srednje veličine"
+    ]
+  },
+  "👨‍👧‍👧": {
+    "default": [
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, djevojčica i djevojčica"
+    ],
+    "tts": [
+      "porodica: muškarac, djevojčica i djevojčica"
+    ]
+  },
+  "🈷": {
+    "default": [
+      "„mjesečna količina“",
+      "ideograf",
+      "ideograf „mjesec“ u kvadratu",
+      "japanski",
+      "japansko dugme „mjesečna količina“",
+      "月"
+    ],
+    "tts": [
+      "ideograf „mjesec“ u kvadratu"
+    ]
+  },
+  "👨‍🦽": {
+    "default": [
+      "čovjek",
+      "čovjek u mehaničkim kolicima",
+      "kolica",
+      "pristupačnost"
+    ],
+    "tts": [
+      "čovjek u mehaničkim kolicima"
+    ]
+  },
+  "🐹": {
+    "default": [],
+    "tts": [
+      "hrčak"
+    ]
+  },
+  "🦒": {
+    "default": [
+      "pjege",
+      "žirafa"
+    ],
+    "tts": []
+  },
+  "🤦": {
+    "default": [
+      "čelo",
+      "glupost",
+      "kajanje",
+      "ogorčenje",
+      "šaka o čelo"
+    ],
+    "tts": []
+  },
+  "🇲🇵": {
+    "default": [
+      "zastava",
+      "zastava: Sjeverna Marijanska ostrva"
+    ],
+    "tts": [
+      "zastava: Sjeverna Marijanska ostrva"
+    ]
+  },
+  "🔖": {
+    "default": [
+      "obilježivač stranica u knjizi",
+      "oznaka"
+    ],
+    "tts": [
+      "obilježivač stranica u knjizi"
+    ]
+  },
+  "👣": {
+    "default": [
+      "odjeća",
+      "otisak",
+      "otisak stopala",
+      "otisci stopala"
+    ],
+    "tts": []
+  },
+  "🌚": {
+    "default": [
+      "lice",
+      "mjesec",
+      "mlad mjesec sa licem"
+    ],
+    "tts": [
+      "mlad mjesec sa licem"
+    ]
+  },
+  "🗒": {
+    "default": [
+      "bilješka",
+      "bilježnica sa spiralom",
+      "blok",
+      "spirala"
+    ],
+    "tts": [
+      "bilježnica sa spiralom"
+    ]
+  },
+  "🇧🇳": {
+    "default": [
+      "zastava",
+      "zastava: Bruneji"
+    ],
+    "tts": [
+      "zastava: Bruneji"
+    ]
+  },
+  "👟": {
+    "default": [
+      "atletski",
+      "cipela",
+      "odjeća",
+      "patika",
+      "patike za trčanje"
+    ],
+    "tts": []
+  },
+  "👨‍👨‍👦‍👦": {
+    "default": [
+      "dječak",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, muškarac, dječak i dječak"
+    ],
+    "tts": [
+      "porodica: muškarac, muškarac, dječak i dječak"
+    ]
+  },
+  "😄": {
+    "default": [
+      "lice koje se slatko smije"
+    ],
+    "tts": [
+      "lice koje se slatko smije"
+    ]
+  },
+  "💑": {
+    "default": [
+      "par sa srcem"
+    ],
+    "tts": []
+  },
+  "🦺": {
+    "default": [
+      "bezbjednost",
+      "hitan slučaj",
+      "prsluk za spasavanje"
+    ],
+    "tts": []
+  },
+  "🈶": {
+    "default": [
+      "„nije besplatno“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „nije besplatno“",
+      "有"
+    ],
+    "tts": [
+      "japansko dugme „nije besplatno“"
+    ]
+  },
+  "↪": {
+    "default": [
+      "strelica",
+      "strelica za polukružni okret ulijevo"
+    ],
+    "tts": [
+      "strelica za polukružni okret ulijevo"
+    ]
+  },
+  "🦸": {
+    "default": [
+      "dobro",
+      "heroina",
+      "heroj",
+      "superheroj",
+      "supermoć"
+    ],
+    "tts": [
+      "superheroj"
+    ]
+  },
+  "😍": {
+    "default": [
+      "nasmijano lice sa očima u obliku srca"
+    ],
+    "tts": [
+      "nasmijano lice sa očima u obliku srca"
+    ]
+  },
+  "🐣": {
+    "default": [
+      "beba",
+      "izlijeganje",
+      "pile",
+      "pile u jajetu",
+      "ptica"
+    ],
+    "tts": []
+  },
+  "👩‍❤‍💋‍👨": {
+    "default": [
+      "muškarac",
+      "poljubac",
+      "žena"
+    ],
+    "tts": []
+  },
+  "🐎": {
+    "default": [
+      "konj"
+    ],
+    "tts": []
+  },
+  "😼": {
+    "default": [
+      "mačka sa kiselim osmijehom"
+    ],
+    "tts": [
+      "mačka sa kiselim osmijehom"
+    ]
+  },
+  "🏳": {
+    "default": [
+      "bijela zastava",
+      "vijorenje"
+    ],
+    "tts": [
+      "bijela zastava"
+    ]
+  },
+  "🎿": {
+    "default": [
+      "skijanje",
+      "skije",
+      "snijeg"
+    ],
+    "tts": []
+  },
+  "👅": {
+    "default": [
+      "jezik"
+    ],
+    "tts": []
+  },
+  "🤣": {
+    "default": [
+      "valjanje od smijeha"
+    ],
+    "tts": [
+      "valjanje od smijeha"
+    ]
+  },
+  "💉": {
+    "default": [
+      "bolest",
+      "igla",
+      "injekcija",
+      "lijek",
+      "špric"
+    ],
+    "tts": []
+  },
+  "〽": {
+    "default": [
+      "znak za razdvajanje dijelova"
+    ],
+    "tts": [
+      "znak za razdvajanje dijelova"
+    ]
+  },
+  "🚷": {
+    "default": [
+      "ne",
+      "nema",
+      "pješak",
+      "zabranjeno",
+      "zabranjeno za pješake"
+    ],
+    "tts": [
+      "zabranjeno za pješake"
+    ]
+  },
+  "🏹": {
+    "default": [
+      "luk",
+      "luk i strijela",
+      "strijela",
+      "strijelac",
+      "zodijak"
+    ],
+    "tts": [
+      "luk i strijela"
+    ]
+  },
+  "🤹": {
+    "default": [
+      "cirkus",
+      "osoba žonglira",
+      "ravnoteža",
+      "vještina",
+      "žongliranje"
+    ],
+    "tts": []
+  },
+  "👩‍⚕": {
+    "default": [
+      "doktor",
+      "ljekar",
+      "zdravstvena radnica",
+      "zdravstvo",
+      "žena"
+    ],
+    "tts": []
+  },
+  "🇨🇨": {
+    "default": [
+      "zastava",
+      "zastava: Kokosova (Kiling) ostrva"
+    ],
+    "tts": [
+      "zastava: Kokosova (Kiling) ostrva"
+    ]
+  },
+  "🧑‍🦳": {
+    "default": [
+      "neodređen rod",
+      "odrasla osoba",
+      "odrasla osoba: sijeda kosa",
+      "osoba",
+      "rodno neutralno",
+      "sijeda kosa"
+    ],
+    "tts": [
+      "odrasla osoba: sijeda kosa"
+    ]
+  },
+  "👚": {
+    "default": [
+      "odjeća",
+      "žena",
+      "ženska odjeća"
+    ],
+    "tts": [
+      "ženska odjeća"
+    ]
+  },
+  "⛽": {
+    "default": [
+      "benzin",
+      "dizel",
+      "gorivo",
+      "pumpa",
+      "pumpa za gorivo",
+      "stanica"
+    ],
+    "tts": []
+  },
+  "🌂": {
+    "default": [
+      "kiša",
+      "kišobran",
+      "odjeća",
+      "zatvoreni kišobran"
+    ],
+    "tts": []
+  },
+  "👨‍👦": {
+    "default": [
+      "dječak",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac i dječak"
+    ],
+    "tts": [
+      "porodica: muškarac i dječak"
+    ]
+  },
+  "🕑": {
+    "default": [
+      "00",
+      "2",
+      "2:00",
+      "dva",
+      "dva sata",
+      "sat"
+    ],
+    "tts": []
+  },
+  "🈳": {
+    "default": [
+      "„prazno“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „prazno“",
+      "空"
+    ],
+    "tts": [
+      "japansko dugme „prazno“"
+    ]
+  },
+  "🧑‍🦯": {
+    "default": [
+      "osoba sa pomoćnim štapom",
+      "pristupačnost",
+      "slijep"
+    ],
+    "tts": []
+  },
+  "🇰🇵": {
+    "default": [
+      "zastava",
+      "zastava: Sjeverna Koreja"
+    ],
+    "tts": [
+      "zastava: Sjeverna Koreja"
+    ]
+  },
+  "🈹": {
+    "default": [
+      "„sniženje“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „sniženje“",
+      "割"
+    ],
+    "tts": [
+      "japansko dugme „sniženje“"
+    ]
+  },
+  "❣": {
+    "default": [
+      "interpunkcija",
+      "ukrasni uzvičnik u obliku velikog srca",
+      "uzvičnik",
+      "uzvičnik u obliku srca"
+    ],
+    "tts": []
+  },
+  "👩‍👩‍👦‍👦": {
+    "default": [
+      "dječak",
+      "porodica",
+      "porodica: žena, žena, dječak i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, žena, dječak i dječak"
+    ]
+  },
+  "😻": {
+    "default": [
+      "nasmijana mačka sa očima u obliku srca"
+    ],
+    "tts": [
+      "nasmijana mačka sa očima u obliku srca"
+    ]
+  },
+  "🇭🇲": {
+    "default": [
+      "zastava",
+      "zastava: ostrvo Herd i ostrva Makdonald"
+    ],
+    "tts": [
+      "zastava: ostrvo Herd i ostrva Makdonald"
+    ]
+  },
+  "🇦🇽": {
+    "default": [
+      "zastava",
+      "zastava: Olandska ostrva"
+    ],
+    "tts": [
+      "zastava: Olandska ostrva"
+    ]
+  },
+  "↕": {
+    "default": [
+      "strelica",
+      "strelica nagore i nadolje"
+    ],
+    "tts": [
+      "strelica nagore i nadolje"
+    ]
+  },
+  "🌾": {
+    "default": [
+      "klas",
+      "riža",
+      "snop riže",
+      "žitarica"
+    ],
+    "tts": [
+      "snop riže"
+    ]
+  },
+  "💇": {
+    "default": [
+      "frizer",
+      "osoba se šiša",
+      "salon",
+      "šišanje",
+      "šišanje kose",
+      "uljepšavanje"
+    ],
+    "tts": []
+  },
+  "💪": {
+    "default": [
+      "stegnuti biceps"
+    ],
+    "tts": []
+  },
+  "👍": {
+    "default": [
+      "+1",
+      "nagore",
+      "palac",
+      "ruka"
+    ],
+    "tts": []
+  },
+  "🇲🇲": {
+    "default": [
+      "zastava",
+      "zastava: Mjanmar (Burma)"
+    ],
+    "tts": [
+      "zastava: Mjanmar (Burma)"
+    ]
+  },
+  "⬅": {
+    "default": [
+      "smjer",
+      "strelica",
+      "strelica nalijevo",
+      "zapad"
+    ],
+    "tts": [
+      "strelica nalijevo"
+    ]
+  },
+  "👩‍🦱": {
+    "default": [
+      "kovrdžava kosa",
+      "odrasla osoba",
+      "žena"
+    ],
+    "tts": []
+  },
+  "🔐": {
+    "default": [
+      "bezbjedno",
+      "katanac",
+      "ključ",
+      "zatvoren katanac sa ključem",
+      "zatvoreno"
+    ],
+    "tts": []
+  },
+  "💐": {
+    "default": [
+      "buket",
+      "cvijet"
+    ],
+    "tts": []
+  },
+  "🪑": {
+    "default": [
+      "mjesto",
+      "sjedište",
+      "stolica"
+    ],
+    "tts": []
+  },
+  "🔽": {
+    "default": [
+      "crveno",
+      "dolje",
+      "dugme",
+      "dugme za kretanje nadolje",
+      "strelica"
+    ],
+    "tts": [
+      "dugme za kretanje nadolje"
+    ]
+  },
+  "🧄": {
+    "default": [
+      "bijeli luk",
+      "bijli luk",
+      "začin"
+    ],
+    "tts": [
+      "bijeli luk"
+    ]
+  },
+  "👩‍🦼": {
+    "default": [
+      "kolica",
+      "pristupačnost",
+      "žena",
+      "žena u motornim kolicima"
+    ],
+    "tts": []
+  },
+  "🎏": {
+    "default": [
+      "proslava",
+      "riba",
+      "vjetrokaz u obliku šarana"
+    ],
+    "tts": [
+      "vjetrokaz u obliku šarana"
+    ]
+  },
+  "🚱": {
+    "default": [
+      "nije pitka",
+      "nije za piće",
+      "voda",
+      "voda nije za piće"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👧‍👦": {
+    "default": [
+      "dječak",
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, žena, djevojčica i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: muškarac, žena, djevojčica i dječak"
+    ]
+  },
+  "🩺": {
+    "default": [
+      "ljekar",
+      "medicina",
+      "srce",
+      "stetoskop"
+    ],
+    "tts": []
+  },
+  "🥮": {
+    "default": [
+      "festival",
+      "jesen",
+      "mjesečev kolač"
+    ],
+    "tts": [
+      "mjesečev kolač"
+    ]
+  },
+  "🚶": {
+    "default": [
+      "hodanje",
+      "pješak",
+      "šetanje"
+    ],
+    "tts": [
+      "pješak"
+    ]
+  },
+  "🍥": {
+    "default": [
+      "kolač",
+      "riba",
+      "riblja pljeskavica sa spiralom",
+      "spirala",
+      "tijesto"
+    ],
+    "tts": []
+  },
+  "🪖": {
+    "default": [
+      "ratnik",
+      "šljem",
+      "vojnik",
+      "vojska"
+    ],
+    "tts": [
+      "šljem"
+    ]
+  },
+  "🥟": {
+    "default": [
+      "đao zi",
+      "empanada",
+      "gjoza",
+      "kiflice",
+      "knedla",
+      "piroge"
+    ],
+    "tts": []
+  },
+  "🇬🇼": {
+    "default": [
+      "zastava",
+      "zastava: Gvineja Bisao"
+    ],
+    "tts": [
+      "zastava: Gvineja Bisao"
+    ]
+  },
+  "💦": {
+    "default": [
+      "kapljice znoja"
+    ],
+    "tts": []
+  },
+  "👩‍👩‍👦": {
+    "default": [
+      "dječak",
+      "porodica",
+      "porodica: žena, žena i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, žena i dječak"
+    ]
+  },
+  "🔅": {
+    "default": [
+      "dugme za zatamnjivanje",
+      "osvijetljenost",
+      "slabo",
+      "tamno"
+    ],
+    "tts": []
+  },
+  "🎂": {
+    "default": [
+      "desert",
+      "proslava",
+      "rođendan",
+      "rođendanska torta",
+      "slatko",
+      "tijesto",
+      "torta"
+    ],
+    "tts": []
+  },
+  "🛫": {
+    "default": [
+      "avion",
+      "odlazak",
+      "polijetanje",
+      "polijetanje aviona",
+      "prijava"
+    ],
+    "tts": [
+      "polijetanje aviona"
+    ]
+  },
+  "💢": {
+    "default": [
+      "simbol ljutnje"
+    ],
+    "tts": []
+  },
+  "🇭🇰": {
+    "default": [
+      "zastava",
+      "zastava: Hongkong (SAO Kine)"
+    ],
+    "tts": [
+      "zastava: Hongkong (SAO Kine)"
+    ]
+  },
+  "🌔": {
+    "default": [
+      "mjesec",
+      "rast",
+      "skoro pa pun mjesec"
+    ],
+    "tts": [
+      "skoro pa pun mjesec"
+    ]
+  },
+  "🧹": {
+    "default": [
+      "brisanje",
+      "čišćenje",
+      "metla",
+      "vještica"
+    ],
+    "tts": []
+  },
+  "➗": {
+    "default": [
+      "÷",
+      "crni znak za dijeljenje",
+      "dijeli",
+      "dijeljenje",
+      "matematika",
+      "znak"
+    ],
+    "tts": [
+      "crni znak za dijeljenje"
+    ]
+  },
+  "👎": {
+    "default": [
+      "-1",
+      "nadolje",
+      "palac",
+      "ruka"
+    ],
+    "tts": [
+      "palac nadolje"
+    ]
+  },
+  "👨‍👩‍👦": {
+    "default": [
+      "dječak",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, žena i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: muškarac, žena i dječak"
+    ]
+  },
+  "🚔": {
+    "default": [
+      "automobil",
+      "dolazak",
+      "policija",
+      "policijski automobil sprijeda"
+    ],
+    "tts": [
+      "policijski automobil sprijeda"
+    ]
+  },
+  "👨‍👨‍👧‍👦": {
+    "default": [
+      "dječak",
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, muškarac, djevojčica i dječak"
+    ],
+    "tts": [
+      "porodica: muškarac, muškarac, djevojčica i dječak"
+    ]
+  },
+  "💨": {
+    "default": [
+      "bježanje"
+    ],
+    "tts": [
+      "bježanje"
+    ]
+  },
+  "🫓": {
+    "default": [
+      "arepa",
+      "lavaš",
+      "nan",
+      "pita hljeb",
+      "pljosnat hljeb"
+    ],
+    "tts": [
+      "pljosnat hljeb"
+    ]
+  },
+  "🍼": {
+    "default": [
+      "beba",
+      "bočica",
+      "flašica za bebe",
+      "mlijeko",
+      "piti"
+    ],
+    "tts": []
+  },
+  "🧑‍🎓": {
+    "default": [
+      "diplomac",
+      "student(kinja)"
+    ],
+    "tts": [
+      "student(kinja)"
+    ]
+  },
+  "⤵": {
+    "default": [
+      "strelica",
+      "strelica koja skreće nadolje"
+    ],
+    "tts": [
+      "strelica koja skreće nadolje"
+    ]
+  },
+  "♾": {
+    "default": [
+      "beskonačnost",
+      "bezgranično",
+      "univerzalno",
+      "vječno"
+    ],
+    "tts": []
+  },
+  "👕": {
+    "default": [
+      "majica",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "🛬": {
+    "default": [
+      "avion",
+      "dolazak",
+      "slijetanje",
+      "slijetanje aviona"
+    ],
+    "tts": [
+      "slijetanje aviona"
+    ]
+  },
+  "🍃": {
+    "default": [
+      "duvanje",
+      "lepršanje",
+      "list",
+      "list koji leprša na vjetru",
+      "vjetar"
+    ],
+    "tts": [
+      "list koji leprša na vjetru"
+    ]
+  },
+  "👨‍🦰": {
+    "default": [
+      "crvena kosa",
+      "muškarac",
+      "odrasla osoba"
+    ],
+    "tts": []
+  },
+  "🦞": {
+    "default": [
+      "bisk",
+      "jastog",
+      "kliješta",
+      "morski plodovi"
+    ],
+    "tts": []
+  },
+  "◀": {
+    "default": [
+      "dugme za reprodukciju unazad",
+      "lijevo",
+      "strelica",
+      "trougao",
+      "vraćanje"
+    ],
+    "tts": []
+  },
+  "🤷‍♂": {
+    "default": [
+      "gestikulacija",
+      "muškarac",
+      "muškarac sliježe ramenima",
+      "neznanje",
+      "ravnodušnost"
+    ],
+    "tts": [
+      "muškarac sliježe ramenima"
+    ]
+  },
+  "🫚": {
+    "default": [
+      "korijen",
+      "korijen đumbira",
+      "pivo",
+      "začin"
+    ],
+    "tts": [
+      "korijen đumbira"
+    ]
+  },
+  "🌒": {
+    "default": [
+      "mjesec",
+      "mjesečev srp u porastu",
+      "polumjesec"
+    ],
+    "tts": [
+      "mjesečev srp u porastu"
+    ]
+  },
+  "✋": {
+    "default": [
+      "podignuta ruka"
+    ],
+    "tts": []
+  },
+  "👨‍❤‍💋‍👨": {
+    "default": [
+      "muškarac",
+      "poljubac"
+    ],
+    "tts": []
+  },
+  "☂": {
+    "default": [
+      "kiša",
+      "kišobran",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "😎": {
+    "default": [
+      "kul",
+      "lice",
+      "naočare za sunce",
+      "nasmijano lice sa naočarima za sunce",
+      "sunce"
+    ],
+    "tts": [
+      "nasmijano lice sa naočarima za sunce"
+    ]
+  },
+  "🌌": {
+    "default": [
+      "mliječni put",
+      "svemir"
+    ],
+    "tts": [
+      "mliječni put"
+    ]
+  },
+  "⭐": {
+    "default": [
+      "zvijezda"
+    ],
+    "tts": [
+      "zvijezda"
+    ]
+  },
+  "🦣": {
+    "default": [
+      "istrijebljen",
+      "kljova",
+      "mamut",
+      "veliko"
+    ],
+    "tts": []
+  },
+  "🎴": {
+    "default": [
+      "cvijeće",
+      "igra",
+      "japan",
+      "kartanje",
+      "karte",
+      "karte za igranje sa cvijetom"
+    ],
+    "tts": [
+      "karte za igranje sa cvijetom"
+    ]
+  },
+  "🌃": {
+    "default": [
+      "noć",
+      "zvijezde",
+      "zvjezdana noć"
+    ],
+    "tts": [
+      "zvjezdana noć"
+    ]
+  },
+  "👨‍🦽‍➡": {
+    "default": [
+      "čovjek",
+      "čovjek u mehaničkim kolicima",
+      "čovjek u mehaničkim kolicima gleda udesno",
+      "kolica",
+      "pristupačnost"
+    ],
+    "tts": [
+      "čovjek u mehaničkim kolicima gleda udesno"
+    ]
+  },
+  "🫷": {
+    "default": [
+      "baci pet",
+      "čekaj",
+      "nalevo",
+      "odbij",
+      "odgurni",
+      "ruka gura ulijevo",
+      "stop"
+    ],
+    "tts": [
+      "ruka gura ulijevo"
+    ]
+  },
+  "😘": {
+    "default": [
+      "lice koje šalje poljubac"
+    ],
+    "tts": []
+  },
+  "👩‍🦯‍➡": {
+    "default": [
+      "pristupačnost",
+      "slijepa",
+      "žena",
+      "žena sa pomoćnim štapom"
+    ],
+    "tts": []
+  },
+  "👨‍👨‍👧": {
+    "default": [
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, muškarac i djevojčica"
+    ],
+    "tts": [
+      "porodica: muškarac, muškarac i djevojčica"
+    ]
+  },
+  "🧑‍🦯‍➡": {
+    "default": [
+      "osoba sa pomoćnim štapom",
+      "pristupačnost",
+      "slijep"
+    ],
+    "tts": []
+  },
+  "👨‍🦯": {
+    "default": [
+      "čovjek",
+      "čovjek sa pomoćnim štapom",
+      "pristupačnost",
+      "slijep"
+    ],
+    "tts": [
+      "čovjek sa pomoćnim štapom"
+    ]
+  },
+  "🐓": {
+    "default": [
+      "pijevac",
+      "ptica"
+    ],
+    "tts": [
+      "pijevac"
+    ]
+  },
+  "☺": {
+    "default": [
+      "nasmijano lice"
+    ],
+    "tts": [
+      "nasmijano lice"
+    ]
+  },
+  "✴": {
+    "default": [
+      "osmokraka zvjezdica"
+    ],
+    "tts": [
+      "osmokraka zvjezdica"
+    ]
+  },
+  "🗞": {
+    "default": [
+      "novine",
+      "papir",
+      "umotane novine",
+      "umotano",
+      "vijesti"
+    ],
+    "tts": []
+  },
+  "🫠": {
+    "default": [
+      "lice se topi",
+      "nestajanje",
+      "rastapanje",
+      "tečno",
+      "topljenje"
+    ],
+    "tts": []
+  },
+  "🥛": {
+    "default": [
+      "čaša",
+      "čaša mlijeka",
+      "mlijeko",
+      "piće"
+    ],
+    "tts": [
+      "čaša mlijeka"
+    ]
+  },
+  "⛑": {
+    "default": [
+      "kaciga",
+      "kaciga sa bijelim krstom",
+      "krst",
+      "lice",
+      "pomoć",
+      "šljem"
+    ],
+    "tts": [
+      "kaciga sa bijelim krstom"
+    ]
+  },
+  "㊙": {
+    "default": [
+      "„tajna“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „tajna“",
+      "秘"
+    ],
+    "tts": [
+      "japansko dugme „tajna“"
+    ]
+  },
+  "⛴": {
+    "default": [
+      "čamac",
+      "putnik",
+      "trajekt"
+    ],
+    "tts": []
+  },
+  "☁": {
+    "default": [
+      "oblak",
+      "vrijeme"
+    ],
+    "tts": []
+  },
+  "🌜": {
+    "default": [
+      "četvrt",
+      "lice",
+      "mjesec",
+      "mjesec u poslednjoj četvrti sa licem",
+      "mjesec u posljednjoj četvrti sa licem"
+    ],
+    "tts": [
+      "mjesec u posljednjoj četvrti sa licem"
+    ]
+  },
+  "㊗": {
+    "default": [
+      "„čestitke“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „čestitke“",
+      "祝"
+    ],
+    "tts": [
+      "japansko dugme „čestitke“"
+    ]
+  },
+  "😽": {
+    "default": [
+      "mačka koja ljubi sa zatvorenim očima"
+    ],
+    "tts": []
+  },
+  "🚶‍➡": {
+    "default": [
+      "hodanje",
+      "pješak",
+      "pješak gleda udesno",
+      "šetanje"
+    ],
+    "tts": [
+      "pješak gleda udesno"
+    ]
+  },
+  "👩‍🦽": {
+    "default": [
+      "kolica",
+      "pristupačnost",
+      "žena",
+      "žena u mehaničkim kolicima"
+    ],
+    "tts": []
+  },
+  "🚅": {
+    "default": [
+      "brzi voz",
+      "brzi voz sa zaobljenim vrhom",
+      "brzina",
+      "šinkansen",
+      "voz",
+      "željeznica"
+    ],
+    "tts": []
+  },
+  "💱": {
+    "default": [
+      "konverzija valuta"
+    ],
+    "tts": []
+  },
+  "🚴": {
+    "default": [
+      "bicikl",
+      "biciklista",
+      "biciklizam",
+      "osoba na biciklu"
+    ],
+    "tts": []
+  },
+  "🖼": {
+    "default": [
+      "muzej",
+      "ram",
+      "ram sa slikom",
+      "slika",
+      "slikarstvo",
+      "umjetnost"
+    ],
+    "tts": []
+  },
+  "⏩": {
+    "default": [
+      "dugme za premotavanje unaprijed",
+      "dvostruko",
+      "premotavanje",
+      "strelica",
+      "unaprijed"
+    ],
+    "tts": [
+      "dugme za premotavanje unaprijed"
+    ]
+  },
+  "🩵": {
+    "default": [
+      "plava",
+      "srce",
+      "svijetloplavo",
+      "tirkiz"
+    ],
+    "tts": [
+      "svijetloplavo srce"
+    ]
+  },
+  "👷‍♀": {
+    "default": [
+      "građevinar",
+      "građevinarka",
+      "radnica",
+      "šljem",
+      "žena"
+    ],
+    "tts": []
+  },
+  "😾": {
+    "default": [
+      "nadurena mačka"
+    ],
+    "tts": []
+  },
+  "♍": {
+    "default": [
+      "djevica",
+      "djevica u horoskopu",
+      "zodijak"
+    ],
+    "tts": [
+      "djevica u horoskopu"
+    ]
+  },
+  "🚞": {
+    "default": [
+      "planina",
+      "planinska željeznica",
+      "vozilo",
+      "željeznica"
+    ],
+    "tts": [
+      "planinska željeznica"
+    ]
+  },
+  "👨‍👨‍👧‍👧": {
+    "default": [
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, muškarac, djevojčica i djevojčica"
+    ],
+    "tts": [
+      "porodica: muškarac, muškarac, djevojčica i djevojčica"
+    ]
+  },
+  "👋": {
+    "default": [
+      "ruka koja maše"
+    ],
+    "tts": []
+  },
+  "👰": {
+    "default": [
+      "nevjesta sa velom"
+    ],
+    "tts": [
+      "nevjesta sa velom"
+    ]
+  },
+  "🌨": {
+    "default": [
+      "hladno",
+      "oblak",
+      "oblak sa snijegom",
+      "snijeg"
+    ],
+    "tts": [
+      "oblak sa snijegom"
+    ]
+  },
+  "👨‍👨‍👦": {
+    "default": [
+      "dječak",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, muškarac i dječak"
+    ],
+    "tts": [
+      "porodica: muškarac, muškarac i dječak"
+    ]
+  },
+  "🏮": {
+    "default": [
+      "bar",
+      "crvena",
+      "lampion",
+      "lampion od crvenog papira",
+      "svjetlo"
+    ],
+    "tts": []
+  },
+  "😇": {
+    "default": [
+      "nasmijano lice sa oreolom"
+    ],
+    "tts": [
+      "nasmijano lice sa oreolom"
+    ]
+  },
+  "🙊": {
+    "default": [
+      "govoriti",
+      "lice",
+      "majmun",
+      "majmun ne govori zlo",
+      "ne govori zlo",
+      "zabranjeno",
+      "zlo"
+    ],
+    "tts": []
+  },
+  "👠": {
+    "default": [
+      "cipela",
+      "cipela sa štiklom",
+      "odjeća",
+      "štikla",
+      "žena"
+    ],
+    "tts": []
+  },
+  "✌": {
+    "default": [
+      "pobeda",
+      "ruka",
+      "v",
+      "znak pobjede"
+    ],
+    "tts": [
+      "znak pobjede"
+    ]
+  },
+  "📒": {
+    "default": [
+      "bilježnica",
+      "sveska"
+    ],
+    "tts": [
+      "bilježnica"
+    ]
+  },
+  "👩‍❤‍💋‍👩": {
+    "default": [
+      "poljubac",
+      "žena"
+    ],
+    "tts": []
+  },
+  "🎑": {
+    "default": [
+      "ceremonija u čast mjeseca",
+      "mjesec",
+      "proslava",
+      "svečanost"
+    ],
+    "tts": [
+      "ceremonija u čast mjeseca"
+    ]
+  },
+  "🍒": {
+    "default": [
+      "bobičasto voće",
+      "crvena",
+      "trešnja",
+      "trešnje",
+      "voće"
+    ],
+    "tts": []
+  },
+  "🍚": {
+    "default": [
+      "kuvana",
+      "riža"
+    ],
+    "tts": [
+      "kuvana riža"
+    ]
+  },
+  "🧑‍✈": {
+    "default": [
+      "pilot(kinja)"
+    ],
+    "tts": [
+      "pilot(kinja)"
+    ]
+  },
+  "😲": {
+    "default": [
+      "lice",
+      "šokirano",
+      "totalno",
+      "zapanjeno"
+    ],
+    "tts": []
+  },
+  "🚘": {
+    "default": [
+      "automobil",
+      "automobil sprijeda",
+      "dolazak",
+      "vozilo"
+    ],
+    "tts": [
+      "automobil sprijeda"
+    ]
+  },
+  "❤‍🩹": {
+    "default": [
+      "dobro",
+      "liječenje",
+      "liječenje srca",
+      "oporavak",
+      "oporavljanje",
+      "poboljšanje",
+      "srce koje zacjeljuje",
+      "zdravije"
+    ],
+    "tts": [
+      "srce koje zacjeljuje"
+    ]
+  },
+  "🪤": {
+    "default": [
+      "mamac",
+      "mišolovka",
+      "namještaljka",
+      "zamka"
+    ],
+    "tts": []
+  },
+  "🤾": {
+    "default": [
+      "lopta",
+      "osoba igra rukomet",
+      "rukomet"
+    ],
+    "tts": []
+  },
+  "👩‍🦯": {
+    "default": [
+      "pristupačnost",
+      "slijepa",
+      "žena",
+      "žena sa pomoćnim štapom"
+    ],
+    "tts": []
+  },
+  "🙈": {
+    "default": [
+      "lice",
+      "majmun",
+      "majmun ne vidi zlo",
+      "ne vidi zlo",
+      "vidjeti",
+      "zabranjeno",
+      "zlo"
+    ],
+    "tts": []
+  },
+  "⏳": {
+    "default": [
+      "pijesak",
+      "pješčani sat sa pijeskom koji teče",
+      "vrijeme"
+    ],
+    "tts": [
+      "pješčani sat sa pijeskom koji teče"
+    ]
+  },
+  "↘": {
+    "default": [
+      "jugoistok",
+      "smjer",
+      "strelica",
+      "strelica nadolje i nadesno"
+    ],
+    "tts": [
+      "strelica nadolje i nadesno"
+    ]
+  },
+  "◽": {
+    "default": [
+      "geometrija",
+      "kvadrat",
+      "srednjemali bijeli kvadrat"
+    ],
+    "tts": [
+      "srednjemali bijeli kvadrat"
+    ]
+  },
+  "👨‍🎤": {
+    "default": [
+      "glumac",
+      "muškarac",
+      "pjevač",
+      "rok"
+    ],
+    "tts": [
+      "muškarac pjevač"
+    ]
+  },
+  "👗": {
+    "default": [
+      "haljina",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "🙂": {
+    "default": [
+      "blago nasmijano lice"
+    ],
+    "tts": [
+      "blago nasmijano lice"
+    ]
+  },
+  "☠": {
+    "default": [
+      "čudovište",
+      "lice",
+      "lobanja",
+      "lobanja sa ukrštenim kostima",
+      "smrt",
+      "ukrštene kosti"
+    ],
+    "tts": []
+  },
+  "🐚": {
+    "default": [
+      "spiralna školjka"
+    ],
+    "tts": []
+  },
+  "🎩": {
+    "default": [
+      "cilindar",
+      "odjeća",
+      "šešir"
+    ],
+    "tts": []
+  },
+  "🤶": {
+    "default": [
+      "baka",
+      "božić",
+      "mraz",
+      "proslava"
+    ],
+    "tts": []
+  },
+  "⌛": {
+    "default": [
+      "pijesak",
+      "pješčani sat",
+      "vrijeme"
+    ],
+    "tts": [
+      "pješčani sat"
+    ]
+  },
+  "🥀": {
+    "default": [
+      "cvijet",
+      "uveli cvijet",
+      "uvelo"
+    ],
+    "tts": [
+      "uveli cvijet"
+    ]
+  },
+  "✡": {
+    "default": [
+      "david",
+      "davidova zvijezda",
+      "jevreji",
+      "judaizam",
+      "religija",
+      "zvezda"
+    ],
+    "tts": [
+      "davidova zvijezda"
+    ]
+  },
+  "🕖": {
+    "default": [
+      "00",
+      "7",
+      "7:00",
+      "sat",
+      "sedam",
+      "sedam sati"
+    ],
+    "tts": []
+  },
+  "🈴": {
+    "default": [
+      "„prelazna ocjena“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „prelazna ocena“",
+      "japansko dugme „prelazna ocjena“",
+      "合"
+    ],
+    "tts": [
+      "japansko dugme „prelazna ocena“"
+    ]
+  },
+  "📰": {
+    "default": [
+      "novine",
+      "papir",
+      "vijesti"
+    ],
+    "tts": []
+  },
+  "🧩": {
+    "default": [
+      "dio",
+      "dio slagalice",
+      "slagalica",
+      "uklapanje"
+    ],
+    "tts": [
+      "dio slagalice"
+    ]
+  },
+  "🌹": {
+    "default": [
+      "ruža"
+    ],
+    "tts": []
+  },
+  "💬": {
+    "default": [
+      "oblačić za govor"
+    ],
+    "tts": []
+  },
+  "🐻": {
+    "default": [
+      "lice",
+      "medvjed"
+    ],
+    "tts": [
+      "medvjed"
+    ]
+  },
+  "👑": {
+    "default": [
+      "kralj",
+      "kraljica",
+      "kruna",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "🌑": {
+    "default": [
+      "mjesec",
+      "mlad mjesec",
+      "mrak"
+    ],
+    "tts": [
+      "mlad mjesec"
+    ]
+  },
+  "🌟": {
+    "default": [
+      "blistavo",
+      "iskre",
+      "sjaj",
+      "sjajno",
+      "zvijezda",
+      "zvijezda koja svijetli"
+    ],
+    "tts": [
+      "zvijezda koja svijetli"
+    ]
+  },
+  "🚂": {
+    "default": [
+      "lokomotiva",
+      "mašina",
+      "para",
+      "voz",
+      "željeznica"
+    ],
+    "tts": []
+  },
+  "🥕": {
+    "default": [
+      "hrana",
+      "mrkva",
+      "povrće"
+    ],
+    "tts": [
+      "mrkva"
+    ]
+  },
+  "🔆": {
+    "default": [
+      "dugme za povećavanje osvijetljenosti",
+      "osvijetljenost",
+      "svjetlo"
+    ],
+    "tts": [
+      "dugme za povećavanje osvijetljenosti"
+    ]
+  },
+  "🎃": {
+    "default": [
+      "noć vještica",
+      "proslava",
+      "svjetiljka",
+      "svjetiljka od bundeve",
+      "tikva"
+    ],
+    "tts": [
+      "svjetiljka od bundeve"
+    ]
+  },
+  "🤸": {
+    "default": [
+      "gimnastičarska zvezda",
+      "gimnastičarska zvijezda",
+      "gimnastika",
+      "zvijezda"
+    ],
+    "tts": []
+  },
+  "👨‍❤‍👨": {
+    "default": [
+      "muškarac",
+      "par sa srcem"
+    ],
+    "tts": []
+  },
+  "👨‍🦳": {
+    "default": [
+      "muškarac",
+      "muškarac: sijeda kosa",
+      "odrasla osoba",
+      "sijeda kosa"
+    ],
+    "tts": [
+      "muškarac: sijeda kosa"
+    ]
+  },
+  "🦥": {
+    "default": [
+      "lijen",
+      "ljenjivac",
+      "spor"
+    ],
+    "tts": [
+      "ljenjivac"
+    ]
+  },
+  "🥼": {
+    "default": [
+      "bijeli mantil",
+      "doktor",
+      "eksperiment",
+      "naučnik"
+    ],
+    "tts": [
+      "bijeli mantil"
+    ]
+  },
+  "💥": {
+    "default": [
+      "sudar"
+    ],
+    "tts": []
+  },
+  "🏂": {
+    "default": [
+      "vozač snouborda"
+    ],
+    "tts": []
+  },
+  "🚈": {
+    "default": [
+      "gradska željeznica",
+      "željeznica"
+    ],
+    "tts": [
+      "gradska željeznica"
+    ]
+  },
+  "🫧": {
+    "default": [
+      "čisto",
+      "mjehurići",
+      "podrigivanje",
+      "podvodno",
+      "sapun"
+    ],
+    "tts": [
+      "mjehurići"
+    ]
+  },
+  "🤪": {
+    "default": [
+      "ludačko lice"
+    ],
+    "tts": []
+  },
+  "🍢": {
+    "default": [
+      "kebab",
+      "morski plodovi",
+      "oden",
+      "ražnjić",
+      "štapić"
+    ],
+    "tts": []
+  },
+  "🐻‍❄": {
+    "default": [
+      "arktički",
+      "bijelo",
+      "medvjed",
+      "polarni medvjed"
+    ],
+    "tts": [
+      "polarni medvjed"
+    ]
+  },
+  "🧙": {
+    "default": [
+      "čarobnica",
+      "čarobnjak",
+      "mag",
+      "vještica"
+    ],
+    "tts": []
+  },
+  "👩‍👧‍👧": {
+    "default": [
+      "djevojčica",
+      "porodica",
+      "porodica: žena, djevojčica i djevojčica",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, djevojčica i djevojčica"
+    ]
+  },
+  "🔎": {
+    "default": [
+      "alat",
+      "lupa",
+      "lupa usmjerena nadesno",
+      "staklo",
+      "traženje"
+    ],
+    "tts": [
+      "lupa usmjerena nadesno"
+    ]
+  },
+  "🕢": {
+    "default": [
+      "7",
+      "7:30",
+      "pola osam",
+      "sat",
+      "sedam",
+      "trideset"
+    ],
+    "tts": []
+  },
+  "👂": {
+    "default": [
+      "uvo"
+    ],
+    "tts": []
+  },
+  "🦇": {
+    "default": [
+      "šišmiš"
+    ],
+    "tts": []
+  },
+  "🏳‍⚧": {
+    "default": [
+      "bijela",
+      "pink",
+      "svijetloplava",
+      "transrodna zastava",
+      "transrodno",
+      "zastava"
+    ],
+    "tts": [
+      "transrodna zastava"
+    ]
+  },
+  "↔": {
+    "default": [
+      "strelica",
+      "strelica nalijevo i nadesno"
+    ],
+    "tts": [
+      "strelica nalijevo i nadesno"
+    ]
+  },
+  "👷": {
+    "default": [
+      "građevinski radnik",
+      "radnik",
+      "šljem"
+    ],
+    "tts": []
+  },
+  "🪹": {
+    "default": [
+      "gniježđenje",
+      "prazno gnijezdo"
+    ],
+    "tts": [
+      "prazno gnijezdo"
+    ]
+  },
+  "🌎": {
+    "default": [
+      "Amerike",
+      "globus",
+      "globus sa Amerikama",
+      "globus sa Amerikom",
+      "svijet",
+      "Zemlja"
+    ],
+    "tts": []
+  },
+  "🤞": {
+    "default": [
+      "prekršteni prsti",
+      "prekršteno",
+      "prst",
+      "ruka",
+      "sreća"
+    ],
+    "tts": []
+  },
+  "🌓": {
+    "default": [
+      "četvrt",
+      "mjesec",
+      "mjesec u prvoj četvrti"
+    ],
+    "tts": [
+      "mjesec u prvoj četvrti"
+    ]
+  },
+  "♟": {
+    "default": [
+      "pion",
+      "potrošan",
+      "šah",
+      "šahovski pješak"
+    ],
+    "tts": [
+      "šahovski pješak"
+    ]
+  },
+  "👩‍🦼‍➡": {
+    "default": [
+      "kolica",
+      "pristupačnost",
+      "žena",
+      "žena u motornim kolicima"
+    ],
+    "tts": []
+  },
+  "🧑‍🧑‍🧒‍🧒": {
+    "default": [
+      "dijete",
+      "odrasla osoba",
+      "porodica: odrasla osoba",
+      "porodica: odrasla osoba, odrasla osoba, dijete, dijete"
+    ],
+    "tts": [
+      "porodica: odrasla osoba, odrasla osoba, dijete, dijete"
+    ]
+  },
+  "🍓": {
+    "default": [
+      "bobičasto voće",
+      "jagoda",
+      "voće"
+    ],
+    "tts": []
+  },
+  "🇳🇺": {
+    "default": [
+      "zastava",
+      "zastava: Nijue"
+    ],
+    "tts": [
+      "zastava: Nijue"
+    ]
+  },
+  "😺": {
+    "default": [
+      "nasmijana mačka sa otvorenim ustima"
+    ],
+    "tts": [
+      "nasmijana mačka sa otvorenim ustima"
+    ]
+  },
+  "🗺": {
+    "default": [
+      "mapa",
+      "mapa svijeta",
+      "svijet"
+    ],
+    "tts": [
+      "mapa svijeta"
+    ]
+  },
+  "💁": {
+    "default": [
+      "elegantno",
+      "informacije",
+      "osoba koja daje informacije",
+      "pomoć",
+      "ruka"
+    ],
+    "tts": []
+  },
+  "🎓": {
+    "default": [
+      "kapa",
+      "kapa za diplomce",
+      "matura",
+      "odjeća",
+      "proslava",
+      "šešir"
+    ],
+    "tts": []
+  },
+  "🔞": {
+    "default": [
+      "18",
+      "maloljetnici",
+      "ograničenje prema uzrastu",
+      "osamnaest",
+      "zabranjeno",
+      "zabranjeno za maloljetne"
+    ],
+    "tts": [
+      "zabranjeno za maloljetne"
+    ]
+  },
+  "😈": {
+    "default": [
+      "bajka",
+      "fantazija",
+      "lice",
+      "nasmijano lice sa rogovima",
+      "osmijeh",
+      "rogovi"
+    ],
+    "tts": [
+      "nasmijano lice sa rogovima"
+    ]
+  },
+  "👩‍❤‍👩": {
+    "default": [
+      "par sa srcem",
+      "žena"
+    ],
+    "tts": []
+  },
+  "🧋": {
+    "default": [
+      "bobice",
+      "čaj",
+      "čaj sa bobicama",
+      "mlijeko"
+    ],
+    "tts": []
+  },
+  "🤷": {
+    "default": [
+      "slijeganje ramenima"
+    ],
+    "tts": [
+      "slijeganje ramenima"
+    ]
+  },
+  "🌠": {
+    "default": [
+      "padanje",
+      "zvijezda",
+      "zvijezda padalica"
+    ],
+    "tts": [
+      "zvijezda padalica"
+    ]
+  },
+  "⛷": {
+    "default": [
+      "skijaš"
+    ],
+    "tts": []
+  },
+  "🉑": {
+    "default": [
+      "„prihvatljivo“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „prihvatljivo“",
+      "可"
+    ],
+    "tts": [
+      "japansko dugme „prihvatljivo“"
+    ]
+  },
+  "🇫🇴": {
+    "default": [
+      "zastava",
+      "zastava: Farska ostrva"
+    ],
+    "tts": [
+      "zastava: Farska ostrva"
+    ]
+  },
+  "🇻🇬": {
+    "default": [
+      "zastava",
+      "zastava: Britanska Djevičanska ostrva"
+    ],
+    "tts": [
+      "zastava: Britanska Djevičanska ostrva"
+    ]
+  },
+  "💁‍♀": {
+    "default": [
+      "gestikulacija",
+      "informacije",
+      "ruke",
+      "žena",
+      "žena otkriva namjere"
+    ],
+    "tts": [
+      "žena otkriva namjere"
+    ]
+  },
+  "😡": {
+    "default": [
+      "bijes",
+      "crvenilo",
+      "durenje",
+      "gnjev",
+      "lice",
+      "ljutnja",
+      "nadureno lice"
+    ],
+    "tts": []
+  },
+  "🥐": {
+    "default": [
+      "doručak",
+      "francuski",
+      "hljeb",
+      "hrana",
+      "kroasan",
+      "pecivo"
+    ],
+    "tts": []
+  },
+  "⚪": {
+    "default": [
+      "bijeli krug",
+      "geometrija",
+      "krug"
+    ],
+    "tts": [
+      "bijeli krug"
+    ]
+  },
+  "🚢": {
+    "default": [
+      "brod",
+      "putnik",
+      "vozilo"
+    ],
+    "tts": []
+  },
+  "👩": {
+    "default": [
+      "odrasla osoba",
+      "žena"
+    ],
+    "tts": []
+  },
+  "🪻": {
+    "default": [
+      "cvijet",
+      "cvjetići",
+      "lavanda",
+      "zumbul"
+    ],
+    "tts": []
+  },
+  "🗨": {
+    "default": [
+      "oblačić za govor usmjeren nalijevo"
+    ],
+    "tts": [
+      "oblačić za govor usmjeren nalijevo"
+    ]
+  },
+  "👩‍👦": {
+    "default": [
+      "dječak",
+      "porodica",
+      "porodica: žena i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena i dječak"
+    ]
+  },
+  "👩‍🦰": {
+    "default": [
+      "crvena kosa",
+      "odrasla osoba",
+      "žena"
+    ],
+    "tts": []
+  },
+  "👊": {
+    "default": [
+      "ruka",
+      "šaka",
+      "stisnuto",
+      "udarac",
+      "usmjerena pesnica"
+    ],
+    "tts": [
+      "usmjerena pesnica"
+    ]
+  },
+  "🐛": {
+    "default": [
+      "gusjenica",
+      "insekt"
+    ],
+    "tts": [
+      "gusjenica"
+    ]
+  },
+  "🤑": {
+    "default": [
+      "pohlepno lice"
+    ],
+    "tts": []
+  },
+  "🌷": {
+    "default": [
+      "cvijet",
+      "lala"
+    ],
+    "tts": []
+  },
+  "💍": {
+    "default": [
+      "prsten"
+    ],
+    "tts": []
+  },
+  "👨": {
+    "default": [
+      "muškarac",
+      "odrasla osoba"
+    ],
+    "tts": []
+  },
+  "🔯": {
+    "default": [
+      "šestokraka zvijezda sa tačkom",
+      "sreća",
+      "zvijezda"
+    ],
+    "tts": [
+      "šestokraka zvijezda sa tačkom"
+    ]
+  },
+  "😋": {
+    "default": [
+      "lice koje uživa u ukusnoj hrani"
+    ],
+    "tts": []
+  },
+  "🦯": {
+    "default": [
+      "bijeli štap",
+      "dostupnost",
+      "slijep"
+    ],
+    "tts": [
+      "bijeli štap"
+    ]
+  },
+  "🍝": {
+    "default": [
+      "špagete",
+      "tjestenine"
+    ],
+    "tts": []
+  },
+  "👩‍👩‍👧‍👧": {
+    "default": [
+      "djevojčica",
+      "porodica",
+      "porodica: žena, žena, djevojčica i djevojčica",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, žena, djevojčica i djevojčica"
+    ]
+  },
+  "🔍": {
+    "default": [
+      "alat",
+      "lupa",
+      "lupa usmjerena nalijevo",
+      "staklo",
+      "traženje"
+    ],
+    "tts": [
+      "lupa usmjerena nalijevo"
+    ]
+  },
+  "❕": {
+    "default": [
+      "bijeli uzvičnik",
+      "interpunkcija",
+      "obris",
+      "uzvičnik",
+      "znak"
+    ],
+    "tts": [
+      "bijeli uzvičnik"
+    ]
+  },
+  "💊": {
+    "default": [
+      "bolest",
+      "ljekar",
+      "medicina",
+      "pilula"
+    ],
+    "tts": []
+  },
+  "🧒": {
+    "default": [
+      "dijete",
+      "mladost",
+      "neodređen rod",
+      "rodno neutralno"
+    ],
+    "tts": [
+      "dijete"
+    ]
+  },
+  "🌬": {
+    "default": [
+      "duvanje",
+      "lice",
+      "lice vjetra",
+      "oblak",
+      "vjetar"
+    ],
+    "tts": [
+      "lice vjetra"
+    ]
+  },
+  "🧑‍🦰": {
+    "default": [
+      "crvena kosa",
+      "neodređen rod",
+      "odrasla osoba",
+      "osoba",
+      "rodno neutralno"
+    ],
+    "tts": []
+  },
+  "💅": {
+    "default": [
+      "kozmetika",
+      "lak za nokte",
+      "manikir",
+      "njega",
+      "nokat"
+    ],
+    "tts": []
+  },
+  "🚥": {
+    "default": [
+      "horizontalni semafor",
+      "saobraćaj",
+      "signalizacija",
+      "svjetlo"
+    ],
+    "tts": []
+  },
+  "🔻": {
+    "default": [
+      "crveni trougao okrenut nadolje",
+      "crveno",
+      "geometrija",
+      "nadolje"
+    ],
+    "tts": [
+      "crveni trougao okrenut nadolje"
+    ]
+  },
+  "🚨": {
+    "default": [
+      "policija",
+      "policijska rotacija",
+      "rotaciono",
+      "svjetlo",
+      "vozilo"
+    ],
+    "tts": []
+  },
+  "👁": {
+    "default": [
+      "oko"
+    ],
+    "tts": []
+  },
+  "🍅": {
+    "default": [
+      "paradajz",
+      "povrće",
+      "voće"
+    ],
+    "tts": []
+  },
+  "🛟": {
+    "default": [
+      "bezbjednost",
+      "plutanje",
+      "pojas za spasavanje",
+      "spasilac"
+    ],
+    "tts": []
+  },
+  "🤱": {
+    "default": [
+      "dojenje"
+    ],
+    "tts": []
+  },
+  "👩‍❤‍👨": {
+    "default": [
+      "muškarac",
+      "par sa srcem",
+      "žena"
+    ],
+    "tts": []
+  },
+  "😏": {
+    "default": [
+      "lice koje se zlobno smješka"
+    ],
+    "tts": [
+      "lice koje se zlobno smješka"
+    ]
+  },
+  "👇": {
+    "default": [
+      "kažiprst koji pokazuje nadolje otpozadi",
+      "nadolje",
+      "otpozadi",
+      "pokazivanje",
+      "prst",
+      "ruka"
+    ],
+    "tts": [
+      "kažiprst koji pokazuje nadolje otpozadi"
+    ]
+  },
+  "👩‍👧": {
+    "default": [
+      "djevojčica",
+      "porodica",
+      "porodica: žena i djevojčica",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena i djevojčica"
+    ]
+  },
+  "✳": {
+    "default": [
+      "osmokraka zvijezda"
+    ],
+    "tts": [
+      "osmokraka zvijezda"
+    ]
+  },
+  "⬇": {
+    "default": [
+      "jug",
+      "smjer",
+      "strelica",
+      "strelica nadolje"
+    ],
+    "tts": [
+      "strelica nadolje"
+    ]
+  },
+  "🥘": {
+    "default": [
+      "hrana",
+      "paelja",
+      "plitko",
+      "šerpa",
+      "tiganj",
+      "tiganj hrane"
+    ],
+    "tts": []
+  },
+  "👨‍🎨": {
+    "default": [
+      "muškarac",
+      "slikar",
+      "slikarstvo",
+      "umjetnik"
+    ],
+    "tts": [
+      "muškarac umjetnik"
+    ]
+  },
+  "😷": {
+    "default": [
+      "lice sa medicinskom maskom"
+    ],
+    "tts": []
+  },
+  "💡": {
+    "default": [
+      "ideja",
+      "sijalica",
+      "struja",
+      "svjetlo"
+    ],
+    "tts": []
+  },
+  "🤍": {
+    "default": [
+      "bijelo srce"
+    ],
+    "tts": [
+      "bijelo srce"
+    ]
+  },
+  "🤩": {
+    "default": [
+      "pod srećnom zvijezdom"
+    ],
+    "tts": [
+      "pod srećnom zvijezdom"
+    ]
+  },
+  "🪷": {
+    "default": [
+      "budizam",
+      "cvijet",
+      "hinduizam",
+      "Indija",
+      "lotus",
+      "Vijetnam"
+    ],
+    "tts": []
+  },
+  "↖": {
+    "default": [
+      "sjeverozapad",
+      "smjer",
+      "strelica",
+      "strelica nagore i nalijevo"
+    ],
+    "tts": [
+      "strelica nagore i nalijevo"
+    ]
+  },
+  "👤": {
+    "default": [
+      "silueta čovjeka"
+    ],
+    "tts": [
+      "silueta čovjeka"
+    ]
+  },
+  "🌛": {
+    "default": [
+      "četvrt",
+      "lice",
+      "mjesec",
+      "mjesec u prvoj četvrti sa licem"
+    ],
+    "tts": [
+      "mjesec u prvoj četvrti sa licem"
+    ]
+  },
+  "🗂": {
+    "default": [
+      "indeks",
+      "kartica",
+      "razdjelnici",
+      "razdjelnici za katalog kartica"
+    ],
+    "tts": [
+      "razdjelnici za katalog kartica"
+    ]
+  },
+  "🗯": {
+    "default": [
+      "oblačić za ljutiti govor usmjeren desno"
+    ],
+    "tts": [
+      "oblačić za ljutiti govor usmjeren desno"
+    ]
+  },
+  "🚦": {
+    "default": [
+      "saobraćaj",
+      "signalizacija",
+      "svjetlo",
+      "vertikalni semafor"
+    ],
+    "tts": []
+  },
+  "😙": {
+    "default": [
+      "lice koje ljubi sa nasmijanim očima"
+    ],
+    "tts": [
+      "lice koje ljubi sa nasmijanim očima"
+    ]
+  },
+  "🈁": {
+    "default": [
+      "“ovdje”",
+      "japanski",
+      "japansko dugme “ovdje”",
+      "katakana",
+      "katakana koko u kvadratu",
+      "ココ"
+    ],
+    "tts": []
+  },
+  "🧊": {
+    "default": [
+      "hladno",
+      "kocka leda",
+      "led",
+      "ledeni brijeg"
+    ],
+    "tts": []
+  },
+  "💤": {
+    "default": [
+      "spavanje"
+    ],
+    "tts": []
+  },
+  "👩‍🎤": {
+    "default": [
+      "glumica",
+      "pjevačica",
+      "rok",
+      "žena"
+    ],
+    "tts": [
+      "pjevačica"
+    ]
+  },
+  "🇲🇰": {
+    "default": [
+      "zastava",
+      "zastava: Sjeverna Makedonija"
+    ],
+    "tts": [
+      "zastava: Sjeverna Makedonija"
+    ]
+  },
+  "👥": {
+    "default": [
+      "siluete ljudi"
+    ],
+    "tts": []
+  },
+  "🎭": {
+    "default": [
+      "maska",
+      "pozorište",
+      "scena",
+      "scenska umjetnost",
+      "umjetnost"
+    ],
+    "tts": [
+      "scenska umjetnost"
+    ]
+  },
+  "🥚": {
+    "default": [
+      "doručak",
+      "hrana",
+      "jaje"
+    ],
+    "tts": []
+  },
+  "🇺🇲": {
+    "default": [
+      "zastava",
+      "zastava: Spoljna ostrva SAD"
+    ],
+    "tts": [
+      "zastava: Spoljna ostrva SAD"
+    ]
+  },
+  "😱": {
+    "default": [
+      "krik",
+      "lice",
+      "lice koje vrišti od straha",
+      "munk",
+      "strah",
+      "uplašen"
+    ],
+    "tts": []
+  },
+  "👈": {
+    "default": [
+      "kažiprst koji pokazuje ulijevo"
+    ],
+    "tts": [
+      "kažiprst koji pokazuje ulijevo"
+    ]
+  },
+  "🪨": {
+    "default": [
+      "čvrsto",
+      "gromada",
+      "kamen",
+      "stijena",
+      "teško"
+    ],
+    "tts": []
+  },
+  "👩‍🦽‍➡": {
+    "default": [
+      "kolica",
+      "pristupačnost",
+      "žena",
+      "žena u mehaničkim kolicima"
+    ],
+    "tts": []
+  },
+  "🧸": {
+    "default": [
+      "igračka",
+      "medvjedić",
+      "plišana",
+      "punjena"
+    ],
+    "tts": [
+      "medvjedić"
+    ]
+  },
+  "💭": {
+    "default": [
+      "oblačić za misli"
+    ],
+    "tts": []
+  },
+  "🩱": {
+    "default": [
+      "jednodijelni kupaći",
+      "kupaći kostim"
+    ],
+    "tts": [
+      "jednodijelni kupaći"
+    ]
+  },
+  "🦸‍♂": {
+    "default": [
+      "dobro",
+      "heroj",
+      "muškarac",
+      "muškarac super heroj",
+      "muškarac superheroj",
+      "super moć"
+    ],
+    "tts": [
+      "muškarac superheroj"
+    ]
+  },
+  "❄": {
+    "default": [
+      "hladno",
+      "pahulja",
+      "snijeg"
+    ],
+    "tts": []
+  },
+  "🐥": {
+    "default": [
+      "pile sprijeda"
+    ],
+    "tts": [
+      "pile sprijeda"
+    ]
+  },
+  "😸": {
+    "default": [
+      "mačka sa širokim osmijehom i nasmijanim očima"
+    ],
+    "tts": [
+      "mačka sa širokim osmijehom i nasmijanim očima"
+    ]
+  },
+  "🥻": {
+    "default": [
+      "haljina",
+      "odjeća",
+      "sari"
+    ],
+    "tts": []
+  },
+  "🇬🇺": {
+    "default": [
+      "zastava",
+      "zastava: Gvam"
+    ],
+    "tts": [
+      "zastava: Gvam"
+    ]
+  },
+  "🧑‍🎨": {
+    "default": [
+      "slikar",
+      "umjetnik"
+    ],
+    "tts": [
+      "umjetnik"
+    ]
+  },
+  "🪟": {
+    "default": [
+      "okvir",
+      "otvor",
+      "pogled",
+      "providno",
+      "prozor",
+      "svjež vazduh"
+    ],
+    "tts": []
+  },
+  "👨‍👦‍👦": {
+    "default": [
+      "dječak",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, dječak i dječak"
+    ],
+    "tts": [
+      "porodica: muškarac, dječak i dječak"
+    ]
+  },
+  "🥱": {
+    "default": [
+      "dosadno",
+      "lice zijeva",
+      "umoran",
+      "zijev"
+    ],
+    "tts": [
+      "lice zijeva"
+    ]
+  },
+  "🗝": {
+    "default": [
+      "katanac",
+      "ključ",
+      "stari ključ",
+      "staro"
+    ],
+    "tts": []
+  },
+  "🌏": {
+    "default": [
+      "Australija",
+      "Azija",
+      "globus",
+      "globus sa Azijom i Australijom",
+      "svijet",
+      "Zemlja"
+    ],
+    "tts": []
+  },
+  "🈲": {
+    "default": [
+      "„zabranjeno“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „zabranjeno“",
+      "禁"
+    ],
+    "tts": [
+      "japansko dugme „zabranjeno“"
+    ]
+  },
+  "🇧🇻": {
+    "default": [
+      "zastava",
+      "zastava: ostrvo Buve"
+    ],
+    "tts": [
+      "zastava: ostrvo Buve"
+    ]
+  },
+  "🤒": {
+    "default": [
+      "bolest",
+      "lice",
+      "lice sa toplomjerom",
+      "prehlada",
+      "toplomjer"
+    ],
+    "tts": [
+      "lice sa toplomjerom"
+    ]
+  },
+  "👩‍🦲": {
+    "default": [
+      "ćelav",
+      "odrasla osoba",
+      "žena"
+    ],
+    "tts": []
+  },
+  "🍛": {
+    "default": [
+      "kari",
+      "riža",
+      "riža sa karijem"
+    ],
+    "tts": [
+      "riža sa karijem"
+    ]
+  },
+  "📂": {
+    "default": [
+      "fascikla",
+      "otvorena fascikla",
+      "otvoreno"
+    ],
+    "tts": []
+  },
+  "♐": {
+    "default": [
+      "odijak",
+      "strijelac",
+      "strijelac u horoskopu"
+    ],
+    "tts": [
+      "strijelac u horoskopu"
+    ]
+  },
+  "🙌": {
+    "default": [
+      "bravo",
+      "podići",
+      "podignute ruke",
+      "pokret",
+      "ruka",
+      "slava"
+    ],
+    "tts": []
+  },
+  "🖕": {
+    "default": [
+      "srednji prst"
+    ],
+    "tts": []
+  },
+  "🛐": {
+    "default": [
+      "religija",
+      "svetilište",
+      "vjerski objekat"
+    ],
+    "tts": [
+      "vjerski objekat"
+    ]
+  },
+  "😆": {
+    "default": [
+      "lice sa zločestim osmijehom"
+    ],
+    "tts": [
+      "lice sa zločestim osmijehom"
+    ]
+  },
+  "🇧🇾": {
+    "default": [
+      "zastava",
+      "zastava: Bjelorusija"
+    ],
+    "tts": [
+      "zastava: Bjelorusija"
+    ]
+  },
+  "💫": {
+    "default": [
+      "vrtoglavica"
+    ],
+    "tts": []
+  },
+  "💮": {
+    "default": [
+      "bijeli cvijet",
+      "cvijet"
+    ],
+    "tts": [
+      "bijeli cvijet"
+    ]
+  },
+  "🎐": {
+    "default": [
+      "eolska zvona",
+      "proslava",
+      "vjetar",
+      "zvonjenje",
+      "zvono"
+    ],
+    "tts": []
+  },
+  "🌡": {
+    "default": [
+      "termometar",
+      "vrijeme"
+    ],
+    "tts": []
+  },
+  "🤸‍♀": {
+    "default": [
+      "akrobata",
+      "gimnastičarka",
+      "gimnastika",
+      "žena",
+      "zvijezda"
+    ],
+    "tts": []
+  },
+  "🔰": {
+    "default": [
+      "japanski simbol za početnika"
+    ],
+    "tts": []
+  },
+  "🦿": {
+    "default": [
+      "mehanička noga"
+    ],
+    "tts": [
+      "mehanička noga"
+    ]
+  },
+  "👳‍♂": {
+    "default": [
+      "čovjek sa turbanom",
+      "muškarac",
+      "turban"
+    ],
+    "tts": [
+      "čovjek sa turbanom"
+    ]
+  },
+  "⏭": {
+    "default": [
+      "dugme za sljedeću pjesmu",
+      "sljedeća pjesma",
+      "sljedeći prizor",
+      "strelica",
+      "trougao"
+    ],
+    "tts": [
+      "dugme za sljedeću pjesmu"
+    ]
+  },
+  "👖": {
+    "default": [
+      "farmerke",
+      "odjeća",
+      "pantalone"
+    ],
+    "tts": []
+  },
+  "🩸": {
+    "default": [
+      "davanje krvi",
+      "kap krvi",
+      "krvarenje",
+      "lijek",
+      "menstruacija",
+      "povreda"
+    ],
+    "tts": []
+  },
+  "🤘": {
+    "default": [
+      "metal",
+      "prst",
+      "rogovi",
+      "ruka",
+      "znak rogova"
+    ],
+    "tts": []
+  },
+  "🈸": {
+    "default": [
+      "„primjena“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „primjena“",
+      "申"
+    ],
+    "tts": [
+      "japansko dugme „primjena“"
+    ]
+  },
+  "💇‍♂": {
+    "default": [
+      "frizura",
+      "muškarac",
+      "muško šišanje"
+    ],
+    "tts": []
+  },
+  "😁": {
+    "default": [
+      "lice sa kezom"
+    ],
+    "tts": []
+  },
+  "👨‍🦯‍➡": {
+    "default": [
+      "čovjek",
+      "čovjek sa pomoćnim štapom",
+      "čovjek sa pomoćnim štapom gleda udesno",
+      "pristupačnost",
+      "slijep"
+    ],
+    "tts": [
+      "čovjek sa pomoćnim štapom gleda udesno"
+    ]
+  },
+  "🚸": {
+    "default": [
+      "dijete",
+      "pješak",
+      "prelaz",
+      "prelaz za djecu",
+      "saobraćaj"
+    ],
+    "tts": [
+      "prelaz za djecu"
+    ]
+  },
+  "🥂": {
+    "default": [
+      "čaše",
+      "čaše nazdravljaju",
+      "piće",
+      "slavlje",
+      "živjeli"
+    ],
+    "tts": []
+  },
+  "😊": {
+    "default": [
+      "nasmijano lice sa nasmijanim očima"
+    ],
+    "tts": [
+      "nasmijano lice sa nasmijanim očima"
+    ]
+  },
+  "🌙": {
+    "default": [
+      "mjesec",
+      "mjesečev srp",
+      "polumjesec"
+    ],
+    "tts": [
+      "mjesečev srp"
+    ]
+  },
+  "🦤": {
+    "default": [
+      "dodo",
+      "istrijebljeno",
+      "Mauricijus",
+      "veliko"
+    ],
+    "tts": []
+  },
+  "🪵": {
+    "default": [
+      "cjepanica",
+      "deblo",
+      "drvo",
+      "panj"
+    ],
+    "tts": []
+  },
+  "🚄": {
+    "default": [
+      "brzi voz"
+    ],
+    "tts": []
+  },
+  "🇩🇪": {
+    "default": [
+      "zastava",
+      "zastava: Njemačka"
+    ],
+    "tts": [
+      "zastava: Njemačka"
+    ]
+  },
+  "☃": {
+    "default": [
+      "hladno",
+      "snijeg",
+      "snješko bijelić"
+    ],
+    "tts": [
+      "snješko bijelić"
+    ]
+  },
+  "👩‍👩‍👧": {
+    "default": [
+      "djevojčica",
+      "porodica",
+      "porodica: žena, žena i djevojčica",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, žena i djevojčica"
+    ]
+  },
+  "🚉": {
+    "default": [
+      "stanica",
+      "voz",
+      "željeznica"
+    ],
+    "tts": []
+  },
+  "🍀": {
+    "default": [
+      "4",
+      "četiri",
+      "djetelina",
+      "djetelina sa četiri lista",
+      "list"
+    ],
+    "tts": [
+      "djetelina sa četiri lista"
+    ]
+  },
+  "👨‍🦼": {
+    "default": [
+      "čovjek",
+      "čovjek u motornim kolicima",
+      "kolica",
+      "pristupačnost"
+    ],
+    "tts": [
+      "čovjek u motornim kolicima"
+    ]
+  },
+  "🌕": {
+    "default": [
+      "mjesec",
+      "pun"
+    ],
+    "tts": [
+      "pun mjesec"
+    ]
+  },
+  "🔃": {
+    "default": [
+      "ponovno učitavanje",
+      "smjer kazaljke na satu",
+      "strelica",
+      "strelice koje se vrte udesno"
+    ],
+    "tts": []
+  },
+  "🇧🇱": {
+    "default": [
+      "zastava",
+      "zastava: Sen Bartelemi"
+    ],
+    "tts": [
+      "zastava: Sen Bartelemi"
+    ]
+  },
+  "👩‍🎨": {
+    "default": [
+      "slikar",
+      "slikarstvo",
+      "umjetnica",
+      "umjetnik",
+      "žena"
+    ],
+    "tts": [
+      "umjetnica"
+    ]
+  },
+  "😿": {
+    "default": [
+      "uplakana mačka"
+    ],
+    "tts": []
+  },
+  "👆": {
+    "default": [
+      "kažiprst koji pokazuje nagore otpozadi",
+      "nagore",
+      "otpozadi",
+      "pokazivanje",
+      "prst",
+      "ruka"
+    ],
+    "tts": []
+  },
+  "🕴": {
+    "default": [
+      "muškarac u poslovnom odijelu koji lebdi",
+      "odijelo",
+      "osoba",
+      "osoba u poslovnom odijelu koja lebdi",
+      "posao"
+    ],
+    "tts": [
+      "muškarac u poslovnom odijelu koji lebdi"
+    ]
+  },
+  "🛤": {
+    "default": [
+      "voz",
+      "željeznica",
+      "željeznička pruga"
+    ],
+    "tts": [
+      "željeznička pruga"
+    ]
+  },
+  "📑": {
+    "default": [
+      "kartice",
+      "obilježivač",
+      "obilježivač stranica u knjizi",
+      "oznaka",
+      "stranice sa bilješkama"
+    ],
+    "tts": [
+      "stranice sa bilješkama"
+    ]
+  },
+  "🔦": {
+    "default": [
+      "alat",
+      "baterijska lampa",
+      "lampa",
+      "struja",
+      "svjetlo"
+    ],
+    "tts": []
+  },
+  "🏔": {
+    "default": [
+      "snježni vrh planine"
+    ],
+    "tts": [
+      "snježni vrh planine"
+    ]
+  },
+  "🏪": {
+    "default": [
+      "prodavnica",
+      "prodavnica mješovite robe"
+    ],
+    "tts": [
+      "prodavnica mješovite robe"
+    ]
+  },
+  "👡": {
+    "default": [
+      "cipela",
+      "odjeća",
+      "sandala",
+      "žena",
+      "ženska sandala"
+    ],
+    "tts": []
+  },
+  "🪓": {
+    "default": [
+      "drvo",
+      "sekira",
+      "sjeći",
+      "sjekira"
+    ],
+    "tts": [
+      "sjekira"
+    ]
+  },
+  "🌻": {
+    "default": [
+      "cvijet",
+      "sunce",
+      "suncokret"
+    ],
+    "tts": []
+  },
+  "🤹‍♀": {
+    "default": [
+      "cirkus",
+      "vještina",
+      "žena",
+      "žonglerka",
+      "žongliranje"
+    ],
+    "tts": []
+  },
+  "🇬🇸": {
+    "default": [
+      "zastava",
+      "zastava: Južna Džordžija i Južna Sendvička ostrva"
+    ],
+    "tts": [
+      "zastava: Južna Džordžija i Južna Sendvička ostrva"
+    ]
+  },
+  "💺": {
+    "default": [
+      "fotelja",
+      "sjedište"
+    ],
+    "tts": [
+      "sjedište"
+    ]
+  },
+  "🇵🇸": {
+    "default": [
+      "zastava",
+      "zastava: palestinske teritorije"
+    ],
+    "tts": [
+      "zastava: palestinske teritorije"
+    ]
+  },
+  "😤": {
+    "default": [
+      "lice",
+      "lice kome iz nosa izlazi para",
+      "pobjeda",
+      "trijumf"
+    ],
+    "tts": []
+  },
+  "🇫🇰": {
+    "default": [
+      "zastava",
+      "zastava: Foklandska ostrva"
+    ],
+    "tts": [
+      "zastava: Foklandska ostrva"
+    ]
+  },
+  "🧙‍♂": {
+    "default": [
+      "čarobnjak",
+      "vještac"
+    ],
+    "tts": []
+  },
+  "🧑‍⚕": {
+    "default": [
+      "doktor",
+      "ljekar",
+      "medicinska sestra",
+      "zdravstveni radnik",
+      "zdravstvo"
+    ],
+    "tts": []
+  },
+  "👞": {
+    "default": [
+      "cipela",
+      "muška cipela",
+      "muškarac",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "👃": {
+    "default": [
+      "nos"
+    ],
+    "tts": []
+  },
+  "🪪": {
+    "default": [
+      "akreditivi",
+      "identifikacijska karta",
+      "licenca",
+      "zaštita"
+    ],
+    "tts": []
+  },
+  "🎨": {
+    "default": [
+      "muzej",
+      "paleta",
+      "slikarska paleta",
+      "slikarstvo",
+      "umjetnost"
+    ],
+    "tts": []
+  },
+  "🚍": {
+    "default": [
+      "autobus",
+      "autobus sprijeda",
+      "dolazak"
+    ],
+    "tts": [
+      "autobus sprijeda"
+    ]
+  },
+  "🌖": {
+    "default": [
+      "mjesec",
+      "mjesec poslije punog mjeseca",
+      "opadanje"
+    ],
+    "tts": [
+      "mjesec poslije punog mjeseca"
+    ]
+  },
+  "🍾": {
+    "default": [
+      "bar",
+      "boca",
+      "boca iz koje izlijeće čep",
+      "čep",
+      "piće",
+      "šampanjac"
+    ],
+    "tts": [
+      "boca iz koje izlijeće čep"
+    ]
+  },
+  "🧑‍🧒": {
+    "default": [
+      "dijete",
+      "porodica: odrasla osoba",
+      "porodica: odrasla osoba, dijete"
+    ],
+    "tts": [
+      "porodica: odrasla osoba, dijete"
+    ]
+  },
+  "🇦🇨": {
+    "default": [
+      "zastava",
+      "zastava: ostrvo Asension"
+    ],
+    "tts": [
+      "zastava: ostrvo Asension"
+    ]
+  },
+  "🍘": {
+    "default": [
+      "kreker",
+      "kreker od riže",
+      "riža"
+    ],
+    "tts": [
+      "kreker od riže"
+    ]
+  },
+  "💏": {
+    "default": [
+      "poljubac"
+    ],
+    "tts": []
+  },
+  "🎗": {
+    "default": [
+      "podsjetnik",
+      "proslava",
+      "spomen-traka",
+      "traka"
+    ],
+    "tts": []
+  },
+  "🥓": {
+    "default": [
+      "doručak",
+      "hrana",
+      "meso",
+      "slanina"
+    ],
+    "tts": []
+  },
+  "🌐": {
+    "default": [
+      "globus",
+      "globus sa meridijanima",
+      "meridijani",
+      "svijet",
+      "zemlja"
+    ],
+    "tts": []
+  },
+  "🏥": {
+    "default": [
+      "bolnica",
+      "ljekar",
+      "medicina"
+    ],
+    "tts": []
+  },
+  "🧐": {
+    "default": [
+      "lice sa monoklom",
+      "uštogljen"
+    ],
+    "tts": []
+  },
+  "🤳": {
+    "default": [
+      "selfi"
+    ],
+    "tts": []
+  },
+  "🧑": {
+    "default": [
+      "neodređen rod",
+      "odrasla osoba",
+      "osoba",
+      "rodno neutralno"
+    ],
+    "tts": []
+  },
+  "🧃": {
+    "default": [
+      "piće",
+      "piće u tetrapaku",
+      "slamčica",
+      "slatko",
+      "sok",
+      "tetrapak"
+    ],
+    "tts": []
+  },
+  "🐿": {
+    "default": [
+      "vjeverica"
+    ],
+    "tts": [
+      "vjeverica"
+    ]
+  },
+  "👩‍🦳": {
+    "default": [
+      "odrasla osoba",
+      "sijeda kosa",
+      "žena",
+      "žena: sijeda kosa"
+    ],
+    "tts": [
+      "žena: sijeda kosa"
+    ]
+  },
+  "🍰": {
+    "default": [
+      "desert",
+      "kolač",
+      "parče",
+      "parče torte",
+      "slatko",
+      "tijesto",
+      "torta"
+    ],
+    "tts": []
+  },
+  "👨‍🦲": {
+    "default": [
+      "ćelav",
+      "muškarac",
+      "odrasla osoba"
+    ],
+    "tts": []
+  },
+  "🐨": {
+    "default": [
+      "koala",
+      "medvjed"
+    ],
+    "tts": []
+  },
+  "↗": {
+    "default": [
+      "sjeveroistok",
+      "smjer",
+      "strelica",
+      "strelica nagore i nadesno"
+    ],
+    "tts": []
+  },
+  "💎": {
+    "default": [
+      "dragulj"
+    ],
+    "tts": []
+  },
+  "⬜": {
+    "default": [
+      "geometrija",
+      "kvadrat",
+      "veliki bijeli kvadrat"
+    ],
+    "tts": [
+      "veliki bijeli kvadrat"
+    ]
+  },
+  "🇨🇵": {
+    "default": [
+      "zastava",
+      "zastava: ostrvo Kliperton"
+    ],
+    "tts": [
+      "zastava: ostrvo Kliperton"
+    ]
+  },
+  "😠": {
+    "default": [
+      "bijes",
+      "gnjev",
+      "lice",
+      "ljutito lice",
+      "ljutnja"
+    ],
+    "tts": []
+  },
+  "🥲": {
+    "default": [
+      "nasmijano lice sa suzom"
+    ],
+    "tts": [
+      "nasmijano lice sa suzom"
+    ]
+  },
+  "🤹‍♂": {
+    "default": [
+      "cirkus",
+      "muškarac",
+      "vještina",
+      "žongler",
+      "žongliranje"
+    ],
+    "tts": []
+  },
+  "😓": {
+    "default": [
+      "lice obliveno hladnim znojem"
+    ],
+    "tts": []
+  },
+  "👙": {
+    "default": [
+      "bikini",
+      "odjeća",
+      "plivanje"
+    ],
+    "tts": []
+  },
+  "🎉": {
+    "default": [
+      "konfete",
+      "konfete u tubi",
+      "kugla",
+      "proslava"
+    ],
+    "tts": []
+  },
+  "💁‍♂": {
+    "default": [
+      "gestikulacija",
+      "informacije",
+      "muškarac",
+      "muškarac otkriva namjere",
+      "ruke"
+    ],
+    "tts": [
+      "muškarac otkriva namjere"
+    ]
+  },
+  "🦐": {
+    "default": [
+      "hrana",
+      "mali",
+      "račić",
+      "rak"
+    ],
+    "tts": []
+  },
+  "🪺": {
+    "default": [
+      "gnijezdo",
+      "gnijezdo s jajima"
+    ],
+    "tts": [
+      "gnijezdo s jajima"
+    ]
+  },
+  "🛣": {
+    "default": [
+      "auto-put",
+      "put"
+    ],
+    "tts": [
+      "auto-put"
+    ]
+  },
+  "🧑‍🎤": {
+    "default": [
+      "glumac",
+      "pjevač",
+      "rok",
+      "zabavljač",
+      "zvijezda"
+    ],
+    "tts": [
+      "pjevač"
+    ]
+  },
+  "👦": {
+    "default": [
+      "dječak",
+      "mladost"
+    ],
+    "tts": [
+      "dječak"
+    ]
+  },
+  "🪄": {
+    "default": [
+      "čarobni štapić",
+      "čarobnjak",
+      "magija",
+      "vještica"
+    ],
+    "tts": []
+  },
+  "🕯": {
+    "default": [
+      "svijeća",
+      "svjetlo"
+    ],
+    "tts": [
+      "svijeća"
+    ]
+  },
+  "👩‍👦‍👦": {
+    "default": [
+      "dječak",
+      "porodica",
+      "porodica: žena, dječak i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, dječak i dječak"
+    ]
+  },
+  "👜": {
+    "default": [
+      "odjeća",
+      "tašna",
+      "torba"
+    ],
+    "tts": []
+  },
+  "🧏‍♂": {
+    "default": [
+      "čovjek",
+      "gluv"
+    ],
+    "tts": [
+      "gluv čovjek"
+    ]
+  },
+  "🤝": {
+    "default": [
+      "rukovanje"
+    ],
+    "tts": []
+  },
+  "🤸‍♂": {
+    "default": [
+      "akrobata",
+      "gimnastičar",
+      "gimnastika",
+      "muškarac",
+      "zvijezda"
+    ],
+    "tts": []
+  },
+  "☪": {
+    "default": [
+      "islam",
+      "muslimani",
+      "religija",
+      "zvijezda i polumjesec"
+    ],
+    "tts": [
+      "zvijezda i polumjesec"
+    ]
+  },
+  "🐩": {
+    "default": [
+      "pudla"
+    ],
+    "tts": []
+  },
+  "🌸": {
+    "default": [
+      "cvijet",
+      "cvijet trešnje",
+      "trešnja"
+    ],
+    "tts": [
+      "cvijet trešnje"
+    ]
+  },
+  "👷‍♂": {
+    "default": [
+      "građevinar",
+      "muškarac",
+      "radnik",
+      "šljem"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👧": {
+    "default": [
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, žena i djevojčica",
+      "žena"
+    ],
+    "tts": [
+      "porodica: muškarac, žena i djevojčica"
+    ]
+  },
+  "🥋": {
+    "default": [
+      "borilačke vještine",
+      "borilački kimono",
+      "džudo",
+      "karate",
+      "tekvondo",
+      "uniforma"
+    ],
+    "tts": []
+  },
+  "🫤": {
+    "default": [
+      "lice sa dijagonalnim ustima",
+      "meh",
+      "neubjedljivo",
+      "razočarano",
+      "skeptično"
+    ],
+    "tts": []
+  },
+  "🚆": {
+    "default": [
+      "voz",
+      "željeznica"
+    ],
+    "tts": []
+  },
+  "👩‍👧‍👦": {
+    "default": [
+      "dječak",
+      "djevojčica",
+      "porodica",
+      "porodica: žena, djevojčica i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, djevojčica i dječak"
+    ]
+  },
+  "🔂": {
+    "default": [
+      "dugme za ponavljanje jedne pjesme",
+      "jednom",
+      "strelice",
+      "udesno"
+    ],
+    "tts": [
+      "dugme za ponavljanje jedne pjesme"
+    ]
+  },
+  "♿": {
+    "default": [],
+    "tts": [
+      "simbol za invalidska kolica"
+    ]
+  },
+  "🚇": {
+    "default": [
+      "metro",
+      "podzemna željeznica"
+    ],
+    "tts": []
+  },
+  "🧕": {
+    "default": [
+      "hidžab",
+      "marama",
+      "marama za na glavu",
+      "tišel",
+      "žena sa maramom na glavi"
+    ],
+    "tts": []
+  },
+  "🌼": {
+    "default": [
+      "cvijet"
+    ],
+    "tts": [
+      "cvijet"
+    ]
+  },
+  "➡": {
+    "default": [
+      "istok",
+      "smjer",
+      "strelica",
+      "strelica nadesno"
+    ],
+    "tts": []
+  },
+  "🤛": {
+    "default": [
+      "pesnica ulijevo"
+    ],
+    "tts": [
+      "pesnica ulijevo"
+    ]
+  },
+  "🤼": {
+    "default": [
+      "rvač",
+      "rvači",
+      "rvanje"
+    ],
+    "tts": []
+  },
+  "🌝": {
+    "default": [
+      "lice",
+      "mjesec",
+      "pun",
+      "pun mjesec sa licem",
+      "vedro"
+    ],
+    "tts": [
+      "pun mjesec sa licem"
+    ]
+  },
+  "↙": {
+    "default": [
+      "jugozapad",
+      "smjer",
+      "strelica",
+      "strelica nadolje i nalijevo"
+    ],
+    "tts": [
+      "strelica nadolje i nalijevo"
+    ]
+  },
+  "😀": {
+    "default": [
+      "lice sa širokim osmijehom"
+    ],
+    "tts": [
+      "lice sa širokim osmijehom"
+    ]
+  },
+  "👒": {
+    "default": [
+      "odjeća",
+      "šešir",
+      "žene",
+      "ženski šešir"
+    ],
+    "tts": []
+  },
+  "👉": {
+    "default": [
+      "kažiprst koji pokazuje udesno"
+    ],
+    "tts": []
+  },
+  "👯": {
+    "default": [
+      "osobe sa zečjim ušima",
+      "osobe u provodu",
+      "plesačica",
+      "zečje uši"
+    ],
+    "tts": []
+  },
+  "🪁": {
+    "default": [
+      "jedrenje",
+      "letenje",
+      "zmaj na vjetar"
+    ],
+    "tts": [
+      "zmaj na vjetar"
+    ]
+  },
+  "🇹🇫": {
+    "default": [
+      "zastava",
+      "zastava: Francuske južne teritorije"
+    ],
+    "tts": [
+      "zastava: Francuske južne teritorije"
+    ]
+  },
+  "✨": {
+    "default": [
+      "iskra",
+      "iskre",
+      "zvijezda"
+    ],
+    "tts": []
+  },
+  "🤷‍♀": {
+    "default": [
+      "gestikulacija",
+      "neznanje",
+      "ravnodušnost",
+      "žena",
+      "žena sliježe ramenima"
+    ],
+    "tts": [
+      "žena sliježe ramenima"
+    ]
+  },
+  "👨‍👧": {
+    "default": [
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac i djevojčica"
+    ],
+    "tts": [
+      "porodica: muškarac i djevojčica"
+    ]
+  },
+  "🤙": {
+    "default": [
+      "znak rukom za telefon"
+    ],
+    "tts": []
+  },
+  "🧓": {
+    "default": [
+      "neodređen rod",
+      "odrasla osoba",
+      "rodno neutralno",
+      "starija odrasla osoba",
+      "starost"
+    ],
+    "tts": []
+  },
+  "😂": {
+    "default": [
+      "lice sa suzama radosnicama"
+    ],
+    "tts": []
+  },
+  "👝": {
+    "default": [
+      "neseser",
+      "odjeća",
+      "torba"
+    ],
+    "tts": []
+  },
+  "😅": {
+    "default": [
+      "lice sa nervoznim osmijehom"
+    ],
+    "tts": [
+      "lice sa nervoznim osmijehom"
+    ]
+  },
+  "🍞": {
+    "default": [
+      "hljeb",
+      "vekna"
+    ],
+    "tts": [
+      "hljeb"
+    ]
+  },
+  "🐗": {
+    "default": [
+      "vepar"
+    ],
+    "tts": []
+  },
+  "🇨🇿": {
+    "default": [
+      "zastava",
+      "zastava: Češka Republika"
+    ],
+    "tts": [
+      "zastava: Češka Republika"
+    ]
+  },
+  "🇻🇨": {
+    "default": [
+      "zastava",
+      "zastava: Sveti Vinsent i Grenadini"
+    ],
+    "tts": [
+      "zastava: Sveti Vinsent i Grenadini"
+    ]
+  },
+  "🏝": {
+    "default": [
+      "pusto ostrvo"
+    ],
+    "tts": []
+  },
+  "🥖": {
+    "default": [
+      "baget",
+      "francuski",
+      "hljeb",
+      "hrana"
+    ],
+    "tts": []
+  },
+  "🧑‍🦲": {
+    "default": [
+      "ćelav",
+      "neodređen rod",
+      "odrasla osoba",
+      "osoba",
+      "rodno neutralno"
+    ],
+    "tts": []
+  },
+  "🧈": {
+    "default": [
+      "mliječni proizvodi",
+      "puter"
+    ],
+    "tts": []
+  },
+  "👁‍🗨": {
+    "default": [
+      "dijalog",
+      "oblačić",
+      "oko",
+      "oko u oblačiću dijaloga",
+      "svjedok"
+    ],
+    "tts": []
+  },
+  "🐱": {
+    "default": [
+      "lice mačke"
+    ],
+    "tts": []
+  },
+  "🍙": {
+    "default": [
+      "japanska",
+      "kuglica",
+      "kuglica od riže",
+      "riža"
+    ],
+    "tts": [
+      "kuglica od riže"
+    ]
+  },
+  "👻": {
+    "default": [
+      "bajka",
+      "čudovište",
+      "duh",
+      "fantazija",
+      "lice",
+      "stvorenje"
+    ],
+    "tts": []
+  },
+  "☘": {
+    "default": [
+      "biljka",
+      "djetelina"
+    ],
+    "tts": [
+      "djetelina"
+    ]
+  },
+  "👩‍👩‍👧‍👦": {
+    "default": [
+      "dječak",
+      "djevojčica",
+      "porodica",
+      "porodica: žena, žena, djevojčica i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: žena, žena, djevojčica i dječak"
+    ]
+  },
+  "🇰🇲": {
+    "default": [
+      "zastava",
+      "zastava: Komori"
+    ],
+    "tts": [
+      "zastava: Komori"
+    ]
+  },
+  "✂": {
+    "default": [
+      "alat",
+      "makaze",
+      "sječenje"
+    ],
+    "tts": []
+  },
+  "🧑‍🦱": {
+    "default": [
+      "kovrdžava kosa",
+      "neodređen rod",
+      "odrasla osoba",
+      "osoba",
+      "rodno neutralno"
+    ],
+    "tts": []
+  },
+  "🧑‍🧒‍🧒": {
+    "default": [
+      "dijete",
+      "porodica: odrasla osoba",
+      "porodica: odrasla osoba, dijete, dijete"
+    ],
+    "tts": [
+      "porodica: odrasla osoba, dijete, dijete"
+    ]
+  },
+  "🛺": {
+    "default": [
+      "auto-rikša",
+      "tuk tuk"
+    ],
+    "tts": [
+      "auto-rikša"
+    ]
+  },
+  "🌘": {
+    "default": [
+      "mjesec",
+      "mjesečev srp u opadanju",
+      "opadanje",
+      "polumjesec"
+    ],
+    "tts": [
+      "mjesečev srp u opadanju"
+    ]
+  },
+  "🈺": {
+    "default": [
+      "„otvoreno“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „otvoreno“",
+      "営"
+    ],
+    "tts": [
+      "japansko dugme „otvoreno“"
+    ]
+  },
+  "👔": {
+    "default": [
+      "kravata",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "👓": {
+    "default": [
+      "naočari",
+      "odjeća",
+      "oko"
+    ],
+    "tts": []
+  },
+  "⛄": {
+    "default": [
+      "hladno",
+      "snijeg",
+      "snješko bijelić",
+      "snješko bijelić bez snijega"
+    ],
+    "tts": [
+      "snješko bijelić bez snijega"
+    ]
+  },
+  "🔄": {
+    "default": [
+      "strelica",
+      "strelice koje se vrte ulijevo",
+      "suprotno od kazaljke na satu"
+    ],
+    "tts": [
+      "strelice koje se vrte ulijevo"
+    ]
+  },
+  "🤖": {
+    "default": [
+      "robotsko lice"
+    ],
+    "tts": []
+  },
+  "🧑‍🧑‍🧒": {
+    "default": [
+      "dijete",
+      "odrasla osoba",
+      "porodica: odrasla osoba",
+      "porodica: odrasla osoba, odrasla osoba, dijete"
+    ],
+    "tts": [
+      "porodica: odrasla osoba, odrasla osoba, dijete"
+    ]
+  },
+  "🚃": {
+    "default": [
+      "električi",
+      "tramvaj",
+      "trolejbus",
+      "vagon",
+      "voz",
+      "vozilo",
+      "željeznica"
+    ],
+    "tts": []
+  },
+  "🪴": {
+    "default": [
+      "beskorisno",
+      "biljka",
+      "biljka u saksiji",
+      "dosadno",
+      "kuća",
+      "njega",
+      "raste"
+    ],
+    "tts": []
+  },
+  "👧": {
+    "default": [
+      "djevojčica"
+    ],
+    "tts": [
+      "djevojčica"
+    ]
+  },
+  "🧙‍♀": {
+    "default": [
+      "čarobnica",
+      "vještica"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👦‍👦": {
+    "default": [
+      "dječak",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, žena, dječak i dječak",
+      "žena"
+    ],
+    "tts": [
+      "porodica: muškarac, žena, dječak i dječak"
+    ]
+  },
+  "🇷🇪": {
+    "default": [
+      "zastava",
+      "zastava: Reunion"
+    ],
+    "tts": [
+      "zastava: Reunion"
+    ]
+  },
+  "🥪": {
+    "default": [
+      "hljeb",
+      "sendvič"
+    ],
+    "tts": []
+  },
+  "🇻🇮": {
+    "default": [
+      "zastava",
+      "zastava: Američka Djevičanska ostrva"
+    ],
+    "tts": [
+      "zastava: Američka Djevičanska ostrva"
+    ]
+  },
+  "📿": {
+    "default": [
+      "brojanica",
+      "molitva",
+      "odjeća",
+      "ogrlica",
+      "perle",
+      "religija"
+    ],
+    "tts": []
+  },
+  "👨‍👧‍👦": {
+    "default": [
+      "dječak",
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, djevojčica i dječak"
+    ],
+    "tts": [
+      "porodica: muškarac, djevojčica i dječak"
+    ]
+  },
+  "😕": {
+    "default": [
+      "lice",
+      "meh",
+      "zbunjeno lice",
+      "zbunjenost"
+    ],
+    "tts": []
+  },
+  "🤵": {
+    "default": [
+      "čovjek u smokingu"
+    ],
+    "tts": [
+      "čovjek u smokingu"
+    ]
+  },
+  "🉐": {
+    "default": [
+      "„bagatela“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „bagatela“",
+      "得"
+    ],
+    "tts": [
+      "japansko dugme „bagatela“"
+    ]
+  },
+  "🔮": {
+    "default": [
+      "alat",
+      "bajka",
+      "fantazija",
+      "kristal",
+      "kristalna kugla",
+      "kugla",
+      "sudbina"
+    ],
+    "tts": []
+  },
+  "😃": {
+    "default": [
+      "lice sa oduševljenim osmijehom"
+    ],
+    "tts": [
+      "lice sa oduševljenim osmijehom"
+    ]
+  },
+  "🪃": {
+    "default": [
+      "australija",
+      "bumerang",
+      "posljedice",
+      "vraćanje"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👧‍👧": {
+    "default": [
+      "djevojčica",
+      "muškarac",
+      "porodica",
+      "porodica: muškarac, žena, djevojčica i djevojčica",
+      "žena"
+    ],
+    "tts": [
+      "porodica: muškarac, žena, djevojčica i djevojčica"
+    ]
+  },
+  "❔": {
+    "default": [
+      "bijeli upitnik",
+      "interpunkcija",
+      "obris",
+      "pitanje",
+      "znak"
+    ],
+    "tts": [
+      "bijeli upitnik"
+    ]
+  },
+  "⏬": {
+    "default": [
+      "dolje",
+      "dugme za brzo kretanje nadolje",
+      "dvostruko brzo",
+      "strelica"
+    ],
+    "tts": [
+      "dugme za brzo kretanje nadolje"
+    ]
+  },
+  "💘": {
+    "default": [
+      "kupidon",
+      "srce probodeno strijelom",
+      "strelica"
+    ],
+    "tts": [
+      "srce probodeno strijelom"
+    ]
+  },
+  "👨‍🦼‍➡": {
+    "default": [
+      "čovjek",
+      "čovjek u motornim kolicima",
+      "čovjek u motornim kolicima gleda udesno",
+      "kolica",
+      "pristupačnost"
+    ],
+    "tts": [
+      "čovjek u motornim kolicima gleda udesno"
+    ]
+  },
+  "👨‍🦱": {
+    "default": [
+      "kovrdžava kosa",
+      "muškarac",
+      "odrasla osoba"
+    ],
+    "tts": []
+  },
+  "🌺": {
+    "default": [
+      "cvijet",
+      "hibiskus"
+    ],
+    "tts": []
+  },
+  "🎅": {
+    "default": [
+      "bajka",
+      "božić",
+      "božić bata",
+      "djed mraz",
+      "Djed Mraz",
+      "proslava"
+    ],
+    "tts": [
+      "Djed Mraz"
+    ]
+  },
+  "🚟": {
+    "default": [
+      "viseća",
+      "željeznica"
+    ],
+    "tts": [
+      "viseća željeznica"
+    ]
+  },
+  "🦊": {
+    "default": [
+      "lisica"
+    ],
+    "tts": []
+  },
+  "💒": {
+    "default": [
+      "kapela",
+      "romantika",
+      "vjenčanje"
+    ],
+    "tts": [
+      "vjenčanje"
+    ]
+  },
+  "👛": {
+    "default": [
+      "odjeća",
+      "sitnina",
+      "tašnica"
+    ],
+    "tts": []
+  },
+  "🧍‍♂": {
+    "default": [
+      "čovjek",
+      "stoji"
+    ],
+    "tts": [
+      "čovjek stoji"
+    ]
+  },
+  "🦮": {
+    "default": [
+      "pas vodič",
+      "pristup",
+      "slijep",
+      "vodič"
+    ],
+    "tts": []
+  },
+  "▫": {
+    "default": [
+      "geometrija",
+      "kvadrat",
+      "mali bijeli kvadrat"
+    ],
+    "tts": [
+      "mali bijeli kvadrat"
+    ]
+  },
+  "🈚": {
+    "default": [
+      "„besplatno“",
+      "ideograf",
+      "japanski",
+      "japansko dugme „besplatno“",
+      "無"
+    ],
+    "tts": [
+      "japansko dugme „besplatno“"
+    ]
+  },
+  "☔": {
+    "default": [
+      "kap",
+      "kiša",
+      "kišobran",
+      "kišobran sa kapima kiše",
+      "odjeća"
+    ],
+    "tts": []
+  },
+  "👲": {
+    "default": [
+      "čovjek sa kineskom kapom",
+      "gua pi mao",
+      "kapa",
+      "kineska kapa",
+      "osoba",
+      "osoba sa kineskom kapom",
+      "šešir"
+    ],
+    "tts": [
+      "čovjek sa kineskom kapom"
+    ]
+  },
+  "🔳": {
+    "default": [
+      "bijelo kvadratno dugme",
+      "dugme",
+      "geometrija",
+      "kvadratno",
+      "obris"
+    ],
+    "tts": [
+      "bijelo kvadratno dugme"
+    ]
+  },
+  "🖖": {
+    "default": [
+      "vulkanski pozdrav"
+    ],
+    "tts": []
+  },
+  "🌍": {
+    "default": [
+      "Afrika",
+      "Evropa",
+      "globus",
+      "globus sa Evropom i Afrikom",
+      "svijet",
+      "Zemlja"
+    ],
+    "tts": []
+  },
+  "⏮": {
+    "default": [
+      "dugme za posljednju pjesmu",
+      "prethodna pjesma",
+      "prethodni prizor",
+      "strelica",
+      "trougao"
+    ],
+    "tts": [
+      "dugme za posljednju pjesmu"
+    ]
+  }
+}

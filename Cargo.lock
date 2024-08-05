@@ -845,7 +845,7 @@ dependencies = [
 
 [[package]]
 name = "cosmic-applet-emoji-selector"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "cosmic-time",
  "emojis",
@@ -858,6 +858,7 @@ dependencies = [
  "regex",
  "rust-embed",
  "serde",
+ "serde_json",
  "wl-clipboard-rs",
 ]
 
@@ -3960,12 +3961,13 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.117"
+version = "1.0.122"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "455182ea6142b14f93f4bc5320a2b31c1f266b66a4a5c858b013302a5d8cbfc3"
+checksum = "784b6203951c57ff748476b126ccb5e8e2959a5c19e5c617ab1956be3dbc68da"
 dependencies = [
  "indexmap",
  "itoa",
+ "memchr",
  "ryu",
  "serde",
 ]

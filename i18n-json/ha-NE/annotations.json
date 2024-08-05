@@ -1,0 +1,90 @@
+{
+  "🧃": {
+    "default": [
+      "bambaro",
+      "kwali",
+      "lemo",
+      "lemon kwali",
+      "mai daɗi",
+      "ruwan ƴaƴan itace"
+    ],
+    "tts": []
+  },
+  "🪀": {
+    "default": [
+      "canzawa",
+      "ƴartsana",
+      "zaren yo-yo"
+    ],
+    "tts": []
+  },
+  "♊": {
+    "default": [
+      "falaki",
+      "Tagwaye",
+      "ƴan biyu"
+    ],
+    "tts": []
+  },
+  "🍋‍🟩": {
+    "default": [
+      "kayan lemu",
+      "lemun tsami",
+      "wurare masu zafi",
+      "ƴaƴan itace"
+    ],
+    "tts": []
+  },
+  "⛓‍💥": {
+    "default": [
+      "karyayyen sarka",
+      "karyayyen sarkar",
+      "karye",
+      "karyewa",
+      "sarka",
+      "sarkar hannu",
+      "ƴanci"
+    ],
+    "tts": []
+  },
+  "🪆": {
+    "default": [
+      "rasha",
+      "sheƙa",
+      "ƴartsana",
+      "ƴartsana mai sheƙa"
+    ],
+    "tts": [
+      "ƴartsana mai sheƙa"
+    ]
+  },
+  "🩳": {
+    "default": [
+      "gajeren wando",
+      "rigar wanka",
+      "wando",
+      "ƴan ciki"
+    ],
+    "tts": []
+  },
+  "🩲": {
+    "default": [
+      "ɗan diras",
+      "rigar ninƙaya",
+      "rigar wanka",
+      "yanki ɗaya",
+      "ƴan ciki"
+    ],
+    "tts": []
+  },
+  "🧸": {
+    "default": [
+      "buga wasa",
+      "cushe",
+      "ƙari",
+      "tunkun wasa",
+      "ƴartsana"
+    ],
+    "tts": []
+  }
+}

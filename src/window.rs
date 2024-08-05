@@ -1,6 +1,8 @@
 use std::borrow::Cow;
+use std::collections::HashMap;
 use std::iter;
 
+use crate::config::Annotation;
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
@@ -24,6 +26,7 @@ use regex::RegexBuilder;
 pub const ID: &str = "dev.dominiccgeh.CosmicAppletEmojiSelector";
 const ICON: &str = ID;
 pub struct Window {
+    annotations: HashMap<String, Annotation>,
     core: Core,
     popup: Option<Id>,
     config: Config,
@@ -59,6 +62,7 @@ pub enum Message {
 pub struct Flags {
     pub config_handler: Option<cosmic_config::Config>,
     pub config: Config,
+    pub annotations: HashMap<String, Annotation>,
 }
 
 impl cosmic::Application for Window {
@@ -95,6 +99,7 @@ impl cosmic::Application for Window {
             timeline: Timeline::new(),
             emoji_hovered: None,
             text_input_id: widget::Id::unique(),
+            annotations: flags.annotations,
         };
 
         (window, Command::none())
@@ -240,22 +245,13 @@ impl cosmic::Application for Window {
     // todo extract more code into functions
     fn view_window(&self, _id: Id) -> Element<Self::Message> {
         // use regex to apply simple unicode case folding
-
         let regex_pattern = regex::escape(&self.search);
         let search_regex = RegexBuilder::new(&regex_pattern)
             .case_insensitive(true)
             .build()
             .ok();
 
-        let search_filter = |emoji: &emojis::Emoji, search_regex: Option<&regex::Regex>| {
-            if self.search.is_empty() {
-                return true;
-            }
-            match search_regex {
-                Some(re) => re.is_match(emoji.name()),
-                None => emoji.name().contains(&self.search),
-            }
-        };
+        let search_filter = self.search_filter();
 
         #[allow(unused_variables)]
         let cosmic::cosmic_theme::Spacing {
@@ -306,7 +302,7 @@ impl cosmic::Application for Window {
 
         if self.config.show_preview {
             let preview = self.preview(
-                search_filter,
+                &search_filter,
                 &search_regex,
                 &self.core.system_theme().cosmic().spacing,
             );
@@ -348,7 +344,7 @@ impl cosmic::Application for Window {
             row
         };
 
-        let search_iter = self.config_emoji_iter(search_filter, &search_regex);
+        let search_iter = self.config_emoji_iter(&search_filter, &search_regex);
         let mut has_favorite = false;
         for emojis in chunks(search_iter) {
             has_favorite = true;
@@ -407,25 +403,34 @@ impl cosmic::Application for Window {
 }
 
 impl Window {
-    fn config_emoji_iter<'a>(
+    // can also be written with one lifetime and without cloing, but borrowing self
+    fn config_emoji_iter<'a, 'b, S>(
         &'a self,
-        search_filter: impl Fn(&'static emojis::Emoji, Option<&regex::Regex>) -> bool + 'a,
-        search_regex: &'a Option<regex::Regex>,
-    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'a {
+        search_filter: S,
+        search_regex: &'b Option<regex::Regex>,
+    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'b
+    where
+        S: for<'c> Fn(&'static emojis::Emoji, Option<&'c regex::Regex>) -> bool + 'b,
+    {
+        let selected_group = self.selected_group;
         let search_iter = self
             .config
             .last_used
-            .iter()
-            .filter_map(|e| emojis::get(e))
-            .filter(|e| self.selected_group.is_none() || Some(e.group()) == self.selected_group)
+            .clone()
+            .into_iter()
+            .filter_map(|e| emojis::get(&e))
+            .filter(move |e| selected_group.is_none() || Some(e.group()) == selected_group)
             .filter(move |emoji| search_filter(emoji, search_regex.as_ref()));
         search_iter
     }
-    fn emoji_iter<'a>(
+    fn emoji_iter<'a, 'b, S>(
         &'a self,
-        search_filter: impl Fn(&'static emojis::Emoji, Option<&regex::Regex>) -> bool + 'a,
-        search_regex: &'a Option<regex::Regex>,
-    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'a {
+        search_filter: S,
+        search_regex: &'b Option<regex::Regex>,
+    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'b
+    where
+        S: for<'c> Fn(&'static emojis::Emoji, Option<&'c regex::Regex>) -> bool + 'b,
+    {
         let emoji_iter: Box<dyn Iterator<Item = &'static emojis::Emoji>> = match self.selected_group
         {
             Some(group) => Box::from(group.emojis()),
@@ -468,7 +473,8 @@ impl Window {
 
             // this all for south georgia and south sandwich islands
             // replace if iced gets proper text wrapping
-            let mut emoji_name = emoji_hovered.name();
+            let mut emoji_name = self.emoji_name_localized(emoji_hovered);
+
             let emoji_name_len = emoji_name.len();
             let cut_off_idx = emoji_name
                 .char_indices()
@@ -506,6 +512,19 @@ impl Window {
         return preview;
     }
 
+    fn emoji_name_localized<'a>(&'a self, emoji_hovered: &'static emojis::Emoji) -> &'a str {
+        let emoji_name = self
+            .annotations
+            .get(
+                &emoji_hovered
+                    .as_str()
+                    .replace(&['\u{fe0f}', '\u{fe0e}'], ""),
+            )
+            .and_then(|annotation| annotation.tts.first().map(String::as_str))
+            .unwrap_or_else(|| emoji_hovered.name());
+        emoji_name
+    }
+
     fn update_group(
         &mut self,
         group: Option<emojis::Group>,
@@ -516,6 +535,22 @@ impl Window {
             self.scrollable_id.clone(),
             scrollable::AbsoluteOffset::default(),
         );
+    }
+
+    fn search_filter<'a>(
+        &'a self,
+    ) -> impl for<'b> Fn(&'static emojis::Emoji, Option<&'b regex::Regex>) -> bool + 'a {
+        let search_filter = |emoji: &'static emojis::Emoji, search_regex: Option<&regex::Regex>| {
+            if self.search.is_empty() {
+                return true;
+            }
+            let emoji_name = self.emoji_name_localized(&emoji);
+            match search_regex {
+                Some(re) => re.is_match(emoji_name),
+                None => emoji_name.contains(&self.search),
+            }
+        };
+        search_filter
     }
 }
 macro_rules! icon {

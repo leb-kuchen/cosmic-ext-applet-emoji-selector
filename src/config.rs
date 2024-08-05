@@ -37,3 +37,11 @@ impl Default for Config {
         }
     }
 }
+
+#[derive(Serialize, Deserialize, PartialEq, Hash, Debug, Default, Clone)]
+pub struct Annotation {
+    #[serde(default)]
+    pub default: Vec<String>,
+    #[serde(default)]
+    pub tts: Vec<String>,
+}

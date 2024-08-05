@@ -1,0 +1,1690 @@
+{
+  "🪭": {
+    "default": [
+      "Fächer",
+      "fächern",
+      "Faltfächer",
+      "Flamenco",
+      "heiss",
+      "kühl",
+      "scheu",
+      "tanzen"
+    ],
+    "tts": [
+      "Fächer"
+    ]
+  },
+  "🪫": {
+    "default": [
+      "Akku leer",
+      "Batterie leer",
+      "schwache Batterie"
+    ],
+    "tts": []
+  },
+  "🔍": {
+    "default": [
+      "Lupe nach links",
+      "Suche",
+      "Vergrösserungsglas"
+    ],
+    "tts": []
+  },
+  "🅰": {
+    "default": [
+      "a",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstabe A in Quadrat",
+      "negativ",
+      "positiv"
+    ],
+    "tts": [
+      "Grossbuchstabe A in Quadrat"
+    ]
+  },
+  "♨": {
+    "default": [
+      "Dampf",
+      "dampfend",
+      "heiss",
+      "Heisse Quellen",
+      "Quellen"
+    ],
+    "tts": [
+      "Heisse Quellen"
+    ]
+  },
+  "🅿": {
+    "default": [
+      "Grossbuchstabe P in Quadrat",
+      "Parkplatz",
+      "Quadrat"
+    ],
+    "tts": [
+      "Grossbuchstabe P in Quadrat"
+    ]
+  },
+  "😓": {
+    "default": [
+      "geschlossene Augen",
+      "Gesicht",
+      "Smiley mit kaltem Schweiss"
+    ],
+    "tts": [
+      "Smiley mit kaltem Schweiss"
+    ]
+  },
+  "👨‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiter",
+      "industriell",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "🪯": {
+    "default": [
+      "Khanda",
+      "Khanda-Emblem",
+      "Religion",
+      "Schwert",
+      "Sikhismus"
+    ],
+    "tts": [
+      "Khanda-Emblem"
+    ]
+  },
+  "🦶": {
+    "default": [
+      "Fuss",
+      "Kick",
+      "stampfen"
+    ],
+    "tts": [
+      "Fuss"
+    ]
+  },
+  "🪻": {
+    "default": [
+      "Blume",
+      "Hyazinthe",
+      "Lavendel",
+      "Löwenmaul",
+      "Lupine"
+    ],
+    "tts": []
+  },
+  "❤‍🩹": {
+    "default": [
+      "Besserung",
+      "erholen",
+      "gesund",
+      "gute Besserung",
+      "heilen",
+      "Herz mit Pflaster",
+      "Pflaster"
+    ],
+    "tts": [
+      "Herz mit Pflaster"
+    ]
+  },
+  "🚶‍♂": {
+    "default": [
+      "Fussgänger",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger"
+    ]
+  },
+  "😮‍💨": {
+    "default": [
+      "ausatmen",
+      "ausatmendes Gesicht",
+      "besorgt",
+      "flüstern",
+      "Huch!",
+      "pfeifen",
+      "Puh!",
+      "seufzen",
+      "stöhnen"
+    ],
+    "tts": [
+      "ausatmendes Gesicht"
+    ]
+  },
+  "❔": {
+    "default": [
+      "Satzzeichen",
+      "weiss",
+      "weisses Fragezeichen"
+    ],
+    "tts": [
+      "weisses Fragezeichen"
+    ]
+  },
+  "🤐": {
+    "default": [
+      "Gesicht",
+      "Mund",
+      "Reissverschluss",
+      "Smiley mit Reissverschlussmund"
+    ],
+    "tts": [
+      "Smiley mit Reissverschlussmund"
+    ]
+  },
+  "⬛": {
+    "default": [
+      "Grosses schwarzes Quadrat",
+      "Quadrat",
+      "schwarz"
+    ],
+    "tts": [
+      "Grosses schwarzes Quadrat"
+    ]
+  },
+  "🔠": {
+    "default": [
+      "Eingabesymbol lateinische Grossbuchstaben",
+      "Grossbuchstaben",
+      "lateinische Grossbuchstaben"
+    ],
+    "tts": [
+      "Eingabesymbol lateinische Grossbuchstaben"
+    ]
+  },
+  "🆑": {
+    "default": [
+      "CL",
+      "Grossbuchstaben CL in rotem Quadrat"
+    ],
+    "tts": [
+      "Grossbuchstaben CL in rotem Quadrat"
+    ]
+  },
+  "🆗": {
+    "default": [
+      "Grossbuchstaben OK in blauem Quadrat",
+      "OK"
+    ],
+    "tts": [
+      "Grossbuchstaben OK in blauem Quadrat"
+    ]
+  },
+  "🧁": {
+    "default": [
+      "Cupcake",
+      "Gebäck",
+      "Konditorei",
+      "Muffin",
+      "süss"
+    ],
+    "tts": []
+  },
+  "🚃": {
+    "default": [
+      "Eisenbahnwagen",
+      "Fahrzeug",
+      "Strassenbahn",
+      "Strassenbahnwagen",
+      "Tram",
+      "Wagen",
+      "Wagon",
+      "Zug"
+    ],
+    "tts": []
+  },
+  "🛗": {
+    "default": [],
+    "tts": [
+      "Lift"
+    ]
+  },
+  "😶‍🌫": {
+    "default": [
+      "abwesend",
+      "benebelt",
+      "geistig umnachtet",
+      "Kopf in den Wolken"
+    ],
+    "tts": [
+      "Kopf in den Wolken"
+    ]
+  },
+  "🩴": {
+    "default": [
+      "Flipflops",
+      "Zehensandale",
+      "Zehensandalen"
+    ],
+    "tts": [
+      "Flipflops"
+    ]
+  },
+  "🔶": {
+    "default": [
+      "Grosse orangefarbene Raute",
+      "orangefarben",
+      "Raute"
+    ],
+    "tts": [
+      "Grosse orangefarbene Raute"
+    ]
+  },
+  "🪇": {
+    "default": [
+      "Instrument",
+      "Maraca",
+      "Musik",
+      "schütteln",
+      "Trommel"
+    ],
+    "tts": [
+      "Maraca"
+    ]
+  },
+  "🤘": {
+    "default": [
+      "Finger",
+      "Hand",
+      "Hörner",
+      "Rock",
+      "Teufel",
+      "Teufelsgruss"
+    ],
+    "tts": [
+      "Teufelsgruss"
+    ]
+  },
+  "🪿": {
+    "default": [
+      "dumm",
+      "Gans",
+      "schnattern",
+      "Vogel"
+    ],
+    "tts": []
+  },
+  "🍮": {
+    "default": [
+      "Dessert",
+      "Nachspeise",
+      "Nachtisch",
+      "Pudding",
+      "Sauce",
+      "Schokolade"
+    ],
+    "tts": []
+  },
+  "🪽": {
+    "default": [
+      "Engel",
+      "Federn",
+      "fliegen",
+      "Flügel",
+      "Mythologie",
+      "Vogel"
+    ],
+    "tts": []
+  },
+  "🎅": {
+    "default": [
+      "Samichlaus",
+      "Weihnachten",
+      "Weihnachtsmann"
+    ],
+    "tts": []
+  },
+  "◼": {
+    "default": [
+      "Mittelgrosses schwarzes Quadrat",
+      "Quadrat",
+      "schwarz"
+    ],
+    "tts": [
+      "Mittelgrosses schwarzes Quadrat"
+    ]
+  },
+  "🫛": {
+    "default": [
+      "Bohne",
+      "Edamame",
+      "Erbse",
+      "Gemüse",
+      "Hülsenfrüchte"
+    ],
+    "tts": [
+      "Erbse"
+    ]
+  },
+  "🌥": {
+    "default": [
+      "grosse Wolke",
+      "Sonne",
+      "Sonne hinter grosser Wolke",
+      "Wetter",
+      "Wolke"
+    ],
+    "tts": [
+      "Sonne hinter grosser Wolke"
+    ]
+  },
+  "🤍": {
+    "default": [
+      "Herz",
+      "weiss",
+      "weisses Herz"
+    ],
+    "tts": [
+      "weisses Herz"
+    ]
+  },
+  "💧": {
+    "default": [
+      "Schweiss",
+      "Tropfen",
+      "Wasser",
+      "Wassertropfen"
+    ],
+    "tts": []
+  },
+  "🍠": {
+    "default": [
+      "geröstet",
+      "Geröstete Süsskartoffel",
+      "Süsskartoffel"
+    ],
+    "tts": [
+      "Geröstete Süsskartoffel"
+    ]
+  },
+  "🔳": {
+    "default": [
+      "quadratisch",
+      "Schaltfläche",
+      "weiss",
+      "Weisse quadratische Schaltfläche"
+    ],
+    "tts": [
+      "Weisse quadratische Schaltfläche"
+    ]
+  },
+  "🚷": {
+    "default": [
+      "Fussgänger-verboten-Schild",
+      "verboten"
+    ],
+    "tts": [
+      "Fussgänger-verboten-Schild"
+    ]
+  },
+  "🆎": {
+    "default": [
+      "ab",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstaben AB in rotem Quadrat",
+      "negativ",
+      "positiv"
+    ],
+    "tts": [
+      "Grossbuchstaben AB in rotem Quadrat"
+    ]
+  },
+  "⬜": {
+    "default": [
+      "Grosses weisses Quadrat",
+      "Quadrat",
+      "weiss"
+    ],
+    "tts": [
+      "Grosses weisses Quadrat"
+    ]
+  },
+  "🧑‍🦯": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock"
+    ],
+    "tts": []
+  },
+  "🫏": {
+    "default": [
+      "Dummkopf",
+      "Esel",
+      "Grautier",
+      "Maultier",
+      "Säugetier",
+      "störrisch",
+      "stur",
+      "Tier"
+    ],
+    "tts": []
+  },
+  "🚋": {
+    "default": [
+      "Strassenbahn",
+      "Strassenbahnwagen",
+      "Tram",
+      "Tramwagen"
+    ],
+    "tts": [
+      "Tramwagen"
+    ]
+  },
+  "🇧🇳": {
+    "default": [
+      "Flagge",
+      "Flagge: Brunei"
+    ],
+    "tts": [
+      "Flagge: Brunei"
+    ]
+  },
+  "🏳": {
+    "default": [
+      "Fahne",
+      "wehen",
+      "Wehende weisse Fahne",
+      "weisse Fahne"
+    ],
+    "tts": [
+      "Wehende weisse Fahne"
+    ]
+  },
+  "🇧🇼": {
+    "default": [
+      "Flagge",
+      "Flagge: Botswana"
+    ],
+    "tts": [
+      "Flagge: Botswana"
+    ]
+  },
+  "🔴": {
+    "default": [
+      "Ball",
+      "Grosser roter Kreis",
+      "Kreis",
+      "rot"
+    ],
+    "tts": [
+      "Grosser roter Kreis"
+    ]
+  },
+  "⭐": {
+    "default": [
+      "Stern",
+      "weisser mittelgrosser Stern"
+    ],
+    "tts": [
+      "weisser mittelgrosser Stern"
+    ]
+  },
+  "◻": {
+    "default": [
+      "Mittelgrosses weisses Quadrat",
+      "Quadrat",
+      "weiss"
+    ],
+    "tts": [
+      "Mittelgrosses weisses Quadrat"
+    ]
+  },
+  "🍬": {
+    "default": [
+      "Bonbon",
+      "Süssigkeit"
+    ],
+    "tts": []
+  },
+  "💥": {
+    "default": [
+      "Comic",
+      "Kollision",
+      "Zusammenstoss"
+    ],
+    "tts": [
+      "Zusammenstoss"
+    ]
+  },
+  "🫷": {
+    "default": [
+      "drücken",
+      "High Five",
+      "nach links",
+      "nach links drückende Hand",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach links drückende Hand"
+    ]
+  },
+  "🫸": {
+    "default": [
+      "drücken",
+      "High Five",
+      "nach rechts",
+      "nach rechts drückende Hand",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach rechts drückende Hand"
+    ]
+  },
+  "😳": {
+    "default": [
+      "Erröteter Smiley mit grossen Augen",
+      "Gesicht",
+      "rote Wangen",
+      "überrascht"
+    ],
+    "tts": [
+      "Erröteter Smiley mit grossen Augen"
+    ]
+  },
+  "🍻": {
+    "default": [
+      "anstossen",
+      "Bier",
+      "Bierkrüge"
+    ],
+    "tts": []
+  },
+  "🇨🇻": {
+    "default": [
+      "Flagge",
+      "Flagge: Kapverden"
+    ],
+    "tts": [
+      "Flagge: Kapverden"
+    ]
+  },
+  "🐦‍🔥": {
+    "default": [
+      "Asche",
+      "Donnervogel",
+      "Fantasy",
+      "Feuer",
+      "Feuervogel",
+      "Phönix",
+      "Vogel",
+      "Wiedergeburt"
+    ],
+    "tts": []
+  },
+  "🫗": {
+    "default": [
+      "ausgiessen",
+      "Flüssigkeit ausgiessen",
+      "Getränk",
+      "giessen",
+      "Glas",
+      "leer",
+      "trinken"
+    ],
+    "tts": [
+      "Flüssigkeit ausgiessen"
+    ]
+  },
+  "🫦": {
+    "default": [
+      "Angst",
+      "ängstlich",
+      "Auf Lippe beissen",
+      "besorgt",
+      "flirtend",
+      "nervös",
+      "unbehaglich"
+    ],
+    "tts": [
+      "Auf Lippe beissen"
+    ]
+  },
+  "🅾": {
+    "default": [
+      "0",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstabe O in Quadrat",
+      "negativ",
+      "positiv"
+    ],
+    "tts": [
+      "Grossbuchstabe O in Quadrat"
+    ]
+  },
+  "🛜": {
+    "default": [
+      "Computer",
+      "drahtlos",
+      "Internet",
+      "kabellos",
+      "Netzwerk",
+      "WIFI",
+      "WLAN"
+    ],
+    "tts": [
+      "drahtlos"
+    ]
+  },
+  "🆔": {
+    "default": [
+      "Grossbuchstaben ID in lila Quadrat",
+      "ID"
+    ],
+    "tts": [
+      "Grossbuchstaben ID in lila Quadrat"
+    ]
+  },
+  "🍗": {
+    "default": [
+      "Geflügel",
+      "Poulet",
+      "Pouletschenkel"
+    ],
+    "tts": [
+      "Pouletschenkel"
+    ]
+  },
+  "🇹🇱": {
+    "default": [
+      "Flagge",
+      "Flagge: Osttimor"
+    ],
+    "tts": [
+      "Flagge: Osttimor"
+    ]
+  },
+  "✅": {
+    "default": [
+      "abgehakt",
+      "erledigt",
+      "Weisses Häkchen"
+    ],
+    "tts": [
+      "Weisses Häkchen"
+    ]
+  },
+  "🫡": {
+    "default": [
+      "Aye aye",
+      "Gesicht",
+      "grüssendes Gesicht",
+      "jawohl",
+      "ok",
+      "salutieren",
+      "Truppen"
+    ],
+    "tts": [
+      "grüssendes Gesicht"
+    ]
+  },
+  "🫠": {
+    "default": [
+      "auflösen",
+      "schmelzen",
+      "schmelzendes Gesicht",
+      "verflüssigen",
+      "verschwinden"
+    ],
+    "tts": []
+  },
+  "▫": {
+    "default": [
+      "Kleines weisses Quadrat",
+      "Quadrat",
+      "weiss"
+    ],
+    "tts": [
+      "Kleines weisses Quadrat"
+    ]
+  },
+  "🌶": {
+    "default": [],
+    "tts": [
+      "Chili"
+    ]
+  },
+  "👨‍🦯‍➡": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🧑‍⚕": {
+    "default": [
+      "Arzt",
+      "Arzt/Ärztin",
+      "Gesundheitswesen",
+      "Krankenpfleger",
+      "Krankenpflegerin",
+      "Therapeut"
+    ],
+    "tts": []
+  },
+  "🍡": {
+    "default": [
+      "Dango",
+      "japanisches Gericht",
+      "Mochi-Kugeln auf einem Spiess",
+      "Restaurant"
+    ],
+    "tts": []
+  },
+  "😵‍💫": {
+    "default": [
+      "Gesicht mit Spiralaugen",
+      "Hypnose",
+      "hypnotisiert",
+      "schwindelig",
+      "Spirale",
+      "verwirrt"
+    ],
+    "tts": [
+      "Gesicht mit Spiralaugen"
+    ]
+  },
+  "🚶": {
+    "default": [
+      "Fussgänger(in)",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in)"
+    ]
+  },
+  "🇸🇧": {
+    "default": [
+      "Flagge",
+      "Flagge: Salomon-Inseln"
+    ],
+    "tts": [
+      "Flagge: Salomon-Inseln"
+    ]
+  },
+  "🧑‍🔧": {
+    "default": [
+      "Mechaniker(in)"
+    ],
+    "tts": []
+  },
+  "🩻": {
+    "default": [
+      "Arzt",
+      "Bildgebung",
+      "Knochen",
+      "Röntgen"
+    ],
+    "tts": [
+      "Röntgen"
+    ]
+  },
+  "🚶‍♂‍➡": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger nach rechts",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger nach rechts"
+    ]
+  },
+  "❤‍🔥": {
+    "default": [
+      "brennen",
+      "brennendes Herz",
+      "Feuer",
+      "Herz in Flammen",
+      "Liebe"
+    ],
+    "tts": [
+      "brennendes Herz"
+    ]
+  },
+  "🚶‍♀‍➡": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin nach rechts",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin nach rechts"
+    ]
+  },
+  "⭕": {
+    "default": [
+      "grosser Kreis",
+      "hohler roter Kreis",
+      "Kreis",
+      "o",
+      "rot"
+    ],
+    "tts": []
+  },
+  "🧑‍💼": {
+    "default": [
+      "Architekt",
+      "Büroangestellte(r)",
+      "Business",
+      "Manager"
+    ],
+    "tts": []
+  },
+  "🥵": {
+    "default": [
+      "erhitzt",
+      "Fieber",
+      "heiss",
+      "Hitzschlag",
+      "schwitzen",
+      "schwitzendes Gesicht"
+    ],
+    "tts": []
+  },
+  "🧑‍🦳": {
+    "default": [
+      "erwachsene Person",
+      "geschlechtsneutral",
+      "Mensch",
+      "ohne eindeutiges Geschlecht",
+      "Person",
+      "Person: weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Person: weisses Haar"
+    ]
+  },
+  "🫖": {
+    "default": [
+      "Kanne",
+      "Tee",
+      "Teekanne",
+      "Teekrug",
+      "trinken"
+    ],
+    "tts": [
+      "Teekrug"
+    ]
+  },
+  "👩‍🦳": {
+    "default": [
+      "Frau",
+      "Frau: weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Frau: weisses Haar"
+    ]
+  },
+  "🍭": {
+    "default": [
+      "Lolli",
+      "Lutscher",
+      "Süssigkeit"
+    ],
+    "tts": []
+  },
+  "⛑": {
+    "default": [
+      "Helm",
+      "Helm mit weissem Kreuz",
+      "Hilfe",
+      "Kreuz"
+    ],
+    "tts": [
+      "Helm mit weissem Kreuz"
+    ]
+  },
+  "🛅": {
+    "default": [
+      "Gepäck",
+      "Gepäckaufbewahrung",
+      "Schliessfach"
+    ],
+    "tts": []
+  },
+  "🚶‍➡": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in) nach rechts",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in) nach rechts"
+    ]
+  },
+  "☢": {
+    "default": [
+      "radioaktiv",
+      "Radioaktivität"
+    ],
+    "tts": [
+      "radioaktiv"
+    ]
+  },
+  "🚊": {
+    "default": [
+      "Strassenbahn",
+      "Tram"
+    ],
+    "tts": [
+      "Strassenbahn"
+    ]
+  },
+  "🥸": {
+    "default": [
+      "Brille",
+      "Gesicht",
+      "Gesicht mit Maske",
+      "incognito",
+      "Maske",
+      "Nase"
+    ],
+    "tts": [
+      "Gesicht mit Maske"
+    ]
+  },
+  "🏺": {
+    "default": [
+      "Amphore",
+      "Gefäss",
+      "kochen",
+      "Krug",
+      "Vase",
+      "Wassermann"
+    ],
+    "tts": []
+  },
+  "🦤": {
+    "default": [
+      "Aussterben",
+      "Dodo",
+      "gross",
+      "Mauritius"
+    ],
+    "tts": []
+  },
+  "◽": {
+    "default": [
+      "Mittelkleines weisses Quadrat",
+      "Quadrat",
+      "weiss"
+    ],
+    "tts": [
+      "Mittelkleines weisses Quadrat"
+    ]
+  },
+  "🫚": {
+    "default": [
+      "Ginger Beer",
+      "Ingwer",
+      "Ingwerwurzel",
+      "scharf"
+    ],
+    "tts": [
+      "Ingwerwurzel"
+    ]
+  },
+  "🫧": {
+    "default": [
+      "sauber",
+      "Schaum",
+      "Seife",
+      "Seifenblasen"
+    ],
+    "tts": [
+      "Seifenblasen"
+    ]
+  },
+  "⚽": {
+    "default": [
+      "Ball",
+      "Fussball"
+    ],
+    "tts": [
+      "Fussball"
+    ]
+  },
+  "🪈": {
+    "default": [
+      "Blockflöte",
+      "Flöte",
+      "Holzblasinstrument",
+      "Musik",
+      "Pfeife"
+    ],
+    "tts": []
+  },
+  "🎒": {
+    "default": [
+      "Ranzen",
+      "Rucksack",
+      "Schule",
+      "Schulranzen",
+      "Schulsack",
+      "Tornister"
+    ],
+    "tts": [
+      "Schulsack"
+    ]
+  },
+  "☕": {
+    "default": [
+      "dampfend",
+      "Getränk",
+      "heiss",
+      "Heissgetränk",
+      "Kaffee",
+      "Tee",
+      "trinken"
+    ],
+    "tts": [
+      "Heissgetränk"
+    ]
+  },
+  "🔷": {
+    "default": [
+      "blau",
+      "Grosse blaue Raute",
+      "Raute"
+    ],
+    "tts": [
+      "Grosse blaue Raute"
+    ]
+  },
+  "💐": {
+    "default": [
+      "Blumen",
+      "Blumenstrauss",
+      "Bouquet"
+    ],
+    "tts": [
+      "Blumenstrauss"
+    ]
+  },
+  "🔥": {
+    "default": [
+      "Feuer",
+      "Flamme",
+      "heiss"
+    ],
+    "tts": []
+  },
+  "🧗‍♂": {
+    "default": [
+      "bergsteigen",
+      "Bergsteiger",
+      "Kletterer",
+      "klettern"
+    ],
+    "tts": []
+  },
+  "⚪": {
+    "default": [
+      "Ball",
+      "Grosser weisser Kreis",
+      "Kreis",
+      "weiss"
+    ],
+    "tts": [
+      "Grosser weisser Kreis"
+    ]
+  },
+  "👨‍🦳": {
+    "default": [
+      "Mann",
+      "Mann: weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Mann: weisses Haar"
+    ]
+  },
+  "⛓‍💥": {
+    "default": [
+      "befreien",
+      "Freiheit",
+      "kaputt",
+      "kaputte Kette",
+      "Kette",
+      "losreissen",
+      "reissen"
+    ],
+    "tts": [
+      "kaputte Kette"
+    ]
+  },
+  "🦣": {
+    "default": [
+      "Aussterben",
+      "gross",
+      "Mammut",
+      "Stosszahn",
+      "wollig"
+    ],
+    "tts": []
+  },
+  "➕": {
+    "default": [],
+    "tts": [
+      "Plus"
+    ]
+  },
+  "🛣": {
+    "default": [
+      "Autobahn",
+      "Schnellstrasse"
+    ],
+    "tts": []
+  },
+  "🍝": {
+    "default": [
+      "Nudeln mit Tomatensauce",
+      "Pasta",
+      "Spaghetti"
+    ],
+    "tts": []
+  },
+  "🧑‍🦯‍➡": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock",
+      "Person mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "👣": {
+    "default": [
+      "Abdruck",
+      "Fussabdruck",
+      "Fussabdrücke"
+    ],
+    "tts": [
+      "Fussabdrücke"
+    ]
+  },
+  "🪠": {
+    "default": [
+      "Klempner",
+      "Pümpel",
+      "Sanitär",
+      "Saugglocke",
+      "WC"
+    ],
+    "tts": []
+  },
+  "🥌": {
+    "default": [
+      "Curlingstein"
+    ],
+    "tts": []
+  },
+  "🪪": {
+    "default": [
+      "Ausweis",
+      "Fahrausweis",
+      "ID"
+    ],
+    "tts": [
+      "ID"
+    ]
+  },
+  "🧑‍🔬": {
+    "default": [
+      "Wissenschaftler(in)"
+    ],
+    "tts": []
+  },
+  "🌌": {
+    "default": [
+      "Galaxie",
+      "Milchstrasse"
+    ],
+    "tts": [
+      "Milchstrasse"
+    ]
+  },
+  "👽": {
+    "default": [
+      "Alien",
+      "Ausserirdischer",
+      "Ausserirdisches Wesen",
+      "Gesicht",
+      "UFO"
+    ],
+    "tts": [
+      "Ausserirdisches Wesen"
+    ]
+  },
+  "😰": {
+    "default": [
+      "Gesicht",
+      "kalter Schweiss",
+      "offener Mund",
+      "Smiley mit offenem Mund und kaltem Schweiss"
+    ],
+    "tts": [
+      "Smiley mit offenem Mund und kaltem Schweiss"
+    ]
+  },
+  "🐻‍❄": {
+    "default": [
+      "Arktis",
+      "Eisbär",
+      "Nordpol",
+      "weiss"
+    ],
+    "tts": []
+  },
+  "💦": {
+    "default": [
+      "Comic",
+      "Schweiss",
+      "Schweisstropfen"
+    ],
+    "tts": [
+      "Schweisstropfen"
+    ]
+  },
+  "🫑": {
+    "default": [
+      "Gemüse",
+      "Paprika",
+      "Peperoni"
+    ],
+    "tts": [
+      "Peperoni"
+    ]
+  },
+  "😅": {
+    "default": [
+      "Gesicht",
+      "Lachender Smiley mit kaltem Schweiss",
+      "lustig",
+      "Schweiss",
+      "schwitzen"
+    ],
+    "tts": [
+      "Lachender Smiley mit kaltem Schweiss"
+    ]
+  },
+  "💇": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Frisur",
+      "Person beim Haareschneiden"
+    ],
+    "tts": []
+  },
+  "📆": {
+    "default": [
+      "Abreisskalender",
+      "Kalender"
+    ],
+    "tts": [
+      "Abreisskalender"
+    ]
+  },
+  "😥": {
+    "default": [
+      "enttäuscht",
+      "erleichtert",
+      "Gesicht",
+      "Schweiss",
+      "trauriges aber erleichtertes Gesicht"
+    ],
+    "tts": []
+  },
+  "🅱": {
+    "default": [
+      "b",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstabe B in Quadrat",
+      "negativ",
+      "positiv"
+    ],
+    "tts": [
+      "Grossbuchstabe B in Quadrat"
+    ]
+  },
+  "🍄‍🟫": {
+    "default": [
+      "braun",
+      "brauner Pilz",
+      "Gemüse",
+      "Natur",
+      "Pilz",
+      "Wald"
+    ],
+    "tts": []
+  },
+  "🏳‍⚧": {
+    "default": [
+      "Flagge",
+      "hellblau",
+      "pink",
+      "Transgender",
+      "Transgenderflagge",
+      "weiss"
+    ],
+    "tts": [
+      "Transgenderflagge"
+    ]
+  },
+  "😃": {
+    "default": [
+      "Gesicht",
+      "grinsendes Gesicht mit grossen Augen",
+      "lol",
+      "lustig"
+    ],
+    "tts": [
+      "grinsendes Gesicht mit grossen Augen"
+    ]
+  },
+  "🖖": {
+    "default": [
+      "Finger",
+      "Hand",
+      "Spock",
+      "Vulkanier(in)",
+      "vulkanisch",
+      "Vulkanischer Gruss"
+    ],
+    "tts": [
+      "Vulkanischer Gruss"
+    ]
+  },
+  "🙏": {
+    "default": [
+      "beten",
+      "betende Hände",
+      "bitten",
+      "danken",
+      "Gebet",
+      "grüssen",
+      "zusammengelegte Handflächen"
+    ],
+    "tts": []
+  },
+  "👨‍🦯": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock"
+    ],
+    "tts": []
+  },
+  "🇿🇼": {
+    "default": [
+      "Flagge",
+      "Flagge: Zimbabwe"
+    ],
+    "tts": [
+      "Flagge: Zimbabwe"
+    ]
+  },
+  "🔎": {
+    "default": [
+      "Lupe nach rechts",
+      "Suche",
+      "Vergrösserungsglas"
+    ],
+    "tts": []
+  },
+  "👩‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiterin",
+      "industriell",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "⚫": {
+    "default": [
+      "Ball",
+      "Grosser schwarzer Kreis",
+      "Kreis",
+      "schwarz"
+    ],
+    "tts": [
+      "Grosser schwarzer Kreis"
+    ]
+  },
+  "🚸": {
+    "default": [
+      "Kinder",
+      "Kinder-queren-die-Strasse-Schild",
+      "Vorsicht"
+    ],
+    "tts": [
+      "Kinder-queren-die-Strasse-Schild"
+    ]
+  },
+  "🚶‍♀": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin"
+    ]
+  },
+  "📌": {
+    "default": [
+      "anpinnen",
+      "Reisszwecke"
+    ],
+    "tts": [
+      "Reisszwecke"
+    ]
+  },
+  "💇‍♀": {
+    "default": [
+      "Coiffeur",
+      "Frau",
+      "Frau beim Haareschneiden",
+      "Friseur",
+      "Haarschnitt",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "✂": {
+    "default": [
+      "basteln",
+      "Schere",
+      "schneiden"
+    ],
+    "tts": []
+  },
+  "🥂": {
+    "default": [
+      "anstossen",
+      "Champagner",
+      "feiern",
+      "Getränk",
+      "Sekt",
+      "Sektgläser"
+    ],
+    "tts": []
+  },
+  "📍": {
+    "default": [
+      "anpinnen",
+      "Reisszwecke",
+      "rund",
+      "runde Reisszwecke"
+    ],
+    "tts": [
+      "runde Reisszwecke"
+    ]
+  },
+  "🤪": {
+    "default": [
+      "Auge",
+      "gross",
+      "irres Gesicht",
+      "klein"
+    ],
+    "tts": []
+  },
+  "➖": {
+    "default": [],
+    "tts": [
+      "Minus"
+    ]
+  },
+  "🥽": {
+    "default": [
+      "Augenschutz",
+      "Schutzbrille",
+      "Schweissen",
+      "Schwimmen"
+    ],
+    "tts": []
+  },
+  "🆚": {
+    "default": [
+      "Grossbuchstaben VS in orangefarbenem Quadrat",
+      "versus",
+      "VS"
+    ],
+    "tts": [
+      "Grossbuchstaben VS in orangefarbenem Quadrat"
+    ]
+  },
+  "💇‍♂": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Haarschnitt",
+      "Mann",
+      "Mann beim Haareschneiden",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "🔵": {
+    "default": [
+      "Ball",
+      "blau",
+      "Grosser blauer Kreis",
+      "Kreis"
+    ],
+    "tts": [
+      "Grosser blauer Kreis"
+    ]
+  },
+  "🪮": {
+    "default": [
+      "Afro Pick",
+      "Kamm",
+      "kämmen"
+    ],
+    "tts": [
+      "Afro Pick"
+    ]
+  },
+  "🧗‍♀": {
+    "default": [
+      "bergsteigen",
+      "Bergsteigerin",
+      "Kletterin",
+      "klettern"
+    ],
+    "tts": []
+  },
+  "🍋‍🟩": {
+    "default": [
+      "Frucht",
+      "Limette",
+      "sauer",
+      "tropisch",
+      "Zitrusfrucht"
+    ],
+    "tts": []
+  },
+  "🩷": {
+    "default": [
+      "flirten",
+      "Herz",
+      "pink",
+      "pinkes Herz",
+      "süss",
+      "verliebt"
+    ],
+    "tts": []
+  },
+  "🧟‍♂": {
+    "default": [
+      "Zombiemann"
+    ],
+    "tts": [
+      "Zombiemann"
+    ]
+  },
+  "❕": {
+    "default": [
+      "Satzzeichen",
+      "weiss",
+      "weisses Ausrufezeichen"
+    ],
+    "tts": [
+      "weisses Ausrufezeichen"
+    ]
+  },
+  "➰": {
+    "default": [
+      "Looping",
+      "Schleife"
+    ],
+    "tts": []
+  },
+  "🚼": {
+    "default": [
+      "Baby-Symbol",
+      "Symbol „Baby“",
+      "Wickelraum"
+    ],
+    "tts": []
+  },
+  "🆖": {
+    "default": [
+      "Grossbuchstaben NG in blauem Quadrat",
+      "NG"
+    ],
+    "tts": [
+      "Grossbuchstaben NG in blauem Quadrat"
+    ]
+  }
+}

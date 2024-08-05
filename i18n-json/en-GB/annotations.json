@@ -1,0 +1,121 @@
+{
+  "🤶": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "claus",
+      "mother",
+      "Mrs"
+    ],
+    "tts": [
+      "Mrs Claus"
+    ]
+  },
+  "🧑‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "👩‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🛷": {
+    "default": [],
+    "tts": [
+      "sledge"
+    ]
+  },
+  "😷": {
+    "default": [
+      "cold",
+      "doctor",
+      "face with medical mask",
+      "ill",
+      "medicine",
+      "poorly",
+      "sick"
+    ],
+    "tts": []
+  },
+  "🫚": {
+    "default": [
+      "beer",
+      "ginger root",
+      "root",
+      "root ginger",
+      "spice"
+    ],
+    "tts": [
+      "root ginger"
+    ]
+  },
+  "🤴": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "prince"
+    ],
+    "tts": []
+  },
+  "👨‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man"
+    ],
+    "tts": []
+  },
+  "⁉": {
+    "default": [
+      "!",
+      "!?",
+      "?",
+      "exclamation question mark",
+      "interrobang",
+      "punctuation",
+      "question"
+    ],
+    "tts": []
+  },
+  "🧑‍🌾": {
+    "default": [
+      "farmer",
+      "gardener"
+    ],
+    "tts": []
+  },
+  "🧑‍🦼": {
+    "default": [
+      "accessibility",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "👨‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "man"
+    ],
+    "tts": []
+  },
+  "👩‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "woman"
+    ],
+    "tts": []
+  }
+}
