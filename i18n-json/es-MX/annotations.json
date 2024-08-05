@@ -1,0 +1,6721 @@
+{
+  "🦚": {
+    "default": [
+      "ave",
+      "orgullo",
+      "ostentación",
+      "pavo",
+      "pavo real"
+    ],
+    "tts": []
+  },
+  "😩": {
+    "default": [
+      "agotado",
+      "cansado",
+      "cara",
+      "cara agotada",
+      "cara de cansancio",
+      "exhausto"
+    ],
+    "tts": [
+      "cara agotada"
+    ]
+  },
+  "❇": {
+    "default": [
+      "chispa"
+    ],
+    "tts": []
+  },
+  "🍋‍🟩": {
+    "default": [
+      "lima"
+    ],
+    "tts": []
+  },
+  "😄": {
+    "default": [
+      "boca abierta",
+      "cara sonriendo con ojos sonrientes",
+      "divertido",
+      "risa",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara sonriendo con ojos sonrientes"
+    ]
+  },
+  "🏬": {
+    "default": [
+      "tienda departamental"
+    ],
+    "tts": [
+      "tienda departamental"
+    ]
+  },
+  "🫑": {
+    "default": [
+      "pimiento morrón"
+    ],
+    "tts": [
+      "pimiento morrón"
+    ]
+  },
+  "🍍": {
+    "default": [
+      "piña"
+    ],
+    "tts": []
+  },
+  "🌖": {
+    "default": [
+      "espacio",
+      "fase lunar",
+      "gibosa",
+      "luna",
+      "menguante"
+    ],
+    "tts": []
+  },
+  "👾": {
+    "default": [
+      "cara",
+      "extraterrestre",
+      "monstruo alienígena",
+      "ovni"
+    ],
+    "tts": [
+      "monstruo alienígena"
+    ]
+  },
+  "🥑": {
+    "default": [
+      "aguacate"
+    ],
+    "tts": []
+  },
+  "📥": {
+    "default": [
+      "bandeja de entrada",
+      "comunicación",
+      "correo",
+      "entrada",
+      "entrante",
+      "recibidos"
+    ],
+    "tts": []
+  },
+  "🪣": {
+    "default": [
+      "balde"
+    ],
+    "tts": [
+      "balde"
+    ]
+  },
+  "🚞": {
+    "default": [
+      "ferrocarril",
+      "ferrocarril de montaña",
+      "montaña",
+      "transporte",
+      "tren",
+      "viajar"
+    ],
+    "tts": []
+  },
+  "🐲": {
+    "default": [
+      "animal",
+      "cara de dragón",
+      "cuento",
+      "dragón",
+      "fantasía"
+    ],
+    "tts": []
+  },
+  "🐓": {
+    "default": [
+      "animal",
+      "ave",
+      "gallo"
+    ],
+    "tts": []
+  },
+  "🗨": {
+    "default": [
+      "burbuja",
+      "cómics",
+      "diálogo",
+      "globo",
+      "globo de diálogo izquierdo"
+    ],
+    "tts": []
+  },
+  "©": {
+    "default": [
+      "autor",
+      "copyright",
+      "derechos",
+      "signo de derechos autor",
+      "símbolo de derechos de autor"
+    ],
+    "tts": [
+      "símbolo de derechos de autor"
+    ]
+  },
+  "🐗": {
+    "default": [
+      "animal",
+      "jabalí"
+    ],
+    "tts": []
+  },
+  "😀": {
+    "default": [
+      "cara",
+      "cara sonriendo",
+      "contento",
+      "divertido",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara sonriendo"
+    ]
+  },
+  "🐰": {
+    "default": [
+      "cara",
+      "cara de conejo",
+      "conejo"
+    ],
+    "tts": []
+  },
+  "➗": {
+    "default": [],
+    "tts": [
+      "signo de división"
+    ]
+  },
+  "🕸": {
+    "default": [
+      "araña",
+      "telaraña"
+    ],
+    "tts": []
+  },
+  "🛏": {
+    "default": [
+      "cama",
+      "dormir",
+      "habitación",
+      "hotel",
+      "recámara"
+    ],
+    "tts": []
+  },
+  "💨": {
+    "default": [
+      "correr",
+      "corriendo",
+      "emoción",
+      "escapar",
+      "huir",
+      "salir corriendo"
+    ],
+    "tts": []
+  },
+  "✊": {
+    "default": [
+      "cerrada",
+      "mano",
+      "piedra",
+      "puño",
+      "puño en alto",
+      "puño levantado"
+    ],
+    "tts": [
+      "puño en alto"
+    ]
+  },
+  "🐚": {
+    "default": [
+      "caracol marino"
+    ],
+    "tts": [
+      "caracol marino"
+    ]
+  },
+  "👨‍👨‍👧‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, hombre, niña, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niña",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🏞": {
+    "default": [
+      "atracción",
+      "naturaleza",
+      "parque",
+      "parque nacional",
+      "vacaciones"
+    ],
+    "tts": []
+  },
+  "🧥": {
+    "default": [
+      "abrigo",
+      "chamarra",
+      "vestimenta"
+    ],
+    "tts": []
+  },
+  "⛺": {
+    "default": [
+      "casa de campaña"
+    ],
+    "tts": [
+      "casa de campaña"
+    ]
+  },
+  "🥺": {
+    "default": [
+      "cara de por favor",
+      "cara de súplica",
+      "implorar",
+      "ojos adorables",
+      "piedad",
+      "por favor"
+    ],
+    "tts": [
+      "cara de súplica"
+    ]
+  },
+  "🥪": {
+    "default": [
+      "sándwich"
+    ],
+    "tts": []
+  },
+  "🎩": {
+    "default": [
+      "caballero",
+      "copa",
+      "galera",
+      "sombrero",
+      "sombrero de copa"
+    ],
+    "tts": [
+      "sombrero de copa"
+    ]
+  },
+  "😮": {
+    "default": [
+      "cara con boca abierta",
+      "cara con la boca abierta",
+      "empatía",
+      "sorpresa"
+    ],
+    "tts": []
+  },
+  "🐙": {
+    "default": [
+      "animal",
+      "pulpo",
+      "tentáculos"
+    ],
+    "tts": []
+  },
+  "💔": {
+    "default": [
+      "corazón",
+      "mal",
+      "roto",
+      "sufrir",
+      "triste"
+    ],
+    "tts": []
+  },
+  "🧛": {
+    "default": [
+      "drácula",
+      "muerto viviente",
+      "vampiro"
+    ],
+    "tts": []
+  },
+  "🎪": {
+    "default": [
+      "carpa",
+      "circo",
+      "entretenimiento",
+      "espectáculo artístico",
+      "show de circo"
+    ],
+    "tts": []
+  },
+  "🧑‍🏭": {
+    "default": [
+      "obrero de fábrica"
+    ],
+    "tts": [
+      "obrero de fábrica"
+    ]
+  },
+  "🪴": {
+    "default": [
+      "planta en una maceta"
+    ],
+    "tts": [
+      "planta en una maceta"
+    ]
+  },
+  "🚓": {
+    "default": [
+      "auto",
+      "auto de policía",
+      "patrulla",
+      "policía",
+      "transporte"
+    ],
+    "tts": []
+  },
+  "👨‍👨‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, hombre, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🙆": {
+    "default": [
+      "bien",
+      "gesto",
+      "ok",
+      "persona gesto de \"de acuerdo\"",
+      "persona haciendo el gesto de \"de acuerdo\""
+    ],
+    "tts": [
+      "persona haciendo el gesto de \"de acuerdo\""
+    ]
+  },
+  "🦡": {
+    "default": [
+      "tejón",
+      "tejón de la miel"
+    ],
+    "tts": []
+  },
+  "🪰": {
+    "default": [
+      "mosca"
+    ],
+    "tts": []
+  },
+  "⛅": {
+    "default": [
+      "nubes",
+      "nublado",
+      "parcialmente nublado",
+      "sol",
+      "tiempo"
+    ],
+    "tts": []
+  },
+  "📻": {
+    "default": [
+      "comunicación",
+      "estación de radio",
+      "música",
+      "noticias",
+      "radio"
+    ],
+    "tts": []
+  },
+  "📲": {
+    "default": [
+      "flecha apuntado a teléfono celular"
+    ],
+    "tts": [
+      "flecha apuntado a teléfono celular"
+    ]
+  },
+  "🛗": {
+    "default": [
+      "ascensor"
+    ],
+    "tts": []
+  },
+  "🌑": {
+    "default": [
+      "espacio",
+      "fase lunar",
+      "luna",
+      "luna nueva",
+      "negra",
+      "nuev"
+    ],
+    "tts": []
+  },
+  "🥧": {
+    "default": [
+      "pay"
+    ],
+    "tts": [
+      "pay"
+    ]
+  },
+  "🔰": {
+    "default": [
+      "bandera",
+      "hoja",
+      "japonés",
+      "principiante",
+      "símbolo japonés de principiante"
+    ],
+    "tts": []
+  },
+  "🧾": {
+    "default": [
+      "contabilidad",
+      "contaduría",
+      "evidencia",
+      "recibo"
+    ],
+    "tts": []
+  },
+  "🍠": {
+    "default": [
+      "asada",
+      "batata",
+      "comida",
+      "planta",
+      "tubérculo"
+    ],
+    "tts": []
+  },
+  "👩‍⚕": {
+    "default": [
+      "doctora",
+      "enfermera",
+      "médica",
+      "profesional sanitario mujer"
+    ],
+    "tts": []
+  },
+  "🦍": {
+    "default": [
+      "cara",
+      "gorila"
+    ],
+    "tts": []
+  },
+  "👨‍❤‍👨": {
+    "default": [
+      "hombre",
+      "hombre y mujer enamorados",
+      "hombre y mujer enamorados: hombre y hombre"
+    ],
+    "tts": [
+      "hombre y mujer enamorados: hombre y hombre"
+    ]
+  },
+  "🧣": {
+    "default": [
+      "bufanda",
+      "cuello",
+      "vestimenta"
+    ],
+    "tts": []
+  },
+  "🍡": {
+    "default": [
+      "brocheta",
+      "comida",
+      "dango",
+      "dulce",
+      "japonesa"
+    ],
+    "tts": []
+  },
+  "🍪": {
+    "default": [
+      "dulce",
+      "galleta",
+      "postre"
+    ],
+    "tts": []
+  },
+  "😺": {
+    "default": [
+      "abierta",
+      "boca",
+      "cara",
+      "cara de gato sonriendo",
+      "gato"
+    ],
+    "tts": [
+      "cara de gato sonriendo"
+    ]
+  },
+  "🫦": {
+    "default": [
+      "ansiedad",
+      "coquetería",
+      "incomodidad",
+      "miedo",
+      "mordiendo el labio",
+      "nerviosismo",
+      "preocupación"
+    ],
+    "tts": [
+      "mordiendo el labio"
+    ]
+  },
+  "✈": {
+    "default": [
+      "aire",
+      "avión",
+      "transporte",
+      "viajar",
+      "viaje",
+      "volar"
+    ],
+    "tts": []
+  },
+  "🎦": {
+    "default": [
+      "botón",
+      "cámara",
+      "cine",
+      "filmar",
+      "grabar"
+    ],
+    "tts": []
+  },
+  "👨‍❤‍💋‍👨": {
+    "default": [
+      "beso",
+      "beso: hombre y hombre",
+      "hombre",
+      "pareja",
+      "pareja besándose",
+      "personas",
+      "romance",
+      "romántico"
+    ],
+    "tts": [
+      "beso: hombre y hombre"
+    ]
+  },
+  "🌯": {
+    "default": [
+      "burrito",
+      "comida",
+      "comida mexicana"
+    ],
+    "tts": []
+  },
+  "🦸‍♀": {
+    "default": [
+      "bien",
+      "héroe",
+      "heroína",
+      "mujer",
+      "mujer superheroína",
+      "superpoder"
+    ],
+    "tts": [
+      "mujer superheroína"
+    ]
+  },
+  "🌗": {
+    "default": [
+      "cuarto",
+      "espacio",
+      "fase lunar",
+      "luna",
+      "luna en cuarto menguante",
+      "menguante"
+    ],
+    "tts": []
+  },
+  "😾": {
+    "default": [
+      "cara",
+      "cara de gato enfadado",
+      "enfadado",
+      "enojado",
+      "gato"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👧‍👧": {
+    "default": [
+      "familia",
+      "familia: hombre, mujer, niña, niña",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "mujer",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "👷‍♀": {
+    "default": [
+      "albañila",
+      "construcción",
+      "mujer",
+      "obrera",
+      "obrera de construcción",
+      "profesional de la construcción mujer",
+      "trabajadora"
+    ],
+    "tts": [
+      "obrera de construcción"
+    ]
+  },
+  "🧑‍🎓": {
+    "default": [
+      "estudiante"
+    ],
+    "tts": []
+  },
+  "🧑‍🎤": {
+    "default": [
+      "cantante"
+    ],
+    "tts": []
+  },
+  "🎅": {
+    "default": [
+      "claus",
+      "Navidad",
+      "noel",
+      "papá",
+      "santa"
+    ],
+    "tts": []
+  },
+  "🔳": {
+    "default": [
+      "borde",
+      "botón",
+      "cuadrado",
+      "cuadrado negro con borde blanco",
+      "marco"
+    ],
+    "tts": []
+  },
+  "🧒": {
+    "default": [],
+    "tts": [
+      "joven"
+    ]
+  },
+  "👨‍👨‍👦‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, hombre, niño, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👦‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, mujer, niño, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "mujer",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🐦‍🔥": {
+    "default": [
+      "fénix"
+    ],
+    "tts": []
+  },
+  "🚣‍♂": {
+    "default": [
+      "hombre remando"
+    ],
+    "tts": [
+      "hombre remando"
+    ]
+  },
+  "🫁": {
+    "default": [
+      "aliento",
+      "exhalación",
+      "inhalación",
+      "órgano",
+      "pulmones",
+      "respiración"
+    ],
+    "tts": []
+  },
+  "🎏": {
+    "default": [
+      "bandera",
+      "banderín",
+      "banderín con forma de carpa",
+      "celebración",
+      "festejo",
+      "japonés",
+      "koinobori"
+    ],
+    "tts": [
+      "koinobori"
+    ]
+  },
+  "🍾": {
+    "default": [
+      "botella",
+      "botella descorchada",
+      "celebrar",
+      "champán",
+      "champaña",
+      "festejar"
+    ],
+    "tts": []
+  },
+  "🥁": {
+    "default": [
+      "baquetas",
+      "música",
+      "palitos",
+      "tambor"
+    ],
+    "tts": []
+  },
+  "🐔": {
+    "default": [
+      "gallina"
+    ],
+    "tts": []
+  },
+  "🔯": {
+    "default": [
+      "David",
+      "estrella de David",
+      "estrella de seis puntas",
+      "hexagrama"
+    ],
+    "tts": []
+  },
+  "🧑‍🍳": {
+    "default": [
+      "cocinero"
+    ],
+    "tts": [
+      "cocinero"
+    ]
+  },
+  "⏭": {
+    "default": [
+      "avanzar",
+      "avanzar a la pista siguiente",
+      "botón",
+      "música",
+      "siguiente"
+    ],
+    "tts": []
+  },
+  "⛽": {
+    "default": [
+      "dispensador",
+      "estación de gasolina",
+      "gasolina",
+      "nafta",
+      "surtidor"
+    ],
+    "tts": []
+  },
+  "3⃣": {
+    "default": [
+      "tecla",
+      "tecla: 3"
+    ],
+    "tts": [
+      "tecla: 3"
+    ]
+  },
+  "🥋": {
+    "default": [
+      "artes marciales",
+      "judo",
+      "karate",
+      "taekwondo",
+      "uniforme",
+      "uniforme de artes marciales"
+    ],
+    "tts": []
+  },
+  "🈷": {
+    "default": [
+      "\"cantidad mensual\" en japonés",
+      "ideograma",
+      "japonés",
+      "mensual"
+    ],
+    "tts": [
+      "\"cantidad mensual\" en japonés"
+    ]
+  },
+  "🧑‍🎄": {
+    "default": [
+      "Claus",
+      "Navidad",
+      "papá noel",
+      "Santa Claus"
+    ],
+    "tts": []
+  },
+  "🪘": {
+    "default": [
+      "tamboril"
+    ],
+    "tts": []
+  },
+  "👩‍❤‍👩": {
+    "default": [
+      "hombre y mujer enamorados",
+      "hombre y mujer enamorados: mujer y mujer",
+      "mujer"
+    ],
+    "tts": [
+      "hombre y mujer enamorados: mujer y mujer"
+    ]
+  },
+  "👨‍👩‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, mujer, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "mujer",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🐏": {
+    "default": [
+      "animal",
+      "aries",
+      "carnero"
+    ],
+    "tts": []
+  },
+  "🧦": {
+    "default": [
+      "calcetines",
+      "pies",
+      "ropa",
+      "vestimenta"
+    ],
+    "tts": []
+  },
+  "🧋": {
+    "default": [
+      "té de burbujas"
+    ],
+    "tts": []
+  },
+  "💇": {
+    "default": [
+      "belleza",
+      "corte",
+      "pelo",
+      "peluquero",
+      "persona cortándose el pelo"
+    ],
+    "tts": [
+      "persona cortándose el pelo"
+    ]
+  },
+  "👹": {
+    "default": [
+      "demonio japonés oni",
+      "fantasía",
+      "japonés",
+      "ogro",
+      "oni"
+    ],
+    "tts": [
+      "demonio japonés oni"
+    ]
+  },
+  "🏋": {
+    "default": [
+      "fisicoculturismo",
+      "gimnasio",
+      "gym",
+      "halterofilia",
+      "persona levantando pesas",
+      "pesas"
+    ],
+    "tts": []
+  },
+  "🪶": {
+    "default": [
+      "pluma"
+    ],
+    "tts": []
+  },
+  "🚅": {
+    "default": [
+      "bala",
+      "ferrocarril",
+      "rápido",
+      "tren",
+      "velocidad"
+    ],
+    "tts": []
+  },
+  "🥰": {
+    "default": [
+      "adoración",
+      "cara sonriendo con corazones",
+      "corazones",
+      "enamoramiento",
+      "flechazo"
+    ],
+    "tts": []
+  },
+  "🧺": {
+    "default": [
+      "campesino",
+      "canasta",
+      "lavar la ropa",
+      "picnic"
+    ],
+    "tts": [
+      "canasta"
+    ]
+  },
+  "😦": {
+    "default": [
+      "abierta",
+      "boca",
+      "cara",
+      "cara con el ceño fruncido y la boca abierta"
+    ],
+    "tts": [
+      "cara con el ceño fruncido y la boca abierta"
+    ]
+  },
+  "🍤": {
+    "default": [
+      "camarones",
+      "camarones fritos",
+      "comida",
+      "japonesa",
+      "tempura"
+    ],
+    "tts": []
+  },
+  "👈": {
+    "default": [
+      "apuntar",
+      "dedo",
+      "dorso",
+      "índice",
+      "índice hacia la izquierda",
+      "mano apuntando índice a la izquierda",
+      "mano con dedo índice hacia la izquierda"
+    ],
+    "tts": [
+      "mano apuntando índice a la izquierda"
+    ]
+  },
+  "🛹": {
+    "default": [],
+    "tts": [
+      "patineta"
+    ]
+  },
+  "🍧": {
+    "default": [
+      "dulce",
+      "frío",
+      "helado",
+      "hielo",
+      "hielo molido"
+    ],
+    "tts": []
+  },
+  "👩‍❤‍💋‍👩": {
+    "default": [
+      "beso",
+      "beso: mujer y mujer",
+      "mujer",
+      "pareja",
+      "pareja besándose",
+      "personas",
+      "romance",
+      "romántico"
+    ],
+    "tts": [
+      "beso: mujer y mujer"
+    ]
+  },
+  "➕": {
+    "default": [
+      "+",
+      "más",
+      "signo",
+      "signo de suma",
+      "suma"
+    ],
+    "tts": []
+  },
+  "👁‍🗨": {
+    "default": [
+      "ojo en un globo de texto"
+    ],
+    "tts": [
+      "ojo en un globo de texto"
+    ]
+  },
+  "🔇": {
+    "default": [
+      "bocina selenciada",
+      "bocina silenciada",
+      "silencio",
+      "sin volumen"
+    ],
+    "tts": [
+      "bocina silenciada"
+    ]
+  },
+  "🪝": {
+    "default": [
+      "gancho"
+    ],
+    "tts": []
+  },
+  "🧟‍♀": {
+    "default": [
+      "muerta viviente",
+      "zombi hombre",
+      "zombi mujer"
+    ],
+    "tts": []
+  },
+  "🚀": {
+    "default": [
+      "cohete",
+      "espacial",
+      "espacio"
+    ],
+    "tts": []
+  },
+  "💢": {
+    "default": [
+      "cómics",
+      "emoción",
+      "señal de enojo",
+      "símbolo de enfado"
+    ],
+    "tts": [
+      "símbolo de enfado"
+    ]
+  },
+  "🧑‍💼": {
+    "default": [
+      "oficinista"
+    ],
+    "tts": []
+  },
+  "⛹": {
+    "default": [
+      "básquet",
+      "deporte",
+      "pelota",
+      "persona",
+      "persona botando un balón",
+      "persona con una pelota"
+    ],
+    "tts": [
+      "persona botando un balón"
+    ]
+  },
+  "🍌": {
+    "default": [
+      "plátano"
+    ],
+    "tts": [
+      "plátano"
+    ]
+  },
+  "🎻": {
+    "default": [
+      "instrumento",
+      "música",
+      "violín"
+    ],
+    "tts": []
+  },
+  "🤸‍♀": {
+    "default": [
+      "mujer haciendo una vuelta de carro"
+    ],
+    "tts": [
+      "mujer haciendo una vuelta de carro"
+    ]
+  },
+  "🐬": {
+    "default": [
+      "animal",
+      "delfín"
+    ],
+    "tts": []
+  },
+  "🥡": {
+    "default": [
+      "caja para llevar",
+      "comida para llevar",
+      "recipiente para llevar"
+    ],
+    "tts": []
+  },
+  "🦸": {
+    "default": [
+      "bien",
+      "héroe",
+      "heroína",
+      "superheroína",
+      "superpoder"
+    ],
+    "tts": [
+      "superheroína"
+    ]
+  },
+  "🍲": {
+    "default": [
+      "comida",
+      "estofado",
+      "guisado",
+      "guiso",
+      "olla",
+      "olla de comida"
+    ],
+    "tts": []
+  },
+  "🖐": {
+    "default": [
+      "dedos",
+      "mano",
+      "mano abierta",
+      "palma de la mano"
+    ],
+    "tts": []
+  },
+  "㊗": {
+    "default": [
+      "enhorabuena",
+      "felicidades",
+      "ideograma",
+      "ideograma japonés para \"enhorabuena\"",
+      "japonés",
+      "kanji"
+    ],
+    "tts": []
+  },
+  "👿": {
+    "default": [
+      "cara",
+      "cara enfadada con cuernos",
+      "cara malvada enfadada con cuernos",
+      "diablo",
+      "fantasía"
+    ],
+    "tts": [
+      "cara malvada enfadada con cuernos"
+    ]
+  },
+  "📨": {
+    "default": [
+      "carta",
+      "correo electrónico",
+      "mensaje",
+      "mensaje entrante",
+      "recibido",
+      "sobre"
+    ],
+    "tts": []
+  },
+  "👨‍⚕": {
+    "default": [
+      "doctor",
+      "enfermero",
+      "médico",
+      "profesional sanitario hombre"
+    ],
+    "tts": []
+  },
+  "🧻": {
+    "default": [
+      "papel higiénico",
+      "rollo de papel",
+      "toallas de papel"
+    ],
+    "tts": []
+  },
+  "🛴": {
+    "default": [
+      "patín del diablo"
+    ],
+    "tts": [
+      "patín del diablo"
+    ]
+  },
+  "🚿": {
+    "default": [
+      "regadera"
+    ],
+    "tts": [
+      "regadera"
+    ]
+  },
+  "⛪": {
+    "default": [
+      "cristianismo",
+      "edificio",
+      "iglesia",
+      "religión"
+    ],
+    "tts": []
+  },
+  "🧤": {
+    "default": [
+      "guantes",
+      "mano",
+      "vestimenta"
+    ],
+    "tts": []
+  },
+  "🧴": {
+    "default": [
+      "botella de loción",
+      "champú",
+      "humectante",
+      "loción",
+      "protector solar"
+    ],
+    "tts": [
+      "botella de loción"
+    ]
+  },
+  "🏀": {
+    "default": [
+      "básquet",
+      "básquetbol",
+      "deporte",
+      "pelota",
+      "pelota de básquet"
+    ],
+    "tts": []
+  },
+  "👱‍♀": {
+    "default": [
+      "cara",
+      "güera",
+      "mujer",
+      "mujer rubia"
+    ],
+    "tts": []
+  },
+  "🥣": {
+    "default": [
+      "tazón con cuchara"
+    ],
+    "tts": [
+      "tazón con cuchara"
+    ]
+  },
+  "🍊": {
+    "default": [
+      "cítrico",
+      "fruta",
+      "mandarina"
+    ],
+    "tts": []
+  },
+  "🥷": {
+    "default": [
+      "luchador",
+      "ninja",
+      "oculto",
+      "silencioso"
+    ],
+    "tts": []
+  },
+  "🥮": {
+    "default": [
+      "festival",
+      "otoño",
+      "pastel de luna",
+      "yuebing"
+    ],
+    "tts": []
+  },
+  "🌔": {
+    "default": [
+      "creciente",
+      "espacio",
+      "fase lunar",
+      "gibosa",
+      "luna"
+    ],
+    "tts": []
+  },
+  "🚩": {
+    "default": [
+      "banderín triangular"
+    ],
+    "tts": [
+      "banderín triangular"
+    ]
+  },
+  "🚂": {
+    "default": [
+      "locomotora"
+    ],
+    "tts": [
+      "locomotora"
+    ]
+  },
+  "🕶": {
+    "default": [
+      "lentes de sol",
+      "lentes oscuros",
+      "sol"
+    ],
+    "tts": [
+      "lentes de sol"
+    ]
+  },
+  "❤": {
+    "default": [
+      "amor",
+      "corazón",
+      "emoción",
+      "rojo"
+    ],
+    "tts": []
+  },
+  "🥾": {
+    "default": [
+      "acampar",
+      "bota",
+      "botas de excursión",
+      "excursión",
+      "senderismo"
+    ],
+    "tts": [
+      "botas de excursión"
+    ]
+  },
+  "🍢": {
+    "default": [
+      "brocheta de mariscos",
+      "brochetas",
+      "brochettes",
+      "comida",
+      "mariscos"
+    ],
+    "tts": []
+  },
+  "🕋": {
+    "default": [
+      "edificio",
+      "El Cubo",
+      "islam",
+      "Kaaba",
+      "musulmán",
+      "religión"
+    ],
+    "tts": []
+  },
+  "🤌": {
+    "default": [
+      "dedos",
+      "dedos juntos apuntando hacia arriba",
+      "dedos unidos",
+      "gesto",
+      "italia",
+      "italiano",
+      "mano",
+      "sarcasmo"
+    ],
+    "tts": [
+      "dedos unidos"
+    ]
+  },
+  "🎥": {
+    "default": [
+      "cámara de video"
+    ],
+    "tts": [
+      "cámara de video"
+    ]
+  },
+  "🪟": {
+    "default": [
+      "ventana"
+    ],
+    "tts": []
+  },
+  "🎫": {
+    "default": [
+      "boleto",
+      "entretenimiento",
+      "evento",
+      "ticket",
+      "ticket de admisión"
+    ],
+    "tts": []
+  },
+  "1⃣": {
+    "default": [
+      "tecla",
+      "tecla: 1"
+    ],
+    "tts": [
+      "tecla: 1"
+    ]
+  },
+  "🌙": {
+    "default": [
+      "cruasán",
+      "cuarto creciente",
+      "fase lunar",
+      "luna creciente",
+      "media luna"
+    ],
+    "tts": []
+  },
+  "🚺": {
+    "default": [
+      "señal del baño de las mujeres"
+    ],
+    "tts": [
+      "señal del baño de las mujeres"
+    ]
+  },
+  "✌": {
+    "default": [
+      "amor y paz",
+      "mano con señal de victoria",
+      "tijera",
+      "victoria"
+    ],
+    "tts": [
+      "mano con señal de victoria"
+    ]
+  },
+  "🪙": {
+    "default": [
+      "moneda"
+    ],
+    "tts": []
+  },
+  "🦘": {
+    "default": [
+      "canguro",
+      "marsupial",
+      "saltar"
+    ],
+    "tts": []
+  },
+  "🐍": {
+    "default": [
+      "animal",
+      "reptil",
+      "serpiente",
+      "víbora"
+    ],
+    "tts": []
+  },
+  "🐦‍⬛": {
+    "default": [
+      "ave negra"
+    ],
+    "tts": [
+      "ave negra"
+    ]
+  },
+  "👠": {
+    "default": [
+      "mujer",
+      "ropa",
+      "vestimenta",
+      "zapatilla",
+      "zapato"
+    ],
+    "tts": [
+      "zapatilla"
+    ]
+  },
+  "😆": {
+    "default": [
+      "boca abierta",
+      "cara",
+      "cara sonriendo con los ojos cerrados"
+    ],
+    "tts": [
+      "cara sonriendo con los ojos cerrados"
+    ]
+  },
+  "👮‍♀": {
+    "default": [
+      "agente",
+      "agente de policía mujer",
+      "oficial mujer",
+      "policía"
+    ],
+    "tts": []
+  },
+  "👮": {
+    "default": [
+      "agente",
+      "agente de policía",
+      "oficial",
+      "policía"
+    ],
+    "tts": []
+  },
+  "💂‍♀": {
+    "default": [
+      "guardia mujer",
+      "mujer de guardia real",
+      "mujer de la guardia real británica",
+      "mujer guardia real con sombrero",
+      "mujer vigilante"
+    ],
+    "tts": []
+  },
+  "🧛‍♀": {
+    "default": [
+      "muerta viviente",
+      "vampiresa"
+    ],
+    "tts": []
+  },
+  "👪": {
+    "default": [
+      "familia",
+      "hija",
+      "hijo",
+      "madre",
+      "padre"
+    ],
+    "tts": []
+  },
+  "📛": {
+    "default": [
+      "gafete"
+    ],
+    "tts": [
+      "gafete"
+    ]
+  },
+  "🧰": {
+    "default": [
+      "caja de herramientas",
+      "cofre",
+      "herramienta",
+      "mecánico"
+    ],
+    "tts": []
+  },
+  "🤽": {
+    "default": [
+      "deporte acuático",
+      "deportista",
+      "persona",
+      "persona jugando al waterpolo",
+      "waterpolo"
+    ],
+    "tts": []
+  },
+  "🚽": {
+    "default": [
+      "baño",
+      "escusado",
+      "inodoro",
+      "retrete"
+    ],
+    "tts": []
+  },
+  "🍞": {
+    "default": [
+      "barra de pan",
+      "comida",
+      "pan"
+    ],
+    "tts": []
+  },
+  "🇸🇿": {
+    "default": [
+      "bandera",
+      "bandera: Eswatini"
+    ],
+    "tts": [
+      "bandera: Eswatini"
+    ]
+  },
+  "🐦": {
+    "default": [
+      "animal",
+      "ave",
+      "pájaro",
+      "periquito",
+      "periquito australiano"
+    ],
+    "tts": []
+  },
+  "🏧": {
+    "default": [
+      "atm",
+      "banco",
+      "cajero",
+      "cajero automático",
+      "cartel de cajero automático",
+      "señal de cajero automático"
+    ],
+    "tts": [
+      "cartel de cajero automático"
+    ]
+  },
+  "🔊": {
+    "default": [
+      "bocina a volumen alto"
+    ],
+    "tts": [
+      "bocina a volumen alto"
+    ]
+  },
+  "🏪": {
+    "default": [
+      "24/7",
+      "edificio",
+      "siempre abierto",
+      "tienda",
+      "tienda 24 horas"
+    ],
+    "tts": []
+  },
+  "🐢": {
+    "default": [
+      "animal",
+      "reptil",
+      "tortuga"
+    ],
+    "tts": []
+  },
+  "🤚": {
+    "default": [
+      "dorso",
+      "dorso de la mano",
+      "dorso de la mano alzado",
+      "mano"
+    ],
+    "tts": [
+      "dorso de la mano"
+    ]
+  },
+  "👼": {
+    "default": [
+      "ángel",
+      "bebé",
+      "cara",
+      "cara de ángel bebé",
+      "cuento de hadas",
+      "fantasía"
+    ],
+    "tts": []
+  },
+  "😋": {
+    "default": [
+      "broma",
+      "cara saboreando comida",
+      "delicioso",
+      "rico",
+      "sonriente"
+    ],
+    "tts": [
+      "cara saboreando comida"
+    ]
+  },
+  "🤸": {
+    "default": [
+      "deporte",
+      "gimnasia",
+      "persona",
+      "persona haciendo una vuelta de carro",
+      "persona haciendo voltereta lateral",
+      "pirueta",
+      "voletereta lateral"
+    ],
+    "tts": [
+      "persona haciendo una vuelta de carro"
+    ]
+  },
+  "🧔": {
+    "default": [
+      "barba",
+      "barbón",
+      "cara",
+      "hombre con barba",
+      "persona con barba"
+    ],
+    "tts": []
+  },
+  "🐖": {
+    "default": [
+      "animal",
+      "cerdo",
+      "marrano",
+      "porcino",
+      "puerco"
+    ],
+    "tts": []
+  },
+  "🧳": {
+    "default": [
+      "equipaje",
+      "maleta",
+      "valija",
+      "viaje"
+    ],
+    "tts": []
+  },
+  "🪄": {
+    "default": [
+      "varita mágica"
+    ],
+    "tts": []
+  },
+  "🦔": {
+    "default": [
+      "erizo"
+    ],
+    "tts": []
+  },
+  "🤪": {
+    "default": [
+      "cara de loco",
+      "ojo grande",
+      "ojo pequeño"
+    ],
+    "tts": []
+  },
+  "😽": {
+    "default": [
+      "beso",
+      "cara de gato besando",
+      "cerrados",
+      "gato",
+      "ojos"
+    ],
+    "tts": [
+      "cara de gato besando"
+    ]
+  },
+  "🦞": {
+    "default": [
+      "bisque",
+      "langosta",
+      "mariscos",
+      "pinzas"
+    ],
+    "tts": [
+      "langosta"
+    ]
+  },
+  "💠": {
+    "default": [
+      "cómic",
+      "diamante",
+      "diamante en flor",
+      "flor",
+      "rombo en flor"
+    ],
+    "tts": [
+      "diamante en flor"
+    ]
+  },
+  "🤘": {
+    "default": [
+      "cuernos",
+      "dedos",
+      "mano haciendo los cuernos",
+      "rock",
+      "roll"
+    ],
+    "tts": [
+      "mano haciendo los cuernos"
+    ]
+  },
+  "✨": {
+    "default": [
+      "*",
+      "bengala",
+      "chispas",
+      "estrellas",
+      "estrellas centelleantes"
+    ],
+    "tts": []
+  },
+  "💂": {
+    "default": [
+      "guardia",
+      "guardia real",
+      "guardia real británica",
+      "guardia real con sombrero",
+      "guardia real inglesa"
+    ],
+    "tts": []
+  },
+  "🏐": {
+    "default": [
+      "deporte",
+      "pelota",
+      "pelota de voleibol",
+      "vóleibol"
+    ],
+    "tts": [
+      "pelota de voleibol"
+    ]
+  },
+  "♨": {
+    "default": [
+      "aguas",
+      "caliente",
+      "fuentes termales",
+      "termales",
+      "termas"
+    ],
+    "tts": []
+  },
+  "🐆": {
+    "default": [
+      "animal",
+      "felino",
+      "leopardo"
+    ],
+    "tts": []
+  },
+  "👽": {
+    "default": [
+      "alien",
+      "alienígena",
+      "cara",
+      "extraterrestre",
+      "ovni"
+    ],
+    "tts": [
+      "alienígena"
+    ]
+  },
+  "🚵": {
+    "default": [
+      "bicicleta",
+      "ciclismo de montaña",
+      "ciclista",
+      "montaña",
+      "persona en bicicleta de montaña"
+    ],
+    "tts": []
+  },
+  "🟤": {
+    "default": [
+      "círculo café"
+    ],
+    "tts": [
+      "círculo café"
+    ]
+  },
+  "😸": {
+    "default": [
+      "cara",
+      "cara de gato sonriendo con ojos sonrientes",
+      "gato",
+      "gato sonriendo con ojos sonrientes",
+      "sonriente",
+      "sonrisa"
+    ],
+    "tts": []
+  },
+  "➖": {
+    "default": [
+      "-",
+      "−",
+      "menos",
+      "resta",
+      "signo",
+      "signo de resta"
+    ],
+    "tts": [
+      "signo de resta"
+    ]
+  },
+  "🧟‍♂": {
+    "default": [
+      "muerto viviente",
+      "zombi hombre"
+    ],
+    "tts": []
+  },
+  "™": {
+    "default": [],
+    "tts": [
+      "marca registrada"
+    ]
+  },
+  "😠": {
+    "default": [
+      "cara",
+      "cara enfadada",
+      "enfadado",
+      "enojo"
+    ],
+    "tts": [
+      "cara enfadada"
+    ]
+  },
+  "💡": {
+    "default": [
+      "foco"
+    ],
+    "tts": [
+      "foco"
+    ]
+  },
+  "🍅": {
+    "default": [
+      "jitomate",
+      "planta",
+      "tomate",
+      "vegetal",
+      "verdura"
+    ],
+    "tts": []
+  },
+  "🛑": {
+    "default": [
+      "señal de alto"
+    ],
+    "tts": [
+      "señal de alto"
+    ]
+  },
+  "👬": {
+    "default": [
+      "amor",
+      "dos hombres de la mano",
+      "gemelos",
+      "hombres",
+      "pareja"
+    ],
+    "tts": []
+  },
+  "🦢": {
+    "default": [
+      "animal",
+      "ave",
+      "cisne",
+      "patito feo"
+    ],
+    "tts": []
+  },
+  "🦹‍♀": {
+    "default": [
+      "delito",
+      "mal",
+      "mujer",
+      "superpoder",
+      "supervillana",
+      "villana"
+    ],
+    "tts": []
+  },
+  "💲": {
+    "default": [
+      "dinero",
+      "divisa",
+      "dólar",
+      "símbolo",
+      "símbolo de dólar"
+    ],
+    "tts": []
+  },
+  "🚣‍♀": {
+    "default": [
+      "mujer remando"
+    ],
+    "tts": [
+      "mujer remando"
+    ]
+  },
+  "🪱": {
+    "default": [
+      "gusano"
+    ],
+    "tts": []
+  },
+  "👙": {
+    "default": [
+      "alberca",
+      "bikini",
+      "nadar",
+      "piscina",
+      "ropa",
+      "traje de baño"
+    ],
+    "tts": []
+  },
+  "🐉": {
+    "default": [
+      "animal",
+      "cuento",
+      "dragón",
+      "fantasía"
+    ],
+    "tts": []
+  },
+  "🇺🇲": {
+    "default": [
+      "bandera",
+      "bandera: Islas menores alejadas de EE. UU."
+    ],
+    "tts": [
+      "bandera: Islas menores alejadas de EE. UU."
+    ]
+  },
+  "🫕": {
+    "default": [
+      "fondue"
+    ],
+    "tts": []
+  },
+  "🧱": {
+    "default": [
+      "cemento",
+      "ladrillo",
+      "ladrillos",
+      "mezcla",
+      "pared"
+    ],
+    "tts": [
+      "ladrillos"
+    ]
+  },
+  "🥯": {
+    "default": [
+      "bagel",
+      "panadería",
+      "untar"
+    ],
+    "tts": []
+  },
+  "👓": {
+    "default": [
+      "anteojos",
+      "lentes",
+      "ropa",
+      "vestimenta"
+    ],
+    "tts": []
+  },
+  "⛓‍💥": {
+    "default": [
+      "cadena rota",
+      "rompiendo cadena"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👧": {
+    "default": [
+      "familia",
+      "familia: hombre, mujer, niña",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "mujer",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🔭": {
+    "default": [
+      "instrumento",
+      "microscopio",
+      "observatorio",
+      "telescopio"
+    ],
+    "tts": []
+  },
+  "↘": {
+    "default": [
+      "flecha hacia el sureste"
+    ],
+    "tts": [
+      "flecha hacia el sureste"
+    ]
+  },
+  "🐘": {
+    "default": [
+      "animal",
+      "elefante"
+    ],
+    "tts": []
+  },
+  "🏜": {
+    "default": [
+      "arena",
+      "desierto",
+      "seco",
+      "sequía"
+    ],
+    "tts": []
+  },
+  "🤞": {
+    "default": [
+      "dedos cruzados",
+      "mano",
+      "suerte"
+    ],
+    "tts": []
+  },
+  "👨‍🌾": {
+    "default": [],
+    "tts": [
+      "granjero hombre"
+    ]
+  },
+  "🙈": {
+    "default": [
+      "cara",
+      "mono",
+      "mono con los ojos tapados",
+      "no ver"
+    ],
+    "tts": [
+      "mono con los ojos tapados"
+    ]
+  },
+  "🧑‍🦽‍➡": {
+    "default": [
+      "persona en silla de ruedas manual",
+      "persona en silla de ruedas manual hacia la derecha"
+    ],
+    "tts": []
+  },
+  "👨‍👦‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, niño, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🥽": {
+    "default": [
+      "goggles",
+      "lentes de natación",
+      "lentes de protección",
+      "lentes para nadar",
+      "soldar"
+    ],
+    "tts": [
+      "goggles"
+    ]
+  },
+  "😬": {
+    "default": [
+      "cara",
+      "cara haciendo mueca",
+      "cara haciendo una mueca",
+      "mueca"
+    ],
+    "tts": []
+  },
+  "🦙": {
+    "default": [
+      "alpaca",
+      "camélido",
+      "guanaco",
+      "lana",
+      "llama",
+      "vicuña"
+    ],
+    "tts": []
+  },
+  "🧖": {
+    "default": [
+      "persona en sauna",
+      "persona en una sauna",
+      "sauna",
+      "vapor"
+    ],
+    "tts": [
+      "persona en sauna"
+    ]
+  },
+  "🎄": {
+    "default": [
+      "árbol",
+      "árbol de Navidad",
+      "celebración",
+      "Navidad"
+    ],
+    "tts": []
+  },
+  "🏁": {
+    "default": [
+      "bandera",
+      "bandera de cuadros",
+      "bandera de llegada",
+      "carrera",
+      "deporte",
+      "meta"
+    ],
+    "tts": []
+  },
+  "💁‍♂": {
+    "default": [
+      "empleado",
+      "empleado de mostrador de información",
+      "hombre",
+      "hombre en mostrador de información",
+      "información",
+      "mesa"
+    ],
+    "tts": []
+  },
+  "🤶": {
+    "default": [
+      "mamá",
+      "Mamá Noel",
+      "Navidad",
+      "señora Claus"
+    ],
+    "tts": []
+  },
+  "🛸": {
+    "default": [
+      "platillo volador"
+    ],
+    "tts": []
+  },
+  "👩‍❤‍💋‍👨": {
+    "default": [
+      "beso",
+      "beso: mujer y hombre",
+      "hombre",
+      "mujer",
+      "pareja",
+      "pareja besándose",
+      "personas",
+      "romance",
+      "romántico"
+    ],
+    "tts": [
+      "beso: mujer y hombre"
+    ]
+  },
+  "👉": {
+    "default": [
+      "apuntar",
+      "dedo",
+      "dorso",
+      "índice",
+      "índice hacia la derecha",
+      "mano apuntando índice a la derecha",
+      "mano con dedo índice hacia la derecha"
+    ],
+    "tts": [
+      "mano apuntando índice a la derecha"
+    ]
+  },
+  "🐟": {
+    "default": [
+      "animal",
+      "pez"
+    ],
+    "tts": []
+  },
+  "🧑‍🦳": {
+    "default": [
+      "género",
+      "neutro",
+      "pelo blanco",
+      "persona",
+      "persona adulta",
+      "persona: pelo blanco"
+    ],
+    "tts": [
+      "persona: pelo blanco"
+    ]
+  },
+  "🙀": {
+    "default": [],
+    "tts": [
+      "cara de gato asustado"
+    ]
+  },
+  "🛶": {
+    "default": [
+      "bote",
+      "canoa",
+      "deporte acuático",
+      "remo",
+      "transporte"
+    ],
+    "tts": []
+  },
+  "🧿": {
+    "default": [
+      "cuenta",
+      "hechizo",
+      "mal de ojo",
+      "nazar",
+      "talismán"
+    ],
+    "tts": [
+      "nazar"
+    ]
+  },
+  "📉": {
+    "default": [
+      "baja",
+      "descendente",
+      "gráfico",
+      "tabla",
+      "tendencia descendente"
+    ],
+    "tts": []
+  },
+  "🍄‍🟫": {
+    "default": [
+      "hongo marrón"
+    ],
+    "tts": [
+      "hongo marrón"
+    ]
+  },
+  "😂": {
+    "default": [
+      "cara",
+      "cara llorando de felicidad",
+      "felicidad",
+      "feliz",
+      "lágrimas"
+    ],
+    "tts": [
+      "cara llorando de felicidad"
+    ]
+  },
+  "🦯": {
+    "default": [
+      "accesibilidad",
+      "bastón",
+      "ceguera",
+      "invidente"
+    ],
+    "tts": []
+  },
+  "🩹": {
+    "default": [
+      "curita"
+    ],
+    "tts": [
+      "curita"
+    ]
+  },
+  "🍝": {
+    "default": [
+      "comida",
+      "comida italiana",
+      "espagueti",
+      "espaguetis",
+      "pastas"
+    ],
+    "tts": []
+  },
+  "🥼": {
+    "default": [
+      "bata de laboratorio",
+      "científico",
+      "experimento",
+      "médico"
+    ],
+    "tts": []
+  },
+  "🥎": {
+    "default": [
+      "bola",
+      "pelota",
+      "pelota de softball",
+      "softball",
+      "sóftbol"
+    ],
+    "tts": [
+      "sóftbol"
+    ]
+  },
+  "🧚": {
+    "default": [
+      "campanita",
+      "hada",
+      "oberón",
+      "puck",
+      "titania"
+    ],
+    "tts": []
+  },
+  "🐐": {
+    "default": [
+      "animal",
+      "cabra",
+      "caprino"
+    ],
+    "tts": []
+  },
+  "🪷": {
+    "default": [
+      "budismo",
+      "flor",
+      "hinduismo",
+      "loto",
+      "lotus",
+      "pureza"
+    ],
+    "tts": [
+      "loto"
+    ]
+  },
+  "🛳": {
+    "default": [
+      "barco",
+      "barco de pasajeros",
+      "pasajeros",
+      "transporte"
+    ],
+    "tts": []
+  },
+  "😻": {
+    "default": [
+      "amor",
+      "cara",
+      "cara de gato sonriendo con ojos de corazón",
+      "corazones",
+      "gato",
+      "gato con ojos de corazón"
+    ],
+    "tts": [
+      "gato con ojos de corazón"
+    ]
+  },
+  "👜": {
+    "default": [
+      "bolso"
+    ],
+    "tts": []
+  },
+  "🐧": {
+    "default": [
+      "animal",
+      "ave",
+      "pingüino"
+    ],
+    "tts": []
+  },
+  "🍈": {
+    "default": [
+      "fruta",
+      "melón",
+      "planta"
+    ],
+    "tts": []
+  },
+  "🛀": {
+    "default": [
+      "persona en tina"
+    ],
+    "tts": [
+      "persona en tina"
+    ]
+  },
+  "🖕": {
+    "default": [
+      "dedo",
+      "insulto",
+      "mano",
+      "mano con el dedo medio levantado",
+      "medio"
+    ],
+    "tts": [
+      "mano con el dedo medio levantado"
+    ]
+  },
+  "👨‍👧‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, niña, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niña",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "💓": {
+    "default": [
+      "corazón",
+      "corazón latiendo",
+      "emoción",
+      "latidos",
+      "palpitar"
+    ],
+    "tts": [
+      "corazón latiendo"
+    ]
+  },
+  "🧼": {
+    "default": [
+      "bañarse",
+      "barra",
+      "barra de jabón",
+      "jabón",
+      "lavar"
+    ],
+    "tts": []
+  },
+  "📧": {
+    "default": [
+      "comunicación",
+      "correo",
+      "electrónico",
+      "email"
+    ],
+    "tts": []
+  },
+  "📈": {
+    "default": [
+      "alza",
+      "ascendente",
+      "gráfico",
+      "tabla",
+      "tendencia ascendente"
+    ],
+    "tts": []
+  },
+  "🐁": {
+    "default": [
+      "animal",
+      "ratón"
+    ],
+    "tts": []
+  },
+  "🙍‍♀": {
+    "default": [
+      "cara",
+      "ceño",
+      "fruncido",
+      "mujer",
+      "mujer frunciendo el ceño"
+    ],
+    "tts": [
+      "mujer frunciendo el ceño"
+    ]
+  },
+  "🦛": {
+    "default": [
+      "animal",
+      "hipopótamo"
+    ],
+    "tts": []
+  },
+  "🔉": {
+    "default": [
+      "bocina a volumen medio"
+    ],
+    "tts": [
+      "bocina a volumen medio"
+    ]
+  },
+  "🤸‍♂": {
+    "default": [
+      "hombre haciendo una vuelta de carro"
+    ],
+    "tts": [
+      "hombre haciendo una vuelta de carro"
+    ]
+  },
+  "😙": {
+    "default": [
+      "beso",
+      "cara",
+      "cara besando con ojos sonrientes",
+      "ojos",
+      "sonriente"
+    ],
+    "tts": []
+  },
+  "🚫": {
+    "default": [
+      "no",
+      "pasar",
+      "prohibido",
+      "señal",
+      "señal de prohibición"
+    ],
+    "tts": []
+  },
+  "😃": {
+    "default": [
+      "boca abierta",
+      "cara sonriendo con ojos grandes",
+      "divertido",
+      "risa",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara sonriendo con ojos grandes"
+    ]
+  },
+  "✖": {
+    "default": [],
+    "tts": [
+      "signo de multiplicación"
+    ]
+  },
+  "🦹‍♂": {
+    "default": [
+      "delito",
+      "hombre",
+      "hombre supervillano",
+      "mal",
+      "superpoder",
+      "villano"
+    ],
+    "tts": [
+      "hombre supervillano"
+    ]
+  },
+  "🦪": {
+    "default": [
+      "ostión"
+    ],
+    "tts": [
+      "ostión"
+    ]
+  },
+  "🌮": {
+    "default": [
+      "comida",
+      "comida mexicana",
+      "taco",
+      "tacos",
+      "taquitos"
+    ],
+    "tts": []
+  },
+  "🌏": {
+    "default": [
+      "Asia",
+      "Australia",
+      "globo",
+      "globo terráqueo Asia/Oceanía"
+    ],
+    "tts": []
+  },
+  "📤": {
+    "default": [
+      "bandeja",
+      "bandeja de salida",
+      "comunicación",
+      "correo",
+      "enviados",
+      "salida"
+    ],
+    "tts": []
+  },
+  "🌘": {
+    "default": [
+      "creciente",
+      "fase lunar",
+      "luna",
+      "menguante"
+    ],
+    "tts": []
+  },
+  "😟": {
+    "default": [
+      "cara",
+      "cara preocupada",
+      "preocupado"
+    ],
+    "tts": [
+      "cara preocupada"
+    ]
+  },
+  "👨‍👨‍👧‍👧": {
+    "default": [
+      "familia",
+      "familia: hombre, hombre, niña, niña",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🧶": {
+    "default": [
+      "croché",
+      "ovillo",
+      "pelota",
+      "tejer"
+    ],
+    "tts": []
+  },
+  "🌭": {
+    "default": [
+      "perro caliente"
+    ],
+    "tts": [
+      "perro caliente"
+    ]
+  },
+  "💞": {
+    "default": [
+      "amor",
+      "corazón",
+      "corazones giratorios",
+      "emoción",
+      "girar"
+    ],
+    "tts": [
+      "corazones giratorios"
+    ]
+  },
+  "🙅": {
+    "default": [
+      "brazos",
+      "cruzados",
+      "gesto",
+      "gesto de no",
+      "persona",
+      "persona haciendo el gesto de \"no\"",
+      "prohibido"
+    ],
+    "tts": [
+      "persona haciendo el gesto de \"no\""
+    ]
+  },
+  "🦸‍♂": {
+    "default": [
+      "bien",
+      "héroe",
+      "hombre",
+      "superhéroe",
+      "superpoder"
+    ],
+    "tts": []
+  },
+  "🧑‍🦽": {
+    "default": [
+      "persona en silla de ruedas manual"
+    ],
+    "tts": []
+  },
+  "*⃣": {
+    "default": [
+      "tecla",
+      "tecla: *"
+    ],
+    "tts": [
+      "tecla: *"
+    ]
+  },
+  "🐕": {
+    "default": [
+      "animal",
+      "canino",
+      "mascota",
+      "perro"
+    ],
+    "tts": []
+  },
+  "🦗": {
+    "default": [
+      "animal",
+      "grillo",
+      "insecto",
+      "saltamontes"
+    ],
+    "tts": []
+  },
+  "🎼": {
+    "default": [
+      "partitura"
+    ],
+    "tts": [
+      "partitura"
+    ]
+  },
+  "💒": {
+    "default": [
+      "boda religiosa"
+    ],
+    "tts": [
+      "boda religiosa"
+    ]
+  },
+  "🤐": {
+    "default": [
+      "boca",
+      "cara",
+      "cara con la boca cerrada con cierre",
+      "zipper"
+    ],
+    "tts": []
+  },
+  "👨‍🚒": {
+    "default": [
+      "bombero",
+      "bombero hombre"
+    ],
+    "tts": []
+  },
+  "📺": {
+    "default": [
+      "televisión"
+    ],
+    "tts": [
+      "televisión"
+    ]
+  },
+  "®": {
+    "default": [
+      "marca",
+      "registrada",
+      "signo de marca registrada",
+      "símbolo de marca registrada"
+    ],
+    "tts": [
+      "símbolo de marca registrada"
+    ]
+  },
+  "🤹": {
+    "default": [
+      "malabarista"
+    ],
+    "tts": [
+      "malabarista"
+    ]
+  },
+  "🫔": {
+    "default": [
+      "tamal"
+    ],
+    "tts": []
+  },
+  "👨‍👧": {
+    "default": [
+      "familia",
+      "familia: hombre y niña",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🍻": {
+    "default": [
+      "bebida",
+      "brindis",
+      "brindis con cerveza",
+      "celebrar",
+      "cerveza"
+    ],
+    "tts": []
+  },
+  "⛴": {
+    "default": [
+      "bote",
+      "ferry",
+      "transbordador",
+      "transporte",
+      "trasbordador"
+    ],
+    "tts": []
+  },
+  "🧓": {
+    "default": [
+      "género",
+      "maduro",
+      "mayor",
+      "neutro",
+      "persona mayor",
+      "persona vieja"
+    ],
+    "tts": [
+      "persona mayor"
+    ]
+  },
+  "😚": {
+    "default": [
+      "beso",
+      "cara",
+      "cara besando con los ojos cerrados",
+      "cerrados",
+      "ojos"
+    ],
+    "tts": []
+  },
+  "💇‍♀": {
+    "default": [
+      "corte de pelo",
+      "mujer",
+      "mujer cortándose el pelo",
+      "pelo",
+      "peluquería",
+      "peluquero"
+    ],
+    "tts": []
+  },
+  "🫀": {
+    "default": [
+      "cardiología",
+      "centro",
+      "latido",
+      "órgano",
+      "órgano cardíaco",
+      "pulso"
+    ],
+    "tts": [
+      "órgano cardíaco"
+    ]
+  },
+  "🦤": {
+    "default": [
+      "dodo"
+    ],
+    "tts": []
+  },
+  "☝": {
+    "default": [
+      "apuntar",
+      "arriba",
+      "dedo índice hacia arriba",
+      "índice",
+      "señalar"
+    ],
+    "tts": []
+  },
+  "👇": {
+    "default": [
+      "abajo",
+      "apuntar",
+      "dorso de mano con dedo índice hacia abajo",
+      "índice",
+      "mano",
+      "mano con dedo índice hacia abajo",
+      "señalar"
+    ],
+    "tts": [
+      "mano con dedo índice hacia abajo"
+    ]
+  },
+  "0⃣": {
+    "default": [
+      "tecla",
+      "tecla: 0"
+    ],
+    "tts": [
+      "tecla: 0"
+    ]
+  },
+  "🎐": {
+    "default": [
+      "campanilla",
+      "campanilla de viento",
+      "fuurin",
+      "viento"
+    ],
+    "tts": []
+  },
+  "👷": {
+    "default": [
+      "casco",
+      "construcción",
+      "obrero",
+      "persona obrera de construcción",
+      "profesional de la construcción",
+      "trabajador"
+    ],
+    "tts": [
+      "persona obrera de construcción"
+    ]
+  },
+  "🕊": {
+    "default": [
+      "animal",
+      "ave",
+      "paloma",
+      "paz"
+    ],
+    "tts": []
+  },
+  "👑": {
+    "default": [
+      "corona",
+      "realeza",
+      "reina",
+      "rey"
+    ],
+    "tts": []
+  },
+  "🫓": {
+    "default": [
+      "pan plano"
+    ],
+    "tts": [
+      "pan plano"
+    ]
+  },
+  "🦨": {
+    "default": [
+      "zorrillo"
+    ],
+    "tts": [
+      "zorrillo"
+    ]
+  },
+  "🇨🇮": {
+    "default": [
+      "bandera",
+      "bandera: Côte d’Ivoire"
+    ],
+    "tts": [
+      "bandera: Côte d’Ivoire"
+    ]
+  },
+  "🧇": {
+    "default": [
+      "waffle"
+    ],
+    "tts": [
+      "waffle"
+    ]
+  },
+  "🎓": {
+    "default": [
+      "birrete",
+      "celebración",
+      "graduación",
+      "graduado"
+    ],
+    "tts": [
+      "birrete"
+    ]
+  },
+  "🧯": {
+    "default": [
+      "apagar",
+      "extinguir",
+      "extintor",
+      "fuego",
+      "matafuegos"
+    ],
+    "tts": []
+  },
+  "😉": {
+    "default": [
+      "cara",
+      "cara guiñando el ojo",
+      "guiño"
+    ],
+    "tts": [
+      "cara guiñando el ojo"
+    ]
+  },
+  "♟": {
+    "default": [
+      "ajedrez",
+      "peón",
+      "peón (ajedrez)",
+      "peón de ajedrez"
+    ],
+    "tts": [
+      "peón (ajedrez)"
+    ]
+  },
+  "🥭": {
+    "default": [
+      "árbol",
+      "fruta",
+      "mango"
+    ],
+    "tts": []
+  },
+  "🚼": {
+    "default": [
+      "bebé",
+      "cambiador",
+      "señal",
+      "señal de bebé"
+    ],
+    "tts": []
+  },
+  "💅": {
+    "default": [
+      "esmalte",
+      "pintarse las uñas",
+      "uñas"
+    ],
+    "tts": []
+  },
+  "🙄": {
+    "default": [
+      "cara con ojos en blanco"
+    ],
+    "tts": [
+      "cara con ojos en blanco"
+    ]
+  },
+  "😔": {
+    "default": [
+      "cara desanimada"
+    ],
+    "tts": []
+  },
+  "🎯": {
+    "default": [
+      "dardo",
+      "dardo en el centro",
+      "dardo en la diana",
+      "diana",
+      "objetivo"
+    ],
+    "tts": []
+  },
+  "🥖": {
+    "default": [
+      "baguette",
+      "comida",
+      "pan francés"
+    ],
+    "tts": []
+  },
+  "🔲": {
+    "default": [
+      "borde",
+      "botón",
+      "cuadrado",
+      "cuadrado blanco con borde negro",
+      "marco"
+    ],
+    "tts": []
+  },
+  "🧬": {
+    "default": [
+      "ADN",
+      "biólogo",
+      "evolución",
+      "gen",
+      "genética",
+      "vida"
+    ],
+    "tts": [
+      "ADN"
+    ]
+  },
+  "😤": {
+    "default": [
+      "cara",
+      "cara resoplando",
+      "gané",
+      "mirada de triunfo",
+      "triunfo",
+      "victoria"
+    ],
+    "tts": [
+      "cara resoplando"
+    ]
+  },
+  "🎢": {
+    "default": [
+      "feria",
+      "montaña rusa",
+      "parque",
+      "parque de atracciones",
+      "rusa"
+    ],
+    "tts": []
+  },
+  "🗽": {
+    "default": [
+      "Estados Unidos",
+      "Estatua de la Libertad",
+      "Nueva York",
+      "NYC"
+    ],
+    "tts": []
+  },
+  "🏫": {
+    "default": [
+      "colegio",
+      "edificio",
+      "escuela"
+    ],
+    "tts": []
+  },
+  "🕹": {
+    "default": [
+      "control",
+      "joystick",
+      "juego",
+      "juego de video",
+      "video",
+      "videojuego"
+    ],
+    "tts": []
+  },
+  "💝": {
+    "default": [
+      "amor",
+      "corazón",
+      "corazón con lazo",
+      "emoción",
+      "moño"
+    ],
+    "tts": [
+      "corazón con lazo"
+    ]
+  },
+  "🕳": {
+    "default": [
+      "agujero",
+      "cómics",
+      "pozo"
+    ],
+    "tts": []
+  },
+  "👨‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre y niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🌶": {
+    "default": [
+      "chile picante"
+    ],
+    "tts": [
+      "chile picante"
+    ]
+  },
+  "🍀": {
+    "default": [
+      "cuatro",
+      "hojas",
+      "suerte",
+      "trébol",
+      "trébol de cuatro hojas"
+    ],
+    "tts": []
+  },
+  "🍰": {
+    "default": [
+      "rebanada de pastel"
+    ],
+    "tts": [
+      "rebanada de pastel"
+    ]
+  },
+  "👖": {
+    "default": [
+      "jeans",
+      "pantalones de mezclilla",
+      "ropa",
+      "vaquero",
+      "vestimenta"
+    ],
+    "tts": [
+      "pantalones de mezclilla"
+    ]
+  },
+  "🧑": {
+    "default": [
+      "género",
+      "neutro",
+      "persona",
+      "persona adulta"
+    ],
+    "tts": [
+      "persona"
+    ]
+  },
+  "😅": {
+    "default": [
+      "boca abierta",
+      "cara sonriendo con sudor frío",
+      "sonrisa",
+      "sonrisa boca abierta",
+      "sudor frío"
+    ],
+    "tts": [
+      "cara sonriendo con sudor frío"
+    ]
+  },
+  "🎟": {
+    "default": [
+      "boleto de entrada"
+    ],
+    "tts": [
+      "boleto de entrada"
+    ]
+  },
+  "🚕": {
+    "default": [
+      "taxi",
+      "transporte"
+    ],
+    "tts": []
+  },
+  "🔅": {
+    "default": [
+      "reducir brillo"
+    ],
+    "tts": [
+      "reducir brillo"
+    ]
+  },
+  "🐽": {
+    "default": [
+      "cara",
+      "cerdo",
+      "chancho",
+      "hocico",
+      "hocico de cerdo"
+    ],
+    "tts": []
+  },
+  "📩": {
+    "default": [
+      "carta",
+      "comunicación",
+      "correo electrónico",
+      "enviado",
+      "mensaje",
+      "mensaje saliente"
+    ],
+    "tts": []
+  },
+  "🦑": {
+    "default": [
+      "calamar",
+      "comida",
+      "mariscos"
+    ],
+    "tts": []
+  },
+  "👭": {
+    "default": [
+      "amor",
+      "gemelas",
+      "mujeres",
+      "mujeres de la mano",
+      "pareja"
+    ],
+    "tts": []
+  },
+  "🪦": {
+    "default": [
+      "lápida"
+    ],
+    "tts": []
+  },
+  "💫": {
+    "default": [
+      "cómics",
+      "emoción",
+      "estrellas",
+      "mareo",
+      "símbolo de mareo"
+    ],
+    "tts": [
+      "símbolo de mareo"
+    ]
+  },
+  "💆": {
+    "default": [
+      "belleza",
+      "masaje",
+      "masaje facial",
+      "persona recibiendo masaje",
+      "relax",
+      "salón",
+      "spa"
+    ],
+    "tts": [
+      "persona recibiendo masaje"
+    ]
+  },
+  "🐇": {
+    "default": [
+      "animal",
+      "conejo"
+    ],
+    "tts": []
+  },
+  "🧭": {
+    "default": [
+      "brújula",
+      "dirección",
+      "magnetismo",
+      "navegación",
+      "orientación",
+      "rumbo"
+    ],
+    "tts": []
+  },
+  "🦀": {
+    "default": [
+      "animal",
+      "cáncer",
+      "cangrejo",
+      "crustáceo",
+      "mariscos"
+    ],
+    "tts": []
+  },
+  "👧": {
+    "default": [
+      "chica",
+      "joven",
+      "niña",
+      "Virgo",
+      "zodiaco"
+    ],
+    "tts": []
+  },
+  "😢": {
+    "default": [
+      "cara llorando",
+      "llanto",
+      "llorar",
+      "triste",
+      "tristeza"
+    ],
+    "tts": [
+      "cara llorando"
+    ]
+  },
+  "💭": {
+    "default": [
+      "burbuja",
+      "cómics",
+      "globo",
+      "globo de pensamiento",
+      "pensamiento"
+    ],
+    "tts": []
+  },
+  "💈": {
+    "default": [
+      "peluquería"
+    ],
+    "tts": [
+      "peluquería"
+    ]
+  },
+  "😨": {
+    "default": [
+      "cara asustada"
+    ],
+    "tts": [
+      "cara asustada"
+    ]
+  },
+  "🎡": {
+    "default": [
+      "rueda de la fortuna"
+    ],
+    "tts": [
+      "rueda de la fortuna"
+    ]
+  },
+  "🉐": {
+    "default": [
+      "ganga",
+      "ideograma",
+      "ideograma japonés para \"ganga\"",
+      "japonés",
+      "kanji",
+      "oferta"
+    ],
+    "tts": []
+  },
+  "😗": {
+    "default": [
+      "cara",
+      "cara dando un beso"
+    ],
+    "tts": []
+  },
+  "📼": {
+    "default": [
+      "videocasete"
+    ],
+    "tts": [
+      "videocasete"
+    ]
+  },
+  "↖": {
+    "default": [
+      "arriba",
+      "dirección",
+      "flecha",
+      "flecha hacia el noroeste",
+      "flecha hacia la esquina superior izquierda",
+      "noroeste"
+    ],
+    "tts": []
+  },
+  "💗": {
+    "default": [
+      "amor",
+      "corazón",
+      "corazón creciente",
+      "emoción",
+      "entusiasmado"
+    ],
+    "tts": [
+      "corazón creciente"
+    ]
+  },
+  "🏄": {
+    "default": [
+      "deporte",
+      "persona haciendo surf",
+      "surf",
+      "surfista"
+    ],
+    "tts": [
+      "persona haciendo surf"
+    ]
+  },
+  "☑": {
+    "default": [
+      "✓",
+      "casilla",
+      "casilla seleccionada",
+      "marca",
+      "selección",
+      "verificación"
+    ],
+    "tts": []
+  },
+  "👩‍👦‍👦": {
+    "default": [
+      "familia",
+      "familia: mujer, niño, niño",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🐑": {
+    "default": [
+      "animal",
+      "oveja",
+      "ovejero",
+      "ovino"
+    ],
+    "tts": []
+  },
+  "😧": {
+    "default": [
+      "cara angustiada"
+    ],
+    "tts": [
+      "cara angustiada"
+    ]
+  },
+  "🏎": {
+    "default": [
+      "auto de carreras"
+    ],
+    "tts": [
+      "auto de carreras"
+    ]
+  },
+  "😞": {
+    "default": [
+      "cara",
+      "cara decepcionada",
+      "decepción",
+      "decepcionado"
+    ],
+    "tts": [
+      "cara decepcionada"
+    ]
+  },
+  "🎧": {
+    "default": [
+      "audífonos"
+    ],
+    "tts": [
+      "audífonos"
+    ]
+  },
+  "💟": {
+    "default": [
+      "adorno de corazón",
+      "corazón"
+    ],
+    "tts": [
+      "adorno de corazón"
+    ]
+  },
+  "🗿": {
+    "default": [
+      "estatua de Isla de Pascua"
+    ],
+    "tts": [
+      "estatua de Isla de Pascua"
+    ]
+  },
+  "💯": {
+    "default": [
+      "100",
+      "perfecto",
+      "puntaje",
+      "puntos",
+      "puntuación"
+    ],
+    "tts": []
+  },
+  "☸": {
+    "default": [],
+    "tts": [
+      "rueda del dharma"
+    ]
+  },
+  "👩‍👩‍👧‍👧": {
+    "default": [
+      "familia",
+      "familia: mujer, mujer, niña, niña",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🙊": {
+    "default": [
+      "cara",
+      "mono",
+      "mono con la boca tapada",
+      "no hablar"
+    ],
+    "tts": [
+      "mono con la boca tapada"
+    ]
+  },
+  "🦬": {
+    "default": [
+      "bisonte"
+    ],
+    "tts": []
+  },
+  "👨‍👨‍👧": {
+    "default": [
+      "familia",
+      "familia: hombre, hombre, niña",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🪢": {
+    "default": [
+      "nudo"
+    ],
+    "tts": []
+  },
+  "🍓": {
+    "default": [
+      "fresa"
+    ],
+    "tts": []
+  },
+  "☠": {
+    "default": [
+      "calavera y huesos cruzados",
+      "cara",
+      "huesos"
+    ],
+    "tts": [
+      "calavera y huesos cruzados"
+    ]
+  },
+  "👩‍👧": {
+    "default": [
+      "familia",
+      "familia: mujer y niña",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🎲": {
+    "default": [
+      "dado",
+      "juego de azar"
+    ],
+    "tts": []
+  },
+  "🛫": {
+    "default": [
+      "avión",
+      "avión despegando",
+      "despegar",
+      "despegue",
+      "partida",
+      "salida"
+    ],
+    "tts": []
+  },
+  "🤬": {
+    "default": [
+      "cara con boca censurada",
+      "cara con símbolos en la boca",
+      "maldecir",
+      "palabrota"
+    ],
+    "tts": []
+  },
+  "🍉": {
+    "default": [
+      "fruta",
+      "planta",
+      "sandía"
+    ],
+    "tts": []
+  },
+  "🙌": {
+    "default": [
+      "chocar",
+      "cinco",
+      "festejo",
+      "manos",
+      "manos levantadas celebrando"
+    ],
+    "tts": [
+      "manos levantadas celebrando"
+    ]
+  },
+  "👨": {
+    "default": [
+      "adulto",
+      "cara",
+      "hombre",
+      "persona",
+      "señor"
+    ],
+    "tts": []
+  },
+  "🚔": {
+    "default": [
+      "patrulla se aproxima"
+    ],
+    "tts": [
+      "patrulla se aproxima"
+    ]
+  },
+  "🌻": {
+    "default": [
+      "flor",
+      "girasol",
+      "planta"
+    ],
+    "tts": []
+  },
+  "🐫": {
+    "default": [
+      "animal",
+      "camélido",
+      "camello",
+      "joroba"
+    ],
+    "tts": []
+  },
+  "🤧": {
+    "default": [
+      "cara",
+      "cara estornudando",
+      "estornudar",
+      "estornudo",
+      "resfrío"
+    ],
+    "tts": [
+      "cara estornudando"
+    ]
+  },
+  "🧑‍🌾": {
+    "default": [
+      "granjero"
+    ],
+    "tts": [
+      "granjero"
+    ]
+  },
+  "👩‍👩‍👦": {
+    "default": [
+      "familia",
+      "familia: mujer, mujer, niño",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🤷": {
+    "default": [
+      "duda",
+      "encogerse",
+      "hombros",
+      "ignorancia",
+      "indiferencia",
+      "persona encogida de hombros"
+    ],
+    "tts": []
+  },
+  "👨‍🦱": {
+    "default": [
+      "adulto",
+      "cara",
+      "hombre",
+      "pelo rizado",
+      "persona",
+      "señor"
+    ],
+    "tts": []
+  },
+  "🏆": {
+    "default": [
+      "copa",
+      "ganador",
+      "premio",
+      "trofeo",
+      "victoria"
+    ],
+    "tts": []
+  },
+  "🧑‍🦰": {
+    "default": [
+      "género",
+      "neutro",
+      "pelo pelirrojo",
+      "persona",
+      "persona adulta",
+      "persona: pelo pelirrojo"
+    ],
+    "tts": [
+      "persona: pelo pelirrojo"
+    ]
+  },
+  "😎": {
+    "default": [
+      "cara",
+      "cara sonriendo con lentes de sol",
+      "lentes de sol",
+      "onda",
+      "sol"
+    ],
+    "tts": []
+  },
+  "🏓": {
+    "default": [
+      "mesa",
+      "paleta",
+      "pelota",
+      "ping",
+      "pong",
+      "tenis de mesa"
+    ],
+    "tts": []
+  },
+  "✋": {
+    "default": [
+      "mano",
+      "mano abierta",
+      "mano levantada",
+      "palma de la mano"
+    ],
+    "tts": []
+  },
+  "💏": {
+    "default": [],
+    "tts": [
+      "beso"
+    ]
+  },
+  "⛷": {
+    "default": [
+      "deporte",
+      "esquí",
+      "esquiador",
+      "esquiar",
+      "nieve",
+      "persona esquiando"
+    ],
+    "tts": []
+  },
+  "🇧🇦": {
+    "default": [
+      "bandera",
+      "bandera: Bosnia y Herzegovina"
+    ],
+    "tts": [
+      "bandera: Bosnia y Herzegovina"
+    ]
+  },
+  "💣": {
+    "default": [
+      "bomba",
+      "cómics",
+      "explosión",
+      "explota"
+    ],
+    "tts": []
+  },
+  "🛩": {
+    "default": [
+      "aire",
+      "avión",
+      "avioneta",
+      "transporte",
+      "viajar",
+      "viaje"
+    ],
+    "tts": []
+  },
+  "💂‍♂": {
+    "default": [
+      "guardia hombre",
+      "hombre de guardia real",
+      "hombre de guardia real británica",
+      "hombre de la guardia real con sombrero",
+      "hombre vigilante"
+    ],
+    "tts": []
+  },
+  "🫖": {
+    "default": [
+      "tetera"
+    ],
+    "tts": []
+  },
+  "🐈": {
+    "default": [
+      "animal",
+      "felino",
+      "gato",
+      "minino"
+    ],
+    "tts": []
+  },
+  "⌛": {
+    "default": [
+      "arena",
+      "reloj",
+      "reloj de arena sin tiempo",
+      "se acabó el tiempo",
+      "tiempo agotado"
+    ],
+    "tts": []
+  },
+  "🤴": {
+    "default": [
+      "cara",
+      "cuento",
+      "fantasía",
+      "persona",
+      "príncipe",
+      "realeza"
+    ],
+    "tts": []
+  },
+  "🌼": {
+    "default": [
+      "flor",
+      "florecer"
+    ],
+    "tts": []
+  },
+  "😡": {
+    "default": [
+      "cara",
+      "cara de enojo",
+      "cara de odio",
+      "enojado",
+      "enojo",
+      "ira",
+      "odio",
+      "rojo"
+    ],
+    "tts": [
+      "cara de enojo"
+    ]
+  },
+  "🐊": {
+    "default": [
+      "animal",
+      "cocodrilo",
+      "lagarto",
+      "reptil"
+    ],
+    "tts": []
+  },
+  "📟": {
+    "default": [
+      "bíper"
+    ],
+    "tts": [
+      "bíper"
+    ]
+  },
+  "🐅": {
+    "default": [
+      "animal",
+      "felino",
+      "tigre"
+    ],
+    "tts": []
+  },
+  "🤜": {
+    "default": [
+      "derecha",
+      "puño",
+      "puño hacia la derecha"
+    ],
+    "tts": [
+      "puño hacia la derecha"
+    ]
+  },
+  "🥏": {
+    "default": [
+      "frisbee",
+      "ultimate"
+    ],
+    "tts": [
+      "frisbee"
+    ]
+  },
+  "🌹": {
+    "default": [
+      "amor",
+      "flor",
+      "planta",
+      "rosa"
+    ],
+    "tts": []
+  },
+  "🤖": {
+    "default": [
+      "cara",
+      "cara de robot",
+      "monstruo"
+    ],
+    "tts": [
+      "cara de robot"
+    ]
+  },
+  "🙂‍↔": {
+    "default": [
+      "cabeza moviéndose horizontalmente",
+      "negando"
+    ],
+    "tts": [
+      "cabeza moviéndose horizontalmente"
+    ]
+  },
+  "🐋": {
+    "default": [
+      "animal",
+      "ballena"
+    ],
+    "tts": []
+  },
+  "👩‍👦": {
+    "default": [
+      "familia",
+      "familia: mujer y niño",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🥵": {
+    "default": [
+      "calor",
+      "cara colorada",
+      "cara de calor",
+      "fiebre",
+      "golpe de calor",
+      "sudor"
+    ],
+    "tts": [
+      "cara de calor"
+    ]
+  },
+  "🧫": {
+    "default": [
+      "bacteria",
+      "biología",
+      "biólogo",
+      "laboratorio",
+      "microbio",
+      "placa de Petri"
+    ],
+    "tts": [
+      "placa de Petri"
+    ]
+  },
+  "🦟": {
+    "default": [
+      "enfermedad",
+      "fiebre",
+      "insecto",
+      "malaria",
+      "mosquito",
+      "virus"
+    ],
+    "tts": []
+  },
+  "🎣": {
+    "default": [
+      "caña",
+      "caña de pescar",
+      "ocio",
+      "pesca",
+      "pescado",
+      "pescar"
+    ],
+    "tts": []
+  },
+  "😣": {
+    "default": [
+      "cara perseverante"
+    ],
+    "tts": []
+  },
+  "🧟": {
+    "default": [
+      "caminante",
+      "muerto viviente",
+      "no muerto",
+      "persona zombi",
+      "zombi"
+    ],
+    "tts": [
+      "persona zombi"
+    ]
+  },
+  "📝": {
+    "default": [
+      "comunicación",
+      "memo",
+      "memorándum",
+      "nota",
+      "recordatorio"
+    ],
+    "tts": []
+  },
+  "🙏": {
+    "default": [
+      "favor",
+      "gracias",
+      "manos en oración",
+      "oración",
+      "orar",
+      "rezar"
+    ],
+    "tts": []
+  },
+  "😍": {
+    "default": [
+      "amor",
+      "cara sonriendo con ojos de corazón",
+      "corazones",
+      "sonriente",
+      "tierno"
+    ],
+    "tts": []
+  },
+  "👮‍♂": {
+    "default": [
+      "agente",
+      "agente de policía hombre",
+      "oficial hombre",
+      "policía"
+    ],
+    "tts": []
+  },
+  "🎑": {
+    "default": [
+      "ceremonia de contemplación de la luna"
+    ],
+    "tts": [
+      "ceremonia de contemplación de la luna"
+    ]
+  },
+  "🫐": {
+    "default": [
+      "arándanos"
+    ],
+    "tts": []
+  },
+  "🐶": {
+    "default": [
+      "cara",
+      "cara de perro",
+      "perro"
+    ],
+    "tts": []
+  },
+  "♿": {
+    "default": [
+      "acceso",
+      "acceso para silla de ruedas",
+      "señal",
+      "señal de acceso para silla de ruedas",
+      "silla de ruedas"
+    ],
+    "tts": [
+      "señal de acceso para silla de ruedas"
+    ]
+  },
+  "😈": {
+    "default": [
+      "cara malvada sonriendo con cuernos",
+      "cara sonriendo con cuernos",
+      "cuernos",
+      "diablo",
+      "pícaro",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara malvada sonriendo con cuernos"
+    ]
+  },
+  "🚑": {
+    "default": [
+      "ambulancia",
+      "hospital",
+      "transporte",
+      "urgencia"
+    ],
+    "tts": []
+  },
+  "🌍": {
+    "default": [
+      "África",
+      "Europa",
+      "globo",
+      "globo terráqueo Europa/África"
+    ],
+    "tts": []
+  },
+  "🟰": {
+    "default": [
+      "matemáticas",
+      "signo igual"
+    ],
+    "tts": [
+      "signo igual"
+    ]
+  },
+  "🚹": {
+    "default": [
+      "aseo de caballeros",
+      "aseo para hombres",
+      "baño",
+      "señal",
+      "señal con un hombre",
+      "señal del baño de los hombres",
+      "servicio"
+    ],
+    "tts": [
+      "señal del baño de los hombres"
+    ]
+  },
+  "🥳": {
+    "default": [
+      "cara de fiesta",
+      "celebración",
+      "fiesta",
+      "gorro",
+      "matasuegras"
+    ],
+    "tts": []
+  },
+  "🙍": {
+    "default": [
+      "cara",
+      "ceño",
+      "fruncido",
+      "persona frunciendo el ceño"
+    ],
+    "tts": []
+  },
+  "🤕": {
+    "default": [
+      "cara",
+      "cara con la cabeza vendada",
+      "dolor",
+      "herido",
+      "vendas"
+    ],
+    "tts": [
+      "cara con la cabeza vendada"
+    ]
+  },
+  "👝": {
+    "default": [
+      "bolso de mano",
+      "cartera",
+      "ropa",
+      "sobre",
+      "vestimenta"
+    ],
+    "tts": []
+  },
+  "🈵": {
+    "default": [
+      "ideograma",
+      "ideograma japonés para \"sin vacantes\"",
+      "japonés",
+      "kanji",
+      "lleno"
+    ],
+    "tts": [
+      "ideograma japonés para \"sin vacantes\""
+    ]
+  },
+  "🔈": {
+    "default": [
+      "bocina a volumen bajo"
+    ],
+    "tts": [
+      "bocina a volumen bajo"
+    ]
+  },
+  "🧑‍🚀": {
+    "default": [
+      "astronauta"
+    ],
+    "tts": []
+  },
+  "🪛": {
+    "default": [
+      "destornillador"
+    ],
+    "tts": []
+  },
+  "🛵": {
+    "default": [
+      "motoneta"
+    ],
+    "tts": [
+      "motoneta"
+    ]
+  },
+  "💇‍♂": {
+    "default": [
+      "corte de pelo",
+      "hombre",
+      "hombre cortándose el pelo",
+      "pelo",
+      "peluquería",
+      "salón"
+    ],
+    "tts": []
+  },
+  "🦝": {
+    "default": [
+      "astucia",
+      "curiosidad",
+      "mapache"
+    ],
+    "tts": []
+  },
+  "👷‍♂": {
+    "default": [
+      "albañil",
+      "construcción",
+      "hombre",
+      "obrero",
+      "obrero de construcción",
+      "profesional de la construcción hombre",
+      "trabajador"
+    ],
+    "tts": [
+      "obrero de construcción"
+    ]
+  },
+  "🦻": {
+    "default": [
+      "accesibilidad",
+      "audífono",
+      "oreja con audífono",
+      "oreja con prótesis auditiva",
+      "prótesis auditiva",
+      "sordo"
+    ],
+    "tts": [
+      "oreja con prótesis auditiva"
+    ]
+  },
+  "⏱": {
+    "default": [
+      "cronómetro",
+      "medición del tiempo",
+      "reloj",
+      "segundos",
+      "tiempo"
+    ],
+    "tts": []
+  },
+  "🚄": {
+    "default": [
+      "bala",
+      "ferrocarril",
+      "rápido",
+      "tren",
+      "tren de alta velocidad",
+      "velocidad"
+    ],
+    "tts": []
+  },
+  "🤳": {
+    "default": [
+      "cámara",
+      "celular",
+      "móvil",
+      "selfi",
+      "teléfono"
+    ],
+    "tts": [
+      "selfi"
+    ]
+  },
+  "🎁": {
+    "default": [
+      "celebración",
+      "moño",
+      "obsequio",
+      "presente",
+      "regalo"
+    ],
+    "tts": []
+  },
+  "2⃣": {
+    "default": [
+      "tecla",
+      "tecla: 2"
+    ],
+    "tts": [
+      "tecla: 2"
+    ]
+  },
+  "🧑‍🦱": {
+    "default": [
+      "género",
+      "neutro",
+      "pelo rizado",
+      "persona",
+      "persona adulta",
+      "persona: pelo rizado"
+    ],
+    "tts": [
+      "persona: pelo rizado"
+    ]
+  },
+  "😘": {
+    "default": [
+      "besos",
+      "cara",
+      "cara lanzando un beso",
+      "corazón"
+    ],
+    "tts": []
+  },
+  "🧑‍⚖": {
+    "default": [
+      "juez"
+    ],
+    "tts": [
+      "juez"
+    ]
+  },
+  "🔹": {
+    "default": [
+      "cómic",
+      "diamante",
+      "diamante azul pequeño",
+      "flor",
+      "pétalo de flor",
+      "rombo con pétalo"
+    ],
+    "tts": [
+      "diamante azul pequeño"
+    ]
+  },
+  "🪗": {
+    "default": [
+      "acordeón"
+    ],
+    "tts": []
+  },
+  "👨‍👩‍👧‍👦": {
+    "default": [
+      "familia",
+      "familia: hombre, mujer, niña, niño",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "mujer",
+      "niña",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "📃": {
+    "default": [
+      "página doblada"
+    ],
+    "tts": [
+      "página doblada"
+    ]
+  },
+  "🚙": {
+    "default": [
+      "vehículo utilitario deportivo"
+    ],
+    "tts": [
+      "vehículo utilitario deportivo"
+    ]
+  },
+  "☃": {
+    "default": [
+      "invierno",
+      "muñeco",
+      "muñeco de nieve nevado",
+      "nieve"
+    ],
+    "tts": []
+  },
+  "👎": {
+    "default": [
+      "-1",
+      "abajo",
+      "desacuerdo",
+      "mano",
+      "pulgar",
+      "pulgar hacia abajo"
+    ],
+    "tts": []
+  },
+  "🗯": {
+    "default": [
+      "burbuja",
+      "cómics",
+      "derecho",
+      "enojado",
+      "globo",
+      "globo de enojo derecho"
+    ],
+    "tts": []
+  },
+  "🎨": {
+    "default": [
+      "arte",
+      "artista",
+      "paleta",
+      "paleta de pinturas",
+      "pintor"
+    ],
+    "tts": []
+  },
+  "😝": {
+    "default": [
+      "cara con los ojos bien cerrados y sacando la lengua",
+      "cara con ojos cerrados y sacando la lengua"
+    ],
+    "tts": [
+      "cara con ojos cerrados y sacando la lengua"
+    ]
+  },
+  "🤑": {
+    "default": [
+      "cara con lengua de dinero"
+    ],
+    "tts": []
+  },
+  "🌴": {
+    "default": [
+      "árbol",
+      "cocos",
+      "palmera"
+    ],
+    "tts": []
+  },
+  "🕺": {
+    "default": [
+      "bailar",
+      "bailarín",
+      "baile",
+      "hombre",
+      "hombre bailando"
+    ],
+    "tts": [
+      "bailarín"
+    ]
+  },
+  "🏟": {
+    "default": [
+      "deporte",
+      "estadio",
+      "eventos"
+    ],
+    "tts": []
+  },
+  "🏊‍♂": {
+    "default": [
+      "hombre",
+      "hombre nadando",
+      "nadar",
+      "natación"
+    ],
+    "tts": []
+  },
+  "🟫": {
+    "default": [
+      "cuadrado café"
+    ],
+    "tts": [
+      "cuadrado café"
+    ]
+  },
+  "😼": {
+    "default": [
+      "cara de gato con sonrisa irónica",
+      "gato",
+      "irónico",
+      "sarcástico",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara de gato con sonrisa irónica"
+    ]
+  },
+  "🪫": {
+    "default": [
+      "batería baja",
+      "electrónico"
+    ],
+    "tts": []
+  },
+  "🚍": {
+    "default": [
+      "autobús se aproxima"
+    ],
+    "tts": []
+  },
+  "🧵": {
+    "default": [
+      "aguja",
+      "bobina",
+      "carrete",
+      "cordel",
+      "coser",
+      "hilo"
+    ],
+    "tts": []
+  },
+  "🚢": {
+    "default": [
+      "barco",
+      "crucero",
+      "transporte"
+    ],
+    "tts": []
+  },
+  "🦐": {
+    "default": [
+      "camarón",
+      "comida",
+      "langostino",
+      "mariscos"
+    ],
+    "tts": []
+  },
+  "🍫": {
+    "default": [
+      "chocolate",
+      "dulce",
+      "postre",
+      "tableta de chocolate"
+    ],
+    "tts": []
+  },
+  "5⃣": {
+    "default": [
+      "tecla",
+      "tecla: 5"
+    ],
+    "tts": [
+      "tecla: 5"
+    ]
+  },
+  "❌": {
+    "default": [
+      "×",
+      "cancelar",
+      "cruz",
+      "marca de cruz",
+      "marca de tachado",
+      "tachar",
+      "tache"
+    ],
+    "tts": [
+      "tache"
+    ]
+  },
+  "👆": {
+    "default": [
+      "apuntar",
+      "dedo",
+      "dorso de mano con dedo índice hacia arriba",
+      "índice",
+      "mano",
+      "mano con dedo índice hacia arriba",
+      "señalar"
+    ],
+    "tts": [
+      "mano con dedo índice hacia arriba"
+    ]
+  },
+  "🏴‍☠": {
+    "default": [
+      "bandera pirata",
+      "botín",
+      "calavera",
+      "Jolly Roger",
+      "pirata"
+    ],
+    "tts": []
+  },
+  "👸": {
+    "default": [
+      "cara",
+      "cuento",
+      "fantasía",
+      "persona",
+      "princesa",
+      "realeza"
+    ],
+    "tts": []
+  },
+  "🚊": {
+    "default": [
+      "transporte",
+      "tranvía",
+      "tren ligero"
+    ],
+    "tts": []
+  },
+  "🎰": {
+    "default": [
+      "apuestas",
+      "casino",
+      "juego",
+      "máquina",
+      "tragamonedas"
+    ],
+    "tts": []
+  },
+  "🌕": {
+    "default": [
+      "espacio",
+      "fase lunar",
+      "llena",
+      "luna"
+    ],
+    "tts": []
+  },
+  "👩‍🌾": {
+    "default": [],
+    "tts": [
+      "granjera mujer"
+    ]
+  },
+  "🧑‍🦯‍➡": {
+    "default": [
+      "Persona con bastón blanco",
+      "Persona con bastón blanco hacia la derecha"
+    ],
+    "tts": [
+      "Persona con bastón blanco hacia la derecha"
+    ]
+  },
+  "🪒": {
+    "default": [
+      "navaja de afeitar"
+    ],
+    "tts": [
+      "navaja de afeitar"
+    ]
+  },
+  "😱": {
+    "default": [
+      "cara gritando de miedo",
+      "grito",
+      "horror",
+      "miedo",
+      "terror"
+    ],
+    "tts": [
+      "cara gritando de miedo"
+    ]
+  },
+  "🔟": {
+    "default": [
+      "tecla",
+      "tecla: 10"
+    ],
+    "tts": [
+      "tecla: 10"
+    ]
+  },
+  "👳": {
+    "default": [
+      "cara",
+      "persona",
+      "persona con turbante",
+      "turbante"
+    ],
+    "tts": []
+  },
+  "⛑": {
+    "default": [
+      "ayuda",
+      "casco",
+      "casco con una cruz blanca",
+      "casco de rescatista"
+    ],
+    "tts": [
+      "casco con una cruz blanca"
+    ]
+  },
+  "😵": {
+    "default": [
+      "cara",
+      "cara mareada",
+      "mareado"
+    ],
+    "tts": [
+      "cara mareada"
+    ]
+  },
+  "🍦": {
+    "default": [
+      "helado en barquillo"
+    ],
+    "tts": [
+      "helado en barquillo"
+    ]
+  },
+  "🤦‍♀": {
+    "default": [
+      "exasperación",
+      "facepalm",
+      "incredulidad",
+      "mujer",
+      "mujer con la mano en la frente"
+    ],
+    "tts": []
+  },
+  "💤": {
+    "default": [
+      "cómics",
+      "emoción",
+      "estar durmiendo",
+      "roncar",
+      "símbolo de sueño"
+    ],
+    "tts": []
+  },
+  "😰": {
+    "default": [
+      "ansiedad",
+      "azul",
+      "cara",
+      "cara con ansiedad y sudor",
+      "frío",
+      "sudor"
+    ],
+    "tts": []
+  },
+  "🙋": {
+    "default": [
+      "levantar",
+      "mano",
+      "persona",
+      "persona levantando la mano",
+      "yo"
+    ],
+    "tts": []
+  },
+  "🪁": {
+    "default": [
+      "cometa",
+      "juguete",
+      "papalote",
+      "planear",
+      "viento",
+      "volar"
+    ],
+    "tts": []
+  },
+  "🖊": {
+    "default": [
+      "bolígrafo",
+      "escribir",
+      "lapicera",
+      "pluma"
+    ],
+    "tts": []
+  },
+  "🌰": {
+    "default": [
+      "castaña",
+      "comida",
+      "fruto seco",
+      "planta"
+    ],
+    "tts": []
+  },
+  "🤎": {
+    "default": [
+      "corazón",
+      "corazón café",
+      "emoción",
+      "marrón"
+    ],
+    "tts": [
+      "corazón café"
+    ]
+  },
+  "💽": {
+    "default": [
+      "disco duro"
+    ],
+    "tts": [
+      "disco duro"
+    ]
+  },
+  "🪞": {
+    "default": [
+      "espejo"
+    ],
+    "tts": []
+  },
+  "🪧": {
+    "default": [
+      "cartel"
+    ],
+    "tts": [
+      "cartel"
+    ]
+  },
+  "🏈": {
+    "default": [
+      "americano",
+      "balón",
+      "deporte",
+      "fútbol",
+      "pelota de fútbol americano"
+    ],
+    "tts": []
+  },
+  "🥿": {
+    "default": [
+      "bailarina",
+      "calzado de piso",
+      "zapato de piso",
+      "zapato plano"
+    ],
+    "tts": [
+      "zapato de piso"
+    ]
+  },
+  "♻": {
+    "default": [
+      "reciclado",
+      "reciclaje",
+      "reciclar",
+      "símbolo",
+      "símbolo de reciclaje"
+    ],
+    "tts": []
+  },
+  "🤦‍♂": {
+    "default": [
+      "exasperación",
+      "facepalm",
+      "hombre",
+      "hombre con la mano en la frente",
+      "incredulidad"
+    ],
+    "tts": []
+  },
+  "🎖": {
+    "default": [
+      "celebración",
+      "grado",
+      "medalla",
+      "militar"
+    ],
+    "tts": []
+  },
+  "🏝": {
+    "default": [
+      "isla",
+      "isla desierta"
+    ],
+    "tts": []
+  },
+  "🧑‍🏫": {
+    "default": [
+      "maestro"
+    ],
+    "tts": [
+      "maestro"
+    ]
+  },
+  "👩‍👩‍👧‍👦": {
+    "default": [
+      "familia",
+      "familia: mujer, mujer, niña, niño",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niña",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "👕": {
+    "default": [
+      "camiseta",
+      "playera",
+      "ropa",
+      "vestimenta"
+    ],
+    "tts": []
+  },
+  "💃": {
+    "default": [],
+    "tts": [
+      "bailarina"
+    ]
+  },
+  "🧷": {
+    "default": [
+      "broche",
+      "broche de seguridad",
+      "pañal"
+    ],
+    "tts": [
+      "broche de seguridad"
+    ]
+  },
+  "🤭": {
+    "default": [
+      "cara con mano sobre la boca",
+      "chanfle",
+      "risita",
+      "uy",
+      "vaya"
+    ],
+    "tts": []
+  },
+  "🧑‍✈": {
+    "default": [
+      "piloto"
+    ],
+    "tts": []
+  },
+  "🐷": {
+    "default": [
+      "animal",
+      "cara",
+      "cara de cerdo",
+      "cerdo",
+      "porcino",
+      "puerco"
+    ],
+    "tts": []
+  },
+  "🐩": {
+    "default": [
+      "animal",
+      "caniche",
+      "perro",
+      "perro de aguas",
+      "poodle"
+    ],
+    "tts": []
+  },
+  "🥶": {
+    "default": [
+      "cara azul",
+      "cara de frío",
+      "congelamiento",
+      "frío",
+      "helado",
+      "tempano"
+    ],
+    "tts": [
+      "cara de frío"
+    ]
+  },
+  "🪆": {
+    "default": [
+      "muñecas rusas"
+    ],
+    "tts": [
+      "muñecas rusas"
+    ]
+  },
+  "😿": {
+    "default": [
+      "cara de gato llorando",
+      "gato",
+      "lágrima",
+      "llanto",
+      "llorar",
+      "triste"
+    ],
+    "tts": [
+      "cara de gato llorando"
+    ]
+  },
+  "🇬🇬": {
+    "default": [
+      "bandera",
+      "bandera: Guernsey"
+    ],
+    "tts": [
+      "bandera: Guernsey"
+    ]
+  },
+  "🌐": {
+    "default": [
+      "globo",
+      "globo terráqueo con meridianos",
+      "meridianos",
+      "mundo",
+      "paralelos",
+      "terráqueo"
+    ],
+    "tts": []
+  },
+  "🦠": {
+    "default": [
+      "ameba",
+      "amiba",
+      "bacteria",
+      "microbio",
+      "virus"
+    ],
+    "tts": []
+  },
+  "🥜": {
+    "default": [
+      "cacahuate"
+    ],
+    "tts": [
+      "cacahuate"
+    ]
+  },
+  "🥸": {
+    "default": [
+      "anteojos",
+      "cara",
+      "cara disfrazada",
+      "disfraz",
+      "incognito",
+      "nariz"
+    ],
+    "tts": []
+  },
+  "😁": {
+    "default": [
+      "cara",
+      "cara radiante con ojos sonrientes",
+      "divertido",
+      "risa",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara radiante con ojos sonrientes"
+    ]
+  },
+  "🧁": {
+    "default": [
+      "cupcake",
+      "madalena",
+      "madgalena",
+      "pastelito"
+    ],
+    "tts": [
+      "pastelito"
+    ]
+  },
+  "😹": {
+    "default": [
+      "alegría",
+      "cara",
+      "cara de gato llorando de risa",
+      "gato",
+      "lágrimas",
+      "llorando"
+    ],
+    "tts": [
+      "cara de gato llorando de risa"
+    ]
+  },
+  "🦹": {
+    "default": [
+      "delito",
+      "mal",
+      "superpoder",
+      "supervillano",
+      "villano"
+    ],
+    "tts": [
+      "supervillano"
+    ]
+  },
+  "#⃣": {
+    "default": [
+      "tecla",
+      "tecla: #"
+    ],
+    "tts": [
+      "tecla: #"
+    ]
+  },
+  "🏌": {
+    "default": [
+      "persona jugando al golf"
+    ],
+    "tts": [
+      "persona jugando al golf"
+    ]
+  },
+  "🐌": {
+    "default": [
+      "animal",
+      "babosa",
+      "baboso",
+      "caracol",
+      "insecto"
+    ],
+    "tts": []
+  },
+  "🧖‍♀": {
+    "default": [
+      "mujer en sauna",
+      "mujer en una sauna",
+      "sauna",
+      "vapor"
+    ],
+    "tts": [
+      "mujer en sauna"
+    ]
+  },
+  "🧛‍♂": {
+    "default": [
+      "drácula",
+      "muerto viviente",
+      "vampiro",
+      "vampiro hombre"
+    ],
+    "tts": []
+  },
+  "👩‍👧‍👦": {
+    "default": [
+      "familia",
+      "familia: mujer, niña, niño",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niña",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "8⃣": {
+    "default": [
+      "tecla",
+      "tecla: 8"
+    ],
+    "tts": [
+      "tecla: 8"
+    ]
+  },
+  "👦": {
+    "default": [
+      "joven",
+      "niño"
+    ],
+    "tts": []
+  },
+  "🧑‍🦯": {
+    "default": [
+      "Persona con bastón blanco"
+    ],
+    "tts": [
+      "Persona con bastón blanco"
+    ]
+  },
+  "🧆": {
+    "default": [
+      "albóndigas",
+      "bolas de garbanzo",
+      "falafel"
+    ],
+    "tts": []
+  },
+  "🖖": {
+    "default": [
+      "saludo",
+      "spock",
+      "star",
+      "trek",
+      "vulcano"
+    ],
+    "tts": []
+  },
+  "🎺": {
+    "default": [
+      "instrumento",
+      "música",
+      "trompeta"
+    ],
+    "tts": []
+  },
+  "🩰": {
+    "default": [
+      "bailar",
+      "ballet",
+      "danza",
+      "zapatillas de ballet"
+    ],
+    "tts": []
+  },
+  "☎": {
+    "default": [
+      "teléfono fijo"
+    ],
+    "tts": [
+      "teléfono fijo"
+    ]
+  },
+  "💁": {
+    "default": [
+      "información",
+      "mesa",
+      "persona",
+      "persona de mostrador de información",
+      "persona en mostrador de información"
+    ],
+    "tts": []
+  },
+  "🎽": {
+    "default": [
+      "camiseta",
+      "camiseta para correr",
+      "correr",
+      "mangas",
+      "musculosa"
+    ],
+    "tts": []
+  },
+  "👌": {
+    "default": [
+      "gesto",
+      "mano",
+      "ok",
+      "señal",
+      "señal de aprobación con la mano"
+    ],
+    "tts": [
+      "señal de aprobación con la mano"
+    ]
+  },
+  "🎮": {
+    "default": [
+      "control",
+      "joystick",
+      "juego",
+      "mando",
+      "video juegos"
+    ],
+    "tts": []
+  },
+  "🦭": {
+    "default": [
+      "foca"
+    ],
+    "tts": []
+  },
+  "🧸": {
+    "default": [
+      "felpa",
+      "juguete",
+      "oso",
+      "oso de peluche",
+      "relleno"
+    ],
+    "tts": [
+      "oso de peluche"
+    ]
+  },
+  "4⃣": {
+    "default": [
+      "tecla",
+      "tecla: 4"
+    ],
+    "tts": [
+      "tecla: 4"
+    ]
+  },
+  "🎂": {
+    "default": [
+      "pastel de cumpleaños"
+    ],
+    "tts": [
+      "pastel de cumpleaños"
+    ]
+  },
+  "🏮": {
+    "default": [
+      "farol",
+      "farol de papel japonés",
+      "izakaya",
+      "linterna",
+      "papel"
+    ],
+    "tts": []
+  },
+  "💼": {
+    "default": [
+      "bolso de hombre",
+      "maletín",
+      "portafolio"
+    ],
+    "tts": []
+  },
+  "🪳": {
+    "default": [
+      "cucaracha"
+    ],
+    "tts": []
+  },
+  "🤛": {
+    "default": [
+      "izquierda",
+      "puño",
+      "puño hacia la izquierda"
+    ],
+    "tts": [
+      "puño hacia la izquierda"
+    ]
+  },
+  "🛒": {
+    "default": [
+      "carriito",
+      "carrito de compras",
+      "carro",
+      "compras",
+      "supermercado"
+    ],
+    "tts": []
+  },
+  "🧽": {
+    "default": [
+      "absorber",
+      "esponja",
+      "limpiar",
+      "poroso"
+    ],
+    "tts": []
+  },
+  "😷": {
+    "default": [
+      "barbijo",
+      "cara",
+      "cara con mascarilla médica",
+      "cubrebocas",
+      "enfermo"
+    ],
+    "tts": [
+      "cara con mascarilla médica"
+    ]
+  },
+  "🩳": {
+    "default": [
+      "shorts"
+    ],
+    "tts": [
+      "shorts"
+    ]
+  },
+  "🧖‍♂": {
+    "default": [
+      "hombre en sauna",
+      "hombre en una sauna",
+      "sauna",
+      "vapor"
+    ],
+    "tts": [
+      "hombre en sauna"
+    ]
+  },
+  "👍": {
+    "default": [
+      "+1",
+      "de acuerdo",
+      "OK",
+      "pulgar",
+      "pulgar hacia arriba",
+      "señal de OK"
+    ],
+    "tts": []
+  },
+  "🎒": {
+    "default": [
+      "escuela",
+      "estudiar",
+      "maletín",
+      "mochila escolar"
+    ],
+    "tts": [
+      "mochila escolar"
+    ]
+  },
+  "🍟": {
+    "default": [
+      "comida",
+      "papas fritas"
+    ],
+    "tts": []
+  },
+  "🩲": {
+    "default": [
+      "calzoncillos",
+      "ropa interior",
+      "slip",
+      "traje de baño"
+    ],
+    "tts": []
+  },
+  "😳": {
+    "default": [
+      "avergonzado",
+      "cara sonrojada",
+      "sonrojado",
+      "sorprendido",
+      "sorpresa",
+      "vergüenza"
+    ],
+    "tts": []
+  },
+  "🍖": {
+    "default": [
+      "carne",
+      "carne con hueso",
+      "comida",
+      "hueso"
+    ],
+    "tts": []
+  },
+  "🙂": {
+    "default": [
+      "cara",
+      "cara sonriendo ligeramente",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara sonriendo ligeramente"
+    ]
+  },
+  "↙": {
+    "default": [
+      "flecha hacia el suroeste"
+    ],
+    "tts": [
+      "flecha hacia el suroeste"
+    ]
+  },
+  "👩‍👩‍👧": {
+    "default": [
+      "familia",
+      "familia: mujer, mujer, niña",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🥐": {
+    "default": [
+      "comida",
+      "croissant",
+      "cuernito",
+      "medialuna",
+      "pan"
+    ],
+    "tts": []
+  },
+  "🌒": {
+    "default": [
+      "creciente",
+      "espacio",
+      "luna",
+      "nueva",
+      "visible"
+    ],
+    "tts": []
+  },
+  "🩱": {
+    "default": [
+      "traje de baño",
+      "traje de baño de una pieza"
+    ],
+    "tts": []
+  },
+  "↗": {
+    "default": [
+      "derecha",
+      "dirección",
+      "flecha",
+      "flecha hacia el noreste",
+      "flecha hacia la esquina superior derecha",
+      "noreste"
+    ],
+    "tts": []
+  },
+  "🐄": {
+    "default": [
+      "animal",
+      "vaca",
+      "vacuno"
+    ],
+    "tts": []
+  },
+  "🛁": {
+    "default": [
+      "tina"
+    ],
+    "tts": [
+      "tina"
+    ]
+  },
+  "🦂": {
+    "default": [
+      "animal",
+      "escorpión",
+      "insecto",
+      "venenoso"
+    ],
+    "tts": []
+  },
+  "✉": {
+    "default": [
+      "carta",
+      "comunicación",
+      "correo",
+      "sobre"
+    ],
+    "tts": []
+  },
+  "🗜": {
+    "default": [
+      "abrazadera"
+    ],
+    "tts": [
+      "abrazadera"
+    ]
+  },
+  "🪡": {
+    "default": [
+      "aguja de coser"
+    ],
+    "tts": []
+  },
+  "🚨": {
+    "default": [
+      "sirena de patrulla"
+    ],
+    "tts": [
+      "sirena de patrulla"
+    ]
+  },
+  "🪤": {
+    "default": [
+      "trampa para ratones"
+    ],
+    "tts": [
+      "trampa para ratones"
+    ]
+  },
+  "🚜": {
+    "default": [
+      "campo",
+      "tractor",
+      "vehículo",
+      "vehículo de trabajo"
+    ],
+    "tts": []
+  },
+  "✔": {
+    "default": [
+      "✓",
+      "marca",
+      "marca de verificación",
+      "selección",
+      "verificación"
+    ],
+    "tts": [
+      "marca de verificación"
+    ]
+  },
+  "🫒": {
+    "default": [
+      "aceituna"
+    ],
+    "tts": []
+  },
+  "🐀": {
+    "default": [
+      "animal",
+      "rata"
+    ],
+    "tts": []
+  },
+  "🗑": {
+    "default": [
+      "papelera"
+    ],
+    "tts": [
+      "papelera"
+    ]
+  },
+  "🐎": {
+    "default": [
+      "animal",
+      "caballo",
+      "ecuestre",
+      "equino",
+      "galopar"
+    ],
+    "tts": []
+  },
+  "🪲": {
+    "default": [
+      "escarabajo"
+    ],
+    "tts": []
+  },
+  "⛵": {
+    "default": [
+      "bote",
+      "deporte acuático",
+      "mar",
+      "transporte",
+      "velero"
+    ],
+    "tts": []
+  },
+  "✒": {
+    "default": [
+      "pluma de lapicera"
+    ],
+    "tts": [
+      "pluma de lapicera"
+    ]
+  },
+  "🐝": {
+    "default": [
+      "abeja",
+      "animal",
+      "insecto"
+    ],
+    "tts": []
+  },
+  "💬": {
+    "default": [
+      "burbuja",
+      "cómics",
+      "diálogo",
+      "globo",
+      "globo de diálogo"
+    ],
+    "tts": []
+  },
+  "🌇": {
+    "default": [
+      "amanecer",
+      "atardecer",
+      "edificios",
+      "puesta",
+      "puesta de sol sobre edificios"
+    ],
+    "tts": []
+  },
+  "🧑‍🦲": {
+    "default": [
+      "género",
+      "neutro",
+      "persona",
+      "persona adulta",
+      "persona: sin pelo",
+      "sin pelo"
+    ],
+    "tts": [
+      "persona: sin pelo"
+    ]
+  },
+  "👨‍👧‍👧": {
+    "default": [
+      "familia",
+      "familia: hombre, niña, niña",
+      "hija",
+      "hijo",
+      "hombre",
+      "madre",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🧑‍🚒": {
+    "default": [
+      "bombero"
+    ],
+    "tts": []
+  },
+  "👨‍🦲": {
+    "default": [
+      "adulto",
+      "cara",
+      "hombre",
+      "persona",
+      "señor",
+      "sin pelo"
+    ],
+    "tts": []
+  },
+  "7⃣": {
+    "default": [
+      "tecla",
+      "tecla: 7"
+    ],
+    "tts": [
+      "tecla: 7"
+    ]
+  },
+  "👶": {
+    "default": [
+      "bebé",
+      "cara",
+      "infante",
+      "nene"
+    ],
+    "tts": []
+  },
+  "🫗": {
+    "default": [
+      "bebida",
+      "líquido derramándose",
+      "vacío",
+      "vaso",
+      "verter"
+    ],
+    "tts": [
+      "líquido derramándose"
+    ]
+  },
+  "🚤": {
+    "default": [
+      "bote",
+      "deporte acuático",
+      "lancha",
+      "transporte"
+    ],
+    "tts": []
+  },
+  "🥴": {
+    "default": [
+      "boca ondulada",
+      "borrachera",
+      "cara de mareo",
+      "intoxicación",
+      "mareo",
+      "ojos desparejos"
+    ],
+    "tts": [
+      "cara de mareo"
+    ]
+  },
+  "🍹": {
+    "default": [
+      "bar",
+      "bebida",
+      "cóctel",
+      "trago",
+      "tropical"
+    ],
+    "tts": []
+  },
+  "🦜": {
+    "default": [
+      "animal",
+      "ave",
+      "cotorro",
+      "hablar",
+      "loro",
+      "perico"
+    ],
+    "tts": []
+  },
+  "🍳": {
+    "default": [
+      "cocina",
+      "huevo",
+      "sartén"
+    ],
+    "tts": []
+  },
+  "👱": {
+    "default": [
+      "cara",
+      "persona adulta rubia",
+      "persona rubia"
+    ],
+    "tts": []
+  },
+  "👟": {
+    "default": [
+      "ropa",
+      "tenis",
+      "vestimenta",
+      "zapato deportivo"
+    ],
+    "tts": [
+      "tenis"
+    ]
+  },
+  "🪥": {
+    "default": [
+      "cepillo de dientes"
+    ],
+    "tts": []
+  },
+  "🛖": {
+    "default": [
+      "choza"
+    ],
+    "tts": [
+      "choza"
+    ]
+  },
+  "🏳‍🌈": {
+    "default": [
+      "arcoíris",
+      "bandera",
+      "bandera del arcoíris",
+      "bandera gay"
+    ],
+    "tts": []
+  },
+  "🥬": {
+    "default": [
+      "col",
+      "kale",
+      "lechuga",
+      "repollo chino",
+      "verdura de hoja"
+    ],
+    "tts": [
+      "verdura de hoja"
+    ]
+  },
+  "🎸": {
+    "default": [
+      "guitarra",
+      "instrumento",
+      "música"
+    ],
+    "tts": []
+  },
+  "🧑‍🎨": {
+    "default": [
+      "artista"
+    ],
+    "tts": []
+  },
+  "💺": {
+    "default": [
+      "asiento",
+      "asiento de transporte"
+    ],
+    "tts": []
+  },
+  "🕵": {
+    "default": [
+      "detective",
+      "espía",
+      "investigador",
+      "investigar",
+      "lupa"
+    ],
+    "tts": []
+  },
+  "📢": {
+    "default": [
+      "altavoz"
+    ],
+    "tts": [
+      "altavoz"
+    ]
+  },
+  "🥟": {
+    "default": [
+      "empanada"
+    ],
+    "tts": [
+      "empanada"
+    ]
+  },
+  "🧹": {
+    "default": [
+      "barrer",
+      "bruja",
+      "escoba",
+      "limpiar"
+    ],
+    "tts": []
+  },
+  "🙉": {
+    "default": [
+      "cara",
+      "mono",
+      "mono con los oídos tapados",
+      "no oír"
+    ],
+    "tts": [
+      "mono con los oídos tapados"
+    ]
+  },
+  "🦣": {
+    "default": [
+      "mamut"
+    ],
+    "tts": []
+  },
+  "💩": {
+    "default": [
+      "caca con ojos",
+      "cara",
+      "estiércol",
+      "gracioso"
+    ],
+    "tts": [
+      "caca con ojos"
+    ]
+  },
+  "🎶": {
+    "default": [
+      "corcheas",
+      "música",
+      "notas",
+      "notas musicales"
+    ],
+    "tts": []
+  },
+  "🧊": {
+    "default": [
+      "hielo"
+    ],
+    "tts": [
+      "hielo"
+    ]
+  },
+  "🛼": {
+    "default": [
+      "patín"
+    ],
+    "tts": [
+      "patín"
+    ]
+  },
+  "💥": {
+    "default": [
+      "choque",
+      "colisión",
+      "cómics",
+      "emoción",
+      "explosión"
+    ],
+    "tts": []
+  },
+  "🚌": {
+    "default": [
+      "autobús",
+      "bus",
+      "camión",
+      "colectivo",
+      "ruta",
+      "transporte"
+    ],
+    "tts": []
+  },
+  "🧧": {
+    "default": [
+      "buena suerte",
+      "dinero",
+      "regalo",
+      "sobre rojo"
+    ],
+    "tts": []
+  },
+  "🤙": {
+    "default": [
+      "gesto",
+      "llamada",
+      "mano",
+      "mano haciendo el gesto de llamar"
+    ],
+    "tts": [
+      "mano haciendo el gesto de llamar"
+    ]
+  },
+  "🍔": {
+    "default": [
+      "comida",
+      "hamburguesa"
+    ],
+    "tts": []
+  },
+  "🍗": {
+    "default": [
+      "comida",
+      "pata",
+      "pata de pollo",
+      "pollo"
+    ],
+    "tts": []
+  },
+  "♾": {
+    "default": [
+      "eterno",
+      "ilimitado",
+      "infinito",
+      "universal"
+    ],
+    "tts": []
+  },
+  "🚛": {
+    "default": [
+      "trailer"
+    ],
+    "tts": [
+      "trailer"
+    ]
+  },
+  "9⃣": {
+    "default": [
+      "tecla",
+      "tecla: 9"
+    ],
+    "tts": [
+      "tecla: 9"
+    ]
+  },
+  "🛢": {
+    "default": [
+      "barril de petróleo"
+    ],
+    "tts": [
+      "barril de petróleo"
+    ]
+  },
+  "💑": {
+    "default": [
+      "hombre y mujer enamorados"
+    ],
+    "tts": [
+      "hombre y mujer enamorados"
+    ]
+  },
+  "🦫": {
+    "default": [
+      "castor"
+    ],
+    "tts": []
+  },
+  "🥝": {
+    "default": [
+      "fruta",
+      "kiwi",
+      "planta"
+    ],
+    "tts": []
+  },
+  "6⃣": {
+    "default": [
+      "tecla",
+      "tecla: 6"
+    ],
+    "tts": [
+      "tecla: 6"
+    ]
+  },
+  "🩺": {
+    "default": [
+      "corazón",
+      "doctor",
+      "estetoscopio",
+      "fonendoscopio",
+      "latido",
+      "medicina"
+    ],
+    "tts": []
+  },
+  "👱‍♂": {
+    "default": [
+      "cara",
+      "güero",
+      "hombre rubio",
+      "rubio"
+    ],
+    "tts": []
+  },
+  "🍁": {
+    "default": [
+      "arce",
+      "hoja",
+      "hoja de arce",
+      "maple"
+    ],
+    "tts": []
+  },
+  "🖍": {
+    "default": [
+      "colorear",
+      "crayola",
+      "crayón",
+      "dibujar",
+      "pintar"
+    ],
+    "tts": []
+  },
+  "🔆": {
+    "default": [
+      "aumentar brillo"
+    ],
+    "tts": [
+      "aumentar brillo"
+    ]
+  },
+  "🌓": {
+    "default": [
+      "creciente",
+      "cuarto",
+      "espacio",
+      "fase lunar",
+      "luna",
+      "luna en cuarto creciente"
+    ],
+    "tts": []
+  },
+  "💍": {
+    "default": [
+      "anillo",
+      "compromiso",
+      "joya",
+      "romance"
+    ],
+    "tts": []
+  },
+  "👨‍🦳": {
+    "default": [
+      "adulto",
+      "cara",
+      "hombre",
+      "pelo blanco",
+      "persona",
+      "señor"
+    ],
+    "tts": []
+  },
+  "💹": {
+    "default": [
+      "gráfico",
+      "mercado",
+      "mercado en alza",
+      "tendencia",
+      "yen"
+    ],
+    "tts": []
+  },
+  "🔕": {
+    "default": [
+      "campana",
+      "campana con signo de cancelación",
+      "campana tachada",
+      "silencio"
+    ],
+    "tts": []
+  },
+  "🔱": {
+    "default": [
+      "barco",
+      "emblema",
+      "emblema de tridente",
+      "navegación",
+      "neptuno",
+      "tridente"
+    ],
+    "tts": []
+  },
+  "😊": {
+    "default": [
+      "cara",
+      "cara feliz con ojos sonrientes",
+      "ojos sonrientes",
+      "sonrisa"
+    ],
+    "tts": [
+      "cara feliz con ojos sonrientes"
+    ]
+  },
+  "💀": {
+    "default": [
+      "calavera",
+      "cara",
+      "miedo",
+      "monstruo",
+      "muerte"
+    ],
+    "tts": [
+      "calavera"
+    ]
+  },
+  "👩‍👩‍👦‍👦": {
+    "default": [
+      "familia",
+      "familia: mujer, mujer, niño, niño",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niño",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🥲": {
+    "default": [
+      "agradecido",
+      "aliviado",
+      "cara sonriente con lágrima",
+      "emocionado",
+      "lágrima",
+      "orgulloso",
+      "sonriente"
+    ],
+    "tts": []
+  },
+  "🩵": {
+    "default": [
+      "corazón azul claro"
+    ],
+    "tts": [
+      "corazón azul claro"
+    ]
+  },
+  "⏲": {
+    "default": [
+      "medición del tiempo",
+      "reloj",
+      "segundos",
+      "temporizador",
+      "tiempo"
+    ],
+    "tts": []
+  },
+  "🙂‍↕": {
+    "default": [
+      "afirmando",
+      "asintiendo",
+      "cabeza moviéndose verticalmente"
+    ],
+    "tts": [
+      "cabeza moviéndose verticalmente"
+    ]
+  },
+  "👨‍🦰": {
+    "default": [
+      "adulto",
+      "cara",
+      "hombre",
+      "pelo pelirrojo",
+      "persona",
+      "señor"
+    ],
+    "tts": []
+  },
+  "💜": {
+    "default": [
+      "corazón",
+      "emoción",
+      "morado"
+    ],
+    "tts": []
+  },
+  "🦋": {
+    "default": [
+      "animal",
+      "bonita",
+      "insecto",
+      "mariposa"
+    ],
+    "tts": []
+  },
+  "🪠": {
+    "default": [
+      "destapacaños"
+    ],
+    "tts": [
+      "destapacaños"
+    ]
+  },
+  "🐜": {
+    "default": [
+      "animal",
+      "hormiga",
+      "insecto"
+    ],
+    "tts": []
+  },
+  "🏊‍♀": {
+    "default": [
+      "mujer",
+      "mujer nadando",
+      "nadar",
+      "natación"
+    ],
+    "tts": []
+  },
+  "👩‍❤‍👨": {
+    "default": [
+      "hombre",
+      "hombre y mujer enamorados",
+      "hombre y mujer enamorados: mujer y hombre",
+      "mujer"
+    ],
+    "tts": [
+      "hombre y mujer enamorados: mujer y hombre"
+    ]
+  },
+  "👩‍👧‍👧": {
+    "default": [
+      "familia",
+      "familia: mujer, niña, niña",
+      "hija",
+      "hijo",
+      "madre",
+      "mujer",
+      "niña",
+      "padre"
+    ],
+    "tts": []
+  },
+  "🍜": {
+    "default": [
+      "tazón de fideos"
+    ],
+    "tts": []
+  },
+  "🪀": {
+    "default": [
+      "yoyo"
+    ],
+    "tts": [
+      "yoyo"
+    ]
+  },
+  "🥍": {
+    "default": [
+      "gol",
+      "lacrosse",
+      "palo",
+      "pelota"
+    ],
+    "tts": []
+  },
+  "👣": {
+    "default": [
+      "cuerpo",
+      "huellas de pies",
+      "pie",
+      "pisada"
+    ],
+    "tts": [
+      "huellas de pies"
+    ]
+  },
+  "💁‍♀": {
+    "default": [
+      "empleada",
+      "empleada de mostrador de información",
+      "información",
+      "mesa",
+      "mujer",
+      "mujer en mostrador de información"
+    ],
+    "tts": []
+  },
+  "🐪": {
+    "default": [
+      "animal",
+      "camélido",
+      "dromedario",
+      "joroba"
+    ],
+    "tts": []
+  },
+  "👯": {
+    "default": [
+      "conejita",
+      "conejo",
+      "mujer",
+      "mujeres de fiesta",
+      "orejas"
+    ],
+    "tts": []
+  }
+}
