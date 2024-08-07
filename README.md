@@ -2,8 +2,8 @@
 
 # Install 
 ```sh
-git clone https://github.com/leb-kuchen/emoji-selector-applet-for-cosmic
-cd emoji-selector-applet-for-cosmic
+git clone https://github.com/leb-kuchen/cosmic-ext-applet-emoji-selector 
+cd cosmic-ext-applet-emoji-selector 
 cargo b -r
 sudo just install
 ```
