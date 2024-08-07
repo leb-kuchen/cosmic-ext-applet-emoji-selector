@@ -18,8 +18,10 @@ The default can be changed in `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmoj
 A font which supports Unicode 15.1 is generally recommended.
 
 # Copying emojis
-To copy emojis, `data_control` has to be enabled. This can be done in `/etc/cosmic-comp/config.ron`. 
-Note this grants windowless applications access to your clipboard. 
+To copy emojis, `data_control` has to be enabled, to do set `COSMIC_DATA_CONTROL_ENABLED=1` in your profile.
+Note this grants windowless applications access to your clipboard. This is related to applets not being able to interact
+with the clipboard API (https://github.com/pop-os/cosmic-panel/issues/232). 
+
 In case this does not meet your security requirements, you can enter the unicode code points manually.
 To do so, enable `show_tooltip` and `show_unicode` in `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/show_tooltip` and
 `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/show_unicode` respectivly.
