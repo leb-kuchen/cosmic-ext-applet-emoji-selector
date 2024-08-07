@@ -565,14 +565,18 @@ where
         &self,
         tree: &Tree,
         layout: Layout<'_>,
+        renderer: &Renderer,
         dnd_rectangles: &mut cosmic::iced_style::core::clipboard::DndDestinationRectangles,
     ) {
         let my_state = tree.state.downcast_ref::<State>();
         if let Some((c_layout, c_state)) = layout.children().zip(tree.children.iter()).next() {
             let mut my_dnd_rectangles = DndDestinationRectangles::new();
-            self.content
-                .as_widget()
-                .drag_destinations(c_state, c_layout, &mut my_dnd_rectangles);
+            self.content.as_widget().drag_destinations(
+                c_state,
+                c_layout,
+                renderer,
+                &mut my_dnd_rectangles,
+            );
             let mut my_dnd_rectangles = my_dnd_rectangles.into_rectangles();
 
             let bounds = layout.bounds();

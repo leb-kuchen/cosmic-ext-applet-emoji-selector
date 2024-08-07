@@ -179,23 +179,13 @@ impl cosmic::Application for Window {
                 }
                 last_used.truncate(self.config.last_used_limit);
                 config_set!(last_used, last_used);
-                use wl_clipboard_rs::copy::{MimeType, Options, Source};
-                let opts = Options::new();
-                if let Err(_) = opts.copy(
-                    Source::Bytes(emoji.to_string().into_bytes().into()),
-                    MimeType::Autodetect,
-                ) {
-                    if self.config.use_wl_copy {
-                        _ = std::process::Command::new("wl-copy")
-                            .arg(emoji.as_str())
-                            .spawn();
-                    }
-                }
+                let mut commands = vec![iced::clipboard::write(emoji.to_string())];
                 if self.config.close_on_copy {
                     if let Some(p) = self.popup.take() {
-                        return destroy_popup(p);
+                        commands.push(destroy_popup(p));
                     }
                 }
+                return Command::batch(commands);
             }
             Message::Search(search) => {
                 self.search = search;
