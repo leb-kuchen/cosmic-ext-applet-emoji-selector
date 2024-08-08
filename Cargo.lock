@@ -862,7 +862,6 @@ dependencies = [
  "libcosmic",
  "once_cell",
  "paste",
- "rayon",
  "regex",
  "rust-embed",
  "serde",
