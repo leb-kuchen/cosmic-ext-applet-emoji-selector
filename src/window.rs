@@ -2,30 +2,33 @@ use std::borrow::Cow;
 use std::collections::HashMap;
 use std::iter;
 
-use crate::config::Annotation;
+use crate::config::{Annotation, ClickMode, ColorButton, SkinToneMode};
 use crate::config::{Config, CONFIG_VERSION};
 #[allow(unused_imports)]
 use crate::fl;
 use crate::widget_copy;
 use cosmic::app::Core;
-use cosmic::cosmic_config;
 use cosmic::iced;
 use cosmic::iced::wayland::popup::{destroy_popup, get_popup};
 use cosmic::iced::window::Id;
 #[allow(unused_imports)]
 use cosmic::iced::{alignment, Alignment, Length};
 use cosmic::iced::{Command, Limits};
+use cosmic::iced_core::mouse::click;
 use cosmic::iced_futures::Subscription;
 use cosmic::iced_runtime::core::window;
 use cosmic::iced_style::application;
 use cosmic::iced_widget::scrollable;
 use cosmic::widget::{self};
+use cosmic::{cosmic_config, iced_core};
 use cosmic::{Apply, Element, Theme};
 use cosmic_time::Timeline;
 use regex::RegexBuilder;
 pub const ID: &str = "dev.dominiccgeh.CosmicAppletEmojiSelector";
 const ICON: &str = ID;
 pub struct Window {
+    all_emojis: Vec<&'static emojis::Emoji>,
+    emojis_filtered: Vec<&'static emojis::Emoji>,
     annotations: HashMap<String, Annotation>,
     core: Core,
     popup: Option<Id>,
@@ -46,7 +49,7 @@ pub enum Message {
     TogglePopup,
     PopupClosed(Id),
     Group(Option<emojis::Group>),
-    EmojiCopy(&'static emojis::Emoji),
+    EmojiCopy(&'static emojis::Emoji, ClickMode),
     Search(String),
     Frame(std::time::Instant),
     EmojiHovered(&'static emojis::Emoji),
@@ -56,6 +59,7 @@ pub enum Message {
     ArrowRight,
     ArrowLeft,
     ScrollToPercent(u8),
+    ToggleColorButton(usize),
 }
 
 #[derive(Clone, Debug)]
@@ -87,7 +91,18 @@ impl cosmic::Application for Window {
         let config = flags.config;
         let font_family =
             iced::Font::with_name(Box::leak(config.font_family.clone().into_boxed_str()));
+
+        let mut all_emojis = Vec::new();
+        for emoji in emojis::iter() {
+            match emoji.skin_tones() {
+                Some(skin_tones) => all_emojis.extend(skin_tones),
+                None => all_emojis.push(emoji),
+            }
+        }
+        let emojis_filtered = all_emojis.iter().copied().collect();
         let window = Window {
+            all_emojis,
+            emojis_filtered,
             font_family,
             scrollable_id: widget::Id::unique(),
             selected_group,
@@ -102,7 +117,10 @@ impl cosmic::Application for Window {
             annotations: flags.annotations,
         };
 
-        (window, Command::none())
+        (
+            window,
+            cosmic::command::message(Message::Search(String::new())),
+        )
     }
 
     fn on_close_requested(&self, id: window::Id) -> Option<Message> {
@@ -135,6 +153,17 @@ impl cosmic::Application for Window {
         }
 
         match message {
+            Message::ToggleColorButton(idx) => {
+                let mut color_buttons = self.config.color_buttons.clone();
+                if let Some(color_button) = color_buttons.get_mut(idx) {
+                    color_button.active = !color_button.active;
+                    let mut skin_tone_mode = self.config.skin_tone_mode;
+                    skin_tone_mode.set(color_button.skin_tone_mode, color_button.active);
+                    config_set!(skin_tone_mode, skin_tone_mode);
+                    config_set!(color_buttons, color_buttons);
+                    return cosmic::command::message(Message::Search(self.search.clone()));
+                }
+            }
             Message::Config(config) => {
                 if config != self.config {
                     if config.font_family != self.config.font_family {
@@ -170,26 +199,60 @@ impl cosmic::Application for Window {
                     self.popup = None;
                 }
             }
-            Message::EmojiCopy(emoji) => {
-                let mut last_used = self.config.last_used.clone();
-                if let Some(idx) = last_used.iter().position(|e| e == emoji.as_str()) {
-                    last_used.swap(0, idx);
-                } else {
-                    last_used.insert(0, emoji.to_string());
+            Message::EmojiCopy(emoji, click_mode) => {
+                let mut commands = Vec::new();
+                if click_mode.intersects(ClickMode::APPEND) {
+                    self.search.push_str(emoji.as_str());
                 }
-                last_used.truncate(self.config.last_used_limit);
-                config_set!(last_used, last_used);
-                let mut commands = vec![iced::clipboard::write(emoji.to_string())];
-                if self.config.close_on_copy {
-                    if let Some(p) = self.popup.take() {
-                        commands.push(destroy_popup(p));
+                if click_mode.intersects(ClickMode::COPY) {
+                    if !click_mode.intersects(ClickMode::PRIVATE) {
+                        let mut last_used = self.config.last_used.clone();
+                        if let Some(idx) = last_used.iter().position(|e| e == emoji.as_str()) {
+                            last_used.remove(idx);
+                        }
+                        last_used.insert(0, emoji.to_string());
+                        last_used.truncate(self.config.last_used_limit);
+                        config_set!(last_used, last_used);
                     }
+                    commands.push(iced::clipboard::write(emoji.to_string()))
+                }
+
+                if click_mode.intersects(ClickMode::CLOSE) {
+                    commands.push(cosmic::command::message(Message::Exit));
                 }
                 return Command::batch(commands);
             }
             Message::Search(search) => {
                 self.search = search;
                 self.emoji_hovered = None;
+                self.emojis_filtered.clear();
+                let skin_tones_config = self.config.skin_tone_mode;
+                let skin_tones_exact = skin_tones_config.intersects(SkinToneMode::ALL_EXACT);
+                let skin_tones_mode_new = if skin_tones_exact {
+                    SkinToneMode::new_exact
+                } else {
+                    SkinToneMode::new
+                };
+                for emoji in &self.all_emojis {
+                    if Some(emoji.group()) != self.selected_group && !self.selected_group.is_none()
+                    {
+                        continue;
+                    }
+                    let emjoji_skin_tone_mode = emoji
+                        .skin_tone()
+                        .map_or(SkinToneMode::NO_SKIN, skin_tones_mode_new);
+                    let config_skin_tone_contains_emoji = if skin_tones_exact {
+                        skin_tones_config.intersects(emjoji_skin_tone_mode)
+                    } else {
+                        skin_tones_config.contains(emjoji_skin_tone_mode)
+                    };
+                    if config_skin_tone_contains_emoji
+                        && (self.search.is_empty()
+                            || self.emoji_name_localized(emoji).contains(&self.search))
+                    {
+                        self.emojis_filtered.push(emoji);
+                    }
+                }
             }
             Message::Group(group) => return self.update_group(group),
 
@@ -199,7 +262,19 @@ impl cosmic::Application for Window {
                     return destroy_popup(p);
                 }
             }
-            Message::Enter => {}
+            Message::Enter => {
+                config_set!(
+                    middle_click_action,
+                    ClickMode::COPY | ClickMode::APPEND | ClickMode::PRIVATE
+                );
+                config_set!(
+                    skin_tone_mode,
+                    SkinToneMode::NO_SKIN
+                        | SkinToneMode::DEFAULT
+                        | SkinToneMode::DARK
+                        | SkinToneMode::FILTER_EXACT
+                );
+            }
             Message::FocusTextInput => {
                 return widget::text_input::focus(self.text_input_id.clone());
             }
@@ -232,126 +307,133 @@ impl cosmic::Application for Window {
             .on_press(Message::TogglePopup)
             .into()
     }
-    // todo extract more code into functions
     fn view_window(&self, _id: Id) -> Element<Self::Message> {
-        // use regex to apply simple unicode case folding
-        let regex_pattern = regex::escape(&self.search);
-        let search_regex = RegexBuilder::new(&regex_pattern)
-            .case_insensitive(true)
-            .build()
-            .ok();
+        let mut content = widget::column::with_capacity(3);
+        // let theme = cosmic::theme::active();
+        // let cosmic_theme = theme.cosmic();
+        // search input start
+        content = content.push(
+            widget::search_input(fl!("search-for-emojis"), &self.search)
+                .on_clear(Message::Search(String::new()))
+                .on_paste(Message::Search)
+                .on_input(Message::Search)
+                .on_submit(Message::Enter),
+        );
+        // search input end
 
-        let search_filter = self.search_filter();
-
-        #[allow(unused_variables)]
-        let cosmic::cosmic_theme::Spacing {
-            space_none, // 0
-            space_xxxs, // 4
-            space_xxs,  // 8
-            space_xs,   // 12
-            space_s,    // 16
-            space_m,    // 24
-            space_l,    // 32
-            space_xl,   // 48
-            space_xxl,  // 64
-            space_xxxl, // 128
-        } = self.core.system_theme().cosmic().spacing;
-        let mut content = widget::column::with_capacity(6)
-            .padding([space_xxs, space_xxxs])
-            .spacing(space_m);
+        // group icons start
 
         let mut groups = widget::row::with_capacity(9).width(Length::Fill);
 
         for group in emojis::Group::iter() {
             let is_selected = self.selected_group.is_some_and(|sel| sel == group);
-            let group_btn = widget::icon::from_name(group_icon(group))
-                .symbolic(true)
-                .size(space_m)
-                .apply(widget::button)
-                // honestly there isnt a good style
-                // needs containers
-                .style(cosmic::theme::Button::Icon)
-                .selected(is_selected)
-                .padding(space_xs)
-                .on_press(Message::Group((!is_selected).then_some(group)))
-                .apply(widget::container)
-                .width(Length::Fill)
-                .center_x();
+            let group_btn =
+                widget::button::icon(widget::icon::from_name(group_icon(group)).symbolic(true))
+                    .on_press(Message::Group((!is_selected).then_some(group)));
 
             groups = groups.push(group_btn);
         }
         content = content.push(groups);
 
-        let search = widget::search_input(fl!("search-for-emojis"), &self.search)
-            .on_input(Message::Search)
-            .on_paste(Message::Search)
-            .on_clear(Message::Search(String::new()))
-            .id(self.text_input_id.clone())
-            .on_submit(Message::Enter)
-            .width(Length::Fill);
-        content = content.push(search);
+        // group icons end
 
-        if self.config.show_preview {
-            let preview = self.preview(
-                &search_filter,
-                &search_regex,
-                &self.core.system_theme().cosmic().spacing,
-            );
-            let preview_container = widget::container(preview).center_y().height(65);
-            content = content.push(preview_container);
-        }
-
-        const GRID_SIZE: usize = 10;
-
-        let mut grid = widget::column();
-
-        let emoji_row = |emojis: [Option<&'static emojis::Emoji>; 10]| {
-            let mut row = widget::row::with_capacity(GRID_SIZE);
-            for emoji in emojis.iter().filter_map(|e| *e) {
-                // todo figure out button and text style
-                let emoji_txt = widget::text(emoji.to_string())
-                    .size(25)
-                    .width(35)
-                    .height(35)
+        // preview start
+        let preview_emoji_opt = self
+            .emoji_hovered
+            .or_else(|| self.emojis_filtered.first().copied());
+        let mut preview_row = widget::row();
+        match preview_emoji_opt {
+            Some(preview_emoji) => {
+                // dup 1
+                let emoji_txt = widget::text(preview_emoji.as_str())
+                    .size(35)
+                    .width(50)
+                    .height(50)
                     .font(self.font_family)
-                    .shaping(cosmic::iced_core::text::Shaping::Advanced)
+                    .shaping(iced_core::text::Shaping::Advanced)
+                    .wrap(iced::widget::text::Wrap::None)
                     .horizontal_alignment(alignment::Horizontal::Center)
                     .vertical_alignment(alignment::Vertical::Center);
-                let mut emoji_btn = widget::button(emoji_txt)
-                    .on_press(Message::EmojiCopy(emoji))
-                    .style(cosmic::theme::Button::Icon)
-                    .apply(widget_copy::MouseArea::new)
-                    .on_enter(Message::EmojiHovered(emoji))
-                    .apply(Element::from);
-
-                if self.config.show_tooltip {
-                    let tooltip = format_emoji(&emoji, self.config.show_unicode);
-                    let emoji_tooltip =
-                        widget::tooltip(emoji_btn, tooltip, widget::tooltip::Position::Top);
-                    emoji_btn = emoji_tooltip.into()
-                }
-                row = row.push(emoji_btn)
+                preview_row = preview_row
+                    .push(emoji_txt)
+                    .push(widget::text(self.emoji_name_localized(preview_emoji)));
             }
-            row
-        };
+            None => {
+                let group_str = self
+                    .selected_group
+                    .map_or_else(|| fl!("emojis-and-favorites"), group_string);
+                preview_row = preview_row.push(widget::text(group_str));
+            }
+        }
+        // preview end
+        let color_buttons_conf = &self.config.color_buttons;
+        let mut color_buttons = widget::row::with_capacity(color_buttons_conf.len());
+        for (idx, color_button) in color_buttons_conf.iter().enumerate() {
+            let color = color_button.color;
+            let active = color_button.active;
+            let button_style = cosmic::theme::Button::Custom {
+                active: Box::new(move |_selected, theme| {
+                    color_button_apperance(color, Some(active), theme)
+                }),
+                disabled: Box::new(move |theme| color_button_apperance(color, None, theme)),
+                hovered: Box::new(move |_selected, theme| {
+                    color_button_apperance(color, Some(active), theme)
+                }),
+                pressed: Box::new(move |_selected, theme| {
+                    color_button_apperance(color, Some(active), theme)
+                }),
+            };
 
-        let search_iter = self.config_emoji_iter(&search_filter, &search_regex);
-        let mut has_favorite = false;
-        for emojis in chunks(search_iter) {
-            has_favorite = true;
-            grid = grid.push(emoji_row(emojis));
+            color_buttons = color_buttons.push(
+                widget::button(widget::horizontal_space(0.1))
+                    .width(20)
+                    .height(20)
+                    .style(button_style)
+                    .on_press(Message::ToggleColorButton(idx)),
+            );
         }
-        if has_favorite {
-            grid = grid.push(widget::vertical_space(space_xs));
-            grid = grid.push(widget::divider::horizontal::default());
-            grid = grid.push(widget::vertical_space(space_xs));
-        }
+        preview_row = preview_row.push(color_buttons);
 
-        let emoji_iter = self.emoji_iter(search_filter, &search_regex);
-        for emojis in chunks(emoji_iter) {
-            grid = grid.push(emoji_row(emojis));
+        content = content.push(preview_row);
+
+        let mut emojis = Vec::with_capacity(self.emojis_filtered.len());
+
+        let left_click_action = self.config.left_click_action;
+        let right_click_action = self.config.right_click_action;
+        let middle_click_action = self.config.middle_click_action;
+
+        for emoji in &self.emojis_filtered {
+            // dup 1
+            let emoji_txt = widget::text(emoji.as_str())
+                .size(25)
+                .width(35)
+                .height(35)
+                .font(self.font_family)
+                .shaping(iced_core::text::Shaping::Advanced)
+                .wrap(iced::widget::text::Wrap::None)
+                .horizontal_alignment(alignment::Horizontal::Center)
+                .vertical_alignment(alignment::Vertical::Center);
+
+            let mut emoji_btn = widget::button(emoji_txt).style(cosmic::theme::Button::Transparent);
+            if left_click_action != ClickMode::NONE {
+                emoji_btn = emoji_btn.on_press(Message::EmojiCopy(emoji, left_click_action));
+            }
+            let mut emoji_mouse_area =
+                widget::mouse_area(emoji_btn).on_mouse_enter(Message::EmojiHovered(emoji));
+
+            if right_click_action != ClickMode::NONE {
+                emoji_mouse_area = widget::mouse_area(emoji_mouse_area)
+                    .on_right_release(Message::EmojiCopy(emoji, right_click_action))
+            }
+            if middle_click_action != ClickMode::NONE {
+                emoji_mouse_area = widget::mouse_area(emoji_mouse_area)
+                    .on_middle_release(Message::EmojiCopy(emoji, middle_click_action))
+            }
+            emojis.push(emoji_mouse_area.into());
         }
-        let grid = grid
+        let flex_row = widget::flex_row(emojis);
+
+        let container = flex_row
             .apply(widget::container)
             .apply(widget_copy::Scrollable::new)
             .id(self.scrollable_id.clone())
@@ -360,7 +442,7 @@ impl cosmic::Application for Window {
             .apply(widget::container)
             .width(Length::Fill)
             .height(500);
-        content = content.push(grid);
+        content = content.push(container);
         self.core.applet.popup_container(content).into()
     }
     fn subscription(&self) -> Subscription<Self::Message> {
@@ -393,126 +475,32 @@ impl cosmic::Application for Window {
     }
 }
 
-impl Window {
-    // can also be written with one lifetime and without cloing, but borrowing self
-    fn config_emoji_iter<'a, 'b, S>(
-        &'a self,
-        search_filter: S,
-        search_regex: &'b Option<regex::Regex>,
-    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'b
-    where
-        S: for<'c> Fn(&'static emojis::Emoji, Option<&'c regex::Regex>) -> bool + 'b,
-    {
-        let selected_group = self.selected_group;
-        let search_iter = self
-            .config
-            .last_used
-            .clone()
-            .into_iter()
-            .filter_map(|e| emojis::get(&e))
-            .filter(move |e| selected_group.is_none() || Some(e.group()) == selected_group)
-            .filter(move |emoji| search_filter(emoji, search_regex.as_ref()));
-        search_iter
-    }
-    fn emoji_iter<'a, 'b, S>(
-        &'a self,
-        search_filter: S,
-        search_regex: &'b Option<regex::Regex>,
-    ) -> impl Iterator<Item = &'static emojis::Emoji> + 'b
-    where
-        S: for<'c> Fn(&'static emojis::Emoji, Option<&'c regex::Regex>) -> bool + 'b,
-    {
-        let emoji_iter: Box<dyn Iterator<Item = &'static emojis::Emoji>> = match self.selected_group
-        {
-            Some(group) => Box::from(group.emojis()),
-            None => Box::from(emojis::iter()),
-        };
-        emoji_iter.filter(move |emoji| search_filter(emoji, search_regex.as_ref()))
-    }
-    fn preview(
-        &self,
-        search_filter: impl Fn(&'static emojis::Emoji, Option<&regex::Regex>) -> bool,
-        search_regex: &Option<regex::Regex>,
-        spacing: &cosmic::cosmic_theme::Spacing,
-    ) -> Element<Message> {
-        let favorites_first = || self.config_emoji_iter(&search_filter, &search_regex).next();
-        let emojis_first = || {
-            (!self.search.is_empty()).then_some(())?;
-            self.emoji_iter(&search_filter, &search_regex).next()
-        };
-        let preview = if let Some(emoji_hovered) = self
-            .emoji_hovered
-            .or_else(favorites_first)
-            .or_else(emojis_first)
-        {
-            let mut preview = widget::row::with_capacity(2)
-                .spacing(spacing.space_xxs)
-                .align_items(Alignment::Center);
-            // todo size and width is arbitary; user config?
-
-            let preview_emoji = widget::text(emoji_hovered.as_str())
-                .font(self.font_family)
-                .shaping(cosmic::iced_core::text::Shaping::Advanced)
-                .size(35)
-                .height(50)
-                .width(50)
-                .horizontal_alignment(alignment::Horizontal::Center)
-                .vertical_alignment(alignment::Vertical::Center);
-            preview = preview.push(preview_emoji);
-            let show_unicode = self.config.show_unicode;
-            let mut right_preview = widget::column::with_capacity(2 + show_unicode as usize);
-
-            // this all for south georgia and south sandwich islands
-            // replace if iced gets proper text wrapping
-            let mut emoji_name = self.emoji_name_localized(emoji_hovered);
-
-            let emoji_name_len = emoji_name.len();
-            let cut_off_idx = emoji_name
-                .char_indices()
-                .nth(40)
-                .map_or(emoji_name_len, |(i, _)| i);
-            emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
-            let emoji_name = if emoji_name_len == emoji_name.len() {
-                Cow::from(emoji_name)
-            } else {
-                Cow::from(emoji_name.to_owned() + "...")
-            };
-            let preview_name = widget::text::title4(emoji_name);
-            right_preview = right_preview.push(preview_name);
-
-            if let Some(shortcode) = emoji_hovered.shortcode() {
-                right_preview = right_preview.push(widget::text::body(shortcode))
-            }
-            if show_unicode {
-                let unicode_chars = emoji_hovered
-                    .as_str()
-                    .chars()
-                    .map(|c| format!("U+{:X}", c as u32))
-                    .collect::<Vec<_>>()
-                    .join(" ");
-                right_preview = right_preview.push(widget::text::caption(unicode_chars));
-            }
-
-            preview = preview.push(right_preview);
-            preview.apply(Element::from)
-        } else if let Some(group) = self.selected_group {
-            widget::text::title1(group_string(group)).into()
+fn color_button_apperance(
+    color: [f32; 4],
+    selected: Option<bool>,
+    theme: &Theme,
+) -> widget::button::Appearance {
+    let is_selected = selected.is_some_and(|s| s);
+    widget::button::Appearance {
+        background: Some(iced::Color::from(color).into()),
+        border_radius: theme.cosmic().radius_s().into(),
+        border_width: if is_selected { 2.0 } else { 0.0 },
+        border_color: if is_selected {
+            theme.cosmic().accent.border.into()
         } else {
-            widget::text::title1(fl!("emojis-and-favorites")).into()
-        };
-        return preview;
+            Default::default()
+        },
+        ..Default::default()
     }
+}
 
-    fn emoji_name_localized<'a>(&'a self, emoji_hovered: &'static emojis::Emoji) -> &'a str {
+impl Window {
+    fn emoji_name_localized<'a>(&'a self, emoji: &'static emojis::Emoji) -> &'a str {
         let emoji_name = self
             .annotations
-            .get(
-                &emoji_hovered
-                    .as_str()
-                    .replace(&['\u{fe0f}', '\u{fe0e}'], ""),
-            )
+            .get(&emoji.as_str().replace(&['\u{fe0f}', '\u{fe0e}'], ""))
             .and_then(|annotation| annotation.tts.first().map(String::as_str))
-            .unwrap_or_else(|| emoji_hovered.name());
+            .unwrap_or_else(|| emoji.name());
         emoji_name
     }
 
@@ -522,26 +510,13 @@ impl Window {
     ) -> Command<cosmic::app::Message<Message>> {
         self.emoji_hovered = None;
         self.selected_group = group;
-        return scrollable::scroll_to(
-            self.scrollable_id.clone(),
-            scrollable::AbsoluteOffset::default(),
-        );
-    }
-
-    fn search_filter<'a>(
-        &'a self,
-    ) -> impl for<'b> Fn(&'static emojis::Emoji, Option<&'b regex::Regex>) -> bool + 'a {
-        let search_filter = |emoji: &'static emojis::Emoji, search_regex: Option<&regex::Regex>| {
-            if self.search.is_empty() {
-                return true;
-            }
-            let emoji_name = self.emoji_name_localized(&emoji);
-            match search_regex {
-                Some(re) => re.is_match(emoji_name),
-                None => emoji_name.contains(&self.search),
-            }
-        };
-        search_filter
+        return Command::batch([
+            scrollable::scroll_to(
+                self.scrollable_id.clone(),
+                scrollable::AbsoluteOffset::default(),
+            ),
+            cosmic::command::message(Message::Search(self.search.clone())),
+        ]);
     }
 }
 macro_rules! icon {
@@ -563,26 +538,6 @@ fn group_icon(group: emojis::Group) -> &'static str {
         emojis::Group::Flags => icon!("black-flag-icon"),
     };
     icon
-}
-// todo switch to array chunks once stable
-fn chunks<T, const N: usize>(
-    mut iter: impl Iterator<Item = T>,
-) -> impl Iterator<Item = [Option<T>; N]> {
-    let mut is_break = false;
-    iter::from_fn(move || {
-        if is_break {
-            return None;
-        }
-        let array = [(); N].map(|_| {
-            let next = iter.next();
-            is_break = is_break || next.is_none();
-            next
-        });
-        if array[0].is_none() {
-            return None;
-        }
-        Some(array)
-    })
 }
 
 fn group_from_key(key: u8) -> Option<emojis::Group> {
@@ -630,23 +585,6 @@ fn group_string(group: emojis::Group) -> String {
         emojis::Group::Symbols => fl!("symbols"),
         emojis::Group::Flags => fl!("flags"),
     }
-}
-
-fn format_emoji(emoji: &emojis::Emoji, show_unicode: bool) -> String {
-    return if !show_unicode {
-        emoji.name().to_string()
-    } else {
-        format!(
-            "{} - {}",
-            emoji.name(),
-            emoji
-                .as_str()
-                .chars()
-                .map(|c| format!("U+{:X}", c as u32))
-                .collect::<Vec<_>>()
-                .join(" ")
-        )
-    };
 }
 
 fn navigation_subscription() -> Subscription<Message> {

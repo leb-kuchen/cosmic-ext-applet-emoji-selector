@@ -1,0 +1,53 @@
+# Config
+
+
+## Types
+
+### `SkinToneMode`
+
+Skin tones are represented as a `uint32`.
+If bits 8 to 28 are set, the skin tone is matched exactly.
+The 28th significant bit does not correspond to a skin tone.
+`NO_SKIN` is used to represent emojis without a skin tone, and `OTHER` is used for any future skin tones.
+Only the six most significant bits are modified by the application.
+The three most significant bits must not be set.
+The default is `NO_SKIN | DEFAULT`.
+
+```rs
+const DEFAULT = 1;
+
+const LIGHT = 1 << 1;
+const MEDIUM_LIGHT = 1 << 2;
+const MEDIUM = 1 << 3;
+const MEDIUM_DARK = 1 << 4;
+const DARK = 1 << 5;
+const NO_SKIN = 1 << 6;
+
+const OTHER = 1 << 7;
+
+const LIGHT_AND_MEDIUM_LIGHT = 1 << 8;
+const LIGHT_AND_MEDIUM = 1 << 9;
+const LIGHT_AND_MEDIUM_DARK = 1 << 10;
+const LIGHT_AND_DARK = 1 << 11;
+const MEDIUM_LIGHT_AND_LIGHT = 1 << 12;
+const MEDIUM_LIGHT_AND_MEDIUM = 1 << 13;
+const MEDIUM_LIGHT_AND_MEDIUM_DARK = 1 << 14;
+const MEDIUM_LIGHT_AND_DARK = 1 << 15;
+const MEDIUM_AND_LIGHT = 1 << 16;
+const MEDIUM_AND_MEDIUM_LIGHT = 1 << 17;
+const MEDIUM_AND_MEDIUM_DARK = 1 << 18;
+const MEDIUM_AND_DARK = 1 << 19;
+const MEDIUM_DARK_AND_LIGHT = 1 << 20;
+const MEDIUM_DARK_AND_MEDIUM_LIGHT = 1 << 21;
+const MEDIUM_DARK_AND_MEDIUM = 1 << 22;
+const MEDIUM_DARK_AND_DARK = 1 << 23;
+const DARK_AND_LIGHT = 1 << 24;
+const DARK_AND_MEDIUM_LIGHT = 1 << 25;
+const DARK_AND_MEDIUM = 1 << 26;
+const DARK_AND_MEDIUM_DARK = 1 << 27;
+
+const ALL = !0 >> 5;
+
+const FILTER_EXACT = 1 << 28;
+const ALL_EXACT = ((1 << 21) - 1) << 8;
+```

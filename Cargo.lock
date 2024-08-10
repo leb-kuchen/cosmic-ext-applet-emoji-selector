@@ -855,6 +855,7 @@ dependencies = [
 name = "cosmic-applet-emoji-selector"
 version = "0.1.4"
 dependencies = [
+ "bitflags 2.6.0",
  "cosmic-time",
  "emojis",
  "i18n-embed",
