@@ -1,6 +1,5 @@
 # Config
 
-
 ## Types
 
 ### `SkinToneMode`
@@ -9,9 +8,8 @@ Skin tones are represented as a `uint32`.
 If bits 8 to 28 are set, the skin tone is matched exactly.
 The 28th significant bit does not correspond to a skin tone.
 `NO_SKIN` is used to represent emojis without a skin tone, and `OTHER` is used for any future skin tones.
-Only the six most significant bits are modified by the application.
+By default only the six most significant bits are modified by the application.
 The three most significant bits must not be set.
-The default is `NO_SKIN | DEFAULT`.
 
 ```rs
 const DEFAULT = 1;
@@ -50,4 +48,51 @@ const ALL = !0 >> 5;
 
 const FILTER_EXACT = 1 << 28;
 const ALL_EXACT = ((1 << 21) - 1) << 8;
+```
+
+### `ClickMode`
+
+Represented as bitflags, which can be `NONE` | `COPY` | `CLOSE` `APPEND` | `PRIVATE`.
+
+- `NONE`: No action is performed.
+- `COPY`: Copies the emoji to the clipboard.
+- `CLOSE`: Closes the popup.
+- `APPEND`: Appends the emoji to the search input.
+- `PRIVATE`: Prevents the emoji from being added to the history.
+
+
+### `ColorButton`: `{color: Color, active: bool, skin_tone_mode: SkinToneMode}`
+An button with a background of `color`, when pressed setting the bits of `Config.skin_tone_mode`.
+
+
+### `Color`: `[float, float, float, float]`
+Represents a color in the sRGB color space.
+RGB colors can be converted to sRGB by dividing by 255.0
+Each sRGB component must be in the range 0.0 to 1.0 inclusive.
+
+
+## Fields
+
+### `skin_tone_mode`: `SkinToneMode`
+Filters emojis based on their skin tone.
+The default is `NO_SKIN | DEFAULT`.
+
+### `left_click_action`, `right_click_action`, `middle_click_action`: `ClickMode`
+The action performed when clicking on an emoji with these respected mouse buttons.
+
+### `font_family`: `string`
+The font used to render emojis.
+
+### `last_used`: `string[]`
+History of the last copied emojis. 
+
+### `last_used_limit`: `uint`
+Limits the emojis history size.
+
+### `show_preview`: `bool`
+Whether to show a preview of the currently selected emoji.
+
+### `color_buttons`: `ColorButton[]`
+
+
 ```

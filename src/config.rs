@@ -69,12 +69,7 @@ pub struct Annotation {
 bitflags! {
     #[derive(Serialize, Deserialize, PartialEq, Hash, Debug, Default, Copy, Clone, Eq)]
     pub struct ClickMode: u8 {
-        const NONE = 0;  0xFFCC22_ffu32,
-            0xf7dece_ff,
-            0xf3d2a2_ff,
-            0xbf8d67_ff,
-            0xaf7e57_ff,
-            0x7c533e_ff,
+        const NONE = 0;
         const COPY = 1;
         const CLOSE = 1 << 1;
         const APPEND = 1 << 2;
