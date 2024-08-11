@@ -119,8 +119,7 @@ bitflags! {
 
         const FILTER_EXACT = 1 << 28;
         const ALL_EXACT = ((1 << 21) - 1) << 8;
-
-        const _ = !0;
+        const FILTER_INTERSECT = 1 << 29;
     }
 }
 

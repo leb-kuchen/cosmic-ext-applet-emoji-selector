@@ -228,6 +228,8 @@ impl cosmic::Application for Window {
                 self.emojis_filtered.clear();
                 let skin_tones_config = self.config.skin_tone_mode;
                 let skin_tones_exact = skin_tones_config.intersects(SkinToneMode::ALL_EXACT);
+                let skin_tones_intersect =
+                    skin_tones_config.intersects(SkinToneMode::FILTER_INTERSECT);
                 let skin_tones_mode_new = if skin_tones_exact {
                     SkinToneMode::new_exact
                 } else {
@@ -241,11 +243,12 @@ impl cosmic::Application for Window {
                     let emjoji_skin_tone_mode = emoji
                         .skin_tone()
                         .map_or(SkinToneMode::NO_SKIN, skin_tones_mode_new);
-                    let config_skin_tone_contains_emoji = if skin_tones_exact {
-                        skin_tones_config.intersects(emjoji_skin_tone_mode)
-                    } else {
-                        skin_tones_config.contains(emjoji_skin_tone_mode)
-                    };
+                    let config_skin_tone_contains_emoji =
+                        if skin_tones_exact || skin_tones_intersect {
+                            skin_tones_config.intersects(emjoji_skin_tone_mode)
+                        } else {
+                            skin_tones_config.contains(emjoji_skin_tone_mode)
+                        };
                     if config_skin_tone_contains_emoji
                         && (self.search.is_empty()
                             || self.emoji_name_localized(emoji).contains(&self.search))

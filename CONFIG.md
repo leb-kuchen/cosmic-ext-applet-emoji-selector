@@ -6,10 +6,11 @@
 
 Skin tones are represented as a `uint32`.
 If bits 8 to 28 are set, the skin tone is matched exactly.
-The 28th significant bit does not correspond to a skin tone.
+Bits 28 and 29 only change the filter mode and to not correspond to a skin tone.
 `NO_SKIN` is used to represent emojis without a skin tone, and `OTHER` is used for any future skin tones.
-By default only the six most significant bits are modified by the application.
-The three most significant bits must not be set.
+By default only the six least-significant bits are modified by the application.
+The two most-significant bits must not be set.
+However these bits could be set in the future.
 
 ```rs
 const DEFAULT = 1;
@@ -48,6 +49,7 @@ const ALL = !0 >> 5;
 
 const FILTER_EXACT = 1 << 28;
 const ALL_EXACT = ((1 << 21) - 1) << 8;
+const FILTER_INTERSECT = 1 << 29;
 ```
 
 ### `ClickMode`
@@ -92,7 +94,5 @@ Limits the emojis history size.
 ### `show_preview`: `bool`
 Whether to show a preview of the currently selected emoji.
 
-### `color_buttons`: `ColorButton[]`
-
-
-```
+### `color_buttons`: `ColorButton[]` 
+``` ```
