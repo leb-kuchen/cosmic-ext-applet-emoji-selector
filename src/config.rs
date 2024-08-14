@@ -16,7 +16,7 @@ pub struct Config {
     #[serde(default)]
     pub last_used_limit: usize,
     #[serde(default)]
-    pub last_used: Vec<String>,
+    pub last_used: Vec<&'static emojis::Emoji>,
     #[serde(default)]
     pub font_family: String,
     #[serde(default)]
@@ -52,7 +52,7 @@ impl Default for Config {
             font_family: "Noto Color Emoji".into(),
             show_preview: true,
             left_click_action: ClickMode::CLOSE | ClickMode::COPY,
-            right_click_action: ClickMode::APPEND | ClickMode::COPY,
+            right_click_action: ClickMode::APPEND_SEARCH | ClickMode::COPY,
             middle_click_action: ClickMode::COPY,
             skin_tone_mode: SkinToneMode::DEFAULT | SkinToneMode::NO_SKIN,
         }
@@ -72,7 +72,7 @@ bitflags! {
         const NONE = 0;
         const COPY = 1;
         const CLOSE = 1 << 1;
-        const APPEND = 1 << 2;
+        const APPEND_SEARCH = 1 << 2;
         const PRIVATE = 1 << 3;
     }
 

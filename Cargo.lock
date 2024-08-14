@@ -1305,6 +1305,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e72f23d65b46527e461b161ab9a126c378aa2249d8a8d15718d23ab1fb4d8786"
 dependencies = [
  "phf",
+ "serde",
 ]
 
 [[package]]
