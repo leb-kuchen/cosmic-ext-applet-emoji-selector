@@ -1,4 +1,387 @@
 {
+  "🫀": {
+    "default": [
+      "anatomical heart",
+      "cardiology",
+      "heart",
+      "organ",
+      "pulse"
+    ],
+    "tts": []
+  },
+  "🇻🇨": {
+    "default": [
+      "flag",
+      "flag: St Vincent & the Grenadines"
+    ],
+    "tts": [
+      "flag: St Vincent & the Grenadines"
+    ]
+  },
+  "🤵🏼": {
+    "default": [
+      "groom",
+      "medium-light skin tone",
+      "person",
+      "person in tux",
+      "person in tuxedo",
+      "person in tuxedo: medium-light skin tone",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane facing right"
+    ],
+    "tts": [
+      "woman with guide cane facing right"
+    ]
+  },
+  "🩳": {
+    "default": [
+      "bathing suit",
+      "boardshorts",
+      "shorts",
+      "swim shorts",
+      "underwear"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane facing right"
+    ],
+    "tts": [
+      "woman with guide cane facing right"
+    ]
+  },
+  "👬🏽": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "men holding hands",
+      "men holding hands: medium skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🔓": {
+    "default": [
+      "lock",
+      "open",
+      "padlock",
+      "unlock",
+      "unlocked"
+    ],
+    "tts": []
+  },
+  "🙇🏼‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "man",
+      "man bowing: medium-light skin tone",
+      "medium-light skin tone",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "💇🏿": {
+    "default": [
+      "barber",
+      "beauty",
+      "dark skin tone",
+      "haircut",
+      "parlour",
+      "person getting haircut"
+    ],
+    "tts": []
+  },
+  "📪": {
+    "default": [
+      "closed postbox with lowered flag",
+      "letterbox",
+      "lowered",
+      "mail",
+      "mailbox",
+      "post box",
+      "postbox"
+    ],
+    "tts": []
+  },
+  "☦": {
+    "default": [
+      "Christian",
+      "cross",
+      "Orthodox cross",
+      "religion"
+    ],
+    "tts": [
+      "Orthodox cross"
+    ]
+  },
+  "👨🏿‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "men holding hands",
+      "men holding hands: dark skin tone, medium skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane facing right"
+    ],
+    "tts": [
+      "woman with guide cane facing right"
+    ]
+  },
+  "🍥": {
+    "default": [
+      "cake",
+      "fish",
+      "fish cake with swirl",
+      "narutomaki",
+      "pastry",
+      "swirl"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🚒": {
+    "default": [
+      "fire engine",
+      "fire truck",
+      "firefighter",
+      "firefighter: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦼": {
+    "default": [
+      "accessibility",
+      "medium-light skin tone",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair: medium-light skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair: medium-light skin tone"
+    ]
+  },
+  "🇸🇭": {
+    "default": [
+      "flag",
+      "flag: St Helena"
+    ],
+    "tts": [
+      "flag: St Helena"
+    ]
+  },
+  "🤵‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "🤭": {
+    "default": [
+      "embarrassed",
+      "face with hand over mouth",
+      "oops",
+      "whoops"
+    ],
+    "tts": []
+  },
+  "🕣": {
+    "default": [
+      "8:30",
+      "8.30",
+      "clock",
+      "eight-thirty",
+      "half past eight"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🦼": {
+    "default": [
+      "accessibility",
+      "medium skin tone",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair: medium skin tone"
+    ],
+    "tts": [
+      "woman in powered wheelchair: medium skin tone"
+    ]
+  },
+  "🙌🏿": {
+    "default": [
+      "celebration",
+      "dark skin tone",
+      "gesture",
+      "hand",
+      "hooray",
+      "raising hands",
+      "raising hands: dark skin tone",
+      "woo hoo",
+      "yay"
+    ],
+    "tts": []
+  },
+  "🕋": {
+    "default": [
+      "Islam",
+      "Kaaba",
+      "Muslim",
+      "religion"
+    ],
+    "tts": [
+      "Kaaba"
+    ]
+  },
+  "👨‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane"
+    ],
+    "tts": [
+      "man with guide cane"
+    ]
+  },
+  "👩🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "fire",
+      "fire truck",
+      "firefighter",
+      "woman",
+      "woman firefighter: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🟰": {
+    "default": [
+      "equality",
+      "heavy equals sign",
+      "math",
+      "maths"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🦼": {
+    "default": [
+      "accessibility",
+      "light skin tone",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair: light skin tone"
+    ],
+    "tts": [
+      "woman in powered wheelchair: light skin tone"
+    ]
+  },
+  "🧇": {
+    "default": [
+      "breakfast",
+      "iron",
+      "unclear",
+      "vague",
+      "waffle"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair facing right"
+    ]
+  },
+  "👩🏻‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "light skin tone",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane: light skin tone"
+    ],
+    "tts": [
+      "woman with guide cane: light skin tone"
+    ]
+  },
+  "👩🏻‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "light skin tone",
+      "woman",
+      "woman judge: light skin tone"
+    ],
+    "tts": []
+  },
+  "🕥": {
+    "default": [
+      "10:30",
+      "10.30",
+      "clock",
+      "half past ten",
+      "ten-thirty"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🚒": {
+    "default": [
+      "fire",
+      "fire truck",
+      "firefighter",
+      "medium-light skin tone",
+      "woman",
+      "woman firefighter: medium-light skin tone"
+    ],
+    "tts": []
+  },
   "🕦": {
     "default": [
       "11:30",
@@ -9,46 +392,655 @@
     ],
     "tts": []
   },
-  "🙌": {
+  "👨🏾‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair facing right"
+    ]
+  },
+  "🙏🏿": {
+    "default": [
+      "ask",
+      "dark skin tone",
+      "hand",
+      "high 5",
+      "high five",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane facing right"
+    ],
+    "tts": [
+      "man with guide cane facing right"
+    ]
+  },
+  "🧑🏻‍🚒": {
+    "default": [
+      "fire engine",
+      "fire truck",
+      "firefighter",
+      "firefighter: light skin tone",
+      "light skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🚒": {
+    "default": [
+      "fire",
+      "fire truck",
+      "firefighter",
+      "light skin tone",
+      "man",
+      "man firefighter: light skin tone"
+    ],
+    "tts": []
+  },
+  "🙇🏽‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "medium skin tone",
+      "sorry",
+      "woman",
+      "woman bowing: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "light skin tone",
+      "person with guide cane",
+      "person with guide cane: light skin tone",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane: light skin tone"
+    ]
+  },
+  "🧴": {
+    "default": [
+      "lotion",
+      "lotion bottle",
+      "moisturiser",
+      "shampoo",
+      "sunscreen"
+    ],
+    "tts": []
+  },
+  "👨🏽‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "man",
+      "man judge: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🙌🏾": {
     "default": [
       "celebration",
       "gesture",
       "hand",
       "hooray",
+      "medium-dark skin tone",
       "raising hands",
+      "raising hands: medium-dark skin tone",
       "woo hoo",
       "yay"
     ],
     "tts": []
   },
-  "🤵": {
+  "🏳": {
     "default": [
-      "groom",
-      "person",
-      "person in tux",
-      "person in tuxedo",
+      "surrender",
+      "waving",
+      "white flag"
+    ],
+    "tts": []
+  },
+  "🤵🏼‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "man in tuxedo: medium-light skin tone",
+      "medium-light skin tone",
       "tuxedo"
     ],
     "tts": []
   },
-  "🇺🇲": {
+  "👨🏻‍🤝‍👨🏾": {
     "default": [
-      "flag",
-      "flag: US Outlying Islands"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium-dark skin tone",
+      "men holding hands",
+      "men holding hands: light skin tone, medium-dark skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "⁉": {
+    "default": [
+      "!",
+      "!?",
+      "?",
+      "exclamation question mark",
+      "interrobang",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "tts": []
+  },
+  "®": {
+    "default": [
+      "r",
+      "registered",
+      "trademark"
+    ],
+    "tts": []
+  },
+  "🔒": {
+    "default": [
+      "closed",
+      "locked",
+      "padlock"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍⚖": {
+    "default": [
+      "judge",
+      "judge: medium-dark skin tone",
+      "law",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🕜": {
+    "default": [
+      "1:30",
+      "1.30",
+      "clock",
+      "half past one",
+      "one-thirty"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🚒": {
+    "default": [
+      "fire",
+      "fire truck",
+      "firefighter",
+      "man",
+      "man firefighter: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍⚖": {
+    "default": [
+      "judge",
+      "judge: medium skin tone",
+      "law",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "👨‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "man"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍⚖": {
+    "default": [
+      "dark skin tone",
+      "judge",
+      "judge: dark skin tone",
+      "law"
+    ],
+    "tts": []
+  },
+  "🥿": {
+    "default": [
+      "ballet flat",
+      "flat shoe",
+      "pump",
+      "slip-on",
+      "slipper"
+    ],
+    "tts": []
+  },
+  "🤵🏾‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "man in tuxedo: medium-dark skin tone",
+      "medium-dark skin tone",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "men holding hands",
+      "men holding hands: light skin tone, dark skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: medium-light skin tone, medium skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🚒": {
+    "default": [
+      "fire engine",
+      "fire truck",
+      "firefighter",
+      "firefighter: medium-dark skin tone",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧑‍⚖": {
+    "default": [
+      "judge",
+      "law"
+    ],
+    "tts": []
+  },
+  "🚃": {
+    "default": [
+      "car",
+      "electric",
+      "railway",
+      "railway carriage",
+      "train",
+      "tram",
+      "trolleybus"
+    ],
+    "tts": []
+  },
+  "🥡": {
+    "default": [
+      "oyster pail",
+      "takeaway box",
+      "takeout box"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium skin tone",
+      "men holding hands",
+      "men holding hands: medium skin tone, light skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👩🏾‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "medium-dark skin tone",
+      "woman",
+      "woman judge: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🥬": {
+    "default": [
+      "bok choy",
+      "cabbage",
+      "kale",
+      "leafy green",
+      "lettuce",
+      "pak choi"
+    ],
+    "tts": []
+  },
+  "🕡": {
+    "default": [
+      "6:30",
+      "6.30",
+      "clock",
+      "half past six",
+      "six-thirty"
+    ],
+    "tts": []
+  },
+  "🦼": {
+    "default": [
+      "accessibility",
+      "powered wheelchair"
     ],
     "tts": [
-      "flag: US Outlying Islands"
+      "powered wheelchair"
     ]
   },
-  "🗻": {
+  "🩶": {
     "default": [
-      "Fuji",
-      "Mount Fuji",
-      "mountain"
+      "grey",
+      "heart",
+      "silver",
+      "slate"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair facing right"
     ],
     "tts": [
-      "Mount Fuji"
+      "woman in powered wheelchair facing right"
     ]
+  },
+  "👩🏿‍⚖": {
+    "default": [
+      "dark skin tone",
+      "judge",
+      "justice",
+      "law",
+      "woman",
+      "woman judge: dark skin tone"
+    ],
+    "tts": []
+  },
+  "✡": {
+    "default": [
+      "David",
+      "Jewish",
+      "Judaism",
+      "religion",
+      "star",
+      "Star of David"
+    ],
+    "tts": [
+      "Star of David"
+    ]
+  },
+  "🙇‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "man",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "🙇🏿‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "dark skin tone",
+      "favour",
+      "gesture",
+      "sorry",
+      "woman",
+      "woman bowing: dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏽‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "medium skin tone",
+      "woman",
+      "woman judge: medium skin tone"
+    ],
+    "tts": []
+  },
+  "☪": {
+    "default": [
+      "Islam",
+      "Muslim",
+      "religion",
+      "star and crescent"
+    ],
+    "tts": []
+  },
+  "🚙": {
+    "default": [
+      "4x4",
+      "off-road vehicle",
+      "sport utility",
+      "sport utility vehicle"
+    ],
+    "tts": []
+  },
+  "🇧🇱": {
+    "default": [
+      "flag",
+      "flag: St Barthélemy"
+    ],
+    "tts": [
+      "flag: St Barthélemy"
+    ]
+  },
+  "🕧": {
+    "default": [
+      "12:30",
+      "12.30",
+      "clock",
+      "half past twelve",
+      "twelve-thirty"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "light skin tone",
+      "man",
+      "man with guide cane",
+      "man with guide cane: light skin tone"
+    ],
+    "tts": [
+      "man with guide cane: light skin tone"
+    ]
+  },
+  "🦺": {
+    "default": [
+      "emergency",
+      "hi-vis",
+      "high-vis",
+      "jacket",
+      "life jacket",
+      "safety",
+      "vest"
+    ],
+    "tts": []
+  },
+  "🎏": {
+    "default": [
+      "carp",
+      "carp wind sock",
+      "celebration",
+      "Japanese wind socks",
+      "koinobori",
+      "streamer"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium-dark skin tone",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane: medium-dark skin tone"
+    ],
+    "tts": [
+      "woman with guide cane: medium-dark skin tone"
+    ]
+  },
+  "🧑🏻‍⚖": {
+    "default": [
+      "judge",
+      "judge: light skin tone",
+      "law",
+      "light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair facing right"
+    ],
+    "tts": [
+      "woman in powered wheelchair facing right"
+    ]
+  },
+  "🧑🏾‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair facing right"
+    ]
+  },
+  "👨🏾‍🦼": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair: medium-dark skin tone",
+      "medium-dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair: medium-dark skin tone"
+    ]
+  },
+  "💬": {
+    "default": [
+      "balloon",
+      "bubble",
+      "comic",
+      "dialogue",
+      "speech"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": [
+      "man with guide cane: medium skin tone"
+    ]
+  },
+  "🙇🏽‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "man",
+      "man bowing: medium skin tone",
+      "medium skin tone",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "🕌": {
+    "default": [
+      "Islam",
+      "mosque",
+      "Muslim",
+      "religion"
+    ],
+    "tts": []
+  },
+  "🕞": {
+    "default": [
+      "3:30",
+      "3.30",
+      "clock",
+      "half past three",
+      "three-thirty"
+    ],
+    "tts": []
   },
   "👩‍🦯‍➡": {
     "default": [
@@ -62,49 +1054,149 @@
       "woman with guide cane facing right"
     ]
   },
-  "😷": {
+  "🙇🏼‍♀": {
     "default": [
-      "cold",
-      "doctor",
-      "face with medical mask",
-      "ill",
-      "mask",
-      "medicine",
-      "poorly",
-      "sick"
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "medium-light skin tone",
+      "sorry",
+      "woman",
+      "woman bowing: medium-light skin tone"
     ],
     "tts": []
   },
-  "👨‍🦯": {
+  "🧑🏾‍🦼": {
+    "default": [
+      "accessibility",
+      "medium-dark skin tone",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair: medium-dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair: medium-dark skin tone"
+    ]
+  },
+  "🗨": {
+    "default": [
+      "balloon",
+      "bubble",
+      "dialogue",
+      "left speech bubble",
+      "speech"
+    ],
+    "tts": []
+  },
+  "👨🏻‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "light skin tone",
+      "man",
+      "man judge: light skin tone"
+    ],
+    "tts": []
+  },
+  "🇱🇨": {
+    "default": [
+      "flag",
+      "flag: St Lucia"
+    ],
+    "tts": [
+      "flag: St Lucia"
+    ]
+  },
+  "💉": {
+    "default": [
+      "ill",
+      "injection",
+      "medicine",
+      "needle",
+      "syringe"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair facing right"
+    ]
+  },
+  "🇰🇳": {
+    "default": [
+      "flag",
+      "flag: St Kitts & Nevis"
+    ],
+    "tts": [
+      "flag: St Kitts & Nevis"
+    ]
+  },
+  "📭": {
+    "default": [
+      "lowered",
+      "mail",
+      "mailbox",
+      "open postbox with lowered flag",
+      "post",
+      "post box",
+      "postbox"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair facing right"
+    ],
+    "tts": [
+      "woman in powered wheelchair facing right"
+    ]
+  },
+  "👨‍🦯‍➡": {
     "default": [
       "accessibility",
       "blind",
       "man",
-      "man with guide cane"
+      "man with guide cane",
+      "man with guide cane facing right"
     ],
     "tts": [
-      "man with guide cane"
+      "man with guide cane facing right"
     ]
   },
-  "🪂": {
+  "👨🏼‍🚒": {
     "default": [
-      "hang-glide",
-      "parachute",
-      "parasail",
-      "parascend",
-      "skydive"
+      "fire",
+      "fire truck",
+      "firefighter",
+      "man",
+      "man firefighter: medium-light skin tone",
+      "medium-light skin tone"
     ],
     "tts": []
   },
-  "✖": {
+  "🤵🏻": {
     "default": [
-      "×",
-      "cancel",
-      "heavy multiplication sign",
-      "multiplication",
-      "multiply",
-      "sign",
-      "x"
+      "groom",
+      "light skin tone",
+      "person",
+      "person in tux",
+      "person in tuxedo",
+      "person in tuxedo: light skin tone",
+      "tuxedo"
     ],
     "tts": []
   },
@@ -114,39 +1206,198 @@
       "mousetrap"
     ]
   },
-  "➕": {
+  "🏺": {
     "default": [
-      "+",
-      "math",
-      "maths",
-      "plus",
-      "sign"
+      "amphora",
+      "Aquarius",
+      "drink",
+      "jar",
+      "jug",
+      "zodiac"
     ],
     "tts": []
   },
-  "🥩": {
+  "👨🏿‍🤝‍👨🏻": {
     "default": [
-      "chop",
-      "cut of meat",
-      "lamb chop",
-      "pork chop",
-      "steak"
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "men holding hands",
+      "men holding hands: dark skin tone, light skin tone",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "👩‍🚒": {
+  "👩🏿‍🦯‍➡": {
     "default": [
-      "fire",
-      "fire truck",
-      "firefighter",
-      "woman"
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane facing right"
+    ],
+    "tts": [
+      "woman with guide cane facing right"
+    ]
+  },
+  "🫤": {
+    "default": [
+      "disappointed",
+      "face with diagonal mouth",
+      "meh",
+      "sceptical",
+      "unsure"
     ],
     "tts": []
   },
-  "🧑‍⚖": {
+  "👩🏾‍🦼": {
     "default": [
-      "judge",
-      "law"
+      "accessibility",
+      "medium-dark skin tone",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair: medium-dark skin tone"
+    ],
+    "tts": [
+      "woman in powered wheelchair: medium-dark skin tone"
+    ]
+  },
+  "👨🏽‍🦼": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair: medium skin tone",
+      "medium skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair: medium skin tone"
+    ]
+  },
+  "🧑🏿‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair facing right"
+    ]
+  },
+  "🧑🏻‍🦼": {
+    "default": [
+      "accessibility",
+      "light skin tone",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair: light skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair: light skin tone"
+    ]
+  },
+  "👨🏼‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane: medium-light skin tone",
+      "medium-light skin tone"
+    ],
+    "tts": [
+      "man with guide cane: medium-light skin tone"
+    ]
+  },
+  "🧑🏿‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with guide cane facing right",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane facing right"
+    ]
+  },
+  "🙇🏿‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "dark skin tone",
+      "favour",
+      "gesture",
+      "man",
+      "man bowing: dark skin tone",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "💇🏼": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "medium-light skin tone",
+      "parlour",
+      "person getting haircut"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: medium skin tone, medium-light skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🤵🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "man in tuxedo: dark skin tone",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "🪘": {
+    "default": [],
+    "tts": [
+      "conga drum"
+    ]
+  },
+  "👨🏾‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium-dark skin tone",
+      "men holding hands",
+      "men holding hands: medium-dark skin tone, light skin tone",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
@@ -161,199 +1412,45 @@
       "person in powered wheelchair"
     ]
   },
-  "🩳": {
+  "🤨": {
     "default": [
-      "bathing suit",
-      "boardshorts",
-      "shorts",
-      "swim shorts",
-      "underwear"
+      "distrust",
+      "face with raised eyebrow",
+      "sceptic"
     ],
     "tts": []
   },
-  "🥿": {
+  "👩‍🚒": {
     "default": [
-      "ballet flat",
-      "flat shoe",
-      "pump",
-      "slip-on",
-      "slipper"
+      "fire",
+      "fire truck",
+      "firefighter",
+      "woman"
     ],
     "tts": []
   },
-  "👬": {
+  "👨🏽‍🤝‍👨🏿": {
     "default": [
       "couple",
+      "dark skin tone",
       "Gemini",
       "holding hands",
       "man",
+      "medium skin tone",
       "men holding hands",
+      "men holding hands: medium skin tone, dark skin tone",
       "twins",
       "zodiac"
     ],
     "tts": []
   },
-  "🦺": {
+  "🕟": {
     "default": [
-      "emergency",
-      "hi-vis",
-      "high-vis",
-      "jacket",
-      "life jacket",
-      "safety",
-      "vest"
-    ],
-    "tts": []
-  },
-  "💉": {
-    "default": [
-      "ill",
-      "injection",
-      "medicine",
-      "needle",
-      "syringe"
-    ],
-    "tts": []
-  },
-  "✅": {
-    "default": [
-      "✓",
-      "button",
-      "mark",
-      "tick"
-    ],
-    "tts": [
-      "tick button"
-    ]
-  },
-  "🫑": {
-    "default": [
-      "bell pepper",
-      "capsicum",
-      "pepper",
-      "sweet pepper",
-      "vegetable"
-    ],
-    "tts": [
-      "pepper"
-    ]
-  },
-  "📪": {
-    "default": [
-      "closed postbox with lowered flag",
-      "letterbox",
-      "lowered",
-      "mail",
-      "mailbox",
-      "post box",
-      "postbox"
-    ],
-    "tts": []
-  },
-  "📬": {
-    "default": [
-      "mail",
-      "mailbox",
-      "open postbox with raised flag",
-      "post",
-      "post box",
-      "postbox"
-    ],
-    "tts": []
-  },
-  "🕣": {
-    "default": [
-      "8:30",
-      "8.30",
+      "4:30",
+      "4.30",
       "clock",
-      "eight-thirty",
-      "half past eight"
-    ],
-    "tts": []
-  },
-  "👨‍🚒": {
-    "default": [
-      "fire",
-      "fire truck",
-      "firefighter",
-      "man"
-    ],
-    "tts": []
-  },
-  "👨‍🦯‍➡": {
-    "default": [
-      "accessibility",
-      "blind",
-      "man",
-      "man with guide cane",
-      "man with guide cane facing right"
-    ],
-    "tts": [
-      "man with guide cane facing right"
-    ]
-  },
-  "🪴": {
-    "default": [
-      "grow",
-      "house",
-      "nurturing",
-      "plant",
-      "potted plant"
-    ],
-    "tts": []
-  },
-  "🗨": {
-    "default": [
-      "balloon",
-      "bubble",
-      "dialogue",
-      "left speech bubble",
-      "speech"
-    ],
-    "tts": []
-  },
-  "🫀": {
-    "default": [
-      "anatomical heart",
-      "cardiology",
-      "heart",
-      "organ",
-      "pulse"
-    ],
-    "tts": []
-  },
-  "👩‍🦼": {
-    "default": [
-      "accessibility",
-      "wheelchair",
-      "woman",
-      "woman in powered wheelchair"
-    ],
-    "tts": [
-      "woman in powered wheelchair"
-    ]
-  },
-  "😋": {
-    "default": [
-      "delicious",
-      "face",
-      "face savoring food",
-      "face savouring food",
-      "savouring",
-      "smile",
-      "yum"
-    ],
-    "tts": [
-      "face savouring food"
-    ]
-  },
-  "🕢": {
-    "default": [
-      "7:30",
-      "7.30",
-      "clock",
-      "half past seven",
-      "seven-thirty"
+      "four-thirty",
+      "half past four"
     ],
     "tts": []
   },
@@ -367,61 +1464,62 @@
       "guide cane"
     ]
   },
-  "💇": {
+  "🙏🏽": {
     "default": [
-      "barber",
-      "beauty",
-      "haircut",
-      "parlour",
-      "person getting haircut"
+      "ask",
+      "hand",
+      "high 5",
+      "high five",
+      "medium skin tone",
+      "please",
+      "pray",
+      "thanks"
     ],
     "tts": []
   },
-  "🕧": {
+  "🤵‍♀": {
     "default": [
-      "12:30",
-      "12.30",
-      "clock",
-      "half past twelve",
-      "twelve-thirty"
+      "tuxedo",
+      "woman",
+      "woman in tux",
+      "woman in tuxedo"
     ],
     "tts": []
   },
-  "🧻": {
+  "😤": {
     "default": [
-      "paper towels",
-      "roll of paper",
-      "toilet paper",
-      "toilet roll"
-    ],
-    "tts": []
-  },
-  "🤐": {
-    "default": [
+      "angry",
       "face",
-      "mouth",
-      "zip",
-      "zip-mouth face"
+      "face with steam from nose",
+      "frustration",
+      "triumph",
+      "won"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium skin tone",
+      "person with guide cane",
+      "person with guide cane: medium skin tone",
+      "person with white cane"
     ],
     "tts": [
-      "zip-mouth face"
+      "person with guide cane: medium skin tone"
     ]
   },
-  "®": {
+  "👨🏿‍🦼‍➡": {
     "default": [
-      "r",
-      "registered",
-      "trademark"
-    ],
-    "tts": []
-  },
-  "🇻🇮": {
-    "default": [
-      "flag",
-      "flag: US Virgin Islands"
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair facing right",
+      "wheelchair"
     ],
     "tts": [
-      "flag: US Virgin Islands"
+      "man in powered wheelchair facing right"
     ]
   },
   "🛟": {
@@ -438,15 +1536,106 @@
       "lifebuoy"
     ]
   },
-  "🕝": {
+  "📯": {
+    "default": [],
+    "tts": [
+      "post horn"
+    ]
+  },
+  "👨🏾‍🚒": {
     "default": [
-      "2:30",
-      "2.30",
-      "clock",
-      "half past two",
-      "two-thirty"
+      "fire",
+      "fire truck",
+      "firefighter",
+      "man",
+      "man firefighter: medium-dark skin tone",
+      "medium-dark skin tone"
     ],
     "tts": []
+  },
+  "😶‍🌫": {
+    "default": [
+      "absent-minded",
+      "face in clouds",
+      "face in the fog",
+      "head in clouds"
+    ],
+    "tts": []
+  },
+  "🙌": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "raising hands",
+      "woo hoo",
+      "yay"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium skin tone",
+      "men holding hands",
+      "men holding hands: light skin tone, medium skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-dark skin tone",
+      "men holding hands",
+      "men holding hands: medium-dark skin tone, dark skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🧻": {
+    "default": [
+      "paper towels",
+      "roll of paper",
+      "toilet paper",
+      "toilet roll"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair facing right"
+    ]
+  },
+  "👩‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair facing right"
+    ],
+    "tts": [
+      "woman in powered wheelchair facing right"
+    ]
   },
   "🩴": {
     "default": [
@@ -462,36 +1651,567 @@
       "flip-flop"
     ]
   },
-  "🛫": {
+  "🛺": {
     "default": [
-      "aeroplane",
-      "airplane",
-      "check-in",
-      "departure",
-      "take-off"
+      "auto rickshaw",
+      "tuk tuk",
+      "tuk-tuk"
     ],
     "tts": []
   },
-  "🕟": {
+  "🏛": {
     "default": [
-      "4:30",
-      "4.30",
-      "clock",
-      "four-thirty",
-      "half past four"
+      "classical",
+      "classical building",
+      "column"
     ],
     "tts": []
   },
-  "☑": {
+  "🤵🏽": {
     "default": [
-      "✓",
-      "box",
-      "tick",
-      "tick box with tick"
+      "groom",
+      "medium skin tone",
+      "person",
+      "person in tux",
+      "person in tuxedo",
+      "person in tuxedo: medium skin tone",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "👬": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium-light skin tone",
+      "person with guide cane",
+      "person with guide cane: medium-light skin tone",
+      "person with white cane"
     ],
     "tts": [
-      "tick box with tick"
+      "person with guide cane: medium-light skin tone"
     ]
+  },
+  "👩🏽‍🚒": {
+    "default": [
+      "fire",
+      "fire truck",
+      "firefighter",
+      "medium skin tone",
+      "woman",
+      "woman firefighter: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🇻🇮": {
+    "default": [
+      "flag",
+      "flag: US Virgin Islands"
+    ],
+    "tts": [
+      "flag: US Virgin Islands"
+    ]
+  },
+  "👩🏽‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane facing right"
+    ],
+    "tts": [
+      "woman with guide cane facing right"
+    ]
+  },
+  "🧑🏽‍🦼": {
+    "default": [
+      "accessibility",
+      "medium skin tone",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair: medium skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair: medium skin tone"
+    ]
+  },
+  "🫑": {
+    "default": [
+      "bell pepper",
+      "capsicum",
+      "pepper",
+      "sweet pepper",
+      "vegetable"
+    ],
+    "tts": [
+      "pepper"
+    ]
+  },
+  "👨🏼‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane facing right"
+    ],
+    "tts": [
+      "man with guide cane facing right"
+    ]
+  },
+  "👩🏼‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium-light skin tone",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane: medium-light skin tone"
+    ],
+    "tts": [
+      "woman with guide cane: medium-light skin tone"
+    ]
+  },
+  "🤵": {
+    "default": [
+      "groom",
+      "person",
+      "person in tux",
+      "person in tuxedo",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "👨‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair facing right"
+    ]
+  },
+  "💇": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "parlour",
+      "person getting haircut"
+    ],
+    "tts": []
+  },
+  "👬🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "men holding hands",
+      "men holding hands: dark skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🪆": {
+    "default": [
+      "babushka",
+      "doll",
+      "matryoshka",
+      "nesting dolls",
+      "russia",
+      "Russian dolls"
+    ],
+    "tts": [
+      "Russian dolls"
+    ]
+  },
+  "👩‍🦼": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair"
+    ],
+    "tts": [
+      "woman in powered wheelchair"
+    ]
+  },
+  "😵‍💫": {
+    "default": [
+      "dizzy",
+      "face with spiral eyes",
+      "hypnotised",
+      "spiral",
+      "trouble",
+      "whoa"
+    ],
+    "tts": []
+  },
+  "😷": {
+    "default": [
+      "cold",
+      "doctor",
+      "face with medical mask",
+      "ill",
+      "mask",
+      "medicine",
+      "poorly",
+      "sick"
+    ],
+    "tts": []
+  },
+  "🇲🇫": {
+    "default": [
+      "flag",
+      "flag: St Martin"
+    ],
+    "tts": [
+      "flag: St Martin"
+    ]
+  },
+  "✖": {
+    "default": [
+      "×",
+      "cancel",
+      "heavy multiplication sign",
+      "multiplication",
+      "multiply",
+      "sign",
+      "x"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: medium-light skin tone, medium-dark skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "dark skin tone",
+      "man",
+      "man with guide cane",
+      "man with guide cane: dark skin tone"
+    ],
+    "tts": [
+      "man with guide cane: dark skin tone"
+    ]
+  },
+  "💇🏽": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "medium skin tone",
+      "parlour",
+      "person getting haircut"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🦼": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair: dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair: dark skin tone"
+    ]
+  },
+  "🧑🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "fire engine",
+      "fire truck",
+      "firefighter",
+      "firefighter: dark skin tone"
+    ],
+    "tts": []
+  },
+  "✅": {
+    "default": [
+      "✓",
+      "button",
+      "mark",
+      "tick"
+    ],
+    "tts": [
+      "tick button"
+    ]
+  },
+  "👩‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🙇🏾‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "medium-dark skin tone",
+      "sorry",
+      "woman",
+      "woman bowing: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🦼": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair: dark skin tone"
+    ],
+    "tts": [
+      "woman in powered wheelchair: dark skin tone"
+    ]
+  },
+  "🧑🏿‍🦼": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair: dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair: dark skin tone"
+    ]
+  },
+  "👨🏽‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men holding hands",
+      "men holding hands: medium skin tone, medium-dark skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🙏🏾": {
+    "default": [
+      "ask",
+      "hand",
+      "high 5",
+      "high five",
+      "medium-dark skin tone",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🩱": {
+    "default": [
+      "bathing suit",
+      "one-piece swimsuit",
+      "swimming costume"
+    ],
+    "tts": []
+  },
+  "🤵🏽‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "man in tuxedo: medium skin tone",
+      "medium skin tone",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "👔": {
+    "default": [],
+    "tts": [
+      "tie"
+    ]
+  },
+  "🚩": {
+    "default": [
+      "post",
+      "red flag",
+      "triangular flag"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🚒": {
+    "default": [
+      "fire",
+      "fire truck",
+      "firefighter",
+      "light skin tone",
+      "woman",
+      "woman firefighter: light skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in powered wheelchair facing right"
+    ]
+  },
+  "🙏": {
+    "default": [
+      "ask",
+      "hand",
+      "high 5",
+      "high five",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🕤": {
+    "default": [
+      "9:30",
+      "9.30",
+      "clock",
+      "half past nine",
+      "nine-thirty"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with guide cane facing right",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane facing right"
+    ]
+  },
+  "🙇🏻‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "light skin tone",
+      "man",
+      "man bowing: light skin tone",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "🧅": {
+    "default": [
+      "flavouring",
+      "onion"
+    ],
+    "tts": []
+  },
+  "😋": {
+    "default": [
+      "delicious",
+      "face",
+      "face savoring food",
+      "face savouring food",
+      "savouring",
+      "smile",
+      "yum"
+    ],
+    "tts": [
+      "face savouring food"
+    ]
+  },
+  "👨🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "fire",
+      "fire truck",
+      "firefighter",
+      "man",
+      "man firefighter: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🤵🏻‍♂": {
+    "default": [
+      "light skin tone",
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "man in tuxedo: light skin tone",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "🛗": {
+    "default": [],
+    "tts": [
+      "lift"
+    ]
+  },
+  "🤵🏻‍♀": {
+    "default": [
+      "light skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tux",
+      "woman in tuxedo",
+      "woman in tuxedo: light skin tone"
+    ],
+    "tts": []
   },
   "🛞": {
     "default": [
@@ -502,45 +2222,381 @@
     ],
     "tts": []
   },
-  "🏺": {
+  "🤵🏾‍♀": {
     "default": [
-      "amphora",
-      "Aquarius",
+      "medium-dark skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tux",
+      "woman in tuxedo",
+      "woman in tuxedo: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🙏🏼": {
+    "default": [
+      "ask",
+      "hand",
+      "high 5",
+      "high five",
+      "medium-light skin tone",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "➖": {
+    "default": [
+      "-",
+      "−",
+      "heavy minus sign",
+      "math",
+      "maths",
+      "minus",
+      "sign"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with guide cane facing right",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane facing right"
+    ]
+  },
+  "🛁": {
+    "default": [],
+    "tts": [
+      "bath"
+    ]
+  },
+  "👩🏼‍🦼": {
+    "default": [
+      "accessibility",
+      "medium-light skin tone",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair: medium-light skin tone"
+    ],
+    "tts": [
+      "woman in powered wheelchair: medium-light skin tone"
+    ]
+  },
+  "💷": {
+    "default": [
+      "banknote",
+      "bill",
+      "currency",
+      "money",
+      "note",
+      "pound",
+      "sterling"
+    ],
+    "tts": []
+  },
+  "👨‍🦼": {
+    "default": [
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in powered wheelchair"
+    ]
+  },
+  "🧄": {
+    "default": [
+      "flavouring",
+      "garlic"
+    ],
+    "tts": []
+  },
+  "🕠": {
+    "default": [
+      "5:30",
+      "5.30",
+      "clock",
+      "five-thirty",
+      "half past five"
+    ],
+    "tts": []
+  },
+  "🧑‍🚒": {
+    "default": [
+      "fire engine",
+      "fire truck",
+      "firefighter"
+    ],
+    "tts": []
+  },
+  "🗻": {
+    "default": [
+      "Fuji",
+      "Mount Fuji",
+      "mountain"
+    ],
+    "tts": [
+      "Mount Fuji"
+    ]
+  },
+  "🩲": {
+    "default": [
+      "bathing suit",
+      "briefs",
+      "one-piece",
+      "pants",
+      "swimsuit",
+      "underwear"
+    ],
+    "tts": []
+  },
+  "🍶": {
+    "default": [
+      "bar",
+      "beverage",
+      "bottle",
+      "cup",
       "drink",
-      "jar",
-      "jug",
+      "sake",
+      "saké"
+    ],
+    "tts": []
+  },
+  "👬🏼": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: medium-light skin tone",
+      "twins",
       "zodiac"
     ],
     "tts": []
   },
-  "🕌": {
+  "🙇‍♀": {
     "default": [
-      "Islam",
-      "mosque",
-      "Muslim",
-      "religion"
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "sorry",
+      "woman"
     ],
     "tts": []
   },
-  "🙇‍♂": {
+  "💇🏻": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "light skin tone",
+      "parlour",
+      "person getting haircut"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair facing right"
+    ],
+    "tts": [
+      "woman in powered wheelchair facing right"
+    ]
+  },
+  "🙇🏾‍♂": {
     "default": [
       "apology",
       "bowing",
       "favour",
       "gesture",
       "man",
+      "man bowing: medium-dark skin tone",
+      "medium-dark skin tone",
       "sorry"
     ],
     "tts": []
   },
-  "🧉": {
+  "🚾": {
     "default": [
-      "drink",
-      "maté"
+      "closet",
+      "lavatory",
+      "restroom",
+      "toilet",
+      "water",
+      "wc"
+    ],
+    "tts": []
+  },
+  "🇵🇲": {
+    "default": [
+      "flag",
+      "flag: St Pierre & Miquelon"
     ],
     "tts": [
-      "maté"
+      "flag: St Pierre & Miquelon"
     ]
+  },
+  "🕢": {
+    "default": [
+      "7:30",
+      "7.30",
+      "clock",
+      "half past seven",
+      "seven-thirty"
+    ],
+    "tts": []
+  },
+  "🙌🏼": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "medium-light skin tone",
+      "raising hands",
+      "raising hands: medium-light skin tone",
+      "woo hoo",
+      "yay"
+    ],
+    "tts": []
+  },
+  "🇺🇲": {
+    "default": [
+      "flag",
+      "flag: US Outlying Islands"
+    ],
+    "tts": [
+      "flag: US Outlying Islands"
+    ]
+  },
+  "👩🏿‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "dark skin tone",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane: dark skin tone"
+    ],
+    "tts": [
+      "woman with guide cane: dark skin tone"
+    ]
+  },
+  "👨🏾‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: medium-dark skin tone, medium-light skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👩🏼‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "medium-light skin tone",
+      "woman",
+      "woman judge: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🪂": {
+    "default": [
+      "hang-glide",
+      "parachute",
+      "parasail",
+      "parascend",
+      "skydive"
+    ],
+    "tts": []
+  },
+  "✔": {
+    "default": [
+      "✓",
+      "mark",
+      "tick"
+    ],
+    "tts": [
+      "tick"
+    ]
+  },
+  "👨🏾‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane facing right"
+    ],
+    "tts": [
+      "man with guide cane facing right"
+    ]
+  },
+  "🧑🏼‍⚖": {
+    "default": [
+      "judge",
+      "judge: medium-light skin tone",
+      "law",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane facing right"
+    ],
+    "tts": [
+      "man with guide cane facing right"
+    ]
+  },
+  "👩‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "woman",
+      "woman with guide cane"
+    ],
+    "tts": [
+      "woman with guide cane"
+    ]
+  },
+  "🤵🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tux",
+      "woman in tuxedo",
+      "woman in tuxedo: dark skin tone"
+    ],
+    "tts": []
   },
   "🔄": {
     "default": [
@@ -561,259 +2617,396 @@
     ],
     "tts": []
   },
-  "🔒": {
+  "⚧": {
     "default": [
-      "closed",
-      "locked",
-      "padlock"
+      "trans",
+      "transgender",
+      "transgender symbol"
     ],
     "tts": []
   },
-  "🛗": {
-    "default": [],
+  "👨🏿‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: dark skin tone, medium-light skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🦼": {
+    "default": [
+      "accessibility",
+      "light skin tone",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair: light skin tone",
+      "wheelchair"
+    ],
     "tts": [
-      "lift"
+      "man in powered wheelchair: light skin tone"
     ]
   },
-  "🤵‍♀": {
+  "🙌🏻": {
     "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "light skin tone",
+      "raising hands",
+      "raising hands: light skin tone",
+      "woo hoo",
+      "yay"
+    ],
+    "tts": []
+  },
+  "🩹": {
+    "default": [
+      "injury",
+      "plaster",
+      "sticking plaster"
+    ],
+    "tts": [
+      "plaster"
+    ]
+  },
+  "🙇🏻‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favour",
+      "gesture",
+      "light skin tone",
+      "sorry",
+      "woman",
+      "woman bowing: light skin tone"
+    ],
+    "tts": []
+  },
+  "🤵🏾": {
+    "default": [
+      "groom",
+      "medium-dark skin tone",
+      "person",
+      "person in tux",
+      "person in tuxedo",
+      "person in tuxedo: medium-dark skin tone",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "📫": {
+    "default": [
+      "closed postbox with raised flag",
+      "letterbox",
+      "mail",
+      "mailbox",
+      "post",
+      "post box",
+      "postbox"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane facing right"
+    ],
+    "tts": [
+      "man with guide cane facing right"
+    ]
+  },
+  "🙏🏻": {
+    "default": [
+      "ask",
+      "hand",
+      "high 5",
+      "high five",
+      "light skin tone",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "man",
+      "man with guide cane",
+      "man with guide cane: medium-dark skin tone",
+      "medium-dark skin tone"
+    ],
+    "tts": [
+      "man with guide cane: medium-dark skin tone"
+    ]
+  },
+  "🥩": {
+    "default": [
+      "chop",
+      "cut of meat",
+      "lamb chop",
+      "pork chop",
+      "steak"
+    ],
+    "tts": []
+  },
+  "🤵🏽‍♀": {
+    "default": [
+      "medium skin tone",
       "tuxedo",
       "woman",
       "woman in tux",
-      "woman in tuxedo"
+      "woman in tuxedo",
+      "woman in tuxedo: medium skin tone"
     ],
     "tts": []
   },
-  "🛺": {
+  "🧉": {
     "default": [
-      "auto rickshaw",
-      "tuk tuk",
-      "tuk-tuk"
-    ],
-    "tts": []
-  },
-  "🏳": {
-    "default": [
-      "surrender",
-      "waving",
-      "white flag"
-    ],
-    "tts": []
-  },
-  "💷": {
-    "default": [
-      "banknote",
-      "bill",
-      "currency",
-      "money",
-      "note",
-      "pound",
-      "sterling"
-    ],
-    "tts": []
-  },
-  "🇲🇫": {
-    "default": [
-      "flag",
-      "flag: St Martin"
+      "drink",
+      "maté"
     ],
     "tts": [
-      "flag: St Martin"
+      "maté"
     ]
   },
-  "🧑‍🚒": {
+  "🧑‍🦯": {
     "default": [
-      "fire engine",
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane"
+    ]
+  },
+  "👩🏾‍🚒": {
+    "default": [
+      "fire",
       "fire truck",
-      "firefighter"
+      "firefighter",
+      "medium-dark skin tone",
+      "woman",
+      "woman firefighter: medium-dark skin tone"
     ],
     "tts": []
   },
-  "☦": {
-    "default": [
-      "Christian",
-      "cross",
-      "Orthodox cross",
-      "religion"
-    ],
-    "tts": [
-      "Orthodox cross"
-    ]
-  },
-  "🤭": {
-    "default": [
-      "embarrassed",
-      "face with hand over mouth",
-      "oops",
-      "whoops"
-    ],
-    "tts": []
-  },
-  "🕡": {
-    "default": [
-      "6:30",
-      "6.30",
-      "clock",
-      "half past six",
-      "six-thirty"
-    ],
-    "tts": []
-  },
-  "👨‍⚖": {
+  "👨🏼‍⚖": {
     "default": [
       "judge",
       "justice",
       "law",
-      "man"
+      "man",
+      "man judge: medium-light skin tone",
+      "medium-light skin tone"
     ],
     "tts": []
   },
-  "🕋": {
+  "👨🏼‍🤝‍👨🏿": {
     "default": [
-      "Islam",
-      "Kaaba",
-      "Muslim",
-      "religion"
-    ],
-    "tts": [
-      "Kaaba"
-    ]
-  },
-  "🕥": {
-    "default": [
-      "10:30",
-      "10.30",
-      "clock",
-      "half past ten",
-      "ten-thirty"
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: medium-light skin tone, dark skin tone",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "🪪": {
+  "💇🏾": {
     "default": [
-      "credentials",
-      "driving",
-      "ID",
-      "identification card",
-      "licence",
-      "security"
+      "barber",
+      "beauty",
+      "haircut",
+      "medium-dark skin tone",
+      "parlour",
+      "person getting haircut"
     ],
     "tts": []
   },
-  "🤨": {
+  "👬🏻": {
     "default": [
-      "distrust",
-      "face with raised eyebrow",
-      "sceptic"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "men holding hands",
+      "men holding hands: light skin tone",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "🧴": {
+  "🧑🏼‍🚒": {
     "default": [
-      "lotion",
-      "lotion bottle",
-      "moisturiser",
-      "shampoo",
-      "sunscreen"
+      "fire engine",
+      "fire truck",
+      "firefighter",
+      "firefighter: medium-light skin tone",
+      "medium-light skin tone"
     ],
     "tts": []
   },
-  "😤": {
-    "default": [
-      "angry",
-      "face",
-      "face with steam from nose",
-      "frustration",
-      "triumph",
-      "won"
-    ],
-    "tts": []
-  },
-  "⁉": {
-    "default": [
-      "!",
-      "!?",
-      "?",
-      "exclamation question mark",
-      "interrobang",
-      "mark",
-      "punctuation",
-      "question"
-    ],
-    "tts": []
-  },
-  "🛁": {
-    "default": [],
-    "tts": [
-      "bath"
-    ]
-  },
-  "➖": {
-    "default": [
-      "-",
-      "−",
-      "heavy minus sign",
-      "math",
-      "maths",
-      "minus",
-      "sign"
-    ],
-    "tts": []
-  },
-  "👨‍🦼": {
+  "🧑🏽‍🦼‍➡": {
     "default": [
       "accessibility",
-      "man",
-      "man in powered wheelchair",
+      "person in motorized wheelchair",
+      "person in powered wheelchair",
+      "person in powered wheelchair facing right",
       "wheelchair"
     ],
     "tts": [
-      "man in powered wheelchair"
+      "person in powered wheelchair facing right"
     ]
   },
-  "🕠": {
+  "👬🏾": {
     "default": [
-      "5:30",
-      "5.30",
-      "clock",
-      "five-thirty",
-      "half past five"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-dark skin tone",
+      "men holding hands",
+      "men holding hands: medium-dark skin tone",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "🪘": {
-    "default": [],
+  "☑": {
+    "default": [
+      "✓",
+      "box",
+      "tick",
+      "tick box with tick"
+    ],
     "tts": [
-      "conga drum"
+      "tick box with tick"
     ]
   },
-  "🔓": {
+  "🛕": {
     "default": [
-      "lock",
-      "open",
-      "padlock",
-      "unlock",
-      "unlocked"
+      "Hindu",
+      "temple"
+    ],
+    "tts": [
+      "Hindu temple"
+    ]
+  },
+  "🕝": {
+    "default": [
+      "2:30",
+      "2.30",
+      "clock",
+      "half past two",
+      "two-thirty"
     ],
     "tts": []
   },
-  "👩‍🦼‍➡": {
+  "🧑🏿‍🦯": {
     "default": [
       "accessibility",
-      "wheelchair",
-      "woman",
-      "woman in powered wheelchair",
-      "woman in powered wheelchair facing right"
+      "blind",
+      "dark skin tone",
+      "person with guide cane",
+      "person with guide cane: dark skin tone",
+      "person with white cane"
     ],
     "tts": [
-      "woman in powered wheelchair facing right"
+      "person with guide cane: dark skin tone"
     ]
   },
-  "🏛": {
+  "👨🏻‍🤝‍👨🏼": {
     "default": [
-      "classical",
-      "classical building",
-      "column"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: light skin tone, medium-light skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👨🏿‍⚖": {
+    "default": [
+      "dark skin tone",
+      "judge",
+      "justice",
+      "law",
+      "man",
+      "man judge: dark skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "man",
+      "medium-light skin tone",
+      "men holding hands",
+      "men holding hands: medium-light skin tone, light skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium-dark skin tone",
+      "person with guide cane",
+      "person with guide cane: medium-dark skin tone",
+      "person with white cane"
+    ],
+    "tts": [
+      "person with guide cane: medium-dark skin tone"
+    ]
+  },
+  "🏳‍⚧": {
+    "default": [
+      "flag",
+      "light blue",
+      "pink",
+      "trans",
+      "transgender",
+      "white"
+    ],
+    "tts": []
+  },
+  "👨🏾‍⚖": {
+    "default": [
+      "judge",
+      "justice",
+      "law",
+      "man",
+      "man judge: medium-dark skin tone",
+      "medium-dark skin tone"
     ],
     "tts": []
   },
@@ -829,212 +3022,72 @@
       "person with guide cane facing right"
     ]
   },
-  "🚾": {
+  "📬": {
     "default": [
-      "closet",
-      "lavatory",
-      "restroom",
-      "toilet",
-      "water",
-      "wc"
+      "mail",
+      "mailbox",
+      "open postbox with raised flag",
+      "post",
+      "post box",
+      "postbox"
     ],
     "tts": []
   },
-  "👔": {
-    "default": [],
-    "tts": [
-      "tie"
-    ]
-  },
-  "🪆": {
+  "🤵🏼‍♀": {
     "default": [
-      "babushka",
-      "doll",
-      "matryoshka",
-      "nesting dolls",
-      "russia",
-      "Russian dolls"
-    ],
-    "tts": [
-      "Russian dolls"
-    ]
-  },
-  "🪒": {
-    "default": [
-      "cut-throat",
-      "razor",
-      "sharp",
-      "shave"
+      "medium-light skin tone",
+      "tuxedo",
+      "woman",
+      "woman in tux",
+      "woman in tuxedo",
+      "woman in tuxedo: medium-light skin tone"
     ],
     "tts": []
   },
-  "🩶": {
+  "🪪": {
     "default": [
-      "grey",
-      "heart",
-      "silver",
-      "slate"
+      "credentials",
+      "driving",
+      "ID",
+      "identification card",
+      "licence",
+      "security"
     ],
     "tts": []
   },
-  "🧇": {
+  "🤵🏿": {
     "default": [
-      "breakfast",
-      "iron",
-      "unclear",
-      "vague",
-      "waffle"
+      "dark skin tone",
+      "groom",
+      "person",
+      "person in tux",
+      "person in tuxedo",
+      "person in tuxedo: dark skin tone",
+      "tuxedo"
     ],
     "tts": []
   },
-  "🏳‍⚧": {
+  "➕": {
     "default": [
-      "flag",
-      "light blue",
-      "pink",
-      "trans",
-      "transgender",
-      "white"
+      "+",
+      "math",
+      "maths",
+      "plus",
+      "sign"
     ],
     "tts": []
   },
-  "🍥": {
-    "default": [
-      "cake",
-      "fish",
-      "fish cake with swirl",
-      "narutomaki",
-      "pastry",
-      "swirl"
-    ],
-    "tts": []
-  },
-  "🙏": {
-    "default": [
-      "ask",
-      "hand",
-      "high 5",
-      "high five",
-      "please",
-      "pray",
-      "thanks"
-    ],
-    "tts": []
-  },
-  "🇧🇱": {
-    "default": [
-      "flag",
-      "flag: St Barthélemy"
-    ],
-    "tts": [
-      "flag: St Barthélemy"
-    ]
-  },
-  "✡": {
-    "default": [
-      "David",
-      "Jewish",
-      "Judaism",
-      "religion",
-      "star",
-      "Star of David"
-    ],
-    "tts": [
-      "Star of David"
-    ]
-  },
-  "📯": {
-    "default": [],
-    "tts": [
-      "post horn"
-    ]
-  },
-  "🩱": {
-    "default": [
-      "bathing suit",
-      "one-piece swimsuit",
-      "swimming costume"
-    ],
-    "tts": []
-  },
-  "🚃": {
-    "default": [
-      "car",
-      "electric",
-      "railway",
-      "railway carriage",
-      "train",
-      "tram",
-      "trolleybus"
-    ],
-    "tts": []
-  },
-  "👩‍⚖": {
-    "default": [
-      "judge",
-      "justice",
-      "law",
-      "woman"
-    ],
-    "tts": []
-  },
-  "🧄": {
-    "default": [
-      "flavouring",
-      "garlic"
-    ],
-    "tts": []
-  },
-  "🍶": {
-    "default": [
-      "bar",
-      "beverage",
-      "bottle",
-      "cup",
-      "drink",
-      "sake",
-      "saké"
-    ],
-    "tts": []
-  },
-  "🙇‍♀": {
-    "default": [
-      "apology",
-      "bowing",
-      "favour",
-      "gesture",
-      "sorry",
-      "woman"
-    ],
-    "tts": []
-  },
-  "🥡": {
-    "default": [
-      "oyster pail",
-      "takeaway box",
-      "takeout box"
-    ],
-    "tts": []
-  },
-  "🇰🇳": {
-    "default": [
-      "flag",
-      "flag: St Kitts & Nevis"
-    ],
-    "tts": [
-      "flag: St Kitts & Nevis"
-    ]
-  },
-  "👨‍🦼‍➡": {
+  "👨🏼‍🦼": {
     "default": [
       "accessibility",
       "man",
       "man in powered wheelchair",
-      "man in powered wheelchair facing right",
+      "man in powered wheelchair: medium-light skin tone",
+      "medium-light skin tone",
       "wheelchair"
     ],
     "tts": [
-      "man in powered wheelchair facing right"
+      "man in powered wheelchair: medium-light skin tone"
     ]
   },
   "🧑‍🦼‍➡": {
@@ -1049,149 +3102,110 @@
       "person in powered wheelchair facing right"
     ]
   },
-  "☪": {
+  "🧑🏼‍🦯‍➡": {
     "default": [
-      "Islam",
-      "Muslim",
-      "religion",
-      "star and crescent"
-    ],
-    "tts": []
-  },
-  "✔": {
-    "default": [
-      "✓",
-      "mark",
-      "tick"
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with guide cane facing right",
+      "person with white cane"
     ],
     "tts": [
-      "tick"
+      "person with guide cane facing right"
     ]
   },
-  "🕞": {
+  "🤐": {
     "default": [
-      "3:30",
-      "3.30",
-      "clock",
-      "half past three",
-      "three-thirty"
-    ],
-    "tts": []
-  },
-  "🫤": {
-    "default": [
-      "disappointed",
-      "face with diagonal mouth",
-      "meh",
-      "sceptical",
-      "unsure"
-    ],
-    "tts": []
-  },
-  "🕤": {
-    "default": [
-      "9:30",
-      "9.30",
-      "clock",
-      "half past nine",
-      "nine-thirty"
-    ],
-    "tts": []
-  },
-  "🇱🇨": {
-    "default": [
-      "flag",
-      "flag: St Lucia"
+      "face",
+      "mouth",
+      "zip",
+      "zip-mouth face"
     ],
     "tts": [
-      "flag: St Lucia"
+      "zip-mouth face"
     ]
   },
-  "📫": {
+  "👨‍🚒": {
     "default": [
-      "closed postbox with raised flag",
-      "letterbox",
-      "mail",
-      "mailbox",
-      "post",
-      "post box",
-      "postbox"
+      "fire",
+      "fire truck",
+      "firefighter",
+      "man"
     ],
     "tts": []
   },
-  "🚩": {
+  "🪴": {
     "default": [
-      "post",
-      "red flag",
-      "triangular flag"
+      "grow",
+      "house",
+      "nurturing",
+      "plant",
+      "potted plant"
     ],
     "tts": []
   },
-  "🇵🇲": {
+  "🛫": {
     "default": [
-      "flag",
-      "flag: St Pierre & Miquelon"
-    ],
-    "tts": [
-      "flag: St Pierre & Miquelon"
-    ]
-  },
-  "🎏": {
-    "default": [
-      "carp",
-      "carp wind sock",
-      "celebration",
-      "Japanese wind socks",
-      "koinobori",
-      "streamer"
+      "aeroplane",
+      "airplane",
+      "check-in",
+      "departure",
+      "take-off"
     ],
     "tts": []
   },
-  "🤵‍♂": {
+  "👨🏾‍🤝‍👨🏽": {
     "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
       "man",
-      "man in tux",
-      "man in tuxedo",
-      "tuxedo"
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men holding hands",
+      "men holding hands: medium-dark skin tone, medium skin tone",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "😶‍🌫": {
+  "👨🏻‍🦼‍➡": {
     "default": [
-      "absent-minded",
-      "face in clouds",
-      "face in the fog",
-      "head in clouds"
-    ],
-    "tts": []
-  },
-  "🚙": {
-    "default": [
-      "4x4",
-      "off-road vehicle",
-      "sport utility",
-      "sport utility vehicle"
-    ],
-    "tts": []
-  },
-  "🥬": {
-    "default": [
-      "bok choy",
-      "cabbage",
-      "kale",
-      "leafy green",
-      "lettuce",
-      "pak choi"
-    ],
-    "tts": []
-  },
-  "🇸🇭": {
-    "default": [
-      "flag",
-      "flag: St Helena"
+      "accessibility",
+      "man",
+      "man in powered wheelchair",
+      "man in powered wheelchair facing right",
+      "wheelchair"
     ],
     "tts": [
-      "flag: St Helena"
+      "man in powered wheelchair facing right"
+    ]
+  },
+  "🙌🏽": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "medium skin tone",
+      "raising hands",
+      "raising hands: medium skin tone",
+      "woo hoo",
+      "yay"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium skin tone",
+      "woman",
+      "woman with guide cane",
+      "woman with guide cane: medium skin tone"
+    ],
+    "tts": [
+      "woman with guide cane: medium skin tone"
     ]
   },
   "✝": {
@@ -1205,141 +3219,52 @@
       "Latin cross"
     ]
   },
-  "🧑‍🦯": {
+  "👨🏿‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "man",
+      "medium-dark skin tone",
+      "men holding hands",
+      "men holding hands: dark skin tone, medium-dark skin tone",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🪒": {
+    "default": [
+      "cut-throat",
+      "razor",
+      "sharp",
+      "shave"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "wheelchair",
+      "woman",
+      "woman in powered wheelchair",
+      "woman in powered wheelchair facing right"
+    ],
+    "tts": [
+      "woman in powered wheelchair facing right"
+    ]
+  },
+  "🧑🏽‍🦯‍➡": {
     "default": [
       "accessibility",
       "blind",
       "person with guide cane",
+      "person with guide cane facing right",
       "person with white cane"
     ],
     "tts": [
-      "person with guide cane"
+      "person with guide cane facing right"
     ]
-  },
-  "🇻🇨": {
-    "default": [
-      "flag",
-      "flag: St Vincent & the Grenadines"
-    ],
-    "tts": [
-      "flag: St Vincent & the Grenadines"
-    ]
-  },
-  "💬": {
-    "default": [
-      "balloon",
-      "bubble",
-      "comic",
-      "dialogue",
-      "speech"
-    ],
-    "tts": []
-  },
-  "🦼": {
-    "default": [
-      "accessibility",
-      "powered wheelchair"
-    ],
-    "tts": [
-      "powered wheelchair"
-    ]
-  },
-  "👩‍🦯": {
-    "default": [
-      "accessibility",
-      "blind",
-      "woman",
-      "woman with guide cane"
-    ],
-    "tts": [
-      "woman with guide cane"
-    ]
-  },
-  "🕜": {
-    "default": [
-      "1:30",
-      "1.30",
-      "clock",
-      "half past one",
-      "one-thirty"
-    ],
-    "tts": []
-  },
-  "😵‍💫": {
-    "default": [
-      "dizzy",
-      "face with spiral eyes",
-      "hypnotised",
-      "spiral",
-      "trouble",
-      "whoa"
-    ],
-    "tts": []
-  },
-  "🛕": {
-    "default": [
-      "Hindu",
-      "temple"
-    ],
-    "tts": [
-      "Hindu temple"
-    ]
-  },
-  "🩲": {
-    "default": [
-      "bathing suit",
-      "briefs",
-      "one-piece",
-      "pants",
-      "swimsuit",
-      "underwear"
-    ],
-    "tts": []
-  },
-  "⚧": {
-    "default": [
-      "trans",
-      "transgender",
-      "transgender symbol"
-    ],
-    "tts": []
-  },
-  "📭": {
-    "default": [
-      "lowered",
-      "mail",
-      "mailbox",
-      "open postbox with lowered flag",
-      "post",
-      "post box",
-      "postbox"
-    ],
-    "tts": []
-  },
-  "🩹": {
-    "default": [
-      "injury",
-      "plaster",
-      "sticking plaster"
-    ],
-    "tts": [
-      "plaster"
-    ]
-  },
-  "🧅": {
-    "default": [
-      "flavouring",
-      "onion"
-    ],
-    "tts": []
-  },
-  "🟰": {
-    "default": [
-      "equality",
-      "heavy equals sign",
-      "math",
-      "maths"
-    ],
-    "tts": []
   }
 }

@@ -1,285 +1,13 @@
 {
-  "🌌": {
-    "default": [
-      "anga",
-      "hali ya jewa",
-      "kilimia"
-    ],
-    "tts": []
-  },
-  "🆓": {
-    "default": [
-      "huru",
-      "kitufe cheney neno ‘FREE’",
-      "kitufe chenye neno ‘FREE’"
-    ],
-    "tts": []
-  },
-  "🇬🇵": {
-    "default": [
-      "bendera",
-      "bendera: Gwadelupe"
-    ],
-    "tts": [
-      "bendera: Gwadelupe"
-    ]
-  },
-  "🍜": {
-    "default": [
-      "bakuli",
-      "bakuli lenye tambi",
-      "kupika kwa mvuke",
-      "tambi",
-      "tambi za kijapani"
-    ],
-    "tts": [
-      "bakuli lenye tambi"
-    ]
-  },
-  "🏋‍♂": {
+  "🏋🏽‍♂": {
     "default": [
       "mbeba vyuma",
       "mwanamume anayebeba vyuma vizito",
+      "ngozi ya kahawia",
       "uzani",
       "uzito"
     ],
     "tts": []
-  },
-  "👨‍🎓": {
-    "default": [
-      "fuzu",
-      "hitimu",
-      "kofia",
-      "mahafali",
-      "mwanafunzi na kofia ya kufuzu"
-    ],
-    "tts": []
-  },
-  "🍅": {
-    "default": [
-      "mboga",
-      "mmea",
-      "nyanya"
-    ],
-    "tts": []
-  },
-  "🇪🇨": {
-    "default": [
-      "bendera",
-      "bendera: Ekwado"
-    ],
-    "tts": [
-      "bendera: Ekwado"
-    ]
-  },
-  "🧩": {
-    "default": [
-      "dokezo",
-      "fumbo",
-      "fungamana",
-      "kipande",
-      "kipande cha mchezo wa mafumbo",
-      "mchezofumbo"
-    ],
-    "tts": [
-      "kipande cha mchezo wa mafumbo"
-    ]
-  },
-  "🇾🇹": {
-    "default": [
-      "bendera",
-      "bendera: Mayote"
-    ],
-    "tts": [
-      "bendera: Mayote"
-    ]
-  },
-  "🇺🇦": {
-    "default": [
-      "bendera",
-      "bendera: Ukreni"
-    ],
-    "tts": [
-      "bendera: Ukreni"
-    ]
-  },
-  "🇻🇬": {
-    "default": [
-      "bendera",
-      "bendera: Visiwa vya Virgin vya Uingereza"
-    ],
-    "tts": [
-      "bendera: Visiwa vya Virgin vya Uingereza"
-    ]
-  },
-  "💱": {
-    "default": [
-      "benki",
-      "pesa",
-      "sarafu",
-      "sarafu mbalimbali",
-      "ubadilishaji wa pesa",
-      "ubadilishanaji wa sarafu"
-    ],
-    "tts": [
-      "ubadilishanaji wa sarafu"
-    ]
-  },
-  "🇸🇹": {
-    "default": [
-      "bendera",
-      "bendera: Sao Tome na Prinsipe"
-    ],
-    "tts": [
-      "bendera: Sao Tome na Prinsipe"
-    ]
-  },
-  "⛴": {
-    "default": [
-      "boti",
-      "feri",
-      "kivuko"
-    ],
-    "tts": [
-      "feri"
-    ]
-  },
-  "🇪🇦": {
-    "default": [
-      "bendera",
-      "bendera: Keuta na Melilla"
-    ],
-    "tts": [
-      "bendera: Keuta na Melilla"
-    ]
-  },
-  "🇻🇮": {
-    "default": [
-      "bendera",
-      "bendera: Visiwa vya Virgin vya Marekani"
-    ],
-    "tts": [
-      "bendera: Visiwa vya Virgin vya Marekani"
-    ]
-  },
-  "🇵🇷": {
-    "default": [
-      "bendera",
-      "bendera: Pwetoriko"
-    ],
-    "tts": [
-      "bendera: Pwetoriko"
-    ]
-  },
-  "🇧🇯": {
-    "default": [
-      "bendera",
-      "bendera: Benini"
-    ],
-    "tts": [
-      "bendera: Benini"
-    ]
-  },
-  "🏴󠁧󠁢󠁷󠁬󠁳󠁿": {
-    "default": [
-      "bendera",
-      "bendera: Wales"
-    ],
-    "tts": [
-      "bendera: Wales"
-    ]
-  },
-  "🇲🇦": {
-    "default": [
-      "bendera",
-      "bendera: Moroko"
-    ],
-    "tts": [
-      "bendera: Moroko"
-    ]
-  },
-  "🇸🇾": {
-    "default": [
-      "bendera",
-      "bendera: Shamu"
-    ],
-    "tts": [
-      "bendera: Shamu"
-    ]
-  },
-  "🇱🇻": {
-    "default": [
-      "bendera",
-      "bendera: Lativia"
-    ],
-    "tts": [
-      "bendera: Lativia"
-    ]
-  },
-  "🇧🇾": {
-    "default": [
-      "bendera",
-      "bendera: Belarusi"
-    ],
-    "tts": [
-      "bendera: Belarusi"
-    ]
-  },
-  "🇱🇦": {
-    "default": [
-      "bendera",
-      "bendera: Laosi"
-    ],
-    "tts": [
-      "bendera: Laosi"
-    ]
-  },
-  "🇨🇻": {
-    "default": [
-      "bendera",
-      "bendera: Kepuvede"
-    ],
-    "tts": [
-      "bendera: Kepuvede"
-    ]
-  },
-  "🤦‍♀": {
-    "default": [
-      "ishara",
-      "kutoamini",
-      "mwanamke anayeashiria kutoamini",
-      "mwanamke anayueashiria kutoamini"
-    ],
-    "tts": [
-      "mwanamke anayeashiria kutoamini"
-    ]
-  },
-  "🇸🇬": {
-    "default": [
-      "bendera",
-      "bendera: Singapuri"
-    ],
-    "tts": [
-      "bendera: Singapuri"
-    ]
-  },
-  "🇵🇫": {
-    "default": [
-      "bendera",
-      "bendera: Polinesia ya Ufaransa"
-    ],
-    "tts": [
-      "bendera: Polinesia ya Ufaransa"
-    ]
-  },
-  "🇹🇭": {
-    "default": [
-      "bendera",
-      "bendera: Thailandi"
-    ],
-    "tts": [
-      "bendera: Thailandi"
-    ]
   },
   "💲": {
     "default": [
@@ -292,16 +20,34 @@
       "alama nzito ya dola"
     ]
   },
-  "🌄": {
+  "🇦🇶": {
     "default": [
-      "asubuhi",
-      "hali ya hewa",
-      "jua",
-      "macheo",
-      "macheo kwenye milima",
-      "mlima"
+      "bendera",
+      "bendera: Antaktika"
+    ],
+    "tts": [
+      "bendera: Antaktika"
+    ]
+  },
+  "👩🏿‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi wa kike na kofia ya kufuzu",
+      "ngozi nyeusi"
     ],
     "tts": []
+  },
+  "🇱🇧": {
+    "default": [
+      "bendera",
+      "bendera: Lebanoni"
+    ],
+    "tts": [
+      "bendera: Lebanoni"
+    ]
   },
   "🍺": {
     "default": [
@@ -313,116 +59,22 @@
     ],
     "tts": []
   },
-  "💗": {
-    "default": [
-      "furahia",
-      "kukua",
-      "moyo",
-      "moyo uanokua",
-      "moyo unaokua",
-      "mpaigo ya moyo",
-      "wasiwasi"
-    ],
-    "tts": [
-      "moyo unaokua"
-    ]
-  },
-  "📀": {
-    "default": [
-      "blu-ray",
-      "cd",
-      "diski",
-      "diski dijitali",
-      "kompyuta",
-      "mwangaza"
-    ],
-    "tts": []
-  },
-  "🔈": {
-    "default": [
-      "sauti",
-      "sauti ya chini ya spika",
-      "spika"
-    ],
-    "tts": [
-      "sauti ya chini ya spika"
-    ]
-  },
-  "😎": {
-    "default": [
-      "hali ya hewa",
-      "inayong’aa",
-      "jua",
-      "miwani ya jua",
-      "tabasamu",
-      "uso unaotabasamu uliovaa miwani",
-      "vali la macho"
-    ],
-    "tts": []
-  },
-  "🛒": {
-    "default": [
-      "kigari cha kununulia bidhaa",
-      "mkokoteni",
-      "toroli",
-      "ununuzi"
-    ],
-    "tts": [
-      "kigari cha kununulia bidhaa"
-    ]
-  },
-  "🧬": {
-    "default": [
-      "dna",
-      "jenetiki",
-      "jeni",
-      "mageuko",
-      "maisha",
-      "mwanabiolojia"
-    ],
-    "tts": []
-  },
-  "♏": {
-    "default": [
-      "nge",
-      "nyota ya nge",
-      "zodiaki"
-    ],
-    "tts": [
-      "nyota ya nge"
-    ]
-  },
-  "🇯🇴": {
+  "🇺🇾": {
     "default": [
       "bendera",
-      "bendera: Yordani"
+      "bendera: Urugwai"
     ],
     "tts": [
-      "bendera: Yordani"
+      "bendera: Urugwai"
     ]
   },
-  "💿": {
+  "🤰🏿": {
     "default": [
-      "blu-ray",
-      "cd",
-      "diski",
-      "diski ya kutumia mwangaza",
-      "dvd",
-      "kompyuta",
-      "mwangaza"
+      "mjamzito",
+      "mwanamke",
+      "ngozi nyeusi"
     ],
-    "tts": [
-      "diski ya kutumia mwangaza"
-    ]
-  },
-  "☣": {
-    "default": [
-      "tahadhari ya kibilojia",
-      "tahadhari ya kibiolojia"
-    ],
-    "tts": [
-      "tahadhari ya kibilojia"
-    ]
+    "tts": []
   },
   "🚡": {
     "default": [
@@ -436,70 +88,107 @@
     ],
     "tts": []
   },
-  "🇦🇮": {
+  "🇧🇾": {
     "default": [
       "bendera",
-      "bendera: Anguila"
+      "bendera: Belarusi"
     ],
     "tts": [
-      "bendera: Anguila"
+      "bendera: Belarusi"
     ]
   },
-  "🌘": {
+  "🇬🇵": {
     "default": [
-      "anga",
-      "hali ya hewa",
-      "kuisha",
-      "mwezi",
-      "mwezi kongo",
-      "mwezi mwandamo"
+      "bendera",
+      "bendera: Gwadelupe"
+    ],
+    "tts": [
+      "bendera: Gwadelupe"
+    ]
+  },
+  "👩🏾‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi wa kike na kofia ya kufuzu",
+      "ngozi nyeusi kiasi"
     ],
     "tts": []
   },
-  "🇸🇻": {
+  "🇺🇦": {
     "default": [
       "bendera",
-      "bendera: Elsalvado"
+      "bendera: Ukreni"
     ],
     "tts": [
-      "bendera: Elsalvado"
+      "bendera: Ukreni"
     ]
   },
-  "🇳🇨": {
+  "👨🏻‍🎓": {
     "default": [
-      "bendera",
-      "bendera: Nyukaledonia"
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi na kofia ya kufuzu",
+      "ngozi nyeupe"
+    ],
+    "tts": []
+  },
+  "🏋🏼‍♂": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamume anayebeba vyuma vizito",
+      "ngozi nyeupe kiasi",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "👊🏿": {
+    "default": [
+      "konde",
+      "kunja ngumi",
+      "mkono",
+      "mwili",
+      "ngozi nyeusi",
+      "ngumi",
+      "ngumi iliyonyooshewa",
+      "ngumi iliyonyooshewa: ngozi nyeusi"
     ],
     "tts": [
-      "bendera: Nyukaledonia"
+      "ngumi iliyonyooshewa: ngozi nyeusi"
     ]
   },
-  "🇱🇸": {
+  "🇻🇮": {
     "default": [
       "bendera",
-      "bendera: Lesotho"
+      "bendera: Visiwa vya Virgin vya Marekani"
     ],
     "tts": [
-      "bendera: Lesotho"
+      "bendera: Visiwa vya Virgin vya Marekani"
     ]
   },
-  "🇳🇪": {
+  "🤹🏾": {
     "default": [
-      "bendera",
-      "bendera: Nijeri"
+      "mtu anayecheza mipira mingi",
+      "mtu anayecheza mipira mingi: ngozi nyeusi kiasi",
+      "ngozi nyeusi kiasi",
+      "shughuli nyingi"
     ],
     "tts": [
-      "bendera: Nijeri"
+      "mtu anayecheza mipira mingi: ngozi nyeusi kiasi"
     ]
   },
-  "🇹🇲": {
+  "🆓": {
     "default": [
-      "bendera",
-      "bendera: Turukimenstani"
+      "huru",
+      "kitufe cheney neno ‘FREE’",
+      "kitufe chenye neno ‘FREE’"
     ],
-    "tts": [
-      "bendera: Turukimenstani"
-    ]
+    "tts": []
   },
   "🇲🇨": {
     "default": [
@@ -508,134 +197,6 @@
     ],
     "tts": [
       "bendera: Monako"
-    ]
-  },
-  "🇹🇼": {
-    "default": [
-      "bendera",
-      "bendera: Taiwani"
-    ],
-    "tts": [
-      "bendera: Taiwani"
-    ]
-  },
-  "🍻": {
-    "default": [
-      "baa",
-      "bia",
-      "gonganisha",
-      "kikombe",
-      "kinywaji",
-      "vikombe vya bia vinavyogonganishwa"
-    ],
-    "tts": [
-      "vikombe vya bia vinavyogonganishwa"
-    ]
-  },
-  "🇴🇲": {
-    "default": [
-      "bendera",
-      "bendera: Omani"
-    ],
-    "tts": [
-      "bendera: Omani"
-    ]
-  },
-  "👓": {
-    "default": [
-      "jicho",
-      "mavazi",
-      "miwani",
-      "miwani ya macho"
-    ],
-    "tts": []
-  },
-  "🇵🇲": {
-    "default": [
-      "bendera",
-      "bendera: St. Pierre na Miquelon"
-    ],
-    "tts": [
-      "bendera: St. Pierre na Miquelon"
-    ]
-  },
-  "🇻🇦": {
-    "default": [
-      "bendera",
-      "bendera: Mji wa Vatikani"
-    ],
-    "tts": [
-      "bendera: Mji wa Vatikani"
-    ]
-  },
-  "🇲🇸": {
-    "default": [
-      "bendera",
-      "bendera: Montserati"
-    ],
-    "tts": [
-      "bendera: Montserati"
-    ]
-  },
-  "🏋‍♀": {
-    "default": [
-      "mbeba vyuma",
-      "mwanamke anayebeba vyuma vizito",
-      "uzani",
-      "uzito"
-    ],
-    "tts": []
-  },
-  "🇵🇸": {
-    "default": [
-      "bendera",
-      "bendera: Himaya za Palestina"
-    ],
-    "tts": [
-      "bendera: Himaya za Palestina"
-    ]
-  },
-  "🦙": {
-    "default": [
-      "alpaca",
-      "guanaco",
-      "lama",
-      "sufu",
-      "vicuña"
-    ],
-    "tts": [
-      "lama"
-    ]
-  },
-  "🇧🇹": {
-    "default": [
-      "bendera",
-      "bendera: Bhutani"
-    ],
-    "tts": [
-      "bendera: Bhutani"
-    ]
-  },
-  "📵": {
-    "default": [
-      "hapana",
-      "katazwa",
-      "marufuku",
-      "simu",
-      "simu ya mkononi",
-      "simu za mkononi haziruhusiwi",
-      "siyo",
-      "ya mkononi"
-    ],
-    "tts": []
-  },
-  "🇳🇴": {
-    "default": [
-      "bendera",
-      "bendera: Norwe"
-    ],
-    "tts": [
-      "bendera: Norwe"
     ]
   },
   "💹": {
@@ -655,13 +216,633 @@
     ],
     "tts": []
   },
-  "🇭🇷": {
+  "📀": {
     "default": [
-      "bendera",
-      "bendera: Kroashia"
+      "blu-ray",
+      "cd",
+      "diski",
+      "diski dijitali",
+      "kompyuta",
+      "mwangaza"
+    ],
+    "tts": []
+  },
+  "🧬": {
+    "default": [
+      "dna",
+      "jenetiki",
+      "jeni",
+      "mageuko",
+      "maisha",
+      "mwanabiolojia"
+    ],
+    "tts": []
+  },
+  "🤦‍♀": {
+    "default": [
+      "ishara",
+      "kutoamini",
+      "mwanamke anayeashiria kutoamini",
+      "mwanamke anayueashiria kutoamini"
     ],
     "tts": [
-      "bendera: Kroashia"
+      "mwanamke anayeashiria kutoamini"
+    ]
+  },
+  "🏋‍♀": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamke anayebeba vyuma vizito",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "👊🏼": {
+    "default": [
+      "konde",
+      "kunja ngumi",
+      "mkono",
+      "mwili",
+      "ngozi nyeupe kiasi",
+      "ngumi",
+      "ngumi iliyonyooshewa",
+      "ngumi iliyonyooshewa: ngozi nyeupe kiasi"
+    ],
+    "tts": [
+      "ngumi iliyonyooshewa: ngozi nyeupe kiasi"
+    ]
+  },
+  "🍜": {
+    "default": [
+      "bakuli",
+      "bakuli lenye tambi",
+      "kupika kwa mvuke",
+      "tambi",
+      "tambi za kijapani"
+    ],
+    "tts": [
+      "bakuli lenye tambi"
+    ]
+  },
+  "👮": {
+    "default": [
+      "afisa",
+      "afisa wa polisi",
+      "polisi"
+    ],
+    "tts": [
+      "afisa wa polisi"
+    ]
+  },
+  "🇱🇻": {
+    "default": [
+      "bendera",
+      "bendera: Lativia"
+    ],
+    "tts": [
+      "bendera: Lativia"
+    ]
+  },
+  "🇹🇩": {
+    "default": [
+      "bendera",
+      "bendera: Chadi"
+    ],
+    "tts": [
+      "bendera: Chadi"
+    ]
+  },
+  "🇲🇦": {
+    "default": [
+      "bendera",
+      "bendera: Moroko"
+    ],
+    "tts": [
+      "bendera: Moroko"
+    ]
+  },
+  "🇵🇱": {
+    "default": [
+      "bendera",
+      "bendera: Polandi"
+    ],
+    "tts": [
+      "bendera: Polandi"
+    ]
+  },
+  "👨🏼‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi na kofia ya kufuzu",
+      "ngozi nyeupe kiasi"
+    ],
+    "tts": []
+  },
+  "👓": {
+    "default": [
+      "jicho",
+      "mavazi",
+      "miwani",
+      "miwani ya macho"
+    ],
+    "tts": []
+  },
+  "🏋🏿‍♂": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamume anayebeba vyuma vizito",
+      "ngozi nyeusi",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "👮🏾": {
+    "default": [
+      "afisa",
+      "afisa wa polisi",
+      "afisa wa polisi: ngozi nyeusi kiasi",
+      "ngozi nyeusi kiasi",
+      "polisi"
+    ],
+    "tts": [
+      "afisa wa polisi: ngozi nyeusi kiasi"
+    ]
+  },
+  "🇧🇹": {
+    "default": [
+      "bendera",
+      "bendera: Bhutani"
+    ],
+    "tts": [
+      "bendera: Bhutani"
+    ]
+  },
+  "🇨🇻": {
+    "default": [
+      "bendera",
+      "bendera: Kepuvede"
+    ],
+    "tts": [
+      "bendera: Kepuvede"
+    ]
+  },
+  "🛒": {
+    "default": [
+      "kigari cha kununulia bidhaa",
+      "mkokoteni",
+      "toroli",
+      "ununuzi"
+    ],
+    "tts": [
+      "kigari cha kununulia bidhaa"
+    ]
+  },
+  "🇵🇷": {
+    "default": [
+      "bendera",
+      "bendera: Pwetoriko"
+    ],
+    "tts": [
+      "bendera: Pwetoriko"
+    ]
+  },
+  "👨🏿‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi na kofia ya kufuzu",
+      "ngozi nyeusi"
+    ],
+    "tts": []
+  },
+  "🤦🏻‍♀": {
+    "default": [
+      "ishara",
+      "kutoamini",
+      "mwanamke anayeashiria kutoamini",
+      "mwanamke anayeashiria kutoamini: ngozi nyeupe",
+      "mwanamke anayueashiria kutoamini",
+      "ngozi nyeupe"
+    ],
+    "tts": [
+      "mwanamke anayeashiria kutoamini: ngozi nyeupe"
+    ]
+  },
+  "🇬🇸": {
+    "default": [
+      "bendera",
+      "bendera: Visiwa vya Jojia Kusini na Sandwich Kusini"
+    ],
+    "tts": [
+      "bendera: Visiwa vya Jojia Kusini na Sandwich Kusini"
+    ]
+  },
+  "🇻🇬": {
+    "default": [
+      "bendera",
+      "bendera: Visiwa vya Virgin vya Uingereza"
+    ],
+    "tts": [
+      "bendera: Visiwa vya Virgin vya Uingereza"
+    ]
+  },
+  "🇳🇨": {
+    "default": [
+      "bendera",
+      "bendera: Nyukaledonia"
+    ],
+    "tts": [
+      "bendera: Nyukaledonia"
+    ]
+  },
+  "🤹🏻": {
+    "default": [
+      "mtu anayecheza mipira mingi",
+      "mtu anayecheza mipira mingi: ngozi nyeupe",
+      "ngozi nyeupe",
+      "shughuli nyingi"
+    ],
+    "tts": [
+      "mtu anayecheza mipira mingi: ngozi nyeupe"
+    ]
+  },
+  "👮🏼": {
+    "default": [
+      "afisa",
+      "afisa wa polisi",
+      "afisa wa polisi: ngozi nyeupe kiasi",
+      "ngozi nyeupe kiasi",
+      "polisi"
+    ],
+    "tts": [
+      "afisa wa polisi: ngozi nyeupe kiasi"
+    ]
+  },
+  "🇸🇬": {
+    "default": [
+      "bendera",
+      "bendera: Singapuri"
+    ],
+    "tts": [
+      "bendera: Singapuri"
+    ]
+  },
+  "🇧🇸": {
+    "default": [
+      "bendera",
+      "bendera: Bahamas"
+    ],
+    "tts": [
+      "bendera: Bahamas"
+    ]
+  },
+  "📵": {
+    "default": [
+      "hapana",
+      "katazwa",
+      "marufuku",
+      "simu",
+      "simu ya mkononi",
+      "simu za mkononi haziruhusiwi",
+      "siyo",
+      "ya mkononi"
+    ],
+    "tts": []
+  },
+  "👮🏻": {
+    "default": [
+      "afisa",
+      "afisa wa polisi",
+      "afisa wa polisi: ngozi nyeupe",
+      "ngozi nyeupe",
+      "polisi"
+    ],
+    "tts": [
+      "afisa wa polisi: ngozi nyeupe"
+    ]
+  },
+  "🇻🇦": {
+    "default": [
+      "bendera",
+      "bendera: Mji wa Vatikani"
+    ],
+    "tts": [
+      "bendera: Mji wa Vatikani"
+    ]
+  },
+  "🇸🇾": {
+    "default": [
+      "bendera",
+      "bendera: Shamu"
+    ],
+    "tts": [
+      "bendera: Shamu"
+    ]
+  },
+  "👨🏽‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi na kofia ya kufuzu",
+      "ngozi ya kahawia"
+    ],
+    "tts": []
+  },
+  "👊🏽": {
+    "default": [
+      "konde",
+      "kunja ngumi",
+      "mkono",
+      "mwili",
+      "ngozi ya kahawia",
+      "ngumi",
+      "ngumi iliyonyooshewa",
+      "ngumi iliyonyooshewa: ngozi ya kahawia"
+    ],
+    "tts": [
+      "ngumi iliyonyooshewa: ngozi ya kahawia"
+    ]
+  },
+  "👊🏻": {
+    "default": [
+      "konde",
+      "kunja ngumi",
+      "mkono",
+      "mwili",
+      "ngozi nyeupe",
+      "ngumi",
+      "ngumi iliyonyooshewa",
+      "ngumi iliyonyooshewa: ngozi nyeupe"
+    ],
+    "tts": [
+      "ngumi iliyonyooshewa: ngozi nyeupe"
+    ]
+  },
+  "🇲🇰": {
+    "default": [
+      "bendera",
+      "bendera: Masedonia"
+    ],
+    "tts": [
+      "bendera: Masedonia"
+    ]
+  },
+  "🏋🏾‍♀": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamke anayebeba vyuma vizito",
+      "ngozi nyeusi kiasi",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "🍆": {
+    "default": [
+      "biringanya",
+      "mboga",
+      "mmea"
+    ],
+    "tts": []
+  },
+  "🪄": {
+    "default": [
+      "kifimbo cha miujiza",
+      "mchawi",
+      "muujiza"
+    ],
+    "tts": [
+      "kifimbo cha miujiza"
+    ]
+  },
+  "🔅": {
+    "default": [
+      "chini",
+      "fifia",
+      "kitufe cha kufifisha mwanga",
+      "kitufe cha kufifiza mwanga",
+      "kung’aa"
+    ],
+    "tts": [
+      "kitufe cha kufifisha mwanga"
+    ]
+  },
+  "🇦🇮": {
+    "default": [
+      "bendera",
+      "bendera: Anguila"
+    ],
+    "tts": [
+      "bendera: Anguila"
+    ]
+  },
+  "🇳🇪": {
+    "default": [
+      "bendera",
+      "bendera: Nijeri"
+    ],
+    "tts": [
+      "bendera: Nijeri"
+    ]
+  },
+  "🇬🇹": {
+    "default": [
+      "bendera",
+      "bendera: Gwatemala"
+    ],
+    "tts": [
+      "bendera: Gwatemala"
+    ]
+  },
+  "🇲🇸": {
+    "default": [
+      "bendera",
+      "bendera: Montserati"
+    ],
+    "tts": [
+      "bendera: Montserati"
+    ]
+  },
+  "🌠": {
+    "default": [
+      "anga",
+      "kimwondo",
+      "kuanguka",
+      "nyota"
+    ],
+    "tts": []
+  },
+  "🛬": {
+    "default": [
+      "gari",
+      "inawasili",
+      "kutua",
+      "kuwasili",
+      "ndege",
+      "ndege inayowasili"
+    ],
+    "tts": []
+  },
+  "💿": {
+    "default": [
+      "blu-ray",
+      "cd",
+      "diski",
+      "diski ya kutumia mwangaza",
+      "dvd",
+      "kompyuta",
+      "mwangaza"
+    ],
+    "tts": [
+      "diski ya kutumia mwangaza"
+    ]
+  },
+  "🏋🏻‍♀": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamke anayebeba vyuma vizito",
+      "ngozi nyeupe",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "🌄": {
+    "default": [
+      "asubuhi",
+      "hali ya hewa",
+      "jua",
+      "macheo",
+      "macheo kwenye milima",
+      "mlima"
+    ],
+    "tts": []
+  },
+  "🇧🇧": {
+    "default": [
+      "bendera",
+      "bendera: Babados"
+    ],
+    "tts": [
+      "bendera: Babados"
+    ]
+  },
+  "🇪🇦": {
+    "default": [
+      "bendera",
+      "bendera: Keuta na Melilla"
+    ],
+    "tts": [
+      "bendera: Keuta na Melilla"
+    ]
+  },
+  "🤦🏼‍♀": {
+    "default": [
+      "ishara",
+      "kutoamini",
+      "mwanamke anayeashiria kutoamini",
+      "mwanamke anayeashiria kutoamini: ngozi nyeupe kiasi",
+      "mwanamke anayueashiria kutoamini",
+      "ngozi nyeupe kiasi"
+    ],
+    "tts": [
+      "mwanamke anayeashiria kutoamini: ngozi nyeupe kiasi"
+    ]
+  },
+  "🇾🇹": {
+    "default": [
+      "bendera",
+      "bendera: Mayote"
+    ],
+    "tts": [
+      "bendera: Mayote"
+    ]
+  },
+  "😎": {
+    "default": [
+      "hali ya hewa",
+      "inayong’aa",
+      "jua",
+      "miwani ya jua",
+      "tabasamu",
+      "uso unaotabasamu uliovaa miwani",
+      "vali la macho"
+    ],
+    "tts": []
+  },
+  "🇨🇨": {
+    "default": [
+      "bendera",
+      "bendera: Visiwa vya Kokos (Keeling)"
+    ],
+    "tts": [
+      "bendera: Visiwa vya Kokos (Keeling)"
+    ]
+  },
+  "🌌": {
+    "default": [
+      "anga",
+      "hali ya jewa",
+      "kilimia"
+    ],
+    "tts": []
+  },
+  "🤹🏽": {
+    "default": [
+      "mtu anayecheza mipira mingi",
+      "mtu anayecheza mipira mingi: ngozi ya kahawia",
+      "ngozi ya kahawia",
+      "shughuli nyingi"
+    ],
+    "tts": [
+      "mtu anayecheza mipira mingi: ngozi ya kahawia"
+    ]
+  },
+  "🇧🇯": {
+    "default": [
+      "bendera",
+      "bendera: Benini"
+    ],
+    "tts": [
+      "bendera: Benini"
+    ]
+  },
+  "🏋🏽‍♀": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamke anayebeba vyuma vizito",
+      "ngozi ya kahawia",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "👩‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi wa kike na kofia ya kufuzu"
+    ],
+    "tts": []
+  },
+  "🇵🇾": {
+    "default": [
+      "bendera",
+      "bendera: Paragwai"
+    ],
+    "tts": [
+      "bendera: Paragwai"
     ]
   },
   "👊": {
@@ -677,6 +858,194 @@
       "ngumi iliyonyooshewa"
     ]
   },
+  "👊🏾": {
+    "default": [
+      "konde",
+      "kunja ngumi",
+      "mkono",
+      "mwili",
+      "ngozi nyeusi kiasi",
+      "ngumi",
+      "ngumi iliyonyooshewa",
+      "ngumi iliyonyooshewa: ngozi nyeusi kiasi"
+    ],
+    "tts": [
+      "ngumi iliyonyooshewa: ngozi nyeusi kiasi"
+    ]
+  },
+  "🇵🇲": {
+    "default": [
+      "bendera",
+      "bendera: St. Pierre na Miquelon"
+    ],
+    "tts": [
+      "bendera: St. Pierre na Miquelon"
+    ]
+  },
+  "🇪🇨": {
+    "default": [
+      "bendera",
+      "bendera: Ekwado"
+    ],
+    "tts": [
+      "bendera: Ekwado"
+    ]
+  },
+  "🦙": {
+    "default": [
+      "alpaca",
+      "guanaco",
+      "lama",
+      "sufu",
+      "vicuña"
+    ],
+    "tts": [
+      "lama"
+    ]
+  },
+  "🏋🏼‍♀": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamke anayebeba vyuma vizito",
+      "ngozi nyeupe kiasi",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "🤹🏼": {
+    "default": [
+      "mtu anayecheza mipira mingi",
+      "mtu anayecheza mipira mingi: ngozi nyeupe kiasi",
+      "ngozi nyeupe kiasi",
+      "shughuli nyingi"
+    ],
+    "tts": [
+      "mtu anayecheza mipira mingi: ngozi nyeupe kiasi"
+    ]
+  },
+  "🇱🇺": {
+    "default": [
+      "bendera",
+      "bendera: Lasembagi"
+    ],
+    "tts": [
+      "bendera: Lasembagi"
+    ]
+  },
+  "🌒": {
+    "default": [
+      "anga",
+      "hali ya hewa",
+      "kuanza",
+      "mwezi",
+      "mwezi mwandamo"
+    ],
+    "tts": []
+  },
+  "🇹🇼": {
+    "default": [
+      "bendera",
+      "bendera: Taiwani"
+    ],
+    "tts": [
+      "bendera: Taiwani"
+    ]
+  },
+  "🇱🇦": {
+    "default": [
+      "bendera",
+      "bendera: Laosi"
+    ],
+    "tts": [
+      "bendera: Laosi"
+    ]
+  },
+  "🇸🇹": {
+    "default": [
+      "bendera",
+      "bendera: Sao Tome na Prinsipe"
+    ],
+    "tts": [
+      "bendera: Sao Tome na Prinsipe"
+    ]
+  },
+  "👮🏽": {
+    "default": [
+      "afisa",
+      "afisa wa polisi",
+      "afisa wa polisi: ngozi ya kahawia",
+      "ngozi ya kahawia",
+      "polisi"
+    ],
+    "tts": [
+      "afisa wa polisi: ngozi ya kahawia"
+    ]
+  },
+  "🤰🏽": {
+    "default": [
+      "mjamzito",
+      "mwanamke",
+      "ngozi ya kahawia"
+    ],
+    "tts": []
+  },
+  "🇸🇻": {
+    "default": [
+      "bendera",
+      "bendera: Elsalvado"
+    ],
+    "tts": [
+      "bendera: Elsalvado"
+    ]
+  },
+  "☣": {
+    "default": [
+      "tahadhari ya kibilojia",
+      "tahadhari ya kibiolojia"
+    ],
+    "tts": [
+      "tahadhari ya kibilojia"
+    ]
+  },
+  "🏋🏾‍♂": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamume anayebeba vyuma vizito",
+      "ngozi nyeusi kiasi",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "🤰🏼": {
+    "default": [
+      "mjamzito",
+      "mwanamke",
+      "ngozi nyeupe kiasi"
+    ],
+    "tts": []
+  },
+  "🤹🏿": {
+    "default": [
+      "mtu anayecheza mipira mingi",
+      "mtu anayecheza mipira mingi: ngozi nyeusi",
+      "ngozi nyeusi",
+      "shughuli nyingi"
+    ],
+    "tts": [
+      "mtu anayecheza mipira mingi: ngozi nyeusi"
+    ]
+  },
+  "🇳🇴": {
+    "default": [
+      "bendera",
+      "bendera: Norwe"
+    ],
+    "tts": [
+      "bendera: Norwe"
+    ]
+  },
   "💽": {
     "default": [
       "diski",
@@ -685,6 +1054,47 @@
       "mwangaza"
     ],
     "tts": []
+  },
+  "🤰🏻": {
+    "default": [
+      "mjamzito",
+      "mwanamke",
+      "ngozi nyeupe"
+    ],
+    "tts": []
+  },
+  "🌘": {
+    "default": [
+      "anga",
+      "hali ya hewa",
+      "kuisha",
+      "mwezi",
+      "mwezi kongo",
+      "mwezi mwandamo"
+    ],
+    "tts": []
+  },
+  "🗣": {
+    "default": [
+      "kichwa",
+      "kichwa kinachozungumza",
+      "kivuli",
+      "kuzungumza",
+      "uso",
+      "zungumza"
+    ],
+    "tts": [
+      "kichwa kinachozungumza"
+    ]
+  },
+  "🇹🇲": {
+    "default": [
+      "bendera",
+      "bendera: Turukimenstani"
+    ],
+    "tts": [
+      "bendera: Turukimenstani"
+    ]
   },
   "🇶🇦": {
     "default": [
@@ -695,25 +1105,47 @@
       "bendera: Katari"
     ]
   },
-  "🔅": {
+  "🤹": {
     "default": [
-      "chini",
-      "fifia",
-      "kitufe cha kufifisha mwanga",
-      "kitufe cha kufifiza mwanga",
-      "kung’aa"
+      "mtu anayecheza mipira mingi",
+      "shughuli nyingi"
     ],
     "tts": [
-      "kitufe cha kufifisha mwanga"
+      "mtu anayecheza mipira mingi"
     ]
   },
-  "🇨🇨": {
+  "🍅": {
+    "default": [
+      "mboga",
+      "mmea",
+      "nyanya"
+    ],
+    "tts": []
+  },
+  "🔥": {
+    "default": [
+      "moto",
+      "mwale",
+      "zana"
+    ],
+    "tts": []
+  },
+  "🇭🇷": {
     "default": [
       "bendera",
-      "bendera: Visiwa vya Kokos (Keeling)"
+      "bendera: Kroashia"
     ],
     "tts": [
-      "bendera: Visiwa vya Kokos (Keeling)"
+      "bendera: Kroashia"
+    ]
+  },
+  "🇦🇬": {
+    "default": [
+      "bendera",
+      "bendera: Antigua na Babuda"
+    ],
+    "tts": [
+      "bendera: Antigua na Babuda"
     ]
   },
   "🇨🇼": {
@@ -734,128 +1166,37 @@
     ],
     "tts": []
   },
-  "🇱🇧": {
-    "default": [
-      "bendera",
-      "bendera: Lebanoni"
-    ],
-    "tts": [
-      "bendera: Lebanoni"
-    ]
-  },
-  "🇦🇫": {
-    "default": [
-      "bendera",
-      "bendera: Afghanistani"
-    ],
-    "tts": [
-      "bendera: Afghanistani"
-    ]
-  },
-  "🗣": {
-    "default": [
-      "kichwa",
-      "kichwa kinachozungumza",
-      "kivuli",
-      "kuzungumza",
-      "uso",
-      "zungumza"
-    ],
-    "tts": [
-      "kichwa kinachozungumza"
-    ]
-  },
-  "🇹🇩": {
-    "default": [
-      "bendera",
-      "bendera: Chadi"
-    ],
-    "tts": [
-      "bendera: Chadi"
-    ]
-  },
-  "👩‍🎓": {
+  "👨🏾‍🎓": {
     "default": [
       "fuzu",
       "hitimu",
       "kofia",
       "mahafali",
-      "mwanafunzi wa kike na kofia ya kufuzu"
+      "mwanafunzi na kofia ya kufuzu",
+      "ngozi nyeusi kiasi"
     ],
     "tts": []
   },
-  "🇱🇮": {
+  "🤰🏾": {
     "default": [
-      "bendera",
-      "bendera: Lishenteni"
-    ],
-    "tts": [
-      "bendera: Lishenteni"
-    ]
-  },
-  "🌒": {
-    "default": [
-      "anga",
-      "hali ya hewa",
-      "kuanza",
-      "mwezi",
-      "mwezi mwandamo"
+      "mjamzito",
+      "mwanamke",
+      "ngozi nyeusi kiasi"
     ],
     "tts": []
   },
-  "🇬🇺": {
+  "💗": {
     "default": [
-      "bendera",
-      "bendera: Guami"
+      "furahia",
+      "kukua",
+      "moyo",
+      "moyo uanokua",
+      "moyo unaokua",
+      "mpaigo ya moyo",
+      "wasiwasi"
     ],
     "tts": [
-      "bendera: Guami"
-    ]
-  },
-  "🇬🇸": {
-    "default": [
-      "bendera",
-      "bendera: Visiwa vya Jojia Kusini na Sandwich Kusini"
-    ],
-    "tts": [
-      "bendera: Visiwa vya Jojia Kusini na Sandwich Kusini"
-    ]
-  },
-  "🇲🇰": {
-    "default": [
-      "bendera",
-      "bendera: Masedonia"
-    ],
-    "tts": [
-      "bendera: Masedonia"
-    ]
-  },
-  "🇨🇩": {
-    "default": [
-      "bendera",
-      "bendera: Kongo - Kinshasa"
-    ],
-    "tts": [
-      "bendera: Kongo - Kinshasa"
-    ]
-  },
-  "👮": {
-    "default": [
-      "afisa",
-      "afisa wa polisi",
-      "polisi"
-    ],
-    "tts": [
-      "afisa wa polisi"
-    ]
-  },
-  "🤹": {
-    "default": [
-      "mtu anayecheza mipira mingi",
-      "shughuli nyingi"
-    ],
-    "tts": [
-      "mtu anayecheza mipira mingi"
+      "moyo unaokua"
     ]
   },
   "🤰": {
@@ -865,87 +1206,13 @@
     ],
     "tts": []
   },
-  "🛬": {
-    "default": [
-      "gari",
-      "inawasili",
-      "kutua",
-      "kuwasili",
-      "ndege",
-      "ndege inayowasili"
-    ],
-    "tts": []
-  },
-  "🇵🇬": {
+  "🇯🇴": {
     "default": [
       "bendera",
-      "bendera: Papua Guinea Mpya"
+      "bendera: Yordani"
     ],
     "tts": [
-      "bendera: Papua Guinea Mpya"
-    ]
-  },
-  "🇧🇸": {
-    "default": [
-      "bendera",
-      "bendera: Bahamas"
-    ],
-    "tts": [
-      "bendera: Bahamas"
-    ]
-  },
-  "🇦🇶": {
-    "default": [
-      "bendera",
-      "bendera: Antaktika"
-    ],
-    "tts": [
-      "bendera: Antaktika"
-    ]
-  },
-  "🇬🇦": {
-    "default": [
-      "bendera",
-      "bendera: Gaboni"
-    ],
-    "tts": [
-      "bendera: Gaboni"
-    ]
-  },
-  "🇬🇹": {
-    "default": [
-      "bendera",
-      "bendera: Gwatemala"
-    ],
-    "tts": [
-      "bendera: Gwatemala"
-    ]
-  },
-  "🇵🇾": {
-    "default": [
-      "bendera",
-      "bendera: Paragwai"
-    ],
-    "tts": [
-      "bendera: Paragwai"
-    ]
-  },
-  "🔥": {
-    "default": [
-      "moto",
-      "mwale",
-      "zana"
-    ],
-    "tts": []
-  },
-  "🪄": {
-    "default": [
-      "kifimbo cha miujiza",
-      "mchawi",
-      "muujiza"
-    ],
-    "tts": [
-      "kifimbo cha miujiza"
+      "bendera: Yordani"
     ]
   },
   "🇲🇲": {
@@ -957,48 +1224,144 @@
       "bendera: Myama (Burma)"
     ]
   },
-  "🍆": {
+  "🤦🏾‍♀": {
     "default": [
-      "biringanya",
-      "mboga",
-      "mmea"
+      "ishara",
+      "kutoamini",
+      "mwanamke anayeashiria kutoamini",
+      "mwanamke anayeashiria kutoamini: ngozi nyeusi kiasi",
+      "mwanamke anayueashiria kutoamini",
+      "ngozi nyeusi kiasi"
+    ],
+    "tts": [
+      "mwanamke anayeashiria kutoamini: ngozi nyeusi kiasi"
+    ]
+  },
+  "🏋🏿‍♀": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamke anayebeba vyuma vizito",
+      "ngozi nyeusi",
+      "uzani",
+      "uzito"
     ],
     "tts": []
   },
-  "🇦🇬": {
+  "🇬🇦": {
     "default": [
       "bendera",
-      "bendera: Antigua na Babuda"
+      "bendera: Gaboni"
     ],
     "tts": [
-      "bendera: Antigua na Babuda"
+      "bendera: Gaboni"
     ]
   },
-  "🇵🇱": {
+  "🇵🇫": {
     "default": [
       "bendera",
-      "bendera: Polandi"
+      "bendera: Polinesia ya Ufaransa"
     ],
     "tts": [
-      "bendera: Polandi"
+      "bendera: Polinesia ya Ufaransa"
     ]
   },
-  "🇳🇵": {
+  "🧩": {
     "default": [
-      "bendera",
-      "bendera: Nepali"
+      "dokezo",
+      "fumbo",
+      "fungamana",
+      "kipande",
+      "kipande cha mchezo wa mafumbo",
+      "mchezofumbo"
     ],
     "tts": [
-      "bendera: Nepali"
+      "kipande cha mchezo wa mafumbo"
     ]
   },
-  "🇧🇧": {
+  "♏": {
     "default": [
-      "bendera",
-      "bendera: Babados"
+      "nge",
+      "nyota ya nge",
+      "zodiaki"
     ],
     "tts": [
-      "bendera: Babados"
+      "nyota ya nge"
+    ]
+  },
+  "👨‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi na kofia ya kufuzu"
+    ],
+    "tts": []
+  },
+  "🤦🏽‍♀": {
+    "default": [
+      "ishara",
+      "kutoamini",
+      "mwanamke anayeashiria kutoamini",
+      "mwanamke anayeashiria kutoamini: ngozi ya kahawia",
+      "mwanamke anayueashiria kutoamini",
+      "ngozi ya kahawia"
+    ],
+    "tts": [
+      "mwanamke anayeashiria kutoamini: ngozi ya kahawia"
+    ]
+  },
+  "🇦🇿": {
+    "default": [
+      "bendera",
+      "bendera: Azabajani"
+    ],
+    "tts": [
+      "bendera: Azabajani"
+    ]
+  },
+  "💱": {
+    "default": [
+      "benki",
+      "pesa",
+      "sarafu",
+      "sarafu mbalimbali",
+      "ubadilishaji wa pesa",
+      "ubadilishanaji wa sarafu"
+    ],
+    "tts": [
+      "ubadilishanaji wa sarafu"
+    ]
+  },
+  "🍻": {
+    "default": [
+      "baa",
+      "bia",
+      "gonganisha",
+      "kikombe",
+      "kinywaji",
+      "vikombe vya bia vinavyogonganishwa"
+    ],
+    "tts": [
+      "vikombe vya bia vinavyogonganishwa"
+    ]
+  },
+  "🏴󠁧󠁢󠁷󠁬󠁳󠁿": {
+    "default": [
+      "bendera",
+      "bendera: Wales"
+    ],
+    "tts": [
+      "bendera: Wales"
+    ]
+  },
+  "🇬🇺": {
+    "default": [
+      "bendera",
+      "bendera: Guami"
+    ],
+    "tts": [
+      "bendera: Guami"
     ]
   },
   "♨": {
@@ -1011,40 +1374,182 @@
     ],
     "tts": []
   },
-  "🇦🇿": {
+  "🇱🇮": {
     "default": [
       "bendera",
-      "bendera: Azabajani"
+      "bendera: Lishenteni"
     ],
     "tts": [
-      "bendera: Azabajani"
+      "bendera: Lishenteni"
     ]
   },
-  "🇱🇺": {
+  "👩🏻‍🎓": {
     "default": [
-      "bendera",
-      "bendera: Lasembagi"
-    ],
-    "tts": [
-      "bendera: Lasembagi"
-    ]
-  },
-  "🌠": {
-    "default": [
-      "anga",
-      "kimwondo",
-      "kuanguka",
-      "nyota"
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi wa kike na kofia ya kufuzu",
+      "ngozi nyeupe"
     ],
     "tts": []
   },
-  "🇺🇾": {
+  "🇵🇸": {
     "default": [
       "bendera",
-      "bendera: Urugwai"
+      "bendera: Himaya za Palestina"
     ],
     "tts": [
-      "bendera: Urugwai"
+      "bendera: Himaya za Palestina"
     ]
+  },
+  "🤦🏿‍♀": {
+    "default": [
+      "ishara",
+      "kutoamini",
+      "mwanamke anayeashiria kutoamini",
+      "mwanamke anayeashiria kutoamini: ngozi nyeusi",
+      "mwanamke anayueashiria kutoamini",
+      "ngozi nyeusi"
+    ],
+    "tts": [
+      "mwanamke anayeashiria kutoamini: ngozi nyeusi"
+    ]
+  },
+  "👩🏼‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi wa kike na kofia ya kufuzu",
+      "ngozi nyeupe kiasi"
+    ],
+    "tts": []
+  },
+  "🇴🇲": {
+    "default": [
+      "bendera",
+      "bendera: Omani"
+    ],
+    "tts": [
+      "bendera: Omani"
+    ]
+  },
+  "🔈": {
+    "default": [
+      "sauti",
+      "sauti ya chini ya spika",
+      "spika"
+    ],
+    "tts": [
+      "sauti ya chini ya spika"
+    ]
+  },
+  "🇵🇬": {
+    "default": [
+      "bendera",
+      "bendera: Papua Guinea Mpya"
+    ],
+    "tts": [
+      "bendera: Papua Guinea Mpya"
+    ]
+  },
+  "🏋🏻‍♂": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamume anayebeba vyuma vizito",
+      "ngozi nyeupe",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "🇨🇩": {
+    "default": [
+      "bendera",
+      "bendera: Kongo - Kinshasa"
+    ],
+    "tts": [
+      "bendera: Kongo - Kinshasa"
+    ]
+  },
+  "🏋‍♂": {
+    "default": [
+      "mbeba vyuma",
+      "mwanamume anayebeba vyuma vizito",
+      "uzani",
+      "uzito"
+    ],
+    "tts": []
+  },
+  "🇦🇫": {
+    "default": [
+      "bendera",
+      "bendera: Afghanistani"
+    ],
+    "tts": [
+      "bendera: Afghanistani"
+    ]
+  },
+  "⛴": {
+    "default": [
+      "boti",
+      "feri",
+      "kivuko"
+    ],
+    "tts": [
+      "feri"
+    ]
+  },
+  "🇱🇸": {
+    "default": [
+      "bendera",
+      "bendera: Lesotho"
+    ],
+    "tts": [
+      "bendera: Lesotho"
+    ]
+  },
+  "🇳🇵": {
+    "default": [
+      "bendera",
+      "bendera: Nepali"
+    ],
+    "tts": [
+      "bendera: Nepali"
+    ]
+  },
+  "🇹🇭": {
+    "default": [
+      "bendera",
+      "bendera: Thailandi"
+    ],
+    "tts": [
+      "bendera: Thailandi"
+    ]
+  },
+  "👮🏿": {
+    "default": [
+      "afisa",
+      "afisa wa polisi",
+      "afisa wa polisi: ngozi nyeusi",
+      "ngozi nyeusi",
+      "polisi"
+    ],
+    "tts": [
+      "afisa wa polisi: ngozi nyeusi"
+    ]
+  },
+  "👩🏽‍🎓": {
+    "default": [
+      "fuzu",
+      "hitimu",
+      "kofia",
+      "mahafali",
+      "mwanafunzi wa kike na kofia ya kufuzu",
+      "ngozi ya kahawia"
+    ],
+    "tts": []
   }
 }

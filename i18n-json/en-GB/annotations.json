@@ -1,17 +1,5 @@
 {
-  "🤶": {
-    "default": [
-      "celebration",
-      "Christmas",
-      "claus",
-      "mother",
-      "Mrs"
-    ],
-    "tts": [
-      "Mrs Claus"
-    ]
-  },
-  "🧑‍🦼‍➡": {
+  "🧑🏻‍🦼‍➡": {
     "default": [
       "accessibility",
       "person in motorised wheelchair",
@@ -20,29 +8,30 @@
     ],
     "tts": []
   },
-  "👩‍🌾": {
+  "👩🏼‍🚒": {
     "default": [
-      "farmer",
-      "gardener",
+      "fire truck",
+      "firefighter",
+      "medium-light skin tone",
       "woman"
     ],
     "tts": []
   },
-  "🛷": {
-    "default": [],
-    "tts": [
-      "sledge"
-    ]
-  },
-  "😷": {
+  "👩🏾‍🚒": {
     "default": [
-      "cold",
-      "doctor",
-      "face with medical mask",
-      "ill",
-      "medicine",
-      "poorly",
-      "sick"
+      "fire truck",
+      "firefighter",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🌾": {
+    "default": [
+      "farmer",
+      "farmer: light skin tone",
+      "gardener",
+      "light skin tone"
     ],
     "tts": []
   },
@@ -58,16 +47,225 @@
       "root ginger"
     ]
   },
-  "🤴": {
+  "👨🏽‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🤶": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "claus",
+      "mother",
+      "Mrs"
+    ],
+    "tts": [
+      "Mrs Claus"
+    ]
+  },
+  "🤶🏾": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "claus",
+      "medium-dark skin tone",
+      "mother",
+      "Mrs",
+      "Mrs Claus: medium-dark skin tone"
+    ],
+    "tts": [
+      "Mrs Claus: medium-dark skin tone"
+    ]
+  },
+  "👨🏾‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "man",
+      "man farmer: medium-dark skin tone",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦼": {
+    "default": [
+      "accessibility",
+      "medium skin tone",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦼": {
+    "default": [
+      "accessibility",
+      "medium-light skin tone",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "light skin tone",
+      "man",
+      "man farmer: light skin tone"
+    ],
+    "tts": []
+  },
+  "🤶🏿": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "claus",
+      "dark skin tone",
+      "mother",
+      "Mrs",
+      "Mrs Claus: dark skin tone"
+    ],
+    "tts": [
+      "Mrs Claus: dark skin tone"
+    ]
+  },
+  "🤴🏼": {
     "default": [
       "fairy tale",
       "fantasy",
+      "medium-light skin tone",
       "prince"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "light skin tone",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🧑‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "medium-dark skin tone",
+      "woman",
+      "woman farmer: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🤶🏻": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "claus",
+      "light skin tone",
+      "mother",
+      "Mrs",
+      "Mrs Claus: light skin tone"
+    ],
+    "tts": [
+      "Mrs Claus: light skin tone"
+    ]
+  },
+  "🧑🏿‍🌾": {
+    "default": [
+      "dark skin tone",
+      "farmer",
+      "farmer: dark skin tone",
+      "gardener"
+    ],
+    "tts": []
+  },
+  "🤶🏽": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "claus",
+      "medium skin tone",
+      "mother",
+      "Mrs",
+      "Mrs Claus: medium skin tone"
+    ],
+    "tts": [
+      "Mrs Claus: medium skin tone"
+    ]
+  },
+  "👩🏽‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "medium skin tone",
+      "woman",
+      "woman farmer: medium skin tone"
     ],
     "tts": []
   },
   "👨‍🚒": {
     "default": [
+      "fire truck",
+      "firefighter",
+      "man"
+    ],
+    "tts": []
+  },
+  "👩‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "woman"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "light skin tone",
+      "man"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🚒": {
+    "default": [
+      "dark skin tone",
       "fire truck",
       "firefighter",
       "man"
@@ -86,10 +284,263 @@
     ],
     "tts": []
   },
+  "👩🏼‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "medium-light skin tone",
+      "woman",
+      "woman farmer: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🦼": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🦼": {
+    "default": [
+      "accessibility",
+      "medium-dark skin tone",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🌾": {
+    "default": [
+      "farmer",
+      "farmer: medium-dark skin tone",
+      "gardener",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🌾": {
+    "default": [
+      "dark skin tone",
+      "farmer",
+      "gardener",
+      "man",
+      "man farmer: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🤴🏽": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "medium skin tone",
+      "prince"
+    ],
+    "tts": []
+  },
+  "🤴🏾": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "medium-dark skin tone",
+      "prince"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🛷": {
+    "default": [],
+    "tts": [
+      "sledge"
+    ]
+  },
+  "🤶🏼": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "claus",
+      "medium-light skin tone",
+      "mother",
+      "Mrs",
+      "Mrs Claus: medium-light skin tone"
+    ],
+    "tts": [
+      "Mrs Claus: medium-light skin tone"
+    ]
+  },
+  "👩‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "woman"
+    ],
+    "tts": []
+  },
   "🧑‍🌾": {
     "default": [
       "farmer",
       "gardener"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "🤴🏿": {
+    "default": [
+      "dark skin tone",
+      "fairy tale",
+      "fantasy",
+      "prince"
+    ],
+    "tts": []
+  },
+  "🤴🏻": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "light skin tone",
+      "prince"
+    ],
+    "tts": []
+  },
+  "🤴": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "prince"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦼": {
+    "default": [
+      "accessibility",
+      "light skin tone",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "😷": {
+    "default": [
+      "cold",
+      "doctor",
+      "face with medical mask",
+      "ill",
+      "medicine",
+      "poorly",
+      "sick"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "fire truck",
+      "firefighter",
+      "woman"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "man",
+      "man farmer: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "person in motorised wheelchair",
+      "person in powered wheelchair",
+      "wheelchair"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🌾": {
+    "default": [
+      "farmer",
+      "farmer: medium skin tone",
+      "gardener",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "👨‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "man"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🌾": {
+    "default": [
+      "farmer",
+      "gardener",
+      "man",
+      "man farmer: medium-light skin tone",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "medium skin tone",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🌾": {
+    "default": [
+      "farmer",
+      "farmer: medium-light skin tone",
+      "gardener",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🌾": {
+    "default": [
+      "dark skin tone",
+      "farmer",
+      "gardener",
+      "woman",
+      "woman farmer: dark skin tone"
     ],
     "tts": []
   },
@@ -102,19 +553,13 @@
     ],
     "tts": []
   },
-  "👨‍🌾": {
+  "👩🏻‍🌾": {
     "default": [
       "farmer",
       "gardener",
-      "man"
-    ],
-    "tts": []
-  },
-  "👩‍🚒": {
-    "default": [
-      "fire truck",
-      "firefighter",
-      "woman"
+      "light skin tone",
+      "woman",
+      "woman farmer: light skin tone"
     ],
     "tts": []
   }

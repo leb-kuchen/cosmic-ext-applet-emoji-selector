@@ -1,1790 +1,4 @@
 {
-  "🛎": {
-    "default": [
-      "bell",
-      "hotel",
-      "porter"
-    ],
-    "tts": [
-      "porter bell"
-    ]
-  },
-  "🕵‍♂": {
-    "default": [
-      "detective",
-      "investigator",
-      "man",
-      "sleuth",
-      "spy"
-    ],
-    "tts": []
-  },
-  "♦": {
-    "default": [
-      "card",
-      "diamond suit",
-      "diamonds",
-      "game"
-    ],
-    "tts": []
-  },
-  "🚼": {
-    "default": [
-      "baby",
-      "baby symbol",
-      "change room",
-      "changing"
-    ],
-    "tts": []
-  },
-  "🚊": {
-    "default": [
-      "light rail",
-      "oncoming",
-      "oncoming light rail",
-      "tram",
-      "trolleybus"
-    ],
-    "tts": [
-      "oncoming light rail"
-    ]
-  },
-  "🥵": {
-    "default": [
-      "feverish",
-      "flushed",
-      "heat stroke",
-      "hot",
-      "hot face",
-      "red-faced",
-      "sweating"
-    ],
-    "tts": []
-  },
-  "🛠": {
-    "default": [
-      "hammer",
-      "hammer and spanner",
-      "hammer and wrench",
-      "spanner",
-      "tool",
-      "wrench"
-    ],
-    "tts": []
-  },
-  "🌶": {
-    "default": [
-      "chilli",
-      "hot pepper",
-      "pepper"
-    ],
-    "tts": []
-  },
-  "⬆": {
-    "default": [
-      "arrow",
-      "cardinal",
-      "direction",
-      "north",
-      "up"
-    ],
-    "tts": []
-  },
-  "🎪": {
-    "default": [
-      "big top",
-      "circus"
-    ],
-    "tts": [
-      "big top"
-    ]
-  },
-  "🛌": {
-    "default": [
-      "hotel",
-      "person in bed",
-      "sleep",
-      "sleeping"
-    ],
-    "tts": []
-  },
-  "🔤": {
-    "default": [
-      "input Latin letters"
-    ],
-    "tts": [
-      "input Latin letters"
-    ]
-  },
-  "🎅": {
-    "default": [
-      "celebration",
-      "Christmas",
-      "Father Christmas",
-      "Santa",
-      "Santa Claus"
-    ],
-    "tts": [
-      "Santa"
-    ]
-  },
-  "♒": {
-    "default": [
-      "Aquarius",
-      "water bearer",
-      "zodiac"
-    ],
-    "tts": []
-  },
-  "🚯": {
-    "default": [
-      "denied",
-      "forbidden",
-      "litter",
-      "no",
-      "no littering",
-      "prohibited"
-    ],
-    "tts": []
-  },
-  "🛒": {
-    "default": [],
-    "tts": [
-      "shopping trolley"
-    ]
-  },
-  "🏉": {
-    "default": [
-      "australian football",
-      "rugby ball",
-      "rugby league",
-      "rugby union"
-    ],
-    "tts": [
-      "rugby ball"
-    ]
-  },
-  "🏅": {
-    "default": [
-      "celebration",
-      "medal",
-      "sports"
-    ],
-    "tts": []
-  },
-  "💄": {
-    "default": [
-      "cosmetics",
-      "lipstick",
-      "make-up"
-    ],
-    "tts": []
-  },
-  "🥖": {
-    "default": [
-      "baguette",
-      "bread",
-      "food",
-      "french",
-      "French stick"
-    ],
-    "tts": []
-  },
-  "🚽": {
-    "default": [
-      "facilities",
-      "loo",
-      "toilet",
-      "WC"
-    ],
-    "tts": []
-  },
-  "🧖‍♂": {
-    "default": [
-      "man in steam room",
-      "man in steamy room",
-      "sauna",
-      "steam room"
-    ],
-    "tts": [
-      "man in steam room"
-    ]
-  },
-  "🦟": {
-    "default": [
-      "dengue",
-      "fever",
-      "insect",
-      "malaria",
-      "mosquito",
-      "mozzie",
-      "virus"
-    ],
-    "tts": []
-  },
-  "🎍": {
-    "default": [
-      "bamboo",
-      "celebration",
-      "decoration",
-      "Japanese"
-    ],
-    "tts": [
-      "bamboo decoration"
-    ]
-  },
-  "🍔": {
-    "default": [
-      "beefburger",
-      "burger",
-      "hamburger"
-    ],
-    "tts": []
-  },
-  "🤹": {
-    "default": [
-      "balance",
-      "juggle",
-      "multi-task",
-      "person juggling",
-      "skill"
-    ],
-    "tts": []
-  },
-  "⛱": {
-    "default": [
-      "beach",
-      "sand",
-      "sun",
-      "umbrella"
-    ],
-    "tts": [
-      "beach umbrella"
-    ]
-  },
-  "🐔": {
-    "default": [
-      "bird",
-      "chicken",
-      "poultry"
-    ],
-    "tts": []
-  },
-  "🤵‍♂": {
-    "default": [
-      "man",
-      "man in tux",
-      "man in tuxedo",
-      "tux",
-      "tuxedo"
-    ],
-    "tts": []
-  },
-  "🥯": {
-    "default": [
-      "bagel",
-      "bakery"
-    ],
-    "tts": []
-  },
-  "💻": {
-    "default": [
-      "computer",
-      "laptop",
-      "PC",
-      "personal"
-    ],
-    "tts": []
-  },
-  "👩‍🦼‍➡": {
-    "default": [
-      "accessibility",
-      "electric wheelchair",
-      "wheelchair",
-      "woman",
-      "woman in motorised wheelchair",
-      "woman in motorised wheelchair facing right"
-    ],
-    "tts": [
-      "woman in motorised wheelchair facing right"
-    ]
-  },
-  "‼": {
-    "default": [
-      "double exclamation mark",
-      "exclamation",
-      "mark",
-      "punctuation"
-    ],
-    "tts": []
-  },
-  "🍊": {
-    "default": [
-      "fruit",
-      "mandarin",
-      "orange"
-    ],
-    "tts": [
-      "mandarin"
-    ]
-  },
-  "🤫": {
-    "default": [
-      "quiet",
-      "shooshing face",
-      "shush",
-      "shushing face"
-    ],
-    "tts": [
-      "shooshing face"
-    ]
-  },
-  "👩‍🚒": {
-    "default": [
-      "fire truck",
-      "firefighter",
-      "woman"
-    ],
-    "tts": []
-  },
-  "📫": {
-    "default": [
-      "closed",
-      "closed letterbox with raised flag",
-      "mail",
-      "mailbox",
-      "postbox"
-    ],
-    "tts": [
-      "closed letterbox with raised flag"
-    ]
-  },
-  "🐌": {
-    "default": [
-      "mollusc",
-      "snail"
-    ],
-    "tts": []
-  },
-  "📌": {
-    "default": [
-      "drawing-pin",
-      "pin"
-    ],
-    "tts": [
-      "drawing-pin"
-    ]
-  },
-  "👠": {
-    "default": [
-      "heel",
-      "high-heeled shoe",
-      "shoe",
-      "stiletto",
-      "woman"
-    ],
-    "tts": []
-  },
-  "🫘": {
-    "default": [
-      "food",
-      "kidney bean",
-      "kidney beans",
-      "legume"
-    ],
-    "tts": [
-      "kidney beans"
-    ]
-  },
-  "🏌‍♀": {
-    "default": [
-      "golf",
-      "golfer",
-      "woman",
-      "woman golfing"
-    ],
-    "tts": []
-  },
-  "🏷": {
-    "default": [
-      "label",
-      "tag"
-    ],
-    "tts": []
-  },
-  "🏄‍♀": {
-    "default": [
-      "surfer",
-      "surfing",
-      "woman"
-    ],
-    "tts": []
-  },
-  "🦏": {
-    "default": [
-      "rhino",
-      "rhinoceros"
-    ],
-    "tts": []
-  },
-  "📉": {
-    "default": [
-      "chart",
-      "chart decreasing",
-      "down",
-      "graph",
-      "graph decreasing",
-      "trend"
-    ],
-    "tts": [
-      "graph decreasing"
-    ]
-  },
-  "👙": {
-    "default": [
-      "bikini",
-      "clothing",
-      "swim suit",
-      "two-piece"
-    ],
-    "tts": []
-  },
-  "🚾": {
-    "default": [
-      "amenities",
-      "bathroom",
-      "restroom",
-      "toilet",
-      "water closet",
-      "WC"
-    ],
-    "tts": [
-      "WC"
-    ]
-  },
-  "💊": {
-    "default": [
-      "capsule",
-      "doctor",
-      "medicine",
-      "pill",
-      "sick"
-    ],
-    "tts": []
-  },
-  "🫑": {
-    "default": [],
-    "tts": [
-      "capsicum"
-    ]
-  },
-  "🚥": {
-    "default": [
-      "horizontal traffic lights",
-      "lights",
-      "signal",
-      "traffic"
-    ],
-    "tts": [
-      "horizontal traffic lights"
-    ]
-  },
-  "🕶": {
-    "default": [
-      "dark",
-      "eye",
-      "eyewear",
-      "glasses",
-      "sunglasses",
-      "sunnies"
-    ],
-    "tts": []
-  },
-  "🐛": {
-    "default": [
-      "bug",
-      "caterpillar",
-      "insect",
-      "worm"
-    ],
-    "tts": [
-      "caterpillar"
-    ]
-  },
-  "🛴": {
-    "default": [],
-    "tts": [
-      "scooter"
-    ]
-  },
-  "🙌": {
-    "default": [
-      "celebration",
-      "gesture",
-      "hand",
-      "hooray",
-      "raised",
-      "raising hands"
-    ],
-    "tts": []
-  },
-  "🐀": {
-    "default": [
-      "pet",
-      "rat",
-      "rodent"
-    ],
-    "tts": []
-  },
-  "🦀": {
-    "default": [
-      "crab",
-      "crustacean",
-      "seafood",
-      "shellfish"
-    ],
-    "tts": []
-  },
-  "🤹‍♀": {
-    "default": [
-      "juggling",
-      "multi-task",
-      "woman"
-    ],
-    "tts": []
-  },
-  "🚙": {
-    "default": [
-      "4WD",
-      "four-wheel drive"
-    ],
-    "tts": [
-      "four-wheel drive"
-    ]
-  },
-  "🦼": {
-    "default": [
-      "mobility scooter"
-    ],
-    "tts": [
-      "mobility scooter"
-    ]
-  },
-  "🏆": {
-    "default": [
-      "celebration",
-      "prize",
-      "trophy"
-    ],
-    "tts": []
-  },
-  "🩴": {
-    "default": [],
-    "tts": [
-      "thongs"
-    ]
-  },
-  "🧢": {
-    "default": [],
-    "tts": [
-      "baseball cap"
-    ]
-  },
-  "🎹": {
-    "default": [
-      "instrument",
-      "keyboard",
-      "music",
-      "musical keyboard",
-      "organ",
-      "piano"
-    ],
-    "tts": []
-  },
-  "🇲🇫": {
-    "default": [
-      "flag",
-      "flag: St. Martin"
-    ],
-    "tts": [
-      "flag: St. Martin"
-    ]
-  },
-  "🎟": {
-    "default": [
-      "admission",
-      "admission tickets",
-      "entry",
-      "ticket"
-    ],
-    "tts": []
-  },
-  "🛼": {
-    "default": [
-      "roller",
-      "rollerskate",
-      "skate"
-    ],
-    "tts": [
-      "rollerskate"
-    ]
-  },
-  "🧿": {
-    "default": [
-      "amulet",
-      "charm",
-      "evil-eye",
-      "nazar",
-      "talisman"
-    ],
-    "tts": [
-      "evil-eye amulet"
-    ]
-  },
-  "🥏": {
-    "default": [
-      "flying disc",
-      "frisbee",
-      "ultimate"
-    ],
-    "tts": [
-      "frisbee"
-    ]
-  },
-  "🦅": {
-    "default": [
-      "bird of prey",
-      "eagle"
-    ],
-    "tts": []
-  },
-  "🥬": {
-    "default": [
-      "bok choy",
-      "leafy green",
-      "pak choi"
-    ],
-    "tts": []
-  },
-  "📀": {
-    "default": [
-      "blu-ray",
-      "computer",
-      "disk",
-      "DVD",
-      "optical"
-    ],
-    "tts": [
-      "DVD"
-    ]
-  },
-  "🥌": {
-    "default": [
-      "curling",
-      "game",
-      "rock",
-      "stone"
-    ],
-    "tts": []
-  },
-  "🧆": {
-    "default": [
-      "chickpea",
-      "falafel"
-    ],
-    "tts": []
-  },
-  "🦯": {
-    "default": [
-      "accessibility",
-      "blind",
-      "long mobility cane",
-      "white cane"
-    ],
-    "tts": [
-      "long mobility cane"
-    ]
-  },
-  "🚡": {
-    "default": [],
-    "tts": [
-      "cable car"
-    ]
-  },
-  "👚": {
-    "default": [
-      "blouse",
-      "clothing",
-      "top",
-      "woman",
-      "woman’s clothes"
-    ],
-    "tts": [
-      "blouse"
-    ]
-  },
-  "🐨": {
-    "default": [
-      "koala",
-      "marsupial"
-    ],
-    "tts": []
-  },
-  "♍": {
-    "default": [
-      "virgin",
-      "Virgo",
-      "zodiac"
-    ],
-    "tts": []
-  },
-  "⏩": {
-    "default": [
-      "fast forward button"
-    ],
-    "tts": [
-      "fast forward button"
-    ]
-  },
-  "🦞": {
-    "default": [
-      "bisque",
-      "claws",
-      "lobster",
-      "seafood",
-      "shellfish"
-    ],
-    "tts": []
-  },
-  "🖖": {
-    "default": [
-      "finger",
-      "hand",
-      "spock",
-      "vulcan",
-      "Vulcan salute"
-    ],
-    "tts": [
-      "Vulcan salute"
-    ]
-  },
-  "🩹": {
-    "default": [
-      "adhesive bandage",
-      "bandage",
-      "bandaid",
-      "dressing"
-    ],
-    "tts": [
-      "bandaid"
-    ]
-  },
-  "🌽": {
-    "default": [
-      "corn",
-      "corn on the cob",
-      "sweetcorn"
-    ],
-    "tts": [
-      "sweetcorn"
-    ]
-  },
-  "🔡": {
-    "default": [
-      "input Latin lowercase"
-    ],
-    "tts": [
-      "input Latin lowercase"
-    ]
-  },
-  "👨‍🎨": {
-    "default": [
-      "artist",
-      "man",
-      "painter",
-      "palette"
-    ],
-    "tts": []
-  },
-  "⛩": {
-    "default": [
-      "religion",
-      "Shinto",
-      "shrine"
-    ],
-    "tts": [
-      "Shinto shrine"
-    ]
-  },
-  "⏲": {
-    "default": [],
-    "tts": [
-      "timer"
-    ]
-  },
-  "🐠": {
-    "default": [
-      "fish",
-      "reef fish",
-      "tropical"
-    ],
-    "tts": [
-      "reef fish"
-    ]
-  },
-  "📥": {
-    "default": [
-      "box",
-      "in tray",
-      "inbox",
-      "letter",
-      "mail",
-      "receive",
-      "tray"
-    ],
-    "tts": [
-      "in tray"
-    ]
-  },
-  "🧑‍🦼": {
-    "default": [
-      "accessibility",
-      "electric wheelchair",
-      "person in motorised wheelchair",
-      "wheelchair"
-    ],
-    "tts": [
-      "person in motorised wheelchair"
-    ]
-  },
-  "⛳": {
-    "default": [
-      "flag",
-      "flag in hole",
-      "golf",
-      "hole"
-    ],
-    "tts": []
-  },
-  "🕷": {
-    "default": [
-      "arachnid",
-      "spider"
-    ],
-    "tts": []
-  },
-  "🕵‍♀": {
-    "default": [
-      "detective",
-      "investigator",
-      "sleuth",
-      "spy",
-      "woman"
-    ],
-    "tts": []
-  },
-  "📈": {
-    "default": [
-      "chart",
-      "chart increasing",
-      "graph",
-      "graph increasing",
-      "growth",
-      "trend",
-      "upward"
-    ],
-    "tts": [
-      "graph increasing"
-    ]
-  },
-  "👰‍♀": {
-    "default": [
-      "bride",
-      "veil",
-      "woman",
-      "woman with veil"
-    ],
-    "tts": []
-  },
-  "📼": {
-    "default": [
-      "tape",
-      "VHS",
-      "video",
-      "videocassette"
-    ],
-    "tts": []
-  },
-  "🍧": {
-    "default": [
-      "dessert",
-      "granita",
-      "ice",
-      "sweet"
-    ],
-    "tts": [
-      "granita"
-    ]
-  },
-  "👩‍🦼": {
-    "default": [
-      "accessibility",
-      "electric wheelchair",
-      "wheelchair",
-      "woman",
-      "woman in motorised wheelchair"
-    ],
-    "tts": [
-      "woman in motorised wheelchair"
-    ]
-  },
-  "🧃": {
-    "default": [
-      "drink carton",
-      "juice box",
-      "popper"
-    ],
-    "tts": [
-      "drink carton"
-    ]
-  },
-  "🕵": {
-    "default": [
-      "detective",
-      "investigator",
-      "sleuth",
-      "spy"
-    ],
-    "tts": []
-  },
-  "🎿": {
-    "default": [
-      "ski",
-      "skiing",
-      "skis",
-      "snow"
-    ],
-    "tts": []
-  },
-  "🗻": {
-    "default": [
-      "Fuji",
-      "mount Fuji",
-      "mountain"
-    ],
-    "tts": [
-      "mount Fuji"
-    ]
-  },
-  "🤶": {
-    "default": [
-      "celebration",
-      "Christmas",
-      "Mrs Claus",
-      "Mrs Santa Claus",
-      "Mrs. Claus"
-    ],
-    "tts": []
-  },
-  "👛": {
-    "default": [
-      "accessories",
-      "coin",
-      "purse"
-    ],
-    "tts": []
-  },
-  "🤭": {
-    "default": [
-      "face with hand over mouth",
-      "whoops"
-    ],
-    "tts": []
-  },
-  "🪞": {
-    "default": [
-      "looking glass",
-      "mirror",
-      "reflection",
-      "reflector"
-    ],
-    "tts": []
-  },
-  "🚠": {
-    "default": [
-      "cable",
-      "cableway",
-      "gondola",
-      "mountain"
-    ],
-    "tts": [
-      "cableway"
-    ]
-  },
-  "🛋": {
-    "default": [
-      "couch",
-      "couch and lamp",
-      "hotel",
-      "lamp",
-      "sofa",
-      "sofa and lamp"
-    ],
-    "tts": []
-  },
-  "⛽": {
-    "default": [
-      "diesel",
-      "fuel",
-      "gas",
-      "petrol pump",
-      "pump",
-      "station"
-    ],
-    "tts": [
-      "petrol pump"
-    ]
-  },
-  "🏄‍♂": {
-    "default": [
-      "man",
-      "surfer",
-      "surfing"
-    ],
-    "tts": []
-  },
-  "➖": {
-    "default": [
-      "-",
-      "–",
-      "math",
-      "maths",
-      "minus",
-      "sign",
-      "subtraction"
-    ],
-    "tts": []
-  },
-  "🎬": {
-    "default": [
-      "clapper",
-      "clapper board",
-      "clapperboard",
-      "film",
-      "movie"
-    ],
-    "tts": []
-  },
-  "🪡": {
-    "default": [
-      "embroidery",
-      "needle",
-      "needle and thread",
-      "sewing",
-      "stitches",
-      "sutures",
-      "tailoring"
-    ],
-    "tts": [
-      "needle and thread"
-    ]
-  },
-  "🚷": {
-    "default": [
-      "denied",
-      "forbidden",
-      "no",
-      "no pedestrians",
-      "pedestrian",
-      "prohibited"
-    ],
-    "tts": []
-  },
-  "📍": {
-    "default": [
-      "pin",
-      "pushpin",
-      "round drawing-pin"
-    ],
-    "tts": [
-      "round drawing-pin"
-    ]
-  },
-  "💾": {
-    "default": [
-      "computer",
-      "disk",
-      "diskette",
-      "floppy"
-    ],
-    "tts": []
-  },
-  "🚴": {
-    "default": [
-      "bicycle",
-      "biking",
-      "cyclist",
-      "person biking",
-      "person riding a bike"
-    ],
-    "tts": [
-      "person riding a bike"
-    ]
-  },
-  "🏟": {
-    "default": [
-      "arena",
-      "stadium"
-    ],
-    "tts": []
-  },
-  "🛂": {
-    "default": [
-      "border",
-      "control",
-      "passport",
-      "security"
-    ],
-    "tts": []
-  },
-  "👧": {
-    "default": [
-      "girl",
-      "Virgo",
-      "young person",
-      "zodiac"
-    ],
-    "tts": []
-  },
-  "🚃": {
-    "default": [
-      "car",
-      "electric",
-      "railway",
-      "train",
-      "train carriage",
-      "tram",
-      "trolley bus"
-    ],
-    "tts": [
-      "train carriage"
-    ]
-  },
-  "🍟": {
-    "default": [
-      "chips",
-      "french fries",
-      "fries"
-    ],
-    "tts": []
-  },
-  "👩‍💼": {
-    "default": [
-      "business woman",
-      "manager",
-      "office worker",
-      "white collar",
-      "woman office worker"
-    ],
-    "tts": []
-  },
-  "👨‍🦼‍➡": {
-    "default": [
-      "accessibility",
-      "electric wheelchair",
-      "man",
-      "man in motorised wheelchair",
-      "man in motorised wheelchair facing right",
-      "wheelchair"
-    ],
-    "tts": [
-      "man in motorised wheelchair facing right"
-    ]
-  },
-  "🎁": {
-    "default": [],
-    "tts": [
-      "gift"
-    ]
-  },
-  "🏊": {
-    "default": [
-      "person swimming",
-      "swim",
-      "swimmer"
-    ],
-    "tts": []
-  },
-  "👜": {
-    "default": [
-      "accessories",
-      "bag",
-      "handbag",
-      "tote"
-    ],
-    "tts": []
-  },
-  "⛸": {
-    "default": [
-      "ice",
-      "ice skating",
-      "skate"
-    ],
-    "tts": []
-  },
-  "⛔": {
-    "default": [
-      "denied",
-      "entry",
-      "forbidden",
-      "no",
-      "prohibited",
-      "traffic"
-    ],
-    "tts": []
-  },
-  "🦑": {
-    "default": [
-      "decapod",
-      "seafood",
-      "squid"
-    ],
-    "tts": []
-  },
-  "🔆": {
-    "default": [
-      "bright button",
-      "brightness",
-      "brightness button"
-    ],
-    "tts": []
-  },
-  "🗑": {
-    "default": [
-      "rubbish bin",
-      "trash",
-      "waste paper basket"
-    ],
-    "tts": [
-      "waste paper basket"
-    ]
-  },
-  "🐬": {
-    "default": [
-      "dolphin",
-      "porpoise"
-    ],
-    "tts": []
-  },
-  "🚋": {
-    "default": [
-      "car",
-      "tram",
-      "trolley bus"
-    ],
-    "tts": []
-  },
-  "🦌": {
-    "default": [
-      "deer",
-      "stag"
-    ],
-    "tts": []
-  },
-  "🇱🇨": {
-    "default": [
-      "flag",
-      "flag: St. Lucia"
-    ],
-    "tts": [
-      "flag: St. Lucia"
-    ]
-  },
-  "🏄": {
-    "default": [
-      "person surfing",
-      "surfer",
-      "surfing"
-    ],
-    "tts": []
-  },
-  "📻": {
-    "default": [
-      "AM",
-      "FM",
-      "radio",
-      "wireless"
-    ],
-    "tts": []
-  },
-  "♿": {
-    "default": [
-      "access",
-      "disabled access",
-      "wheelchair symbol"
-    ],
-    "tts": []
-  },
-  "🚦": {
-    "default": [
-      "lights",
-      "signal",
-      "traffic",
-      "vertical traffic lights"
-    ],
-    "tts": [
-      "vertical traffic lights"
-    ]
-  },
-  "🎣": {
-    "default": [
-      "fish",
-      "fishing",
-      "pole",
-      "rod"
-    ],
-    "tts": [
-      "fishing rod"
-    ]
-  },
-  "🏌": {
-    "default": [
-      "ball",
-      "golf",
-      "golfer",
-      "person golfing"
-    ],
-    "tts": []
-  },
-  "🦃": {
-    "default": [
-      "bird",
-      "poultry",
-      "turkey"
-    ],
-    "tts": []
-  },
-  "👨‍🦼": {
-    "default": [
-      "accessibility",
-      "electric wheelchair",
-      "man",
-      "man in motorised wheelchair",
-      "wheelchair"
-    ],
-    "tts": [
-      "man in motorised wheelchair"
-    ]
-  },
-  "🚫": {
-    "default": [
-      "denied",
-      "entry",
-      "forbidden",
-      "no",
-      "prohibited"
-    ],
-    "tts": []
-  },
-  "🩳": {
-    "default": [
-      "bathing suit",
-      "boardies",
-      "boardshorts",
-      "shorts",
-      "swim shorts",
-      "underwear"
-    ],
-    "tts": []
-  },
-  "⁉": {
-    "default": [
-      "exclamation",
-      "mark",
-      "punctuation",
-      "question"
-    ],
-    "tts": []
-  },
-  "🦐": {
-    "default": [
-      "prawn",
-      "seafood",
-      "shellfish",
-      "shrimp"
-    ],
-    "tts": [
-      "prawn"
-    ]
-  },
-  "🇻🇨": {
-    "default": [
-      "flag",
-      "flag: St. Vincent & Grenadines"
-    ],
-    "tts": [
-      "flag: St. Vincent & Grenadines"
-    ]
-  },
-  "📪": {
-    "default": [
-      "closed",
-      "closed letterbox with lowered flag",
-      "lowered",
-      "mail",
-      "mailbox",
-      "postbox"
-    ],
-    "tts": [
-      "closed letterbox with lowered flag"
-    ]
-  },
-  "♾": {
-    "default": [
-      "eternal",
-      "forever",
-      "infinity",
-      "unbound",
-      "universal"
-    ],
-    "tts": []
-  },
-  "🥁": {
-    "default": [
-      "drum",
-      "drumsticks",
-      "music",
-      "percussions"
-    ],
-    "tts": []
-  },
-  "🧑‍🔧": {
-    "default": [
-      "electrician",
-      "mechanic",
-      "plumber",
-      "tradesperson",
-      "tradie"
-    ],
-    "tts": []
-  },
-  "🧖‍♀": {
-    "default": [
-      "sauna",
-      "steam room",
-      "woman in steam room",
-      "woman in steamy room"
-    ],
-    "tts": [
-      "woman in steam room"
-    ]
-  },
-  "📭": {
-    "default": [
-      "lowered",
-      "mail",
-      "mailbox",
-      "open",
-      "open letterbox with lowered flag",
-      "postbox"
-    ],
-    "tts": [
-      "open letterbox with lowered flag"
-    ]
-  },
-  "🥟": {
-    "default": [
-      "dumpling",
-      "empanada",
-      "gyōza",
-      "pastie",
-      "samosa"
-    ],
-    "tts": []
-  },
-  "🔫": {
-    "default": [
-      "toy",
-      "water pistol"
-    ],
-    "tts": []
-  },
-  "🎉": {
-    "default": [
-      "celebration",
-      "party",
-      "popper",
-      "ta-da"
-    ],
-    "tts": []
-  },
-  "🥢": {
-    "default": [
-      "chopsticks",
-      "pair of chopsticks"
-    ],
-    "tts": []
-  },
-  "✔": {
-    "default": [
-      "check mark",
-      "heavy tick mark",
-      "mark",
-      "tick"
-    ],
-    "tts": []
-  },
-  "🥜": {
-    "default": [
-      "food",
-      "nut",
-      "nuts",
-      "peanut",
-      "peanuts"
-    ],
-    "tts": []
-  },
-  "🥅": {
-    "default": [
-      "goal",
-      "goal cage",
-      "net"
-    ],
-    "tts": [
-      "goal cage"
-    ]
-  },
-  "📬": {
-    "default": [
-      "mail",
-      "mailbox",
-      "open",
-      "open letterbox with raised flag",
-      "postbox"
-    ],
-    "tts": [
-      "open letterbox with raised flag"
-    ]
-  },
-  "💇‍♀": {
-    "default": [
-      "haircut",
-      "hairdresser",
-      "woman",
-      "woman getting haircut"
-    ],
-    "tts": []
-  },
-  "🚭": {
-    "default": [
-      "denied",
-      "forbidden",
-      "no",
-      "prohibited",
-      "smoking"
-    ],
-    "tts": []
-  },
-  "🚴‍♂": {
-    "default": [
-      "bicycle",
-      "cycling",
-      "cyclist",
-      "man",
-      "man riding a bike"
-    ],
-    "tts": [
-      "man riding a bike"
-    ]
-  },
-  "🌌": {
-    "default": [
-      "Milky Way",
-      "space"
-    ],
-    "tts": [
-      "Milky Way"
-    ]
-  },
-  "🐭": {
-    "default": [
-      "face",
-      "mouse",
-      "pet"
-    ],
-    "tts": []
-  },
-  "🚺": {
-    "default": [
-      "ladies room",
-      "lavatory",
-      "restroom",
-      "wc",
-      "woman",
-      "women’s room",
-      "women’s toilet"
-    ],
-    "tts": []
-  },
-  "👗": {
-    "default": [
-      "clothing",
-      "dress",
-      "woman’s clothes"
-    ],
-    "tts": []
-  },
-  "☑": {
-    "default": [
-      "ballot",
-      "box",
-      "check box with check",
-      "tick",
-      "tick box with tick"
-    ],
-    "tts": []
-  },
-  "🚒": {
-    "default": [],
-    "tts": [
-      "fire truck"
-    ]
-  },
-  "🎳": {
-    "default": [
-      "ball",
-      "game",
-      "tenpin bowling"
-    ],
-    "tts": [
-      "tenpin bowling"
-    ]
-  },
-  "🥡": {
-    "default": [
-      "takeaway container",
-      "takeout"
-    ],
-    "tts": [
-      "takeaway container"
-    ]
-  },
-  "🐁": {
-    "default": [
-      "mouse",
-      "pet",
-      "rodent"
-    ],
-    "tts": []
-  },
-  "🚛": {
-    "default": [
-      "articulated truck",
-      "lorry",
-      "semi",
-      "truck"
-    ],
-    "tts": [
-      "articulated truck"
-    ]
-  },
-  "🏊‍♀": {
-    "default": [
-      "swim",
-      "swimmer",
-      "woman",
-      "woman swimming"
-    ],
-    "tts": []
-  },
-  "🪴": {
-    "default": [
-      "grow",
-      "house",
-      "nurturing",
-      "plant",
-      "pot plant"
-    ],
-    "tts": [
-      "pot plant"
-    ]
-  },
-  "🚣": {
-    "default": [
-      "boat",
-      "person",
-      "person rowing boat",
-      "rowboat"
-    ],
-    "tts": []
-  },
-  "💹": {
-    "default": [
-      "chart",
-      "chart increasing with yen",
-      "graph",
-      "graph increasing with yen",
-      "growth",
-      "money",
-      "yen"
-    ],
-    "tts": [
-      "graph increasing with yen"
-    ]
-  },
-  "🗄": {
-    "default": [],
-    "tts": [
-      "filing cabinet"
-    ]
-  },
-  "🛟": {
-    "default": [
-      "buoy",
-      "float",
-      "life preserver",
-      "lifebuoy",
-      "rescue",
-      "ring buoy",
-      "safety"
-    ],
-    "tts": []
-  },
-  "🥙": {
-    "default": [
-      "falafel",
-      "flatbread",
-      "food",
-      "gyro",
-      "kebab",
-      "pita roll",
-      "stuffed"
-    ],
-    "tts": [
-      "pita roll"
-    ]
-  },
-  "🧇": {
-    "default": [
-      "waffle",
-      "waffle with butter"
-    ],
-    "tts": []
-  },
-  "👟": {
-    "default": [
-      "athletic",
-      "clothing",
-      "runners",
-      "running shoe",
-      "shoe",
-      "sneaker",
-      "trainer"
-    ],
-    "tts": [
-      "sneaker"
-    ]
-  },
   "👩‍🎨": {
     "default": [
       "artist",
@@ -1794,158 +8,39 @@
     ],
     "tts": []
   },
-  "🅿": {
+  "🏌🏻": {
     "default": [
-      "car park",
-      "carpark",
-      "P",
-      "P button",
-      "parking"
+      "ball",
+      "golf",
+      "golfer",
+      "light skin tone",
+      "person golfing",
+      "person golfing: light skin tone"
     ],
     "tts": []
   },
-  "👝": {
+  "🎅🏾": {
     "default": [
-      "accessories",
-      "bag",
-      "clutch bag",
-      "pouch"
+      "celebration",
+      "Christmas",
+      "Father Christmas",
+      "medium-dark skin tone",
+      "Santa",
+      "Santa Claus",
+      "Santa: medium-dark skin tone"
     ],
     "tts": [
-      "pouch"
+      "Santa: medium-dark skin tone"
     ]
   },
-  "🇧🇱": {
+  "🏌🏿‍♂": {
     "default": [
-      "flag",
-      "flag: St. Barthélemy"
-    ],
-    "tts": [
-      "flag: St. Barthélemy"
-    ]
-  },
-  "🇰🇳": {
-    "default": [
-      "flag",
-      "flag: St. Kitts & Nevis"
-    ],
-    "tts": [
-      "flag: St. Kitts & Nevis"
-    ]
-  },
-  "🤙": {
-    "default": [
-      "call",
-      "call me hand",
-      "call-me hand",
-      "hand",
-      "shaka"
-    ],
-    "tts": []
-  },
-  "🪤": {
-    "default": [],
-    "tts": [
-      "mouse trap"
-    ]
-  },
-  "🧬": {
-    "default": [
-      "biologist",
-      "DNA",
-      "evolution",
-      "gene",
-      "genetics",
-      "life"
-    ],
-    "tts": [
-      "DNA"
-    ]
-  },
-  "🗂": {
-    "default": [],
-    "tts": [
-      "index card dividers"
-    ]
-  },
-  "🚱": {
-    "default": [
-      "non-drinkable water",
-      "non-drinking",
-      "non-potable",
-      "water"
-    ],
-    "tts": [
-      "non-drinkable water"
-    ]
-  },
-  "🍪": {
-    "default": [
-      "biscuit",
-      "cookie",
-      "dessert",
-      "sweet"
-    ],
-    "tts": []
-  },
-  "🛜": {
-    "default": [
-      "computer",
-      "internet",
-      "network",
-      "Wi-Fi",
-      "wifi",
-      "wireless"
-    ],
-    "tts": []
-  },
-  "🤹‍♂": {
-    "default": [
-      "juggling",
+      "dark skin tone",
+      "golf",
+      "golfer",
       "man",
-      "multi-task"
-    ],
-    "tts": []
-  },
-  "📺": {
-    "default": [
-      "television",
-      "TV",
-      "video"
-    ],
-    "tts": []
-  },
-  "🥗": {
-    "default": [
-      "food",
-      "garden",
-      "salad"
-    ],
-    "tts": [
-      "garden salad"
-    ]
-  },
-  "🦉": {
-    "default": [
-      "bird of prey",
-      "owl",
-      "wise"
-    ],
-    "tts": []
-  },
-  "🔠": {
-    "default": [
-      "input Latin uppercase"
-    ],
-    "tts": [
-      "input Latin uppercase"
-    ]
-  },
-  "🦋": {
-    "default": [
-      "butterfly",
-      "insect",
-      "moth"
+      "man golfing",
+      "man golfing: dark skin tone"
     ],
     "tts": []
   },
@@ -1959,11 +54,109 @@
       "trolley bus"
     ]
   },
-  "👦": {
+  "🍮": {
+    "default": [
+      "baked custard",
+      "dessert",
+      "pudding",
+      "sweet"
+    ],
+    "tts": [
+      "baked custard"
+    ]
+  },
+  "🏌🏻‍♀": {
+    "default": [
+      "golf",
+      "golfer",
+      "light skin tone",
+      "woman",
+      "woman golfing",
+      "woman golfing: light skin tone"
+    ],
+    "tts": []
+  },
+  "🤹🏼‍♀": {
+    "default": [
+      "juggling",
+      "medium-light skin tone",
+      "multi-task",
+      "woman",
+      "woman juggling: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👦🏾": {
     "default": [
       "boy",
+      "boy: medium-dark skin tone",
+      "medium-dark skin tone",
       "young",
       "young person"
+    ],
+    "tts": []
+  },
+  "🦋": {
+    "default": [
+      "butterfly",
+      "insect",
+      "moth"
+    ],
+    "tts": []
+  },
+  "🔡": {
+    "default": [
+      "input Latin lowercase"
+    ],
+    "tts": [
+      "input Latin lowercase"
+    ]
+  },
+  "🚥": {
+    "default": [
+      "horizontal traffic lights",
+      "lights",
+      "signal",
+      "traffic"
+    ],
+    "tts": [
+      "horizontal traffic lights"
+    ]
+  },
+  "💇🏾‍♂": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "man",
+      "man getting haircut",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🛒": {
+    "default": [],
+    "tts": [
+      "shopping trolley"
+    ]
+  },
+  "🏊🏻‍♀": {
+    "default": [
+      "light skin tone",
+      "swim",
+      "swimmer",
+      "woman",
+      "woman swimming",
+      "woman swimming: light skin tone"
+    ],
+    "tts": []
+  },
+  "🧑‍🔧": {
+    "default": [
+      "electrician",
+      "mechanic",
+      "plumber",
+      "tradesperson",
+      "tradie"
     ],
     "tts": []
   },
@@ -1981,6 +174,1698 @@
       "out tray"
     ]
   },
+  "👨🏿‍🎨": {
+    "default": [
+      "artist",
+      "dark skin tone",
+      "man",
+      "man artist: dark skin tone",
+      "painter",
+      "palette"
+    ],
+    "tts": []
+  },
+  "🤙🏾": {
+    "default": [
+      "call",
+      "call me hand",
+      "call me hand: medium-dark skin tone",
+      "call-me hand",
+      "hand",
+      "medium-dark skin tone",
+      "shaka"
+    ],
+    "tts": []
+  },
+  "🔤": {
+    "default": [
+      "input Latin letters"
+    ],
+    "tts": [
+      "input Latin letters"
+    ]
+  },
+  "🧑🏼‍🔧": {
+    "default": [
+      "electrician",
+      "mechanic",
+      "medium-light skin tone",
+      "plumber",
+      "tradesperson",
+      "tradie"
+    ],
+    "tts": []
+  },
+  "👨🏿‍💼": {
+    "default": [
+      "business man",
+      "dark skin tone",
+      "man office worker",
+      "man office worker: dark skin tone",
+      "manager",
+      "office worker",
+      "white collar"
+    ],
+    "tts": []
+  },
+  "🏌🏼‍♀": {
+    "default": [
+      "golf",
+      "golfer",
+      "medium-light skin tone",
+      "woman",
+      "woman golfing",
+      "woman golfing: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane facing right"
+    ],
+    "tts": [
+      "person with long mobility cane facing right"
+    ]
+  },
+  "🧆": {
+    "default": [
+      "chickpea",
+      "falafel"
+    ],
+    "tts": []
+  },
+  "🏅": {
+    "default": [
+      "celebration",
+      "medal",
+      "sports"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🎨": {
+    "default": [
+      "artist",
+      "dark skin tone",
+      "painter",
+      "palette",
+      "woman",
+      "woman artist: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🎬": {
+    "default": [
+      "clapper",
+      "clapper board",
+      "clapperboard",
+      "film",
+      "movie"
+    ],
+    "tts": []
+  },
+  "🚴🏼‍♀": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "medium-light skin tone",
+      "woman",
+      "woman riding a bike",
+      "woman riding a bike: medium-light skin tone"
+    ],
+    "tts": [
+      "woman riding a bike: medium-light skin tone"
+    ]
+  },
+  "📪": {
+    "default": [
+      "closed",
+      "closed letterbox with lowered flag",
+      "lowered",
+      "mail",
+      "mailbox",
+      "postbox"
+    ],
+    "tts": [
+      "closed letterbox with lowered flag"
+    ]
+  },
+  "👝": {
+    "default": [
+      "accessories",
+      "bag",
+      "clutch bag",
+      "pouch"
+    ],
+    "tts": [
+      "pouch"
+    ]
+  },
+  "🚴🏼‍♂": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "man",
+      "man riding a bike",
+      "man riding a bike: medium-light skin tone",
+      "medium-light skin tone"
+    ],
+    "tts": [
+      "man riding a bike: medium-light skin tone"
+    ]
+  },
+  "💇🏻‍♂": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "light skin tone",
+      "man",
+      "man getting haircut"
+    ],
+    "tts": []
+  },
+  "🤭": {
+    "default": [
+      "face with hand over mouth",
+      "whoops"
+    ],
+    "tts": []
+  },
+  "🧑‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane facing right"
+    ],
+    "tts": [
+      "person with long mobility cane facing right"
+    ]
+  },
+  "🥁": {
+    "default": [
+      "drum",
+      "drumsticks",
+      "music",
+      "percussions"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🤙🏼": {
+    "default": [
+      "call",
+      "call me hand",
+      "call me hand: medium-light skin tone",
+      "call-me hand",
+      "hand",
+      "medium-light skin tone",
+      "shaka"
+    ],
+    "tts": []
+  },
+  "🥌": {
+    "default": [
+      "curling",
+      "game",
+      "rock",
+      "stone"
+    ],
+    "tts": []
+  },
+  "🦐": {
+    "default": [
+      "prawn",
+      "seafood",
+      "shellfish",
+      "shrimp"
+    ],
+    "tts": [
+      "prawn"
+    ]
+  },
+  "📼": {
+    "default": [
+      "tape",
+      "VHS",
+      "video",
+      "videocassette"
+    ],
+    "tts": []
+  },
+  "🪡": {
+    "default": [
+      "embroidery",
+      "needle",
+      "needle and thread",
+      "sewing",
+      "stitches",
+      "sutures",
+      "tailoring"
+    ],
+    "tts": [
+      "needle and thread"
+    ]
+  },
+  "👨🏽‍🎨": {
+    "default": [
+      "artist",
+      "man",
+      "man artist: medium skin tone",
+      "medium skin tone",
+      "painter",
+      "palette"
+    ],
+    "tts": []
+  },
+  "🦉": {
+    "default": [
+      "bird of prey",
+      "owl",
+      "wise"
+    ],
+    "tts": []
+  },
+  "🏄🏾‍♀": {
+    "default": [
+      "medium-dark skin tone",
+      "surfer",
+      "surfing",
+      "woman",
+      "woman surfing: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🤹🏾‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "man juggling: medium-dark skin tone",
+      "medium-dark skin tone",
+      "multi-task"
+    ],
+    "tts": []
+  },
+  "🛎": {
+    "default": [
+      "bell",
+      "hotel",
+      "porter"
+    ],
+    "tts": [
+      "porter bell"
+    ]
+  },
+  "🖖🏾": {
+    "default": [
+      "finger",
+      "hand",
+      "medium-dark skin tone",
+      "spock",
+      "vulcan",
+      "Vulcan salute",
+      "Vulcan salute: medium-dark skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: medium-dark skin tone"
+    ]
+  },
+  "📡": {
+    "default": [],
+    "tts": [
+      "satellite dish"
+    ]
+  },
+  "💄": {
+    "default": [
+      "cosmetics",
+      "lipstick",
+      "make-up"
+    ],
+    "tts": []
+  },
+  "🚒": {
+    "default": [],
+    "tts": [
+      "fire truck"
+    ]
+  },
+  "👩🏽‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair facing right"
+    ],
+    "tts": [
+      "woman in motorised wheelchair facing right"
+    ]
+  },
+  "👩🏽‍💼": {
+    "default": [
+      "business woman",
+      "manager",
+      "medium skin tone",
+      "office worker",
+      "white collar",
+      "woman office worker",
+      "woman office worker: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🎰": {
+    "default": [
+      "game",
+      "pokie",
+      "pokies"
+    ],
+    "tts": [
+      "pokie"
+    ]
+  },
+  "👨🏾‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🚃": {
+    "default": [
+      "car",
+      "electric",
+      "railway",
+      "train",
+      "train carriage",
+      "tram",
+      "trolley bus"
+    ],
+    "tts": [
+      "train carriage"
+    ]
+  },
+  "🛌🏾": {
+    "default": [
+      "hotel",
+      "medium-dark skin tone",
+      "person in bed",
+      "person in bed: medium-dark skin tone",
+      "sleep",
+      "sleeping"
+    ],
+    "tts": []
+  },
+  "📬": {
+    "default": [
+      "mail",
+      "mailbox",
+      "open",
+      "open letterbox with raised flag",
+      "postbox"
+    ],
+    "tts": [
+      "open letterbox with raised flag"
+    ]
+  },
+  "🎅🏻": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Father Christmas",
+      "light skin tone",
+      "Santa",
+      "Santa Claus",
+      "Santa: light skin tone"
+    ],
+    "tts": [
+      "Santa: light skin tone"
+    ]
+  },
+  "🐌": {
+    "default": [
+      "mollusc",
+      "snail"
+    ],
+    "tts": []
+  },
+  "🚭": {
+    "default": [
+      "denied",
+      "forbidden",
+      "no",
+      "prohibited",
+      "smoking"
+    ],
+    "tts": []
+  },
+  "🏄🏿": {
+    "default": [
+      "dark skin tone",
+      "person surfing",
+      "person surfing: dark skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🕶": {
+    "default": [
+      "dark",
+      "eye",
+      "eyewear",
+      "glasses",
+      "sunglasses",
+      "sunnies"
+    ],
+    "tts": []
+  },
+  "♒": {
+    "default": [
+      "Aquarius",
+      "water bearer",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🏌🏻‍♂": {
+    "default": [
+      "golf",
+      "golfer",
+      "light skin tone",
+      "man",
+      "man golfing",
+      "man golfing: light skin tone"
+    ],
+    "tts": []
+  },
+  "👨‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair facing right"
+    ]
+  },
+  "🤹‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "multi-task"
+    ],
+    "tts": []
+  },
+  "🕵🏻": {
+    "default": [
+      "detective",
+      "detective: light skin tone",
+      "investigator",
+      "light skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🚴🏾‍♀": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "medium-dark skin tone",
+      "woman",
+      "woman riding a bike",
+      "woman riding a bike: medium-dark skin tone"
+    ],
+    "tts": [
+      "woman riding a bike: medium-dark skin tone"
+    ]
+  },
+  "♿": {
+    "default": [
+      "access",
+      "disabled access",
+      "wheelchair symbol"
+    ],
+    "tts": []
+  },
+  "🤹🏿": {
+    "default": [
+      "balance",
+      "dark skin tone",
+      "juggle",
+      "multi-task",
+      "person juggling",
+      "person juggling: dark skin tone",
+      "skill"
+    ],
+    "tts": []
+  },
+  "🛴": {
+    "default": [],
+    "tts": [
+      "scooter"
+    ]
+  },
+  "🏄‍♂": {
+    "default": [
+      "man",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🎉": {
+    "default": [
+      "celebration",
+      "party",
+      "popper",
+      "ta-da"
+    ],
+    "tts": []
+  },
+  "👚": {
+    "default": [
+      "blouse",
+      "clothing",
+      "top",
+      "woman",
+      "woman’s clothes"
+    ],
+    "tts": [
+      "blouse"
+    ]
+  },
+  "🗂": {
+    "default": [],
+    "tts": [
+      "index card dividers"
+    ]
+  },
+  "🦅": {
+    "default": [
+      "bird of prey",
+      "eagle"
+    ],
+    "tts": []
+  },
+  "🔈": {
+    "default": [
+      "low",
+      "quiet",
+      "soft",
+      "speaker",
+      "volume"
+    ],
+    "tts": []
+  },
+  "🕵🏾": {
+    "default": [
+      "detective",
+      "detective: medium-dark skin tone",
+      "investigator",
+      "medium-dark skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🙌": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "raised",
+      "raising hands"
+    ],
+    "tts": []
+  },
+  "🕵🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "detective",
+      "investigator",
+      "man",
+      "man detective: dark skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🚣🏾": {
+    "default": [
+      "boat",
+      "medium-dark skin tone",
+      "person",
+      "person rowing boat",
+      "person rowing boat: medium-dark skin tone",
+      "rowboat"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "light skin tone",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair: light skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair: light skin tone"
+    ]
+  },
+  "🪴": {
+    "default": [
+      "grow",
+      "house",
+      "nurturing",
+      "plant",
+      "pot plant"
+    ],
+    "tts": [
+      "pot plant"
+    ]
+  },
+  "🧑🏾‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium-dark skin tone",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane: medium-dark skin tone"
+    ],
+    "tts": [
+      "person with long mobility cane: medium-dark skin tone"
+    ]
+  },
+  "💇🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "haircut",
+      "hairdresser",
+      "man",
+      "man getting haircut"
+    ],
+    "tts": []
+  },
+  "🤙🏻": {
+    "default": [
+      "call",
+      "call me hand",
+      "call me hand: light skin tone",
+      "call-me hand",
+      "hand",
+      "light skin tone",
+      "shaka"
+    ],
+    "tts": []
+  },
+  "🗑": {
+    "default": [
+      "rubbish bin",
+      "trash",
+      "waste paper basket"
+    ],
+    "tts": [
+      "waste paper basket"
+    ]
+  },
+  "👩🏼‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "medium-light skin tone",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🕰": {
+    "default": [
+      "clock"
+    ],
+    "tts": [
+      "clock"
+    ]
+  },
+  "👜": {
+    "default": [
+      "accessories",
+      "bag",
+      "handbag",
+      "tote"
+    ],
+    "tts": []
+  },
+  "🦞": {
+    "default": [
+      "bisque",
+      "claws",
+      "lobster",
+      "seafood",
+      "shellfish"
+    ],
+    "tts": []
+  },
+  "🤹🏽": {
+    "default": [
+      "balance",
+      "juggle",
+      "medium skin tone",
+      "multi-task",
+      "person juggling",
+      "person juggling: medium skin tone",
+      "skill"
+    ],
+    "tts": []
+  },
+  "🚺": {
+    "default": [
+      "ladies room",
+      "lavatory",
+      "restroom",
+      "wc",
+      "woman",
+      "women’s room",
+      "women’s toilet"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "medium skin tone",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🛟": {
+    "default": [
+      "buoy",
+      "float",
+      "life preserver",
+      "lifebuoy",
+      "rescue",
+      "ring buoy",
+      "safety"
+    ],
+    "tts": []
+  },
+  "🏄🏻‍♂": {
+    "default": [
+      "light skin tone",
+      "man",
+      "man surfing: light skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🖖🏽": {
+    "default": [
+      "finger",
+      "hand",
+      "medium skin tone",
+      "spock",
+      "vulcan",
+      "Vulcan salute",
+      "Vulcan salute: medium skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: medium skin tone"
+    ]
+  },
+  "🏄🏾": {
+    "default": [
+      "medium-dark skin tone",
+      "person surfing",
+      "person surfing: medium-dark skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🛌🏿": {
+    "default": [
+      "dark skin tone",
+      "hotel",
+      "person in bed",
+      "person in bed: dark skin tone",
+      "sleep",
+      "sleeping"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🎨": {
+    "default": [
+      "artist",
+      "medium skin tone",
+      "painter",
+      "palette",
+      "woman",
+      "woman artist: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🤵🏻‍♂": {
+    "default": [
+      "light skin tone",
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "tux",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "🧑‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with long mobility cane"
+    ],
+    "tts": [
+      "person with long mobility cane"
+    ]
+  },
+  "📭": {
+    "default": [
+      "lowered",
+      "mail",
+      "mailbox",
+      "open",
+      "open letterbox with lowered flag",
+      "postbox"
+    ],
+    "tts": [
+      "open letterbox with lowered flag"
+    ]
+  },
+  "🐁": {
+    "default": [
+      "mouse",
+      "pet",
+      "rodent"
+    ],
+    "tts": []
+  },
+  "🚙": {
+    "default": [
+      "4WD",
+      "four-wheel drive"
+    ],
+    "tts": [
+      "four-wheel drive"
+    ]
+  },
+  "👛": {
+    "default": [
+      "accessories",
+      "coin",
+      "purse"
+    ],
+    "tts": []
+  },
+  "💇🏼‍♀": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "medium-light skin tone",
+      "woman",
+      "woman getting haircut"
+    ],
+    "tts": []
+  },
+  "🤹🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "juggling",
+      "man",
+      "man juggling: dark skin tone",
+      "multi-task"
+    ],
+    "tts": []
+  },
+  "👗": {
+    "default": [
+      "clothing",
+      "dress",
+      "woman’s clothes"
+    ],
+    "tts": []
+  },
+  "🤹‍♀": {
+    "default": [
+      "juggling",
+      "multi-task",
+      "woman"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair facing right"
+    ],
+    "tts": [
+      "woman in motorised wheelchair facing right"
+    ]
+  },
+  "👨🏿‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair facing right"
+    ]
+  },
+  "🏄‍♀": {
+    "default": [
+      "surfer",
+      "surfing",
+      "woman"
+    ],
+    "tts": []
+  },
+  "📉": {
+    "default": [
+      "chart",
+      "chart decreasing",
+      "down",
+      "graph",
+      "graph decreasing",
+      "trend"
+    ],
+    "tts": [
+      "graph decreasing"
+    ]
+  },
+  "👨‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man"
+    ],
+    "tts": []
+  },
+  "👰🏻‍♀": {
+    "default": [
+      "bride",
+      "light skin tone",
+      "veil",
+      "woman",
+      "woman with veil",
+      "woman with veil: light skin tone"
+    ],
+    "tts": []
+  },
+  "🚴🏿‍♂": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "dark skin tone",
+      "man",
+      "man riding a bike",
+      "man riding a bike: dark skin tone"
+    ],
+    "tts": [
+      "man riding a bike: dark skin tone"
+    ]
+  },
+  "🎣": {
+    "default": [
+      "fish",
+      "fishing",
+      "pole",
+      "rod"
+    ],
+    "tts": [
+      "fishing rod"
+    ]
+  },
+  "💇‍♂": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "man",
+      "man getting haircut"
+    ],
+    "tts": []
+  },
+  "🏌🏽‍♂": {
+    "default": [
+      "golf",
+      "golfer",
+      "man",
+      "man golfing",
+      "man golfing: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🛀": {
+    "default": [
+      "bath",
+      "bathtub",
+      "person taking bath",
+      "tub"
+    ],
+    "tts": []
+  },
+  "🕵🏼": {
+    "default": [
+      "detective",
+      "detective: medium-light skin tone",
+      "investigator",
+      "medium-light skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🏄🏾‍♂": {
+    "default": [
+      "man",
+      "man surfing: medium-dark skin tone",
+      "medium-dark skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "📊": {
+    "default": [],
+    "tts": [
+      "bar graph"
+    ]
+  },
+  "🦃": {
+    "default": [
+      "bird",
+      "poultry",
+      "turkey"
+    ],
+    "tts": []
+  },
+  "📺": {
+    "default": [
+      "television",
+      "TV",
+      "video"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "light skin tone",
+      "woman"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🎨": {
+    "default": [
+      "artist",
+      "light skin tone",
+      "painter",
+      "palette",
+      "woman",
+      "woman artist: light skin tone"
+    ],
+    "tts": []
+  },
+  "📇": {
+    "default": [],
+    "tts": [
+      "index card"
+    ]
+  },
+  "🏊🏽": {
+    "default": [
+      "medium skin tone",
+      "person swimming",
+      "person swimming: medium skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "👨‍🎨": {
+    "default": [
+      "artist",
+      "man",
+      "painter",
+      "palette"
+    ],
+    "tts": []
+  },
+  "🔆": {
+    "default": [
+      "bright button",
+      "brightness",
+      "brightness button"
+    ],
+    "tts": []
+  },
+  "🏌": {
+    "default": [
+      "ball",
+      "golf",
+      "golfer",
+      "person golfing"
+    ],
+    "tts": []
+  },
+  "🏌🏿": {
+    "default": [
+      "ball",
+      "dark skin tone",
+      "golf",
+      "golfer",
+      "person golfing",
+      "person golfing: dark skin tone"
+    ],
+    "tts": []
+  },
+  "📥": {
+    "default": [
+      "box",
+      "in tray",
+      "inbox",
+      "letter",
+      "mail",
+      "receive",
+      "tray"
+    ],
+    "tts": [
+      "in tray"
+    ]
+  },
+  "🛀🏾": {
+    "default": [
+      "bath",
+      "bathtub",
+      "medium-dark skin tone",
+      "person taking bath",
+      "person taking bath: medium-dark skin tone",
+      "tub"
+    ],
+    "tts": []
+  },
+  "🍨": {
+    "default": [
+      "cream",
+      "dessert",
+      "ice cream",
+      "sweet"
+    ],
+    "tts": []
+  },
+  "🏌🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "golf",
+      "golfer",
+      "woman",
+      "woman golfing",
+      "woman golfing: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🤙": {
+    "default": [
+      "call",
+      "call me hand",
+      "call-me hand",
+      "hand",
+      "shaka"
+    ],
+    "tts": []
+  },
+  "🧇": {
+    "default": [
+      "waffle",
+      "waffle with butter"
+    ],
+    "tts": []
+  },
+  "🕵🏽": {
+    "default": [
+      "detective",
+      "detective: medium skin tone",
+      "investigator",
+      "medium skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🏊‍♂": {
+    "default": [
+      "man",
+      "man swimming",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🍧": {
+    "default": [
+      "dessert",
+      "granita",
+      "ice",
+      "sweet"
+    ],
+    "tts": [
+      "granita"
+    ]
+  },
+  "🤵🏼‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "medium-light skin tone",
+      "tux",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair: medium-dark skin tone",
+      "medium-dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair: medium-dark skin tone"
+    ]
+  },
+  "🧖‍♂": {
+    "default": [
+      "man in steam room",
+      "man in steamy room",
+      "sauna",
+      "steam room"
+    ],
+    "tts": [
+      "man in steam room"
+    ]
+  },
+  "👩🏾‍🎨": {
+    "default": [
+      "artist",
+      "medium-dark skin tone",
+      "painter",
+      "palette",
+      "woman",
+      "woman artist: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🅿": {
+    "default": [
+      "car park",
+      "carpark",
+      "P",
+      "P button",
+      "parking"
+    ],
+    "tts": []
+  },
+  "🏌🏼": {
+    "default": [
+      "ball",
+      "golf",
+      "golfer",
+      "medium-light skin tone",
+      "person golfing",
+      "person golfing: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "😈": {
+    "default": [
+      "devil",
+      "face",
+      "fantasy",
+      "horns",
+      "smile",
+      "smiling face with horns"
+    ],
+    "tts": []
+  },
+  "🎿": {
+    "default": [
+      "ski",
+      "skiing",
+      "skis",
+      "snow"
+    ],
+    "tts": []
+  },
+  "🥙": {
+    "default": [
+      "falafel",
+      "flatbread",
+      "food",
+      "gyro",
+      "kebab",
+      "pita roll",
+      "stuffed"
+    ],
+    "tts": [
+      "pita roll"
+    ]
+  },
+  "🚽": {
+    "default": [
+      "facilities",
+      "loo",
+      "toilet",
+      "WC"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "medium-light skin tone",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair: medium-light skin tone"
+    ],
+    "tts": [
+      "woman in motorised wheelchair: medium-light skin tone"
+    ]
+  },
+  "👩🏼‍💼": {
+    "default": [
+      "business woman",
+      "manager",
+      "medium-light skin tone",
+      "office worker",
+      "white collar",
+      "woman office worker",
+      "woman office worker: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🍪": {
+    "default": [
+      "biscuit",
+      "cookie",
+      "dessert",
+      "sweet"
+    ],
+    "tts": []
+  },
+  "🏌‍♀": {
+    "default": [
+      "golf",
+      "golfer",
+      "woman",
+      "woman golfing"
+    ],
+    "tts": []
+  },
+  "🏊🏼‍♀": {
+    "default": [
+      "medium-light skin tone",
+      "swim",
+      "swimmer",
+      "woman",
+      "woman swimming",
+      "woman swimming: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🏊🏼": {
+    "default": [
+      "medium-light skin tone",
+      "person swimming",
+      "person swimming: medium-light skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🚠": {
+    "default": [
+      "cable",
+      "cableway",
+      "gondola",
+      "mountain"
+    ],
+    "tts": [
+      "cableway"
+    ]
+  },
+  "🇻🇨": {
+    "default": [
+      "flag",
+      "flag: St. Vincent & Grenadines"
+    ],
+    "tts": [
+      "flag: St. Vincent & Grenadines"
+    ]
+  },
+  "👩‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair facing right"
+    ],
+    "tts": [
+      "woman in motorised wheelchair facing right"
+    ]
+  },
+  "🎍": {
+    "default": [
+      "bamboo",
+      "celebration",
+      "decoration",
+      "Japanese"
+    ],
+    "tts": [
+      "bamboo decoration"
+    ]
+  },
+  "👨🏻‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair facing right"
+    ]
+  },
+  "🚣": {
+    "default": [
+      "boat",
+      "person",
+      "person rowing boat",
+      "rowboat"
+    ],
+    "tts": []
+  },
+  "🥵": {
+    "default": [
+      "feverish",
+      "flushed",
+      "heat stroke",
+      "hot",
+      "hot face",
+      "red-faced",
+      "sweating"
+    ],
+    "tts": []
+  },
+  "⏩": {
+    "default": [
+      "fast forward button"
+    ],
+    "tts": [
+      "fast forward button"
+    ]
+  },
+  "💾": {
+    "default": [
+      "computer",
+      "disk",
+      "diskette",
+      "floppy"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🔧": {
+    "default": [
+      "electrician",
+      "light skin tone",
+      "mechanic",
+      "plumber",
+      "tradesperson",
+      "tradie"
+    ],
+    "tts": []
+  },
+  "🎅🏼": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Father Christmas",
+      "medium-light skin tone",
+      "Santa",
+      "Santa Claus",
+      "Santa: medium-light skin tone"
+    ],
+    "tts": [
+      "Santa: medium-light skin tone"
+    ]
+  },
+  "🤙🏽": {
+    "default": [
+      "call",
+      "call me hand",
+      "call me hand: medium skin tone",
+      "call-me hand",
+      "hand",
+      "medium skin tone",
+      "shaka"
+    ],
+    "tts": []
+  },
+  "🇧🇱": {
+    "default": [
+      "flag",
+      "flag: St. Barthélemy"
+    ],
+    "tts": [
+      "flag: St. Barthélemy"
+    ]
+  },
+  "🫑": {
+    "default": [],
+    "tts": [
+      "capsicum"
+    ]
+  },
+  "🏊🏾‍♂": {
+    "default": [
+      "man",
+      "man swimming",
+      "man swimming: medium-dark skin tone",
+      "medium-dark skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🙌🏻": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "light skin tone",
+      "raised",
+      "raising hands"
+    ],
+    "tts": []
+  },
+  "🤹": {
+    "default": [
+      "balance",
+      "juggle",
+      "multi-task",
+      "person juggling",
+      "skill"
+    ],
+    "tts": []
+  },
+  "🏄🏼": {
+    "default": [
+      "medium-light skin tone",
+      "person surfing",
+      "person surfing: medium-light skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🕵🏼‍♂": {
+    "default": [
+      "detective",
+      "investigator",
+      "man",
+      "man detective: medium-light skin tone",
+      "medium-light skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "👧🏼": {
+    "default": [
+      "girl",
+      "girl: medium-light skin tone",
+      "medium-light skin tone",
+      "Virgo",
+      "young person",
+      "zodiac"
+    ],
+    "tts": []
+  },
   "🧑‍🦼‍➡": {
     "default": [
       "accessibility",
@@ -1993,64 +1878,325 @@
       "person in motorised wheelchair facing right"
     ]
   },
-  "🍮": {
+  "🛀🏼": {
     "default": [
-      "baked custard",
-      "dessert",
-      "pudding",
-      "sweet"
-    ],
-    "tts": [
-      "baked custard"
-    ]
-  },
-  "🛻": {
-    "default": [
-      "pick-up",
-      "pickup",
-      "truck",
-      "ute"
-    ],
-    "tts": [
-      "ute"
-    ]
-  },
-  "📊": {
-    "default": [],
-    "tts": [
-      "bar graph"
-    ]
-  },
-  "🔈": {
-    "default": [
-      "low",
-      "quiet",
-      "soft",
-      "speaker",
-      "volume"
+      "bath",
+      "bathtub",
+      "medium-light skin tone",
+      "person taking bath",
+      "person taking bath: medium-light skin tone",
+      "tub"
     ],
     "tts": []
   },
-  "📇": {
-    "default": [],
-    "tts": [
-      "index card"
-    ]
-  },
-  "👨‍💼": {
+  "🍔": {
     "default": [
-      "business man",
-      "man office worker",
-      "manager",
-      "office worker",
-      "white collar"
+      "beefburger",
+      "burger",
+      "hamburger"
     ],
     "tts": []
   },
-  "🏊‍♂": {
+  "🤶": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Mrs Claus",
+      "Mrs Santa Claus",
+      "Mrs. Claus"
+    ],
+    "tts": []
+  },
+  "🕵🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "detective",
+      "investigator",
+      "sleuth",
+      "spy",
+      "woman",
+      "woman detective: dark skin tone"
+    ],
+    "tts": []
+  },
+  "📈": {
+    "default": [
+      "chart",
+      "chart increasing",
+      "graph",
+      "graph increasing",
+      "growth",
+      "trend",
+      "upward"
+    ],
+    "tts": [
+      "graph increasing"
+    ]
+  },
+  "🛀🏽": {
+    "default": [
+      "bath",
+      "bathtub",
+      "medium skin tone",
+      "person taking bath",
+      "person taking bath: medium skin tone",
+      "tub"
+    ],
+    "tts": []
+  },
+  "🏊🏻‍♂": {
+    "default": [
+      "light skin tone",
+      "man",
+      "man swimming",
+      "man swimming: light skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🚴🏼": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "medium-light skin tone",
+      "person biking",
+      "person riding a bike",
+      "person riding a bike: medium-light skin tone"
+    ],
+    "tts": [
+      "person riding a bike: medium-light skin tone"
+    ]
+  },
+  "🐠": {
+    "default": [
+      "fish",
+      "reef fish",
+      "tropical"
+    ],
+    "tts": [
+      "reef fish"
+    ]
+  },
+  "🏄🏼‍♀": {
+    "default": [
+      "medium-light skin tone",
+      "surfer",
+      "surfing",
+      "woman",
+      "woman surfing: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane facing right"
+    ],
+    "tts": [
+      "person with long mobility cane facing right"
+    ]
+  },
+  "👩🏿‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair facing right"
+    ],
+    "tts": [
+      "woman in motorised wheelchair facing right"
+    ]
+  },
+  "👩‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🚴🏻‍♂": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "light skin tone",
+      "man",
+      "man riding a bike",
+      "man riding a bike: light skin tone"
+    ],
+    "tts": [
+      "man riding a bike: light skin tone"
+    ]
+  },
+  "🌌": {
+    "default": [
+      "Milky Way",
+      "space"
+    ],
+    "tts": [
+      "Milky Way"
+    ]
+  },
+  "📌": {
+    "default": [
+      "drawing-pin",
+      "pin"
+    ],
+    "tts": [
+      "drawing-pin"
+    ]
+  },
+  "🤹🏾‍♀": {
+    "default": [
+      "juggling",
+      "medium-dark skin tone",
+      "multi-task",
+      "woman",
+      "woman juggling: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🏄🏽‍♂": {
+    "default": [
+      "man",
+      "man surfing: medium skin tone",
+      "medium skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🚫": {
+    "default": [
+      "denied",
+      "entry",
+      "forbidden",
+      "no",
+      "prohibited"
+    ],
+    "tts": []
+  },
+  "🌽": {
+    "default": [
+      "corn",
+      "corn on the cob",
+      "sweetcorn"
+    ],
+    "tts": [
+      "sweetcorn"
+    ]
+  },
+  "🕵🏿": {
+    "default": [
+      "dark skin tone",
+      "detective",
+      "detective: dark skin tone",
+      "investigator",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🧖🏾‍♂": {
+    "default": [
+      "man in steam room",
+      "man in steam room: medium-dark skin tone",
+      "man in steamy room",
+      "medium-dark skin tone",
+      "sauna",
+      "steam room"
+    ],
+    "tts": [
+      "man in steam room: medium-dark skin tone"
+    ]
+  },
+  "🕵‍♂": {
+    "default": [
+      "detective",
+      "investigator",
+      "man",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "👠": {
+    "default": [
+      "heel",
+      "high-heeled shoe",
+      "shoe",
+      "stiletto",
+      "woman"
+    ],
+    "tts": []
+  },
+  "👧🏿": {
+    "default": [
+      "dark skin tone",
+      "girl",
+      "girl: dark skin tone",
+      "Virgo",
+      "young person",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🏟": {
+    "default": [
+      "arena",
+      "stadium"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🎨": {
+    "default": [
+      "artist",
+      "light skin tone",
+      "man",
+      "man artist: light skin tone",
+      "painter",
+      "palette"
+    ],
+    "tts": []
+  },
+  "🙌🏾": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "medium-dark skin tone",
+      "raised",
+      "raising hands"
+    ],
+    "tts": []
+  },
+  "🕵🏻‍♀": {
+    "default": [
+      "detective",
+      "investigator",
+      "light skin tone",
+      "sleuth",
+      "spy",
+      "woman",
+      "woman detective: light skin tone"
+    ],
+    "tts": []
+  },
+  "🏊🏼‍♂": {
     "default": [
       "man",
       "man swimming",
+      "man swimming: medium-light skin tone",
+      "medium-light skin tone",
       "swim",
       "swimmer"
     ],
@@ -2065,32 +2211,30 @@
     ],
     "tts": []
   },
-  "💇‍♂": {
+  "🧑🏼‍🦼‍➡": {
     "default": [
-      "haircut",
-      "hairdresser",
-      "man",
-      "man getting haircut"
-    ],
-    "tts": []
-  },
-  "🎰": {
-    "default": [
-      "game",
-      "pokie",
-      "pokies"
+      "accessibility",
+      "electric wheelchair",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair facing right",
+      "wheelchair"
     ],
     "tts": [
-      "pokie"
+      "person in motorised wheelchair facing right"
     ]
   },
-  "🟰": {
+  "🧖🏻‍♀": {
     "default": [
-      "equality",
-      "heavy equals sign",
-      "maths"
+      "light skin tone",
+      "sauna",
+      "steam room",
+      "woman in steam room",
+      "woman in steam room: light skin tone",
+      "woman in steamy room"
     ],
-    "tts": []
+    "tts": [
+      "woman in steam room: light skin tone"
+    ]
   },
   "✝": {
     "default": [
@@ -2102,12 +2246,2040 @@
       "Christian cross"
     ]
   },
-  "🕰": {
+  "🚛": {
     "default": [
-      "clock"
+      "articulated truck",
+      "lorry",
+      "semi",
+      "truck"
     ],
     "tts": [
-      "clock"
+      "articulated truck"
+    ]
+  },
+  "🔫": {
+    "default": [
+      "toy",
+      "water pistol"
+    ],
+    "tts": []
+  },
+  "⌛": {
+    "default": [
+      "hourglass",
+      "hourglass done",
+      "sand",
+      "timer"
+    ],
+    "tts": []
+  },
+  "🩹": {
+    "default": [
+      "adhesive bandage",
+      "bandage",
+      "bandaid",
+      "dressing"
+    ],
+    "tts": [
+      "bandaid"
+    ]
+  },
+  "👩🏾‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "medium-dark skin tone",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair: medium-dark skin tone"
+    ],
+    "tts": [
+      "woman in motorised wheelchair: medium-dark skin tone"
+    ]
+  },
+  "👰🏾‍♀": {
+    "default": [
+      "bride",
+      "medium-dark skin tone",
+      "veil",
+      "woman",
+      "woman with veil",
+      "woman with veil: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🦼": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair: dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair: dark skin tone"
+    ]
+  },
+  "➕": {
+    "default": [
+      "+",
+      "add",
+      "addition",
+      "math",
+      "maths",
+      "plus",
+      "sign"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "light skin tone",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair: light skin tone"
+    ],
+    "tts": [
+      "woman in motorised wheelchair: light skin tone"
+    ]
+  },
+  "🧑🏻‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair facing right"
+    ]
+  },
+  "🧑🏿‍🔧": {
+    "default": [
+      "dark skin tone",
+      "electrician",
+      "mechanic",
+      "plumber",
+      "tradesperson",
+      "tradie"
+    ],
+    "tts": []
+  },
+  "📫": {
+    "default": [
+      "closed",
+      "closed letterbox with raised flag",
+      "mail",
+      "mailbox",
+      "postbox"
+    ],
+    "tts": [
+      "closed letterbox with raised flag"
+    ]
+  },
+  "🚣🏻": {
+    "default": [
+      "boat",
+      "light skin tone",
+      "person",
+      "person rowing boat",
+      "person rowing boat: light skin tone",
+      "rowboat"
+    ],
+    "tts": []
+  },
+  "🧖🏽‍♀": {
+    "default": [
+      "medium skin tone",
+      "sauna",
+      "steam room",
+      "woman in steam room",
+      "woman in steam room: medium skin tone",
+      "woman in steamy room"
+    ],
+    "tts": [
+      "woman in steam room: medium skin tone"
+    ]
+  },
+  "🕵🏽‍♀": {
+    "default": [
+      "detective",
+      "investigator",
+      "medium skin tone",
+      "sleuth",
+      "spy",
+      "woman",
+      "woman detective: medium skin tone"
+    ],
+    "tts": []
+  },
+  "♦": {
+    "default": [
+      "card",
+      "diamond suit",
+      "diamonds",
+      "game"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "medium skin tone",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair: medium skin tone"
+    ],
+    "tts": [
+      "woman in motorised wheelchair: medium skin tone"
+    ]
+  },
+  "🪝": {
+    "default": [
+      "catch",
+      "crook",
+      "curve",
+      "ensnare",
+      "fishing",
+      "hook",
+      "selling point"
+    ],
+    "tts": []
+  },
+  "🚊": {
+    "default": [
+      "light rail",
+      "oncoming",
+      "oncoming light rail",
+      "tram",
+      "trolleybus"
+    ],
+    "tts": [
+      "oncoming light rail"
+    ]
+  },
+  "🤹🏻‍♂": {
+    "default": [
+      "juggling",
+      "light skin tone",
+      "man",
+      "man juggling: light skin tone",
+      "multi-task"
+    ],
+    "tts": []
+  },
+  "🌶": {
+    "default": [
+      "chilli",
+      "hot pepper",
+      "pepper"
+    ],
+    "tts": []
+  },
+  "🙌🏿": {
+    "default": [
+      "celebration",
+      "dark skin tone",
+      "gesture",
+      "hand",
+      "hooray",
+      "raised",
+      "raising hands"
+    ],
+    "tts": []
+  },
+  "🖖": {
+    "default": [
+      "finger",
+      "hand",
+      "spock",
+      "vulcan",
+      "Vulcan salute"
+    ],
+    "tts": [
+      "Vulcan salute"
+    ]
+  },
+  "👰🏿‍♀": {
+    "default": [
+      "bride",
+      "dark skin tone",
+      "veil",
+      "woman",
+      "woman with veil",
+      "woman with veil: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🦼": {
+    "default": [
+      "mobility scooter"
+    ],
+    "tts": [
+      "mobility scooter"
+    ]
+  },
+  "⁉": {
+    "default": [
+      "exclamation",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "tts": []
+  },
+  "🛌🏼": {
+    "default": [
+      "hotel",
+      "medium-light skin tone",
+      "person in bed",
+      "person in bed: medium-light skin tone",
+      "sleep",
+      "sleeping"
+    ],
+    "tts": []
+  },
+  "🎅🏽": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Father Christmas",
+      "medium skin tone",
+      "Santa",
+      "Santa Claus",
+      "Santa: medium skin tone"
+    ],
+    "tts": [
+      "Santa: medium skin tone"
+    ]
+  },
+  "🐭": {
+    "default": [
+      "face",
+      "mouse",
+      "pet"
+    ],
+    "tts": []
+  },
+  "🚋": {
+    "default": [
+      "car",
+      "tram",
+      "trolley bus"
+    ],
+    "tts": []
+  },
+  "🛻": {
+    "default": [
+      "pick-up",
+      "pickup",
+      "truck",
+      "ute"
+    ],
+    "tts": [
+      "ute"
+    ]
+  },
+  "🚾": {
+    "default": [
+      "amenities",
+      "bathroom",
+      "restroom",
+      "toilet",
+      "water closet",
+      "WC"
+    ],
+    "tts": [
+      "WC"
+    ]
+  },
+  "🚴🏿": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "dark skin tone",
+      "person biking",
+      "person riding a bike",
+      "person riding a bike: dark skin tone"
+    ],
+    "tts": [
+      "person riding a bike: dark skin tone"
+    ]
+  },
+  "🕵": {
+    "default": [
+      "detective",
+      "investigator",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🛣": {
+    "default": [
+      "freeway",
+      "highway",
+      "road"
+    ],
+    "tts": [
+      "freeway"
+    ]
+  },
+  "👟": {
+    "default": [
+      "athletic",
+      "clothing",
+      "runners",
+      "running shoe",
+      "shoe",
+      "sneaker",
+      "trainer"
+    ],
+    "tts": [
+      "sneaker"
+    ]
+  },
+  "🧖🏼‍♀": {
+    "default": [
+      "medium-light skin tone",
+      "sauna",
+      "steam room",
+      "woman in steam room",
+      "woman in steam room: medium-light skin tone",
+      "woman in steamy room"
+    ],
+    "tts": [
+      "woman in steam room: medium-light skin tone"
+    ]
+  },
+  "🕵🏼‍♀": {
+    "default": [
+      "detective",
+      "investigator",
+      "medium-light skin tone",
+      "sleuth",
+      "spy",
+      "woman",
+      "woman detective: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "⬆": {
+    "default": [
+      "arrow",
+      "cardinal",
+      "direction",
+      "north",
+      "up"
+    ],
+    "tts": []
+  },
+  "🎳": {
+    "default": [
+      "ball",
+      "game",
+      "tenpin bowling"
+    ],
+    "tts": [
+      "tenpin bowling"
+    ]
+  },
+  "👩🏿‍💼": {
+    "default": [
+      "business woman",
+      "dark skin tone",
+      "manager",
+      "office worker",
+      "white collar",
+      "woman office worker",
+      "woman office worker: dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏻‍💼": {
+    "default": [
+      "business woman",
+      "light skin tone",
+      "manager",
+      "office worker",
+      "white collar",
+      "woman office worker",
+      "woman office worker: light skin tone"
+    ],
+    "tts": []
+  },
+  "👦🏿": {
+    "default": [
+      "boy",
+      "boy: dark skin tone",
+      "dark skin tone",
+      "young",
+      "young person"
+    ],
+    "tts": []
+  },
+  "⛩": {
+    "default": [
+      "religion",
+      "Shinto",
+      "shrine"
+    ],
+    "tts": [
+      "Shinto shrine"
+    ]
+  },
+  "🛜": {
+    "default": [
+      "computer",
+      "internet",
+      "network",
+      "Wi-Fi",
+      "wifi",
+      "wireless"
+    ],
+    "tts": []
+  },
+  "🥖": {
+    "default": [
+      "baguette",
+      "bread",
+      "food",
+      "french",
+      "French stick"
+    ],
+    "tts": []
+  },
+  "🖖🏼": {
+    "default": [
+      "finger",
+      "hand",
+      "medium-light skin tone",
+      "spock",
+      "vulcan",
+      "Vulcan salute",
+      "Vulcan salute: medium-light skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: medium-light skin tone"
+    ]
+  },
+  "👩‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair"
+    ],
+    "tts": [
+      "woman in motorised wheelchair"
+    ]
+  },
+  "👩🏾‍💼": {
+    "default": [
+      "business woman",
+      "manager",
+      "medium-dark skin tone",
+      "office worker",
+      "white collar",
+      "woman office worker",
+      "woman office worker: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👕": {
+    "default": [
+      "clothing",
+      "shirt",
+      "T-shirt",
+      "tee",
+      "tshirt"
+    ],
+    "tts": []
+  },
+  "🚴🏾‍♂": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "man",
+      "man riding a bike",
+      "man riding a bike: medium-dark skin tone",
+      "medium-dark skin tone"
+    ],
+    "tts": [
+      "man riding a bike: medium-dark skin tone"
+    ]
+  },
+  "🧑🏽‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair facing right"
+    ]
+  },
+  "🧖🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "sauna",
+      "steam room",
+      "woman in steam room",
+      "woman in steam room: dark skin tone",
+      "woman in steamy room"
+    ],
+    "tts": [
+      "woman in steam room: dark skin tone"
+    ]
+  },
+  "🧑🏼‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium-light skin tone",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane: medium-light skin tone"
+    ],
+    "tts": [
+      "person with long mobility cane: medium-light skin tone"
+    ]
+  },
+  "👨🏼‍💼": {
+    "default": [
+      "business man",
+      "man office worker",
+      "man office worker: medium-light skin tone",
+      "manager",
+      "medium-light skin tone",
+      "office worker",
+      "white collar"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "fire truck",
+      "firefighter",
+      "man"
+    ],
+    "tts": []
+  },
+  "🎠": {
+    "default": [
+      "carousel",
+      "horse",
+      "merry-go-round"
+    ],
+    "tts": [
+      "merry-go-round"
+    ]
+  },
+  "🍟": {
+    "default": [
+      "chips",
+      "french fries",
+      "fries"
+    ],
+    "tts": []
+  },
+  "🎅": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Father Christmas",
+      "Santa",
+      "Santa Claus"
+    ],
+    "tts": [
+      "Santa"
+    ]
+  },
+  "🎪": {
+    "default": [
+      "big top",
+      "circus"
+    ],
+    "tts": [
+      "big top"
+    ]
+  },
+  "📀": {
+    "default": [
+      "blu-ray",
+      "computer",
+      "disk",
+      "DVD",
+      "optical"
+    ],
+    "tts": [
+      "DVD"
+    ]
+  },
+  "👨🏽‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair facing right"
+    ]
+  },
+  "🧑🏾‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair facing right"
+    ]
+  },
+  "🛀🏿": {
+    "default": [
+      "bath",
+      "bathtub",
+      "dark skin tone",
+      "person taking bath",
+      "person taking bath: dark skin tone",
+      "tub"
+    ],
+    "tts": []
+  },
+  "🐔": {
+    "default": [
+      "bird",
+      "chicken",
+      "poultry"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair: medium skin tone",
+      "medium skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair: medium skin tone"
+    ]
+  },
+  "☎": {
+    "default": [
+      "landline",
+      "phone",
+      "telephone"
+    ],
+    "tts": []
+  },
+  "🛼": {
+    "default": [
+      "roller",
+      "rollerskate",
+      "skate"
+    ],
+    "tts": [
+      "rollerskate"
+    ]
+  },
+  "🦏": {
+    "default": [
+      "rhino",
+      "rhinoceros"
+    ],
+    "tts": []
+  },
+  "🚴🏻": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "light skin tone",
+      "person biking",
+      "person riding a bike",
+      "person riding a bike: light skin tone"
+    ],
+    "tts": [
+      "person riding a bike: light skin tone"
+    ]
+  },
+  "🙌🏽": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "medium skin tone",
+      "raised",
+      "raising hands"
+    ],
+    "tts": []
+  },
+  "🫚": {
+    "default": [
+      "beer",
+      "ginger",
+      "root",
+      "spice"
+    ],
+    "tts": [
+      "ginger"
+    ]
+  },
+  "📍": {
+    "default": [
+      "pin",
+      "pushpin",
+      "round drawing-pin"
+    ],
+    "tts": [
+      "round drawing-pin"
+    ]
+  },
+  "🪤": {
+    "default": [],
+    "tts": [
+      "mouse trap"
+    ]
+  },
+  "✔": {
+    "default": [
+      "check mark",
+      "heavy tick mark",
+      "mark",
+      "tick"
+    ],
+    "tts": []
+  },
+  "🍦": {
+    "default": [
+      "cream",
+      "dessert",
+      "ice cream",
+      "soft serve",
+      "sweet"
+    ],
+    "tts": [
+      "soft serve"
+    ]
+  },
+  "🥜": {
+    "default": [
+      "food",
+      "nut",
+      "nuts",
+      "peanut",
+      "peanuts"
+    ],
+    "tts": []
+  },
+  "🤶🏿": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "dark skin tone",
+      "Mrs Claus",
+      "Mrs Santa Claus",
+      "Mrs. Claus",
+      "Mrs. Claus: dark skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🎨": {
+    "default": [
+      "artist",
+      "man",
+      "man artist: medium-light skin tone",
+      "medium-light skin tone",
+      "painter",
+      "palette"
+    ],
+    "tts": []
+  },
+  "☑": {
+    "default": [
+      "ballot",
+      "box",
+      "check box with check",
+      "tick",
+      "tick box with tick"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair facing right"
+    ]
+  },
+  "⏲": {
+    "default": [],
+    "tts": [
+      "timer"
+    ]
+  },
+  "🤶🏾": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "medium-dark skin tone",
+      "Mrs Claus",
+      "Mrs Santa Claus",
+      "Mrs. Claus",
+      "Mrs. Claus: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🛌🏽": {
+    "default": [
+      "hotel",
+      "medium skin tone",
+      "person in bed",
+      "person in bed: medium skin tone",
+      "sleep",
+      "sleeping"
+    ],
+    "tts": []
+  },
+  "👦🏽": {
+    "default": [
+      "boy",
+      "boy: medium skin tone",
+      "medium skin tone",
+      "young",
+      "young person"
+    ],
+    "tts": []
+  },
+  "🏄🏽‍♀": {
+    "default": [
+      "medium skin tone",
+      "surfer",
+      "surfing",
+      "woman",
+      "woman surfing: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🎹": {
+    "default": [
+      "instrument",
+      "keyboard",
+      "music",
+      "musical keyboard",
+      "organ",
+      "piano"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "medium-light skin tone",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair: medium-light skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair: medium-light skin tone"
+    ]
+  },
+  "👧🏾": {
+    "default": [
+      "girl",
+      "girl: medium-dark skin tone",
+      "medium-dark skin tone",
+      "Virgo",
+      "young person",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "💇‍♀": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "woman",
+      "woman getting haircut"
+    ],
+    "tts": []
+  },
+  "♍": {
+    "default": [
+      "virgin",
+      "Virgo",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🥯": {
+    "default": [
+      "bagel",
+      "bakery"
+    ],
+    "tts": []
+  },
+  "🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "long mobility cane",
+      "white cane"
+    ],
+    "tts": [
+      "long mobility cane"
+    ]
+  },
+  "⛔": {
+    "default": [
+      "denied",
+      "entry",
+      "forbidden",
+      "no",
+      "prohibited",
+      "traffic"
+    ],
+    "tts": []
+  },
+  "🤶🏼": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "medium-light skin tone",
+      "Mrs Claus",
+      "Mrs Santa Claus",
+      "Mrs. Claus",
+      "Mrs. Claus: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "medium-dark skin tone",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair: medium-dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair: medium-dark skin tone"
+    ]
+  },
+  "👦": {
+    "default": [
+      "boy",
+      "young",
+      "young person"
+    ],
+    "tts": []
+  },
+  "🏆": {
+    "default": [
+      "celebration",
+      "prize",
+      "trophy"
+    ],
+    "tts": []
+  },
+  "🧑‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "person in motorised wheelchair",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair"
+    ]
+  },
+  "🤶🏽": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "medium skin tone",
+      "Mrs Claus",
+      "Mrs Santa Claus",
+      "Mrs. Claus",
+      "Mrs. Claus: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🧖🏻‍♂": {
+    "default": [
+      "light skin tone",
+      "man in steam room",
+      "man in steam room: light skin tone",
+      "man in steamy room",
+      "sauna",
+      "steam room"
+    ],
+    "tts": [
+      "man in steam room: light skin tone"
+    ]
+  },
+  "🕵🏾‍♀": {
+    "default": [
+      "detective",
+      "investigator",
+      "medium-dark skin tone",
+      "sleuth",
+      "spy",
+      "woman",
+      "woman detective: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🕷": {
+    "default": [
+      "arachnid",
+      "spider"
+    ],
+    "tts": []
+  },
+  "🏊🏿": {
+    "default": [
+      "dark skin tone",
+      "person swimming",
+      "person swimming: dark skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🤙🏿": {
+    "default": [
+      "call",
+      "call me hand",
+      "call me hand: dark skin tone",
+      "call-me hand",
+      "dark skin tone",
+      "hand",
+      "shaka"
+    ],
+    "tts": []
+  },
+  "👧🏽": {
+    "default": [
+      "girl",
+      "girl: medium skin tone",
+      "medium skin tone",
+      "Virgo",
+      "young person",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🤹🏽‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "man juggling: medium skin tone",
+      "medium skin tone",
+      "multi-task"
+    ],
+    "tts": []
+  },
+  "🕵‍♀": {
+    "default": [
+      "detective",
+      "investigator",
+      "sleuth",
+      "spy",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🏄": {
+    "default": [
+      "person surfing",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🐬": {
+    "default": [
+      "dolphin",
+      "porpoise"
+    ],
+    "tts": []
+  },
+  "👧🏻": {
+    "default": [
+      "girl",
+      "girl: light skin tone",
+      "light skin tone",
+      "Virgo",
+      "young person",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👨🏻‍💼": {
+    "default": [
+      "business man",
+      "light skin tone",
+      "man office worker",
+      "man office worker: light skin tone",
+      "manager",
+      "office worker",
+      "white collar"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "medium skin tone",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane: medium skin tone"
+    ],
+    "tts": [
+      "person with long mobility cane: medium skin tone"
+    ]
+  },
+  "🤹🏽‍♀": {
+    "default": [
+      "juggling",
+      "medium skin tone",
+      "multi-task",
+      "woman",
+      "woman juggling: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🩴": {
+    "default": [],
+    "tts": [
+      "thongs"
+    ]
+  },
+  "🤹🏼‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "man juggling: medium-light skin tone",
+      "medium-light skin tone",
+      "multi-task"
+    ],
+    "tts": []
+  },
+  "🏊🏾‍♀": {
+    "default": [
+      "medium-dark skin tone",
+      "swim",
+      "swimmer",
+      "woman",
+      "woman swimming",
+      "woman swimming: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🏌🏾": {
+    "default": [
+      "ball",
+      "golf",
+      "golfer",
+      "medium-dark skin tone",
+      "person golfing",
+      "person golfing: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🗄": {
+    "default": [],
+    "tts": [
+      "filing cabinet"
+    ]
+  },
+  "👰‍♀": {
+    "default": [
+      "bride",
+      "veil",
+      "woman",
+      "woman with veil"
+    ],
+    "tts": []
+  },
+  "⛳": {
+    "default": [
+      "flag",
+      "flag in hole",
+      "golf",
+      "hole"
+    ],
+    "tts": []
+  },
+  "🛂": {
+    "default": [
+      "border",
+      "control",
+      "passport",
+      "security"
+    ],
+    "tts": []
+  },
+  "🏊🏻": {
+    "default": [
+      "light skin tone",
+      "person swimming",
+      "person swimming: light skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🤹🏾": {
+    "default": [
+      "balance",
+      "juggle",
+      "medium-dark skin tone",
+      "multi-task",
+      "person juggling",
+      "person juggling: medium-dark skin tone",
+      "skill"
+    ],
+    "tts": []
+  },
+  "🐀": {
+    "default": [
+      "pet",
+      "rat",
+      "rodent"
+    ],
+    "tts": []
+  },
+  "🤫": {
+    "default": [
+      "quiet",
+      "shooshing face",
+      "shush",
+      "shushing face"
+    ],
+    "tts": [
+      "shooshing face"
+    ]
+  },
+  "🚣🏽": {
+    "default": [
+      "boat",
+      "medium skin tone",
+      "person",
+      "person rowing boat",
+      "person rowing boat: medium skin tone",
+      "rowboat"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair facing right"
+    ]
+  },
+  "🥗": {
+    "default": [
+      "food",
+      "garden",
+      "salad"
+    ],
+    "tts": [
+      "garden salad"
+    ]
+  },
+  "🚴": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "person biking",
+      "person riding a bike"
+    ],
+    "tts": [
+      "person riding a bike"
+    ]
+  },
+  "🤹🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "juggling",
+      "multi-task",
+      "woman",
+      "woman juggling: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🚡": {
+    "default": [],
+    "tts": [
+      "cable car"
+    ]
+  },
+  "🔠": {
+    "default": [
+      "input Latin uppercase"
+    ],
+    "tts": [
+      "input Latin uppercase"
+    ]
+  },
+  "🧑🏽‍🔧": {
+    "default": [
+      "electrician",
+      "mechanic",
+      "medium skin tone",
+      "plumber",
+      "tradesperson",
+      "tradie"
+    ],
+    "tts": []
+  },
+  "💇🏽‍♀": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "medium skin tone",
+      "woman",
+      "woman getting haircut"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "light skin tone",
+      "man"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane facing right"
+    ],
+    "tts": [
+      "person with long mobility cane facing right"
+    ]
+  },
+  "🧖🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "man in steam room",
+      "man in steam room: dark skin tone",
+      "man in steamy room",
+      "sauna",
+      "steam room"
+    ],
+    "tts": [
+      "man in steam room: dark skin tone"
+    ]
+  },
+  "👨🏼‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair facing right",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair facing right"
+    ]
+  },
+  "🏄🏽": {
+    "default": [
+      "medium skin tone",
+      "person surfing",
+      "person surfing: medium skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🕵🏾‍♂": {
+    "default": [
+      "detective",
+      "investigator",
+      "man",
+      "man detective: medium-dark skin tone",
+      "medium-dark skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🛋": {
+    "default": [
+      "couch",
+      "couch and lamp",
+      "hotel",
+      "lamp",
+      "sofa",
+      "sofa and lamp"
+    ],
+    "tts": []
+  },
+  "🏌‍♂": {
+    "default": [
+      "golf",
+      "golfer",
+      "man",
+      "man golfing"
+    ],
+    "tts": []
+  },
+  "📻": {
+    "default": [
+      "AM",
+      "FM",
+      "radio",
+      "wireless"
+    ],
+    "tts": []
+  },
+  "🚼": {
+    "default": [
+      "baby",
+      "baby symbol",
+      "change room",
+      "changing"
+    ],
+    "tts": []
+  },
+  "🕵🏽‍♂": {
+    "default": [
+      "detective",
+      "investigator",
+      "man",
+      "man detective: medium skin tone",
+      "medium skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🏊": {
+    "default": [
+      "person swimming",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🩲": {
+    "default": [
+      "bathers",
+      "briefs",
+      "speedos",
+      "underwear"
+    ],
+    "tts": []
+  },
+  "👰🏽‍♀": {
+    "default": [
+      "bride",
+      "medium skin tone",
+      "veil",
+      "woman",
+      "woman with veil",
+      "woman with veil: medium skin tone"
+    ],
+    "tts": []
+  },
+  "‼": {
+    "default": [
+      "double exclamation mark",
+      "exclamation",
+      "mark",
+      "punctuation"
+    ],
+    "tts": []
+  },
+  "🟰": {
+    "default": [
+      "equality",
+      "heavy equals sign",
+      "maths"
+    ],
+    "tts": []
+  },
+  "🚴🏽‍♂": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "man",
+      "man riding a bike",
+      "man riding a bike: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": [
+      "man riding a bike: medium skin tone"
+    ]
+  },
+  "💇🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "haircut",
+      "hairdresser",
+      "woman",
+      "woman getting haircut"
+    ],
+    "tts": []
+  },
+  "🏊‍♀": {
+    "default": [
+      "swim",
+      "swimmer",
+      "woman",
+      "woman swimming"
+    ],
+    "tts": []
+  },
+  "🖖🏿": {
+    "default": [
+      "dark skin tone",
+      "finger",
+      "hand",
+      "spock",
+      "vulcan",
+      "Vulcan salute",
+      "Vulcan salute: dark skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: dark skin tone"
+    ]
+  },
+  "🎅🏿": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "dark skin tone",
+      "Father Christmas",
+      "Santa",
+      "Santa Claus",
+      "Santa: dark skin tone"
+    ],
+    "tts": [
+      "Santa: dark skin tone"
+    ]
+  },
+  "👨🏽‍💼": {
+    "default": [
+      "business man",
+      "man office worker",
+      "man office worker: medium skin tone",
+      "manager",
+      "medium skin tone",
+      "office worker",
+      "white collar"
+    ],
+    "tts": []
+  },
+  "🏊🏾": {
+    "default": [
+      "medium-dark skin tone",
+      "person swimming",
+      "person swimming: medium-dark skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "💊": {
+    "default": [
+      "capsule",
+      "doctor",
+      "medicine",
+      "pill",
+      "sick"
+    ],
+    "tts": []
+  },
+  "😱": {
+    "default": [
+      "face",
+      "face screaming in fear",
+      "fear",
+      "Munch",
+      "scared",
+      "scream"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "medium skin tone",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair: medium skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair: medium skin tone"
+    ]
+  },
+  "🛌🏻": {
+    "default": [
+      "hotel",
+      "light skin tone",
+      "person in bed",
+      "person in bed: light skin tone",
+      "sleep",
+      "sleeping"
+    ],
+    "tts": []
+  },
+  "👦🏼": {
+    "default": [
+      "boy",
+      "boy: medium-light skin tone",
+      "medium-light skin tone",
+      "young",
+      "young person"
+    ],
+    "tts": []
+  },
+  "♾": {
+    "default": [
+      "eternal",
+      "forever",
+      "infinity",
+      "unbound",
+      "universal"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "man",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🙌🏼": {
+    "default": [
+      "celebration",
+      "gesture",
+      "hand",
+      "hooray",
+      "medium-light skin tone",
+      "raised",
+      "raising hands"
+    ],
+    "tts": []
+  },
+  "⛸": {
+    "default": [
+      "ice",
+      "ice skating",
+      "skate"
+    ],
+    "tts": []
+  },
+  "🧖🏽‍♂": {
+    "default": [
+      "man in steam room",
+      "man in steam room: medium skin tone",
+      "man in steamy room",
+      "medium skin tone",
+      "sauna",
+      "steam room"
+    ],
+    "tts": [
+      "man in steam room: medium skin tone"
+    ]
+  },
+  "🤵🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "tux",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "💹": {
+    "default": [
+      "chart",
+      "chart increasing with yen",
+      "graph",
+      "graph increasing with yen",
+      "growth",
+      "money",
+      "yen"
+    ],
+    "tts": [
+      "graph increasing with yen"
+    ]
+  },
+  "🧑🏾‍🔧": {
+    "default": [
+      "electrician",
+      "mechanic",
+      "medium-dark skin tone",
+      "plumber",
+      "tradesperson",
+      "tradie"
+    ],
+    "tts": []
+  },
+  "🚷": {
+    "default": [
+      "denied",
+      "forbidden",
+      "no",
+      "no pedestrians",
+      "pedestrian",
+      "prohibited"
+    ],
+    "tts": []
+  },
+  "🪞": {
+    "default": [
+      "looking glass",
+      "mirror",
+      "reflection",
+      "reflector"
+    ],
+    "tts": []
+  },
+  "🏌🏽‍♀": {
+    "default": [
+      "golf",
+      "golfer",
+      "medium skin tone",
+      "woman",
+      "woman golfing",
+      "woman golfing: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🦀": {
+    "default": [
+      "crab",
+      "crustacean",
+      "seafood",
+      "shellfish"
+    ],
+    "tts": []
+  },
+  "🛠": {
+    "default": [
+      "hammer",
+      "hammer and spanner",
+      "hammer and wrench",
+      "spanner",
+      "tool",
+      "wrench"
+    ],
+    "tts": []
+  },
+  "🤵🏾‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "medium-dark skin tone",
+      "tux",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "🚴‍♂": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "man",
+      "man riding a bike"
+    ],
+    "tts": [
+      "man riding a bike"
+    ]
+  },
+  "🍊": {
+    "default": [
+      "fruit",
+      "mandarin",
+      "orange"
+    ],
+    "tts": [
+      "mandarin"
+    ]
+  },
+  "⛽": {
+    "default": [
+      "diesel",
+      "fuel",
+      "gas",
+      "petrol pump",
+      "pump",
+      "station"
+    ],
+    "tts": [
+      "petrol pump"
+    ]
+  },
+  "🏄🏻": {
+    "default": [
+      "light skin tone",
+      "person surfing",
+      "person surfing: light skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🚣🏿": {
+    "default": [
+      "boat",
+      "dark skin tone",
+      "person",
+      "person rowing boat",
+      "person rowing boat: dark skin tone",
+      "rowboat"
+    ],
+    "tts": []
+  },
+  "🇰🇳": {
+    "default": [
+      "flag",
+      "flag: St. Kitts & Nevis"
+    ],
+    "tts": [
+      "flag: St. Kitts & Nevis"
+    ]
+  },
+  "🚴🏽": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "medium skin tone",
+      "person biking",
+      "person riding a bike",
+      "person riding a bike: medium skin tone"
+    ],
+    "tts": [
+      "person riding a bike: medium skin tone"
+    ]
+  },
+  "🦑": {
+    "default": [
+      "decapod",
+      "seafood",
+      "squid"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "light skin tone",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane: light skin tone"
+    ],
+    "tts": [
+      "person with long mobility cane: light skin tone"
+    ]
+  },
+  "🚯": {
+    "default": [
+      "denied",
+      "forbidden",
+      "litter",
+      "no",
+      "no littering",
+      "prohibited"
+    ],
+    "tts": []
+  },
+  "🥬": {
+    "default": [
+      "bok choy",
+      "leafy green",
+      "pak choi"
+    ],
+    "tts": []
+  },
+  "🛀🏻": {
+    "default": [
+      "bath",
+      "bathtub",
+      "light skin tone",
+      "person taking bath",
+      "person taking bath: light skin tone",
+      "tub"
+    ],
+    "tts": []
+  },
+  "🚴🏿‍♀": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "dark skin tone",
+      "woman",
+      "woman riding a bike",
+      "woman riding a bike: dark skin tone"
+    ],
+    "tts": [
+      "woman riding a bike: dark skin tone"
     ]
   },
   "🥝": {
@@ -2118,11 +4290,110 @@
     ],
     "tts": []
   },
-  "👨‍🚒": {
+  "🤶🏻": {
     "default": [
-      "fire truck",
-      "firefighter",
-      "man"
+      "celebration",
+      "Christmas",
+      "light skin tone",
+      "Mrs Claus",
+      "Mrs Santa Claus",
+      "Mrs. Claus",
+      "Mrs. Claus: light skin tone"
+    ],
+    "tts": []
+  },
+  "🦌": {
+    "default": [
+      "deer",
+      "stag"
+    ],
+    "tts": []
+  },
+  "➖": {
+    "default": [
+      "-",
+      "–",
+      "math",
+      "maths",
+      "minus",
+      "sign",
+      "subtraction"
+    ],
+    "tts": []
+  },
+  "👧": {
+    "default": [
+      "girl",
+      "Virgo",
+      "young person",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "light skin tone",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair: light skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair: light skin tone"
+    ]
+  },
+  "🥏": {
+    "default": [
+      "flying disc",
+      "frisbee",
+      "ultimate"
+    ],
+    "tts": [
+      "frisbee"
+    ]
+  },
+  "🤹🏼": {
+    "default": [
+      "balance",
+      "juggle",
+      "medium-light skin tone",
+      "multi-task",
+      "person juggling",
+      "person juggling: medium-light skin tone",
+      "skill"
+    ],
+    "tts": []
+  },
+  "🛌": {
+    "default": [
+      "hotel",
+      "person in bed",
+      "sleep",
+      "sleeping"
+    ],
+    "tts": []
+  },
+  "🧿": {
+    "default": [
+      "amulet",
+      "charm",
+      "evil-eye",
+      "nazar",
+      "talisman"
+    ],
+    "tts": [
+      "evil-eye amulet"
+    ]
+  },
+  "🤵‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "tux",
+      "tuxedo"
     ],
     "tts": []
   },
@@ -2139,46 +4410,257 @@
       "light globe"
     ]
   },
-  "🏌‍♂": {
+  "🧬": {
+    "default": [
+      "biologist",
+      "DNA",
+      "evolution",
+      "gene",
+      "genetics",
+      "life"
+    ],
+    "tts": [
+      "DNA"
+    ]
+  },
+  "🏌🏼‍♂": {
     "default": [
       "golf",
       "golfer",
       "man",
-      "man golfing"
+      "man golfing",
+      "man golfing: medium-light skin tone",
+      "medium-light skin tone"
     ],
     "tts": []
   },
-  "➕": {
+  "🐛": {
     "default": [
-      "+",
-      "add",
-      "addition",
-      "math",
-      "maths",
-      "plus",
-      "sign"
-    ],
-    "tts": []
-  },
-  "🍨": {
-    "default": [
-      "cream",
-      "dessert",
-      "ice cream",
-      "sweet"
-    ],
-    "tts": []
-  },
-  "🍦": {
-    "default": [
-      "cream",
-      "dessert",
-      "ice cream",
-      "soft serve",
-      "sweet"
+      "bug",
+      "caterpillar",
+      "insect",
+      "worm"
     ],
     "tts": [
-      "soft serve"
+      "caterpillar"
+    ]
+  },
+  "🏌🏾‍♀": {
+    "default": [
+      "golf",
+      "golfer",
+      "medium-dark skin tone",
+      "woman",
+      "woman golfing",
+      "woman golfing: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🚴🏻‍♀": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "light skin tone",
+      "woman",
+      "woman riding a bike",
+      "woman riding a bike: light skin tone"
+    ],
+    "tts": [
+      "woman riding a bike: light skin tone"
+    ]
+  },
+  "🇱🇨": {
+    "default": [
+      "flag",
+      "flag: St. Lucia"
+    ],
+    "tts": [
+      "flag: St. Lucia"
+    ]
+  },
+  "🎟": {
+    "default": [
+      "admission",
+      "admission tickets",
+      "entry",
+      "ticket"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "fire truck",
+      "firefighter",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🚴🏽‍♀": {
+    "default": [
+      "bicycle",
+      "cycling",
+      "cyclist",
+      "medium skin tone",
+      "woman",
+      "woman riding a bike",
+      "woman riding a bike: medium skin tone"
+    ],
+    "tts": [
+      "woman riding a bike: medium skin tone"
+    ]
+  },
+  "🏊🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "swim",
+      "swimmer",
+      "woman",
+      "woman swimming",
+      "woman swimming: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🦯‍➡": {
+    "default": [
+      "accessibility",
+      "blind",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane facing right"
+    ],
+    "tts": [
+      "person with long mobility cane facing right"
+    ]
+  },
+  "🧢": {
+    "default": [],
+    "tts": [
+      "baseball cap"
+    ]
+  },
+  "👨‍💼": {
+    "default": [
+      "business man",
+      "man office worker",
+      "manager",
+      "office worker",
+      "white collar"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "medium-dark skin tone",
+      "woman"
+    ],
+    "tts": []
+  },
+  "💇🏾‍♀": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "medium-dark skin tone",
+      "woman",
+      "woman getting haircut"
+    ],
+    "tts": []
+  },
+  "🤹🏻‍♀": {
+    "default": [
+      "juggling",
+      "light skin tone",
+      "multi-task",
+      "woman",
+      "woman juggling: light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🦼‍➡": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair facing right"
+    ],
+    "tts": [
+      "woman in motorised wheelchair facing right"
+    ]
+  },
+  "🥢": {
+    "default": [
+      "chopsticks",
+      "pair of chopsticks"
+    ],
+    "tts": []
+  },
+  "🚦": {
+    "default": [
+      "lights",
+      "signal",
+      "traffic",
+      "vertical traffic lights"
+    ],
+    "tts": [
+      "vertical traffic lights"
+    ]
+  },
+  "🥡": {
+    "default": [
+      "takeaway container",
+      "takeout"
+    ],
+    "tts": [
+      "takeaway container"
+    ]
+  },
+  "🏊🏽‍♂": {
+    "default": [
+      "man",
+      "man swimming",
+      "man swimming: medium skin tone",
+      "medium skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🫘": {
+    "default": [
+      "food",
+      "kidney bean",
+      "kidney beans",
+      "legume"
+    ],
+    "tts": [
+      "kidney beans"
+    ]
+  },
+  "🤹🏻": {
+    "default": [
+      "balance",
+      "juggle",
+      "light skin tone",
+      "multi-task",
+      "person juggling",
+      "person juggling: light skin tone",
+      "skill"
+    ],
+    "tts": []
+  },
+  "🥅": {
+    "default": [
+      "goal",
+      "goal cage",
+      "net"
+    ],
+    "tts": [
+      "goal cage"
     ]
   },
   "🚴‍♀": {
@@ -2193,80 +4675,24 @@
       "woman riding a bike"
     ]
   },
-  "😱": {
+  "💇🏼‍♂": {
     "default": [
-      "face",
-      "face screaming in fear",
-      "fear",
-      "Munch",
-      "scared",
-      "scream"
+      "haircut",
+      "hairdresser",
+      "man",
+      "man getting haircut",
+      "medium-light skin tone"
     ],
     "tts": []
   },
-  "♣": {
+  "🩳": {
     "default": [
-      "card",
-      "club suit",
-      "clubs",
-      "game"
-    ],
-    "tts": []
-  },
-  "🩲": {
-    "default": [
-      "bathers",
-      "briefs",
-      "speedos",
+      "bathing suit",
+      "boardies",
+      "boardshorts",
+      "shorts",
+      "swim shorts",
       "underwear"
-    ],
-    "tts": []
-  },
-  "🛀": {
-    "default": [
-      "bath",
-      "bathtub",
-      "person taking bath",
-      "tub"
-    ],
-    "tts": []
-  },
-  "🎠": {
-    "default": [
-      "carousel",
-      "horse",
-      "merry-go-round"
-    ],
-    "tts": [
-      "merry-go-round"
-    ]
-  },
-  "☎": {
-    "default": [
-      "landline",
-      "phone",
-      "telephone"
-    ],
-    "tts": []
-  },
-  "🛣": {
-    "default": [
-      "freeway",
-      "highway",
-      "road"
-    ],
-    "tts": [
-      "freeway"
-    ]
-  },
-  "😈": {
-    "default": [
-      "devil",
-      "face",
-      "fantasy",
-      "horns",
-      "smile",
-      "smiling face with horns"
     ],
     "tts": []
   },
@@ -2282,43 +4708,282 @@
       "battered prawn"
     ]
   },
-  "🧑‍🦯": {
+  "👩🏾‍🦼‍➡": {
     "default": [
       "accessibility",
-      "blind",
-      "person with guide cane",
-      "person with long mobility cane"
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair facing right"
     ],
     "tts": [
-      "person with long mobility cane"
+      "woman in motorised wheelchair facing right"
     ]
   },
-  "👕": {
+  "🏊🏽‍♀": {
     "default": [
-      "clothing",
-      "shirt",
-      "T-shirt",
-      "tee",
-      "tshirt"
+      "medium skin tone",
+      "swim",
+      "swimmer",
+      "woman",
+      "woman swimming",
+      "woman swimming: medium skin tone"
     ],
     "tts": []
   },
-  "🫚": {
+  "👩🏿‍🦼": {
     "default": [
-      "beer",
-      "ginger",
-      "root",
-      "spice"
+      "accessibility",
+      "dark skin tone",
+      "electric wheelchair",
+      "wheelchair",
+      "woman",
+      "woman in motorised wheelchair",
+      "woman in motorised wheelchair: dark skin tone"
     ],
     "tts": [
-      "ginger"
+      "woman in motorised wheelchair: dark skin tone"
     ]
   },
-  "📡": {
+  "👩🏼‍🎨": {
+    "default": [
+      "artist",
+      "medium-light skin tone",
+      "painter",
+      "palette",
+      "woman",
+      "woman artist: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👰🏼‍♀": {
+    "default": [
+      "bride",
+      "medium-light skin tone",
+      "veil",
+      "woman",
+      "woman with veil",
+      "woman with veil: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🚣🏼": {
+    "default": [
+      "boat",
+      "medium-light skin tone",
+      "person",
+      "person rowing boat",
+      "person rowing boat: medium-light skin tone",
+      "rowboat"
+    ],
+    "tts": []
+  },
+  "💇🏻‍♀": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "light skin tone",
+      "woman",
+      "woman getting haircut"
+    ],
+    "tts": []
+  },
+  "🏄🏼‍♂": {
+    "default": [
+      "man",
+      "man surfing: medium-light skin tone",
+      "medium-light skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "⛱": {
+    "default": [
+      "beach",
+      "sand",
+      "sun",
+      "umbrella"
+    ],
+    "tts": [
+      "beach umbrella"
+    ]
+  },
+  "🥟": {
+    "default": [
+      "dumpling",
+      "empanada",
+      "gyōza",
+      "pastie",
+      "samosa"
+    ],
+    "tts": []
+  },
+  "🚱": {
+    "default": [
+      "non-drinkable water",
+      "non-drinking",
+      "non-potable",
+      "water"
+    ],
+    "tts": [
+      "non-drinkable water"
+    ]
+  },
+  "🎁": {
     "default": [],
     "tts": [
-      "satellite dish"
+      "gift"
     ]
+  },
+  "👙": {
+    "default": [
+      "bikini",
+      "clothing",
+      "swim suit",
+      "two-piece"
+    ],
+    "tts": []
+  },
+  "🧖🏾‍♀": {
+    "default": [
+      "medium-dark skin tone",
+      "sauna",
+      "steam room",
+      "woman in steam room",
+      "woman in steam room: medium-dark skin tone",
+      "woman in steamy room"
+    ],
+    "tts": [
+      "woman in steam room: medium-dark skin tone"
+    ]
+  },
+  "🧑🏿‍🦼": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "electric wheelchair",
+      "person in motorised wheelchair",
+      "person in motorised wheelchair: dark skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "person in motorised wheelchair: dark skin tone"
+    ]
+  },
+  "👨🏼‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "man in motorised wheelchair: medium-light skin tone",
+      "medium-light skin tone",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair: medium-light skin tone"
+    ]
+  },
+  "👦🏻": {
+    "default": [
+      "boy",
+      "boy: light skin tone",
+      "light skin tone",
+      "young",
+      "young person"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "dark skin tone",
+      "person with guide cane",
+      "person with long mobility cane",
+      "person with long mobility cane: dark skin tone"
+    ],
+    "tts": [
+      "person with long mobility cane: dark skin tone"
+    ]
+  },
+  "🧖🏼‍♂": {
+    "default": [
+      "man in steam room",
+      "man in steam room: medium-light skin tone",
+      "man in steamy room",
+      "medium-light skin tone",
+      "sauna",
+      "steam room"
+    ],
+    "tts": [
+      "man in steam room: medium-light skin tone"
+    ]
+  },
+  "🏌🏽": {
+    "default": [
+      "ball",
+      "golf",
+      "golfer",
+      "medium skin tone",
+      "person golfing",
+      "person golfing: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🤵🏽‍♂": {
+    "default": [
+      "man",
+      "man in tux",
+      "man in tuxedo",
+      "medium skin tone",
+      "tux",
+      "tuxedo"
+    ],
+    "tts": []
+  },
+  "🧖‍♀": {
+    "default": [
+      "sauna",
+      "steam room",
+      "woman in steam room",
+      "woman in steamy room"
+    ],
+    "tts": [
+      "woman in steam room"
+    ]
+  },
+  "🐨": {
+    "default": [
+      "koala",
+      "marsupial"
+    ],
+    "tts": []
+  },
+  "🚴🏾": {
+    "default": [
+      "bicycle",
+      "biking",
+      "cyclist",
+      "medium-dark skin tone",
+      "person biking",
+      "person riding a bike",
+      "person riding a bike: medium-dark skin tone"
+    ],
+    "tts": [
+      "person riding a bike: medium-dark skin tone"
+    ]
+  },
+  "♣": {
+    "default": [
+      "card",
+      "club suit",
+      "clubs",
+      "game"
+    ],
+    "tts": []
   },
   "🚟": {
     "default": [
@@ -2330,7 +4995,185 @@
       "cable railway"
     ]
   },
-  "🧑‍🦯‍➡": {
+  "🏄🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "surfer",
+      "surfing",
+      "woman",
+      "woman surfing: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧃": {
+    "default": [
+      "drink carton",
+      "juice box",
+      "popper"
+    ],
+    "tts": [
+      "drink carton"
+    ]
+  },
+  "👨🏾‍🎨": {
+    "default": [
+      "artist",
+      "man",
+      "man artist: medium-dark skin tone",
+      "medium-dark skin tone",
+      "painter",
+      "palette"
+    ],
+    "tts": []
+  },
+  "🕵🏻‍♂": {
+    "default": [
+      "detective",
+      "investigator",
+      "light skin tone",
+      "man",
+      "man detective: light skin tone",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "💇🏽‍♂": {
+    "default": [
+      "haircut",
+      "hairdresser",
+      "man",
+      "man getting haircut",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🇲🇫": {
+    "default": [
+      "flag",
+      "flag: St. Martin"
+    ],
+    "tts": [
+      "flag: St. Martin"
+    ]
+  },
+  "🗻": {
+    "default": [
+      "Fuji",
+      "mount Fuji",
+      "mountain"
+    ],
+    "tts": [
+      "mount Fuji"
+    ]
+  },
+  "👨🏾‍💼": {
+    "default": [
+      "business man",
+      "man office worker",
+      "man office worker: medium-dark skin tone",
+      "manager",
+      "medium-dark skin tone",
+      "office worker",
+      "white collar"
+    ],
+    "tts": []
+  },
+  "👩‍💼": {
+    "default": [
+      "business woman",
+      "manager",
+      "office worker",
+      "white collar",
+      "woman office worker"
+    ],
+    "tts": []
+  },
+  "🏄🏻‍♀": {
+    "default": [
+      "light skin tone",
+      "surfer",
+      "surfing",
+      "woman",
+      "woman surfing: light skin tone"
+    ],
+    "tts": []
+  },
+  "💻": {
+    "default": [
+      "computer",
+      "laptop",
+      "PC",
+      "personal"
+    ],
+    "tts": []
+  },
+  "🏌🏾‍♂": {
+    "default": [
+      "golf",
+      "golfer",
+      "man",
+      "man golfing",
+      "man golfing: medium-dark skin tone",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👨‍🦼": {
+    "default": [
+      "accessibility",
+      "electric wheelchair",
+      "man",
+      "man in motorised wheelchair",
+      "wheelchair"
+    ],
+    "tts": [
+      "man in motorised wheelchair"
+    ]
+  },
+  "🏄🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "man",
+      "man surfing: dark skin tone",
+      "surfer",
+      "surfing"
+    ],
+    "tts": []
+  },
+  "🏷": {
+    "default": [
+      "label",
+      "tag"
+    ],
+    "tts": []
+  },
+  "🏊🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "man",
+      "man swimming",
+      "man swimming: dark skin tone",
+      "swim",
+      "swimmer"
+    ],
+    "tts": []
+  },
+  "🖖🏻": {
+    "default": [
+      "finger",
+      "hand",
+      "light skin tone",
+      "spock",
+      "vulcan",
+      "Vulcan salute",
+      "Vulcan salute: light skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: light skin tone"
+    ]
+  },
+  "🧑🏻‍🦯‍➡": {
     "default": [
       "accessibility",
       "blind",
@@ -2342,24 +5185,26 @@
       "person with long mobility cane facing right"
     ]
   },
-  "🪝": {
+  "🏉": {
     "default": [
-      "catch",
-      "crook",
-      "curve",
-      "ensnare",
-      "fishing",
-      "hook",
-      "selling point"
+      "australian football",
+      "rugby ball",
+      "rugby league",
+      "rugby union"
     ],
-    "tts": []
+    "tts": [
+      "rugby ball"
+    ]
   },
-  "⌛": {
+  "🦟": {
     "default": [
-      "hourglass",
-      "hourglass done",
-      "sand",
-      "timer"
+      "dengue",
+      "fever",
+      "insect",
+      "malaria",
+      "mosquito",
+      "mozzie",
+      "virus"
     ],
     "tts": []
   }
