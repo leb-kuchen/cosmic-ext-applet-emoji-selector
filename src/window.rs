@@ -1,5 +1,5 @@
 use std::borrow::Cow;
-use std::collections::HashMap;
+use std::collections::{HashMap, VecDeque};
 
 use crate::config::{Annotation, ClickMode, ColorButton, SkinToneMode};
 use crate::config::{Config, CONFIG_VERSION};
@@ -29,7 +29,7 @@ pub struct Window {
     viewport: Option<widget_copy::scrollable::Viewport>,
     all_emojis: Vec<&'static emojis::Emoji>,
     emojis_filtered: Vec<&'static emojis::Emoji>,
-    favorites_filtered: Vec<&'static emojis::Emoji>,
+    favorites_filtered: VecDeque<&'static emojis::Emoji>,
     annotations: HashMap<String, Annotation>,
     core: Core,
     popup: Option<Id>,
@@ -108,7 +108,7 @@ impl cosmic::Application for Window {
             viewport: None,
             all_emojis,
             emojis_filtered,
-            favorites_filtered: Vec::new(),
+            favorites_filtered: VecDeque::new(),
             font_family,
             scrollable_id: widget::Id::unique(),
             selected_group,
@@ -229,12 +229,20 @@ impl cosmic::Application for Window {
                 }
                 if click_mode.intersects(ClickMode::COPY) {
                     if !click_mode.intersects(ClickMode::PRIVATE) {
+                        // todo dedup
                         let mut last_used = self.config.last_used.clone();
                         if let Some(idx) = last_used.iter().position(|&e| e == emoji) {
                             last_used.remove(idx);
                         }
                         last_used.push_front(emoji);
                         last_used.truncate(self.config.last_used_limit);
+                        if let Some(idx) = self.favorites_filtered.iter().position(|&e| e == emoji)
+                        {
+                            self.favorites_filtered.remove(idx);
+                        }
+                        self.favorites_filtered.push_front(emoji);
+                        self.favorites_filtered
+                            .truncate(self.config.last_used_limit);
                         config_set!(last_used, last_used);
                     }
                     commands.push(iced::clipboard::write(emoji.to_string()))
@@ -242,6 +250,10 @@ impl cosmic::Application for Window {
 
                 if click_mode.intersects(ClickMode::CLOSE) {
                     commands.push(cosmic::command::message(Message::Exit));
+                }
+                if click_mode.intersects(ClickMode::CLEAR_SEARCH) {
+                    self.search.clear();
+                    commands.push(cosmic::command::message(Message::Search(String::new())))
                 }
                 return Command::batch(commands);
             }
@@ -273,13 +285,16 @@ impl cosmic::Application for Window {
                         } else {
                             skin_tones_config.contains(emjoji_skin_tone_mode)
                         };
-                    if config_skin_tone_contains_emoji
-                        && (self.search.is_empty()
-                            || self.emoji_name_localized(emoji).contains(&self.search))
+
+                    let emojis_in_conf = self.config.last_used.contains(emoji);
+                    if self.search.is_empty()
+                        || self.emoji_name_localized(emoji).contains(&self.search)
                     {
-                        self.emojis_filtered.push(emoji);
-                        if self.config.last_used.contains(emoji) {
-                            self.favorites_filtered.push(emoji);
+                        if config_skin_tone_contains_emoji {
+                            self.emojis_filtered.push(emoji);
+                        }
+                        if emojis_in_conf {
+                            self.favorites_filtered.push_back(emoji);
                         }
                     }
                 }
@@ -479,9 +494,21 @@ impl Window {
 
     fn group_icons(&self) -> widget::Row<Message> {
         let mut groups = widget::row::with_capacity(9).width(Length::Fill);
-
+        use crate::style_copy::button;
         for group in emojis::Group::iter() {
             let is_selected = self.selected_group.is_some_and(|sel| sel == group);
+            let buton_style = cosmic::theme::Button::Custom {
+                active: Box::new(move |focused, theme| {
+                    button::active(theme, focused, is_selected, button::Button::Icon)
+                }),
+                pressed: Box::new(move |focused, theme| {
+                    button::pressed(theme, focused, is_selected, button::Button::Icon)
+                }),
+                hovered: Box::new(move |focused, theme| {
+                    button::hovered(theme, focused, is_selected, button::Button::Icon)
+                }),
+                disabled: Box::new(|_theme| widget::button::Appearance::new()),
+            };
             let group_btn =
                 widget::button::icon(widget::icon::from_name(group_icon(group)).symbolic(true))
                     .font_size(20)
@@ -489,6 +516,7 @@ impl Window {
                     .line_height(24)
                     .padding(cosmic::theme::active().cosmic().space_xxs())
                     .selected(is_selected)
+                    .style(buton_style)
                     .on_press(Message::Group((!is_selected).then_some(group)))
                     .apply(widget::container)
                     .width(Length::Fill)
@@ -533,7 +561,7 @@ impl Window {
     fn emoji_selected(&self) -> Option<&'static emojis::Emoji> {
         let emoji_opt = self
             .emoji_hovered
-            .or_else(|| self.favorites_filtered.first().copied())
+            .or_else(|| self.favorites_filtered.front().copied())
             .or_else(|| self.emojis_filtered.first().copied());
         emoji_opt
     }
@@ -614,7 +642,7 @@ impl Window {
             preview_row = preview_row.push(widget::horizontal_space(Length::Fill));
             preview_row = preview_row.push(color_buttons);
         }
-        use cosmic::prelude::ElementExt;
+        // use cosmic::prelude::ElementExt;
         return widget::container(preview_row)
             .height(50)
             .max_height(50)

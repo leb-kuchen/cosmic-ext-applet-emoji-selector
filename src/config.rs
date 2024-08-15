@@ -76,6 +76,7 @@ bitflags! {
         const CLOSE = 1 << 1;
         const APPEND_SEARCH = 1 << 2;
         const PRIVATE = 1 << 3;
+        const CLEAR_SEARCH = 1 << 4;
     }
 
 }

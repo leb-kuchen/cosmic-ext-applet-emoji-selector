@@ -6,11 +6,11 @@
 
 Skin tones are represented as a `uint32`.
 If bits 8 to 28 are set, the skin tone is matched exactly.
-Bits 28 and 29 only change the filter mode and to not correspond to a skin tone.
+Bits 28 and 29 only change the filter mode and do not correspond to a skin tone.
 `NO_SKIN` is used to represent emojis without a skin tone, and `OTHER` is used for any future skin tones.
 By default only the six least-significant bits are modified by the application.
 The two most-significant bits must not be set.
-However these bits could be set in the future.
+However these bits could be used in the future.
 
 ```rs
 const DEFAULT = 1;
