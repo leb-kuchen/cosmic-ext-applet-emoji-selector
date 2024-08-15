@@ -3,6 +3,11 @@ name = "cosmic-applet-emoji-selector"
 version = "0.1.4"
 edition = "2021"
 
+[features]
+wayland = []
+a11y = []
+default = ["wayland"]
+
 [dependencies]
 
 i18n-embed = { version = "0.14.1", features = [

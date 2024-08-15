@@ -704,8 +704,9 @@ pub fn update<Message>(
         }
 
         #[cfg(feature = "wayland")]
-        if let Event::PlatformSpecific(iced_runtime::core::event::PlatformSpecific::Wayland(e)) =
-            &mut event
+        if let Event::PlatformSpecific(
+            cosmic::iced_runtime::core::event::PlatformSpecific::Wayland(e),
+        ) = &mut event
         {
             e.translate(translation);
         }
