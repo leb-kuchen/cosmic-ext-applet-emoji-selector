@@ -1,6 +1,5 @@
 use std::borrow::Cow;
 use std::collections::HashMap;
-use std::iter;
 
 use crate::config::{Annotation, ClickMode, ColorButton, SkinToneMode};
 use crate::config::{Config, CONFIG_VERSION};
@@ -14,7 +13,6 @@ use cosmic::iced::window::Id;
 #[allow(unused_imports)]
 use cosmic::iced::{alignment, Alignment, Length};
 use cosmic::iced::{Command, Limits};
-use cosmic::iced_core::mouse::click;
 use cosmic::iced_futures::Subscription;
 use cosmic::iced_runtime::core::window;
 use cosmic::iced_style::application;
@@ -235,7 +233,7 @@ impl cosmic::Application for Window {
                         if let Some(idx) = last_used.iter().position(|&e| e == emoji) {
                             last_used.remove(idx);
                         }
-                        last_used.insert(0, emoji);
+                        last_used.push_front(emoji);
                         last_used.truncate(self.config.last_used_limit);
                         config_set!(last_used, last_used);
                     }
@@ -328,9 +326,9 @@ impl cosmic::Application for Window {
             .into()
     }
     fn view_window(&self, _id: Id) -> Element<Self::Message> {
-        let mut content = widget::column::with_capacity(8).padding([8, 8]).spacing(8);
-        // let theme = cosmic::theme::active();
-        // let cosmic_theme = theme.cosmic();
+        let mut content = widget::column::with_capacity(4)
+            .padding([8, 8])
+            .spacing(cosmic::theme::active().cosmic().space_xxs());
 
         let groups = self.group_icons();
         content = content.push(groups);
@@ -338,57 +336,13 @@ impl cosmic::Application for Window {
         let search = self.search();
         content = content.push(search);
 
-        let flex_row_history = self.emojis_flex(&self.favorites_filtered);
-        content = content.push(flex_row_history);
+        let preview = self.preview();
+        content = content.push(preview);
 
-        // preview start
-        let preview_emoji_opt = self.emoji_selected();
-        let mut preview_row = widget::row();
-        match preview_emoji_opt {
-            Some(preview_emoji) => {
-                // dup 1
-                let emoji_txt = widget::text(preview_emoji.as_str())
-                    .size(35)
-                    .width(50)
-                    .height(50)
-                    .font(self.font_family)
-                    .shaping(iced_core::text::Shaping::Advanced)
-                    .wrap(iced::widget::text::Wrap::None)
-                    .horizontal_alignment(alignment::Horizontal::Center)
-                    .vertical_alignment(alignment::Vertical::Center);
-                preview_row = preview_row
-                    .push(emoji_txt)
-                    .push(widget::text(self.emoji_name_localized(preview_emoji)));
-            }
-            None => {
-                let group_str = self
-                    .selected_group
-                    .map_or_else(|| fl!("emojis-and-favorites"), group_string);
-                preview_row = preview_row.push(widget::text(group_str));
-            }
-        }
-        // preview end
-        if show_color_buttons(self.selected_group) {
-            let color_buttons = self.color_buttons();
-            preview_row = preview_row.push(color_buttons);
-        }
+        let emojis_section = self.emojis_section();
+        content = content.push(emojis_section);
 
-        content = content.push(preview_row);
-
-        let flex_row = self.emojis_flex(&self.emojis_filtered);
-        // .debug(true);
-
-        let container = flex_row
-            .apply(widget_copy::Scrollable::new)
-            .id(self.scrollable_id.clone())
-            .height(Length::Fill)
-            .width(Length::Fill)
-            .on_scroll(Message::ScrollViewport)
-            .apply(widget::container)
-            .width(Length::Fill)
-            .height(500);
-        content = content.push(container);
-        self.core.applet.popup_container(content).into()
+        return self.core.applet.popup_container(content).into();
     }
     fn subscription(&self) -> Subscription<Self::Message> {
         struct ConfigSubscription;
@@ -464,8 +418,12 @@ impl Window {
         ]);
     }
 
-    fn emojis_flex(&self, emojis_list: &[&'static emojis::Emoji]) -> widget::FlexRow<Message> {
-        let mut emojis_view = Vec::with_capacity(emojis_list.len());
+    fn emojis_flex(
+        &self,
+        emojis_list: impl IntoIterator<Item = &'static emojis::Emoji>,
+    ) -> widget::FlexRow<Message> {
+        let emojis_list = emojis_list.into_iter();
+        let mut emojis_view = Vec::with_capacity(emojis_list.size_hint().0);
 
         let left_click_action = self.config.left_click_action;
         let right_click_action = self.config.right_click_action;
@@ -512,6 +470,7 @@ impl Window {
     fn search(&self) -> widget::TextInput<Message> {
         let search = widget::search_input(fl!("search-for-emojis"), &self.search)
             .on_clear(Message::Search(String::new()))
+            .id(self.text_input_id.clone())
             .on_paste(Message::Search)
             .on_input(Message::Search)
             .on_submit(Message::Enter);
@@ -525,11 +484,15 @@ impl Window {
             let is_selected = self.selected_group.is_some_and(|sel| sel == group);
             let group_btn =
                 widget::button::icon(widget::icon::from_name(group_icon(group)).symbolic(true))
-                    .extra_small()
+                    .font_size(20)
+                    .icon_size(24)
+                    .line_height(24)
+                    .padding(cosmic::theme::active().cosmic().space_xxs())
                     .selected(is_selected)
                     .on_press(Message::Group((!is_selected).then_some(group)))
                     .apply(widget::container)
                     .width(Length::Fill)
+                    .center_y()
                     .center_x();
 
             groups = groups.push(group_btn);
@@ -573,6 +536,89 @@ impl Window {
             .or_else(|| self.favorites_filtered.first().copied())
             .or_else(|| self.emojis_filtered.first().copied());
         emoji_opt
+    }
+
+    fn emojis_section(&self) -> widget::Container<Message, Theme> {
+        let mut emojis_section =
+            widget::column::with_capacity(3).spacing(cosmic::theme::active().cosmic().space_xxs());
+        if !self.favorites_filtered.is_empty() {
+            let flex_row_history = self.emojis_flex(self.favorites_filtered.iter().copied());
+            emojis_section = emojis_section.push(flex_row_history);
+            emojis_section = emojis_section.push(widget::divider::horizontal::default());
+        }
+
+        let flex_row = self.emojis_flex(self.emojis_filtered.iter().copied());
+        emojis_section = emojis_section.push(flex_row);
+
+        let emojis_section_container = emojis_section
+            .apply(widget_copy::Scrollable::new)
+            .id(self.scrollable_id.clone())
+            .height(Length::Fill)
+            .width(Length::Fill)
+            .on_scroll(Message::ScrollViewport)
+            .apply(widget::container)
+            .width(Length::Fill)
+            .height(500);
+        emojis_section_container
+    }
+
+    fn preview(&self) -> widget::Container<Message, Theme> {
+        let preview_emoji_opt = self.emoji_selected();
+        let mut preview_row = widget::row()
+            .spacing(cosmic::theme::active().cosmic().space_xxs())
+            .align_items(Alignment::Center);
+        match preview_emoji_opt {
+            Some(preview_emoji) => {
+                // dup 1
+                let emoji_txt = widget::text(preview_emoji.as_str())
+                    .size(35)
+                    .width(50)
+                    .height(50)
+                    .font(self.font_family)
+                    .shaping(iced_core::text::Shaping::Advanced)
+                    .wrap(iced::widget::text::Wrap::None)
+                    .horizontal_alignment(alignment::Horizontal::Center)
+                    .vertical_alignment(alignment::Vertical::Center);
+                preview_row = preview_row.push(emoji_txt);
+                let mut name_column = widget::column::with_capacity(2);
+
+                let mut emoji_name = self.emoji_name_localized(preview_emoji);
+
+                let emoji_name_len = emoji_name.len();
+                let cut_off_idx = emoji_name
+                    .char_indices()
+                    .nth(40)
+                    .map_or(emoji_name_len, |(i, _)| i);
+                emoji_name = emoji_name.get(..cut_off_idx).unwrap_or(emoji_name);
+                let emoji_name = if emoji_name_len == emoji_name.len() {
+                    Cow::from(emoji_name)
+                } else {
+                    Cow::from(emoji_name.to_owned() + "...")
+                };
+
+                name_column = name_column.push(widget::text::body(emoji_name));
+                if let Some(shortcode) = preview_emoji.shortcode() {
+                    name_column = name_column.push(widget::text::caption(shortcode))
+                }
+                preview_row = preview_row.push(name_column);
+            }
+            None => {
+                let group_str = self
+                    .selected_group
+                    .map_or_else(|| fl!("emojis-and-favorites"), group_string);
+                preview_row = preview_row.push(widget::text::title1(group_str));
+            }
+        }
+        if show_color_buttons(self.selected_group) {
+            let color_buttons = self.color_buttons();
+            preview_row = preview_row.push(widget::horizontal_space(Length::Fill));
+            preview_row = preview_row.push(color_buttons);
+        }
+        use cosmic::prelude::ElementExt;
+        return widget::container(preview_row)
+            .height(50)
+            .max_height(50)
+            .center_y();
     }
 }
 macro_rules! icon {

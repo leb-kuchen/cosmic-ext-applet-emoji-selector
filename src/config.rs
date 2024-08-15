@@ -1,3 +1,5 @@
+use std::collections::VecDeque;
+
 use bitflags::bitflags;
 use cosmic::cosmic_config::{self, cosmic_config_derive::CosmicConfigEntry, CosmicConfigEntry};
 use serde::{Deserialize, Serialize};
@@ -16,7 +18,7 @@ pub struct Config {
     #[serde(default)]
     pub last_used_limit: usize,
     #[serde(default)]
-    pub last_used: Vec<&'static emojis::Emoji>,
+    pub last_used: VecDeque<&'static emojis::Emoji>,
     #[serde(default)]
     pub font_family: String,
     #[serde(default)]
@@ -47,7 +49,7 @@ impl Default for Config {
             .collect();
         Self {
             color_buttons,
-            last_used: Vec::new(),
+            last_used: VecDeque::new(),
             last_used_limit: 20,
             font_family: "Noto Color Emoji".into(),
             show_preview: true,
