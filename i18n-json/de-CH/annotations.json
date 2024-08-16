@@ -1,21 +1,763 @@
 {
-  "🧑🏿‍🔬": {
+  "🧗🏽‍♀": {
     "default": [
-      "dunkle Hautfarbe",
-      "Wissenschaftler(in)",
-      "Wissenschaftler(in): dunkle Hautfarbe"
+      "bergsteigen",
+      "Bergsteigerin",
+      "Bergsteigerin: mittlere Hautfarbe",
+      "Kletterin",
+      "klettern",
+      "mittlere Hautfarbe"
     ],
     "tts": []
   },
-  "⬜": {
+  "🧑🏼‍🦳": {
     "default": [
-      "Grosses weisses Quadrat",
+      "erwachsene Person",
+      "geschlechtsneutral",
+      "Mensch",
+      "mittelhelle Hautfarbe",
+      "ohne eindeutiges Geschlecht",
+      "Person",
+      "Person: mittelhelle Hautfarbe, weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Person: mittelhelle Hautfarbe, weisses Haar"
+    ]
+  },
+  "🚶🏾": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in): mitteldunkle Hautfarbe",
+      "gehen",
+      "gehend",
+      "mitteldunkle Hautfarbe",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in): mitteldunkle Hautfarbe"
+    ]
+  },
+  "👨🏽‍🦯‍➡": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🧗🏼‍♀": {
+    "default": [
+      "bergsteigen",
+      "Bergsteigerin",
+      "Bergsteigerin: mittelhelle Hautfarbe",
+      "Kletterin",
+      "klettern",
+      "mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🤘🏿": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Finger",
+      "Hand",
+      "Hörner",
+      "Rock",
+      "Teufel",
+      "Teufelsgruss",
+      "Teufelsgruss: dunkle Hautfarbe"
+    ],
+    "tts": [
+      "Teufelsgruss: dunkle Hautfarbe"
+    ]
+  },
+  "🇨🇻": {
+    "default": [
+      "Flagge",
+      "Flagge: Kapverden"
+    ],
+    "tts": [
+      "Flagge: Kapverden"
+    ]
+  },
+  "🪽": {
+    "default": [
+      "Engel",
+      "Federn",
+      "fliegen",
+      "Flügel",
+      "Mythologie",
+      "Vogel"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🔧": {
+    "default": [
+      "Mechaniker(in)",
+      "Mechaniker(in): mittelhelle Hautfarbe",
+      "mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🤪": {
+    "default": [
+      "Auge",
+      "gross",
+      "irres Gesicht",
+      "klein"
+    ],
+    "tts": []
+  },
+  "🚶‍♂‍➡": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger nach rechts",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger nach rechts"
+    ]
+  },
+  "👨🏻‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiter",
+      "Fabrikarbeiter: helle Hautfarbe",
+      "helle Hautfarbe",
+      "industriell",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🦳": {
+    "default": [
+      "Frau",
+      "Frau: helle Hautfarbe, weisses Haar",
+      "helle Hautfarbe",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Frau: helle Hautfarbe, weisses Haar"
+    ]
+  },
+  "🚃": {
+    "default": [
+      "Eisenbahnwagen",
+      "Fahrzeug",
+      "Strassenbahn",
+      "Strassenbahnwagen",
+      "Tram",
+      "Wagen",
+      "Wagon",
+      "Zug"
+    ],
+    "tts": []
+  },
+  "🎒": {
+    "default": [
+      "Ranzen",
+      "Rucksack",
+      "Schule",
+      "Schulranzen",
+      "Schulsack",
+      "Tornister"
+    ],
+    "tts": [
+      "Schulsack"
+    ]
+  },
+  "💇‍♂": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Haarschnitt",
+      "Mann",
+      "Mann beim Haareschneiden",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "🥌": {
+    "default": [
+      "Curlingstein"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🦯": {
+    "default": [
+      "helle Hautfarbe",
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock: helle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🦳": {
+    "default": [
+      "dunkle Hautfarbe",
+      "erwachsene Person",
+      "geschlechtsneutral",
+      "Mensch",
+      "ohne eindeutiges Geschlecht",
+      "Person",
+      "Person: dunkle Hautfarbe, weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Person: dunkle Hautfarbe, weisses Haar"
+    ]
+  },
+  "👩🏼‍🦳": {
+    "default": [
+      "Frau",
+      "Frau: mittelhelle Hautfarbe, weisses Haar",
+      "mittelhelle Hautfarbe",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Frau: mittelhelle Hautfarbe, weisses Haar"
+    ]
+  },
+  "😃": {
+    "default": [
+      "Gesicht",
+      "grinsendes Gesicht mit grossen Augen",
+      "lol",
+      "lustig"
+    ],
+    "tts": [
+      "grinsendes Gesicht mit grossen Augen"
+    ]
+  },
+  "🚶🏽‍♀‍➡": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin nach rechts",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin nach rechts"
+    ]
+  },
+  "🔷": {
+    "default": [
+      "blau",
+      "Grosse blaue Raute",
+      "Raute"
+    ],
+    "tts": [
+      "Grosse blaue Raute"
+    ]
+  },
+  "⛑": {
+    "default": [
+      "Helm",
+      "Helm mit weissem Kreuz",
+      "Hilfe",
+      "Kreuz"
+    ],
+    "tts": [
+      "Helm mit weissem Kreuz"
+    ]
+  },
+  "💇🏾": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Frisur",
+      "mitteldunkle Hautfarbe",
+      "Person beim Haareschneiden",
+      "Person beim Haareschneiden: mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🚊": {
+    "default": [
+      "Strassenbahn",
+      "Tram"
+    ],
+    "tts": [
+      "Strassenbahn"
+    ]
+  },
+  "🧑🏼‍⚕": {
+    "default": [
+      "Arzt",
+      "Arzt/Ärztin",
+      "Arzt/Ärztin: mittelhelle Hautfarbe",
+      "Gesundheitswesen",
+      "Krankenpfleger",
+      "Krankenpflegerin",
+      "mittelhelle Hautfarbe",
+      "Therapeut"
+    ],
+    "tts": []
+  },
+  "📌": {
+    "default": [
+      "anpinnen",
+      "Reisszwecke"
+    ],
+    "tts": [
+      "Reisszwecke"
+    ]
+  },
+  "🧑🏾‍🔧": {
+    "default": [
+      "Mechaniker(in)",
+      "Mechaniker(in): mitteldunkle Hautfarbe",
+      "mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🩴": {
+    "default": [
+      "Flipflops",
+      "Zehensandale",
+      "Zehensandalen"
+    ],
+    "tts": [
+      "Flipflops"
+    ]
+  },
+  "👨🏿‍🦯": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock: dunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🚶🏼‍♂": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger: mittelhelle Hautfarbe",
+      "gehen",
+      "Mann",
+      "mittelhelle Hautfarbe",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger: mittelhelle Hautfarbe"
+    ]
+  },
+  "🚶🏾‍♂‍➡": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger nach rechts",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger nach rechts"
+    ]
+  },
+  "▫": {
+    "default": [
+      "Kleines weisses Quadrat",
       "Quadrat",
       "weiss"
     ],
     "tts": [
-      "Grosses weisses Quadrat"
+      "Kleines weisses Quadrat"
     ]
+  },
+  "💇🏽": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Frisur",
+      "mittlere Hautfarbe",
+      "Person beim Haareschneiden",
+      "Person beim Haareschneiden: mittlere Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🌌": {
+    "default": [
+      "Galaxie",
+      "Milchstrasse"
+    ],
+    "tts": [
+      "Milchstrasse"
+    ]
+  },
+  "🚶🏿‍♂": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Fussgänger",
+      "Fussgänger: dunkle Hautfarbe",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger: dunkle Hautfarbe"
+    ]
+  },
+  "🫸🏿": {
+    "default": [
+      "drücken",
+      "dunkle Hautfarbe",
+      "High Five",
+      "nach rechts",
+      "nach rechts drückende Hand",
+      "nach rechts drückende Hand: dunkle Hautfarbe",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach rechts drückende Hand: dunkle Hautfarbe"
+    ]
+  },
+  "🦶🏼": {
+    "default": [
+      "Fuss",
+      "Fuss: mittelhelle Hautfarbe",
+      "Kick",
+      "mittelhelle Hautfarbe",
+      "stampfen"
+    ],
+    "tts": [
+      "Fuss: mittelhelle Hautfarbe"
+    ]
+  },
+  "🧑‍💼": {
+    "default": [
+      "Architekt",
+      "Büroangestellte(r)",
+      "Business",
+      "Manager"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🦳": {
+    "default": [
+      "Mann",
+      "Mann: mitteldunkle Hautfarbe, weisses Haar",
+      "mitteldunkle Hautfarbe",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Mann: mitteldunkle Hautfarbe, weisses Haar"
+    ]
+  },
+  "🍝": {
+    "default": [
+      "Nudeln mit Tomatensauce",
+      "Pasta",
+      "Spaghetti"
+    ],
+    "tts": []
+  },
+  "🚶‍➡": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in) nach rechts",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in) nach rechts"
+    ]
+  },
+  "🧑🏽‍🦯": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "mittlere Hautfarbe",
+      "Person mit Langstock",
+      "Person mit Langstock: mittlere Hautfarbe"
+    ],
+    "tts": []
+  },
+  "➰": {
+    "default": [
+      "Looping",
+      "Schleife"
+    ],
+    "tts": []
+  },
+  "💇🏾‍♂": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Haarschnitt",
+      "Mann",
+      "Mann beim Haareschneiden",
+      "Mann beim Haareschneiden: mitteldunkle Hautfarbe",
+      "mitteldunkle Hautfarbe",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦳": {
+    "default": [
+      "erwachsene Person",
+      "geschlechtsneutral",
+      "Mensch",
+      "mittlere Hautfarbe",
+      "ohne eindeutiges Geschlecht",
+      "Person",
+      "Person: mittlere Hautfarbe, weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Person: mittlere Hautfarbe, weisses Haar"
+    ]
+  },
+  "🔠": {
+    "default": [
+      "Eingabesymbol lateinische Grossbuchstaben",
+      "Grossbuchstaben",
+      "lateinische Grossbuchstaben"
+    ],
+    "tts": [
+      "Eingabesymbol lateinische Grossbuchstaben"
+    ]
+  },
+  "🧑🏾‍🔬": {
+    "default": [
+      "mitteldunkle Hautfarbe",
+      "Wissenschaftler(in)",
+      "Wissenschaftler(in): mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🦶🏿": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Fuss",
+      "Fuss: dunkle Hautfarbe",
+      "Kick",
+      "stampfen"
+    ],
+    "tts": [
+      "Fuss: dunkle Hautfarbe"
+    ]
+  },
+  "🤍": {
+    "default": [
+      "Herz",
+      "weiss",
+      "weisses Herz"
+    ],
+    "tts": [
+      "weisses Herz"
+    ]
+  },
+  "🪿": {
+    "default": [
+      "dumm",
+      "Gans",
+      "schnattern",
+      "Vogel"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🔧": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Mechaniker(in)",
+      "Mechaniker(in): dunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🦯‍➡": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock",
+      "Person mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍⚕": {
+    "default": [
+      "Arzt",
+      "Arzt/Ärztin",
+      "Arzt/Ärztin: dunkle Hautfarbe",
+      "dunkle Hautfarbe",
+      "Gesundheitswesen",
+      "Krankenpfleger",
+      "Krankenpflegerin",
+      "Therapeut"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiter",
+      "Fabrikarbeiter: mittelhelle Hautfarbe",
+      "industriell",
+      "mittelhelle Hautfarbe",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "🪈": {
+    "default": [
+      "Blockflöte",
+      "Flöte",
+      "Holzblasinstrument",
+      "Musik",
+      "Pfeife"
+    ],
+    "tts": []
+  },
+  "🧗🏽‍♂": {
+    "default": [
+      "bergsteigen",
+      "Bergsteiger",
+      "Bergsteiger: mittlere Hautfarbe",
+      "Kletterer",
+      "klettern",
+      "mittlere Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🐻‍❄": {
+    "default": [
+      "Arktis",
+      "Eisbär",
+      "Nordpol",
+      "weiss"
+    ],
+    "tts": []
+  },
+  "🩷": {
+    "default": [
+      "flirten",
+      "Herz",
+      "pink",
+      "pinkes Herz",
+      "süss",
+      "verliebt"
+    ],
+    "tts": []
+  },
+  "🚶🏿‍♂‍➡": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger nach rechts",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger nach rechts"
+    ]
+  },
+  "👨🏼‍🦳": {
+    "default": [
+      "Mann",
+      "Mann: mittelhelle Hautfarbe, weisses Haar",
+      "mittelhelle Hautfarbe",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Mann: mittelhelle Hautfarbe, weisses Haar"
+    ]
+  },
+  "⛓‍💥": {
+    "default": [
+      "befreien",
+      "Freiheit",
+      "kaputt",
+      "kaputte Kette",
+      "Kette",
+      "losreissen",
+      "reissen"
+    ],
+    "tts": [
+      "kaputte Kette"
+    ]
+  },
+  "🚶🏽‍➡": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in) nach rechts",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in) nach rechts"
+    ]
+  },
+  "🧑‍🔬": {
+    "default": [
+      "Wissenschaftler(in)"
+    ],
+    "tts": []
+  },
+  "🙏": {
+    "default": [
+      "beten",
+      "betende Hände",
+      "bitten",
+      "danken",
+      "Gebet",
+      "grüssen",
+      "zusammengelegte Handflächen"
+    ],
+    "tts": []
+  },
+  "🚶🏾‍♂": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger: mitteldunkle Hautfarbe",
+      "gehen",
+      "Mann",
+      "mitteldunkle Hautfarbe",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger: mitteldunkle Hautfarbe"
+    ]
+  },
+  "💇🏿‍♂": {
+    "default": [
+      "Coiffeur",
+      "dunkle Hautfarbe",
+      "Friseur",
+      "Haarschnitt",
+      "Mann",
+      "Mann beim Haareschneiden",
+      "Mann beim Haareschneiden: dunkle Hautfarbe",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "✅": {
+    "default": [
+      "abgehakt",
+      "erledigt",
+      "Weisses Häkchen"
+    ],
+    "tts": [
+      "Weisses Häkchen"
+    ]
+  },
+  "🧑🏻‍🔧": {
+    "default": [
+      "helle Hautfarbe",
+      "Mechaniker(in)",
+      "Mechaniker(in): helle Hautfarbe"
+    ],
+    "tts": []
   },
   "🏳‍⚧": {
     "default": [
@@ -30,43 +772,650 @@
       "Transgenderflagge"
     ]
   },
-  "💧": {
+  "🫸": {
     "default": [
-      "Schweiss",
-      "Tropfen",
-      "Wasser",
-      "Wassertropfen"
+      "drücken",
+      "High Five",
+      "nach rechts",
+      "nach rechts drückende Hand",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach rechts drückende Hand"
+    ]
+  },
+  "🧑‍🔧": {
+    "default": [
+      "Mechaniker(in)"
     ],
     "tts": []
   },
-  "👩‍🏭": {
+  "🚷": {
+    "default": [
+      "Fussgänger-verboten-Schild",
+      "verboten"
+    ],
+    "tts": [
+      "Fussgänger-verboten-Schild"
+    ]
+  },
+  "🧁": {
+    "default": [
+      "Cupcake",
+      "Gebäck",
+      "Konditorei",
+      "Muffin",
+      "süss"
+    ],
+    "tts": []
+  },
+  "🔵": {
+    "default": [
+      "Ball",
+      "blau",
+      "Grosser blauer Kreis",
+      "Kreis"
+    ],
+    "tts": [
+      "Grosser blauer Kreis"
+    ]
+  },
+  "🍬": {
+    "default": [
+      "Bonbon",
+      "Süssigkeit"
+    ],
+    "tts": []
+  },
+  "🚶🏼‍♀‍➡": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin nach rechts",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin nach rechts"
+    ]
+  },
+  "💇": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Frisur",
+      "Person beim Haareschneiden"
+    ],
+    "tts": []
+  },
+  "🎅🏿": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Samichlaus",
+      "Weihnachten",
+      "Weihnachtsmann",
+      "Weihnachtsmann: dunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🎅": {
+    "default": [
+      "Samichlaus",
+      "Weihnachten",
+      "Weihnachtsmann"
+    ],
+    "tts": []
+  },
+  "⭕": {
+    "default": [
+      "grosser Kreis",
+      "hohler roter Kreis",
+      "Kreis",
+      "o",
+      "rot"
+    ],
+    "tts": []
+  },
+  "🍡": {
+    "default": [
+      "Dango",
+      "japanisches Gericht",
+      "Mochi-Kugeln auf einem Spiess",
+      "Restaurant"
+    ],
+    "tts": []
+  },
+  "👩‍🦳": {
+    "default": [
+      "Frau",
+      "Frau: weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Frau: weisses Haar"
+    ]
+  },
+  "🫷🏻": {
+    "default": [
+      "drücken",
+      "helle Hautfarbe",
+      "High Five",
+      "nach links",
+      "nach links drückende Hand",
+      "nach links drückende Hand: helle Hautfarbe",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach links drückende Hand: helle Hautfarbe"
+    ]
+  },
+  "🤘🏻": {
+    "default": [
+      "Finger",
+      "Hand",
+      "helle Hautfarbe",
+      "Hörner",
+      "Rock",
+      "Teufel",
+      "Teufelsgruss",
+      "Teufelsgruss: helle Hautfarbe"
+    ],
+    "tts": [
+      "Teufelsgruss: helle Hautfarbe"
+    ]
+  },
+  "🧗🏻‍♂": {
+    "default": [
+      "bergsteigen",
+      "Bergsteiger",
+      "Bergsteiger: helle Hautfarbe",
+      "helle Hautfarbe",
+      "Kletterer",
+      "klettern"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🦯": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock: mittlere Hautfarbe",
+      "mittlere Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🚶🏻‍♂": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger: helle Hautfarbe",
+      "gehen",
+      "helle Hautfarbe",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger: helle Hautfarbe"
+    ]
+  },
+  "🚶🏽‍♂‍➡": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger nach rechts",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger nach rechts"
+    ]
+  },
+  "🚶🏼": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in): mittelhelle Hautfarbe",
+      "gehen",
+      "gehend",
+      "mittelhelle Hautfarbe",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in): mittelhelle Hautfarbe"
+    ]
+  },
+  "👨‍🦳": {
+    "default": [
+      "Mann",
+      "Mann: weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Mann: weisses Haar"
+    ]
+  },
+  "🧑🏾‍🦳": {
+    "default": [
+      "erwachsene Person",
+      "geschlechtsneutral",
+      "Mensch",
+      "mitteldunkle Hautfarbe",
+      "ohne eindeutiges Geschlecht",
+      "Person",
+      "Person: mitteldunkle Hautfarbe, weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Person: mitteldunkle Hautfarbe, weisses Haar"
+    ]
+  },
+  "🤘": {
+    "default": [
+      "Finger",
+      "Hand",
+      "Hörner",
+      "Rock",
+      "Teufel",
+      "Teufelsgruss"
+    ],
+    "tts": [
+      "Teufelsgruss"
+    ]
+  },
+  "🚶🏽‍♂": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger: mittlere Hautfarbe",
+      "gehen",
+      "Mann",
+      "mittlere Hautfarbe",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger: mittlere Hautfarbe"
+    ]
+  },
+  "💇🏻‍♂": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Haarschnitt",
+      "helle Hautfarbe",
+      "Mann",
+      "Mann beim Haareschneiden",
+      "Mann beim Haareschneiden: helle Hautfarbe",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦯‍➡": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock",
+      "Person mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🔬": {
+    "default": [
+      "mittelhelle Hautfarbe",
+      "Wissenschaftler(in)",
+      "Wissenschaftler(in): mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🛅": {
+    "default": [
+      "Gepäck",
+      "Gepäckaufbewahrung",
+      "Schliessfach"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🦯‍➡": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🔶": {
+    "default": [
+      "Grosse orangefarbene Raute",
+      "orangefarben",
+      "Raute"
+    ],
+    "tts": [
+      "Grosse orangefarbene Raute"
+    ]
+  },
+  "🧑‍🦳": {
+    "default": [
+      "erwachsene Person",
+      "geschlechtsneutral",
+      "Mensch",
+      "ohne eindeutiges Geschlecht",
+      "Person",
+      "Person: weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Person: weisses Haar"
+    ]
+  },
+  "🚋": {
+    "default": [
+      "Strassenbahn",
+      "Strassenbahnwagen",
+      "Tram",
+      "Tramwagen"
+    ],
+    "tts": [
+      "Tramwagen"
+    ]
+  },
+  "🎅🏼": {
+    "default": [
+      "mittelhelle Hautfarbe",
+      "Samichlaus",
+      "Weihnachten",
+      "Weihnachtsmann",
+      "Weihnachtsmann: mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍💼": {
+    "default": [
+      "Architekt",
+      "Büroangestellte(r)",
+      "Büroangestellte(r): mittelhelle Hautfarbe",
+      "Business",
+      "Manager",
+      "mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🍠": {
+    "default": [
+      "geröstet",
+      "Geröstete Süsskartoffel",
+      "Süsskartoffel"
+    ],
+    "tts": [
+      "Geröstete Süsskartoffel"
+    ]
+  },
+  "🅾": {
+    "default": [
+      "0",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstabe O in Quadrat",
+      "negativ",
+      "positiv"
+    ],
+    "tts": [
+      "Grossbuchstabe O in Quadrat"
+    ]
+  },
+  "🫷🏼": {
+    "default": [
+      "drücken",
+      "High Five",
+      "mittelhelle Hautfarbe",
+      "nach links",
+      "nach links drückende Hand",
+      "nach links drückende Hand: mittelhelle Hautfarbe",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach links drückende Hand: mittelhelle Hautfarbe"
+    ]
+  },
+  "🧑🏽‍⚕": {
+    "default": [
+      "Arzt",
+      "Arzt/Ärztin",
+      "Arzt/Ärztin: mittlere Hautfarbe",
+      "Gesundheitswesen",
+      "Krankenpfleger",
+      "Krankenpflegerin",
+      "mittlere Hautfarbe",
+      "Therapeut"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🏭": {
     "default": [
       "Arbeiter",
       "Fabrik",
       "Fabrikarbeiterin",
+      "Fabrikarbeiterin: helle Hautfarbe",
+      "helle Hautfarbe",
       "industriell",
       "Montage"
     ],
     "tts": []
   },
-  "🍮": {
+  "🥸": {
     "default": [
-      "Dessert",
-      "Nachspeise",
-      "Nachtisch",
-      "Pudding",
-      "Sauce",
-      "Schokolade"
+      "Brille",
+      "Gesicht",
+      "Gesicht mit Maske",
+      "incognito",
+      "Maske",
+      "Nase"
+    ],
+    "tts": [
+      "Gesicht mit Maske"
+    ]
+  },
+  "🥂": {
+    "default": [
+      "anstossen",
+      "Champagner",
+      "feiern",
+      "Getränk",
+      "Sekt",
+      "Sektgläser"
     ],
     "tts": []
   },
-  "🔍": {
+  "🧑🏻‍🦳": {
     "default": [
-      "Lupe nach links",
-      "Suche",
-      "Vergrösserungsglas"
+      "erwachsene Person",
+      "geschlechtsneutral",
+      "helle Hautfarbe",
+      "Mensch",
+      "ohne eindeutiges Geschlecht",
+      "Person",
+      "Person: helle Hautfarbe, weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Person: helle Hautfarbe, weisses Haar"
+    ]
+  },
+  "🫸🏾": {
+    "default": [
+      "drücken",
+      "High Five",
+      "mitteldunkle Hautfarbe",
+      "nach rechts",
+      "nach rechts drückende Hand",
+      "nach rechts drückende Hand: mitteldunkle Hautfarbe",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach rechts drückende Hand: mitteldunkle Hautfarbe"
+    ]
+  },
+  "💇🏼‍♂": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Haarschnitt",
+      "Mann",
+      "Mann beim Haareschneiden",
+      "Mann beim Haareschneiden: mittelhelle Hautfarbe",
+      "mittelhelle Hautfarbe",
+      "Schere"
     ],
     "tts": []
+  },
+  "🧑🏻‍💼": {
+    "default": [
+      "Architekt",
+      "Büroangestellte(r)",
+      "Büroangestellte(r): helle Hautfarbe",
+      "Business",
+      "helle Hautfarbe",
+      "Manager"
+    ],
+    "tts": []
+  },
+  "🚶🏼‍♀": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin: mittelhelle Hautfarbe",
+      "gehen",
+      "mittelhelle Hautfarbe",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin: mittelhelle Hautfarbe"
+    ]
+  },
+  "🆚": {
+    "default": [
+      "Grossbuchstaben VS in orangefarbenem Quadrat",
+      "versus",
+      "VS"
+    ],
+    "tts": [
+      "Grossbuchstaben VS in orangefarbenem Quadrat"
+    ]
+  },
+  "👨🏾‍🦯‍➡": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "💐": {
+    "default": [
+      "Blumen",
+      "Blumenstrauss",
+      "Bouquet"
+    ],
+    "tts": [
+      "Blumenstrauss"
+    ]
+  },
+  "🧑🏾‍🦯‍➡": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock",
+      "Person mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🆖": {
+    "default": [
+      "Grossbuchstaben NG in blauem Quadrat",
+      "NG"
+    ],
+    "tts": [
+      "Grossbuchstaben NG in blauem Quadrat"
+    ]
+  },
+  "🎅🏻": {
+    "default": [
+      "helle Hautfarbe",
+      "Samichlaus",
+      "Weihnachten",
+      "Weihnachtsmann",
+      "Weihnachtsmann: helle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🅱": {
+    "default": [
+      "b",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstabe B in Quadrat",
+      "negativ",
+      "positiv"
+    ],
+    "tts": [
+      "Grossbuchstabe B in Quadrat"
+    ]
+  },
+  "😵‍💫": {
+    "default": [
+      "Gesicht mit Spiralaugen",
+      "Hypnose",
+      "hypnotisiert",
+      "schwindelig",
+      "Spirale",
+      "verwirrt"
+    ],
+    "tts": [
+      "Gesicht mit Spiralaugen"
+    ]
+  },
+  "🪻": {
+    "default": [
+      "Blume",
+      "Hyazinthe",
+      "Lavendel",
+      "Löwenmaul",
+      "Lupine"
+    ],
+    "tts": []
+  },
+  "⭐": {
+    "default": [
+      "Stern",
+      "weisser mittelgrosser Stern"
+    ],
+    "tts": [
+      "weisser mittelgrosser Stern"
+    ]
+  },
+  "🚶‍♀": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin"
+    ]
+  },
+  "🚸": {
+    "default": [
+      "Kinder",
+      "Kinder-queren-die-Strasse-Schild",
+      "Vorsicht"
+    ],
+    "tts": [
+      "Kinder-queren-die-Strasse-Schild"
+    ]
   },
   "😮‍💨": {
     "default": [
@@ -84,235 +1433,38 @@
       "ausatmendes Gesicht"
     ]
   },
-  "🚊": {
-    "default": [
-      "Strassenbahn",
-      "Tram"
-    ],
-    "tts": [
-      "Strassenbahn"
-    ]
-  },
-  "◼": {
-    "default": [
-      "Mittelgrosses schwarzes Quadrat",
-      "Quadrat",
-      "schwarz"
-    ],
-    "tts": [
-      "Mittelgrosses schwarzes Quadrat"
-    ]
-  },
-  "🧑🏿‍💼": {
-    "default": [
-      "Architekt",
-      "Büroangestellte(r)",
-      "Büroangestellte(r): dunkle Hautfarbe",
-      "Business",
-      "dunkle Hautfarbe",
-      "Manager"
-    ],
-    "tts": []
-  },
-  "👨‍🦯‍➡": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "🚶🏿": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Fussgänger(in)",
-      "Fussgänger(in): dunkle Hautfarbe",
-      "gehen",
-      "gehend",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in): dunkle Hautfarbe"
-    ]
-  },
-  "▫": {
-    "default": [
-      "Kleines weisses Quadrat",
-      "Quadrat",
-      "weiss"
-    ],
-    "tts": [
-      "Kleines weisses Quadrat"
-    ]
-  },
-  "💇🏿‍♀": {
-    "default": [
-      "Coiffeur",
-      "dunkle Hautfarbe",
-      "Frau",
-      "Frau beim Haareschneiden",
-      "Frau beim Haareschneiden: dunkle Hautfarbe",
-      "Friseur",
-      "Haarschnitt",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🥌": {
-    "default": [
-      "Curlingstein"
-    ],
-    "tts": []
-  },
-  "🧑🏼‍🔧": {
-    "default": [
-      "Mechaniker(in)",
-      "Mechaniker(in): mittelhelle Hautfarbe",
-      "mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧑🏼‍💼": {
-    "default": [
-      "Architekt",
-      "Büroangestellte(r)",
-      "Büroangestellte(r): mittelhelle Hautfarbe",
-      "Business",
-      "Manager",
-      "mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "⭐": {
-    "default": [
-      "Stern",
-      "weisser mittelgrosser Stern"
-    ],
-    "tts": [
-      "weisser mittelgrosser Stern"
-    ]
-  },
-  "🚶🏻‍♀": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin: helle Hautfarbe",
-      "gehen",
-      "helle Hautfarbe",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin: helle Hautfarbe"
-    ]
-  },
-  "🖖🏻": {
+  "🖖🏼": {
     "default": [
       "Finger",
       "Hand",
-      "helle Hautfarbe",
+      "mittelhelle Hautfarbe",
       "Spock",
       "Vulkanier(in)",
       "vulkanisch",
       "Vulkanischer Gruss",
-      "Vulkanischer Gruss: helle Hautfarbe"
+      "Vulkanischer Gruss: mittelhelle Hautfarbe"
     ],
     "tts": [
-      "Vulkanischer Gruss: helle Hautfarbe"
+      "Vulkanischer Gruss: mittelhelle Hautfarbe"
     ]
   },
-  "🫚": {
-    "default": [
-      "Ginger Beer",
-      "Ingwer",
-      "Ingwerwurzel",
-      "scharf"
-    ],
-    "tts": [
-      "Ingwerwurzel"
-    ]
-  },
-  "🚶🏽‍➡": {
-    "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in) nach rechts",
-      "gehen",
-      "gehend",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in) nach rechts"
-    ]
-  },
-  "🎅🏻": {
-    "default": [
-      "helle Hautfarbe",
-      "Samichlaus",
-      "Weihnachten",
-      "Weihnachtsmann",
-      "Weihnachtsmann: helle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧗🏼‍♂": {
-    "default": [
-      "bergsteigen",
-      "Bergsteiger",
-      "Bergsteiger: mittelhelle Hautfarbe",
-      "Kletterer",
-      "klettern",
-      "mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "👨🏿‍🦳": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Mann",
-      "Mann: dunkle Hautfarbe, weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Mann: dunkle Hautfarbe, weisses Haar"
-    ]
-  },
-  "⚽": {
-    "default": [
-      "Ball",
-      "Fussball"
-    ],
-    "tts": [
-      "Fussball"
-    ]
-  },
-  "🚶🏿‍♂‍➡": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger nach rechts",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger nach rechts"
-    ]
-  },
-  "👩🏻‍🦳": {
-    "default": [
-      "Frau",
-      "Frau: helle Hautfarbe, weisses Haar",
-      "helle Hautfarbe",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Frau: helle Hautfarbe, weisses Haar"
-    ]
-  },
-  "💇": {
+  "💇🏼‍♀": {
     "default": [
       "Coiffeur",
+      "Frau",
+      "Frau beim Haareschneiden",
+      "Frau beim Haareschneiden: mittelhelle Hautfarbe",
       "Friseur",
-      "Frisur",
-      "Person beim Haareschneiden"
+      "Haarschnitt",
+      "mittelhelle Hautfarbe",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "👨‍🦯": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock"
     ],
     "tts": []
   },
@@ -325,188 +1477,174 @@
     ],
     "tts": []
   },
-  "🆎": {
+  "✂": {
     "default": [
-      "ab",
-      "Blut",
-      "Blutgruppe",
-      "Grossbuchstaben AB in rotem Quadrat",
-      "negativ",
-      "positiv"
-    ],
-    "tts": [
-      "Grossbuchstaben AB in rotem Quadrat"
-    ]
-  },
-  "🆖": {
-    "default": [
-      "Grossbuchstaben NG in blauem Quadrat",
-      "NG"
-    ],
-    "tts": [
-      "Grossbuchstaben NG in blauem Quadrat"
-    ]
-  },
-  "🅰": {
-    "default": [
-      "a",
-      "Blut",
-      "Blutgruppe",
-      "Grossbuchstabe A in Quadrat",
-      "negativ",
-      "positiv"
-    ],
-    "tts": [
-      "Grossbuchstabe A in Quadrat"
-    ]
-  },
-  "📍": {
-    "default": [
-      "anpinnen",
-      "Reisszwecke",
-      "rund",
-      "runde Reisszwecke"
-    ],
-    "tts": [
-      "runde Reisszwecke"
-    ]
-  },
-  "🧁": {
-    "default": [
-      "Cupcake",
-      "Gebäck",
-      "Konditorei",
-      "Muffin",
-      "süss"
+      "basteln",
+      "Schere",
+      "schneiden"
     ],
     "tts": []
   },
-  "🌥": {
+  "🦶🏻": {
     "default": [
-      "grosse Wolke",
-      "Sonne",
-      "Sonne hinter grosser Wolke",
-      "Wetter",
-      "Wolke"
+      "Fuss",
+      "Fuss: helle Hautfarbe",
+      "helle Hautfarbe",
+      "Kick",
+      "stampfen"
     ],
     "tts": [
-      "Sonne hinter grosser Wolke"
+      "Fuss: helle Hautfarbe"
     ]
   },
-  "🎅🏿": {
+  "🤘🏼": {
     "default": [
-      "dunkle Hautfarbe",
-      "Samichlaus",
-      "Weihnachten",
-      "Weihnachtsmann",
-      "Weihnachtsmann: dunkle Hautfarbe"
+      "Finger",
+      "Hand",
+      "Hörner",
+      "mittelhelle Hautfarbe",
+      "Rock",
+      "Teufel",
+      "Teufelsgruss",
+      "Teufelsgruss: mittelhelle Hautfarbe"
+    ],
+    "tts": [
+      "Teufelsgruss: mittelhelle Hautfarbe"
+    ]
+  },
+  "⚪": {
+    "default": [
+      "Ball",
+      "Grosser weisser Kreis",
+      "Kreis",
+      "weiss"
+    ],
+    "tts": [
+      "Grosser weisser Kreis"
+    ]
+  },
+  "🏺": {
+    "default": [
+      "Amphore",
+      "Gefäss",
+      "kochen",
+      "Krug",
+      "Vase",
+      "Wassermann"
     ],
     "tts": []
   },
-  "💇🏾‍♂": {
+  "⬛": {
     "default": [
-      "Coiffeur",
-      "Friseur",
-      "Haarschnitt",
-      "Mann",
-      "Mann beim Haareschneiden",
-      "Mann beim Haareschneiden: mitteldunkle Hautfarbe",
-      "mitteldunkle Hautfarbe",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🔠": {
-    "default": [
-      "Eingabesymbol lateinische Grossbuchstaben",
-      "Grossbuchstaben",
-      "lateinische Grossbuchstaben"
+      "Grosses schwarzes Quadrat",
+      "Quadrat",
+      "schwarz"
     ],
     "tts": [
-      "Eingabesymbol lateinische Grossbuchstaben"
+      "Grosses schwarzes Quadrat"
     ]
   },
-  "👨🏾‍🏭": {
-    "default": [
-      "Arbeiter",
-      "Fabrik",
-      "Fabrikarbeiter",
-      "Fabrikarbeiter: mitteldunkle Hautfarbe",
-      "industriell",
-      "mitteldunkle Hautfarbe",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "💇🏽": {
-    "default": [
-      "Coiffeur",
-      "Friseur",
-      "Frisur",
-      "mittlere Hautfarbe",
-      "Person beim Haareschneiden",
-      "Person beim Haareschneiden: mittlere Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🅱": {
-    "default": [
-      "b",
-      "Blut",
-      "Blutgruppe",
-      "Grossbuchstabe B in Quadrat",
-      "negativ",
-      "positiv"
-    ],
-    "tts": [
-      "Grossbuchstabe B in Quadrat"
-    ]
-  },
-  "💇‍♂": {
-    "default": [
-      "Coiffeur",
-      "Friseur",
-      "Haarschnitt",
-      "Mann",
-      "Mann beim Haareschneiden",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🌶": {
-    "default": [],
-    "tts": [
-      "Chili"
-    ]
-  },
-  "👨🏽‍🦳": {
-    "default": [
-      "Mann",
-      "Mann: mittlere Hautfarbe, weisses Haar",
-      "mittlere Hautfarbe",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Mann: mittlere Hautfarbe, weisses Haar"
-    ]
-  },
-  "🚶🏿‍♀‍➡": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin nach rechts",
-      "gehen",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin nach rechts"
-    ]
-  },
-  "👨🏾‍🦯‍➡": {
+  "👨🏼‍🦯‍➡": {
     "default": [
       "Mann mit Gehstock",
       "Mann mit Langstock",
       "Mann mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🍮": {
+    "default": [
+      "Dessert",
+      "Nachspeise",
+      "Nachtisch",
+      "Pudding",
+      "Sauce",
+      "Schokolade"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🦯": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "mitteldunkle Hautfarbe",
+      "Person mit Langstock",
+      "Person mit Langstock: mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍🦯": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "helle Hautfarbe",
+      "Person mit Langstock",
+      "Person mit Langstock: helle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🤘🏽": {
+    "default": [
+      "Finger",
+      "Hand",
+      "Hörner",
+      "mittlere Hautfarbe",
+      "Rock",
+      "Teufel",
+      "Teufelsgruss",
+      "Teufelsgruss: mittlere Hautfarbe"
+    ],
+    "tts": [
+      "Teufelsgruss: mittlere Hautfarbe"
+    ]
+  },
+  "◼": {
+    "default": [
+      "Mittelgrosses schwarzes Quadrat",
+      "Quadrat",
+      "schwarz"
+    ],
+    "tts": [
+      "Mittelgrosses schwarzes Quadrat"
+    ]
+  },
+  "🙏🏼": {
+    "default": [
+      "beten",
+      "betende Hände",
+      "bitten",
+      "danken",
+      "Gebet",
+      "grüssen",
+      "mittelhelle Hautfarbe",
+      "zusammengelegte Handflächen",
+      "zusammengelegte Handflächen: mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🫷": {
+    "default": [
+      "drücken",
+      "High Five",
+      "nach links",
+      "nach links drückende Hand",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach links drückende Hand"
+    ]
+  },
+  "👨🏿‍🏭": {
+    "default": [
+      "Arbeiter",
+      "dunkle Hautfarbe",
+      "Fabrik",
+      "Fabrikarbeiter",
+      "Fabrikarbeiter: dunkle Hautfarbe",
+      "industriell",
+      "Montage"
     ],
     "tts": []
   },
@@ -523,335 +1661,13 @@
     ],
     "tts": []
   },
-  "🫠": {
-    "default": [
-      "auflösen",
-      "schmelzen",
-      "schmelzendes Gesicht",
-      "verflüssigen",
-      "verschwinden"
-    ],
-    "tts": []
-  },
-  "⬛": {
-    "default": [
-      "Grosses schwarzes Quadrat",
-      "Quadrat",
-      "schwarz"
-    ],
-    "tts": [
-      "Grosses schwarzes Quadrat"
-    ]
-  },
-  "🚶🏻‍♀‍➡": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin nach rechts",
-      "gehen",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin nach rechts"
-    ]
-  },
-  "🧑🏾‍🦯": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "mitteldunkle Hautfarbe",
-      "Person mit Langstock",
-      "Person mit Langstock: mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "💥": {
-    "default": [
-      "Comic",
-      "Kollision",
-      "Zusammenstoss"
-    ],
-    "tts": [
-      "Zusammenstoss"
-    ]
-  },
-  "🔴": {
-    "default": [
-      "Ball",
-      "Grosser roter Kreis",
-      "Kreis",
-      "rot"
-    ],
-    "tts": [
-      "Grosser roter Kreis"
-    ]
-  },
-  "💇🏻‍♀": {
-    "default": [
-      "Coiffeur",
-      "Frau",
-      "Frau beim Haareschneiden",
-      "Frau beim Haareschneiden: helle Hautfarbe",
-      "Friseur",
-      "Haarschnitt",
-      "helle Hautfarbe",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🧑🏿‍⚕": {
-    "default": [
-      "Arzt",
-      "Arzt/Ärztin",
-      "Arzt/Ärztin: dunkle Hautfarbe",
-      "dunkle Hautfarbe",
-      "Gesundheitswesen",
-      "Krankenpfleger",
-      "Krankenpflegerin",
-      "Therapeut"
-    ],
-    "tts": []
-  },
-  "👩🏾‍🏭": {
-    "default": [
-      "Arbeiter",
-      "Fabrik",
-      "Fabrikarbeiterin",
-      "Fabrikarbeiterin: mitteldunkle Hautfarbe",
-      "industriell",
-      "mitteldunkle Hautfarbe",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "😵‍💫": {
-    "default": [
-      "Gesicht mit Spiralaugen",
-      "Hypnose",
-      "hypnotisiert",
-      "schwindelig",
-      "Spirale",
-      "verwirrt"
-    ],
-    "tts": [
-      "Gesicht mit Spiralaugen"
-    ]
-  },
-  "🛣": {
-    "default": [
-      "Autobahn",
-      "Schnellstrasse"
-    ],
-    "tts": []
-  },
-  "🧑🏻‍🦯‍➡": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "Person mit Langstock",
-      "Person mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "❔": {
-    "default": [
-      "Satzzeichen",
-      "weiss",
-      "weisses Fragezeichen"
-    ],
-    "tts": [
-      "weisses Fragezeichen"
-    ]
-  },
-  "👨🏻‍🦯‍➡": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "💇🏼": {
-    "default": [
-      "Coiffeur",
-      "Friseur",
-      "Frisur",
-      "mittelhelle Hautfarbe",
-      "Person beim Haareschneiden",
-      "Person beim Haareschneiden: mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🦶🏼": {
-    "default": [
-      "Fuss",
-      "Fuss: mittelhelle Hautfarbe",
-      "Kick",
-      "mittelhelle Hautfarbe",
-      "stampfen"
-    ],
-    "tts": [
-      "Fuss: mittelhelle Hautfarbe"
-    ]
-  },
-  "🫦": {
-    "default": [
-      "Angst",
-      "ängstlich",
-      "Auf Lippe beissen",
-      "besorgt",
-      "flirtend",
-      "nervös",
-      "unbehaglich"
-    ],
-    "tts": [
-      "Auf Lippe beissen"
-    ]
-  },
-  "🫡": {
-    "default": [
-      "Aye aye",
-      "Gesicht",
-      "grüssendes Gesicht",
-      "jawohl",
-      "ok",
-      "salutieren",
-      "Truppen"
-    ],
-    "tts": [
-      "grüssendes Gesicht"
-    ]
-  },
-  "🚃": {
-    "default": [
-      "Eisenbahnwagen",
-      "Fahrzeug",
-      "Strassenbahn",
-      "Strassenbahnwagen",
-      "Tram",
-      "Wagen",
-      "Wagon",
-      "Zug"
-    ],
-    "tts": []
-  },
-  "🙏🏼": {
-    "default": [
-      "beten",
-      "betende Hände",
-      "bitten",
-      "danken",
-      "Gebet",
-      "grüssen",
-      "mittelhelle Hautfarbe",
-      "zusammengelegte Handflächen",
-      "zusammengelegte Handflächen: mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧑🏻‍🔧": {
+  "🧑🏻‍🔬": {
     "default": [
       "helle Hautfarbe",
-      "Mechaniker(in)",
-      "Mechaniker(in): helle Hautfarbe"
+      "Wissenschaftler(in)",
+      "Wissenschaftler(in): helle Hautfarbe"
     ],
     "tts": []
-  },
-  "🍋‍🟩": {
-    "default": [
-      "Frucht",
-      "Limette",
-      "sauer",
-      "tropisch",
-      "Zitrusfrucht"
-    ],
-    "tts": []
-  },
-  "🔎": {
-    "default": [
-      "Lupe nach rechts",
-      "Suche",
-      "Vergrösserungsglas"
-    ],
-    "tts": []
-  },
-  "🍬": {
-    "default": [
-      "Bonbon",
-      "Süssigkeit"
-    ],
-    "tts": []
-  },
-  "🧑🏽‍⚕": {
-    "default": [
-      "Arzt",
-      "Arzt/Ärztin",
-      "Arzt/Ärztin: mittlere Hautfarbe",
-      "Gesundheitswesen",
-      "Krankenpfleger",
-      "Krankenpflegerin",
-      "mittlere Hautfarbe",
-      "Therapeut"
-    ],
-    "tts": []
-  },
-  "👨🏽‍🏭": {
-    "default": [
-      "Arbeiter",
-      "Fabrik",
-      "Fabrikarbeiter",
-      "Fabrikarbeiter: mittlere Hautfarbe",
-      "industriell",
-      "mittlere Hautfarbe",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "🫷🏽": {
-    "default": [
-      "drücken",
-      "High Five",
-      "mittlere Hautfarbe",
-      "nach links",
-      "nach links drückende Hand",
-      "nach links drückende Hand: mittlere Hautfarbe",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach links drückende Hand: mittlere Hautfarbe"
-    ]
-  },
-  "👨🏾‍🦳": {
-    "default": [
-      "Mann",
-      "Mann: mitteldunkle Hautfarbe, weisses Haar",
-      "mitteldunkle Hautfarbe",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Mann: mitteldunkle Hautfarbe, weisses Haar"
-    ]
-  },
-  "🎅": {
-    "default": [
-      "Samichlaus",
-      "Weihnachten",
-      "Weihnachtsmann"
-    ],
-    "tts": []
-  },
-  "⛑": {
-    "default": [
-      "Helm",
-      "Helm mit weissem Kreuz",
-      "Hilfe",
-      "Kreuz"
-    ],
-    "tts": [
-      "Helm mit weissem Kreuz"
-    ]
   },
   "🤘🏾": {
     "default": [
@@ -868,90 +1684,105 @@
       "Teufelsgruss: mitteldunkle Hautfarbe"
     ]
   },
-  "🧑🏻‍💼": {
+  "🪭": {
     "default": [
-      "Architekt",
-      "Büroangestellte(r)",
-      "Büroangestellte(r): helle Hautfarbe",
-      "Business",
-      "helle Hautfarbe",
-      "Manager"
-    ],
-    "tts": []
-  },
-  "🍠": {
-    "default": [
-      "geröstet",
-      "Geröstete Süsskartoffel",
-      "Süsskartoffel"
+      "Fächer",
+      "fächern",
+      "Faltfächer",
+      "Flamenco",
+      "heiss",
+      "kühl",
+      "scheu",
+      "tanzen"
     ],
     "tts": [
-      "Geröstete Süsskartoffel"
+      "Fächer"
     ]
   },
-  "😃": {
+  "◻": {
     "default": [
+      "Mittelgrosses weisses Quadrat",
+      "Quadrat",
+      "weiss"
+    ],
+    "tts": [
+      "Mittelgrosses weisses Quadrat"
+    ]
+  },
+  "😳": {
+    "default": [
+      "Erröteter Smiley mit grossen Augen",
       "Gesicht",
-      "grinsendes Gesicht mit grossen Augen",
-      "lol",
-      "lustig"
+      "rote Wangen",
+      "überrascht"
     ],
     "tts": [
-      "grinsendes Gesicht mit grossen Augen"
+      "Erröteter Smiley mit grossen Augen"
     ]
   },
-  "🛅": {
+  "🫏": {
     "default": [
-      "Gepäck",
-      "Gepäckaufbewahrung",
-      "Schliessfach"
+      "Dummkopf",
+      "Esel",
+      "Grautier",
+      "Maultier",
+      "Säugetier",
+      "störrisch",
+      "stur",
+      "Tier"
     ],
     "tts": []
   },
-  "🚶🏻": {
+  "⬜": {
+    "default": [
+      "Grosses weisses Quadrat",
+      "Quadrat",
+      "weiss"
+    ],
+    "tts": [
+      "Grosses weisses Quadrat"
+    ]
+  },
+  "👨🏼‍🦯": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock: mittelhelle Hautfarbe",
+      "mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "📆": {
+    "default": [
+      "Abreisskalender",
+      "Kalender"
+    ],
+    "tts": [
+      "Abreisskalender"
+    ]
+  },
+  "🚶": {
     "default": [
       "Fussgänger(in)",
-      "Fussgänger(in): helle Hautfarbe",
       "gehen",
       "gehend",
-      "helle Hautfarbe",
       "wandern"
     ],
     "tts": [
-      "Fussgänger(in): helle Hautfarbe"
+      "Fussgänger(in)"
     ]
   },
-  "🪮": {
+  "💥": {
     "default": [
-      "Afro Pick",
-      "Kamm",
-      "kämmen"
+      "Comic",
+      "Kollision",
+      "Zusammenstoss"
     ],
     "tts": [
-      "Afro Pick"
+      "Zusammenstoss"
     ]
   },
-  "🔷": {
-    "default": [
-      "blau",
-      "Grosse blaue Raute",
-      "Raute"
-    ],
-    "tts": [
-      "Grosse blaue Raute"
-    ]
-  },
-  "💐": {
-    "default": [
-      "Blumen",
-      "Blumenstrauss",
-      "Bouquet"
-    ],
-    "tts": [
-      "Blumenstrauss"
-    ]
-  },
-  "🙏🏾": {
+  "🙏🏽": {
     "default": [
       "beten",
       "betende Hände",
@@ -959,65 +1790,38 @@
       "danken",
       "Gebet",
       "grüssen",
-      "mitteldunkle Hautfarbe",
+      "mittlere Hautfarbe",
       "zusammengelegte Handflächen",
-      "zusammengelegte Handflächen: mitteldunkle Hautfarbe"
+      "zusammengelegte Handflächen: mittlere Hautfarbe"
     ],
     "tts": []
   },
-  "🪪": {
+  "◽": {
     "default": [
-      "Ausweis",
-      "Fahrausweis",
-      "ID"
-    ],
-    "tts": [
-      "ID"
-    ]
-  },
-  "🚋": {
-    "default": [
-      "Strassenbahn",
-      "Strassenbahnwagen",
-      "Tram",
-      "Tramwagen"
-    ],
-    "tts": [
-      "Tramwagen"
-    ]
-  },
-  "👨‍🦯": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock"
-    ],
-    "tts": []
-  },
-  "🐻‍❄": {
-    "default": [
-      "Arktis",
-      "Eisbär",
-      "Nordpol",
+      "Mittelkleines weisses Quadrat",
+      "Quadrat",
       "weiss"
     ],
-    "tts": []
-  },
-  "🤐": {
-    "default": [
-      "Gesicht",
-      "Mund",
-      "Reissverschluss",
-      "Smiley mit Reissverschlussmund"
-    ],
     "tts": [
-      "Smiley mit Reissverschlussmund"
+      "Mittelkleines weisses Quadrat"
     ]
   },
-  "🧑🏽‍🔧": {
+  "🧑‍⚕": {
     "default": [
-      "Mechaniker(in)",
-      "Mechaniker(in): mittlere Hautfarbe",
-      "mittlere Hautfarbe"
+      "Arzt",
+      "Arzt/Ärztin",
+      "Gesundheitswesen",
+      "Krankenpfleger",
+      "Krankenpflegerin",
+      "Therapeut"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🔬": {
+    "default": [
+      "mittlere Hautfarbe",
+      "Wissenschaftler(in)",
+      "Wissenschaftler(in): mittlere Hautfarbe"
     ],
     "tts": []
   },
@@ -1037,210 +1841,71 @@
       "nach rechts drückende Hand: helle Hautfarbe"
     ]
   },
-  "🪿": {
+  "😓": {
     "default": [
-      "dumm",
-      "Gans",
-      "schnattern",
-      "Vogel"
-    ],
-    "tts": []
-  },
-  "🎒": {
-    "default": [
-      "Ranzen",
-      "Rucksack",
-      "Schule",
-      "Schulranzen",
-      "Schulsack",
-      "Tornister"
-    ],
-    "tts": [
-      "Schulsack"
-    ]
-  },
-  "🙏🏿": {
-    "default": [
-      "beten",
-      "betende Hände",
-      "bitten",
-      "danken",
-      "dunkle Hautfarbe",
-      "Gebet",
-      "grüssen",
-      "zusammengelegte Handflächen",
-      "zusammengelegte Handflächen: dunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "⚫": {
-    "default": [
-      "Ball",
-      "Grosser schwarzer Kreis",
-      "Kreis",
-      "schwarz"
-    ],
-    "tts": [
-      "Grosser schwarzer Kreis"
-    ]
-  },
-  "🩷": {
-    "default": [
-      "flirten",
-      "Herz",
-      "pink",
-      "pinkes Herz",
-      "süss",
-      "verliebt"
-    ],
-    "tts": []
-  },
-  "🪽": {
-    "default": [
-      "Engel",
-      "Federn",
-      "fliegen",
-      "Flügel",
-      "Mythologie",
-      "Vogel"
-    ],
-    "tts": []
-  },
-  "☕": {
-    "default": [
-      "dampfend",
-      "Getränk",
-      "heiss",
-      "Heissgetränk",
-      "Kaffee",
-      "Tee",
-      "trinken"
-    ],
-    "tts": [
-      "Heissgetränk"
-    ]
-  },
-  "🧗🏻‍♂": {
-    "default": [
-      "bergsteigen",
-      "Bergsteiger",
-      "Bergsteiger: helle Hautfarbe",
-      "helle Hautfarbe",
-      "Kletterer",
-      "klettern"
-    ],
-    "tts": []
-  },
-  "👩🏾‍🦳": {
-    "default": [
-      "Frau",
-      "Frau: mitteldunkle Hautfarbe, weisses Haar",
-      "mitteldunkle Hautfarbe",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Frau: mitteldunkle Hautfarbe, weisses Haar"
-    ]
-  },
-  "👩🏼‍🏭": {
-    "default": [
-      "Arbeiter",
-      "Fabrik",
-      "Fabrikarbeiterin",
-      "Fabrikarbeiterin: mittelhelle Hautfarbe",
-      "industriell",
-      "mittelhelle Hautfarbe",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "🧑🏼‍🦯‍➡": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "Person mit Langstock",
-      "Person mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "🧗🏽‍♂": {
-    "default": [
-      "bergsteigen",
-      "Bergsteiger",
-      "Bergsteiger: mittlere Hautfarbe",
-      "Kletterer",
-      "klettern",
-      "mittlere Hautfarbe"
-    ],
-    "tts": []
-  },
-  "👨🏼‍🦳": {
-    "default": [
-      "Mann",
-      "Mann: mittelhelle Hautfarbe, weisses Haar",
-      "mittelhelle Hautfarbe",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Mann: mittelhelle Hautfarbe, weisses Haar"
-    ]
-  },
-  "🚶🏼‍➡": {
-    "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in) nach rechts",
-      "gehen",
-      "gehend",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in) nach rechts"
-    ]
-  },
-  "😥": {
-    "default": [
-      "enttäuscht",
-      "erleichtert",
+      "geschlossene Augen",
       "Gesicht",
-      "Schweiss",
-      "trauriges aber erleichtertes Gesicht"
-    ],
-    "tts": []
-  },
-  "🚶": {
-    "default": [
-      "Fussgänger(in)",
-      "gehen",
-      "gehend",
-      "wandern"
+      "Smiley mit kaltem Schweiss"
     ],
     "tts": [
-      "Fussgänger(in)"
+      "Smiley mit kaltem Schweiss"
     ]
   },
-  "🧗🏽‍♀": {
+  "👩🏿‍🦳": {
     "default": [
-      "bergsteigen",
-      "Bergsteigerin",
-      "Bergsteigerin: mittlere Hautfarbe",
-      "Kletterin",
-      "klettern",
-      "mittlere Hautfarbe"
+      "dunkle Hautfarbe",
+      "Frau",
+      "Frau: dunkle Hautfarbe, weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Frau: dunkle Hautfarbe, weisses Haar"
+    ]
+  },
+  "🍗": {
+    "default": [
+      "Geflügel",
+      "Poulet",
+      "Pouletschenkel"
+    ],
+    "tts": [
+      "Pouletschenkel"
+    ]
+  },
+  "🔎": {
+    "default": [
+      "Lupe nach rechts",
+      "Suche",
+      "Vergrösserungsglas"
     ],
     "tts": []
   },
-  "🧑🏼‍⚕": {
+  "🆎": {
     "default": [
-      "Arzt",
-      "Arzt/Ärztin",
-      "Arzt/Ärztin: mittelhelle Hautfarbe",
-      "Gesundheitswesen",
-      "Krankenpfleger",
-      "Krankenpflegerin",
-      "mittelhelle Hautfarbe",
-      "Therapeut"
+      "ab",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstaben AB in rotem Quadrat",
+      "negativ",
+      "positiv"
     ],
-    "tts": []
+    "tts": [
+      "Grossbuchstaben AB in rotem Quadrat"
+    ]
+  },
+  "🧟‍♂": {
+    "default": [
+      "Zombiemann"
+    ],
+    "tts": [
+      "Zombiemann"
+    ]
+  },
+  "🌶": {
+    "default": [],
+    "tts": [
+      "Chili"
+    ]
   },
   "💇🏻": {
     "default": [
@@ -1253,25 +1918,6 @@
     ],
     "tts": []
   },
-  "🪈": {
-    "default": [
-      "Blockflöte",
-      "Flöte",
-      "Holzblasinstrument",
-      "Musik",
-      "Pfeife"
-    ],
-    "tts": []
-  },
-  "👨🏼‍🦯": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock: mittelhelle Hautfarbe",
-      "mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
   "👨‍🏭": {
     "default": [
       "Arbeiter",
@@ -1281,296 +1927,6 @@
       "Montage"
     ],
     "tts": []
-  },
-  "🧑🏽‍💼": {
-    "default": [
-      "Architekt",
-      "Büroangestellte(r)",
-      "Büroangestellte(r): mittlere Hautfarbe",
-      "Business",
-      "Manager",
-      "mittlere Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🌌": {
-    "default": [
-      "Galaxie",
-      "Milchstrasse"
-    ],
-    "tts": [
-      "Milchstrasse"
-    ]
-  },
-  "🫧": {
-    "default": [
-      "sauber",
-      "Schaum",
-      "Seife",
-      "Seifenblasen"
-    ],
-    "tts": [
-      "Seifenblasen"
-    ]
-  },
-  "❤‍🩹": {
-    "default": [
-      "Besserung",
-      "erholen",
-      "gesund",
-      "gute Besserung",
-      "heilen",
-      "Herz mit Pflaster",
-      "Pflaster"
-    ],
-    "tts": [
-      "Herz mit Pflaster"
-    ]
-  },
-  "🥂": {
-    "default": [
-      "anstossen",
-      "Champagner",
-      "feiern",
-      "Getränk",
-      "Sekt",
-      "Sektgläser"
-    ],
-    "tts": []
-  },
-  "✂": {
-    "default": [
-      "basteln",
-      "Schere",
-      "schneiden"
-    ],
-    "tts": []
-  },
-  "🧟‍♂": {
-    "default": [
-      "Zombiemann"
-    ],
-    "tts": [
-      "Zombiemann"
-    ]
-  },
-  "🧑‍🔬": {
-    "default": [
-      "Wissenschaftler(in)"
-    ],
-    "tts": []
-  },
-  "🫸": {
-    "default": [
-      "drücken",
-      "High Five",
-      "nach rechts",
-      "nach rechts drückende Hand",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach rechts drückende Hand"
-    ]
-  },
-  "😅": {
-    "default": [
-      "Gesicht",
-      "Lachender Smiley mit kaltem Schweiss",
-      "lustig",
-      "Schweiss",
-      "schwitzen"
-    ],
-    "tts": [
-      "Lachender Smiley mit kaltem Schweiss"
-    ]
-  },
-  "🧑🏽‍🔬": {
-    "default": [
-      "mittlere Hautfarbe",
-      "Wissenschaftler(in)",
-      "Wissenschaftler(in): mittlere Hautfarbe"
-    ],
-    "tts": []
-  },
-  "💇🏿": {
-    "default": [
-      "Coiffeur",
-      "dunkle Hautfarbe",
-      "Friseur",
-      "Frisur",
-      "Person beim Haareschneiden",
-      "Person beim Haareschneiden: dunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🚶🏾‍♀": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin: mitteldunkle Hautfarbe",
-      "gehen",
-      "mitteldunkle Hautfarbe",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin: mitteldunkle Hautfarbe"
-    ]
-  },
-  "👨🏾‍🦯": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock: mitteldunkle Hautfarbe",
-      "mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🤍": {
-    "default": [
-      "Herz",
-      "weiss",
-      "weisses Herz"
-    ],
-    "tts": [
-      "weisses Herz"
-    ]
-  },
-  "🧑‍🔧": {
-    "default": [
-      "Mechaniker(in)"
-    ],
-    "tts": []
-  },
-  "🎅🏾": {
-    "default": [
-      "mitteldunkle Hautfarbe",
-      "Samichlaus",
-      "Weihnachten",
-      "Weihnachtsmann",
-      "Weihnachtsmann: mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🚷": {
-    "default": [
-      "Fussgänger-verboten-Schild",
-      "verboten"
-    ],
-    "tts": [
-      "Fussgänger-verboten-Schild"
-    ]
-  },
-  "✅": {
-    "default": [
-      "abgehakt",
-      "erledigt",
-      "Weisses Häkchen"
-    ],
-    "tts": [
-      "Weisses Häkchen"
-    ]
-  },
-  "🚶🏼‍♀": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin: mittelhelle Hautfarbe",
-      "gehen",
-      "mittelhelle Hautfarbe",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin: mittelhelle Hautfarbe"
-    ]
-  },
-  "💇🏻‍♂": {
-    "default": [
-      "Coiffeur",
-      "Friseur",
-      "Haarschnitt",
-      "helle Hautfarbe",
-      "Mann",
-      "Mann beim Haareschneiden",
-      "Mann beim Haareschneiden: helle Hautfarbe",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🙏🏻": {
-    "default": [
-      "beten",
-      "betende Hände",
-      "bitten",
-      "danken",
-      "Gebet",
-      "grüssen",
-      "helle Hautfarbe",
-      "zusammengelegte Handflächen",
-      "zusammengelegte Handflächen: helle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🇸🇧": {
-    "default": [
-      "Flagge",
-      "Flagge: Salomon-Inseln"
-    ],
-    "tts": [
-      "Flagge: Salomon-Inseln"
-    ]
-  },
-  "🤘🏿": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Finger",
-      "Hand",
-      "Hörner",
-      "Rock",
-      "Teufel",
-      "Teufelsgruss",
-      "Teufelsgruss: dunkle Hautfarbe"
-    ],
-    "tts": [
-      "Teufelsgruss: dunkle Hautfarbe"
-    ]
-  },
-  "🚶🏽‍♂": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger: mittlere Hautfarbe",
-      "gehen",
-      "Mann",
-      "mittlere Hautfarbe",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger: mittlere Hautfarbe"
-    ]
-  },
-  "🪠": {
-    "default": [
-      "Klempner",
-      "Pümpel",
-      "Sanitär",
-      "Saugglocke",
-      "WC"
-    ],
-    "tts": []
-  },
-  "🚶🏿‍♀": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin: dunkle Hautfarbe",
-      "gehen",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin: dunkle Hautfarbe"
-    ]
   },
   "🖖🏽": {
     "default": [
@@ -1587,49 +1943,6 @@
       "Vulkanischer Gruss: mittlere Hautfarbe"
     ]
   },
-  "🫸🏿": {
-    "default": [
-      "drücken",
-      "dunkle Hautfarbe",
-      "High Five",
-      "nach rechts",
-      "nach rechts drückende Hand",
-      "nach rechts drückende Hand: dunkle Hautfarbe",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach rechts drückende Hand: dunkle Hautfarbe"
-    ]
-  },
-  "👩🏻‍🏭": {
-    "default": [
-      "Arbeiter",
-      "Fabrik",
-      "Fabrikarbeiterin",
-      "Fabrikarbeiterin: helle Hautfarbe",
-      "helle Hautfarbe",
-      "industriell",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "📆": {
-    "default": [
-      "Abreisskalender",
-      "Kalender"
-    ],
-    "tts": [
-      "Abreisskalender"
-    ]
-  },
-  "🛗": {
-    "default": [],
-    "tts": [
-      "Lift"
-    ]
-  },
   "🔥": {
     "default": [
       "Feuer",
@@ -1638,245 +1951,26 @@
     ],
     "tts": []
   },
-  "🧑🏾‍💼": {
+  "👣": {
     "default": [
-      "Architekt",
-      "Büroangestellte(r)",
-      "Büroangestellte(r): mitteldunkle Hautfarbe",
-      "Business",
-      "Manager",
-      "mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧑🏼‍🦳": {
-    "default": [
-      "erwachsene Person",
-      "geschlechtsneutral",
-      "Mensch",
-      "mittelhelle Hautfarbe",
-      "ohne eindeutiges Geschlecht",
-      "Person",
-      "Person: mittelhelle Hautfarbe, weisses Haar",
-      "weisses Haar"
+      "Abdruck",
+      "Fussabdruck",
+      "Fussabdrücke"
     ],
     "tts": [
-      "Person: mittelhelle Hautfarbe, weisses Haar"
+      "Fussabdrücke"
     ]
   },
-  "🫏": {
+  "😅": {
     "default": [
-      "Dummkopf",
-      "Esel",
-      "Grautier",
-      "Maultier",
-      "Säugetier",
-      "störrisch",
-      "stur",
-      "Tier"
-    ],
-    "tts": []
-  },
-  "😓": {
-    "default": [
-      "geschlossene Augen",
       "Gesicht",
-      "Smiley mit kaltem Schweiss"
+      "Lachender Smiley mit kaltem Schweiss",
+      "lustig",
+      "Schweiss",
+      "schwitzen"
     ],
     "tts": [
-      "Smiley mit kaltem Schweiss"
-    ]
-  },
-  "🧑🏻‍🔬": {
-    "default": [
-      "helle Hautfarbe",
-      "Wissenschaftler(in)",
-      "Wissenschaftler(in): helle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧑‍🦳": {
-    "default": [
-      "erwachsene Person",
-      "geschlechtsneutral",
-      "Mensch",
-      "ohne eindeutiges Geschlecht",
-      "Person",
-      "Person: weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Person: weisses Haar"
-    ]
-  },
-  "🛜": {
-    "default": [
-      "Computer",
-      "drahtlos",
-      "Internet",
-      "kabellos",
-      "Netzwerk",
-      "WIFI",
-      "WLAN"
-    ],
-    "tts": [
-      "drahtlos"
-    ]
-  },
-  "🧑🏾‍⚕": {
-    "default": [
-      "Arzt",
-      "Arzt/Ärztin",
-      "Arzt/Ärztin: mitteldunkle Hautfarbe",
-      "Gesundheitswesen",
-      "Krankenpfleger",
-      "Krankenpflegerin",
-      "mitteldunkle Hautfarbe",
-      "Therapeut"
-    ],
-    "tts": []
-  },
-  "🅿": {
-    "default": [
-      "Grossbuchstabe P in Quadrat",
-      "Parkplatz",
-      "Quadrat"
-    ],
-    "tts": [
-      "Grossbuchstabe P in Quadrat"
-    ]
-  },
-  "🚶‍♀": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "gehen",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin"
-    ]
-  },
-  "🧑🏻‍🦯": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "helle Hautfarbe",
-      "Person mit Langstock",
-      "Person mit Langstock: helle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🫖": {
-    "default": [
-      "Kanne",
-      "Tee",
-      "Teekanne",
-      "Teekrug",
-      "trinken"
-    ],
-    "tts": [
-      "Teekrug"
-    ]
-  },
-  "🦶🏾": {
-    "default": [
-      "Fuss",
-      "Fuss: mitteldunkle Hautfarbe",
-      "Kick",
-      "mitteldunkle Hautfarbe",
-      "stampfen"
-    ],
-    "tts": [
-      "Fuss: mitteldunkle Hautfarbe"
-    ]
-  },
-  "🧑🏼‍🔬": {
-    "default": [
-      "mittelhelle Hautfarbe",
-      "Wissenschaftler(in)",
-      "Wissenschaftler(in): mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🚶‍♂‍➡": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger nach rechts",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger nach rechts"
-    ]
-  },
-  "🧑🏿‍🦯‍➡": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "Person mit Langstock",
-      "Person mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "😳": {
-    "default": [
-      "Erröteter Smiley mit grossen Augen",
-      "Gesicht",
-      "rote Wangen",
-      "überrascht"
-    ],
-    "tts": [
-      "Erröteter Smiley mit grossen Augen"
-    ]
-  },
-  "👨🏿‍🏭": {
-    "default": [
-      "Arbeiter",
-      "dunkle Hautfarbe",
-      "Fabrik",
-      "Fabrikarbeiter",
-      "Fabrikarbeiter: dunkle Hautfarbe",
-      "industriell",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "🍭": {
-    "default": [
-      "Lolli",
-      "Lutscher",
-      "Süssigkeit"
-    ],
-    "tts": []
-  },
-  "🧑🏾‍🔬": {
-    "default": [
-      "mitteldunkle Hautfarbe",
-      "Wissenschaftler(in)",
-      "Wissenschaftler(in): mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🇧🇳": {
-    "default": [
-      "Flagge",
-      "Flagge: Brunei"
-    ],
-    "tts": [
-      "Flagge: Brunei"
-    ]
-  },
-  "👩🏽‍🦳": {
-    "default": [
-      "Frau",
-      "Frau: mittlere Hautfarbe, weisses Haar",
-      "mittlere Hautfarbe",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Frau: mittlere Hautfarbe, weisses Haar"
+      "Lachender Smiley mit kaltem Schweiss"
     ]
   },
   "👽": {
@@ -1891,328 +1985,14 @@
       "Ausserirdisches Wesen"
     ]
   },
-  "🪇": {
-    "default": [
-      "Instrument",
-      "Maraca",
-      "Musik",
-      "schütteln",
-      "Trommel"
-    ],
-    "tts": [
-      "Maraca"
-    ]
-  },
-  "🙏🏽": {
-    "default": [
-      "beten",
-      "betende Hände",
-      "bitten",
-      "danken",
-      "Gebet",
-      "grüssen",
-      "mittlere Hautfarbe",
-      "zusammengelegte Handflächen",
-      "zusammengelegte Handflächen: mittlere Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧑‍💼": {
-    "default": [
-      "Architekt",
-      "Büroangestellte(r)",
-      "Business",
-      "Manager"
-    ],
-    "tts": []
-  },
-  "🧑🏽‍🦳": {
-    "default": [
-      "erwachsene Person",
-      "geschlechtsneutral",
-      "Mensch",
-      "mittlere Hautfarbe",
-      "ohne eindeutiges Geschlecht",
-      "Person",
-      "Person: mittlere Hautfarbe, weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Person: mittlere Hautfarbe, weisses Haar"
-    ]
-  },
-  "🚶🏻‍➡": {
-    "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in) nach rechts",
-      "gehen",
-      "gehend",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in) nach rechts"
-    ]
-  },
-  "🧗🏿‍♂": {
-    "default": [
-      "bergsteigen",
-      "Bergsteiger",
-      "Bergsteiger: dunkle Hautfarbe",
-      "dunkle Hautfarbe",
-      "Kletterer",
-      "klettern"
-    ],
-    "tts": []
-  },
-  "🚶🏼‍♂": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger: mittelhelle Hautfarbe",
-      "gehen",
-      "Mann",
-      "mittelhelle Hautfarbe",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger: mittelhelle Hautfarbe"
-    ]
-  },
-  "👩🏿‍🦳": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Frau",
-      "Frau: dunkle Hautfarbe, weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Frau: dunkle Hautfarbe, weisses Haar"
-    ]
-  },
-  "⭕": {
-    "default": [
-      "grosser Kreis",
-      "hohler roter Kreis",
-      "Kreis",
-      "o",
-      "rot"
-    ],
-    "tts": []
-  },
-  "🚼": {
-    "default": [
-      "Baby-Symbol",
-      "Symbol „Baby“",
-      "Wickelraum"
-    ],
-    "tts": []
-  },
-  "🤘": {
-    "default": [
-      "Finger",
-      "Hand",
-      "Hörner",
-      "Rock",
-      "Teufel",
-      "Teufelsgruss"
-    ],
-    "tts": [
-      "Teufelsgruss"
-    ]
-  },
-  "🚶🏾‍♂‍➡": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger nach rechts",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger nach rechts"
-    ]
-  },
-  "😰": {
-    "default": [
-      "Gesicht",
-      "kalter Schweiss",
-      "offener Mund",
-      "Smiley mit offenem Mund und kaltem Schweiss"
-    ],
-    "tts": [
-      "Smiley mit offenem Mund und kaltem Schweiss"
-    ]
-  },
-  "🧑🏽‍🦯": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "mittlere Hautfarbe",
-      "Person mit Langstock",
-      "Person mit Langstock: mittlere Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧑🏻‍⚕": {
-    "default": [
-      "Arzt",
-      "Arzt/Ärztin",
-      "Arzt/Ärztin: helle Hautfarbe",
-      "Gesundheitswesen",
-      "helle Hautfarbe",
-      "Krankenpfleger",
-      "Krankenpflegerin",
-      "Therapeut"
-    ],
-    "tts": []
-  },
-  "👩🏿‍🏭": {
-    "default": [
-      "Arbeiter",
-      "dunkle Hautfarbe",
-      "Fabrik",
-      "Fabrikarbeiterin",
-      "Fabrikarbeiterin: dunkle Hautfarbe",
-      "industriell",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "🚸": {
-    "default": [
-      "Kinder",
-      "Kinder-queren-die-Strasse-Schild",
-      "Vorsicht"
-    ],
-    "tts": [
-      "Kinder-queren-die-Strasse-Schild"
-    ]
-  },
-  "🫸🏼": {
-    "default": [
-      "drücken",
-      "High Five",
-      "mittelhelle Hautfarbe",
-      "nach rechts",
-      "nach rechts drückende Hand",
-      "nach rechts drückende Hand: mittelhelle Hautfarbe",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach rechts drückende Hand: mittelhelle Hautfarbe"
-    ]
-  },
-  "🆑": {
-    "default": [
-      "CL",
-      "Grossbuchstaben CL in rotem Quadrat"
-    ],
-    "tts": [
-      "Grossbuchstaben CL in rotem Quadrat"
-    ]
-  },
-  "🤘🏼": {
-    "default": [
-      "Finger",
-      "Hand",
-      "Hörner",
-      "mittelhelle Hautfarbe",
-      "Rock",
-      "Teufel",
-      "Teufelsgruss",
-      "Teufelsgruss: mittelhelle Hautfarbe"
-    ],
-    "tts": [
-      "Teufelsgruss: mittelhelle Hautfarbe"
-    ]
-  },
-  "👩🏽‍🏭": {
-    "default": [
-      "Arbeiter",
-      "Fabrik",
-      "Fabrikarbeiterin",
-      "Fabrikarbeiterin: mittlere Hautfarbe",
-      "industriell",
-      "mittlere Hautfarbe",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "🔵": {
-    "default": [
-      "Ball",
-      "blau",
-      "Grosser blauer Kreis",
-      "Kreis"
-    ],
-    "tts": [
-      "Grosser blauer Kreis"
-    ]
-  },
-  "🚶🏼": {
-    "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in): mittelhelle Hautfarbe",
-      "gehen",
-      "gehend",
-      "mittelhelle Hautfarbe",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in): mittelhelle Hautfarbe"
-    ]
-  },
-  "❕": {
-    "default": [
-      "Satzzeichen",
-      "weiss",
-      "weisses Ausrufezeichen"
-    ],
-    "tts": [
-      "weisses Ausrufezeichen"
-    ]
-  },
-  "🦣": {
+  "🦤": {
     "default": [
       "Aussterben",
+      "Dodo",
       "gross",
-      "Mammut",
-      "Stosszahn",
-      "wollig"
+      "Mauritius"
     ],
     "tts": []
-  },
-  "💇🏽‍♂": {
-    "default": [
-      "Coiffeur",
-      "Friseur",
-      "Haarschnitt",
-      "Mann",
-      "Mann beim Haareschneiden",
-      "Mann beim Haareschneiden: mittlere Hautfarbe",
-      "mittlere Hautfarbe",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🪫": {
-    "default": [
-      "Akku leer",
-      "Batterie leer",
-      "schwache Batterie"
-    ],
-    "tts": []
-  },
-  "🔶": {
-    "default": [
-      "Grosse orangefarbene Raute",
-      "orangefarben",
-      "Raute"
-    ],
-    "tts": [
-      "Grosse orangefarbene Raute"
-    ]
   },
   "♨": {
     "default": [
@@ -2226,207 +2006,69 @@
       "Heisse Quellen"
     ]
   },
-  "🚶‍♀‍➡": {
+  "🧗🏻‍♀": {
     "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin nach rechts",
-      "gehen",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin nach rechts"
-    ]
-  },
-  "🍄‍🟫": {
-    "default": [
-      "braun",
-      "brauner Pilz",
-      "Gemüse",
-      "Natur",
-      "Pilz",
-      "Wald"
-    ],
-    "tts": []
-  },
-  "👨🏽‍🦯‍➡": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "🧑‍⚕": {
-    "default": [
-      "Arzt",
-      "Arzt/Ärztin",
-      "Gesundheitswesen",
-      "Krankenpfleger",
-      "Krankenpflegerin",
-      "Therapeut"
-    ],
-    "tts": []
-  },
-  "🦶🏿": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Fuss",
-      "Fuss: dunkle Hautfarbe",
-      "Kick",
-      "stampfen"
-    ],
-    "tts": [
-      "Fuss: dunkle Hautfarbe"
-    ]
-  },
-  "👨🏻‍🦯": {
-    "default": [
+      "bergsteigen",
+      "Bergsteigerin",
+      "Bergsteigerin: helle Hautfarbe",
       "helle Hautfarbe",
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock: helle Hautfarbe"
+      "Kletterin",
+      "klettern"
     ],
     "tts": []
   },
-  "🪭": {
-    "default": [
-      "Fächer",
-      "fächern",
-      "Faltfächer",
-      "Flamenco",
-      "heiss",
-      "kühl",
-      "scheu",
-      "tanzen"
-    ],
-    "tts": [
-      "Fächer"
-    ]
-  },
-  "🍗": {
-    "default": [
-      "Geflügel",
-      "Poulet",
-      "Pouletschenkel"
-    ],
-    "tts": [
-      "Pouletschenkel"
-    ]
-  },
-  "👨🏼‍🏭": {
-    "default": [
-      "Arbeiter",
-      "Fabrik",
-      "Fabrikarbeiter",
-      "Fabrikarbeiter: mittelhelle Hautfarbe",
-      "industriell",
-      "mittelhelle Hautfarbe",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "🚶‍♂": {
-    "default": [
-      "Fussgänger",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger"
-    ]
-  },
-  "🤘🏻": {
-    "default": [
-      "Finger",
-      "Hand",
-      "helle Hautfarbe",
-      "Hörner",
-      "Rock",
-      "Teufel",
-      "Teufelsgruss",
-      "Teufelsgruss: helle Hautfarbe"
-    ],
-    "tts": [
-      "Teufelsgruss: helle Hautfarbe"
-    ]
-  },
-  "💇🏼‍♀": {
-    "default": [
-      "Coiffeur",
-      "Frau",
-      "Frau beim Haareschneiden",
-      "Frau beim Haareschneiden: mittelhelle Hautfarbe",
-      "Friseur",
-      "Haarschnitt",
-      "mittelhelle Hautfarbe",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🚶🏿‍➡": {
+  "🚶🏻": {
     "default": [
       "Fussgänger(in)",
-      "Fussgänger(in) nach rechts",
+      "Fussgänger(in): helle Hautfarbe",
       "gehen",
       "gehend",
+      "helle Hautfarbe",
       "wandern"
     ],
     "tts": [
-      "Fussgänger(in) nach rechts"
+      "Fussgänger(in): helle Hautfarbe"
     ]
   },
-  "🥵": {
+  "🤐": {
     "default": [
-      "erhitzt",
-      "Fieber",
-      "heiss",
-      "Hitzschlag",
-      "schwitzen",
-      "schwitzendes Gesicht"
+      "Gesicht",
+      "Mund",
+      "Reissverschluss",
+      "Smiley mit Reissverschlussmund"
+    ],
+    "tts": [
+      "Smiley mit Reissverschlussmund"
+    ]
+  },
+  "🦶🏾": {
+    "default": [
+      "Fuss",
+      "Fuss: mitteldunkle Hautfarbe",
+      "Kick",
+      "mitteldunkle Hautfarbe",
+      "stampfen"
+    ],
+    "tts": [
+      "Fuss: mitteldunkle Hautfarbe"
+    ]
+  },
+  "🇧🇳": {
+    "default": [
+      "Flagge",
+      "Flagge: Brunei"
+    ],
+    "tts": [
+      "Flagge: Brunei"
+    ]
+  },
+  "🪫": {
+    "default": [
+      "Akku leer",
+      "Batterie leer",
+      "schwache Batterie"
     ],
     "tts": []
-  },
-  "🚶🏻‍♂‍➡": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger nach rechts",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger nach rechts"
-    ]
-  },
-  "🅾": {
-    "default": [
-      "0",
-      "Blut",
-      "Blutgruppe",
-      "Grossbuchstabe O in Quadrat",
-      "negativ",
-      "positiv"
-    ],
-    "tts": [
-      "Grossbuchstabe O in Quadrat"
-    ]
-  },
-  "➕": {
-    "default": [],
-    "tts": [
-      "Plus"
-    ]
-  },
-  "📌": {
-    "default": [
-      "anpinnen",
-      "Reisszwecke"
-    ],
-    "tts": [
-      "Reisszwecke"
-    ]
   },
   "💇🏽‍♀": {
     "default": [
@@ -2441,411 +2083,28 @@
     ],
     "tts": []
   },
-  "🧑🏻‍🦳": {
+  "☢": {
     "default": [
-      "erwachsene Person",
-      "geschlechtsneutral",
+      "radioaktiv",
+      "Radioaktivität"
+    ],
+    "tts": [
+      "radioaktiv"
+    ]
+  },
+  "🙏🏻": {
+    "default": [
+      "beten",
+      "betende Hände",
+      "bitten",
+      "danken",
+      "Gebet",
+      "grüssen",
       "helle Hautfarbe",
-      "Mensch",
-      "ohne eindeutiges Geschlecht",
-      "Person",
-      "Person: helle Hautfarbe, weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Person: helle Hautfarbe, weisses Haar"
-    ]
-  },
-  "🚶🏾": {
-    "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in): mitteldunkle Hautfarbe",
-      "gehen",
-      "gehend",
-      "mitteldunkle Hautfarbe",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in): mitteldunkle Hautfarbe"
-    ]
-  },
-  "🏳": {
-    "default": [
-      "Fahne",
-      "wehen",
-      "Wehende weisse Fahne",
-      "weisse Fahne"
-    ],
-    "tts": [
-      "Wehende weisse Fahne"
-    ]
-  },
-  "🩴": {
-    "default": [
-      "Flipflops",
-      "Zehensandale",
-      "Zehensandalen"
-    ],
-    "tts": [
-      "Flipflops"
-    ]
-  },
-  "🦶🏻": {
-    "default": [
-      "Fuss",
-      "Fuss: helle Hautfarbe",
-      "helle Hautfarbe",
-      "Kick",
-      "stampfen"
-    ],
-    "tts": [
-      "Fuss: helle Hautfarbe"
-    ]
-  },
-  "🚶🏽‍♂‍➡": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger nach rechts",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger nach rechts"
-    ]
-  },
-  "👨🏽‍🦯": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock: mittlere Hautfarbe",
-      "mittlere Hautfarbe"
+      "zusammengelegte Handflächen",
+      "zusammengelegte Handflächen: helle Hautfarbe"
     ],
     "tts": []
-  },
-  "🍻": {
-    "default": [
-      "anstossen",
-      "Bier",
-      "Bierkrüge"
-    ],
-    "tts": []
-  },
-  "➖": {
-    "default": [],
-    "tts": [
-      "Minus"
-    ]
-  },
-  "🖖🏼": {
-    "default": [
-      "Finger",
-      "Hand",
-      "mittelhelle Hautfarbe",
-      "Spock",
-      "Vulkanier(in)",
-      "vulkanisch",
-      "Vulkanischer Gruss",
-      "Vulkanischer Gruss: mittelhelle Hautfarbe"
-    ],
-    "tts": [
-      "Vulkanischer Gruss: mittelhelle Hautfarbe"
-    ]
-  },
-  "🧗🏻‍♀": {
-    "default": [
-      "bergsteigen",
-      "Bergsteigerin",
-      "Bergsteigerin: helle Hautfarbe",
-      "helle Hautfarbe",
-      "Kletterin",
-      "klettern"
-    ],
-    "tts": []
-  },
-  "🧑‍🦯": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "Person mit Langstock"
-    ],
-    "tts": []
-  },
-  "🇧🇼": {
-    "default": [
-      "Flagge",
-      "Flagge: Botswana"
-    ],
-    "tts": [
-      "Flagge: Botswana"
-    ]
-  },
-  "🫷🏿": {
-    "default": [
-      "drücken",
-      "dunkle Hautfarbe",
-      "High Five",
-      "nach links",
-      "nach links drückende Hand",
-      "nach links drückende Hand: dunkle Hautfarbe",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach links drückende Hand: dunkle Hautfarbe"
-    ]
-  },
-  "🇿🇼": {
-    "default": [
-      "Flagge",
-      "Flagge: Zimbabwe"
-    ],
-    "tts": [
-      "Flagge: Zimbabwe"
-    ]
-  },
-  "🚶🏼‍♂‍➡": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger nach rechts",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger nach rechts"
-    ]
-  },
-  "🧑🏾‍🔧": {
-    "default": [
-      "Mechaniker(in)",
-      "Mechaniker(in): mitteldunkle Hautfarbe",
-      "mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🧑‍🦯‍➡": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "Person mit Langstock",
-      "Person mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "🧑🏿‍🦳": {
-    "default": [
-      "dunkle Hautfarbe",
-      "erwachsene Person",
-      "geschlechtsneutral",
-      "Mensch",
-      "ohne eindeutiges Geschlecht",
-      "Person",
-      "Person: dunkle Hautfarbe, weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Person: dunkle Hautfarbe, weisses Haar"
-    ]
-  },
-  "🫷": {
-    "default": [
-      "drücken",
-      "High Five",
-      "nach links",
-      "nach links drückende Hand",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach links drückende Hand"
-    ]
-  },
-  "👩🏼‍🦳": {
-    "default": [
-      "Frau",
-      "Frau: mittelhelle Hautfarbe, weisses Haar",
-      "mittelhelle Hautfarbe",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Frau: mittelhelle Hautfarbe, weisses Haar"
-    ]
-  },
-  "🎅🏼": {
-    "default": [
-      "mittelhelle Hautfarbe",
-      "Samichlaus",
-      "Weihnachten",
-      "Weihnachtsmann",
-      "Weihnachtsmann: mittelhelle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🍡": {
-    "default": [
-      "Dango",
-      "japanisches Gericht",
-      "Mochi-Kugeln auf einem Spiess",
-      "Restaurant"
-    ],
-    "tts": []
-  },
-  "🚶🏼‍♀‍➡": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin nach rechts",
-      "gehen",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin nach rechts"
-    ]
-  },
-  "💦": {
-    "default": [
-      "Comic",
-      "Schweiss",
-      "Schweisstropfen"
-    ],
-    "tts": [
-      "Schweisstropfen"
-    ]
-  },
-  "💇🏿‍♂": {
-    "default": [
-      "Coiffeur",
-      "dunkle Hautfarbe",
-      "Friseur",
-      "Haarschnitt",
-      "Mann",
-      "Mann beim Haareschneiden",
-      "Mann beim Haareschneiden: dunkle Hautfarbe",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🖖🏿": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Finger",
-      "Hand",
-      "Spock",
-      "Vulkanier(in)",
-      "vulkanisch",
-      "Vulkanischer Gruss",
-      "Vulkanischer Gruss: dunkle Hautfarbe"
-    ],
-    "tts": [
-      "Vulkanischer Gruss: dunkle Hautfarbe"
-    ]
-  },
-  "🫷🏻": {
-    "default": [
-      "drücken",
-      "helle Hautfarbe",
-      "High Five",
-      "nach links",
-      "nach links drückende Hand",
-      "nach links drückende Hand: helle Hautfarbe",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach links drückende Hand: helle Hautfarbe"
-    ]
-  },
-  "🧗🏾‍♀": {
-    "default": [
-      "bergsteigen",
-      "Bergsteigerin",
-      "Bergsteigerin: mitteldunkle Hautfarbe",
-      "Kletterin",
-      "klettern",
-      "mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "💇🏾": {
-    "default": [
-      "Coiffeur",
-      "Friseur",
-      "Frisur",
-      "mitteldunkle Hautfarbe",
-      "Person beim Haareschneiden",
-      "Person beim Haareschneiden: mitteldunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "👩‍🦳": {
-    "default": [
-      "Frau",
-      "Frau: weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Frau: weisses Haar"
-    ]
-  },
-  "🥸": {
-    "default": [
-      "Brille",
-      "Gesicht",
-      "Gesicht mit Maske",
-      "incognito",
-      "Maske",
-      "Nase"
-    ],
-    "tts": [
-      "Gesicht mit Maske"
-    ]
-  },
-  "🫸🏾": {
-    "default": [
-      "drücken",
-      "High Five",
-      "mitteldunkle Hautfarbe",
-      "nach rechts",
-      "nach rechts drückende Hand",
-      "nach rechts drückende Hand: mitteldunkle Hautfarbe",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach rechts drückende Hand: mitteldunkle Hautfarbe"
-    ]
-  },
-  "⛓‍💥": {
-    "default": [
-      "befreien",
-      "Freiheit",
-      "kaputt",
-      "kaputte Kette",
-      "Kette",
-      "losreissen",
-      "reissen"
-    ],
-    "tts": [
-      "kaputte Kette"
-    ]
-  },
-  "🚶🏽": {
-    "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in): mittlere Hautfarbe",
-      "gehen",
-      "gehend",
-      "mittlere Hautfarbe",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in): mittlere Hautfarbe"
-    ]
   },
   "🫸🏽": {
     "default": [
@@ -2863,16 +2122,260 @@
       "nach rechts drückende Hand: mittlere Hautfarbe"
     ]
   },
-  "🏺": {
+  "🆑": {
     "default": [
-      "Amphore",
-      "Gefäss",
-      "kochen",
-      "Krug",
-      "Vase",
-      "Wassermann"
+      "CL",
+      "Grossbuchstaben CL in rotem Quadrat"
+    ],
+    "tts": [
+      "Grossbuchstaben CL in rotem Quadrat"
+    ]
+  },
+  "🧗🏿‍♂": {
+    "default": [
+      "bergsteigen",
+      "Bergsteiger",
+      "Bergsteiger: dunkle Hautfarbe",
+      "dunkle Hautfarbe",
+      "Kletterer",
+      "klettern"
     ],
     "tts": []
+  },
+  "🧑🏽‍🔧": {
+    "default": [
+      "Mechaniker(in)",
+      "Mechaniker(in): mittlere Hautfarbe",
+      "mittlere Hautfarbe"
+    ],
+    "tts": []
+  },
+  "💇🏻‍♀": {
+    "default": [
+      "Coiffeur",
+      "Frau",
+      "Frau beim Haareschneiden",
+      "Frau beim Haareschneiden: helle Hautfarbe",
+      "Friseur",
+      "Haarschnitt",
+      "helle Hautfarbe",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "🩻": {
+    "default": [
+      "Arzt",
+      "Bildgebung",
+      "Knochen",
+      "Röntgen"
+    ],
+    "tts": [
+      "Röntgen"
+    ]
+  },
+  "❤‍🩹": {
+    "default": [
+      "Besserung",
+      "erholen",
+      "gesund",
+      "gute Besserung",
+      "heilen",
+      "Herz mit Pflaster",
+      "Pflaster"
+    ],
+    "tts": [
+      "Herz mit Pflaster"
+    ]
+  },
+  "⚫": {
+    "default": [
+      "Ball",
+      "Grosser schwarzer Kreis",
+      "Kreis",
+      "schwarz"
+    ],
+    "tts": [
+      "Grosser schwarzer Kreis"
+    ]
+  },
+  "🥵": {
+    "default": [
+      "erhitzt",
+      "Fieber",
+      "heiss",
+      "Hitzschlag",
+      "schwitzen",
+      "schwitzendes Gesicht"
+    ],
+    "tts": []
+  },
+  "➕": {
+    "default": [],
+    "tts": [
+      "Plus"
+    ]
+  },
+  "🫧": {
+    "default": [
+      "sauber",
+      "Schaum",
+      "Seife",
+      "Seifenblasen"
+    ],
+    "tts": [
+      "Seifenblasen"
+    ]
+  },
+  "🧑‍🦯‍➡": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock",
+      "Person mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🚶🏻‍♀": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin: helle Hautfarbe",
+      "gehen",
+      "helle Hautfarbe",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin: helle Hautfarbe"
+    ]
+  },
+  "👨🏿‍🦳": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Mann",
+      "Mann: dunkle Hautfarbe, weisses Haar",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Mann: dunkle Hautfarbe, weisses Haar"
+    ]
+  },
+  "💇🏿‍♀": {
+    "default": [
+      "Coiffeur",
+      "dunkle Hautfarbe",
+      "Frau",
+      "Frau beim Haareschneiden",
+      "Frau beim Haareschneiden: dunkle Hautfarbe",
+      "Friseur",
+      "Haarschnitt",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "🫚": {
+    "default": [
+      "Ginger Beer",
+      "Ingwer",
+      "Ingwerwurzel",
+      "scharf"
+    ],
+    "tts": [
+      "Ingwerwurzel"
+    ]
+  },
+  "🧗‍♀": {
+    "default": [
+      "bergsteigen",
+      "Bergsteigerin",
+      "Kletterin",
+      "klettern"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🦳": {
+    "default": [
+      "Mann",
+      "Mann: mittlere Hautfarbe, weisses Haar",
+      "mittlere Hautfarbe",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Mann: mittlere Hautfarbe, weisses Haar"
+    ]
+  },
+  "🍋‍🟩": {
+    "default": [
+      "Frucht",
+      "Limette",
+      "sauer",
+      "tropisch",
+      "Zitrusfrucht"
+    ],
+    "tts": []
+  },
+  "🛗": {
+    "default": [],
+    "tts": [
+      "Lift"
+    ]
+  },
+  "🧑🏿‍💼": {
+    "default": [
+      "Architekt",
+      "Büroangestellte(r)",
+      "Büroangestellte(r): dunkle Hautfarbe",
+      "Business",
+      "dunkle Hautfarbe",
+      "Manager"
+    ],
+    "tts": []
+  },
+  "🚶🏿": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Fussgänger(in)",
+      "Fussgänger(in): dunkle Hautfarbe",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in): dunkle Hautfarbe"
+    ]
+  },
+  "🚶🏾‍♀‍➡": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin nach rechts",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin nach rechts"
+    ]
+  },
+  "🧑🏿‍🦯": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "dunkle Hautfarbe",
+      "Person mit Langstock",
+      "Person mit Langstock: dunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🦳": {
+    "default": [
+      "Frau",
+      "Frau: mitteldunkle Hautfarbe, weisses Haar",
+      "mitteldunkle Hautfarbe",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Frau: mitteldunkle Hautfarbe, weisses Haar"
+    ]
   },
   "💇🏾‍♀": {
     "default": [
@@ -2897,24 +2400,171 @@
     ],
     "tts": []
   },
-  "👣": {
+  "🚶🏼‍➡": {
     "default": [
-      "Abdruck",
-      "Fussabdruck",
-      "Fussabdrücke"
+      "Fussgänger(in)",
+      "Fussgänger(in) nach rechts",
+      "gehen",
+      "gehend",
+      "wandern"
     ],
     "tts": [
-      "Fussabdrücke"
+      "Fussgänger(in) nach rechts"
     ]
   },
-  "🆚": {
+  "🧑🏾‍💼": {
     "default": [
-      "Grossbuchstaben VS in orangefarbenem Quadrat",
-      "versus",
-      "VS"
+      "Architekt",
+      "Büroangestellte(r)",
+      "Büroangestellte(r): mitteldunkle Hautfarbe",
+      "Business",
+      "Manager",
+      "mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍💼": {
+    "default": [
+      "Architekt",
+      "Büroangestellte(r)",
+      "Büroangestellte(r): mittlere Hautfarbe",
+      "Business",
+      "Manager",
+      "mittlere Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍⚕": {
+    "default": [
+      "Arzt",
+      "Arzt/Ärztin",
+      "Arzt/Ärztin: mitteldunkle Hautfarbe",
+      "Gesundheitswesen",
+      "Krankenpfleger",
+      "Krankenpflegerin",
+      "mitteldunkle Hautfarbe",
+      "Therapeut"
+    ],
+    "tts": []
+  },
+  "💇🏿": {
+    "default": [
+      "Coiffeur",
+      "dunkle Hautfarbe",
+      "Friseur",
+      "Frisur",
+      "Person beim Haareschneiden",
+      "Person beim Haareschneiden: dunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🧗🏼‍♂": {
+    "default": [
+      "bergsteigen",
+      "Bergsteiger",
+      "Bergsteiger: mittelhelle Hautfarbe",
+      "Kletterer",
+      "klettern",
+      "mittelhelle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🎅🏾": {
+    "default": [
+      "mitteldunkle Hautfarbe",
+      "Samichlaus",
+      "Weihnachten",
+      "Weihnachtsmann",
+      "Weihnachtsmann: mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "⚽": {
+    "default": [
+      "Ball",
+      "Fussball"
     ],
     "tts": [
-      "Grossbuchstaben VS in orangefarbenem Quadrat"
+      "Fussball"
+    ]
+  },
+  "🚶🏼‍♂‍➡": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger nach rechts",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger nach rechts"
+    ]
+  },
+  "🇸🇧": {
+    "default": [
+      "Flagge",
+      "Flagge: Salomon-Inseln"
+    ],
+    "tts": [
+      "Flagge: Salomon-Inseln"
+    ]
+  },
+  "🧗🏾‍♂": {
+    "default": [
+      "bergsteigen",
+      "Bergsteiger",
+      "Bergsteiger: mitteldunkle Hautfarbe",
+      "Kletterer",
+      "klettern",
+      "mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "❔": {
+    "default": [
+      "Satzzeichen",
+      "weiss",
+      "weisses Fragezeichen"
+    ],
+    "tts": [
+      "weisses Fragezeichen"
+    ]
+  },
+  "🔍": {
+    "default": [
+      "Lupe nach links",
+      "Suche",
+      "Vergrösserungsglas"
+    ],
+    "tts": []
+  },
+  "👩‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiterin",
+      "industriell",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "🍭": {
+    "default": [
+      "Lolli",
+      "Lutscher",
+      "Süssigkeit"
+    ],
+    "tts": []
+  },
+  "📍": {
+    "default": [
+      "anpinnen",
+      "Reisszwecke",
+      "rund",
+      "runde Reisszwecke"
+    ],
+    "tts": [
+      "runde Reisszwecke"
     ]
   },
   "🧗‍♂": {
@@ -2926,335 +2576,80 @@
     ],
     "tts": []
   },
-  "🚶🏾‍➡": {
+  "🦶": {
     "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in) nach rechts",
-      "gehen",
-      "gehend",
-      "wandern"
+      "Fuss",
+      "Kick",
+      "stampfen"
     ],
     "tts": [
-      "Fussgänger(in) nach rechts"
+      "Fuss"
     ]
   },
-  "🔳": {
+  "🍄‍🟫": {
     "default": [
-      "quadratisch",
-      "Schaltfläche",
-      "weiss",
-      "Weisse quadratische Schaltfläche"
-    ],
-    "tts": [
-      "Weisse quadratische Schaltfläche"
-    ]
-  },
-  "🦤": {
-    "default": [
-      "Aussterben",
-      "Dodo",
-      "gross",
-      "Mauritius"
+      "braun",
+      "brauner Pilz",
+      "Gemüse",
+      "Natur",
+      "Pilz",
+      "Wald"
     ],
     "tts": []
   },
-  "🪻": {
+  "🫖": {
     "default": [
-      "Blume",
-      "Hyazinthe",
-      "Lavendel",
-      "Löwenmaul",
-      "Lupine"
-    ],
-    "tts": []
-  },
-  "◻": {
-    "default": [
-      "Mittelgrosses weisses Quadrat",
-      "Quadrat",
-      "weiss"
+      "Kanne",
+      "Tee",
+      "Teekanne",
+      "Teekrug",
+      "trinken"
     ],
     "tts": [
-      "Mittelgrosses weisses Quadrat"
+      "Teekrug"
     ]
   },
-  "🫷🏾": {
+  "🆔": {
+    "default": [
+      "Grossbuchstaben ID in lila Quadrat",
+      "ID"
+    ],
+    "tts": [
+      "Grossbuchstaben ID in lila Quadrat"
+    ]
+  },
+  "🫸🏼": {
     "default": [
       "drücken",
       "High Five",
-      "mitteldunkle Hautfarbe",
-      "nach links",
-      "nach links drückende Hand",
-      "nach links drückende Hand: mitteldunkle Hautfarbe",
+      "mittelhelle Hautfarbe",
+      "nach rechts",
+      "nach rechts drückende Hand",
+      "nach rechts drückende Hand: mittelhelle Hautfarbe",
       "nein",
       "Stopp",
       "warten"
     ],
     "tts": [
-      "nach links drückende Hand: mitteldunkle Hautfarbe"
+      "nach rechts drückende Hand: mittelhelle Hautfarbe"
     ]
   },
-  "❤‍🔥": {
+  "🛣": {
     "default": [
-      "brennen",
-      "brennendes Herz",
-      "Feuer",
-      "Herz in Flammen",
-      "Liebe"
-    ],
-    "tts": [
-      "brennendes Herz"
-    ]
-  },
-  "🩻": {
-    "default": [
-      "Arzt",
-      "Bildgebung",
-      "Knochen",
-      "Röntgen"
-    ],
-    "tts": [
-      "Röntgen"
-    ]
-  },
-  "🫗": {
-    "default": [
-      "ausgiessen",
-      "Flüssigkeit ausgiessen",
-      "Getränk",
-      "giessen",
-      "Glas",
-      "leer",
-      "trinken"
-    ],
-    "tts": [
-      "Flüssigkeit ausgiessen"
-    ]
-  },
-  "🚶‍➡": {
-    "default": [
-      "Fussgänger(in)",
-      "Fussgänger(in) nach rechts",
-      "gehen",
-      "gehend",
-      "wandern"
-    ],
-    "tts": [
-      "Fussgänger(in) nach rechts"
-    ]
-  },
-  "⚪": {
-    "default": [
-      "Ball",
-      "Grosser weisser Kreis",
-      "Kreis",
-      "weiss"
-    ],
-    "tts": [
-      "Grosser weisser Kreis"
-    ]
-  },
-  "🧗‍♀": {
-    "default": [
-      "bergsteigen",
-      "Bergsteigerin",
-      "Kletterin",
-      "klettern"
+      "Autobahn",
+      "Schnellstrasse"
     ],
     "tts": []
   },
-  "🙏": {
-    "default": [
-      "beten",
-      "betende Hände",
-      "bitten",
-      "danken",
-      "Gebet",
-      "grüssen",
-      "zusammengelegte Handflächen"
-    ],
-    "tts": []
-  },
-  "😶‍🌫": {
-    "default": [
-      "abwesend",
-      "benebelt",
-      "geistig umnachtet",
-      "Kopf in den Wolken"
-    ],
-    "tts": [
-      "Kopf in den Wolken"
-    ]
-  },
-  "👨🏻‍🏭": {
+  "👩🏾‍🏭": {
     "default": [
       "Arbeiter",
       "Fabrik",
-      "Fabrikarbeiter",
-      "Fabrikarbeiter: helle Hautfarbe",
-      "helle Hautfarbe",
+      "Fabrikarbeiterin",
+      "Fabrikarbeiterin: mitteldunkle Hautfarbe",
       "industriell",
-      "Montage"
-    ],
-    "tts": []
-  },
-  "🎅🏽": {
-    "default": [
-      "mittlere Hautfarbe",
-      "Samichlaus",
-      "Weihnachten",
-      "Weihnachtsmann",
-      "Weihnachtsmann: mittlere Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🆗": {
-    "default": [
-      "Grossbuchstaben OK in blauem Quadrat",
-      "OK"
-    ],
-    "tts": [
-      "Grossbuchstaben OK in blauem Quadrat"
-    ]
-  },
-  "💇‍♀": {
-    "default": [
-      "Coiffeur",
-      "Frau",
-      "Frau beim Haareschneiden",
-      "Friseur",
-      "Haarschnitt",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "💇🏼‍♂": {
-    "default": [
-      "Coiffeur",
-      "Friseur",
-      "Haarschnitt",
-      "Mann",
-      "Mann beim Haareschneiden",
-      "Mann beim Haareschneiden: mittelhelle Hautfarbe",
-      "mittelhelle Hautfarbe",
-      "Schere"
-    ],
-    "tts": []
-  },
-  "🚶🏻‍♂": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger: helle Hautfarbe",
-      "gehen",
-      "helle Hautfarbe",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger: helle Hautfarbe"
-    ]
-  },
-  "👨🏻‍🦳": {
-    "default": [
-      "helle Hautfarbe",
-      "Mann",
-      "Mann: helle Hautfarbe, weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Mann: helle Hautfarbe, weisses Haar"
-    ]
-  },
-  "🚶🏽‍♀‍➡": {
-    "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin nach rechts",
-      "gehen",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgängerin nach rechts"
-    ]
-  },
-  "👨🏼‍🦯‍➡": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock nach rechts"
-    ],
-    "tts": []
-  },
-  "🤪": {
-    "default": [
-      "Auge",
-      "gross",
-      "irres Gesicht",
-      "klein"
-    ],
-    "tts": []
-  },
-  "🇨🇻": {
-    "default": [
-      "Flagge",
-      "Flagge: Kapverden"
-    ],
-    "tts": [
-      "Flagge: Kapverden"
-    ]
-  },
-  "👨‍🦳": {
-    "default": [
-      "Mann",
-      "Mann: weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Mann: weisses Haar"
-    ]
-  },
-  "🧑🏿‍🦯": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "dunkle Hautfarbe",
-      "Person mit Langstock",
-      "Person mit Langstock: dunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🚶🏾‍♂": {
-    "default": [
-      "Fussgänger",
-      "Fussgänger: mitteldunkle Hautfarbe",
-      "gehen",
-      "Mann",
       "mitteldunkle Hautfarbe",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger: mitteldunkle Hautfarbe"
-    ]
-  },
-  "🧗🏿‍♀": {
-    "default": [
-      "bergsteigen",
-      "Bergsteigerin",
-      "Bergsteigerin: dunkle Hautfarbe",
-      "dunkle Hautfarbe",
-      "Kletterin",
-      "klettern"
-    ],
-    "tts": []
-  },
-  "🧗🏾‍♂": {
-    "default": [
-      "bergsteigen",
-      "Bergsteiger",
-      "Bergsteiger: mitteldunkle Hautfarbe",
-      "Kletterer",
-      "klettern",
-      "mitteldunkle Hautfarbe"
+      "Montage"
     ],
     "tts": []
   },
@@ -3273,122 +2668,62 @@
       "Vulkanischer Gruss: mitteldunkle Hautfarbe"
     ]
   },
-  "◽": {
+  "💇🏼": {
     "default": [
-      "Mittelkleines weisses Quadrat",
-      "Quadrat",
-      "weiss"
-    ],
-    "tts": [
-      "Mittelkleines weisses Quadrat"
-    ]
-  },
-  "🚶🏿‍♂": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Fussgänger",
-      "Fussgänger: dunkle Hautfarbe",
-      "gehen",
-      "Mann",
-      "Spaziergang"
-    ],
-    "tts": [
-      "Fussgänger: dunkle Hautfarbe"
-    ]
-  },
-  "👨🏿‍🦯‍➡": {
-    "default": [
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock nach rechts"
+      "Coiffeur",
+      "Friseur",
+      "Frisur",
+      "mittelhelle Hautfarbe",
+      "Person beim Haareschneiden",
+      "Person beim Haareschneiden: mittelhelle Hautfarbe"
     ],
     "tts": []
   },
-  "👨🏿‍🦯": {
+  "😥": {
     "default": [
-      "dunkle Hautfarbe",
-      "Mann mit Gehstock",
-      "Mann mit Langstock",
-      "Mann mit Langstock: dunkle Hautfarbe"
+      "enttäuscht",
+      "erleichtert",
+      "Gesicht",
+      "Schweiss",
+      "trauriges aber erleichtertes Gesicht"
     ],
     "tts": []
   },
-  "🧗🏼‍♀": {
+  "🧗🏿‍♀": {
     "default": [
       "bergsteigen",
       "Bergsteigerin",
-      "Bergsteigerin: mittelhelle Hautfarbe",
+      "Bergsteigerin: dunkle Hautfarbe",
+      "dunkle Hautfarbe",
       "Kletterin",
-      "klettern",
-      "mittelhelle Hautfarbe"
+      "klettern"
     ],
     "tts": []
   },
-  "🆔": {
+  "💇‍♀": {
     "default": [
-      "Grossbuchstaben ID in lila Quadrat",
-      "ID"
-    ],
-    "tts": [
-      "Grossbuchstaben ID in lila Quadrat"
-    ]
-  },
-  "🧑🏾‍🦯‍➡": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "Person mit Langstock",
-      "Person mit Langstock nach rechts"
+      "Coiffeur",
+      "Frau",
+      "Frau beim Haareschneiden",
+      "Friseur",
+      "Haarschnitt",
+      "Schere"
     ],
     "tts": []
   },
-  "☢": {
+  "🙏🏿": {
     "default": [
-      "radioaktiv",
-      "Radioaktivität"
-    ],
-    "tts": [
-      "radioaktiv"
-    ]
-  },
-  "🤘🏽": {
-    "default": [
-      "Finger",
-      "Hand",
-      "Hörner",
-      "mittlere Hautfarbe",
-      "Rock",
-      "Teufel",
-      "Teufelsgruss",
-      "Teufelsgruss: mittlere Hautfarbe"
-    ],
-    "tts": [
-      "Teufelsgruss: mittlere Hautfarbe"
-    ]
-  },
-  "🧑🏽‍🦯‍➡": {
-    "default": [
-      "Barrierefreiheit",
-      "blind",
-      "Person mit Langstock",
-      "Person mit Langstock nach rechts"
+      "beten",
+      "betende Hände",
+      "bitten",
+      "danken",
+      "dunkle Hautfarbe",
+      "Gebet",
+      "grüssen",
+      "zusammengelegte Handflächen",
+      "zusammengelegte Handflächen: dunkle Hautfarbe"
     ],
     "tts": []
-  },
-  "🧑🏾‍🦳": {
-    "default": [
-      "erwachsene Person",
-      "geschlechtsneutral",
-      "Mensch",
-      "mitteldunkle Hautfarbe",
-      "ohne eindeutiges Geschlecht",
-      "Person",
-      "Person: mitteldunkle Hautfarbe, weisses Haar",
-      "weisses Haar"
-    ],
-    "tts": [
-      "Person: mitteldunkle Hautfarbe, weisses Haar"
-    ]
   },
   "🇹🇱": {
     "default": [
@@ -3397,67 +2732,6 @@
     ],
     "tts": [
       "Flagge: Osttimor"
-    ]
-  },
-  "➰": {
-    "default": [
-      "Looping",
-      "Schleife"
-    ],
-    "tts": []
-  },
-  "🫑": {
-    "default": [
-      "Gemüse",
-      "Paprika",
-      "Peperoni"
-    ],
-    "tts": [
-      "Peperoni"
-    ]
-  },
-  "🧑🏿‍🔧": {
-    "default": [
-      "dunkle Hautfarbe",
-      "Mechaniker(in)",
-      "Mechaniker(in): dunkle Hautfarbe"
-    ],
-    "tts": []
-  },
-  "🫷🏼": {
-    "default": [
-      "drücken",
-      "High Five",
-      "mittelhelle Hautfarbe",
-      "nach links",
-      "nach links drückende Hand",
-      "nach links drückende Hand: mittelhelle Hautfarbe",
-      "nein",
-      "Stopp",
-      "warten"
-    ],
-    "tts": [
-      "nach links drückende Hand: mittelhelle Hautfarbe"
-    ]
-  },
-  "🍝": {
-    "default": [
-      "Nudeln mit Tomatensauce",
-      "Pasta",
-      "Spaghetti"
-    ],
-    "tts": []
-  },
-  "🪯": {
-    "default": [
-      "Khanda",
-      "Khanda-Emblem",
-      "Religion",
-      "Schwert",
-      "Sikhismus"
-    ],
-    "tts": [
-      "Khanda-Emblem"
     ]
   },
   "🦶🏽": {
@@ -3472,20 +2746,17 @@
       "Fuss: mittlere Hautfarbe"
     ]
   },
-  "🚶🏽‍♀": {
+  "💦": {
     "default": [
-      "Frau",
-      "Fussgängerin",
-      "Fussgängerin: mittlere Hautfarbe",
-      "gehen",
-      "mittlere Hautfarbe",
-      "Spaziergang"
+      "Comic",
+      "Schweiss",
+      "Schweisstropfen"
     ],
     "tts": [
-      "Fussgängerin: mittlere Hautfarbe"
+      "Schweisstropfen"
     ]
   },
-  "🚶🏾‍♀‍➡": {
+  "🚶‍♀‍➡": {
     "default": [
       "Frau",
       "Fussgängerin",
@@ -3497,16 +2768,95 @@
       "Fussgängerin nach rechts"
     ]
   },
-  "🫛": {
+  "🧑🏿‍🦯‍➡": {
     "default": [
-      "Bohne",
-      "Edamame",
-      "Erbse",
-      "Gemüse",
-      "Hülsenfrüchte"
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock",
+      "Person mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🦯‍➡": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock",
+      "Person mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🫠": {
+    "default": [
+      "auflösen",
+      "schmelzen",
+      "schmelzendes Gesicht",
+      "verflüssigen",
+      "verschwinden"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🦳": {
+    "default": [
+      "helle Hautfarbe",
+      "Mann",
+      "Mann: helle Hautfarbe, weisses Haar",
+      "weisses Haar"
     ],
     "tts": [
-      "Erbse"
+      "Mann: helle Hautfarbe, weisses Haar"
+    ]
+  },
+  "🅿": {
+    "default": [
+      "Grossbuchstabe P in Quadrat",
+      "Parkplatz",
+      "Quadrat"
+    ],
+    "tts": [
+      "Grossbuchstabe P in Quadrat"
+    ]
+  },
+  "🚼": {
+    "default": [
+      "Baby-Symbol",
+      "Symbol „Baby“",
+      "Wickelraum"
+    ],
+    "tts": []
+  },
+  "🦣": {
+    "default": [
+      "Aussterben",
+      "gross",
+      "Mammut",
+      "Stosszahn",
+      "wollig"
+    ],
+    "tts": []
+  },
+  "🚶🏻‍♂‍➡": {
+    "default": [
+      "Fussgänger",
+      "Fussgänger nach rechts",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger nach rechts"
+    ]
+  },
+  "🚶🏿‍➡": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in) nach rechts",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in) nach rechts"
     ]
   },
   "🖖": {
@@ -3522,14 +2872,664 @@
       "Vulkanischer Gruss"
     ]
   },
-  "🦶": {
+  "🖖🏻": {
     "default": [
-      "Fuss",
-      "Kick",
-      "stampfen"
+      "Finger",
+      "Hand",
+      "helle Hautfarbe",
+      "Spock",
+      "Vulkanier(in)",
+      "vulkanisch",
+      "Vulkanischer Gruss",
+      "Vulkanischer Gruss: helle Hautfarbe"
     ],
     "tts": [
-      "Fuss"
+      "Vulkanischer Gruss: helle Hautfarbe"
+    ]
+  },
+  "👨🏻‍🦯‍➡": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "🫷🏽": {
+    "default": [
+      "drücken",
+      "High Five",
+      "mittlere Hautfarbe",
+      "nach links",
+      "nach links drückende Hand",
+      "nach links drückende Hand: mittlere Hautfarbe",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach links drückende Hand: mittlere Hautfarbe"
+    ]
+  },
+  "🧗🏾‍♀": {
+    "default": [
+      "bergsteigen",
+      "Bergsteigerin",
+      "Bergsteigerin: mitteldunkle Hautfarbe",
+      "Kletterin",
+      "klettern",
+      "mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🪠": {
+    "default": [
+      "Klempner",
+      "Pümpel",
+      "Sanitär",
+      "Saugglocke",
+      "WC"
+    ],
+    "tts": []
+  },
+  "🆗": {
+    "default": [
+      "Grossbuchstaben OK in blauem Quadrat",
+      "OK"
+    ],
+    "tts": [
+      "Grossbuchstaben OK in blauem Quadrat"
+    ]
+  },
+  "👩🏿‍🏭": {
+    "default": [
+      "Arbeiter",
+      "dunkle Hautfarbe",
+      "Fabrik",
+      "Fabrikarbeiterin",
+      "Fabrikarbeiterin: dunkle Hautfarbe",
+      "industriell",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "💧": {
+    "default": [
+      "Schweiss",
+      "Tropfen",
+      "Wasser",
+      "Wassertropfen"
+    ],
+    "tts": []
+  },
+  "🇧🇼": {
+    "default": [
+      "Flagge",
+      "Flagge: Botswana"
+    ],
+    "tts": [
+      "Flagge: Botswana"
+    ]
+  },
+  "➖": {
+    "default": [],
+    "tts": [
+      "Minus"
+    ]
+  },
+  "🙏🏾": {
+    "default": [
+      "beten",
+      "betende Hände",
+      "bitten",
+      "danken",
+      "Gebet",
+      "grüssen",
+      "mitteldunkle Hautfarbe",
+      "zusammengelegte Handflächen",
+      "zusammengelegte Handflächen: mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🚶🏿‍♀‍➡": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin nach rechts",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin nach rechts"
+    ]
+  },
+  "🚶🏽": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in): mittlere Hautfarbe",
+      "gehen",
+      "gehend",
+      "mittlere Hautfarbe",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in): mittlere Hautfarbe"
+    ]
+  },
+  "🚶🏾‍♀": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin: mitteldunkle Hautfarbe",
+      "gehen",
+      "mitteldunkle Hautfarbe",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin: mitteldunkle Hautfarbe"
+    ]
+  },
+  "🌥": {
+    "default": [
+      "grosse Wolke",
+      "Sonne",
+      "Sonne hinter grosser Wolke",
+      "Wetter",
+      "Wolke"
+    ],
+    "tts": [
+      "Sonne hinter grosser Wolke"
+    ]
+  },
+  "🫗": {
+    "default": [
+      "ausgiessen",
+      "Flüssigkeit ausgiessen",
+      "Getränk",
+      "giessen",
+      "Glas",
+      "leer",
+      "trinken"
+    ],
+    "tts": [
+      "Flüssigkeit ausgiessen"
+    ]
+  },
+  "🚶🏻‍➡": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in) nach rechts",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in) nach rechts"
+    ]
+  },
+  "👩🏽‍🦳": {
+    "default": [
+      "Frau",
+      "Frau: mittlere Hautfarbe, weisses Haar",
+      "mittlere Hautfarbe",
+      "weisses Haar"
+    ],
+    "tts": [
+      "Frau: mittlere Hautfarbe, weisses Haar"
+    ]
+  },
+  "🛜": {
+    "default": [
+      "Computer",
+      "drahtlos",
+      "Internet",
+      "kabellos",
+      "Netzwerk",
+      "WIFI",
+      "WLAN"
+    ],
+    "tts": [
+      "drahtlos"
+    ]
+  },
+  "🧑🏻‍⚕": {
+    "default": [
+      "Arzt",
+      "Arzt/Ärztin",
+      "Arzt/Ärztin: helle Hautfarbe",
+      "Gesundheitswesen",
+      "helle Hautfarbe",
+      "Krankenpfleger",
+      "Krankenpflegerin",
+      "Therapeut"
+    ],
+    "tts": []
+  },
+  "👨‍🦯‍➡": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock nach rechts"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiterin",
+      "Fabrikarbeiterin: mittelhelle Hautfarbe",
+      "industriell",
+      "mittelhelle Hautfarbe",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "☕": {
+    "default": [
+      "dampfend",
+      "Getränk",
+      "heiss",
+      "Heissgetränk",
+      "Kaffee",
+      "Tee",
+      "trinken"
+    ],
+    "tts": [
+      "Heissgetränk"
+    ]
+  },
+  "🚶🏿‍♀": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin: dunkle Hautfarbe",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin: dunkle Hautfarbe"
+    ]
+  },
+  "👨🏽‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiter",
+      "Fabrikarbeiter: mittlere Hautfarbe",
+      "industriell",
+      "mittlere Hautfarbe",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiterin",
+      "Fabrikarbeiterin: mittlere Hautfarbe",
+      "industriell",
+      "mittlere Hautfarbe",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🔬": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Wissenschaftler(in)",
+      "Wissenschaftler(in): dunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "💇🏽‍♂": {
+    "default": [
+      "Coiffeur",
+      "Friseur",
+      "Haarschnitt",
+      "Mann",
+      "Mann beim Haareschneiden",
+      "Mann beim Haareschneiden: mittlere Hautfarbe",
+      "mittlere Hautfarbe",
+      "Schere"
+    ],
+    "tts": []
+  },
+  "❤‍🔥": {
+    "default": [
+      "brennen",
+      "brennendes Herz",
+      "Feuer",
+      "Herz in Flammen",
+      "Liebe"
+    ],
+    "tts": [
+      "brennendes Herz"
+    ]
+  },
+  "🔳": {
+    "default": [
+      "quadratisch",
+      "Schaltfläche",
+      "weiss",
+      "Weisse quadratische Schaltfläche"
+    ],
+    "tts": [
+      "Weisse quadratische Schaltfläche"
+    ]
+  },
+  "🫦": {
+    "default": [
+      "Angst",
+      "ängstlich",
+      "Auf Lippe beissen",
+      "besorgt",
+      "flirtend",
+      "nervös",
+      "unbehaglich"
+    ],
+    "tts": [
+      "Auf Lippe beissen"
+    ]
+  },
+  "🪇": {
+    "default": [
+      "Instrument",
+      "Maraca",
+      "Musik",
+      "schütteln",
+      "Trommel"
+    ],
+    "tts": [
+      "Maraca"
+    ]
+  },
+  "🫡": {
+    "default": [
+      "Aye aye",
+      "Gesicht",
+      "grüssendes Gesicht",
+      "jawohl",
+      "ok",
+      "salutieren",
+      "Truppen"
+    ],
+    "tts": [
+      "grüssendes Gesicht"
+    ]
+  },
+  "🎅🏽": {
+    "default": [
+      "mittlere Hautfarbe",
+      "Samichlaus",
+      "Weihnachten",
+      "Weihnachtsmann",
+      "Weihnachtsmann: mittlere Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🔴": {
+    "default": [
+      "Ball",
+      "Grosser roter Kreis",
+      "Kreis",
+      "rot"
+    ],
+    "tts": [
+      "Grosser roter Kreis"
+    ]
+  },
+  "🧑‍🦯": {
+    "default": [
+      "Barrierefreiheit",
+      "blind",
+      "Person mit Langstock"
+    ],
+    "tts": []
+  },
+  "🪯": {
+    "default": [
+      "Khanda",
+      "Khanda-Emblem",
+      "Religion",
+      "Schwert",
+      "Sikhismus"
+    ],
+    "tts": [
+      "Khanda-Emblem"
+    ]
+  },
+  "🚶🏻‍♀‍➡": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin nach rechts",
+      "gehen",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin nach rechts"
+    ]
+  },
+  "👨🏾‍🦯": {
+    "default": [
+      "Mann mit Gehstock",
+      "Mann mit Langstock",
+      "Mann mit Langstock: mitteldunkle Hautfarbe",
+      "mitteldunkle Hautfarbe"
+    ],
+    "tts": []
+  },
+  "🚶🏾‍➡": {
+    "default": [
+      "Fussgänger(in)",
+      "Fussgänger(in) nach rechts",
+      "gehen",
+      "gehend",
+      "wandern"
+    ],
+    "tts": [
+      "Fussgänger(in) nach rechts"
+    ]
+  },
+  "🫷🏿": {
+    "default": [
+      "drücken",
+      "dunkle Hautfarbe",
+      "High Five",
+      "nach links",
+      "nach links drückende Hand",
+      "nach links drückende Hand: dunkle Hautfarbe",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach links drückende Hand: dunkle Hautfarbe"
+    ]
+  },
+  "🪮": {
+    "default": [
+      "Afro Pick",
+      "Kamm",
+      "kämmen"
+    ],
+    "tts": [
+      "Afro Pick"
+    ]
+  },
+  "😰": {
+    "default": [
+      "Gesicht",
+      "kalter Schweiss",
+      "offener Mund",
+      "Smiley mit offenem Mund und kaltem Schweiss"
+    ],
+    "tts": [
+      "Smiley mit offenem Mund und kaltem Schweiss"
+    ]
+  },
+  "🫛": {
+    "default": [
+      "Bohne",
+      "Edamame",
+      "Erbse",
+      "Gemüse",
+      "Hülsenfrüchte"
+    ],
+    "tts": [
+      "Erbse"
+    ]
+  },
+  "🍻": {
+    "default": [
+      "anstossen",
+      "Bier",
+      "Bierkrüge"
+    ],
+    "tts": []
+  },
+  "🫑": {
+    "default": [
+      "Gemüse",
+      "Paprika",
+      "Peperoni"
+    ],
+    "tts": [
+      "Peperoni"
+    ]
+  },
+  "🇿🇼": {
+    "default": [
+      "Flagge",
+      "Flagge: Zimbabwe"
+    ],
+    "tts": [
+      "Flagge: Zimbabwe"
+    ]
+  },
+  "😶‍🌫": {
+    "default": [
+      "abwesend",
+      "benebelt",
+      "geistig umnachtet",
+      "Kopf in den Wolken"
+    ],
+    "tts": [
+      "Kopf in den Wolken"
+    ]
+  },
+  "🫷🏾": {
+    "default": [
+      "drücken",
+      "High Five",
+      "mitteldunkle Hautfarbe",
+      "nach links",
+      "nach links drückende Hand",
+      "nach links drückende Hand: mitteldunkle Hautfarbe",
+      "nein",
+      "Stopp",
+      "warten"
+    ],
+    "tts": [
+      "nach links drückende Hand: mitteldunkle Hautfarbe"
+    ]
+  },
+  "❕": {
+    "default": [
+      "Satzzeichen",
+      "weiss",
+      "weisses Ausrufezeichen"
+    ],
+    "tts": [
+      "weisses Ausrufezeichen"
+    ]
+  },
+  "🅰": {
+    "default": [
+      "a",
+      "Blut",
+      "Blutgruppe",
+      "Grossbuchstabe A in Quadrat",
+      "negativ",
+      "positiv"
+    ],
+    "tts": [
+      "Grossbuchstabe A in Quadrat"
+    ]
+  },
+  "👨🏾‍🏭": {
+    "default": [
+      "Arbeiter",
+      "Fabrik",
+      "Fabrikarbeiter",
+      "Fabrikarbeiter: mitteldunkle Hautfarbe",
+      "industriell",
+      "mitteldunkle Hautfarbe",
+      "Montage"
+    ],
+    "tts": []
+  },
+  "🪪": {
+    "default": [
+      "Ausweis",
+      "Fahrausweis",
+      "ID"
+    ],
+    "tts": [
+      "ID"
+    ]
+  },
+  "🖖🏿": {
+    "default": [
+      "dunkle Hautfarbe",
+      "Finger",
+      "Hand",
+      "Spock",
+      "Vulkanier(in)",
+      "vulkanisch",
+      "Vulkanischer Gruss",
+      "Vulkanischer Gruss: dunkle Hautfarbe"
+    ],
+    "tts": [
+      "Vulkanischer Gruss: dunkle Hautfarbe"
+    ]
+  },
+  "🏳": {
+    "default": [
+      "Fahne",
+      "wehen",
+      "Wehende weisse Fahne",
+      "weisse Fahne"
+    ],
+    "tts": [
+      "Wehende weisse Fahne"
+    ]
+  },
+  "🚶‍♂": {
+    "default": [
+      "Fussgänger",
+      "gehen",
+      "Mann",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgänger"
+    ]
+  },
+  "🚶🏽‍♀": {
+    "default": [
+      "Frau",
+      "Fussgängerin",
+      "Fussgängerin: mittlere Hautfarbe",
+      "gehen",
+      "mittlere Hautfarbe",
+      "Spaziergang"
+    ],
+    "tts": [
+      "Fussgängerin: mittlere Hautfarbe"
     ]
   }
 }

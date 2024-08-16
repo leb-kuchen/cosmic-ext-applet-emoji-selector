@@ -10,11 +10,13 @@
       "ƴartsana mai sheƙa"
     ]
   },
-  "♊": {
+  "🩲": {
     "default": [
-      "falaki",
-      "Tagwaye",
-      "ƴan biyu"
+      "ɗan diras",
+      "rigar ninƙaya",
+      "rigar wanka",
+      "yanki ɗaya",
+      "ƴan ciki"
     ],
     "tts": []
   },
@@ -24,16 +26,6 @@
       "rigar wanka",
       "wando",
       "ƴan ciki"
-    ],
-    "tts": []
-  },
-  "🧸": {
-    "default": [
-      "buga wasa",
-      "cushe",
-      "ƙari",
-      "tunkun wasa",
-      "ƴartsana"
     ],
     "tts": []
   },
@@ -49,24 +41,21 @@
     ],
     "tts": []
   },
-  "🧃": {
+  "♊": {
     "default": [
-      "bambaro",
-      "kwali",
-      "lemo",
-      "lemon kwali",
-      "mai daɗi",
-      "ruwan ƴaƴan itace"
+      "falaki",
+      "Tagwaye",
+      "ƴan biyu"
     ],
     "tts": []
   },
-  "🩲": {
+  "🧸": {
     "default": [
-      "ɗan diras",
-      "rigar ninƙaya",
-      "rigar wanka",
-      "yanki ɗaya",
-      "ƴan ciki"
+      "buga wasa",
+      "cushe",
+      "ƙari",
+      "tunkun wasa",
+      "ƴartsana"
     ],
     "tts": []
   },
@@ -84,6 +73,17 @@
       "canzawa",
       "ƴartsana",
       "zaren yo-yo"
+    ],
+    "tts": []
+  },
+  "🧃": {
+    "default": [
+      "bambaro",
+      "kwali",
+      "lemo",
+      "lemon kwali",
+      "mai daɗi",
+      "ruwan ƴaƴan itace"
     ],
     "tts": []
   }

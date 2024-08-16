@@ -4,9 +4,10 @@ version = "0.1.4"
 edition = "2021"
 
 [features]
+compress = ["dep:liblzma"]
 wayland = []
 a11y = []
-default = ["wayland"]
+default = ["wayland", "compress"]
 
 [dependencies]
 
@@ -16,12 +17,8 @@ i18n-embed = { version = "0.14.1", features = [
 ] }
 i18n-embed-fl = "0.8.0"
 rust-embed = "8.3.0"
-
-
 serde = { version = "1.0.197", features = ["derive"] }
 paste = "1.0.14"
-
-
 cosmic-time = { git = "https://github.com/pop-os/cosmic-time", default-features = false, features = [
   "libcosmic",
   "once_cell",
@@ -38,3 +35,4 @@ emojis = {version = "0.6.3", features = ["serde"]}
 regex = "1.10.4"
 serde_json = "1.0.122"
 bitflags = { version = "2.6.0", features = ["serde"] }
+liblzma = {version = "0.3.4", optional = true}
