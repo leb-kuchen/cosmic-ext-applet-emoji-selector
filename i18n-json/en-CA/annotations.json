@@ -1,294 +1,111 @@
 {
-  "🔠": {
+  "🍟": {
     "default": [
-      "ABCD",
-      "input",
-      "Latin",
-      "letters",
-      "uppercase"
+      "French",
+      "fries"
     ],
     "tts": [
-      "input Latin uppercase"
+      "French fries"
     ]
   },
-  "🚃": {
+  "🤹🏽": {
     "default": [
-      "car",
-      "electric",
-      "railway",
-      "train",
-      "tram",
-      "trolley bus",
-      "trolleybus"
+      "balance",
+      "juggle",
+      "medium skin tone",
+      "multi-task",
+      "multitask",
+      "person juggling",
+      "skill"
     ],
     "tts": []
   },
-  "😤": {
+  "🤟🏽": {
     "default": [
-      "angry",
+      "hand",
+      "ILY",
+      "love you gesture",
+      "love-you gesture",
+      "love-you gesture: medium skin tone",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🙇🏽‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "medium skin tone",
+      "sorry",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🙎🏿": {
+    "default": [
+      "dark skin tone",
+      "facial expression",
+      "gesture",
+      "person pouting",
+      "person pouting: dark skin tone",
+      "pouting"
+    ],
+    "tts": []
+  },
+  "🤛🏼": {
+    "default": [
+      "fist",
+      "left-facing fist",
+      "left-facing fist: medium-light skin tone",
+      "leftward",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🤕": {
+    "default": [
+      "bandage",
       "face",
-      "face with steam from nose",
-      "frustration",
-      "triumph",
-      "won"
+      "face with head bandage",
+      "face with head-bandage",
+      "hurt",
+      "injury"
     ],
     "tts": []
   },
-  "🤹‍♀": {
+  "💻": {
+    "default": [
+      "computer",
+      "laptop",
+      "PC",
+      "personal"
+    ],
+    "tts": []
+  },
+  "🤹🏼‍♀": {
     "default": [
       "juggling",
+      "medium-light skin tone",
       "multi-task",
       "multitask",
       "woman"
     ],
     "tts": []
   },
-  "🌌": {
+  "👩🏻‍🤝‍👩🏼": {
     "default": [
-      "Milky",
-      "space",
-      "Way"
-    ],
-    "tts": [
-      "Milky Way"
-    ]
-  },
-  "🎃": {
-    "default": [
-      "celebration",
-      "Halloween",
-      "jack",
-      "jack-o-lantern",
-      "jack-o’-lantern",
-      "lantern"
-    ],
-    "tts": []
-  },
-  "🗽": {
-    "default": [
-      "Liberty",
-      "Statue",
-      "Statue of Liberty"
-    ],
-    "tts": []
-  },
-  "🛺": {
-    "default": [
-      "auto rickshaw",
-      "tuk tuk",
-      "tuk-tuk",
-      "tuktuk"
-    ],
-    "tts": []
-  },
-  "🪤": {
-    "default": [
-      "bait",
-      "mouse",
-      "mousetrap",
-      "snare",
-      "trap"
-    ],
-    "tts": [
-      "mousetrap"
-    ]
-  },
-  "🧑‍⚕": {
-    "default": [
-      "doctor",
-      "health care",
-      "health worker",
-      "healthcare",
-      "nurse",
-      "therapist"
-    ],
-    "tts": []
-  },
-  "🕧": {
-    "default": [
-      "12",
-      "12:30",
-      "clock",
-      "half past twelve",
-      "thirty",
-      "twelve",
-      "twelve-thirty"
-    ],
-    "tts": [
-      "twelve thirty"
-    ]
-  },
-  "🙏": {
-    "default": [
-      "ask",
-      "folded hands",
+      "couple",
       "hand",
-      "high five",
-      "please",
-      "pray",
-      "thanks"
-    ],
-    "tts": []
-  },
-  "🕞": {
-    "default": [
-      "3",
-      "3:30",
-      "clock",
-      "half past three",
-      "thirty",
-      "three",
-      "three-thirty"
-    ],
-    "tts": [
-      "three thirty"
-    ]
-  },
-  "🧢": {
-    "default": [],
-    "tts": [
-      "baseball cap"
-    ]
-  },
-  "🥐": {
-    "default": [
-      "bread",
-      "breakfast",
-      "crescent",
-      "croissant",
-      "food",
-      "French",
-      "roll"
-    ],
-    "tts": []
-  },
-  "🤥": {
-    "default": [
-      "face",
-      "lie",
-      "lying face",
-      "Pinocchio"
-    ],
-    "tts": []
-  },
-  "🎠": {
-    "default": [
-      "carousel",
-      "horse",
-      "merry-go-round"
-    ],
-    "tts": []
-  },
-  "🏛": {
-    "default": [
-      "classical",
-      "classical building",
-      "column"
-    ],
-    "tts": []
-  },
-  "🤠": {
-    "default": [
-      "cowboy",
-      "cowgirl",
-      "face",
-      "face with cowboy hat",
-      "hat"
-    ],
-    "tts": [
-      "face with cowboy hat"
-    ]
-  },
-  "🇺🇲": {
-    "default": [
-      "flag",
-      "flag: US Outlying Islands"
-    ],
-    "tts": [
-      "flag: US Outlying Islands"
-    ]
-  },
-  "☑": {
-    "default": [
-      "✓",
-      "box",
-      "check",
-      "check box with check",
-      "tick",
-      "tick box with tick"
-    ],
-    "tts": []
-  },
-  "🥌": {
-    "default": [
-      "curling rock",
-      "curling stone",
-      "game",
-      "rock"
-    ],
-    "tts": [
-      "curling rock"
-    ]
-  },
-  "🇵🇲": {
-    "default": [
-      "flag",
-      "flag: Saint-Pierre-et-Miquelon"
-    ],
-    "tts": [
-      "flag: Saint-Pierre-et-Miquelon"
-    ]
-  },
-  "🫲": {
-    "default": [
-      "hand",
-      "left",
-      "leftward",
-      "leftwards"
-    ],
-    "tts": [
-      "leftward hand"
-    ]
-  },
-  "🐞": {
-    "default": [],
-    "tts": [
-      "ladybug"
-    ]
-  },
-  "⛩": {
-    "default": [
-      "religion",
-      "Shinto",
-      "shrine"
-    ],
-    "tts": [
-      "Shinto shrine"
-    ]
-  },
-  "🙃": {
-    "default": [
-      "face",
-      "upside down",
-      "upside-down face"
-    ],
-    "tts": []
-  },
-  "🥏": {
-    "default": [
-      "flying disc",
-      "Frisbee",
-      "ultimate"
-    ],
-    "tts": []
-  },
-  "🤘": {
-    "default": [
-      "finger",
-      "hand",
-      "horns",
-      "rock on",
-      "sign of the horns"
+      "holding hands",
+      "light skin tone",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: light skin tone, medium-light skin tone"
     ],
     "tts": []
   },
@@ -301,90 +118,49 @@
     ],
     "tts": []
   },
-  "🍬": {
+  "🦻": {
     "default": [
-      "candy",
-      "dessert",
-      "sweet",
-      "sweets"
+      "accessibility",
+      "ear with hearing aid",
+      "hard of hearing",
+      "hearing impaired"
     ],
     "tts": []
   },
-  "🫥": {
+  "🏪": {
     "default": [
-      "depressed",
-      "disappear",
-      "dotted line face",
-      "dotted-line face",
-      "hide",
-      "introvert",
-      "invisible"
-    ],
-    "tts": [
-      "dotted-line face"
-    ]
-  },
-  "🏈": {
-    "default": [],
-    "tts": [
-      "football"
-    ]
-  },
-  "🚛": {
-    "default": [],
-    "tts": [
-      "semi"
-    ]
-  },
-  "🤹": {
-    "default": [
-      "balance",
-      "juggle",
-      "multi-task",
-      "multitask",
-      "person juggling",
-      "skill"
+      "convenience",
+      "dépanneur",
+      "store"
     ],
     "tts": []
   },
-  "👩‍🚒": {
+  "🇵🇲": {
+    "default": [
+      "flag",
+      "flag: Saint-Pierre-et-Miquelon"
+    ],
+    "tts": [
+      "flag: Saint-Pierre-et-Miquelon"
+    ]
+  },
+  "👩🏾‍🚒": {
     "default": [
       "engine",
       "fire",
       "firefighter",
       "firetruck",
       "firewoman",
+      "medium-dark skin tone",
       "truck",
       "woman"
     ],
     "tts": []
   },
-  "😋": {
-    "default": [
-      "delicious",
-      "face",
-      "face savouring food",
-      "savoring",
-      "savouring",
-      "smile",
-      "yum"
-    ],
+  "🛣": {
+    "default": [],
     "tts": [
-      "face savouring food"
-    ]
-  },
-  "🕠": {
-    "default": [
-      "5",
-      "5:30",
-      "clock",
-      "five",
-      "five-thirty",
-      "half past five",
-      "thirty"
-    ],
-    "tts": [
-      "five thirty"
+      "highway"
     ]
   },
   "🤟": {
@@ -396,803 +172,100 @@
     ],
     "tts": []
   },
-  "🥖": {
+  "🫳🏾": {
     "default": [
-      "baguette",
-      "bread",
-      "food",
-      "French"
+      "dismiss",
+      "drop",
+      "medium-dark skin tone",
+      "palm down hand",
+      "palm-down hand",
+      "palm-down hand: medium-dark skin tone",
+      "shoo"
+    ],
+    "tts": [
+      "palm-down hand: medium-dark skin tone"
+    ]
+  },
+  "👩🏼‍🤝‍👩🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-light skin tone, dark skin tone"
     ],
     "tts": []
   },
-  "🛣": {
-    "default": [],
-    "tts": [
-      "highway"
-    ]
-  },
-  "🚎": {
+  "💪🏽": {
     "default": [
-      "bus",
-      "streetcar",
-      "tram",
-      "trolley",
-      "trolleybus"
+      "biceps",
+      "comic",
+      "flex",
+      "flexed bicep",
+      "flexed bicep: medium skin tone",
+      "medium skin tone",
+      "muscle"
     ],
     "tts": [
-      "trolley bus"
+      "flexed bicep: medium skin tone"
     ]
   },
-  "📐": {
+  "💪": {
     "default": [
-      "ruler",
-      "set",
-      "set square",
-      "triangle",
-      "triangular ruler"
-    ],
-    "tts": []
-  },
-  "🕝": {
-    "default": [
-      "2",
-      "2:30",
-      "clock",
-      "half past two",
-      "thirty",
-      "two",
-      "two-thirty"
+      "biceps",
+      "comic",
+      "flex",
+      "flexed bicep",
+      "muscle"
     ],
     "tts": [
-      "two thirty"
+      "flexed bicep"
     ]
   },
-  "🧑‍🚒": {
-    "default": [
-      "engine",
-      "fire",
-      "firefighter",
-      "firetruck",
-      "truck"
-    ],
-    "tts": []
-  },
-  "🍶": {
-    "default": [
-      "bar",
-      "beverage",
-      "bottle",
-      "cup",
-      "drink",
-      "sake",
-      "saké"
-    ],
-    "tts": []
-  },
-  "🫴": {
-    "default": [
-      "beckon",
-      "catch",
-      "come",
-      "offer",
-      "palm up hand",
-      "palm-up hand"
-    ],
-    "tts": [
-      "palm-up hand"
-    ]
-  },
-  "👕": {
-    "default": [
-      "clothing",
-      "shirt",
-      "T-shirt",
-      "tee-shirt",
-      "tshirt"
-    ],
-    "tts": [
-      "T-shirt"
-    ]
-  },
-  "🇻🇨": {
-    "default": [
-      "flag",
-      "flag: Saint Vincent and the Grenadines"
-    ],
-    "tts": [
-      "flag: Saint Vincent and the Grenadines"
-    ]
-  },
-  "😷": {
-    "default": [
-      "cold",
-      "doctor",
-      "face",
-      "face with medical mask",
-      "ill",
-      "mask",
-      "sick"
-    ],
-    "tts": []
-  },
-  "🍟": {
-    "default": [
-      "French",
-      "fries"
-    ],
-    "tts": [
-      "French fries"
-    ]
-  },
-  "☪": {
-    "default": [
-      "Islam",
-      "Muslim",
-      "religion",
-      "star and crescent"
-    ],
-    "tts": []
-  },
-  "🏉": {
-    "default": [],
-    "tts": [
-      "rugby"
-    ]
-  },
-  "🛋": {
-    "default": [
-      "couch",
-      "couch and lamp",
-      "hotel",
-      "lamp",
-      "sofa",
-      "sofa and lamp"
-    ],
-    "tts": []
-  },
-  "🦣": {
-    "default": [
-      "extinct",
-      "extinction",
-      "large",
-      "mammoth",
-      "tusk",
-      "woolly"
-    ],
-    "tts": []
-  },
-  "🤴": {
-    "default": [
-      "fairy tale",
-      "fantasy",
-      "prince"
-    ],
-    "tts": []
-  },
-  "🤧": {
-    "default": [
-      "bless you",
-      "face",
-      "gesundheit",
-      "sneeze",
-      "sneezing face"
-    ],
-    "tts": []
-  },
-  "🧿": {
-    "default": [
-      "bead",
-      "charm",
-      "evil eye",
-      "nazar",
-      "nazar amulet",
-      "talisman"
-    ],
-    "tts": []
-  },
-  "🇭🇲": {
-    "default": [
-      "flag",
-      "flag: Heard and McDonald Islands"
-    ],
-    "tts": [
-      "flag: Heard and McDonald Islands"
-    ]
-  },
-  "🔤": {
-    "default": [
-      "abc",
-      "alphabet",
-      "input",
-      "Latin",
-      "letters"
-    ],
-    "tts": [
-      "input Latin letters"
-    ]
-  },
-  "🕤": {
-    "default": [
-      "9",
-      "9:30",
-      "clock",
-      "half past nine",
-      "nine",
-      "nine-thirty",
-      "thirty"
-    ],
-    "tts": [
-      "nine thirty"
-    ]
-  },
-  "🧋": {
-    "default": [
-      "boba",
-      "bubble",
-      "milk",
-      "pearl",
-      "tea"
-    ],
-    "tts": []
-  },
-  "™": {
-    "default": [],
-    "tts": [
-      "trademark"
-    ]
-  },
-  "💎": {
-    "default": [
-      "diamond",
-      "gem",
-      "gem stone",
-      "gemstone",
-      "jewel"
-    ],
-    "tts": [
-      "gemstone"
-    ]
-  },
-  "⛽": {
-    "default": [],
-    "tts": [
-      "gas pump"
-    ]
-  },
-  "📮": {
-    "default": [
-      "mail",
-      "mailbox",
-      "post",
-      "post box",
-      "postbox"
-    ],
-    "tts": [
-      "mailbox"
-    ]
-  },
-  "🇸🇭": {
-    "default": [
-      "flag",
-      "flag: Saint Helena"
-    ],
-    "tts": [
-      "flag: Saint Helena"
-    ]
-  },
-  "🔼": {
-    "default": [
-      "arrow",
-      "button",
-      "red",
-      "upward button",
-      "upwards button"
-    ],
-    "tts": [
-      "upward button"
-    ]
-  },
-  "🕢": {
-    "default": [
-      "7",
-      "7:30",
-      "clock",
-      "half past seven",
-      "seven",
-      "seven-thirty",
-      "thirty"
-    ],
-    "tts": [
-      "seven thirty"
-    ]
-  },
-  "🎯": {
-    "default": [
-      "bull’s-eye",
-      "bullseye",
-      "dart",
-      "direct hit",
-      "game",
-      "hit",
-      "target"
-    ],
-    "tts": []
-  },
-  "🙇‍♀": {
-    "default": [
-      "apology",
-      "bowing",
-      "favor",
-      "favour",
-      "gesture",
-      "sorry",
-      "woman"
-    ],
-    "tts": []
-  },
-  "💷": {
-    "default": [
-      "banknote",
-      "bill",
-      "currency",
-      "money",
-      "note",
-      "pound",
-      "sterling"
-    ],
-    "tts": []
-  },
-  "🌝": {
-    "default": [
-      "bright",
-      "face",
-      "full",
-      "full-moon face",
-      "moon"
-    ],
-    "tts": [
-      "full-moon face"
-    ]
-  },
-  "✝": {
-    "default": [
-      "Christian",
-      "cross",
-      "Latin cross",
-      "religion"
-    ],
-    "tts": [
-      "Latin cross"
-    ]
-  },
-  "🧑‍🎄": {
-    "default": [
-      "Christmas",
-      "Claus",
-      "Mx. Claus"
-    ],
-    "tts": [
-      "Mx. Claus"
-    ]
-  },
-  "🔒": {
-    "default": [
-      "closed",
-      "locked",
-      "padlock"
-    ],
-    "tts": []
-  },
-  "👨‍🚒": {
-    "default": [
-      "fire truck",
-      "firefighter",
-      "fireman",
-      "man"
-    ],
-    "tts": []
-  },
-  "🫷": {
-    "default": [
-      "high five",
-      "leftward",
-      "leftward-pushing hand",
-      "leftwards pushing hand",
-      "push",
-      "refuse",
-      "stop",
-      "wait"
-    ],
-    "tts": [
-      "leftward-pushing hand"
-    ]
-  },
-  "🇼🇫": {
-    "default": [
-      "flag",
-      "flag: Wallis and Futuna"
-    ],
-    "tts": [
-      "flag: Wallis and Futuna"
-    ]
-  },
-  "🩻": {
-    "default": [
-      "bones",
-      "doctor",
-      "medical",
-      "skeleton",
-      "X-ray"
-    ],
-    "tts": [
-      "X-ray"
-    ]
-  },
-  "🍴": {
-    "default": [
-      "cooking",
-      "cutlery",
-      "fork",
-      "fork and knife",
-      "knife",
-      "knife and fork"
-    ],
-    "tts": []
-  },
-  "🚅": {
-    "default": [
-      "bullet",
-      "railway",
-      "Shinkansen",
-      "speed",
-      "train"
-    ],
-    "tts": []
-  },
-  "🇹🇨": {
-    "default": [
-      "flag",
-      "flag: Turks and Caicos Islands"
-    ],
-    "tts": [
-      "flag: Turks and Caicos Islands"
-    ]
-  },
-  "🧅": {
-    "default": [
-      "flavoring",
-      "flavouring",
-      "onion"
-    ],
-    "tts": []
-  },
-  "🚋": {
-    "default": [
-      "car",
-      "streetcar",
-      "tram",
-      "tramcar",
-      "trolley",
-      "trolley bus",
-      "trolleybus"
-    ],
-    "tts": [
-      "streetcar"
-    ]
-  },
-  "🇪🇦": {
-    "default": [
-      "flag",
-      "flag: Ceuta and Melilla"
-    ],
-    "tts": [
-      "flag: Ceuta and Melilla"
-    ]
-  },
-  "🫚": {
-    "default": [
-      "beer",
-      "ginger",
-      "root",
-      "spice"
-    ],
-    "tts": [
-      "ginger"
-    ]
-  },
-  "🇵🇸": {
-    "default": [
-      "flag",
-      "flag: Palestinian territories"
-    ],
-    "tts": [
-      "flag: Palestinian territories"
-    ]
-  },
-  "🤛": {
-    "default": [
-      "fist",
-      "left-facing fist",
-      "leftward"
-    ],
-    "tts": []
-  },
-  "👩‍⚕": {
-    "default": [
-      "doctor",
-      "health care",
-      "nurse",
-      "therapist",
-      "woman",
-      "woman health worker"
-    ],
-    "tts": []
-  },
-  "👭": {
+  "👩🏼‍🤝‍👩🏽": {
     "default": [
       "couple",
       "hand",
       "holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
       "two women holding hands",
       "women",
-      "women holding hands"
+      "women holding hands",
+      "women holding hands: medium-light skin tone, medium skin tone"
     ],
     "tts": []
   },
-  "🎣": {
+  "🏳": {
     "default": [
-      "fish",
-      "fishing pole",
-      "fishing rod",
-      "pole"
+      "surrender",
+      "waving",
+      "white flag"
     ],
     "tts": []
   },
-  "🚽": {
+  "👨🏼‍🤝‍👨🏻": {
     "default": [
-      "lavatory",
-      "toilet"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "🚻": {
+  "🫔": {
     "default": [
-      "bathroom",
-      "lavatory",
-      "restroom",
-      "washroom",
-      "WC"
-    ],
-    "tts": [
-      "washroom"
-    ]
-  },
-  "🎡": {
-    "default": [
-      "amusement park",
-      "Ferris",
-      "theme park",
-      "wheel"
-    ],
-    "tts": [
-      "Ferris wheel"
-    ]
-  },
-  "🤞": {
-    "default": [
-      "cross",
-      "crossed fingers",
-      "finger",
-      "good luck",
-      "hand",
-      "luck"
-    ],
-    "tts": []
-  },
-  "🔡": {
-    "default": [
-      "abcd",
-      "input",
-      "Latin",
-      "letters",
-      "lowercase"
-    ],
-    "tts": [
-      "input Latin lowercase"
-    ]
-  },
-  "💇": {
-    "default": [
-      "barber",
-      "beauty",
-      "haircut",
-      "parlor",
-      "parlour",
-      "person getting haircut",
-      "salon"
-    ],
-    "tts": []
-  },
-  "🇦🇬": {
-    "default": [
-      "flag",
-      "flag: Antigua and Barbuda"
-    ],
-    "tts": [
-      "flag: Antigua and Barbuda"
-    ]
-  },
-  "🧏": {
-    "default": [
-      "accessibility",
-      "deaf",
-      "deaf person",
-      "ear",
-      "hard of hearing",
-      "hear",
-      "hearing impaired"
-    ],
-    "tts": []
-  },
-  "🗼": {
-    "default": [
-      "Tokyo",
-      "Tower"
-    ],
-    "tts": [
-      "Tokyo Tower"
-    ]
-  },
-  "🕋": {
-    "default": [
-      "Islam",
-      "Kaaba",
-      "Muslim",
-      "religion"
-    ],
-    "tts": [
-      "Kaaba"
-    ]
-  },
-  "🛸": {
-    "default": [
-      "flying saucer",
-      "spaceship",
-      "UFO"
-    ],
-    "tts": []
-  },
-  "🫱": {
-    "default": [
-      "hand",
-      "right",
-      "rightward",
-      "rightwards"
-    ],
-    "tts": [
-      "rightward hand"
-    ]
-  },
-  "✡": {
-    "default": [
-      "David",
-      "Jewish",
-      "Judaism",
-      "religion",
-      "star",
-      "Star of David"
-    ],
-    "tts": [
-      "Star of David"
-    ]
-  },
-  "🇧🇱": {
-    "default": [
-      "flag",
-      "flag: Saint-Barthélemy"
-    ],
-    "tts": [
-      "flag: Saint-Barthélemy"
-    ]
-  },
-  "🕵": {
-    "default": [
-      "detective",
-      "private eye",
-      "sleuth",
-      "spy"
-    ],
-    "tts": []
-  },
-  "🥋": {
-    "default": [
-      "judo",
-      "karate",
-      "martial arts",
-      "martial arts uniform",
-      "MMA",
-      "taekwondo",
-      "uniform"
-    ],
-    "tts": []
-  },
-  "🕥": {
-    "default": [
-      "10",
-      "10:30",
-      "clock",
-      "half past ten",
-      "ten",
-      "ten-thirty",
-      "thirty"
-    ],
-    "tts": [
-      "ten thirty"
-    ]
-  },
-  "🇹🇹": {
-    "default": [
-      "flag",
-      "flag: Trinidad and Tobago"
-    ],
-    "tts": [
-      "flag: Trinidad and Tobago"
-    ]
-  },
-  "💬": {
-    "default": [
-      "balloon",
-      "bubble",
-      "comic",
-      "dialog",
-      "dialogue",
-      "speech"
-    ],
-    "tts": []
-  },
-  "🎑": {
-    "default": [
-      "celebration",
-      "ceremony",
-      "moon",
-      "moon viewing ceremony",
-      "moon-viewing ceremony"
-    ],
-    "tts": [
-      "moon-viewing ceremony"
-    ]
-  },
-  "🇰🇳": {
-    "default": [
-      "flag",
-      "flag: Saint Kitts and Nevis"
-    ],
-    "tts": [
-      "flag: Saint Kitts and Nevis"
-    ]
-  },
-  "🌯": {
-    "default": [
-      "burrito",
       "Mexican",
-      "wrap"
-    ],
-    "tts": []
-  },
-  "🇲🇫": {
-    "default": [
-      "flag",
-      "flag: Saint Martin"
-    ],
-    "tts": [
-      "flag: Saint Martin"
-    ]
-  },
-  "📺": {
-    "default": [
-      "television",
-      "TV",
-      "video"
+      "tamale",
+      "wrapped"
     ],
     "tts": []
   },
@@ -1207,118 +280,33 @@
       "Orthodox cross"
     ]
   },
-  "🇧🇦": {
+  "🤜🏿": {
     "default": [
-      "flag",
-      "flag: Bosnia and Herzegovina"
+      "dark skin tone",
+      "fist",
+      "right-facing fist",
+      "right-facing fist: dark skin tone",
+      "rightward"
     ],
-    "tts": [
-      "flag: Bosnia and Herzegovina"
-    ]
+    "tts": []
   },
-  "🫳": {
-    "default": [
-      "dismiss",
-      "drop",
-      "palm down hand",
-      "palm-down hand",
-      "shoo"
-    ],
-    "tts": [
-      "palm-down hand"
-    ]
-  },
-  "🚒": {
+  "🚛": {
     "default": [],
     "tts": [
-      "fire truck"
+      "semi"
     ]
   },
-  "🌆": {
+  "🧑🏻‍🎄": {
     "default": [
-      "city",
-      "cityscape at dusk",
-      "dusk",
-      "evening",
-      "landscape",
-      "skyline at dusk",
-      "sunset"
-    ],
-    "tts": []
-  },
-  "🚏": {
-    "default": [
-      "bus",
-      "busstop",
-      "stop"
-    ],
-    "tts": []
-  },
-  "🕌": {
-    "default": [
-      "Islam",
-      "mosque",
-      "Muslim",
-      "religion"
-    ],
-    "tts": []
-  },
-  "📯": {
-    "default": [],
-    "tts": [
-      "post horn"
-    ]
-  },
-  "🍾": {
-    "default": [
-      "bar",
-      "bottle",
-      "bottle with popping cork",
-      "bubbly",
-      "cork",
-      "drink",
-      "popping"
-    ],
-    "tts": []
-  },
-  "😍": {
-    "default": [
-      "eye",
-      "face",
-      "love",
-      "smile",
-      "smiling face with heart eyes",
-      "smiling face with heart-eyes"
+      "Christmas",
+      "Claus",
+      "light skin tone",
+      "Mx. Claus",
+      "Mx. Claus: light skin tone"
     ],
     "tts": [
-      "smiling face with heart eyes"
+      "Mx. Claus: light skin tone"
     ]
-  },
-  "🫔": {
-    "default": [
-      "Mexican",
-      "tamale",
-      "wrapped"
-    ],
-    "tts": []
-  },
-  "🚙": {
-    "default": [
-      "recreational",
-      "sport utility",
-      "sport utility vehicle",
-      "SUV"
-    ],
-    "tts": []
-  },
-  "🐫": {
-    "default": [
-      "Bactrian",
-      "camel",
-      "hump",
-      "two-hump camel"
-    ],
-    "tts": []
   },
   "🙇‍♂": {
     "default": [
@@ -1329,67 +317,6 @@
       "gesture",
       "man",
       "sorry"
-    ],
-    "tts": []
-  },
-  "📳": {
-    "default": [
-      "cell",
-      "mobile",
-      "mode",
-      "phone",
-      "telephone",
-      "vibrate",
-      "vibration"
-    ],
-    "tts": []
-  },
-  "🧆": {
-    "default": [
-      "chick pea",
-      "chickpea",
-      "falafel",
-      "meatball"
-    ],
-    "tts": []
-  },
-  "📼": {
-    "default": [
-      "tape",
-      "VHS",
-      "video",
-      "videocassette",
-      "videotape"
-    ],
-    "tts": []
-  },
-  "🗻": {
-    "default": [
-      "Fuji",
-      "Mount Fuji",
-      "mountain"
-    ],
-    "tts": [
-      "Mount Fuji"
-    ]
-  },
-  "🥩": {
-    "default": [
-      "chop",
-      "cut of meat",
-      "lamb chop",
-      "pork chop",
-      "steak"
-    ],
-    "tts": []
-  },
-  "☯": {
-    "default": [
-      "religion",
-      "Tao",
-      "Taoist",
-      "yang",
-      "yin"
     ],
     "tts": []
   },
@@ -1404,69 +331,299 @@
     ],
     "tts": []
   },
-  "🛥": {
-    "default": [],
+  "🗻": {
+    "default": [
+      "Fuji",
+      "Mount Fuji",
+      "mountain"
+    ],
     "tts": [
-      "motorboat"
+      "Mount Fuji"
     ]
   },
-  "⚰": {
+  "👩🏽‍🚒": {
     "default": [
-      "casket",
-      "coffin",
-      "death"
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "firewoman",
+      "medium skin tone",
+      "truck",
+      "woman"
     ],
     "tts": []
   },
-  "🇻🇮": {
+  "👬🏿": {
     "default": [
-      "flag",
-      "flag: US Virgin Islands"
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👌🏼": {
+    "default": [
+      "hand",
+      "medium-light skin tone",
+      "OK",
+      "OK hand: medium-light skin tone",
+      "perfect"
+    ],
+    "tts": []
+  },
+  "🫱🏿": {
+    "default": [
+      "dark skin tone",
+      "hand",
+      "right",
+      "rightward",
+      "rightward hand: dark skin tone",
+      "rightwards"
     ],
     "tts": [
-      "flag: US Virgin Islands"
+      "rightward hand: dark skin tone"
     ]
   },
-  "🏁": {
+  "🫳🏽": {
     "default": [
-      "checkered",
-      "checkered flag",
-      "chequered",
-      "chequered flag",
-      "racing"
+      "dismiss",
+      "drop",
+      "medium skin tone",
+      "palm down hand",
+      "palm-down hand",
+      "palm-down hand: medium skin tone",
+      "shoo"
     ],
     "tts": [
-      "checkered flag"
+      "palm-down hand: medium skin tone"
     ]
   },
-  "🍀": {
-    "default": [],
-    "tts": [
-      "four-leaf clover"
-    ]
-  },
-  "🕦": {
+  "🙇🏻‍♂": {
     "default": [
-      "11",
-      "11:30",
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "light skin tone",
+      "man",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "fireman",
+      "man",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🤴🏾": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "medium-dark skin tone",
+      "prince",
+      "prince: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "truck"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "☪": {
+    "default": [
+      "Islam",
+      "Muslim",
+      "religion",
+      "star and crescent"
+    ],
+    "tts": []
+  },
+  "🍥": {
+    "default": [
+      "cake",
+      "fish",
+      "fish cake with swirl",
+      "narutomaki",
+      "pastry",
+      "swirl"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "fireman",
+      "light skin tone",
+      "man"
+    ],
+    "tts": []
+  },
+  "🫚": {
+    "default": [
+      "beer",
+      "ginger",
+      "root",
+      "spice"
+    ],
+    "tts": [
+      "ginger"
+    ]
+  },
+  "🕜": {
+    "default": [
+      "1",
+      "1:30",
       "clock",
-      "eleven",
-      "eleven-thirty",
-      "half past eleven",
+      "half past one",
+      "one",
+      "one-thirty",
       "thirty"
     ],
     "tts": [
-      "eleven thirty"
+      "one thirty"
     ]
   },
-  "🥃": {
+  "👩🏾‍🤝‍👩🏿": {
     "default": [
-      "glass",
-      "liquor",
-      "shot",
-      "tumbler",
-      "whiskey",
-      "whisky"
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium-dark skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-dark skin tone, dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🤝‍👩🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-light skin tone, medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🙇🏾‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "man",
+      "medium-dark skin tone",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "🍬": {
+    "default": [
+      "candy",
+      "dessert",
+      "sweet",
+      "sweets"
+    ],
+    "tts": []
+  },
+  "🫅🏿": {
+    "default": [
+      "dark skin tone",
+      "king",
+      "monarch",
+      "noble",
+      "person with crown",
+      "person with crown: dark skin tone",
+      "queen",
+      "regal",
+      "royalty"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👩🏻": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium skin tone, light skin tone"
+    ],
+    "tts": []
+  },
+  "🤴🏿": {
+    "default": [
+      "dark skin tone",
+      "fairy tale",
+      "fantasy",
+      "prince",
+      "prince: dark skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏻‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "light skin tone",
+      "man",
+      "man health worker",
+      "man health worker: light skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🏋🏻": {
+    "default": [
+      "lifter",
+      "light skin tone",
+      "person lifting weights",
+      "person lifting weights: light skin tone",
+      "weight",
+      "weightlifter"
     ],
     "tts": []
   },
@@ -1478,6 +635,27 @@
     "tts": [
       "flag: Saint Lucia"
     ]
+  },
+  "🫅": {
+    "default": [
+      "king",
+      "monarch",
+      "noble",
+      "person with crown",
+      "queen",
+      "regal",
+      "royalty"
+    ],
+    "tts": []
+  },
+  "🤥": {
+    "default": [
+      "face",
+      "lie",
+      "lying face",
+      "Pinocchio"
+    ],
+    "tts": []
   },
   "🍻": {
     "default": [
@@ -1491,121 +669,281 @@
     ],
     "tts": []
   },
-  "🥂": {
+  "🧑🏾‍🚒": {
     "default": [
-      "celebrate",
-      "cheers",
-      "clink",
-      "clinking glasses",
-      "drink",
-      "glass"
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "medium-dark skin tone",
+      "truck"
     ],
     "tts": []
   },
-  "🚺": {
+  "🤛🏻": {
     "default": [
-      "bathroom",
-      "ladies’ room",
-      "lavatory",
-      "restroom",
-      "toilet",
-      "WC",
+      "fist",
+      "left-facing fist",
+      "left-facing fist: light skin tone",
+      "leftward",
+      "light skin tone"
+    ],
+    "tts": []
+  },
+  "🤘🏾": {
+    "default": [
+      "finger",
+      "hand",
+      "horns",
+      "medium-dark skin tone",
+      "rock on",
+      "sign of the horns"
+    ],
+    "tts": []
+  },
+  "🥌": {
+    "default": [
+      "curling rock",
+      "curling stone",
+      "game",
+      "rock"
+    ],
+    "tts": [
+      "curling rock"
+    ]
+  },
+  "🏙": {
+    "default": [
+      "city",
+      "cityscape",
+      "skyline"
+    ],
+    "tts": []
+  },
+  "🇰🇳": {
+    "default": [
+      "flag",
+      "flag: Saint Kitts and Nevis"
+    ],
+    "tts": [
+      "flag: Saint Kitts and Nevis"
+    ]
+  },
+  "🇹🇹": {
+    "default": [
+      "flag",
+      "flag: Trinidad and Tobago"
+    ],
+    "tts": [
+      "flag: Trinidad and Tobago"
+    ]
+  },
+  "🇬🇸": {
+    "default": [
+      "flag",
+      "flag: South Georgia and South Sandwich Islands"
+    ],
+    "tts": [
+      "flag: South Georgia and South Sandwich Islands"
+    ]
+  },
+  "🫲": {
+    "default": [
+      "hand",
+      "left",
+      "leftward",
+      "leftwards"
+    ],
+    "tts": [
+      "leftward hand"
+    ]
+  },
+  "🥩": {
+    "default": [
+      "chop",
+      "cut of meat",
+      "lamb chop",
+      "pork chop",
+      "steak"
+    ],
+    "tts": []
+  },
+  "🫸🏼": {
+    "default": [
+      "high five",
+      "medium-light skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightward-pushing hand",
+      "rightward-pushing hand: medium-light skin tone",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "rightward-pushing hand: medium-light skin tone"
+    ]
+  },
+  "👭": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "two women holding hands",
+      "women",
+      "women holding hands"
+    ],
+    "tts": []
+  },
+  "⛽": {
+    "default": [],
+    "tts": [
+      "gas pump"
+    ]
+  },
+  "🤹🏿": {
+    "default": [
+      "balance",
+      "dark skin tone",
+      "juggle",
+      "multi-task",
+      "multitask",
+      "person juggling",
+      "skill"
+    ],
+    "tts": []
+  },
+  "🙎": {
+    "default": [
+      "facial expression",
+      "gesture",
+      "person pouting",
+      "pouting"
+    ],
+    "tts": []
+  },
+  "👩🏿‍⚕": {
+    "default": [
+      "dark skin tone",
+      "doctor",
+      "health care",
+      "nurse",
+      "therapist",
       "woman",
-      "women’s room"
+      "woman health worker",
+      "woman health worker: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧏🏼": {
+    "default": [
+      "accessibility",
+      "deaf",
+      "deaf person",
+      "deaf person: medium-light skin tone",
+      "ear",
+      "hard of hearing",
+      "hear",
+      "hearing impaired",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🇵🇸": {
+    "default": [
+      "flag",
+      "flag: Palestinian territories"
     ],
     "tts": [
-      "ladies’ room"
+      "flag: Palestinian territories"
     ]
   },
-  "⁉": {
+  "🙇🏼‍♂": {
     "default": [
-      "!",
-      "!?",
-      "?",
-      "exclamation",
-      "mark",
-      "punctuation",
-      "question"
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "man",
+      "medium-light skin tone",
+      "sorry"
     ],
     "tts": []
   },
-  "®": {
+  "🤹🏾‍♀": {
     "default": [
-      "r",
-      "registered",
-      "trademark"
+      "juggling",
+      "medium-dark skin tone",
+      "multi-task",
+      "multitask",
+      "woman"
     ],
     "tts": []
   },
-  "😻": {
-    "default": [
-      "cat",
-      "eye",
-      "face",
-      "heart",
-      "love",
-      "smile",
-      "smiling cat face with heart eyes",
-      "smiling cat with heart-eyes"
-    ],
-    "tts": [
-      "smiling cat face with heart eyes"
-    ]
-  },
-  "🏪": {
-    "default": [
-      "convenience",
-      "dépanneur",
-      "store"
-    ],
-    "tts": []
-  },
-  "🦻": {
+  "🦻🏾": {
     "default": [
       "accessibility",
       "ear with hearing aid",
+      "ear with hearing aid: medium-dark skin tone",
       "hard of hearing",
-      "hearing impaired"
+      "hearing impaired",
+      "medium-dark skin tone"
     ],
     "tts": []
   },
-  "🛩": {
+  "🙎🏽": {
     "default": [
-      "aeroplane",
-      "airplane",
-      "small airplane",
-      "small plane"
+      "facial expression",
+      "gesture",
+      "medium skin tone",
+      "person pouting",
+      "person pouting: medium skin tone",
+      "pouting"
     ],
     "tts": []
   },
-  "🏒": {
-    "default": [],
-    "tts": [
-      "hockey"
-    ]
-  },
-  "🤭": {
+  "👨🏾‍🤝‍👨🏿": {
     "default": [
-      "face with hand over mouth",
-      "oops",
-      "whoops"
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "medium-dark skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "🌮": {
+  "👭🏿": {
     "default": [
-      "Mexican",
-      "taco"
-    ],
-    "tts": []
-  },
-  "👌": {
-    "default": [
+      "couple",
+      "dark skin tone",
       "hand",
-      "OK",
-      "perfect"
+      "holding hands",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: dark skin tone"
     ],
     "tts": []
+  },
+  "🫴🏻": {
+    "default": [
+      "beckon",
+      "catch",
+      "come",
+      "light skin tone",
+      "offer",
+      "palm up hand",
+      "palm-up hand",
+      "palm-up hand: light skin tone"
+    ],
+    "tts": [
+      "palm-up hand: light skin tone"
+    ]
   },
   "👨‍⚕": {
     "default": [
@@ -1618,47 +956,85 @@
     ],
     "tts": []
   },
-  "🍦": {
+  "🙎🏻": {
     "default": [
-      "cream",
-      "dessert",
-      "ice",
-      "icecream",
-      "soft",
-      "soft-serve ice cream",
-      "sweet"
+      "facial expression",
+      "gesture",
+      "light skin tone",
+      "person pouting",
+      "person pouting: light skin tone",
+      "pouting"
+    ],
+    "tts": []
+  },
+  "🏋🏿": {
+    "default": [
+      "dark skin tone",
+      "lifter",
+      "person lifting weights",
+      "person lifting weights: dark skin tone",
+      "weight",
+      "weightlifter"
+    ],
+    "tts": []
+  },
+  "🤹": {
+    "default": [
+      "balance",
+      "juggle",
+      "multi-task",
+      "multitask",
+      "person juggling",
+      "skill"
+    ],
+    "tts": []
+  },
+  "👌": {
+    "default": [
+      "hand",
+      "OK",
+      "perfect"
+    ],
+    "tts": []
+  },
+  "🔠": {
+    "default": [
+      "ABCD",
+      "input",
+      "Latin",
+      "letters",
+      "uppercase"
     ],
     "tts": [
-      "soft-serve ice cream"
+      "input Latin uppercase"
     ]
   },
-  "🎱": {
+  "🫷🏻": {
     "default": [
-      "8",
-      "ball",
-      "billiard",
-      "eight",
-      "game",
-      "magic 8 ball",
-      "pool 8 ball"
+      "high five",
+      "leftward",
+      "leftward-pushing hand",
+      "leftward-pushing hand: light skin tone",
+      "leftwards pushing hand",
+      "light skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
     ],
-    "tts": []
+    "tts": [
+      "leftward-pushing hand: light skin tone"
+    ]
   },
-  "🪆": {
+  "👬🏻": {
     "default": [
-      "doll",
-      "nesting",
-      "nesting dolls",
-      "Russia"
-    ],
-    "tts": []
-  },
-  "🦯": {
-    "default": [
-      "accessibility",
-      "blind",
-      "guide cane",
-      "white cane"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
@@ -1677,22 +1053,1281 @@
       "rightward-pushing hand"
     ]
   },
-  "🏏": {
+  "🤞🏾": {
     "default": [
-      "ball",
-      "bat",
-      "cricket",
-      "cricket match",
-      "game"
+      "cross",
+      "crossed fingers",
+      "crossed fingers: medium-dark skin tone",
+      "finger",
+      "good luck",
+      "hand",
+      "luck",
+      "medium-dark skin tone"
     ],
     "tts": []
   },
-  "🛒": {
+  "🙏": {
     "default": [
-      "basket",
-      "cart",
-      "shopping",
-      "trolley"
+      "ask",
+      "folded hands",
+      "hand",
+      "high five",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🪆": {
+    "default": [
+      "doll",
+      "nesting",
+      "nesting dolls",
+      "Russia"
+    ],
+    "tts": []
+  },
+  "🚻": {
+    "default": [
+      "bathroom",
+      "lavatory",
+      "restroom",
+      "washroom",
+      "WC"
+    ],
+    "tts": [
+      "washroom"
+    ]
+  },
+  "🤹🏿‍♀": {
+    "default": [
+      "dark skin tone",
+      "juggling",
+      "multi-task",
+      "multitask",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🤹🏽‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "medium skin tone",
+      "multi-task",
+      "multitask"
+    ],
+    "tts": []
+  },
+  "🤴🏼": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "medium-light skin tone",
+      "prince",
+      "prince: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "📼": {
+    "default": [
+      "tape",
+      "VHS",
+      "video",
+      "videocassette",
+      "videotape"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "fire truck",
+      "firefighter",
+      "fireman",
+      "man"
+    ],
+    "tts": []
+  },
+  "😻": {
+    "default": [
+      "cat",
+      "eye",
+      "face",
+      "heart",
+      "love",
+      "smile",
+      "smiling cat face with heart eyes",
+      "smiling cat with heart-eyes"
+    ],
+    "tts": [
+      "smiling cat face with heart eyes"
+    ]
+  },
+  "🤶🏾": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "medium-dark skin tone",
+      "Mother",
+      "Mrs."
+    ],
+    "tts": []
+  },
+  "👩🏿‍🤝‍👩🏼": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: dark skin tone, medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏿‍⚕": {
+    "default": [
+      "dark skin tone",
+      "doctor",
+      "health care",
+      "man",
+      "man health worker",
+      "man health worker: dark skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🤘🏽": {
+    "default": [
+      "finger",
+      "hand",
+      "horns",
+      "medium skin tone",
+      "rock on",
+      "sign of the horns"
+    ],
+    "tts": []
+  },
+  "🔒": {
+    "default": [
+      "closed",
+      "locked",
+      "padlock"
+    ],
+    "tts": []
+  },
+  "👩🏼‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "medium-light skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker",
+      "woman health worker: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🧿": {
+    "default": [
+      "bead",
+      "charm",
+      "evil eye",
+      "nazar",
+      "nazar amulet",
+      "talisman"
+    ],
+    "tts": []
+  },
+  "🕦": {
+    "default": [
+      "11",
+      "11:30",
+      "clock",
+      "eleven",
+      "eleven-thirty",
+      "half past eleven",
+      "thirty"
+    ],
+    "tts": [
+      "eleven thirty"
+    ]
+  },
+  "🤙🏻": {
+    "default": [
+      "call",
+      "call me hand",
+      "call-me hand",
+      "call-me hand: light skin tone",
+      "hand",
+      "hang loose",
+      "light skin tone",
+      "Shaka"
+    ],
+    "tts": [
+      "call-me hand: light skin tone"
+    ]
+  },
+  "👩🏾‍🤝‍👩🏼": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-dark skin tone, medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🛕": {
+    "default": [
+      "Hindu",
+      "temple"
+    ],
+    "tts": [
+      "Hindu temple"
+    ]
+  },
+  "💎": {
+    "default": [
+      "diamond",
+      "gem",
+      "gem stone",
+      "gemstone",
+      "jewel"
+    ],
+    "tts": [
+      "gemstone"
+    ]
+  },
+  "👩🏿‍🤝‍👩🏽": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: dark skin tone, medium skin tone"
+    ],
+    "tts": []
+  },
+  "™": {
+    "default": [],
+    "tts": [
+      "trademark"
+    ]
+  },
+  "👧🏽": {
+    "default": [
+      "girl",
+      "medium skin tone",
+      "young"
+    ],
+    "tts": []
+  },
+  "🤹🏻‍♀": {
+    "default": [
+      "juggling",
+      "light skin tone",
+      "multi-task",
+      "multitask",
+      "woman"
+    ],
+    "tts": []
+  },
+  "👩‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "firewoman",
+      "truck",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🫳🏼": {
+    "default": [
+      "dismiss",
+      "drop",
+      "medium-light skin tone",
+      "palm down hand",
+      "palm-down hand",
+      "palm-down hand: medium-light skin tone",
+      "shoo"
+    ],
+    "tts": [
+      "palm-down hand: medium-light skin tone"
+    ]
+  },
+  "🎠": {
+    "default": [
+      "carousel",
+      "horse",
+      "merry-go-round"
+    ],
+    "tts": []
+  },
+  "🙏🏽": {
+    "default": [
+      "ask",
+      "folded hands",
+      "hand",
+      "high five",
+      "medium skin tone",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🔼": {
+    "default": [
+      "arrow",
+      "button",
+      "red",
+      "upward button",
+      "upwards button"
+    ],
+    "tts": [
+      "upward button"
+    ]
+  },
+  "👌🏿": {
+    "default": [
+      "dark skin tone",
+      "hand",
+      "OK",
+      "OK hand: dark skin tone",
+      "perfect"
+    ],
+    "tts": []
+  },
+  "🫱🏻": {
+    "default": [
+      "hand",
+      "light skin tone",
+      "right",
+      "rightward",
+      "rightward hand: light skin tone",
+      "rightwards"
+    ],
+    "tts": [
+      "rightward hand: light skin tone"
+    ]
+  },
+  "🥖": {
+    "default": [
+      "baguette",
+      "bread",
+      "food",
+      "French"
+    ],
+    "tts": []
+  },
+  "🥞": {
+    "default": [
+      "breakfast",
+      "crepe",
+      "crêpe",
+      "food",
+      "hotcake",
+      "pancake",
+      "pancakes"
+    ],
+    "tts": []
+  },
+  "🧋": {
+    "default": [
+      "boba",
+      "bubble",
+      "milk",
+      "pearl",
+      "tea"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🚽": {
+    "default": [
+      "lavatory",
+      "toilet"
+    ],
+    "tts": []
+  },
+  "👌🏻": {
+    "default": [
+      "hand",
+      "light skin tone",
+      "OK",
+      "OK hand: light skin tone",
+      "perfect"
+    ],
+    "tts": []
+  },
+  "🧆": {
+    "default": [
+      "chick pea",
+      "chickpea",
+      "falafel",
+      "meatball"
+    ],
+    "tts": []
+  },
+  "👭🏼": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🤘🏿": {
+    "default": [
+      "dark skin tone",
+      "finger",
+      "hand",
+      "horns",
+      "rock on",
+      "sign of the horns"
+    ],
+    "tts": []
+  },
+  "👩‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker"
+    ],
+    "tts": []
+  },
+  "🏋🏾": {
+    "default": [
+      "lifter",
+      "medium-dark skin tone",
+      "person lifting weights",
+      "person lifting weights: medium-dark skin tone",
+      "weight",
+      "weightlifter"
+    ],
+    "tts": []
+  },
+  "🇸🇹": {
+    "default": [
+      "flag",
+      "flag: São Tomé and Príncipe"
+    ],
+    "tts": [
+      "flag: São Tomé and Príncipe"
+    ]
+  },
+  "🏓": {
+    "default": [
+      "ball",
+      "bat",
+      "game",
+      "paddle",
+      "ping pong",
+      "ping-pong",
+      "table tennis"
+    ],
+    "tts": []
+  },
+  "🫸🏽": {
+    "default": [
+      "high five",
+      "medium skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightward-pushing hand",
+      "rightward-pushing hand: medium skin tone",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "rightward-pushing hand: medium skin tone"
+    ]
+  },
+  "🎅🏾": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Father",
+      "medium-dark skin tone",
+      "Santa"
+    ],
+    "tts": []
+  },
+  "😷": {
+    "default": [
+      "cold",
+      "doctor",
+      "face",
+      "face with medical mask",
+      "ill",
+      "mask",
+      "sick"
+    ],
+    "tts": []
+  },
+  "🚇": {
+    "default": [
+      "metro",
+      "subway",
+      "tube",
+      "underground"
+    ],
+    "tts": [
+      "subway"
+    ]
+  },
+  "🕢": {
+    "default": [
+      "7",
+      "7:30",
+      "clock",
+      "half past seven",
+      "seven",
+      "seven-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "seven thirty"
+    ]
+  },
+  "🧏🏾": {
+    "default": [
+      "accessibility",
+      "deaf",
+      "deaf person",
+      "deaf person: medium-dark skin tone",
+      "ear",
+      "hard of hearing",
+      "hear",
+      "hearing impaired",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🖖🏿": {
+    "default": [
+      "dark skin tone",
+      "finger",
+      "hand",
+      "Spock",
+      "Vulcan",
+      "Vulcan salute",
+      "Vulcan salute: dark skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: dark skin tone"
+    ]
+  },
+  "🫳🏿": {
+    "default": [
+      "dark skin tone",
+      "dismiss",
+      "drop",
+      "palm down hand",
+      "palm-down hand",
+      "palm-down hand: dark skin tone",
+      "shoo"
+    ],
+    "tts": [
+      "palm-down hand: dark skin tone"
+    ]
+  },
+  "👩🏾‍🤝‍👩🏻": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium-dark skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-dark skin tone, light skin tone"
+    ],
+    "tts": []
+  },
+  "😤": {
+    "default": [
+      "angry",
+      "face",
+      "face with steam from nose",
+      "frustration",
+      "triumph",
+      "won"
+    ],
+    "tts": []
+  },
+  "🚮": {
+    "default": [
+      "garbage",
+      "litter",
+      "litter bin",
+      "litter in bin sign",
+      "trash"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🤝‍👩🏻": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: dark skin tone, light skin tone"
+    ],
+    "tts": []
+  },
+  "🛸": {
+    "default": [
+      "flying saucer",
+      "spaceship",
+      "UFO"
+    ],
+    "tts": []
+  },
+  "🀄": {
+    "default": [
+      "game",
+      "Mahjong",
+      "Mahjong red dragon",
+      "red"
+    ],
+    "tts": [
+      "Mahjong red dragon"
+    ]
+  },
+  "🎅🏻": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Father",
+      "light skin tone",
+      "Santa"
+    ],
+    "tts": []
+  },
+  "🛥": {
+    "default": [],
+    "tts": [
+      "motorboat"
+    ]
+  },
+  "👨🏼‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🧑🏽‍🎄": {
+    "default": [
+      "Christmas",
+      "Claus",
+      "medium skin tone",
+      "Mx. Claus",
+      "Mx. Claus: medium skin tone"
+    ],
+    "tts": [
+      "Mx. Claus: medium skin tone"
+    ]
+  },
+  "🫳🏻": {
+    "default": [
+      "dismiss",
+      "drop",
+      "light skin tone",
+      "palm down hand",
+      "palm-down hand",
+      "palm-down hand: light skin tone",
+      "shoo"
+    ],
+    "tts": [
+      "palm-down hand: light skin tone"
+    ]
+  },
+  "🦻🏼": {
+    "default": [
+      "accessibility",
+      "ear with hearing aid",
+      "ear with hearing aid: medium-light skin tone",
+      "hard of hearing",
+      "hearing impaired",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "✈": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "flight"
+    ],
+    "tts": []
+  },
+  "🪪": {
+    "default": [
+      "credentials",
+      "ID",
+      "identification card",
+      "licence",
+      "security"
+    ],
+    "tts": []
+  },
+  "🧑🏻‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "health worker",
+      "healthcare",
+      "light skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🍶": {
+    "default": [
+      "bar",
+      "beverage",
+      "bottle",
+      "cup",
+      "drink",
+      "sake",
+      "saké"
+    ],
+    "tts": []
+  },
+  "😍": {
+    "default": [
+      "eye",
+      "face",
+      "love",
+      "smile",
+      "smiling face with heart eyes",
+      "smiling face with heart-eyes"
+    ],
+    "tts": [
+      "smiling face with heart eyes"
+    ]
+  },
+  "👨🏼‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "⛩": {
+    "default": [
+      "religion",
+      "Shinto",
+      "shrine"
+    ],
+    "tts": [
+      "Shinto shrine"
+    ]
+  },
+  "👨🏾‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "medium-dark skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🤝‍👩🏽": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-dark skin tone, medium skin tone"
+    ],
+    "tts": []
+  },
+  "💪🏿": {
+    "default": [
+      "biceps",
+      "comic",
+      "dark skin tone",
+      "flex",
+      "flexed bicep",
+      "flexed bicep: dark skin tone",
+      "muscle"
+    ],
+    "tts": [
+      "flexed bicep: dark skin tone"
+    ]
+  },
+  "🚎": {
+    "default": [
+      "bus",
+      "streetcar",
+      "tram",
+      "trolley",
+      "trolleybus"
+    ],
+    "tts": [
+      "trolley bus"
+    ]
+  },
+  "👌🏾": {
+    "default": [
+      "hand",
+      "medium-dark skin tone",
+      "OK",
+      "OK hand: medium-dark skin tone",
+      "perfect"
+    ],
+    "tts": []
+  },
+  "🍾": {
+    "default": [
+      "bar",
+      "bottle",
+      "bottle with popping cork",
+      "bubbly",
+      "cork",
+      "drink",
+      "popping"
+    ],
+    "tts": []
+  },
+  "🔓": {
+    "default": [
+      "lock",
+      "open",
+      "padlock",
+      "unlock",
+      "unlocked"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🚒": {
+    "default": [
+      "dark skin tone",
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "firewoman",
+      "truck",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🤴": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "prince"
+    ],
+    "tts": []
+  },
+  "🤠": {
+    "default": [
+      "cowboy",
+      "cowgirl",
+      "face",
+      "face with cowboy hat",
+      "hat"
+    ],
+    "tts": [
+      "face with cowboy hat"
+    ]
+  },
+  "🤶": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Mother",
+      "Mrs."
+    ],
+    "tts": []
+  },
+  "🫅🏼": {
+    "default": [
+      "king",
+      "medium-light skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "person with crown: medium-light skin tone",
+      "queen",
+      "regal",
+      "royalty"
+    ],
+    "tts": []
+  },
+  "🫲🏻": {
+    "default": [
+      "hand",
+      "left",
+      "leftward",
+      "leftward hand: light skin tone",
+      "leftwards",
+      "light skin tone"
+    ],
+    "tts": [
+      "leftward hand: light skin tone"
+    ]
+  },
+  "🙇🏾‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "medium-dark skin tone",
+      "sorry",
+      "woman"
+    ],
+    "tts": []
+  },
+  "👭🏽": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🇼🇫": {
+    "default": [
+      "flag",
+      "flag: Wallis and Futuna"
+    ],
+    "tts": [
+      "flag: Wallis and Futuna"
+    ]
+  },
+  "🧑🏼‍🎄": {
+    "default": [
+      "Christmas",
+      "Claus",
+      "medium-light skin tone",
+      "Mx. Claus",
+      "Mx. Claus: medium-light skin tone"
+    ],
+    "tts": [
+      "Mx. Claus: medium-light skin tone"
+    ]
+  },
+  "🇪🇦": {
+    "default": [
+      "flag",
+      "flag: Ceuta and Melilla"
+    ],
+    "tts": [
+      "flag: Ceuta and Melilla"
+    ]
+  },
+  "♏": {
+    "default": [
+      "Scorpio",
+      "scorpion",
+      "Scorpius",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🖖🏾": {
+    "default": [
+      "finger",
+      "hand",
+      "medium-dark skin tone",
+      "Spock",
+      "Vulcan",
+      "Vulcan salute",
+      "Vulcan salute: medium-dark skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: medium-dark skin tone"
+    ]
+  },
+  "🧑🏻‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "light skin tone",
+      "truck"
+    ],
+    "tts": []
+  },
+  "🫴🏼": {
+    "default": [
+      "beckon",
+      "catch",
+      "come",
+      "medium-light skin tone",
+      "offer",
+      "palm up hand",
+      "palm-up hand",
+      "palm-up hand: medium-light skin tone"
+    ],
+    "tts": [
+      "palm-up hand: medium-light skin tone"
+    ]
+  },
+  "🫴": {
+    "default": [
+      "beckon",
+      "catch",
+      "come",
+      "offer",
+      "palm up hand",
+      "palm-up hand"
+    ],
+    "tts": [
+      "palm-up hand"
+    ]
+  },
+  "🚅": {
+    "default": [
+      "bullet",
+      "railway",
+      "Shinkansen",
+      "speed",
+      "train"
+    ],
+    "tts": []
+  },
+  "🇺🇲": {
+    "default": [
+      "flag",
+      "flag: US Outlying Islands"
+    ],
+    "tts": [
+      "flag: US Outlying Islands"
+    ]
+  },
+  "🚩": {
+    "default": [
+      "post",
+      "red flag",
+      "triangular flag"
+    ],
+    "tts": []
+  },
+  "🇻🇨": {
+    "default": [
+      "flag",
+      "flag: Saint Vincent and the Grenadines"
+    ],
+    "tts": [
+      "flag: Saint Vincent and the Grenadines"
+    ]
+  },
+  "👩🏻‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "light skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker",
+      "woman health worker: light skin tone"
+    ],
+    "tts": []
+  },
+  "👭🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium-dark skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "✡": {
+    "default": [
+      "David",
+      "Jewish",
+      "Judaism",
+      "religion",
+      "star",
+      "Star of David"
+    ],
+    "tts": [
+      "Star of David"
+    ]
+  },
+  "👽": {
+    "default": [
+      "alien",
+      "creature",
+      "ET",
+      "extraterrestrial",
+      "face",
+      "fantasy",
+      "UFO"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "fireman",
+      "man",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🫅🏻": {
+    "default": [
+      "king",
+      "light skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "person with crown: light skin tone",
+      "queen",
+      "regal",
+      "royalty"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "medium-dark skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🤜🏽": {
+    "default": [
+      "fist",
+      "medium skin tone",
+      "right-facing fist",
+      "right-facing fist: medium skin tone",
+      "rightward"
+    ],
+    "tts": []
+  },
+  "👨🏼‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "man",
+      "man health worker",
+      "man health worker: medium-light skin tone",
+      "medium-light skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🕠": {
+    "default": [
+      "5",
+      "5:30",
+      "clock",
+      "five",
+      "five-thirty",
+      "half past five",
+      "thirty"
+    ],
+    "tts": [
+      "five thirty"
+    ]
+  },
+  "🤘🏻": {
+    "default": [
+      "finger",
+      "hand",
+      "horns",
+      "light skin tone",
+      "rock on",
+      "sign of the horns"
     ],
     "tts": []
   },
@@ -1708,49 +2343,531 @@
     ],
     "tts": []
   },
-  "🩱": {
+  "🫱🏽": {
     "default": [
-      "bathing suit",
-      "one-piece swimsuit",
-      "swimming costume"
+      "hand",
+      "medium skin tone",
+      "right",
+      "rightward",
+      "rightward hand: medium skin tone",
+      "rightwards"
+    ],
+    "tts": [
+      "rightward hand: medium skin tone"
+    ]
+  },
+  "👧🏿": {
+    "default": [
+      "dark skin tone",
+      "girl",
+      "young"
     ],
     "tts": []
   },
-  "🤜": {
+  "🤛🏿": {
+    "default": [
+      "dark skin tone",
+      "fist",
+      "left-facing fist",
+      "left-facing fist: dark skin tone",
+      "leftward"
+    ],
+    "tts": []
+  },
+  "🧑‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "truck"
+    ],
+    "tts": []
+  },
+  "🛺": {
+    "default": [
+      "auto rickshaw",
+      "tuk tuk",
+      "tuk-tuk",
+      "tuktuk"
+    ],
+    "tts": []
+  },
+  "👨🏼‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🫱🏾": {
+    "default": [
+      "hand",
+      "medium-dark skin tone",
+      "right",
+      "rightward",
+      "rightward hand: medium-dark skin tone",
+      "rightwards"
+    ],
+    "tts": [
+      "rightward hand: medium-dark skin tone"
+    ]
+  },
+  "🕟": {
+    "default": [
+      "4",
+      "4:30",
+      "clock",
+      "four",
+      "four-thirty",
+      "half past four",
+      "thirty"
+    ],
+    "tts": [
+      "four thirty"
+    ]
+  },
+  "🧏": {
+    "default": [
+      "accessibility",
+      "deaf",
+      "deaf person",
+      "ear",
+      "hard of hearing",
+      "hear",
+      "hearing impaired"
+    ],
+    "tts": []
+  },
+  "👨‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "fireman",
+      "man"
+    ],
+    "tts": []
+  },
+  "🤛🏾": {
     "default": [
       "fist",
-      "right-facing fist",
-      "rightward"
+      "left-facing fist",
+      "left-facing fist: medium-dark skin tone",
+      "leftward",
+      "medium-dark skin tone"
     ],
     "tts": []
   },
-  "🏓": {
+  "🕵🏾": {
     "default": [
+      "detective",
+      "medium-dark skin tone",
+      "private eye",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "💇🏽": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "medium skin tone",
+      "parlor",
+      "parlour",
+      "person getting haircut",
+      "salon"
+    ],
+    "tts": []
+  },
+  "🎅": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Father",
+      "Santa"
+    ],
+    "tts": []
+  },
+  "🎋": {
+    "default": [
+      "banner",
+      "celebration",
+      "Japanese",
+      "Tanabata tree",
+      "tree"
+    ],
+    "tts": [
+      "Tanabata tree"
+    ]
+  },
+  "🫷🏼": {
+    "default": [
+      "high five",
+      "leftward",
+      "leftward-pushing hand",
+      "leftward-pushing hand: medium-light skin tone",
+      "leftwards pushing hand",
+      "medium-light skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "leftward-pushing hand: medium-light skin tone"
+    ]
+  },
+  "🤙🏾": {
+    "default": [
+      "call",
+      "call me hand",
+      "call-me hand",
+      "call-me hand: medium-dark skin tone",
+      "hand",
+      "hang loose",
+      "medium-dark skin tone",
+      "Shaka"
+    ],
+    "tts": [
+      "call-me hand: medium-dark skin tone"
+    ]
+  },
+  "🚄": {
+    "default": [
+      "high-speed train",
+      "railway",
+      "Shinkansen",
+      "speed",
+      "train"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🤝‍👩🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium-dark skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: light skin tone, medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🎱": {
+    "default": [
+      "8",
       "ball",
-      "bat",
+      "billiard",
+      "eight",
       "game",
-      "paddle",
-      "ping pong",
-      "ping-pong",
-      "table tennis"
+      "magic 8 ball",
+      "pool 8 ball"
     ],
     "tts": []
   },
-  "✈": {
+  "🎅🏿": {
     "default": [
-      "aeroplane",
-      "airplane",
-      "flight"
+      "celebration",
+      "Christmas",
+      "Claus",
+      "dark skin tone",
+      "Father",
+      "Santa"
     ],
     "tts": []
   },
-  "🚮": {
+  "🖖🏼": {
     "default": [
-      "garbage",
-      "litter",
-      "litter bin",
-      "litter in bin sign",
-      "trash"
+      "finger",
+      "hand",
+      "medium-light skin tone",
+      "Spock",
+      "Vulcan",
+      "Vulcan salute",
+      "Vulcan salute: medium-light skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: medium-light skin tone"
+    ]
+  },
+  "👩🏼‍🤝‍👩🏻": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium-light skin tone, light skin tone"
+    ],
+    "tts": []
+  },
+  "🫲🏾": {
+    "default": [
+      "hand",
+      "left",
+      "leftward",
+      "leftward hand: medium-dark skin tone",
+      "leftwards",
+      "medium-dark skin tone"
+    ],
+    "tts": [
+      "leftward hand: medium-dark skin tone"
+    ]
+  },
+  "👬": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🤴🏽": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "medium skin tone",
+      "prince",
+      "prince: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏼‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "medium-light skin tone",
+      "truck"
+    ],
+    "tts": []
+  },
+  "🌾": {
+    "default": [
+      "ear",
+      "grain",
+      "rice",
+      "sheaf",
+      "sheaf of rice"
+    ],
+    "tts": []
+  },
+  "🤹🏻": {
+    "default": [
+      "balance",
+      "juggle",
+      "light skin tone",
+      "multi-task",
+      "multitask",
+      "person juggling",
+      "skill"
+    ],
+    "tts": []
+  },
+  "👭🏻": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: light skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍🎄": {
+    "default": [
+      "Christmas",
+      "Claus",
+      "medium-dark skin tone",
+      "Mx. Claus",
+      "Mx. Claus: medium-dark skin tone"
+    ],
+    "tts": [
+      "Mx. Claus: medium-dark skin tone"
+    ]
+  },
+  "🫱": {
+    "default": [
+      "hand",
+      "right",
+      "rightward",
+      "rightwards"
+    ],
+    "tts": [
+      "rightward hand"
+    ]
+  },
+  "🌃": {
+    "default": [
+      "night",
+      "night with stars",
+      "star",
+      "starry night"
+    ],
+    "tts": []
+  },
+  "🙏🏿": {
+    "default": [
+      "ask",
+      "dark skin tone",
+      "folded hands",
+      "hand",
+      "high five",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🚹": {
+    "default": [
+      "bathroom",
+      "lavatory",
+      "men’s",
+      "men’s room",
+      "restroom",
+      "washroom",
+      "wc"
+    ],
+    "tts": []
+  },
+  "🕵🏿": {
+    "default": [
+      "dark skin tone",
+      "detective",
+      "private eye",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🫸🏻": {
+    "default": [
+      "high five",
+      "light skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightward-pushing hand",
+      "rightward-pushing hand: light skin tone",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "rightward-pushing hand: light skin tone"
+    ]
+  },
+  "🧑🏽‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "medium skin tone",
+      "truck"
+    ],
+    "tts": []
+  },
+  "🤧": {
+    "default": [
+      "bless you",
+      "face",
+      "gesundheit",
+      "sneeze",
+      "sneezing face"
+    ],
+    "tts": []
+  },
+  "🙏🏻": {
+    "default": [
+      "ask",
+      "folded hands",
+      "hand",
+      "high five",
+      "light skin tone",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🚏": {
+    "default": [
+      "bus",
+      "busstop",
+      "stop"
+    ],
+    "tts": []
+  },
+  "🕥": {
+    "default": [
+      "10",
+      "10:30",
+      "clock",
+      "half past ten",
+      "ten",
+      "ten-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "ten thirty"
+    ]
+  },
+  "🖖🏽": {
+    "default": [
+      "finger",
+      "hand",
+      "medium skin tone",
+      "Spock",
+      "Vulcan",
+      "Vulcan salute",
+      "Vulcan salute: medium skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: medium skin tone"
+    ]
+  },
+  "🕵🏻": {
+    "default": [
+      "detective",
+      "light skin tone",
+      "private eye",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🦻🏽": {
+    "default": [
+      "accessibility",
+      "ear with hearing aid",
+      "ear with hearing aid: medium skin tone",
+      "hard of hearing",
+      "hearing impaired",
+      "medium skin tone"
     ],
     "tts": []
   },
@@ -1764,28 +2881,111 @@
     ],
     "tts": []
   },
-  "🤙": {
+  "🏋": {
     "default": [
-      "call",
-      "call me hand",
-      "call-me hand",
-      "hand",
-      "hang loose",
-      "Shaka"
+      "lifter",
+      "person lifting weights",
+      "weight",
+      "weightlifter"
+    ],
+    "tts": []
+  },
+  "🫴🏽": {
+    "default": [
+      "beckon",
+      "catch",
+      "come",
+      "medium skin tone",
+      "offer",
+      "palm up hand",
+      "palm-up hand",
+      "palm-up hand: medium skin tone"
     ],
     "tts": [
-      "call-me hand"
+      "palm-up hand: medium skin tone"
     ]
   },
-  "🫅": {
+  "🏁": {
     "default": [
-      "king",
-      "monarch",
-      "noble",
-      "person with crown",
-      "queen",
-      "regal",
-      "royalty"
+      "checkered",
+      "checkered flag",
+      "chequered",
+      "chequered flag",
+      "racing"
+    ],
+    "tts": [
+      "checkered flag"
+    ]
+  },
+  "💇🏿": {
+    "default": [
+      "barber",
+      "beauty",
+      "dark skin tone",
+      "haircut",
+      "parlor",
+      "parlour",
+      "person getting haircut",
+      "salon"
+    ],
+    "tts": []
+  },
+  "🥃": {
+    "default": [
+      "glass",
+      "liquor",
+      "shot",
+      "tumbler",
+      "whiskey",
+      "whisky"
+    ],
+    "tts": []
+  },
+  "📯": {
+    "default": [],
+    "tts": [
+      "post horn"
+    ]
+  },
+  "🙃": {
+    "default": [
+      "face",
+      "upside down",
+      "upside-down face"
+    ],
+    "tts": []
+  },
+  "🏏": {
+    "default": [
+      "ball",
+      "bat",
+      "cricket",
+      "cricket match",
+      "game"
+    ],
+    "tts": []
+  },
+  "😋": {
+    "default": [
+      "delicious",
+      "face",
+      "face savouring food",
+      "savoring",
+      "savouring",
+      "smile",
+      "yum"
+    ],
+    "tts": [
+      "face savouring food"
+    ]
+  },
+  "🤹🏿‍♂": {
+    "default": [
+      "dark skin tone",
+      "juggling",
+      "man",
+      "multi-task",
+      "multitask"
     ],
     "tts": []
   },
@@ -1803,25 +3003,13 @@
       "eight thirty"
     ]
   },
-  "🌭": {
+  "🤜🏻": {
     "default": [
-      "frank",
-      "frankfurter",
-      "hot dog",
-      "hotdog",
-      "sausage"
-    ],
-    "tts": []
-  },
-  "🚊": {
-    "default": [
-      "car",
-      "streetcar",
-      "tram",
-      "tramcar",
-      "trolley",
-      "trolley bus",
-      "trolleybus"
+      "fist",
+      "light skin tone",
+      "right-facing fist",
+      "right-facing fist: light skin tone",
+      "rightward"
     ],
     "tts": []
   },
@@ -1837,18 +3025,28 @@
     ],
     "tts": []
   },
-  "🔽": {
+  "💇🏻": {
     "default": [
-      "arrow",
-      "button",
-      "down",
-      "downward button",
-      "downwards button",
-      "red"
+      "barber",
+      "beauty",
+      "haircut",
+      "light skin tone",
+      "parlor",
+      "parlour",
+      "person getting haircut",
+      "salon"
     ],
-    "tts": [
-      "downward button"
-    ]
+    "tts": []
+  },
+  "🤜🏾": {
+    "default": [
+      "fist",
+      "medium-dark skin tone",
+      "right-facing fist",
+      "right-facing fist: medium-dark skin tone",
+      "rightward"
+    ],
+    "tts": []
   },
   "🕍": {
     "default": [
@@ -1861,282 +3059,239 @@
     ],
     "tts": []
   },
-  "🍥": {
+  "🫷🏽": {
     "default": [
-      "cake",
-      "fish",
-      "fish cake with swirl",
-      "narutomaki",
-      "pastry",
-      "swirl"
-    ],
-    "tts": []
-  },
-  "✉": {
-    "default": [
-      "e-mail",
-      "email",
-      "envelope",
-      "letter"
-    ],
-    "tts": []
-  },
-  "🔓": {
-    "default": [
-      "lock",
-      "open",
-      "padlock",
-      "unlock",
-      "unlocked"
-    ],
-    "tts": []
-  },
-  "🕟": {
-    "default": [
-      "4",
-      "4:30",
-      "clock",
-      "four",
-      "four-thirty",
-      "half past four",
-      "thirty"
+      "high five",
+      "leftward",
+      "leftward-pushing hand",
+      "leftward-pushing hand: medium skin tone",
+      "leftwards pushing hand",
+      "medium skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
     ],
     "tts": [
-      "four thirty"
+      "leftward-pushing hand: medium skin tone"
     ]
   },
-  "👧": {
+  "🛋": {
     "default": [
-      "girl",
-      "young"
+      "couch",
+      "couch and lamp",
+      "hotel",
+      "lamp",
+      "sofa",
+      "sofa and lamp"
     ],
     "tts": []
   },
-  "🌃": {
+  "💾": {
     "default": [
-      "night",
-      "night with stars",
-      "star",
-      "starry night"
+      "computer",
+      "disk",
+      "diskette",
+      "floppy"
     ],
     "tts": []
   },
-  "🥞": {
+  "📮": {
     "default": [
-      "breakfast",
-      "crepe",
-      "crêpe",
-      "food",
-      "hotcake",
-      "pancake",
-      "pancakes"
-    ],
-    "tts": []
-  },
-  "🕜": {
-    "default": [
-      "1",
-      "1:30",
-      "clock",
-      "half past one",
-      "one",
-      "one-thirty",
-      "thirty"
-    ],
-    "tts": [
-      "one thirty"
-    ]
-  },
-  "🖖": {
-    "default": [
-      "finger",
-      "hand",
-      "Spock",
-      "Vulcan",
-      "Vulcan salute"
-    ],
-    "tts": [
-      "Vulcan salute"
-    ]
-  },
-  "💪": {
-    "default": [
-      "biceps",
-      "comic",
-      "flex",
-      "flexed bicep",
-      "muscle"
-    ],
-    "tts": [
-      "flexed bicep"
-    ]
-  },
-  "🚩": {
-    "default": [
+      "mail",
+      "mailbox",
       "post",
-      "red flag",
-      "triangular flag"
-    ],
-    "tts": []
-  },
-  "🏋": {
-    "default": [
-      "lifter",
-      "person lifting weights",
-      "weight",
-      "weightlifter"
-    ],
-    "tts": []
-  },
-  "🎋": {
-    "default": [
-      "banner",
-      "celebration",
-      "Japanese",
-      "Tanabata tree",
-      "tree"
+      "post box",
+      "postbox"
     ],
     "tts": [
-      "Tanabata tree"
+      "mailbox"
     ]
   },
-  "👽": {
+  "💬": {
     "default": [
-      "alien",
-      "creature",
-      "ET",
-      "extraterrestrial",
-      "face",
-      "fantasy",
-      "UFO"
+      "balloon",
+      "bubble",
+      "comic",
+      "dialog",
+      "dialogue",
+      "speech"
     ],
     "tts": []
   },
-  "🛫": {
+  "🦣": {
     "default": [
-      "aeroplane",
-      "airplane",
-      "check-in",
-      "departure",
-      "departures",
-      "flight departure",
-      "plane departure"
+      "extinct",
+      "extinction",
+      "large",
+      "mammoth",
+      "tusk",
+      "woolly"
     ],
     "tts": []
   },
-  "🤶": {
-    "default": [
-      "celebration",
-      "Christmas",
-      "Claus",
-      "Mother",
-      "Mrs."
-    ],
-    "tts": []
-  },
-  "🏙": {
-    "default": [
-      "city",
-      "cityscape",
-      "skyline"
-    ],
-    "tts": []
-  },
-  "🩴": {
-    "default": [
-      "beach sandal",
-      "flip-flop",
-      "sandal",
-      "thong",
-      "zōri"
-    ],
-    "tts": [
-      "flip-flop"
-    ]
-  },
-  "🌾": {
-    "default": [
-      "ear",
-      "grain",
-      "rice",
-      "sheaf",
-      "sheaf of rice"
-    ],
-    "tts": []
-  },
-  "🚇": {
-    "default": [
-      "metro",
-      "subway",
-      "tube",
-      "underground"
-    ],
-    "tts": [
-      "subway"
-    ]
-  },
-  "👬": {
+  "👨🏿‍🤝‍👨🏾": {
     "default": [
       "couple",
+      "dark skin tone",
       "Gemini",
       "holding hands",
+      "medium-dark skin tone",
       "men holding hands",
       "twins",
       "zodiac"
     ],
     "tts": []
   },
-  "♏": {
+  "👨🏾‍⚕": {
     "default": [
-      "Scorpio",
-      "scorpion",
-      "Scorpius",
+      "doctor",
+      "health care",
+      "man",
+      "man health worker",
+      "man health worker: medium-dark skin tone",
+      "medium-dark skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "👨🏿‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "men holding hands",
+      "twins",
       "zodiac"
     ],
     "tts": []
   },
-  "🩹": {
+  "🚺": {
     "default": [
-      "adhesive bandage",
-      "injury",
-      "plaster",
-      "sticking plaster"
-    ],
-    "tts": []
-  },
-  "💻": {
-    "default": [
-      "computer",
-      "laptop",
-      "PC",
-      "personal"
-    ],
-    "tts": []
-  },
-  "🇸🇹": {
-    "default": [
-      "flag",
-      "flag: São Tomé and Príncipe"
+      "bathroom",
+      "ladies’ room",
+      "lavatory",
+      "restroom",
+      "toilet",
+      "WC",
+      "woman",
+      "women’s room"
     ],
     "tts": [
-      "flag: São Tomé and Príncipe"
+      "ladies’ room"
     ]
   },
-  "🪪": {
+  "👧🏼": {
     "default": [
-      "credentials",
-      "ID",
-      "identification card",
-      "licence",
-      "security"
+      "girl",
+      "medium-light skin tone",
+      "young"
     ],
     "tts": []
   },
-  "🧄": {
+  "🤙🏼": {
     "default": [
-      "flavoring",
-      "flavouring",
-      "garlic"
+      "call",
+      "call me hand",
+      "call-me hand",
+      "call-me hand: medium-light skin tone",
+      "hand",
+      "hang loose",
+      "medium-light skin tone",
+      "Shaka"
+    ],
+    "tts": [
+      "call-me hand: medium-light skin tone"
+    ]
+  },
+  "👩🏻‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "firewoman",
+      "light skin tone",
+      "truck",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🤹‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "multi-task",
+      "multitask"
+    ],
+    "tts": []
+  },
+  "🫴🏿": {
+    "default": [
+      "beckon",
+      "catch",
+      "come",
+      "dark skin tone",
+      "offer",
+      "palm up hand",
+      "palm-up hand",
+      "palm-up hand: dark skin tone"
+    ],
+    "tts": [
+      "palm-up hand: dark skin tone"
+    ]
+  },
+  "🩱": {
+    "default": [
+      "bathing suit",
+      "one-piece swimsuit",
+      "swimming costume"
+    ],
+    "tts": []
+  },
+  "🕵": {
+    "default": [
+      "detective",
+      "private eye",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "⚰": {
+    "default": [
+      "casket",
+      "coffin",
+      "death"
+    ],
+    "tts": []
+  },
+  "🚙": {
+    "default": [
+      "recreational",
+      "sport utility",
+      "sport utility vehicle",
+      "SUV"
+    ],
+    "tts": []
+  },
+  "🧢": {
+    "default": [],
+    "tts": [
+      "baseball cap"
+    ]
+  },
+  "🤟🏼": {
+    "default": [
+      "hand",
+      "ILY",
+      "love you gesture",
+      "love-you gesture",
+      "love-you gesture: medium-light skin tone",
+      "medium-light skin tone"
     ],
     "tts": []
   },
@@ -2153,50 +3308,907 @@
       "DNA"
     ]
   },
-  "🀄": {
+  "👨🏽‍🤝‍👨🏼": {
     "default": [
-      "game",
-      "Mahjong",
-      "Mahjong red dragon",
-      "red"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🌮": {
+    "default": [
+      "Mexican",
+      "taco"
+    ],
+    "tts": []
+  },
+  "🫥": {
+    "default": [
+      "depressed",
+      "disappear",
+      "dotted line face",
+      "dotted-line face",
+      "hide",
+      "introvert",
+      "invisible"
     ],
     "tts": [
-      "Mahjong red dragon"
+      "dotted-line face"
     ]
   },
-  "🤹‍♂": {
+  "🏋🏽": {
+    "default": [
+      "lifter",
+      "medium skin tone",
+      "person lifting weights",
+      "person lifting weights: medium skin tone",
+      "weight",
+      "weightlifter"
+    ],
+    "tts": []
+  },
+  "🙇🏿‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "dark skin tone",
+      "favor",
+      "favour",
+      "gesture",
+      "sorry",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🥋": {
+    "default": [
+      "judo",
+      "karate",
+      "martial arts",
+      "martial arts uniform",
+      "MMA",
+      "taekwondo",
+      "uniform"
+    ],
+    "tts": []
+  },
+  "🕋": {
+    "default": [
+      "Islam",
+      "Kaaba",
+      "Muslim",
+      "religion"
+    ],
+    "tts": [
+      "Kaaba"
+    ]
+  },
+  "👧": {
+    "default": [
+      "girl",
+      "young"
+    ],
+    "tts": []
+  },
+  "🚃": {
+    "default": [
+      "car",
+      "electric",
+      "railway",
+      "train",
+      "tram",
+      "trolley bus",
+      "trolleybus"
+    ],
+    "tts": []
+  },
+  "🌆": {
+    "default": [
+      "city",
+      "cityscape at dusk",
+      "dusk",
+      "evening",
+      "landscape",
+      "skyline at dusk",
+      "sunset"
+    ],
+    "tts": []
+  },
+  "🫅🏽": {
+    "default": [
+      "king",
+      "medium skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "person with crown: medium skin tone",
+      "queen",
+      "regal",
+      "royalty"
+    ],
+    "tts": []
+  },
+  "💪🏾": {
+    "default": [
+      "biceps",
+      "comic",
+      "flex",
+      "flexed bicep",
+      "flexed bicep: medium-dark skin tone",
+      "medium-dark skin tone",
+      "muscle"
+    ],
+    "tts": [
+      "flexed bicep: medium-dark skin tone"
+    ]
+  },
+  "👬🏾": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium-dark skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🫴🏾": {
+    "default": [
+      "beckon",
+      "catch",
+      "come",
+      "medium-dark skin tone",
+      "offer",
+      "palm up hand",
+      "palm-up hand",
+      "palm-up hand: medium-dark skin tone"
+    ],
+    "tts": [
+      "palm-up hand: medium-dark skin tone"
+    ]
+  },
+  "🦻🏻": {
+    "default": [
+      "accessibility",
+      "ear with hearing aid",
+      "ear with hearing aid: light skin tone",
+      "hard of hearing",
+      "hearing impaired",
+      "light skin tone"
+    ],
+    "tts": []
+  },
+  "🤹‍♀": {
+    "default": [
+      "juggling",
+      "multi-task",
+      "multitask",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🇦🇬": {
+    "default": [
+      "flag",
+      "flag: Antigua and Barbuda"
+    ],
+    "tts": [
+      "flag: Antigua and Barbuda"
+    ]
+  },
+  "🧑🏼‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "health worker",
+      "healthcare",
+      "medium-light skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👩🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium skin tone, dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏿‍⚕": {
+    "default": [
+      "dark skin tone",
+      "doctor",
+      "health care",
+      "health worker",
+      "healthcare",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🙏🏾": {
+    "default": [
+      "ask",
+      "folded hands",
+      "hand",
+      "high five",
+      "medium-dark skin tone",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🤞": {
+    "default": [
+      "cross",
+      "crossed fingers",
+      "finger",
+      "good luck",
+      "hand",
+      "luck"
+    ],
+    "tts": []
+  },
+  "👨🏽‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "man",
+      "man health worker",
+      "man health worker: medium skin tone",
+      "medium skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🕵🏽": {
+    "default": [
+      "detective",
+      "medium skin tone",
+      "private eye",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🌌": {
+    "default": [
+      "Milky",
+      "space",
+      "Way"
+    ],
+    "tts": [
+      "Milky Way"
+    ]
+  },
+  "🎅🏼": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Father",
+      "medium-light skin tone",
+      "Santa"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🤘": {
+    "default": [
+      "finger",
+      "hand",
+      "horns",
+      "rock on",
+      "sign of the horns"
+    ],
+    "tts": []
+  },
+  "🫸🏿": {
+    "default": [
+      "dark skin tone",
+      "high five",
+      "push",
+      "refuse",
+      "rightward",
+      "rightward-pushing hand",
+      "rightward-pushing hand: dark skin tone",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "rightward-pushing hand: dark skin tone"
+    ]
+  },
+  "🤞🏽": {
+    "default": [
+      "cross",
+      "crossed fingers",
+      "crossed fingers: medium skin tone",
+      "finger",
+      "good luck",
+      "hand",
+      "luck",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏽‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "medium skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker",
+      "woman health worker: medium skin tone"
+    ],
+    "tts": []
+  },
+  "🙇‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "sorry",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🎃": {
+    "default": [
+      "celebration",
+      "Halloween",
+      "jack",
+      "jack-o-lantern",
+      "jack-o’-lantern",
+      "lantern"
+    ],
+    "tts": []
+  },
+  "🤘🏼": {
+    "default": [
+      "finger",
+      "hand",
+      "horns",
+      "medium-light skin tone",
+      "rock on",
+      "sign of the horns"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👩🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium skin tone, medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🚒": {
+    "default": [],
+    "tts": [
+      "fire truck"
+    ]
+  },
+  "🤙": {
+    "default": [
+      "call",
+      "call me hand",
+      "call-me hand",
+      "hand",
+      "hang loose",
+      "Shaka"
+    ],
+    "tts": [
+      "call-me hand"
+    ]
+  },
+  "🌰": {
+    "default": [
+      "chestnut",
+      "nut",
+      "plant"
+    ],
+    "tts": []
+  },
+  "🩻": {
+    "default": [
+      "bones",
+      "doctor",
+      "medical",
+      "skeleton",
+      "X-ray"
+    ],
+    "tts": [
+      "X-ray"
+    ]
+  },
+  "💇": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "parlor",
+      "parlour",
+      "person getting haircut",
+      "salon"
+    ],
+    "tts": []
+  },
+  "☑": {
+    "default": [
+      "✓",
+      "box",
+      "check",
+      "check box with check",
+      "tick",
+      "tick box with tick"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🕧": {
+    "default": [
+      "12",
+      "12:30",
+      "clock",
+      "half past twelve",
+      "thirty",
+      "twelve",
+      "twelve-thirty"
+    ],
+    "tts": [
+      "twelve thirty"
+    ]
+  },
+  "🇲🇫": {
+    "default": [
+      "flag",
+      "flag: Saint Martin"
+    ],
+    "tts": [
+      "flag: Saint Martin"
+    ]
+  },
+  "🎣": {
+    "default": [
+      "fish",
+      "fishing pole",
+      "fishing rod",
+      "pole"
+    ],
+    "tts": []
+  },
+  "🤙🏿": {
+    "default": [
+      "call",
+      "call me hand",
+      "call-me hand",
+      "call-me hand: dark skin tone",
+      "dark skin tone",
+      "hand",
+      "hang loose",
+      "Shaka"
+    ],
+    "tts": [
+      "call-me hand: dark skin tone"
+    ]
+  },
+  "🤜": {
+    "default": [
+      "fist",
+      "right-facing fist",
+      "rightward"
+    ],
+    "tts": []
+  },
+  "🤞🏼": {
+    "default": [
+      "cross",
+      "crossed fingers",
+      "crossed fingers: medium-light skin tone",
+      "finger",
+      "good luck",
+      "hand",
+      "luck",
+      "medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "🏈": {
+    "default": [],
+    "tts": [
+      "football"
+    ]
+  },
+  "🤟🏻": {
+    "default": [
+      "hand",
+      "ILY",
+      "light skin tone",
+      "love you gesture",
+      "love-you gesture",
+      "love-you gesture: light skin tone"
+    ],
+    "tts": []
+  },
+  "👬🏼": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium-light skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🪤": {
+    "default": [
+      "bait",
+      "mouse",
+      "mousetrap",
+      "snare",
+      "trap"
+    ],
+    "tts": [
+      "mousetrap"
+    ]
+  },
+  "🤹🏼‍♂": {
     "default": [
       "juggling",
       "man",
+      "medium-light skin tone",
       "multi-task",
       "multitask"
     ],
     "tts": []
   },
-  "🛕": {
+  "💪🏻": {
     "default": [
-      "Hindu",
-      "temple"
+      "biceps",
+      "comic",
+      "flex",
+      "flexed bicep",
+      "flexed bicep: light skin tone",
+      "light skin tone",
+      "muscle"
     ],
     "tts": [
-      "Hindu temple"
+      "flexed bicep: light skin tone"
     ]
   },
-  "🇸🇯": {
+  "🕌": {
+    "default": [
+      "Islam",
+      "mosque",
+      "Muslim",
+      "religion"
+    ],
+    "tts": []
+  },
+  "🇧🇦": {
     "default": [
       "flag",
-      "flag: Svalbard and Jan Mayen"
+      "flag: Bosnia and Herzegovina"
     ],
     "tts": [
-      "flag: Svalbard and Jan Mayen"
+      "flag: Bosnia and Herzegovina"
     ]
   },
-  "🙎": {
+  "🫷🏿": {
+    "default": [
+      "dark skin tone",
+      "high five",
+      "leftward",
+      "leftward-pushing hand",
+      "leftward-pushing hand: dark skin tone",
+      "leftwards pushing hand",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "leftward-pushing hand: dark skin tone"
+    ]
+  },
+  "💇🏾": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "medium-dark skin tone",
+      "parlor",
+      "parlour",
+      "person getting haircut",
+      "salon"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👩🏼": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: medium skin tone, medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👬🏽": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🤝‍👩🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: light skin tone, dark skin tone"
+    ],
+    "tts": []
+  },
+  "⁉": {
+    "default": [
+      "!",
+      "!?",
+      "?",
+      "exclamation",
+      "mark",
+      "punctuation",
+      "question"
+    ],
+    "tts": []
+  },
+  "🙎🏼": {
     "default": [
       "facial expression",
       "gesture",
+      "medium-light skin tone",
       "person pouting",
+      "person pouting: medium-light skin tone",
       "pouting"
+    ],
+    "tts": []
+  },
+  "🧏🏿": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "deaf",
+      "deaf person",
+      "deaf person: dark skin tone",
+      "ear",
+      "hard of hearing",
+      "hear",
+      "hearing impaired"
+    ],
+    "tts": []
+  },
+  "🛫": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "check-in",
+      "departure",
+      "departures",
+      "flight departure",
+      "plane departure"
+    ],
+    "tts": []
+  },
+  "🩹": {
+    "default": [
+      "adhesive bandage",
+      "injury",
+      "plaster",
+      "sticking plaster"
+    ],
+    "tts": []
+  },
+  "🛩": {
+    "default": [
+      "aeroplane",
+      "airplane",
+      "small airplane",
+      "small plane"
+    ],
+    "tts": []
+  },
+  "®": {
+    "default": [
+      "r",
+      "registered",
+      "trademark"
+    ],
+    "tts": []
+  },
+  "🤙🏽": {
+    "default": [
+      "call",
+      "call me hand",
+      "call-me hand",
+      "call-me hand: medium skin tone",
+      "hand",
+      "hang loose",
+      "medium skin tone",
+      "Shaka"
+    ],
+    "tts": [
+      "call-me hand: medium skin tone"
+    ]
+  },
+  "🧅": {
+    "default": [
+      "flavoring",
+      "flavouring",
+      "onion"
+    ],
+    "tts": []
+  },
+  "🤶🏼": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "medium-light skin tone",
+      "Mother",
+      "Mrs."
+    ],
+    "tts": []
+  },
+  "🧑‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "health worker",
+      "healthcare",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🤞🏿": {
+    "default": [
+      "cross",
+      "crossed fingers",
+      "crossed fingers: dark skin tone",
+      "dark skin tone",
+      "finger",
+      "good luck",
+      "hand",
+      "luck"
+    ],
+    "tts": []
+  },
+  "🇭🇲": {
+    "default": [
+      "flag",
+      "flag: Heard and McDonald Islands"
+    ],
+    "tts": [
+      "flag: Heard and McDonald Islands"
+    ]
+  },
+  "🕝": {
+    "default": [
+      "2",
+      "2:30",
+      "clock",
+      "half past two",
+      "thirty",
+      "two",
+      "two-thirty"
+    ],
+    "tts": [
+      "two thirty"
+    ]
+  },
+  "🤜🏼": {
+    "default": [
+      "fist",
+      "medium-light skin tone",
+      "right-facing fist",
+      "right-facing fist: medium-light skin tone",
+      "rightward"
+    ],
+    "tts": []
+  },
+  "🫸🏾": {
+    "default": [
+      "high five",
+      "medium-dark skin tone",
+      "push",
+      "refuse",
+      "rightward",
+      "rightward-pushing hand",
+      "rightward-pushing hand: medium-dark skin tone",
+      "rightwards pushing hand",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "rightward-pushing hand: medium-dark skin tone"
+    ]
+  },
+  "🛒": {
+    "default": [
+      "basket",
+      "cart",
+      "shopping",
+      "trolley"
     ],
     "tts": []
   },
@@ -2214,33 +4226,1037 @@
       "six thirty"
     ]
   },
-  "🚄": {
+  "✉": {
     "default": [
-      "high-speed train",
-      "railway",
-      "Shinkansen",
-      "speed",
-      "train"
+      "e-mail",
+      "email",
+      "envelope",
+      "letter"
     ],
     "tts": []
   },
-  "💾": {
+  "🤛🏽": {
     "default": [
-      "computer",
-      "disk",
-      "diskette",
-      "floppy"
+      "fist",
+      "left-facing fist",
+      "left-facing fist: medium skin tone",
+      "leftward",
+      "medium skin tone"
     ],
     "tts": []
   },
-  "🤕": {
+  "💪🏼": {
     "default": [
-      "bandage",
+      "biceps",
+      "comic",
+      "flex",
+      "flexed bicep",
+      "flexed bicep: medium-light skin tone",
+      "medium-light skin tone",
+      "muscle"
+    ],
+    "tts": [
+      "flexed bicep: medium-light skin tone"
+    ]
+  },
+  "🧏🏽": {
+    "default": [
+      "accessibility",
+      "deaf",
+      "deaf person",
+      "deaf person: medium skin tone",
+      "ear",
+      "hard of hearing",
+      "hear",
+      "hearing impaired",
+      "medium skin tone"
+    ],
+    "tts": []
+  },
+  "🇹🇨": {
+    "default": [
+      "flag",
+      "flag: Turks and Caicos Islands"
+    ],
+    "tts": [
+      "flag: Turks and Caicos Islands"
+    ]
+  },
+  "🤹🏻‍♂": {
+    "default": [
+      "juggling",
+      "light skin tone",
+      "man",
+      "multi-task",
+      "multitask"
+    ],
+    "tts": []
+  },
+  "🔤": {
+    "default": [
+      "abc",
+      "alphabet",
+      "input",
+      "Latin",
+      "letters"
+    ],
+    "tts": [
+      "input Latin letters"
+    ]
+  },
+  "🖖🏻": {
+    "default": [
+      "finger",
+      "hand",
+      "light skin tone",
+      "Spock",
+      "Vulcan",
+      "Vulcan salute",
+      "Vulcan salute: light skin tone"
+    ],
+    "tts": [
+      "Vulcan salute: light skin tone"
+    ]
+  },
+  "🫲🏽": {
+    "default": [
+      "hand",
+      "left",
+      "leftward",
+      "leftward hand: medium skin tone",
+      "leftwards",
+      "medium skin tone"
+    ],
+    "tts": [
+      "leftward hand: medium skin tone"
+    ]
+  },
+  "📳": {
+    "default": [
+      "cell",
+      "mobile",
+      "mode",
+      "phone",
+      "telephone",
+      "vibrate",
+      "vibration"
+    ],
+    "tts": []
+  },
+  "🤞🏻": {
+    "default": [
+      "cross",
+      "crossed fingers",
+      "crossed fingers: light skin tone",
+      "finger",
+      "good luck",
+      "hand",
+      "light skin tone",
+      "luck"
+    ],
+    "tts": []
+  },
+  "🫅🏾": {
+    "default": [
+      "king",
+      "medium-dark skin tone",
+      "monarch",
+      "noble",
+      "person with crown",
+      "person with crown: medium-dark skin tone",
+      "queen",
+      "regal",
+      "royalty"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "medium skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🙎🏾": {
+    "default": [
+      "facial expression",
+      "gesture",
+      "medium-dark skin tone",
+      "person pouting",
+      "person pouting: medium-dark skin tone",
+      "pouting"
+    ],
+    "tts": []
+  },
+  "🤹🏽‍♀": {
+    "default": [
+      "juggling",
+      "medium skin tone",
+      "multi-task",
+      "multitask",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🤶🏿": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "dark skin tone",
+      "Mother",
+      "Mrs."
+    ],
+    "tts": []
+  },
+  "👨🏿‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "Gemini",
+      "holding hands",
+      "medium skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🎑": {
+    "default": [
+      "celebration",
+      "ceremony",
+      "moon",
+      "moon viewing ceremony",
+      "moon-viewing ceremony"
+    ],
+    "tts": [
+      "moon-viewing ceremony"
+    ]
+  },
+  "🏋🏼": {
+    "default": [
+      "lifter",
+      "medium-light skin tone",
+      "person lifting weights",
+      "person lifting weights: medium-light skin tone",
+      "weight",
+      "weightlifter"
+    ],
+    "tts": []
+  },
+  "🍴": {
+    "default": [
+      "cooking",
+      "cutlery",
+      "fork",
+      "fork and knife",
+      "knife",
+      "knife and fork"
+    ],
+    "tts": []
+  },
+  "✝": {
+    "default": [
+      "Christian",
+      "cross",
+      "Latin cross",
+      "religion"
+    ],
+    "tts": [
+      "Latin cross"
+    ]
+  },
+  "📺": {
+    "default": [
+      "television",
+      "TV",
+      "video"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🚒": {
+    "default": [
+      "engine",
+      "fire",
+      "firefighter",
+      "firetruck",
+      "firewoman",
+      "medium-light skin tone",
+      "truck",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🎡": {
+    "default": [
+      "amusement park",
+      "Ferris",
+      "theme park",
+      "wheel"
+    ],
+    "tts": [
+      "Ferris wheel"
+    ]
+  },
+  "🥂": {
+    "default": [
+      "celebrate",
+      "cheers",
+      "clink",
+      "clinking glasses",
+      "drink",
+      "glass"
+    ],
+    "tts": []
+  },
+  "🚊": {
+    "default": [
+      "car",
+      "streetcar",
+      "tram",
+      "tramcar",
+      "trolley",
+      "trolley bus",
+      "trolleybus"
+    ],
+    "tts": []
+  },
+  "👧🏾": {
+    "default": [
+      "girl",
+      "medium-dark skin tone",
+      "young"
+    ],
+    "tts": []
+  },
+  "🤹🏾‍♂": {
+    "default": [
+      "juggling",
+      "man",
+      "medium-dark skin tone",
+      "multi-task",
+      "multitask"
+    ],
+    "tts": []
+  },
+  "🇧🇱": {
+    "default": [
+      "flag",
+      "flag: Saint-Barthélemy"
+    ],
+    "tts": [
+      "flag: Saint-Barthélemy"
+    ]
+  },
+  "🍀": {
+    "default": [],
+    "tts": [
+      "four-leaf clover"
+    ]
+  },
+  "🙇🏿‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "dark skin tone",
+      "favor",
+      "favour",
+      "gesture",
+      "man",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "👩🏾‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "medium-dark skin tone",
+      "nurse",
+      "therapist",
+      "woman",
+      "woman health worker",
+      "woman health worker: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "💇🏼": {
+    "default": [
+      "barber",
+      "beauty",
+      "haircut",
+      "medium-light skin tone",
+      "parlor",
+      "parlour",
+      "person getting haircut",
+      "salon"
+    ],
+    "tts": []
+  },
+  "👨🏾‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🦯": {
+    "default": [
+      "accessibility",
+      "blind",
+      "guide cane",
+      "white cane"
+    ],
+    "tts": []
+  },
+  "🇻🇮": {
+    "default": [
+      "flag",
+      "flag: US Virgin Islands"
+    ],
+    "tts": [
+      "flag: US Virgin Islands"
+    ]
+  },
+  "🙇🏽‍♂": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "man",
+      "medium skin tone",
+      "sorry"
+    ],
+    "tts": []
+  },
+  "🙇🏼‍♀": {
+    "default": [
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "medium-light skin tone",
+      "sorry",
+      "woman"
+    ],
+    "tts": []
+  },
+  "🕵🏼": {
+    "default": [
+      "detective",
+      "medium-light skin tone",
+      "private eye",
+      "sleuth",
+      "spy"
+    ],
+    "tts": []
+  },
+  "🤹🏼": {
+    "default": [
+      "balance",
+      "juggle",
+      "medium-light skin tone",
+      "multi-task",
+      "multitask",
+      "person juggling",
+      "skill"
+    ],
+    "tts": []
+  },
+  "📐": {
+    "default": [
+      "ruler",
+      "set",
+      "set square",
+      "triangle",
+      "triangular ruler"
+    ],
+    "tts": []
+  },
+  "🎅🏽": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "Father",
+      "medium skin tone",
+      "Santa"
+    ],
+    "tts": []
+  },
+  "🤟🏿": {
+    "default": [
+      "dark skin tone",
+      "hand",
+      "ILY",
+      "love you gesture",
+      "love-you gesture",
+      "love-you gesture: dark skin tone"
+    ],
+    "tts": []
+  },
+  "🧑🏾‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "health worker",
+      "healthcare",
+      "medium-dark skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🔽": {
+    "default": [
+      "arrow",
+      "button",
+      "down",
+      "downward button",
+      "downwards button",
+      "red"
+    ],
+    "tts": [
+      "downward button"
+    ]
+  },
+  "🔡": {
+    "default": [
+      "abcd",
+      "input",
+      "Latin",
+      "letters",
+      "lowercase"
+    ],
+    "tts": [
+      "input Latin lowercase"
+    ]
+  },
+  "👩🏻‍🤝‍👩🏽": {
+    "default": [
+      "couple",
+      "hand",
+      "holding hands",
+      "light skin tone",
+      "medium skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: light skin tone, medium skin tone"
+    ],
+    "tts": []
+  },
+  "🤭": {
+    "default": [
+      "face with hand over mouth",
+      "oops",
+      "whoops"
+    ],
+    "tts": []
+  },
+  "🍦": {
+    "default": [
+      "cream",
+      "dessert",
+      "ice",
+      "icecream",
+      "soft",
+      "soft-serve ice cream",
+      "sweet"
+    ],
+    "tts": [
+      "soft-serve ice cream"
+    ]
+  },
+  "🫳": {
+    "default": [
+      "dismiss",
+      "drop",
+      "palm down hand",
+      "palm-down hand",
+      "shoo"
+    ],
+    "tts": [
+      "palm-down hand"
+    ]
+  },
+  "👕": {
+    "default": [
+      "clothing",
+      "shirt",
+      "T-shirt",
+      "tee-shirt",
+      "tshirt"
+    ],
+    "tts": [
+      "T-shirt"
+    ]
+  },
+  "🖖": {
+    "default": [
+      "finger",
+      "hand",
+      "Spock",
+      "Vulcan",
+      "Vulcan salute"
+    ],
+    "tts": [
+      "Vulcan salute"
+    ]
+  },
+  "🧄": {
+    "default": [
+      "flavoring",
+      "flavouring",
+      "garlic"
+    ],
+    "tts": []
+  },
+  "🤟🏾": {
+    "default": [
+      "hand",
+      "ILY",
+      "love you gesture",
+      "love-you gesture",
+      "love-you gesture: medium-dark skin tone",
+      "medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🥏": {
+    "default": [
+      "flying disc",
+      "Frisbee",
+      "ultimate"
+    ],
+    "tts": []
+  },
+  "🐫": {
+    "default": [
+      "Bactrian",
+      "camel",
+      "hump",
+      "two-hump camel"
+    ],
+    "tts": []
+  },
+  "🫲🏿": {
+    "default": [
+      "dark skin tone",
+      "hand",
+      "left",
+      "leftward",
+      "leftward hand: dark skin tone",
+      "leftwards"
+    ],
+    "tts": [
+      "leftward hand: dark skin tone"
+    ]
+  },
+  "🧑🏽‍⚕": {
+    "default": [
+      "doctor",
+      "health care",
+      "health worker",
+      "healthcare",
+      "medium skin tone",
+      "nurse",
+      "therapist"
+    ],
+    "tts": []
+  },
+  "🏉": {
+    "default": [],
+    "tts": [
+      "rugby"
+    ]
+  },
+  "🗽": {
+    "default": [
+      "Liberty",
+      "Statue",
+      "Statue of Liberty"
+    ],
+    "tts": []
+  },
+  "🤹🏾": {
+    "default": [
+      "balance",
+      "juggle",
+      "medium-dark skin tone",
+      "multi-task",
+      "multitask",
+      "person juggling",
+      "skill"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🤝‍👩🏾": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "holding hands",
+      "medium-dark skin tone",
+      "two women holding hands",
+      "women",
+      "women holding hands",
+      "women holding hands: dark skin tone, medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "🗼": {
+    "default": [
+      "Tokyo",
+      "Tower"
+    ],
+    "tts": [
+      "Tokyo Tower"
+    ]
+  },
+  "🌯": {
+    "default": [
+      "burrito",
+      "Mexican",
+      "wrap"
+    ],
+    "tts": []
+  },
+  "🩴": {
+    "default": [
+      "beach sandal",
+      "flip-flop",
+      "sandal",
+      "thong",
+      "zōri"
+    ],
+    "tts": [
+      "flip-flop"
+    ]
+  },
+  "🏛": {
+    "default": [
+      "classical",
+      "classical building",
+      "column"
+    ],
+    "tts": []
+  },
+  "💷": {
+    "default": [
+      "banknote",
+      "bill",
+      "currency",
+      "money",
+      "note",
+      "pound",
+      "sterling"
+    ],
+    "tts": []
+  },
+  "🫷": {
+    "default": [
+      "high five",
+      "leftward",
+      "leftward-pushing hand",
+      "leftwards pushing hand",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "leftward-pushing hand"
+    ]
+  },
+  "👨🏽‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🦻🏿": {
+    "default": [
+      "accessibility",
+      "dark skin tone",
+      "ear with hearing aid",
+      "ear with hearing aid: dark skin tone",
+      "hard of hearing",
+      "hearing impaired"
+    ],
+    "tts": []
+  },
+  "🇸🇭": {
+    "default": [
+      "flag",
+      "flag: Saint Helena"
+    ],
+    "tts": [
+      "flag: Saint Helena"
+    ]
+  },
+  "🤶🏽": {
+    "default": [
+      "celebration",
+      "Christmas",
+      "Claus",
+      "medium skin tone",
+      "Mother",
+      "Mrs."
+    ],
+    "tts": []
+  },
+  "🌝": {
+    "default": [
+      "bright",
       "face",
-      "face with head bandage",
-      "face with head-bandage",
-      "hurt",
-      "injury"
+      "full",
+      "full-moon face",
+      "moon"
+    ],
+    "tts": [
+      "full-moon face"
+    ]
+  },
+  "🕞": {
+    "default": [
+      "3",
+      "3:30",
+      "clock",
+      "half past three",
+      "thirty",
+      "three",
+      "three-thirty"
+    ],
+    "tts": [
+      "three thirty"
+    ]
+  },
+  "👧🏻": {
+    "default": [
+      "girl",
+      "light skin tone",
+      "young"
+    ],
+    "tts": []
+  },
+  "🇸🇯": {
+    "default": [
+      "flag",
+      "flag: Svalbard and Jan Mayen"
+    ],
+    "tts": [
+      "flag: Svalbard and Jan Mayen"
+    ]
+  },
+  "🐞": {
+    "default": [],
+    "tts": [
+      "ladybug"
+    ]
+  },
+  "🧑‍🎄": {
+    "default": [
+      "Christmas",
+      "Claus",
+      "Mx. Claus"
+    ],
+    "tts": [
+      "Mx. Claus"
+    ]
+  },
+  "🥐": {
+    "default": [
+      "bread",
+      "breakfast",
+      "crescent",
+      "croissant",
+      "food",
+      "French",
+      "roll"
+    ],
+    "tts": []
+  },
+  "🧏🏻": {
+    "default": [
+      "accessibility",
+      "deaf",
+      "deaf person",
+      "deaf person: light skin tone",
+      "ear",
+      "hard of hearing",
+      "hear",
+      "hearing impaired",
+      "light skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏻‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "medium skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
+    ],
+    "tts": []
+  },
+  "🤛": {
+    "default": [
+      "fist",
+      "left-facing fist",
+      "leftward"
+    ],
+    "tts": []
+  },
+  "🙏🏼": {
+    "default": [
+      "ask",
+      "folded hands",
+      "hand",
+      "high five",
+      "medium-light skin tone",
+      "please",
+      "pray",
+      "thanks"
+    ],
+    "tts": []
+  },
+  "🧇": {
+    "default": [
+      "breakfast",
+      "iron",
+      "unclear",
+      "vague",
+      "waffle"
+    ],
+    "tts": []
+  },
+  "🫲🏼": {
+    "default": [
+      "hand",
+      "left",
+      "leftward",
+      "leftward hand: medium-light skin tone",
+      "leftwards",
+      "medium-light skin tone"
+    ],
+    "tts": [
+      "leftward hand: medium-light skin tone"
+    ]
+  },
+  "☯": {
+    "default": [
+      "religion",
+      "Tao",
+      "Taoist",
+      "yang",
+      "yin"
+    ],
+    "tts": []
+  },
+  "🕤": {
+    "default": [
+      "9",
+      "9:30",
+      "clock",
+      "half past nine",
+      "nine",
+      "nine-thirty",
+      "thirty"
+    ],
+    "tts": [
+      "nine thirty"
+    ]
+  },
+  "👌🏽": {
+    "default": [
+      "hand",
+      "medium skin tone",
+      "OK",
+      "OK hand: medium skin tone",
+      "perfect"
+    ],
+    "tts": []
+  },
+  "🏒": {
+    "default": [],
+    "tts": [
+      "hockey"
+    ]
+  },
+  "🫷🏾": {
+    "default": [
+      "high five",
+      "leftward",
+      "leftward-pushing hand",
+      "leftward-pushing hand: medium-dark skin tone",
+      "leftwards pushing hand",
+      "medium-dark skin tone",
+      "push",
+      "refuse",
+      "stop",
+      "wait"
+    ],
+    "tts": [
+      "leftward-pushing hand: medium-dark skin tone"
+    ]
+  },
+  "🧑🏿‍🎄": {
+    "default": [
+      "Christmas",
+      "Claus",
+      "dark skin tone",
+      "Mx. Claus",
+      "Mx. Claus: dark skin tone"
+    ],
+    "tts": [
+      "Mx. Claus: dark skin tone"
+    ]
+  },
+  "🤴🏻": {
+    "default": [
+      "fairy tale",
+      "fantasy",
+      "light skin tone",
+      "prince",
+      "prince: light skin tone"
+    ],
+    "tts": []
+  },
+  "👨🏽‍🚒": {
+    "default": [
+      "fire truck",
+      "firefighter",
+      "fireman",
+      "man",
+      "medium skin tone"
     ],
     "tts": []
   },
@@ -2253,60 +5269,89 @@
     ],
     "tts": []
   },
-  "🇬🇸": {
+  "🎯": {
     "default": [
-      "flag",
-      "flag: South Georgia and South Sandwich Islands"
+      "bull’s-eye",
+      "bullseye",
+      "dart",
+      "direct hit",
+      "game",
+      "hit",
+      "target"
+    ],
+    "tts": []
+  },
+  "🫱🏼": {
+    "default": [
+      "hand",
+      "medium-light skin tone",
+      "right",
+      "rightward",
+      "rightward hand: medium-light skin tone",
+      "rightwards"
     ],
     "tts": [
-      "flag: South Georgia and South Sandwich Islands"
+      "rightward hand: medium-light skin tone"
     ]
   },
-  "🌰": {
+  "🚋": {
     "default": [
-      "chestnut",
-      "nut",
-      "plant"
+      "car",
+      "streetcar",
+      "tram",
+      "tramcar",
+      "trolley",
+      "trolley bus",
+      "trolleybus"
+    ],
+    "tts": [
+      "streetcar"
+    ]
+  },
+  "🌭": {
+    "default": [
+      "frank",
+      "frankfurter",
+      "hot dog",
+      "hotdog",
+      "sausage"
     ],
     "tts": []
   },
-  "🏳": {
-    "default": [
-      "surrender",
-      "waving",
-      "white flag"
-    ],
-    "tts": []
-  },
-  "🎅": {
+  "🤶🏻": {
     "default": [
       "celebration",
       "Christmas",
       "Claus",
-      "Father",
-      "Santa"
+      "light skin tone",
+      "Mother",
+      "Mrs."
     ],
     "tts": []
   },
-  "🚹": {
+  "👨🏽‍🤝‍👨🏻": {
     "default": [
-      "bathroom",
-      "lavatory",
-      "men’s",
-      "men’s room",
-      "restroom",
-      "washroom",
-      "wc"
+      "couple",
+      "Gemini",
+      "holding hands",
+      "light skin tone",
+      "medium skin tone",
+      "men holding hands",
+      "twins",
+      "zodiac"
     ],
     "tts": []
   },
-  "🧇": {
+  "🙇🏻‍♀": {
     "default": [
-      "breakfast",
-      "iron",
-      "unclear",
-      "vague",
-      "waffle"
+      "apology",
+      "bowing",
+      "favor",
+      "favour",
+      "gesture",
+      "light skin tone",
+      "sorry",
+      "woman"
     ],
     "tts": []
   }

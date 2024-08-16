@@ -1,37 +1,31 @@
 {
-  "🧃": {
+  "🪆": {
     "default": [
-      "bambaro",
-      "kwali",
-      "lemo",
-      "lemon kwali",
-      "mai daɗi",
-      "ruwan ƴaƴan itace"
-    ],
-    "tts": []
-  },
-  "🪀": {
-    "default": [
-      "canzawa",
+      "rasha",
+      "sheƙa",
       "ƴartsana",
-      "zaren yo-yo"
+      "ƴartsana mai sheƙa"
+    ],
+    "tts": [
+      "ƴartsana mai sheƙa"
+    ]
+  },
+  "🩲": {
+    "default": [
+      "ɗan diras",
+      "rigar ninƙaya",
+      "rigar wanka",
+      "yanki ɗaya",
+      "ƴan ciki"
     ],
     "tts": []
   },
-  "♊": {
+  "🩳": {
     "default": [
-      "falaki",
-      "Tagwaye",
-      "ƴan biyu"
-    ],
-    "tts": []
-  },
-  "🍋‍🟩": {
-    "default": [
-      "kayan lemu",
-      "lemun tsami",
-      "wurare masu zafi",
-      "ƴaƴan itace"
+      "gajeren wando",
+      "rigar wanka",
+      "wando",
+      "ƴan ciki"
     ],
     "tts": []
   },
@@ -47,33 +41,11 @@
     ],
     "tts": []
   },
-  "🪆": {
+  "♊": {
     "default": [
-      "rasha",
-      "sheƙa",
-      "ƴartsana",
-      "ƴartsana mai sheƙa"
-    ],
-    "tts": [
-      "ƴartsana mai sheƙa"
-    ]
-  },
-  "🩳": {
-    "default": [
-      "gajeren wando",
-      "rigar wanka",
-      "wando",
-      "ƴan ciki"
-    ],
-    "tts": []
-  },
-  "🩲": {
-    "default": [
-      "ɗan diras",
-      "rigar ninƙaya",
-      "rigar wanka",
-      "yanki ɗaya",
-      "ƴan ciki"
+      "falaki",
+      "Tagwaye",
+      "ƴan biyu"
     ],
     "tts": []
   },
@@ -84,6 +56,34 @@
       "ƙari",
       "tunkun wasa",
       "ƴartsana"
+    ],
+    "tts": []
+  },
+  "🍋‍🟩": {
+    "default": [
+      "kayan lemu",
+      "lemun tsami",
+      "wurare masu zafi",
+      "ƴaƴan itace"
+    ],
+    "tts": []
+  },
+  "🪀": {
+    "default": [
+      "canzawa",
+      "ƴartsana",
+      "zaren yo-yo"
+    ],
+    "tts": []
+  },
+  "🧃": {
+    "default": [
+      "bambaro",
+      "kwali",
+      "lemo",
+      "lemon kwali",
+      "mai daɗi",
+      "ruwan ƴaƴan itace"
     ],
     "tts": []
   }

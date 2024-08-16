@@ -1,6 +1,6 @@
 use std::collections::HashMap;
-use std::path::{Path, PathBuf};
-use std::{env, fs};
+use std::path::PathBuf;
+use std::{env, fs, io};
 
 use crate::window::Window;
 
@@ -12,6 +12,7 @@ use localize::LANGUAGE_LOADER;
 use window::Flags;
 
 mod localize;
+mod style_copy;
 mod widget_copy;
 mod window;
 
@@ -34,24 +35,58 @@ fn main() -> cosmic::iced::Result {
     });
     if let Some(dir) = xdg_data_dir {
         for lang_code in current_languages.into_iter().rev() {
-            let annotation_file: PathBuf =
-                [dir, window::ID, "i18n-json", &lang_code, "annotations.json"]
+            let file_path = if cfg!(feature = "compress") {
+                "annotations.json.xz"
+            } else {
+                "annotations.json"
+            };
+            #[cfg(feature = "compress")]
+            let mut is_compressed = true;
+            let annotation_file_path: PathBuf =
+                [dir, window::ID, "i18n-json", &lang_code, file_path]
                     .iter()
                     .collect();
-            let file_contents = match fs::read(&annotation_file) {
-                Ok(ok) => ok,
-                Err(e) => {
-                    eprintln!("could not read annotations.json file: {annotation_file:?} - {lang_code} - {e}");
-                    continue;
+            let mut annotation_file_reader: Box<dyn io::Read> = match fs::File::open(
+                &annotation_file_path,
+            ) {
+                Ok(reader) => Box::new(reader),
+                Err(out_err) => {
+                    #[cfg(feature = "compress")]
+                    {
+                        let annotation_file_path: PathBuf =
+                            [dir, window::ID, "i18n-json", &lang_code, "annotations.json"]
+                                .iter()
+                                .collect();
+                        match fs::File::open(&annotation_file_path) {
+                            Ok(reader) => {
+                                is_compressed = false;
+                                Box::new(reader)
+                            }
+                            Err(inner_err) => {
+                                eprintln!("could not read annotations.json and annotations.json.xz files with compress feature enabled: {annotation_file_path:?} - {lang_code} - {out_err} {inner_err}");
+                                continue;
+                            }
+                        }
+                    }
+                    #[cfg(not(feature = "compress"))]
+                    {
+                        eprintln!("could not read annotations.json file: {annotation_file_path:?} - {lang_code} - {out_err}");
+                        continue;
+                    }
                 }
             };
-
-            let annotations_locale: HashMap<String, Annotation> = match serde_json::from_slice(
-                &file_contents,
+            annotation_file_reader = Box::new(io::BufReader::new(annotation_file_reader));
+            #[cfg(feature = "compress")]
+            if is_compressed {
+                annotation_file_reader =
+                    Box::new(liblzma::read::XzDecoder::new(annotation_file_reader));
+            }
+            let annotations_locale: HashMap<String, Annotation> = match serde_json::from_reader(
+                annotation_file_reader,
             ) {
                 Ok(ok) => ok,
                 Err(e) => {
-                    eprintln!("could not parse annotations.json file: {annotation_file:?} {lang_code} - {e}");
+                    eprintln!("could not parse annotations.json file: {annotation_file_path:?} - {lang_code} - {e}");
                     continue;
                 }
             };

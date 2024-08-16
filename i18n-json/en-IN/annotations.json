@@ -1,13 +1,203 @@
 {
-  "🕡": {
+  "👫🏻": {
     "default": [
-      "6",
-      "6:30",
-      "clock",
-      "half past six",
-      "six",
-      "six-thirty",
-      "thirty"
+      "couple",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: light skin tone, medium skin tone"
+    ],
+    "tts": []
+  },
+  "🪴": {
+    "default": [
+      "boring",
+      "grow",
+      "house",
+      "nurturing",
+      "plant",
+      "potted plant",
+      "useless"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: dark skin tone, medium skin tone"
+    ],
+    "tts": []
+  },
+  "👫": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "woman",
+      "woman and man holding hands"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: dark skin tone, light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium-dark skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-dark skin tone, dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "medium-dark skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-dark skin tone, light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-light skin tone, medium skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium skin tone, medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👫🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium-dark skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: light skin tone, medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-light skin tone, dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-dark skin tone, medium-light skin tone"
     ],
     "tts": []
   },
@@ -22,15 +212,62 @@
       "bell pepper"
     ]
   },
-  "👫": {
+  "👫🏼": {
     "default": [
       "couple",
       "hand",
       "hold",
       "man",
       "man and woman holding hands",
+      "medium-light skin tone",
       "woman",
-      "woman and man holding hands"
+      "woman and man holding hands",
+      "woman and man holding hands: medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium-dark skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: dark skin tone, medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium skin tone, medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium skin tone, light skin tone"
     ],
     "tts": []
   },
@@ -46,15 +283,148 @@
     ],
     "tts": []
   },
-  "🪴": {
+  "🕡": {
     "default": [
-      "boring",
-      "grow",
-      "house",
-      "nurturing",
-      "plant",
-      "potted plant",
-      "useless"
+      "6",
+      "6:30",
+      "clock",
+      "half past six",
+      "six",
+      "six-thirty",
+      "thirty"
+    ],
+    "tts": []
+  },
+  "👩🏾‍🤝‍👨🏽": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "medium-dark skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-dark skin tone, medium skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏽‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium skin tone, dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🤝‍👨🏻": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-light skin tone, light skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏼‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium-dark skin tone",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium-light skin tone, medium-dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🤝‍👨🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: light skin tone, dark skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏿‍🤝‍👨🏼": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium-light skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: dark skin tone, medium-light skin tone"
+    ],
+    "tts": []
+  },
+  "👫🏿": {
+    "default": [
+      "couple",
+      "dark skin tone",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: dark skin tone"
+    ],
+    "tts": []
+  },
+  "👫🏽": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "man",
+      "man and woman holding hands",
+      "medium skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: medium skin tone"
+    ],
+    "tts": []
+  },
+  "👩🏻‍🤝‍👨🏾": {
+    "default": [
+      "couple",
+      "hand",
+      "hold",
+      "light skin tone",
+      "man",
+      "man and woman holding hands",
+      "medium-dark skin tone",
+      "woman",
+      "woman and man holding hands",
+      "woman and man holding hands: light skin tone, medium-dark skin tone"
     ],
     "tts": []
   }
