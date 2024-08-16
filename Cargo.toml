@@ -7,7 +7,7 @@ edition = "2021"
 compress = ["dep:liblzma"]
 wayland = []
 a11y = []
-default = ["wayland", "compress"]
+default = ["wayland"]
 
 [dependencies]
 
