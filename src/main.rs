@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-use std::path::{Path, PathBuf};
+use std::path::PathBuf;
 use std::{env, fs};
 
 use crate::window::Window;
@@ -8,7 +8,6 @@ use config::{Annotation, Config, CONFIG_VERSION};
 use cosmic::cosmic_config;
 use cosmic::cosmic_config::CosmicConfigEntry;
 mod config;
-use localize::LANGUAGE_LOADER;
 use window::Flags;
 
 mod localize;
@@ -18,11 +17,6 @@ mod window;
 fn main() -> cosmic::iced::Result {
     localize::localize();
 
-    let current_languages: Vec<_> = LANGUAGE_LOADER
-        .current_languages()
-        .into_iter()
-        .map(|l| l.to_string())
-        .collect();
     let mut annotations = HashMap::new();
     let xdg_data_dir = env::var("XDG_DATA_DIRS").unwrap_or_else(|e| {
         eprintln!("failed to read `XDG_DATA_DIRS`: {e}");
@@ -32,8 +26,45 @@ fn main() -> cosmic::iced::Result {
         let id_path: PathBuf = [path, window::ID, "i18n-json"].iter().collect();
         id_path.exists() && id_path.is_dir()
     });
+    let mut requested_languages: Vec<_> =
+        i18n_embed::DesktopLanguageRequester::requested_languages();
+    let requested_languages = fluent_langneg::convert_vec_str_to_langids_lossy(
+        requested_languages.drain(..).map(|lang| lang.to_string()),
+    );
+
+    let default_language: fluent_langneg::LanguageIdentifier = "en".parse().unwrap();
     if let Some(dir) = xdg_data_dir {
-        for lang_code in current_languages.into_iter().rev() {
+        let i18n_json_dir: PathBuf = [dir, window::ID, "i18n-json"].iter().collect();
+        let locales_in_dir = match fs::read_dir(i18n_json_dir) {
+            Ok(dir_iter) => dir_iter
+                .filter_map(|file_res| match file_res {
+                    Ok(file) => Some(
+                        file.file_name()
+                            .to_str()
+                            .expect("filename is invalid utf8")
+                            .to_string(),
+                    ),
+                    Err(err) => {
+                        eprintln!("could not read file: {err}");
+                        None
+                    }
+                })
+                .collect(),
+            Err(err) => {
+                eprintln!("could not read directory: {dir}: err: {err}",);
+                Vec::new()
+            }
+        };
+
+        let available_languages = fluent_langneg::convert_vec_str_to_langids_lossy(locales_in_dir);
+        let supported_languages = fluent_langneg::negotiate_languages(
+            &requested_languages,
+            &available_languages,
+            Some(&default_language),
+            fluent_langneg::NegotiationStrategy::Filtering,
+        );
+        for lang_code in supported_languages.into_iter().rev() {
+            let lang_code = lang_code.to_string();
             let annotation_file: PathBuf =
                 [dir, window::ID, "i18n-json", &lang_code, "annotations.json"]
                     .iter()
