@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MPL-2.0
+// 2024 - Dominic Gerhauser and contributors
+
 use std::borrow::Cow;
 use std::collections::HashMap;
 use std::iter;

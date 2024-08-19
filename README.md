@@ -16,3 +16,6 @@ In addition, the default schema can be installed with `just install-schema`
 `Noto Color Emoji` is the default emoji font and is required by default. 
 The default can be changed in `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/font_family`.
 A font which supports Unicode 15.1 is generally recommended.
+
+# License
+Files without an SPDX identifier are licensed under the MIT LICENSE
