@@ -1,4 +1,5 @@
-![screenshot-2024-03-31-08-18-52](https://github.com/leb-kuchen/cosmic-applet-emoji-selector/assets/102472435/496eae10-a889-46c4-b802-08c0aa4df078)
+![emoji selector UI](https://github.com/leb-kuchen/cosmic-applet-emoji-selector/assets/102472435/496eae10-a889-46c4-b802-08c0aa4df078)
+Panel applet for copying emoji to the clipboard
 
 # Install 
 ```sh
@@ -7,6 +8,13 @@ cd cosmic-ext-applet-emoji-selector
 cargo b -r
 sudo just install
 ```
+after which you will be able to place this applet into your dock through COSMIC settings:
+
+![COSMIC panel settings](https://github.com/user-attachments/assets/cc2323ec-6c5b-4172-96b8-9f00e35aee49)
+
+# Usage
+Click the smiley icon in the panel to bring up the selector. Browse or select your desired emoji,
+then click it to copy the emoji to the clipboard.
 
 # Config
 The configuration directory is `~/.config/cosmic/dev.dominiccgeh.CosmicAppletEmojiSelector/v1/`.
